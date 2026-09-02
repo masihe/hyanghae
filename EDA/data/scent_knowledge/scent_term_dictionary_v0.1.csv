@@ -1,0 +1,9 @@
+﻿term,term_type,canonical_term,relation_type,parent_term,iframapped_term,decision,confidence,evidence_count,notes,version
+Woody Notes,NOTE,Woody,SAME_CONCEPT,,Woody,CONFIRMED_CANONICALIZATION,HIGH,2,Category-label wording only; no ingredient identity implied.,v0.1
+Green Notes,NOTE,Green,SAME_CONCEPT,,Green,CONFIRMED_CANONICALIZATION,HIGH,2,Category-label wording only; no ingredient identity implied.,v0.1
+Floral Notes,NOTE,Floral,SAME_CONCEPT,,Floral,CONFIRMED_CANONICALIZATION,HIGH,2,Category-label wording only; no ingredient identity implied.,v0.1
+Citruses,NOTE,Citrus,SAME_CONCEPT,,Citrus,CONFIRMED_CANONICALIZATION,HIGH,2,Plural category label canonicalized to IFRA Citrus.,v0.1
+Black Currant,NOTE,Blackcurrant,SAME_CONCEPT,,Blackcurrant,CONFIRMED_CANONICALIZATION,HIGH,3,Blackcurrant/Cassis evidence does not identify the Note with one natural material.,v0.1
+White Musk,NOTE,White Musk,FAMILY,Musk-Like,Musk-Like,KEEP_SEPARATE_FAMILY_LINK,MEDIUM,2,Specific soft/powdery musk profile; manual review retained.,v0.1
+Oud,NOTE,Agarwood,SAME_CONCEPT,,Agarwood principal-name family,CONFIRMED_CANONICALIZATION,HIGH,2,Canonical term only; not mapped to one oil/extract variant.,v0.1
+Cedar,NOTE,Cedar,FAMILY,Woody,Cedarwood,KEEP_SEPARATE_FAMILY_LINK,MEDIUM,4,Broad note linked to multiple cedarwood materials/species; manual review retained.,v0.1

@@ -1,0 +1,909 @@
+﻿primary_descriptor,secondary_descriptor,count
+Floral,Rose,145
+Floral,Green,144
+Fruity,Green,114
+Fruity,Sweet,91
+Floral,Fruity,83
+Floral,Sweet,82
+Green,Floral,76
+Fruity,Apple,74
+Floral,Jasmin,68
+Citrus,Fresh,63
+Herbal,Green,63
+Woody,Amber,63
+Fruity,Floral,61
+Fruity,Pineapple,55
+Citrus,Lemon,51
+Woody,Dry,51
+Floral,Fresh,50
+Green,Fruity,47
+Herbal,Fresh,45
+Woody,Cedarwood,45
+Floral,Muguet,44
+Floral,Neroli,44
+Floral,Citrus,43
+Fruity,Pear,43
+Herbal,Camphoraceous,43
+Citrus,Fruity,41
+Floral,Herbal,40
+Herbal,Pine,40
+Citrus,Orange,38
+Spicy,Warm,38
+Woody,Sandalwood,36
+Herbal,Aromatic,35
+Minty,Herbal,35
+Fruity,Fresh,34
+Spicy,Balsamic,34
+Woody,Earthy,34
+Floral,Violet,33
+Floral,Woody,33
+Herbal,Minty,33
+Musk Like,Powdery,33
+Gourmand,Sweet,32
+Herbal,Floral,32
+Woody,Balsamic,32
+Citrus,Green,31
+Amber,Woody,30
+Green,Herbal,30
+Spicy,Woody,30
+Citrus,Herbal,29
+Floral,Balsamic,29
+Fruity,Peach,29
+Spicy,Peppery,29
+Fruity,Tropical Fruit,28
+Herbal,Woody,28
+Gourmand,Caramel,27
+Green,Fresh,27
+Herbal,Fruity,27
+Spicy,Cinnamon,27
+Spicy,Sweet,27
+Woody,Floral,26
+Woody,Smoky,26
+Balsamic,Floral,25
+Herbal,Spicy,25
+Aromatic,Pine,24
+Citrus,Floral,24
+Citrus,Grapefruit,24
+Floral,Geranium,24
+Fruity,Berry,24
+Minty,Fresh,24
+Aldehydic,Green,23
+Floral,Powdery,23
+Floral,Spicy,23
+Woody,Vetiver,23
+Amber,Dry,22
+Floral,Lavender,22
+Gourmand,Nutty,22
+Herbal,Citrus,22
+Herbal,Lavender,22
+Woody,Patchouli,22
+Woody,Warm,22
+Floral,Honey,21
+Food Like,Nutty,21
+Fruity,Woody,21
+Woody,Fresh,21
+Aromatic,Woody,20
+Citrus,Lime,20
+Fruity,Oily,20
+Green,Aldehydic,20
+Green,Oily,20
+Musk Like,Floral,20
+Fruity,Banana,19
+Fruity,Citrus,19
+Green,Cucumber,19
+Woody,Peppery,19
+Floral,Ylang,18
+Fruity,Blackcurrant,18
+Green,Citrus,18
+Spicy,Floral,18
+Woody,Sweet,18
+Fruity,Raspberry,17
+Woody,Mossy,17
+Balsamic,Amber,16
+Balsamic,Sweet,16
+Balsamic,Vanilla,16
+Food Like,Roasted,16
+Fruity,Fermented,16
+Fruity,Plum,16
+Green,Apple,16
+Green,Leafy,16
+Minty,Green,16
+Sulfurous,Onion,16
+Woody,Spicy,16
+Aldehydic,Floral,15
+Floral,Warm,15
+Gourmand,Creamy,15
+Spicy,Aromatic,15
+Woody,Powdery,15
+Balsamic,Fruity,14
+Floral,Hyacinth,14
+Fruity,Rose,14
+Green,Grassy,14
+Musk Like,Fruity,14
+Spicy,Herbal,14
+Amber,Sweet,13
+Floral,Aldehydic,13
+Fruity,Coconut,13
+Green,Vegetable,13
+Spicy,Fresh,13
+Woody,Pine,13
+Animal Like,Leathery,12
+Citrus,Mandarin,12
+Citrus,Sweet,12
+Gourmand,Vanilla,12
+Minty,Cooling,12
+Spicy,Clove,12
+Spicy,Dry,12
+Woody,Creamy,12
+Woody,Fruity,12
+Aldehydic,Citrus,11
+Floral,Oily,11
+Fruity,Honey,11
+Fruity,Strawberry,11
+Green,Pear,11
+Green,Violet,11
+Musk Like,Warm,11
+Spicy,Green,11
+Balsamic,Spicy,10
+Food Like,Coffee,10
+Fruity,Balsamic,10
+Fruity,Jasmin,10
+Gourmand,Chocolate,10
+Green,Galbanum,10
+Green,Rose,10
+Herbal,Sage,10
+Herbal,Sweet,10
+Powdery,Floral,10
+Spicy,Citrus,10
+Spicy,Ginger,10
+Sulfurous,Garlic,10
+Woody,Resinous,10
+Woody,Violet,10
+Acidic,Cheesy,9
+Aldehydic,Waxy,9
+Anisic,Herbal,9
+Anisic,Spicy,9
+Anisic,Sweet,9
+Citrus,Aldehydic,9
+Citrus,Sharp,9
+Citrus,Spicy,9
+Floral,Soft,9
+Fruity,Apricot,9
+Fruity,Melon,9
+Fruity,Rum,9
+Green,Earthy,9
+Minty,Camphoraceous,9
+Woody,Camphoraceous,9
+Woody,Green,9
+Animal Like,Phenolic,8
+Camphoraceous,Herbal,8
+Floral,Plum,8
+Floral,Waxy,8
+Fruity,Grapefruit,8
+Fruity,Minty,8
+Fruity,Waxy,8
+Gourmand,Coconut,8
+Gourmand,Fruity,8
+Green,Melon,8
+Minty,Spearmint,8
+Minty,Sweet,8
+Musk Like,Animal Like,8
+Woody,Herbal,8
+Woody,Vanilla,8
+Aldehydic,Orange,7
+Amber,Balsamic,7
+Aromatic,Citrus,7
+Earthy,Mushroom,7
+Floral,Hay,7
+Fruity,Creamy,7
+Fruity,Grape,7
+Fruity,Herbal,7
+Fruity,Rhubarb,7
+Gourmand,Buttery,7
+Gourmand,Coffee,7
+Gourmand,Milky,7
+Green,Woody,7
+Herbal,Anisic,7
+Marine,Fresh,7
+Musk Like,Sweet,7
+Musk Like,Woody,7
+Powdery,Violet,7
+Smoky,Phenolic,7
+Spicy,Fruity,7
+Spicy,Metallic,7
+Woody,Nutty,7
+Aldehydic,Fresh,6
+Aldehydic,Mandarin,6
+Animal Like,Indolic,6
+Aromatic,Herbal,6
+Earthy,Sweet,6
+Floral,Animal Like,6
+Floral,Anisic,6
+Floral,Cyclamen,6
+Floral,Minty,6
+Floral,Ozonic,6
+Fruity,Caramel,6
+Fruity,Spicy,6
+Green,Hyacinth,6
+Green,Sweet,6
+Herbal,Balsamic,6
+Herbal,Thyme,6
+Herbal,Tobacco,6
+Herbal,Warm,6
+Powdery,Fruity,6
+Powdery,Sweet,6
+Smoky,Leathery,6
+Tobacco Like,Warm,6
+Woody,Animal Like,6
+Woody,Oily,6
+Aldehydic,Oily,5
+Amber,Mushroom,5
+Amber,Vanilla,5
+Amber,Warm,5
+Aromatic,Camphoraceous,5
+Aromatic,Fresh,5
+Balsamic,Woody,5
+Citrus,Bergamot,5
+Citrus,Rhubarb,5
+Citrus,Tangerine,5
+Citrus,Verbena,5
+Floral,Dried Fruit,5
+Floral,Lily,5
+Floral,Magnolia,5
+Floral,Tea,5
+Fruity,Cherry,5
+Fruity,Juicy,5
+Fruity,Mango,5
+Fruity,Sulfurous,5
+Gourmand,Powdery,5
+Gourmand,Roasted,5
+Green,Spicy,5
+Herbal,Celery,5
+Herbal,Earthy,5
+Herbal,Medicinal,5
+Musk Like,Balsamic,5
+Powdery,Dry,5
+Powdery,Hay,5
+Powdery,Tobacco,5
+Sulfurous,Vegetable,5
+Tobacco Like,Spicy,5
+Woody,Grapefruit,5
+Woody,Leathery,5
+Woody,Milky,5
+Woody,Soft,5
+Acidic,Fruity,4
+Acidic,Pungent,4
+Aldehydic,Fruity,4
+Aldehydic,Herbal,4
+Aldehydic,Muguet,4
+Amber,Creamy,4
+Animal Like,Amber,4
+Animal Like,Floral,4
+Balsamic,Milky,4
+Balsamic,Warm,4
+Camphoraceous,Green,4
+Citrus,Peppery,4
+Citrus,Zesty,4
+Floral,Aromatic,4
+Floral,Chamomile,4
+Floral,Earthy,4
+Floral,Grape,4
+Floral,Marine,4
+Floral,Narcissus,4
+Food Like,Green,4
+Food Like,Sesame,4
+Food Like,Toasted,4
+Fruity,Almond,4
+Fruity,Anisic,4
+Fruity,Earthy,4
+Fruity,Ethereal,4
+Fruity,Light,4
+Gourmand,Cocoa,4
+Green,Fatty,4
+Green,Orange,4
+Herbal,Chamomile,4
+Herbal,Cooling,4
+Herbal,Hay,4
+Herbal,Smoky,4
+Minty,Peppermint,4
+Musk Like,Soft,4
+Powdery,Coumarin,4
+Spicy,Camphoraceous,4
+Spicy,Saffron,4
+Spicy,Smoky,4
+Spicy,Tobacco,4
+Sulfurous,Nutty,4
+Tobacco Like,Floral,4
+Tobacco Like,Hay,4
+Tobacco Like,Smoky,4
+Acidic,Dry,3
+Acidic,Sharp,3
+Aldehydic,Clean,3
+Aldehydic,Coriander,3
+Aldehydic,Marine,3
+Animal Like,Jasmin,3
+Animal Like,Tobacco,3
+Animal Like,Warm,3
+Anisic,Floral,3
+Anisic,Licorice,3
+Aromatic,Fruity,3
+Aromatic,Minty,3
+Balsamic,Cinnamon,3
+Balsamic,Green,3
+Balsamic,Honey,3
+Camphoraceous,Fresh,3
+Camphoraceous,Spicy,3
+Citrus,Dry,3
+Citrus,Lavender,3
+Citrus,Rose,3
+Citrus,Waxy,3
+Citrus,Woody,3
+Earthy,Musty,3
+Earthy,Nutty,3
+Earthy,Woody,3
+Floral,Almond,3
+Floral,Dry,3
+Floral,Gardenia,3
+Floral,Hawthorn,3
+Floral,Medicinal,3
+Floral,Milky,3
+Floral,Orris,3
+Floral,Peach,3
+Floral,Pear,3
+Floral,Tuberose,3
+Food Like,Buttery,3
+Food Like,Cheesy,3
+Food Like,Earthy,3
+Food Like,Savoury,3
+Food Like,Vegetable,3
+Food Like,Waxy,3
+Fruity,Buttery,3
+Fruity,Cassis,3
+Fruity,Chocolate,3
+Fruity,Nutty,3
+Fruity,Orange,3
+Fruity,Passionfruit,3
+Fruity,Powdery,3
+Fruity,Tobacco,3
+Gourmand,Almond,3
+Gourmand,Honey,3
+Gourmand,Licorice,3
+Gourmand,Oily,3
+Gourmand,Spicy,3
+Gourmand,Waxy,3
+Green,Geranium,3
+Green,Honey,3
+Green,Minty,3
+Green,Muguet,3
+Green,Ozonic,3
+Green,Pineapple,3
+Green,Sulfurous,3
+Green,Watery,3
+Herbal,Eucalyptus,3
+Herbal,Ozonic,3
+Herbal,Parsley,3
+Herbal,Tea,3
+Herbal,Ylang,3
+Honey,Floral,3
+Honey,Hay,3
+Honey,Powdery,3
+Honey,Sweet,3
+Marine,Aldehydic,3
+Minty,Aromatic,3
+Musk Like,Amber,3
+Musk Like,Pear,3
+Ozonic,Fresh,3
+Smoky,Roasted,3
+Spicy,Anisic,3
+Spicy,Medicinal,3
+Spicy,Nutmeg,3
+Spicy,Pungent,3
+Sulfurous,Coffee,3
+Sulfurous,Green,3
+Tobacco Like,Coconut,3
+Woody,Burnt,3
+Woody,Orris,3
+Woody,Rose,3
+Woody,Terpenic,3
+Woody,Tobacco,3
+Acidic,Animal Like,2
+Acidic,Buttery,2
+Acidic,Fatty,2
+Acidic,Gourmand,2
+Acidic,Neutral,2
+Acidic,Waxy,2
+Aldehydic,Fatty,2
+Aldehydic,Rose,2
+Amber,Animal Like,2
+Animal Like,Balsamic,2
+Animal Like,Dry,2
+Animal Like,Medicinal,2
+Animal Like,Woody,2
+Anisic,Green,2
+Anisic,Liquorice,2
+Anisic,Powdery,2
+Aromatic,Dry,2
+Aromatic,Floral,2
+Aromatic,Grapefruit,2
+Aromatic,Peppery,2
+Aromatic,Phenolic,2
+Aromatic,Terpenic,2
+Balsamic,Anisic,2
+Balsamic,Fresh,2
+Balsamic,Leathery,2
+Balsamic,Oily,2
+Camphoraceous,Artemisia,2
+Citrus,Clean,2
+Citrus,Lemongrass,2
+Citrus,Minty,2
+Citrus,Neroli,2
+Citrus,Ozonic,2
+Citrus,Pine,2
+Earthy,Camphoraceous,2
+Earthy,Herbal,2
+Earthy,Patchouli,2
+Earthy,Vetiver,2
+Floral,Apple,2
+Floral,Bergamot,2
+Floral,Carnation,2
+Floral,Cherry Blossom,2
+Floral,Coriander,2
+Floral,Creamy,2
+Floral,Cumin,2
+Floral,Fatty,2
+Floral,Honeysuckle,2
+Floral,Leathery,2
+Floral,Mimosa,2
+Floral,Musk Like,2
+Floral,Peony,2
+Floral,Phenolic,2
+Floral,Pine,2
+Floral,Tropical Fruit,2
+Floral,Watery,2
+Food Like,Corn,2
+Food Like,Peanut,2
+Food Like,Phenolic,2
+Food Like,Popcorn,2
+Food Like,Smoky,2
+Fruity,Aldehydic,2
+Fruity,Aromatic,2
+Fruity,Bergamot,2
+Fruity,Blueberry,2
+Fruity,Brandy,2
+Fruity,Cocoa,2
+Fruity,Dry,2
+Fruity,Hay,2
+Fruity,Milky,2
+Fruity,Soft,2
+Fruity,Tea,2
+Fruity,Violet,2
+Gourmand,Anisic,2
+Gourmand,Butterscotch,2
+Gourmand,Cherry,2
+Gourmand,Ethereal,2
+Gourmand,Fatty,2
+Gourmand,Herbal,2
+Gourmand,Popcorn,2
+Gourmand,Strawberry,2
+Green,Almond,2
+Green,Banana,2
+Green,Dry,2
+Green,Grape,2
+Green,Hay,2
+Green,Mushroom,2
+Green,Nasturtium,2
+Green,Onion,2
+Green,Pea,2
+Green,Phenolic,2
+Green,Pine,2
+Green,Plastic,2
+Green,Pungent,2
+Green,Rhubarb,2
+Green,Sharp,2
+Green,Tropical Fruit,2
+Green,Waxy,2
+Herbal,Artemisia,2
+Herbal,Basil,2
+Herbal,Galbanum,2
+Herbal,Leathery,2
+Herbal,Lemongrass,2
+Herbal,Lime,2
+Herbal,Peach,2
+Herbal,Powdery,2
+Herbal,Pungent,2
+Herbal,Rosemary,2
+Herbal,Sharp,2
+Herbal,Terpenic,2
+Herbal,Vegetable,2
+Herbal,Violet,2
+Marine,Floral,2
+Marine,Green,2
+Marine,Ozonic,2
+Minty,Dry,2
+Minty,Earthy,2
+Minty,Floral,2
+Minty,Fruity,2
+Minty,Menthol,2
+Musk Like,Berry,2
+Musk Like,Earthy,2
+Ozonic,Aldehydic,2
+Ozonic,Citrus,2
+Ozonic,Clean,2
+Ozonic,Herbal,2
+Ozonic,Marine,2
+Powdery,Almond,2
+Powdery,Anisic,2
+Powdery,Creamy,2
+Powdery,Warm,2
+Smoky,Earthy,2
+Smoky,Woody,2
+Spicy,Almond,2
+Spicy,Leathery,2
+Spicy,Powdery,2
+Spicy,Vanilla,2
+Sulfurous,Acidic,2
+Sulfurous,Food Like,2
+Sulfurous,Grapefruit,2
+Sulfurous,Roasted,2
+Sulfurous,Savoury,2
+Woody,Apple,2
+Woody,Carrot,2
+Woody,Incense,2
+Woody,Minty,2
+Woody,Musk Like,2
+Woody,Rooty,2
+Acidic,Aldehydic,1
+Acidic,Burnt,1
+Acidic,Creamy,1
+Acidic,Ethereal,1
+Acidic,Food Like,1
+Acidic,Green,1
+Acidic,Oily,1
+Acidic,Sour,1
+Acidic,Woody,1
+Aldehydic,Balsamic,1
+Aldehydic,Chocolate,1
+Aldehydic,Coconut,1
+Aldehydic,Cucumber,1
+Aldehydic,Earthy,1
+Aldehydic,Hyacinth,1
+Aldehydic,Lemon,1
+Aldehydic,Mossy,1
+Aldehydic,Nutty,1
+Aldehydic,Ozonic,1
+Aldehydic,Peach,1
+Aldehydic,Sweet,1
+Aldehydic,Woody,1
+Amber,Aromatic,1
+Amber,Cedarwood,1
+Amber,Herbal,1
+Amber,Honey,1
+Amber,Mossy,1
+Amber,Musk Like,1
+Amber,Sage,1
+Amber,Smoky,1
+Amber,Spicy,1
+Animal Like,Creamy,1
+Animal Like,Green,1
+Animal Like,Musk Like,1
+Animal Like,Musty,1
+Animal Like,Pungent,1
+Animal Like,Rose,1
+Animal Like,Terpenic,1
+Anisic,Almond,1
+Anisic,Balsamic,1
+Anisic,Cherry,1
+Anisic,Fruity,1
+Anisic,Smoky,1
+Aromatic,Earthy,1
+Aromatic,Eucalyptus,1
+Aromatic,Green,1
+Aromatic,Medicinal,1
+Aromatic,Rosemary,1
+Aromatic,Spearmint,1
+Aromatic,Sweet,1
+Aromatic,Thyme,1
+Aromatic,Waxy,1
+Balsamic,Animal Like,1
+Balsamic,Earthy,1
+Balsamic,Hawthorn,1
+Balsamic,Hay,1
+Balsamic,Herbal,1
+Balsamic,Jasmin,1
+Balsamic,Light,1
+Balsamic,Peppery,1
+Balsamic,Phenolic,1
+Balsamic,Pine,1
+Balsamic,Powdery,1
+Balsamic,Rubbery,1
+Balsamic,Sage,1
+Balsamic,Waxy,1
+Balsamic,Ylang,1
+Camphoraceous,Aldehydic,1
+Camphoraceous,Earthy,1
+Camphoraceous,Minty,1
+Camphoraceous,Pine,1
+Camphoraceous,Rosemary,1
+Camphoraceous,Sweet,1
+Camphoraceous,Warm,1
+Camphoraceous,Woody,1
+Citrus,Balsamic,1
+Citrus,Bitter,1
+Citrus,Camphoraceous,1
+Citrus,Cinnamon,1
+Citrus,Citronella,1
+Citrus,Citrus,1
+Citrus,Eucalyptus,1
+Citrus,Geranium,1
+Citrus,Honey,1
+Citrus,Labdanum,1
+Citrus,Lily,1
+Citrus,Marine,1
+Citrus,Oily,1
+Citrus,Petitgrain,1
+Citrus,Sulfurous,1
+Citrus,Tropical Fruit,1
+Citrus,Vetiver,1
+Earthy,Balsamic,1
+Earthy,Floral,1
+Earthy,Fruity,1
+Earthy,Fungal,1
+Earthy,Lavender,1
+Earthy,Mossy,1
+Earthy,Orris,1
+Earthy,Phenolic,1
+Earthy,Popcorn,1
+Earthy,Rooty,1
+Floral,Apricot,1
+Floral,Banana,1
+Floral,Berry,1
+Floral,Buttery,1
+Floral,Cassis,1
+Floral,Cedarwood,1
+Floral,Celery,1
+Floral,Cherry,1
+Floral,Clean,1
+Floral,Coumarin,1
+Floral,Cucumber,1
+Floral,Fermented,1
+Floral,Frangipani,1
+Floral,Gourmand,1
+Floral,Heliotrope,1
+Floral,Indolic,1
+Floral,Iris,1
+Floral,Lactonic,1
+Floral,Lemon,1
+Floral,Light,1
+Floral,Linden,1
+Floral,Marigold,1
+Floral,Meadow,1
+Floral,Melon,1
+Floral,Musty,1
+Floral,Myrrh,1
+Floral,Neutral,1
+Floral,Oriental,1
+Floral,Osmanthus,1
+Floral,Peppery,1
+Floral,Petitgrain,1
+Floral,Sulfurous,1
+Floral,Sweet Pea,1
+Floral,Terpenic,1
+Food Like,Almond,1
+Food Like,Bread,1
+Food Like,Cabbage,1
+Food Like,Cocoa,1
+Food Like,Creamy,1
+Food Like,Fatty,1
+Food Like,Fermented,1
+Food Like,Fruity,1
+Food Like,Fungal,1
+Food Like,Garlic,1
+Food Like,Leathery,1
+Food Like,Milky,1
+Food Like,Oily,1
+Food Like,Potato,1
+Food Like,Rice,1
+Food Like,Sulfurous,1
+Food Like,Sweet,1
+Food Like,Woody,1
+Food Like,Yeast,1
+Fruity,Amber,1
+Fruity,Burnt,1
+Fruity,Fatty,1
+Fruity,Fenugreek,1
+Fruity,Food Like,1
+Fruity,Fungal,1
+Fruity,Geranium,1
+Fruity,Honeydew,1
+Fruity,Hyacinth,1
+Fruity,Kiwi,1
+Fruity,Leafy,1
+Fruity,Leathery,1
+Fruity,Lemon,1
+Fruity,Licorice,1
+Fruity,Musty,1
+Fruity,Myrrh,1
+Fruity,Neroli,1
+Fruity,Pungent,1
+Fruity,Sharp,1
+Fruity,Soapy,1
+Fruity,Tagetes,1
+Fruity,Valerian,1
+Fruity,Vanilla,1
+Fruity,Vegetable,1
+Fruity,Warm,1
+Fruity,Watermelon,1
+Fruity,Watery,1
+Fruity,Wine,1
+Fruity,Wine Lees*,1
+Gourmand,Acidic,1
+Gourmand,Berry,1
+Gourmand,Burnt,1
+Gourmand,Fermented,1
+Gourmand,Grape,1
+Gourmand,Green,1
+Gourmand,Hay,1
+Gourmand,Lactonic,1
+Gourmand,Malty,1
+Gourmand,Maple,1
+Gourmand,Medicinal,1
+Gourmand,Musty,1
+Gourmand,Phenolic,1
+Gourmand,Pineapple,1
+Gourmand,Rose,1
+Gourmand,Rum,1
+Gourmand,Smoky,1
+Gourmand,Sulfurous,1
+Gourmand,Toasted,1
+Gourmand,Tobacco,1
+Gourmand,Toffee,1
+Gourmand,Tonka,1
+Gourmand,Tropical Fruit,1
+Green,Anisic,1
+Green,Aromatic,1
+Green,Balsamic,1
+Green,Bell Pepper,1
+Green,Cabbage,1
+Green,Camphoraceous,1
+Green,Carrot,1
+Green,Coriander,1
+Green,Creamy,1
+Green,Dairy,1
+Green,Foliage,1
+Green,Food Like,1
+Green,Grapefruit,1
+Green,Lavender,1
+Green,Leathery,1
+Green,Medicinal,1
+Green,Metallic,1
+Green,Mossy,1
+Green,Neroli,1
+Green,Nutty,1
+Green,Orris,1
+Green,Peanut,1
+Green,Potato,1
+Green,Privet,1
+Green,Radish,1
+Green,Saffron,1
+Green,Seaweed,1
+Green,Strawberry,1
+Green,Tea,1
+Green,Tobacco,1
+Green,Verbena,1
+Herbal,Aldehydic,1
+Herbal,Animal Like,1
+Herbal,Apple,1
+Herbal,Bell Pepper,1
+Herbal,Bergamot,1
+Herbal,Berry,1
+Herbal,Blackcurrant,1
+Herbal,Cedarwood,1
+Herbal,Cumin,1
+Herbal,Geranium,1
+Herbal,Juniper,1
+Herbal,Leafy,1
+Herbal,Licorice,1
+Herbal,Liquorice,1
+Herbal,Marine,1
+Herbal,Metallic,1
+Herbal,Mushroom,1
+Herbal,Musty,1
+Herbal,Oak,1
+Herbal,Oily,1
+Herbal,Pear,1
+Herbal,Pineapple,1
+Herbal,Powerful,1
+Herbal,Rose,1
+Herbal,Saffron,1
+Herbal,Tarragon,1
+Herbal,Watery,1
+Herbal,Waxy,1
+Marine,Citrus,1
+Marine,Clean,1
+Marine,Cooling,1
+Marine,Fruity,1
+Marine,Herbal,1
+Marine,Mossy,1
+Marine,Seaweed,1
+Marine,Watery,1
+Minty,Aldehydic,1
+Minty,Balsamic,1
+Minty,Caraway,1
+Minty,Citrus,1
+Minty,Lavender,1
+Minty,Leafy,1
+Minty,Oily,1
+Minty,Powdery,1
+Minty,Warm,1
+Musk Like,Apple,1
+Musk Like,Clean,1
+Musk Like,Creamy,1
+Musk Like,Dry,1
+Musk Like,Fresh,1
+Ozonic,Floral,1
+Ozonic,Green,1
+Ozonic,Metallic,1
+Powdery,Balsamic,1
+Powdery,Gourmand,1
+Powdery,Mimosa,1
+Powdery,Musk Like,1
+Powdery,Raspberry,1
+Powdery,Soft,1
+Powdery,Vanilla,1
+Powdery,Woody,1
+Smoky,Animal Like,1
+Smoky,Balsamic,1
+Smoky,Burnt,1
+Smoky,Clove,1
+Smoky,Coffee,1
+Smoky,Medicinal,1
+Smoky,Neutral,1
+Smoky,Nutty,1
+Smoky,Spicy,1
+Smoky,Sweet,1
+Smoky,Warm,1
+Smoky,Ylang,1
+Spicy,Amber,1
+Spicy,Animal Like,1
+Spicy,Bayleaf,1
+Spicy,Caramel,1
+Spicy,Carnation,1
+Spicy,Carrot,1
+Spicy,Chilli Pepper,1
+Spicy,Coriander,1
+Spicy,Cumin,1
+Spicy,Earthy,1
+Spicy,Hay,1
+Spicy,Honey,1
+Spicy,Horseradish,1
+Spicy,Phenolic,1
+Spicy,Tea,1
+Spicy,Tonka,1
+Sulfurous,Blackcurrant,1
+Sulfurous,Cabbage,1
+Sulfurous,Dry,1
+Sulfurous,Sweet,1
+Sulfurous,Truffle,1
+Tobacco Like,Coumarin,1
+Tobacco Like,Herbal,1
+Tobacco Like,Lovage,1
+Tobacco Like,Plum,1
+Tobacco Like,Powdery,1
+Tobacco Like,Woody,1
+Woody,Almond,1
+Woody,Aromatic,1
+Woody,Celery,1
+Woody,Clean,1
+Woody,Clove,1
+Woody,Dusty,1
+Woody,Fungal,1
+Woody,Guaicwood,1
+Woody,Hay,1
+Woody,Liquorice,1
+Woody,Medicinal,1
+Woody,Musty,1
+Woody,Pungent,1
+Woody,Rhubarb,1
+Woody,Tea,1
+Woody,Tonka,1
+Woody,Vegetable,1

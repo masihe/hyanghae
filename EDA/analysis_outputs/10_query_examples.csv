@@ -1,0 +1,45 @@
+﻿template,query,source_features,golden_set
+{Accord} 향,woody 향,ACCORD:woody,False
+{Accord} 향,powdery 향,ACCORD:powdery,False
+{Accord} 향,sweet 향,ACCORD:sweet,False
+{Accord} 향,citrus 향,ACCORD:citrus,False
+{Accord} 향,aromatic 향,ACCORD:aromatic,False
+{Accord} 향,fresh spicy 향,ACCORD:fresh spicy,False
+{Accord} 향,floral 향,ACCORD:floral,False
+{Accord} 향,amber 향,ACCORD:amber,False
+{Accord} 향,warm spicy 향,ACCORD:warm spicy,False
+{Accord} 향,fruity 향,ACCORD:fruity,False
+{Note} 노트가 느껴지는 향,Musk 노트가 느껴지는 향,NOTE:Musk,False
+{Note} 노트가 느껴지는 향,Amber 노트가 느껴지는 향,NOTE:Amber,False
+{Note} 노트가 느껴지는 향,Bergamot 노트가 느껴지는 향,NOTE:Bergamot,False
+{Note} 노트가 느껴지는 향,Vanilla 노트가 느껴지는 향,NOTE:Vanilla,False
+{Note} 노트가 느껴지는 향,Sandalwood 노트가 느껴지는 향,NOTE:Sandalwood,False
+{Note} 노트가 느껴지는 향,Jasmine 노트가 느껴지는 향,NOTE:Jasmine,False
+{Note} 노트가 느껴지는 향,Patchouli 노트가 느껴지는 향,NOTE:Patchouli,False
+{Note} 노트가 느껴지는 향,Rose 노트가 느껴지는 향,NOTE:Rose,False
+{Note} 노트가 느껴지는 향,Cedar 노트가 느껴지는 향,NOTE:Cedar,False
+{Note} 노트가 느껴지는 향,Vetiver 노트가 느껴지는 향,NOTE:Vetiver,False
+{Accord1}와 {Accord2}가 함께 느껴지는 향,aromatic와 fresh spicy가 함께 느껴지는 향,ACCORD:aromatic|ACCORD:fresh spicy,False
+{Accord1}와 {Accord2}가 함께 느껴지는 향,fruity와 sweet가 함께 느껴지는 향,ACCORD:fruity|ACCORD:sweet,False
+{Accord1}와 {Accord2}가 함께 느껴지는 향,aromatic와 woody가 함께 느껴지는 향,ACCORD:aromatic|ACCORD:woody,False
+{Accord1}와 {Accord2}가 함께 느껴지는 향,marine와 salty가 함께 느껴지는 향,ACCORD:marine|ACCORD:salty,False
+{Accord1}와 {Accord2}가 함께 느껴지는 향,musky와 powdery가 함께 느껴지는 향,ACCORD:musky|ACCORD:powdery,False
+{Accord1}와 {Accord2}가 함께 느껴지는 향,citrus와 fresh spicy가 함께 느껴지는 향,ACCORD:citrus|ACCORD:fresh spicy,False
+{Accord1}와 {Accord2}가 함께 느껴지는 향,powdery와 woody가 함께 느껴지는 향,ACCORD:powdery|ACCORD:woody,False
+{Accord1}와 {Accord2}가 함께 느껴지는 향,aromatic와 citrus가 함께 느껴지는 향,ACCORD:aromatic|ACCORD:citrus,False
+{Season}에 어울리는 {Accord} 향,가을에 어울리는 woody 향,SEASON:autumn|ACCORD:woody,False
+{Season}에 어울리는 {Accord} 향,겨울에 어울리는 powdery 향,SEASON:winter|ACCORD:powdery,False
+{Season}에 어울리는 {Accord} 향,겨울에 어울리는 sweet 향,SEASON:winter|ACCORD:sweet,False
+{Season}에 어울리는 {Accord} 향,여름에 어울리는 citrus 향,SEASON:summer|ACCORD:citrus,False
+{Season}에 어울리는 {Accord} 향,여름에 어울리는 aromatic 향,SEASON:summer|ACCORD:aromatic,False
+{Season}에 어울리는 {Accord} 향,여름에 어울리는 fresh spicy 향,SEASON:summer|ACCORD:fresh spicy,False
+{Season}에 어울리는 {Accord} 향,여름에 어울리는 floral 향,SEASON:summer|ACCORD:floral,False
+{Season}에 어울리는 {Accord} 향,겨울에 어울리는 amber 향,SEASON:winter|ACCORD:amber,False
+{Season} {Daypart}에 어울리는 {Accord} 향,여름 낮에 어울리는 citrus 향,SEASON:summer|DAYPART:day|ACCORD:citrus,False
+{Season} {Daypart}에 어울리는 {Accord} 향,여름 낮에 어울리는 floral 향,SEASON:summer|DAYPART:day|ACCORD:floral,False
+{Season} {Daypart}에 어울리는 {Accord} 향,겨울 밤에 어울리는 warm spicy 향,SEASON:winter|DAYPART:night|ACCORD:warm spicy,False
+{Season} {Daypart}에 어울리는 {Accord} 향,여름 낮에 어울리는 fresh 향,SEASON:summer|DAYPART:day|ACCORD:fresh,False
+{Season} {Daypart}에 어울리는 {Accord} 향,여름 낮에 어울리는 green 향,SEASON:summer|DAYPART:day|ACCORD:green,False
+{Season} {Daypart}에 어울리는 {Accord} 향,겨울 밤에 어울리는 balsamic 향,SEASON:winter|DAYPART:night|ACCORD:balsamic,False
+{Season} {Daypart}에 어울리는 {Accord} 향,겨울 밤에 어울리는 patchouli 향,SEASON:winter|DAYPART:night|ACCORD:patchouli,False
+{Season} {Daypart}에 어울리는 {Accord} 향,겨울 밤에 어울리는 leather 향,SEASON:winter|DAYPART:night|ACCORD:leather,False

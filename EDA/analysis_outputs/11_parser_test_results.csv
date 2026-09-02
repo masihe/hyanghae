@@ -1,0 +1,127 @@
+﻿query_id,query_type,query,expected_accords,parsed_accords,expected_notes,parsed_notes,expected_seasons,parsed_seasons,expected_dayparts,parsed_dayparts,unresolved,accord_extraction_exact,note_extraction_exact,season_extraction_exact,daypart_extraction_exact,exact_match
+Q001,ACCORD_ONLY,woody 향,"[""woody""]","[""woody""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q002,ACCORD_ONLY,powdery 향,"[""powdery""]","[""powdery""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q003,ACCORD_ONLY,sweet 향,"[""sweet""]","[""sweet""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q004,ACCORD_ONLY,citrus 향,"[""citrus""]","[""citrus""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q005,ACCORD_ONLY,aromatic 향,"[""aromatic""]","[""aromatic""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q006,ACCORD_ONLY,fresh spicy 향,"[""fresh spicy""]","[""fresh spicy""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q007,ACCORD_ONLY,floral 향,"[""floral""]","[""floral""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q008,ACCORD_ONLY,amber 향,"[""amber""]","[""amber""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q009,ACCORD_ONLY,warm spicy 향,"[""warm spicy""]","[""warm spicy""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q010,ACCORD_ONLY,fruity 향,"[""fruity""]","[""fruity""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q011,ACCORD_ONLY,musky 향,"[""musky""]","[""musky""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q012,ACCORD_ONLY,white floral 향,"[""white floral""]","[""white floral""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q013,ACCORD_ONLY,vanilla 향,"[""vanilla""]","[""vanilla""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q014,ACCORD_ONLY,fresh 향,"[""fresh""]","[""fresh""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q015,ACCORD_ONLY,green 향,"[""green""]","[""green""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q016,ACCORD_ONLY,rose 향,"[""rose""]","[""rose""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q017,ACCORD_ONLY,earthy 향,"[""earthy""]","[""earthy""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q018,ACCORD_ONLY,animalic 향,"[""animalic""]","[""animalic""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q019,ACCORD_ONLY,balsamic 향,"[""balsamic""]","[""balsamic""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q020,ACCORD_ONLY,patchouli 향,"[""patchouli""]","[""patchouli""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q021,ACCORD_ONLY,soft spicy 향,"[""soft spicy""]","[""soft spicy""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q022,ACCORD_ONLY,leather 향,"[""leather""]","[""leather""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q023,ACCORD_ONLY,aquatic 향,"[""aquatic""]","[""aquatic""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q024,ACCORD_ONLY,herbal 향,"[""herbal""]","[""herbal""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q025,ACCORD_ONLY,lavender 향,"[""lavender""]","[""lavender""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q026,ACCORD_ONLY,oud 향,"[""oud""]","[""oud""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q027,ACCORD_ONLY,violet 향,"[""violet""]","[""violet""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q028,ACCORD_ONLY,iris 향,"[""iris""]","[""iris""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q029,ACCORD_ONLY,smoky 향,"[""smoky""]","[""smoky""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q030,ACCORD_ONLY,lactonic 향,"[""lactonic""]","[""lactonic""]",[],[],[],[],[],[],[],True,True,True,True,True
+Q031,NOTE_ONLY,Musk 노트가 느껴지는 향,[],[],"[""Musk""]","[""Musk""]",[],[],[],[],[],True,True,True,True,True
+Q032,NOTE_ONLY,Amber 노트가 느껴지는 향,[],[],"[""Amber""]","[""Amber""]",[],[],[],[],[],True,True,True,True,True
+Q033,NOTE_ONLY,Bergamot 노트가 느껴지는 향,[],[],"[""Bergamot""]","[""Bergamot""]",[],[],[],[],[],True,True,True,True,True
+Q034,NOTE_ONLY,Vanilla 노트가 느껴지는 향,[],[],"[""Vanilla""]","[""Vanilla""]",[],[],[],[],[],True,True,True,True,True
+Q035,NOTE_ONLY,Sandalwood 노트가 느껴지는 향,[],[],"[""Sandalwood""]","[""Sandalwood""]",[],[],[],[],[],True,True,True,True,True
+Q036,NOTE_ONLY,Jasmine 노트가 느껴지는 향,[],[],"[""Jasmine""]","[""Jasmine""]",[],[],[],[],[],True,True,True,True,True
+Q037,NOTE_ONLY,Patchouli 노트가 느껴지는 향,[],[],"[""Patchouli""]","[""Patchouli""]",[],[],[],[],[],True,True,True,True,True
+Q038,NOTE_ONLY,Rose 노트가 느껴지는 향,[],[],"[""Rose""]","[""Rose""]",[],[],[],[],[],True,True,True,True,True
+Q039,NOTE_ONLY,Cedar 노트가 느껴지는 향,[],[],"[""Cedar""]","[""Cedar""]",[],[],[],[],[],True,True,True,True,True
+Q040,NOTE_ONLY,Vetiver 노트가 느껴지는 향,[],[],"[""Vetiver""]","[""Vetiver""]",[],[],[],[],[],True,True,True,True,True
+Q041,NOTE_ONLY,Lemon 노트가 느껴지는 향,[],[],"[""Lemon""]","[""Lemon""]",[],[],[],[],[],True,True,True,True,True
+Q042,NOTE_ONLY,Tonka Bean 노트가 느껴지는 향,[],[],"[""Tonka Bean""]","[""Tonka Bean""]",[],[],[],[],[],True,True,True,True,True
+Q043,NOTE_ONLY,Lavender 노트가 느껴지는 향,[],[],"[""Lavender""]","[""Lavender""]",[],[],[],[],[],True,True,True,True,True
+Q044,NOTE_ONLY,Mandarin Orange 노트가 느껴지는 향,[],[],"[""Mandarin Orange""]","[""Mandarin Orange""]",[],[],[],[],[],True,True,True,True,True
+Q045,NOTE_ONLY,Orange Blossom 노트가 느껴지는 향,[],[],"[""Orange Blossom""]","[""Orange Blossom""]",[],[],[],[],[],True,True,True,True,True
+Q046,NOTE_ONLY,Leather 노트가 느껴지는 향,[],[],"[""Leather""]","[""Leather""]",[],[],[],[],[],True,True,True,True,True
+Q047,NOTE_ONLY,Cardamom 노트가 느껴지는 향,[],[],"[""Cardamom""]","[""Cardamom""]",[],[],[],[],[],True,True,True,True,True
+Q048,NOTE_ONLY,Pink Pepper 노트가 느껴지는 향,[],[],"[""Pink Pepper""]","[""Pink Pepper""]",[],[],[],[],[],True,True,True,True,True
+Q049,NOTE_ONLY,Violet 노트가 느껴지는 향,[],[],"[""Violet""]","[""Violet""]",[],[],[],[],[],True,True,True,True,True
+Q050,NOTE_ONLY,Grapefruit 노트가 느껴지는 향,[],[],"[""Grapefruit""]","[""Grapefruit""]",[],[],[],[],[],True,True,True,True,True
+Q051,NOTE_ONLY,Iris 노트가 느껴지는 향,[],[],"[""Iris""]","[""Iris""]",[],[],[],[],[],True,True,True,True,True
+Q052,NOTE_ONLY,Oakmoss 노트가 느껴지는 향,[],[],"[""Oakmoss""]","[""Oakmoss""]",[],[],[],[],[],True,True,True,True,True
+Q053,NOTE_ONLY,Geranium 노트가 느껴지는 향,[],[],"[""Geranium""]","[""Geranium""]",[],[],[],[],[],True,True,True,True,True
+Q054,NOTE_ONLY,Saffron 노트가 느껴지는 향,[],[],"[""Saffron""]","[""Saffron""]",[],[],[],[],[],True,True,True,True,True
+Q055,NOTE_ONLY,White Musk 노트가 느껴지는 향,[],[],"[""White Musk""]","[""White Musk""]",[],[],[],[],[],True,True,True,True,True
+Q056,NOTE_ONLY,Woody Notes 노트가 느껴지는 향,[],[],"[""Woody Notes""]","[""Woody Notes""]",[],[],[],[],[],True,True,True,True,True
+Q057,NOTE_ONLY,Orange 노트가 느껴지는 향,[],[],"[""Orange""]","[""Orange""]",[],[],[],[],[],True,True,True,True,True
+Q058,NOTE_ONLY,Cinnamon 노트가 느껴지는 향,[],[],"[""Cinnamon""]","[""Cinnamon""]",[],[],[],[],[],True,True,True,True,True
+Q059,NOTE_ONLY,Peach 노트가 느껴지는 향,[],[],"[""Peach""]","[""Peach""]",[],[],[],[],[],True,True,True,True,True
+Q060,NOTE_ONLY,Lily-of-the-Valley 노트가 느껴지는 향,[],[],"[""Lily-of-the-Valley""]","[""Lily-of-the-Valley""]",[],[],[],[],[],True,True,True,True,True
+Q061,SEASON_ONLY,겨울 향,[],[],[],[],"[""winter""]","[""winter""]",[],[],[],True,True,True,True,True
+Q062,SEASON_ONLY,봄 향,[],[],[],[],"[""spring""]","[""spring""]",[],[],[],True,True,True,True,True
+Q063,SEASON_ONLY,여름 향,[],[],[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q064,SEASON_ONLY,가을 향,[],[],[],[],"[""autumn""]","[""autumn""]",[],[],[],True,True,True,True,True
+Q065,DAYPART_ONLY,낮에 쓰기 좋은 향,[],[],[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q066,DAYPART_ONLY,밤에 쓰기 좋은 향,[],[],[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q067,ACCORD_SEASON,가을에 어울리는 woody 향,"[""woody""]","[""woody""]",[],[],"[""autumn""]","[""autumn""]",[],[],[],True,True,True,True,True
+Q068,ACCORD_DAYPART,밤에 어울리는 woody 향,"[""woody""]","[""woody""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q069,ACCORD_SEASON_DAYPART,가을 밤에 어울리는 woody 향,"[""woody""]","[""woody""]",[],[],"[""autumn""]","[""autumn""]","[""night""]","[""night""]",[],True,True,True,True,True
+Q070,ACCORD_SEASON,겨울에 어울리는 powdery 향,"[""powdery""]","[""powdery""]",[],[],"[""winter""]","[""winter""]",[],[],[],True,True,True,True,True
+Q071,ACCORD_DAYPART,밤에 어울리는 powdery 향,"[""powdery""]","[""powdery""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q072,ACCORD_SEASON_DAYPART,겨울 밤에 어울리는 powdery 향,"[""powdery""]","[""powdery""]",[],[],"[""winter""]","[""winter""]","[""night""]","[""night""]",[],True,True,True,True,True
+Q073,ACCORD_SEASON,겨울에 어울리는 sweet 향,"[""sweet""]","[""sweet""]",[],[],"[""winter""]","[""winter""]",[],[],[],True,True,True,True,True
+Q074,ACCORD_DAYPART,밤에 어울리는 sweet 향,"[""sweet""]","[""sweet""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q075,ACCORD_SEASON_DAYPART,겨울 밤에 어울리는 sweet 향,"[""sweet""]","[""sweet""]",[],[],"[""winter""]","[""winter""]","[""night""]","[""night""]",[],True,True,True,True,True
+Q076,ACCORD_SEASON,여름에 어울리는 citrus 향,"[""citrus""]","[""citrus""]",[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q077,ACCORD_DAYPART,낮에 어울리는 citrus 향,"[""citrus""]","[""citrus""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q078,ACCORD_SEASON_DAYPART,여름 낮에 어울리는 citrus 향,"[""citrus""]","[""citrus""]",[],[],"[""summer""]","[""summer""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q079,ACCORD_SEASON,여름에 어울리는 aromatic 향,"[""aromatic""]","[""aromatic""]",[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q080,ACCORD_DAYPART,낮에 어울리는 aromatic 향,"[""aromatic""]","[""aromatic""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q081,ACCORD_SEASON_DAYPART,여름 낮에 어울리는 aromatic 향,"[""aromatic""]","[""aromatic""]",[],[],"[""summer""]","[""summer""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q082,ACCORD_SEASON,여름에 어울리는 fresh spicy 향,"[""fresh spicy""]","[""fresh spicy""]",[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q083,ACCORD_DAYPART,낮에 어울리는 fresh spicy 향,"[""fresh spicy""]","[""fresh spicy""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q084,ACCORD_SEASON_DAYPART,여름 낮에 어울리는 fresh spicy 향,"[""fresh spicy""]","[""fresh spicy""]",[],[],"[""summer""]","[""summer""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q085,ACCORD_SEASON,여름에 어울리는 floral 향,"[""floral""]","[""floral""]",[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q086,ACCORD_DAYPART,낮에 어울리는 floral 향,"[""floral""]","[""floral""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q087,ACCORD_SEASON_DAYPART,여름 낮에 어울리는 floral 향,"[""floral""]","[""floral""]",[],[],"[""summer""]","[""summer""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q088,ACCORD_SEASON,겨울에 어울리는 amber 향,"[""amber""]","[""amber""]",[],[],"[""winter""]","[""winter""]",[],[],[],True,True,True,True,True
+Q089,ACCORD_DAYPART,밤에 어울리는 amber 향,"[""amber""]","[""amber""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q090,ACCORD_SEASON_DAYPART,겨울 밤에 어울리는 amber 향,"[""amber""]","[""amber""]",[],[],"[""winter""]","[""winter""]","[""night""]","[""night""]",[],True,True,True,True,True
+Q091,ACCORD_SEASON,겨울에 어울리는 warm spicy 향,"[""warm spicy""]","[""warm spicy""]",[],[],"[""winter""]","[""winter""]",[],[],[],True,True,True,True,True
+Q092,ACCORD_DAYPART,밤에 어울리는 warm spicy 향,"[""warm spicy""]","[""warm spicy""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q093,ACCORD_SEASON_DAYPART,겨울 밤에 어울리는 warm spicy 향,"[""warm spicy""]","[""warm spicy""]",[],[],"[""winter""]","[""winter""]","[""night""]","[""night""]",[],True,True,True,True,True
+Q094,ACCORD_SEASON,여름에 어울리는 fruity 향,"[""fruity""]","[""fruity""]",[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q095,ACCORD_DAYPART,낮에 어울리는 fruity 향,"[""fruity""]","[""fruity""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q096,ACCORD_SEASON_DAYPART,여름 낮에 어울리는 fruity 향,"[""fruity""]","[""fruity""]",[],[],"[""summer""]","[""summer""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q097,ACCORD_SEASON,여름에 어울리는 musky 향,"[""musky""]","[""musky""]",[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q098,ACCORD_DAYPART,낮에 어울리는 musky 향,"[""musky""]","[""musky""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q099,ACCORD_SEASON_DAYPART,여름 낮에 어울리는 musky 향,"[""musky""]","[""musky""]",[],[],"[""summer""]","[""summer""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q100,ACCORD_SEASON,여름에 어울리는 white floral 향,"[""white floral""]","[""white floral""]",[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q101,ACCORD_DAYPART,낮에 어울리는 white floral 향,"[""white floral""]","[""white floral""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q102,ACCORD_SEASON_DAYPART,여름 낮에 어울리는 white floral 향,"[""white floral""]","[""white floral""]",[],[],"[""summer""]","[""summer""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q103,ACCORD_SEASON,겨울에 어울리는 vanilla 향,"[""vanilla""]","[""vanilla""]",[],[],"[""winter""]","[""winter""]",[],[],[],True,True,True,True,True
+Q104,ACCORD_DAYPART,밤에 어울리는 vanilla 향,"[""vanilla""]","[""vanilla""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q105,ACCORD_SEASON_DAYPART,겨울 밤에 어울리는 vanilla 향,"[""vanilla""]","[""vanilla""]",[],[],"[""winter""]","[""winter""]","[""night""]","[""night""]",[],True,True,True,True,True
+Q106,ACCORD_SEASON,여름에 어울리는 fresh 향,"[""fresh""]","[""fresh""]",[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q107,ACCORD_DAYPART,낮에 어울리는 fresh 향,"[""fresh""]","[""fresh""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q108,ACCORD_SEASON_DAYPART,여름 낮에 어울리는 fresh 향,"[""fresh""]","[""fresh""]",[],[],"[""summer""]","[""summer""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q109,ACCORD_SEASON,여름에 어울리는 green 향,"[""green""]","[""green""]",[],[],"[""summer""]","[""summer""]",[],[],[],True,True,True,True,True
+Q110,ACCORD_DAYPART,낮에 어울리는 green 향,"[""green""]","[""green""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q111,ACCORD_SEASON_DAYPART,여름 낮에 어울리는 green 향,"[""green""]","[""green""]",[],[],"[""summer""]","[""summer""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q112,ACCORD_SEASON,봄에 어울리는 rose 향,"[""rose""]","[""rose""]",[],[],"[""spring""]","[""spring""]",[],[],[],True,True,True,True,True
+Q113,ACCORD_DAYPART,낮에 어울리는 rose 향,"[""rose""]","[""rose""]",[],[],[],[],"[""day""]","[""day""]",[],True,True,True,True,True
+Q114,ACCORD_SEASON_DAYPART,봄 낮에 어울리는 rose 향,"[""rose""]","[""rose""]",[],[],"[""spring""]","[""spring""]","[""day""]","[""day""]",[],True,True,True,True,True
+Q115,ACCORD_SEASON,가을에 어울리는 earthy 향,"[""earthy""]","[""earthy""]",[],[],"[""autumn""]","[""autumn""]",[],[],[],True,True,True,True,True
+Q116,ACCORD_DAYPART,밤에 어울리는 earthy 향,"[""earthy""]","[""earthy""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q117,ACCORD_SEASON_DAYPART,가을 밤에 어울리는 earthy 향,"[""earthy""]","[""earthy""]",[],[],"[""autumn""]","[""autumn""]","[""night""]","[""night""]",[],True,True,True,True,True
+Q118,ACCORD_SEASON,겨울에 어울리는 animalic 향,"[""animalic""]","[""animalic""]",[],[],"[""winter""]","[""winter""]",[],[],[],True,True,True,True,True
+Q119,ACCORD_DAYPART,밤에 어울리는 animalic 향,"[""animalic""]","[""animalic""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q120,ACCORD_SEASON_DAYPART,겨울 밤에 어울리는 animalic 향,"[""animalic""]","[""animalic""]",[],[],"[""winter""]","[""winter""]","[""night""]","[""night""]",[],True,True,True,True,True
+Q121,ACCORD_SEASON,겨울에 어울리는 balsamic 향,"[""balsamic""]","[""balsamic""]",[],[],"[""winter""]","[""winter""]",[],[],[],True,True,True,True,True
+Q122,ACCORD_DAYPART,밤에 어울리는 balsamic 향,"[""balsamic""]","[""balsamic""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q123,ACCORD_SEASON_DAYPART,겨울 밤에 어울리는 balsamic 향,"[""balsamic""]","[""balsamic""]",[],[],"[""winter""]","[""winter""]","[""night""]","[""night""]",[],True,True,True,True,True
+Q124,ACCORD_SEASON,겨울에 어울리는 patchouli 향,"[""patchouli""]","[""patchouli""]",[],[],"[""winter""]","[""winter""]",[],[],[],True,True,True,True,True
+Q125,ACCORD_DAYPART,밤에 어울리는 patchouli 향,"[""patchouli""]","[""patchouli""]",[],[],[],[],"[""night""]","[""night""]",[],True,True,True,True,True
+Q126,ACCORD_SEASON_DAYPART,겨울 밤에 어울리는 patchouli 향,"[""patchouli""]","[""patchouli""]",[],[],"[""winter""]","[""winter""]","[""night""]","[""night""]",[],True,True,True,True,True

@@ -1,0 +1,160 @@
+﻿note,perfume_count,occurrence_count,candidate_term,relation_type,canonical_term,parent_term,confidence,evidence_count,evidence_sources,decision_reason,manual_review_required
+Musk,49244,49571,Musk-Like,SAME_CONCEPT,Musk-Like,,HIGH,2,IFF | IFRA,OFFICIAL_CATEGORY_EQUIVALENCE: official evidence supports a canonical term-level equivalence.,False
+Jasmine,33686,33952,Jasmine absolute | Jasmine CO2 extract | Jasmine concrete | Jasmine concrete (waxes twice extracted) | Jasmine oil,FAMILY,Jasmine,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Tonka Bean,14188,14228,Tonka bean absolute | Tonka bean extract | Tonka bean resinoid | Tonka bean tincture,FAMILY,Tonka Bean,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Mandarin Orange,11646,11652,,UNRESOLVED,Mandarin Orange,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Orange Blossom,11479,11545,,UNRESOLVED,Orange Blossom,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Leather,10626,10754,Leathery,RELATED,Leather,Leathery,MEDIUM,1,IFRA,"RELATED_DESCRIPTOR_ONLY: IFRA contains a closely related descriptor, but official equivalence to the note concept is not explicit.",True
+Cardamom,10562,10582,Cardamom seed absolute | Cardamom seed CO2 extract | Cardamom seed distillate | Cardamom seed extract | Cardamom seed oil,FAMILY,Cardamom,,MEDIUM,1,IFRA,"STAGE17_MATERIAL_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Pink Pepper,10387,10395,,UNRESOLVED,Pink Pepper,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Oakmoss,8737,8763,Oakmoss absolute | Oakmoss absolute (low atranol & chloratranol) | Oakmoss extract,FAMILY,Oakmoss,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Lily-of-the-Valley,7339,7366,,UNRESOLVED,Lily-of-the-Valley,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Ylang-Ylang,7086,7111,"Ylang ylang absolute | Ylang ylang oil | Ylang ylang oil (low para cresol methylether) | Ylang ylang oil extra | Ylang ylang oil I | Ylang ylang oil II | Ylang ylang oil III | Ylang ylang oil, rectified",FAMILY,Ylang-Ylang,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Ambergris,6452,6499,Ambergris tincture,FAMILY,Ambergris,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Agarwood (Oud),5939,6134,Agarwood,SAME_CONCEPT,Agarwood,,HIGH,2,Givaudan | IFRA,OFFICIAL_PAIRED_NAMING: official evidence supports a canonical term-level equivalence.,False
+Freesia,5683,5696,,UNRESOLVED,Freesia,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Black Pepper,4795,4807,,UNRESOLVED,Black Pepper,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Mint,4605,4627,,UNRESOLVED,Mint,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Pepper,4316,4335,"Pepper oil black, terpene-free",FAMILY,Pepper,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Moss,4302,4310,Mossy,RELATED,Moss,Mossy,MEDIUM,1,IFRA,"RELATED_DESCRIPTOR_ONLY: IFRA contains a closely related descriptor, but official equivalence to the note concept is not explicit.",True
+Guaiac Wood,3983,3989,"Guaiac wood oil | Guaiac wood oil saponified | Guaiac wood oil, rectified",FAMILY,Guaiac Wood,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Woodsy Notes,3240,3250,,UNRESOLVED,Woodsy Notes,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Olibanum,3213,3260,"Olibanum absolute | Olibanum extract | Olibanum oil | Olibanum oil, rectified | Olibanum resinoid",FAMILY,Olibanum,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Lily of the Valley,3105,3118,,UNRESOLVED,Lily of the Valley,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Ambroxan,3051,3062,,UNRESOLVED,Ambroxan,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Aldehydes,3019,3024,Aldehydic,SAME_CONCEPT,Aldehydic,,HIGH,1,IFRA,OFFICIAL_GRAMMATICAL_EQUIVALENCE: official evidence supports a canonical term-level equivalence.,False
+Jasmine Sambac,2948,2952,Jasmine sambac absolute | Jasmine sambac CO2 extract | Jasmine sambac oil | Jasmine sambac tincture,FAMILY,Jasmine Sambac,,MEDIUM,2,Givaudan | IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Spices,2884,2899,Spicy,SAME_CONCEPT,Spicy,,HIGH,1,IFRA,OFFICIAL_CATEGORY_EQUIVALENCE: official evidence supports a canonical term-level equivalence.,False
+Violet Leaf,2849,2850,Violet leaf absolute | Violet leaf extract,FAMILY,Violet Leaf,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Orchid,2814,2824,,UNRESOLVED,Orchid,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Virginia Cedar,2694,2695,,UNRESOLVED,Virginia Cedar,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cashmere Wood,2688,2691,,UNRESOLVED,Cashmere Wood,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Clary Sage,2541,2545,Clary sage absolute | Clary sage extract | Clary sage oil,FAMILY,Clary Sage,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Fruity Notes,2476,2493,Fruity,SAME_CONCEPT,Fruity,,HIGH,1,IFRA,NOTES_SUFFIX_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+Cashmeran,2386,2388,,UNRESOLVED,Cashmeran,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cloves,2381,2390,Clove,SAME_CONCEPT,Clove,,HIGH,1,IFRA,PLURAL_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+White Flowers,2317,2323,,UNRESOLVED,White Flowers,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Spicy Notes,2213,2240,Spicy,SAME_CONCEPT,Spicy,,HIGH,1,IFRA,NOTES_SUFFIX_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+Sea Notes,2183,2193,Marine,RELATED,Sea Notes,Marine,MEDIUM,1,IFRA,"RELATED_DESCRIPTOR_ONLY: IFRA contains a closely related descriptor, but official equivalence to the note concept is not explicit.",True
+Praline,2164,2171,,UNRESOLVED,Praline,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Orris Root,2137,2150,,UNRESOLVED,Orris Root,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Bulgarian Rose,2122,2131,,UNRESOLVED,Bulgarian Rose,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Sugar,2094,2116,,UNRESOLVED,Sugar,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Vanille,2033,2037,,UNRESOLVED,Vanille,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+elemi,1868,1871,"Elemi absolute | Elemi CO2 extract | Elemi oil | ELEMI oil (low methyleugenol) | Elemi oil, rectified | Elemi resinoid",FAMILY,elemi,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Turkish Rose,1811,1822,,UNRESOLVED,Turkish Rose,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Fig,1810,1846,,UNRESOLVED,Fig,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Bitter Orange,1809,1809,,UNRESOLVED,Bitter Orange,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Lotus,1771,1781,,UNRESOLVED,Lotus,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Amberwood,1757,1761,,UNRESOLVED,Amberwood,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Suede,1733,1737,,UNRESOLVED,Suede,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Litchi,1708,1712,,UNRESOLVED,Litchi,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Green Apple,1658,1660,,UNRESOLVED,Green Apple,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Milk,1657,1674,Milky,RELATED,Milk,Milky,MEDIUM,1,IFRA,"RELATED_DESCRIPTOR_ONLY: IFRA contains a closely related descriptor, but official equivalence to the note concept is not explicit.",True
+Damask Rose,1644,1657,,UNRESOLVED,Damask Rose,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Powdery Notes,1593,1604,Powdery,SAME_CONCEPT,Powdery,,HIGH,1,IFRA,NOTES_SUFFIX_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+Frankincense,1546,1568,,UNRESOLVED,Frankincense,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Ylang Ylang,1534,1548,"Ylang ylang absolute | Ylang ylang oil | Ylang ylang oil (low para cresol methylether) | Ylang ylang oil extra | Ylang ylang oil I | Ylang ylang oil II | Ylang ylang oil III | Ylang ylang oil, rectified",FAMILY,Ylang Ylang,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Red Berries,1527,1530,,UNRESOLVED,Red Berries,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Styrax,1435,1436,"Styrax absolute | Styrax absolute (low sytrene) | Styrax absolute, Honduras | Styrax distillate | Styrax essence pyrogenated | Styrax extract | Styrax oil | Styrax oil, Honduras",FAMILY,Styrax,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Lilac,1417,1429,,UNRESOLVED,Lilac,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Madagascar Vanilla,1377,1386,,UNRESOLVED,Madagascar Vanilla,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Birch,1360,1376,"Birch tar oil, rectified",FAMILY,Birch,,MEDIUM,1,IFRA,"STAGE17_MATERIAL_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Blackberry,1342,1354,,UNRESOLVED,Blackberry,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Anise,1341,1342,Anise seed oil,FAMILY,Anise,,MEDIUM,1,IFRA,"STAGE17_MATERIAL_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Civet,1330,1339,Civet absolute | Civet tincture,FAMILY,Civet,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Amalfi Lemon,1325,1325,,UNRESOLVED,Amalfi Lemon,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Green Tea,1323,1333,,UNRESOLVED,Green Tea,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Juniper Berries,1316,1318,,UNRESOLVED,Juniper Berries,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cacao,1305,1315,Cacao absolute | Cacao extract | Cacao oil,FAMILY,Cacao,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Blood Orange,1289,1291,,UNRESOLVED,Blood Orange,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Agarwood,1249,1275,"Agarwood extract | Agarwood extract, Vietnamese | Agarwood oil | Agarwood oil, Indonesia | Agarwood oil, Vietnamese",FAMILY,Agarwood,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Palisander Rosewood,1245,1247,,UNRESOLVED,Palisander Rosewood,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Smoke,1224,1236,Smoky,SAME_CONCEPT,Smoky,,HIGH,1,IFRA,OFFICIAL_GRAMMATICAL_EQUIVALENCE: official evidence supports a canonical term-level equivalence.,False
+Yuzu,1222,1231,,UNRESOLVED,Yuzu,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Sweet Notes,1216,1225,Sweet,SAME_CONCEPT,Sweet,,HIGH,1,IFRA,NOTES_SUFFIX_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+Haitian Vetiver,1214,1217,,UNRESOLVED,Haitian Vetiver,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cypriol Oil or Nagarmotha,1197,1198,,UNRESOLVED,Cypriol Oil or Nagarmotha,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Ambrette (Musk Mallow),1192,1194,,UNRESOLVED,Ambrette (Musk Mallow),,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Water Lily,1182,1185,,UNRESOLVED,Water Lily,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Green Leaves,1138,1144,,UNRESOLVED,Green Leaves,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Ozonic notes,1107,1115,Ozonic,SAME_CONCEPT,Ozonic,,HIGH,1,IFRA,NOTES_SUFFIX_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+Bourbon Vanilla,1104,1113,,UNRESOLVED,Bourbon Vanilla,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Castoreum,1076,1082,Castoreum absolute | Castoreum concrete | Castoreum extract | Castoreum resinoid | Castoreum tincture,FAMILY,Castoreum,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Ambrette,1062,1063,Ambrette tincture,FAMILY,Ambrette,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Red Apple,1060,1060,,UNRESOLVED,Red Apple,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Calabrian bergamot,1027,1030,,UNRESOLVED,Calabrian bergamot,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+oak moss,1021,1021,,UNRESOLVED,oak moss,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Opoponax,1010,1010,Opoponax absolute | Opoponax CO2 extract | Opoponax extract | Opoponax oil | Opoponax resinoid,FAMILY,Opoponax,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Peru Balsam,1005,1006,Peru balsam distillate,FAMILY,Peru Balsam,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Watery Notes,1004,1008,Watery,SAME_CONCEPT,Watery,,HIGH,1,IFRA,NOTES_SUFFIX_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+Water Notes,1001,1006,Watery,RELATED,Water Notes,Watery,MEDIUM,1,IFRA,"RELATED_DESCRIPTOR_ONLY: IFRA contains a closely related descriptor, but official equivalence to the note concept is not explicit.",True
+Herbal Notes,997,1001,Herbal,SAME_CONCEPT,Herbal,,HIGH,1,IFRA,NOTES_SUFFIX_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+Star Anise,983,984,Star anise CO2 extract | Star anise extract | Star anise oil | Star anise oil terpeneless | Star anise oil terpenes,FAMILY,Star Anise,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Resins,981,983,,UNRESOLVED,Resins,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Hazelnut,963,966,,UNRESOLVED,Hazelnut,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Salt,939,948,,UNRESOLVED,Salt,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Red Fruits,935,938,,UNRESOLVED,Red Fruits,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Black Tea,927,932,,UNRESOLVED,Black Tea,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Davana,910,911,Davana oil,FAMILY,Davana,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Tolu Balsam,903,906,"Tolu, balsam, extract | Tolu, balsam, resinoid",FAMILY,Tolu Balsam,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Immortelle,892,894,,UNRESOLVED,Immortelle,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Whipped Cream,891,892,,UNRESOLVED,Whipped Cream,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Angelica,883,888,Angelica root oil | Angelica seed absolute | Angelica seed extract | Angelica seed oil,FAMILY,Angelica,,MEDIUM,1,IFRA,"STAGE17_MATERIAL_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+African Orange Flower,883,883,,UNRESOLVED,African Orange Flower,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Pomegranate,881,881,,UNRESOLVED,Pomegranate,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Fir,876,876,Fir absolute,FAMILY,Fir,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Citron,867,869,"Citron oil | Citron oil, rectified",FAMILY,Citron,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Sicilian Lemon,864,864,,UNRESOLVED,Sicilian Lemon,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Grass,848,853,,UNRESOLVED,Grass,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Fruits,839,844,,UNRESOLVED,Fruits,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cognac,829,831,,UNRESOLVED,Cognac,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Atlas Cedar,800,802,,UNRESOLVED,Atlas Cedar,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Papyrus,792,795,,UNRESOLVED,Papyrus,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Marshmallow,789,802,,UNRESOLVED,Marshmallow,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Flowers,773,783,,UNRESOLVED,Flowers,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Sea water,762,768,,UNRESOLVED,Sea water,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Brazilian Rosewood,761,762,,UNRESOLVED,Brazilian Rosewood,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+White Amber,751,752,,UNRESOLVED,White Amber,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Pink Grapefruit,738,738,,UNRESOLVED,Pink Grapefruit,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Sweet Orange,734,735,,UNRESOLVED,Sweet Orange,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Balsam Fir,727,727,Balsam fir oleoresin,FAMILY,Balsam Fir,,MEDIUM,1,IFRA,"STAGE17_MATERIAL_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Fig Leaf,725,730,,UNRESOLVED,Fig Leaf,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Amyris,725,727,"Amyris oil | Amyris oil, acetylated | Amyris oil, rectified",FAMILY,Amyris,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Tiare Flower,719,719,,UNRESOLVED,Tiare Flower,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Sea Salt,713,715,,UNRESOLVED,Sea Salt,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Dark Chocolate,712,719,,UNRESOLVED,Dark Chocolate,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Mate,704,706,Mate absolute | Mate extract | Mate oil,FAMILY,Mate,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Bay Leaf,678,679,,UNRESOLVED,Bay Leaf,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Precious Woods,678,679,,UNRESOLVED,Precious Woods,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Egyptian Jasmine,677,680,,UNRESOLVED,Egyptian Jasmine,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cotton Candy,670,670,,UNRESOLVED,Cotton Candy,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Beeswax,663,666,Beeswax absolute | Beeswax CO2 extract | Beeswax concrete | Beeswax resinoid,FAMILY,Beeswax,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Marine notes,657,659,Marine,SAME_CONCEPT,Marine,,HIGH,1,IFRA,NOTES_SUFFIX_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+Hedione,627,628,,UNRESOLVED,Hedione,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Bitter Almond,626,626,,UNRESOLVED,Bitter Almond,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+White Woods,626,626,,UNRESOLVED,White Woods,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Green Mandarin,625,625,,UNRESOLVED,Green Mandarin,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+May Rose,625,625,,UNRESOLVED,May Rose,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Bamboo,618,619,,UNRESOLVED,Bamboo,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Sandalowood,611,615,,UNRESOLVED,Sandalowood,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cypriol,603,605,"Cypriol oil | Cypriol oil, rectified",FAMILY,Cypriol,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Iso E Super,598,601,,UNRESOLVED,Iso E Super,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Pomelo,596,597,,UNRESOLVED,Pomelo,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+White Rose,594,598,,UNRESOLVED,White Rose,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Violet Leaves,590,591,,UNRESOLVED,Violet Leaves,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Pistachio,585,598,,UNRESOLVED,Pistachio,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Hibiscus,584,585,,UNRESOLVED,Hibiscus,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Brown sugar,583,586,,UNRESOLVED,Brown sugar,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Red Currant,583,583,,UNRESOLVED,Red Currant,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Wormwood,582,584,"Wormwood oil | Wormwood oil, terpeneless",FAMILY,Wormwood,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Lemon Verbena,581,581,,UNRESOLVED,Lemon Verbena,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Nectarine,577,578,,UNRESOLVED,Nectarine,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Resin,571,579,,UNRESOLVED,Resin,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Solar Notes,570,571,,UNRESOLVED,Solar Notes,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Lychee,566,568,,UNRESOLVED,Lychee,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Dried Fruits,566,566,Dried-Fruit,SAME_CONCEPT,Dried-Fruit,,HIGH,1,IFRA,PLURAL_DESCRIPTOR: official evidence supports a canonical term-level equivalence.,False
+Clementine,557,559,,UNRESOLVED,Clementine,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Driftwood,557,558,,UNRESOLVED,Driftwood,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Sichuan Pepper,554,555,Sichuan pepper CO2 extract,FAMILY,Sichuan Pepper,,MEDIUM,1,IFRA,"MATERIAL_FORM_FAMILY: official IFRA material names support only a material-family candidate, not note identity.",True
+Indonesian Patchouli Leaf,549,549,,UNRESOLVED,Indonesian Patchouli Leaf,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True

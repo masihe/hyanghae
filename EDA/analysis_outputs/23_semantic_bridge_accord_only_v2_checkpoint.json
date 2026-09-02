@@ -1,0 +1,861 @@
+{
+  "pilot_version": "semantic-bridge-accord-only-v2",
+  "created_at_utc": "2026-09-02T06:06:20.583145+00:00",
+  "source_v1": {
+    "22_notebook_sha256": "4a72e833b44f1c10c801d638e429655932c0965400c0882b263a1b4d1cbb1aa6",
+    "22_checkpoint_sha256": "7af3984421d33690b8cf51e7f5e50db5f2667bf9d7d4f7efcf83bb9db879092a",
+    "selection_annotation_sha256": "6ed45347220cf22c173970e97c6a47d890da402d53cf71255821eafd0d176353",
+    "schema_valid_count": 5,
+    "validation_failure_count": 7
+  },
+  "query_input_sha256": "9171860b6f91178ed3a597afcc5d7ad5b903c0deb74a61c10d321782d8c3cb9b",
+  "query_inputs": [
+    {
+      "query_id": "SQ0061",
+      "bridge_phrase": "비 온 뒤의 숲의 냄새"
+    },
+    {
+      "query_id": "SQ0032",
+      "bridge_phrase": "숲 속에 온 듯한 향"
+    },
+    {
+      "query_id": "SQ0136",
+      "bridge_phrase": "빨래향 같이 자연스러운 향"
+    },
+    {
+      "query_id": "SQ0105",
+      "bridge_phrase": "따뜻한 햇살을 받으며 침대 위에 누워있는 듯한 느낌의 향수"
+    },
+    {
+      "query_id": "SQ0012",
+      "bridge_phrase": "샤워하고 나온듯한 따뜻하고 포근한 느낌의 향기"
+    },
+    {
+      "query_id": "SQ0058",
+      "bridge_phrase": "바다가 생각나는 시원한 향"
+    },
+    {
+      "query_id": "SQ0002",
+      "bridge_phrase": "시원하고 깔끔한 향"
+    },
+    {
+      "query_id": "SQ0047",
+      "bridge_phrase": "가벼우면서 시원한 느낌"
+    },
+    {
+      "query_id": "SQ0051",
+      "bridge_phrase": "톡 쏘는 듯한 청량함과 방금 막 세탁된 코튼 향처럼 깨끗한 공기향"
+    },
+    {
+      "query_id": "SQ0071",
+      "bridge_phrase": "겨울 아침에 딱~ 일어나서 창문을 열었는데 느껴지는 차갑고 상쾌한 향"
+    },
+    {
+      "query_id": "SQ0073",
+      "bridge_phrase": "깨끗하고 시원한 향을 좋아하고, 편백나무, 산내음처럼 자연스러운 향"
+    },
+    {
+      "query_id": "SQ0132",
+      "bridge_phrase": "포근한 느낌"
+    }
+  ],
+  "allowed_accords": {
+    "source_path": "analysis_outputs\\10_accord_dictionary.csv",
+    "source_sha256": "567e91370e575731d11970f89a03120a8c581db5e73df1c16daf37110e79046c",
+    "count": 92,
+    "sha256": "159bdc8fa6ce95d043efd369df042ffa4dd3d0b1a578ac57a9d9eae51b1daefc",
+    "items": [
+      "Champagne",
+      "Pear",
+      "alcohol",
+      "aldehydic",
+      "almond",
+      "amber",
+      "animalic",
+      "anis",
+      "aquatic",
+      "aromatic",
+      "asphault",
+      "bacon",
+      "balsamic",
+      "bbq",
+      "beeswax",
+      "bitter",
+      "brown scotch tape",
+      "cacao",
+      "camphor",
+      "cannabis",
+      "caramel",
+      "cherry",
+      "chocolate",
+      "cinnamon",
+      "citrus",
+      "clay",
+      "coca-cola",
+      "coconut",
+      "coffee",
+      "conifer",
+      "earthy",
+      "floral",
+      "foresty",
+      "fresh",
+      "fresh spicy",
+      "fruity",
+      "gasoline",
+      "gourmand",
+      "green",
+      "herbal",
+      "honey",
+      "hot iron",
+      "industrial glue",
+      "iris",
+      "lactonic",
+      "lavender",
+      "leather",
+      "marine",
+      "meat",
+      "metallic",
+      "milky",
+      "mineral",
+      "mossy",
+      "musky",
+      "nutty",
+      "oily",
+      "oud",
+      "ozonic",
+      "paper",
+      "patchouli",
+      "plastic",
+      "powdery",
+      "rose",
+      "rubber",
+      "rum",
+      "sake",
+      "salty",
+      "sand",
+      "savory",
+      "smoky",
+      "soapy",
+      "soft spicy",
+      "sour",
+      "spice",
+      "sweet",
+      "tennis ball",
+      "terpenic",
+      "tobacco",
+      "tropical",
+      "tuberose",
+      "vanilla",
+      "varnish",
+      "vinyl",
+      "violet",
+      "vodka",
+      "warm spicy",
+      "wet plaster",
+      "whiskey",
+      "white floral",
+      "wine",
+      "woody",
+      "yellow floral"
+    ]
+  },
+  "llm": {
+    "model": "gpt-5.4-nano",
+    "endpoint": "https://gms.ssafy.io/gmsapi/api.openai.com/v1/chat/completions",
+    "temperature": 0,
+    "max_retries_after_initial": 2,
+    "timeout_seconds": 90,
+    "system_prompt": "You are the only proposer for Semantic Bridge Accord-only v2.\nRead the Korean bridge_phrase exactly as supplied. Select only the Accord names that are most\nstrongly and defensibly connected to the phrase's actual scent characteristics.\n\nYou must return exactly one JSON object with exactly two keys: status and accords.\n\nFor a mapping, return this shape:\n{\"status\":\"MAPPED\",\"accords\":[\"exact accord name\"]}\n\nA second Accord is allowed only when it is independently strong and necessary:\n{\"status\":\"MAPPED\",\"accords\":[\"exact accord name\",\"exact accord name\"]}\n\nWhen no Accord can be selected defensibly, return:\n{\"status\":\"ABSTAIN\",\"accords\":[]}\n\nThe allowed status values are listed separately:\n- MAPPED\n- ABSTAIN\n\nRules:\n- Use only exact names from the closed Accord vocabulary below.\n- MAPPED requires one or two unique Accord names.\n- ABSTAIN requires an empty accords list.\n- Do not choose an Accord merely because a surface word resembles its name.\n- Do not force every emotion, temperature, texture, or scene into an Accord.\n- Select only Accords supported by sufficiently clear scent characteristics in the phrase.\n- Do not add a weak association merely to fill the second slot.\n- Do not recommend perfumes.\n- Do not output target_type, rationale, confidence, weight, aliases, or any extra key.\n- Output JSON only, with no prose or code fence.\n\nCLOSED ACCORD VOCABULARY (92):\n[\"Champagne\", \"Pear\", \"alcohol\", \"aldehydic\", \"almond\", \"amber\", \"animalic\", \"anis\", \"aquatic\", \"aromatic\", \"asphault\", \"bacon\", \"balsamic\", \"bbq\", \"beeswax\", \"bitter\", \"brown scotch tape\", \"cacao\", \"camphor\", \"cannabis\", \"caramel\", \"cherry\", \"chocolate\", \"cinnamon\", \"citrus\", \"clay\", \"coca-cola\", \"coconut\", \"coffee\", \"conifer\", \"earthy\", \"floral\", \"foresty\", \"fresh\", \"fresh spicy\", \"fruity\", \"gasoline\", \"gourmand\", \"green\", \"herbal\", \"honey\", \"hot iron\", \"industrial glue\", \"iris\", \"lactonic\", \"lavender\", \"leather\", \"marine\", \"meat\", \"metallic\", \"milky\", \"mineral\", \"mossy\", \"musky\", \"nutty\", \"oily\", \"oud\", \"ozonic\", \"paper\", \"patchouli\", \"plastic\", \"powdery\", \"rose\", \"rubber\", \"rum\", \"sake\", \"salty\", \"sand\", \"savory\", \"smoky\", \"soapy\", \"soft spicy\", \"sour\", \"spice\", \"sweet\", \"tennis ball\", \"terpenic\", \"tobacco\", \"tropical\", \"tuberose\", \"vanilla\", \"varnish\", \"vinyl\", \"violet\", \"vodka\", \"warm spicy\", \"wet plaster\", \"whiskey\", \"white floral\", \"wine\", \"woody\", \"yellow floral\"]",
+    "user_prompt_template": "bridge_phrase: {bridge_phrase}",
+    "prompt_sha256": "38259633388dd0b990784876a5a18006023c3a31158b6a9570bbc6e30d8d6896"
+  },
+  "output_schema": {
+    "exact_keys": [
+      "status",
+      "accords"
+    ],
+    "status_values": [
+      "MAPPED",
+      "ABSTAIN"
+    ],
+    "mapped_accord_count": [
+      1,
+      2
+    ],
+    "abstain_accord_count": 0,
+    "exact_vocabulary_match": true,
+    "duplicates_allowed": false,
+    "automatic_correction": false
+  },
+  "results": [
+    {
+      "query_id": "SQ0061",
+      "bridge_phrase": "비 온 뒤의 숲의 냄새",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:23.062948+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYP1sC0592BLQe1IkW6mzt3cJIJ3",
+            "object": "chat.completion",
+            "created": 1788329183,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"foresty\",\"earthy\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 695,
+              "completion_tokens": 19,
+              "total_tokens": 714,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"foresty\",\"earthy\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "foresty",
+        "earthy"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0032",
+      "bridge_phrase": "숲 속에 온 듯한 향",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:25.336884+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYP33pE5Xn1RBt7P6HC7sLLDSwfk",
+            "object": "chat.completion",
+            "created": 1788329185,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"foresty\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 693,
+              "completion_tokens": 16,
+              "total_tokens": 709,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"foresty\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "foresty"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0136",
+      "bridge_phrase": "빨래향 같이 자연스러운 향",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:26.797568+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYP5sH18ORVjCJeT9EpAx8lFn7pB",
+            "object": "chat.completion",
+            "created": 1788329187,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"soapy\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 693,
+              "completion_tokens": 18,
+              "total_tokens": 711,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"soapy\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "fresh",
+        "soapy"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0105",
+      "bridge_phrase": "따뜻한 햇살을 받으며 침대 위에 누워있는 듯한 느낌의 향수",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:29.153092+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYP7pxQ1dMTr906wiBFIft86hEYz",
+            "object": "chat.completion",
+            "created": 1788329189,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"ABSTAIN\",\"accords\":[]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 707,
+              "completion_tokens": 14,
+              "total_tokens": 721,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"ABSTAIN\",\"accords\":[]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "ABSTAIN",
+      "accords": [],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0012",
+      "bridge_phrase": "샤워하고 나온듯한 따뜻하고 포근한 느낌의 향기",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:30.347537+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYP9n4G5OLTtvWjk4vHnmzJarRwt",
+            "object": "chat.completion",
+            "created": 1788329191,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"soapy\",\"warm spicy\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 702,
+              "completion_tokens": 19,
+              "total_tokens": 721,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"soapy\",\"warm spicy\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "soapy",
+        "warm spicy"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0058",
+      "bridge_phrase": "바다가 생각나는 시원한 향",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:32.363292+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYPBNyuJ2mXj4A3l0lxWlR81PBz7",
+            "object": "chat.completion",
+            "created": 1788329193,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"aquatic\",\"fresh\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 693,
+              "completion_tokens": 18,
+              "total_tokens": 711,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"aquatic\",\"fresh\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "aquatic",
+        "fresh"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0002",
+      "bridge_phrase": "시원하고 깔끔한 향",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:33.327619+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYPCwRtUyb0HFl7QboOs7Rh2qHD0",
+            "object": "chat.completion",
+            "created": 1788329194,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 693,
+              "completion_tokens": 15,
+              "total_tokens": 708,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "fresh"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0047",
+      "bridge_phrase": "가벼우면서 시원한 느낌",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:35.458480+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYPEoW04jJUeda9B1TJIxDoXYA27",
+            "object": "chat.completion",
+            "created": 1788329196,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"citrus\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 694,
+              "completion_tokens": 19,
+              "total_tokens": 713,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"citrus\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "fresh",
+        "citrus"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0051",
+      "bridge_phrase": "톡 쏘는 듯한 청량함과 방금 막 세탁된 코튼 향처럼 깨끗한 공기향",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:37.914302+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYPG8YM6quABynrzWsvagkiFSKjG",
+            "object": "chat.completion",
+            "created": 1788329198,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"soapy\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 714,
+              "completion_tokens": 18,
+              "total_tokens": 732,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"soapy\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "fresh",
+        "soapy"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0071",
+      "bridge_phrase": "겨울 아침에 딱~ 일어나서 창문을 열었는데 느껴지는 차갑고 상쾌한 향",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:40.308618+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYPIF3iGVJlT0hahXRwC32S7uv4c",
+            "object": "chat.completion",
+            "created": 1788329200,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"citrus\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 714,
+              "completion_tokens": 19,
+              "total_tokens": 733,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"citrus\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "fresh",
+        "citrus"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0073",
+      "bridge_phrase": "깨끗하고 시원한 향을 좋아하고, 편백나무, 산내음처럼 자연스러운 향",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:41.402796+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYPK6sxzdwqbQXimUABynudjW7uD",
+            "object": "chat.completion",
+            "created": 1788329202,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"foresty\"]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 710,
+              "completion_tokens": 18,
+              "total_tokens": 728,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"MAPPED\",\"accords\":[\"fresh\",\"foresty\"]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "MAPPED",
+      "accords": [
+        "fresh",
+        "foresty"
+      ],
+      "validation_error": ""
+    },
+    {
+      "query_id": "SQ0132",
+      "bridge_phrase": "포근한 느낌",
+      "completed": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T06:06:44.547269+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJYPNDJEbRW6BjQdqg1wshmfTBUvV",
+            "object": "chat.completion",
+            "created": 1788329205,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"status\":\"ABSTAIN\",\"accords\":[]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 689,
+              "completion_tokens": 14,
+              "total_tokens": 703,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"status\":\"ABSTAIN\",\"accords\":[]}",
+          "validation_error": ""
+        }
+      ],
+      "validation_status": "VALID",
+      "status": "ABSTAIN",
+      "accords": [],
+      "validation_error": ""
+    }
+  ],
+  "summary": {
+    "completed_at_utc": "2026-09-02T06:06:44.573558+00:00",
+    "valid_output_count": 12,
+    "mapped_count": 10,
+    "abstain_count": 2,
+    "accord_count_distribution": {
+      "0": 2,
+      "1": 2,
+      "2": 8
+    },
+    "validation_failure_count": 0,
+    "validation_failure_reasons": {},
+    "comparison_path": "analysis_outputs\\23_semantic_bridge_accord_only_v2_comparison.csv",
+    "comparison_sha256": "e09189d2b02a7dcb53a3c3636df4d8857dc8301d71d530ffeef5dd9d47858787",
+    "retrieval_executed": false,
+    "human_evaluation_created": false
+  }
+}

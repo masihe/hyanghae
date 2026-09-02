@@ -1,0 +1,3298 @@
+﻿query_id,query_text,raw_response,pred_scent_preference,pred_context,pred_performance,pred_avoid,pred_additional_requirements,api_status,parse_status,validation_status,attempts,latency_seconds,prompt_tokens,completion_tokens,total_tokens,failure_policy
+UQ0001,비가 온 뒤의 숲같은 향을 찾고 있어,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""비가 온 뒤의 숲같은 향""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""비가 온 뒤의 숲같은 향""]",success,success,success,1,3.082763700047508,635.0,78.0,713.0,
+UQ0002,시트러스 계열의 깔끔한 향의 향수가 있어?,"{
+  ""scent_preference"": [""citrus""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": [""깔끔한 향""]
+}","[""citrus""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""깔끔한 향""]",success,success,success,1,3.729655400151387,637.0,66.0,703.0,
+UQ0003,향수 가격 적당한 거 추천해줘. 그냥 구색 갖추려고 사는 거야.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""가격 적당한 제품"",
+    ""그냥 구색 갖추려고 사는 목적""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""가격 적당한 제품"",""그냥 구색 갖추려고 사는 목적""]",success,success,success,1,4.16904509998858,643.0,90.0,733.0,
+UQ0004,"여성스러운 향을 사고 싶은데, 너무 달콤한 건 싫어. 그런 향기가 있을까?","{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""female""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""too sweet""],
+  ""additional_requirements"": [""여성스러운 향"", ""너무 달콤한 건 싫어""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""female""]}","{""intensity"":"""",""longevity"":""""}","[""too sweet""]","[""여성스러운 향"",""너무 달콤한 건 싫어""]",success,success,success,1,2.8290550999809057,647.0,90.0,737.0,
+UQ0005,난 바닐라 향기가 좋은데. 너무 단 건 싫어.,"{
+  ""scent_preference"": [""Vanilla""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [""Too sweet""],
+  ""additional_requirements"": []
+}","[""Vanilla""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""Too sweet""]",[],success,success,success,1,3.005738199921325,638.0,63.0,701.0,
+UQ0006,바다 냄새 나는 향수가 있나? 가능함?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""바다 냄새 나는 향수 가능 여부 문의""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""바다 냄새 나는 향수 가능 여부 문의""]",success,success,success,1,1.945367000065744,635.0,83.0,718.0,
+UQ0007,30대 초반 남자가 쓰기 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""30대 초반 남자가 쓰기 좋은 향수""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""30대 초반 남자가 쓰기 좋은 향수""]",success,success,success,1,3.18768380000256,635.0,81.0,716.0,
+UQ0008,레몬 말고. 레몬 껍질 냄새나는 향수 있음?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""lemon""
+  ],
+  ""additional_requirements"": [
+    ""lemon peel scent""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""lemon""]","[""lemon peel scent""]",success,success,success,1,2.2009602000471205,640.0,83.0,723.0,
+UQ0009,"중성적인 향수 뿌리고 싶어. 너무 여성스럽지 않되, 너무 남자 향수도 아니었으면 좋겠다.","{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""neuter""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""너무 여성스럽지 않되, 너무 남자 향수도 아니었으면 좋겠다""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""neuter""]}","{""intensity"":"""",""longevity"":""""}",[],"[""너무 여성스럽지 않되, 너무 남자 향수도 아니었으면 좋겠다""]",success,success,success,1,3.307494400069117,652.0,98.0,750.0,
+UQ0010,"케이크 같으면서도, 너무 느끼하지 않고, 딱 맡았을 때 공주처럼 느껴지는 향수 그런 거 없음?","{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""케이크 같은 향"",
+    ""너무 느끼하지 않은 느낌"",
+    ""딱 맡았을 때 공주처럼 느껴지는 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""케이크 같은 향"",""너무 느끼하지 않은 느낌"",""딱 맡았을 때 공주처럼 느껴지는 향""]",success,success,success,1,3.1796375000849366,652.0,102.0,754.0,
+UQ0011,나무 냄새 나는데 너무 절 냄새만 나면 안됨,"{
+  ""scent_preference"": [
+    ""woody""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""too strong only religious/temple-like scent""
+  ],
+  ""additional_requirements"": [
+    ""나무 냄새가 나야 함"",
+    ""절(사찰) 냄새처럼 너무 한쪽으로만 강하게 나면 안 됨""
+  ]
+}","[""woody""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""too strong only religious/temple-like scent""]","[""나무 냄새가 나야 함"",""절(사찰) 냄새처럼 너무 한쪽으로만 강하게 나면 안 됨""]",success,success,success,1,3.696669999975711,638.0,126.0,764.0,
+UQ0012,깨끗한 냄새 없나?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""깨끗한 냄새""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""깨끗한 냄새""]",success,success,success,1,2.189292299794033,631.0,75.0,706.0,
+UQ0013,코코넛 향기 나는데 머리 너무 안 아팠으면 좋겠음,"{
+  ""scent_preference"": [
+    ""Coconut""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""머리 안 아프게(두통이 없었으면 좋겠음)""
+  ]
+}","[""Coconut""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""머리 안 아프게(두통이 없었으면 좋겠음)""]",success,success,success,1,3.4710242999717598,640.0,95.0,735.0,
+UQ0014,나 향수를 잘 모르는데 혹시 추천해줄 수 있어?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향수를 잘 모름"",
+    ""추천 요청""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""향수를 잘 모름"",""추천 요청""]",success,success,success,1,3.1591604000423104,635.0,82.0,717.0,
+UQ0015,여름에 뿌릴 향수 추천 좀.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""여름에 뿌릴 향수 추천 요청""
+  ]
+}",[],"{""season"":[""summer""],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""여름에 뿌릴 향수 추천 요청""]",success,success,success,1,2.0089732001069933,633.0,89.0,722.0,
+UQ0016,여름에 뿌릴 향수 가지고 싶은데 향기 너무 많이 나면 코 아파서... 안 그런거 추천 가능한가?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""여름에 사용할 향수"",
+    ""향기가 너무 많이 나면 코가 아픔"",
+    ""그렇지 않은 향수 추천 가능 여부""
+  ]
+}",[],"{""season"":[""summer""],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""여름에 사용할 향수"",""향기가 너무 많이 나면 코가 아픔"",""그렇지 않은 향수 추천 가능 여부""]",success,success,success,1,2.066365499980748,651.0,110.0,761.0,
+UQ0017,어른스러운 느낌 나는 향수 가지고 싶다. 나는 34살 금융맨임.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""어른스러운 느낌"",
+    ""34살"",
+    ""금융맨""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""어른스러운 느낌"",""34살"",""금융맨""]",success,success,success,1,1.720152199966833,641.0,88.0,729.0,
+UQ0018,여자친구가 생겼는데 여친한테 점수 딸만한 향기 없나...?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""여자친구에게 점수 딸만한 향기(호감 목적)""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""여자친구에게 점수 딸만한 향기(호감 목적)""]",success,success,success,1,1.755959999980405,644.0,86.0,730.0,
+UQ0019,옷에 향수 뿌리고 싶어. 아무거나 추천 해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""옷에 향수 뿌리고 싶음"",
+    ""아무거나 추천해달라는 요청""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""옷에 향수 뿌리고 싶음"",""아무거나 추천해달라는 요청""]",success,success,success,1,2.1795272000599653,639.0,94.0,733.0,
+UQ0020,향수 분사 적당히 되는 거 없나? 입자가 너무 작은 건 싫은데.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향수 분사량이 적당한 것"",
+    ""입자가 너무 작은 건 싫음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""향수 분사량이 적당한 것"",""입자가 너무 작은 건 싫음""]",success,success,success,1,1.6511122998781502,643.0,93.0,736.0,
+UQ0021,"나는 이솝 테싯 퍼퓸을 자주 쓰는데, 이게 내 체향에 잘 맞는 거 같더라고. 비슷한데 다른 향 없나?","{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""Aesop Tetsit perfume를 자주 사용하며 체향에 잘 맞는 것 같음"",
+    ""비슷한데 다른 향(대체/유사 향수) 추천 요청""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""Aesop Tetsit perfume를 자주 사용하며 체향에 잘 맞는 것 같음"",""비슷한데 다른 향(대체/유사 향수) 추천 요청""]",success,success,success,1,1.964954299852252,660.0,113.0,773.0,
+UQ0022,나 조말론 블랙베리는 별로더라... 이런 나한테 추천해줄 만한 향수 없나,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""Blackberry (Jo Malone BlackBerry 계열)""
+  ],
+  ""additional_requirements"": [
+    ""Jo Malone Blackberry가 별로였던 사람에게 맞는 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""Blackberry (Jo Malone BlackBerry 계열)""]","[""Jo Malone Blackberry가 별로였던 사람에게 맞는 향수 추천""]",success,success,success,1,1.836814400041476,647.0,101.0,748.0,
+UQ0023,남자가 뿌릴 깔끔한 향수 추천 좀.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""깔끔한 향수""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""깔끔한 향수""]",success,success,success,1,1.9194018000271167,636.0,75.0,711.0,
+UQ0024,나 25살 여잔데 이번에 회사 취직해서 나한테 선물할 겸 하나 사고 싶음! 어떤 게 좋을까???,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""female""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""25살"", ""회사 취직 선물"", ""본인에게 선물로 구매""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""female""]}","{""intensity"":"""",""longevity"":""""}",[],"[""25살"",""회사 취직 선물"",""본인에게 선물로 구매""]",success,success,success,1,1.822732999920845,653.0,88.0,741.0,
+UQ0025,소개팅할 때 부담스럽지 않으면서 좋은 인상을 줄 수 있는 향수 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""소개팅"",
+    ""부담스럽지 않게"",
+    ""좋은 인상""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""소개팅"",""부담스럽지 않게"",""좋은 인상""]",success,success,success,1,2.1810704998206347,643.0,90.0,733.0,
+UQ0026,조용하고 차분한 사람에게 잘 어울릴 것 같은 향수를 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""조용하고 차분한 사람에게 잘 어울리는 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""조용하고 차분한 사람에게 잘 어울리는 향""]",success,success,success,1,2.264585600001737,641.0,85.0,726.0,
+UQ0027,지나갈 때 은은하게 좋은 냄새가 나는 정도의 향수를 찾고 있어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""지나갈 때 은은하게 좋은 냄새가 나는 정도""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],"[""지나갈 때 은은하게 좋은 냄새가 나는 정도""]",success,success,success,1,2.3455048000905663,642.0,84.0,726.0,
+UQ0028,회사에서 매일 사용해도 부담 없는 깔끔한 향수 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [""day""],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""회사에서 매일 사용하기"", ""부담 없는 깔끔한 향""]
+}",[],"{""season"":[],""daypart"":[""day""],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""회사에서 매일 사용하기"",""부담 없는 깔끔한 향""]",success,success,success,1,1.7121103999670595,640.0,86.0,726.0,
+UQ0029,처음 향수를 사는 사람도 무난하게 사용할 수 있는 향수를 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""처음 향수를 사는 사람도 무난하게 사용할 수 있는 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""처음 향수를 사는 사람도 무난하게 사용할 수 있는 향수""]",success,success,success,1,1.750820599962026,641.0,88.0,729.0,
+UQ0030,사람 많은 곳에서도 너무 강하게 느껴지지 않는 은은한 향수를 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""사람 많은 곳에서도 너무 강하게 느껴지지 않는 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],"[""사람 많은 곳에서도 너무 강하게 느껴지지 않는 향""]",success,success,success,1,1.7916574999690056,643.0,88.0,731.0,
+UQ0031,특별히 원하는 향은 모르겠는데 사람들이 맡았을 때 그냥 ‘좋은 냄새 난다’고 느낄 만한 향수를 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""사람들이 맡았을 때 그냥 ‘좋은 냄새 난다’고 느낄 만한 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""사람들이 맡았을 때 그냥 ‘좋은 냄새 난다’고 느낄 만한 향""]",success,success,success,1,4.041534600080922,657.0,96.0,753.0,
+UQ0032,향수 냄새가 강하면 머리가 아파서 최대한 부드럽고 편안한 향을 찾고 있어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향이 강하면 머리가 아픔"",
+    ""최대한 부드럽고 편안한 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],"[""향이 강하면 머리가 아픔"",""최대한 부드럽고 편안한 향""]",success,success,success,1,1.829304600134492,649.0,96.0,745.0,
+UQ0033,내가 20대 후반인데 너무 어려 보이지 않으면서 세련된 향수를 찾고 있어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""20대 후반"",
+    ""너무 어려 보이지 않게"",
+    ""세련된 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""20대 후반"",""너무 어려 보이지 않게"",""세련된 향수""]",success,success,success,1,1.9001995001453904,645.0,94.0,739.0,
+UQ0034,너무 향수 뿌린 티 안나는 걸로 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""너무 향수 뿌린 티 안나는 것""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],"[""너무 향수 뿌린 티 안나는 것""]",success,success,success,1,1.6206618000287565,637.0,86.0,723.0,
+UQ0035,나한테 무슨 향이 어울리는지 모르겠음 그냥 골라줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""나한테 어울리는 향을 모름"",
+    ""그냥 골라달라고 요청""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""나한테 어울리는 향을 모름"",""그냥 골라달라고 요청""]",success,success,success,1,3.971702400129288,639.0,92.0,731.0,
+UQ0036,면접 갈 때 향수 뿌려도 됨? 뿌린다면 뭐가 좋아,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""면접 갈 때 향수 사용 가능 여부"",
+    ""뿌린다면 어떤 향 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""면접 갈 때 향수 사용 가능 여부"",""뿌린다면 어떤 향 추천""]",success,success,success,1,1.9564008999150249,643.0,92.0,735.0,
+UQ0037,남자친구한테서 났으면 하는 향 찾아줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""남자친구에게서 났으면 하는 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""남자친구에게서 났으면 하는 향""]",success,success,success,1,1.8069550001528116,635.0,83.0,718.0,
+UQ0038,향수 하나만 사서 사계절 내내 쓰고 싶은데 가능?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""사계절 내내 사용할 수 있는 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""사계절 내내 사용할 수 있는 향수""]",success,success,success,1,2.706613899907097,638.0,82.0,720.0,
+UQ0039,출근할때 매일 막 뿌릴 수 있는거,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [""day""],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""출근할 때 매일 매일 뿌릴 수 있는""]
+}",[],"{""season"":[],""daypart"":[""day""],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""출근할 때 매일 매일 뿌릴 수 있는""]",success,success,success,1,2.221155400155112,635.0,84.0,719.0,
+UQ0040,담배 피우는데 담배냄새랑 섞여도 이상하지 않은 향수 있을까,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""담배 냄새와 섞여도 이상하지 않은 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""담배 냄새와 섞여도 이상하지 않은 향수""]",success,success,success,1,1.5778467000927776,643.0,87.0,730.0,
+UQ0041,여자 향수인데 남자가 써도 안 이상한거 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""female"",
+      ""neuter""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""여자 향수인데 남자가 써도 안 이상한 것 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""female"",""neuter""]}","{""intensity"":"""",""longevity"":""""}",[],"[""여자 향수인데 남자가 써도 안 이상한 것 추천""]",success,success,success,1,1.4776041000150144,638.0,98.0,736.0,
+UQ0042,여름에 땀 많이 나는데 땀냄새랑 섞여서 이상해지지 않는거,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [""summer""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""땀 많이 나는 여름 상황에서도 땀냄새와 섞여 이상해지지 않기""]
+}",[],"{""season"":[""summer""],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""땀 많이 나는 여름 상황에서도 땀냄새와 섞여 이상해지지 않기""]",success,success,success,1,3.0449016999918967,647.0,95.0,742.0,
+UQ0043,향수 입문자한테 괜찮은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향수 입문자""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""향수 입문자""]",success,success,success,1,1.4597370000556111,637.0,77.0,714.0,
+UQ0044,면세점에서 사기 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""duty-free(면세점)에서 구매하기 좋은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""duty-free(면세점)에서 구매하기 좋은 향수 추천""]",success,success,success,1,1.8787750001065435,633.0,87.0,720.0,
+UQ0045,헬스장에서 반응 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""헬스장에서 반응 좋은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""헬스장에서 반응 좋은 향수 추천""]",success,success,success,1,1.518433399964124,633.0,82.0,715.0,
+UQ0046,오늘 뿌리기 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""오늘 뿌리기 좋은 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""오늘 뿌리기 좋은 향수""]",success,success,success,1,2.0167777999304235,633.0,81.0,714.0,
+UQ0047,남자가 쓰기 좋은 엄청 섹시한 느낌의 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""엄청 섹시한 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""엄청 섹시한 느낌""]",success,success,success,1,2.2006794000044465,639.0,85.0,724.0,
+UQ0048,비누향이나 섬유유연제 향이 강하게 나는 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""비누향이 강하게 나는 향수"",
+    ""섬유유연제 향이 강하게 나는 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""비누향이 강하게 나는 향수"",""섬유유연제 향이 강하게 나는 향수""]",success,success,success,1,1.6951683000661433,641.0,97.0,738.0,
+UQ0049,나한테 맞는 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""나한테 맞는 향수 추천""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""나한테 맞는 향수 추천""]",success,success,success,1,1.4192241998389363,631.0,76.0,707.0,
+UQ0050,향수 입문자에게 괜찮은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""향수 입문자에게 괜찮은 향수 추천""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""향수 입문자에게 괜찮은 향수 추천""]",success,success,success,1,1.790341200074181,636.0,81.0,717.0,
+UQ0051,향수 입문용으로 조말론이나 메종 마르지엘라는 어때?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향수 입문용"",
+    ""조말론"",
+    ""메종 마르지엘라""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""향수 입문용"",""조말론"",""메종 마르지엘라""]",success,success,success,1,1.5685409000143409,641.0,93.0,734.0,
+UQ0052,향수 사보려고 하는데 난 달콤한 향기는 별로 안 좋아하거든 좀 화한거 사고싶어,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""sweet (달콤한)""
+  ],
+  ""additional_requirements"": [
+    ""좀 화한 향기(화한 느낌) 선호""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""sweet (달콤한)""]","[""좀 화한 향기(화한 느낌) 선호""]",success,success,success,1,1.9945060999598356,649.0,95.0,744.0,
+UQ0053,맑고 산뜻한거 갖고싶은데,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""맑고 산뜻한 느낌""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""맑고 산뜻한 느낌""]",success,success,success,1,1.4518591000232846,633.0,75.0,708.0,
+UQ0054,홍차향 같은 향수도 있나? 근데 너무 음식같은 느낌 안 났으면 좋곘음,"{
+  ""scent_preference"": [
+    ""black tea""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""too food-like""
+  ],
+  ""additional_requirements"": [
+    ""홍차향 같은 향수 찾아보기""
+  ]
+}","[""black tea""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""too food-like""]","[""홍차향 같은 향수 찾아보기""]",success,success,success,1,1.4380548000335691,646.0,95.0,741.0,
+UQ0055,플로럴 계열인데 톡 쏘는 거 추천 받고싶음,"{
+  ""scent_preference"": [
+    ""floral"",
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""톡 쏘는 느낌""
+  ]
+}","[""floral"",""citrus""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""톡 쏘는 느낌""]",success,success,success,1,1.7866110000759363,638.0,91.0,729.0,
+UQ0056,아로마 계열이면 다 좋은데 너무 진한 향 아니고 은은한 게 좋아,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""아로마 계열을 선호"",
+    ""너무 진한 향은 싫고 은은한 향을 원함""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],"[""아로마 계열을 선호"",""너무 진한 향은 싫고 은은한 향을 원함""]",success,success,success,1,1.514034500112757,641.0,101.0,742.0,
+UQ0057,대학교 들어가는데 좀 어른스러운 느낌의 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""어른스러운 느낌"", ""대학교 입학""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""어른스러운 느낌"",""대학교 입학""]",success,success,success,1,1.5660559001844376,637.0,78.0,715.0,
+UQ0058,내 추구미 겨울 느낌나는 서늘한 여자임 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""winter""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""female""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""winter 느낌"",
+    ""서늘한 여자임""
+  ]
+}",[],"{""season"":[""winter""],""daypart"":[],""gender"":[""female""]}","{""intensity"":"""",""longevity"":""""}",[],"[""winter 느낌"",""서늘한 여자임""]",success,success,success,1,1.8216510999482125,637.0,94.0,731.0,
+UQ0059,무조건 달콤한 향이 좋아 달콤한데 약간 민트계열도 있었으면 좋겠어,"{
+  ""scent_preference"": [""Sweet"", ""Mint""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""무조건 달콤한 향"", ""달콤한데 약간 민트계열도 있으면 좋겠어""]
+}","[""Sweet"",""Mint""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""무조건 달콤한 향"",""달콤한데 약간 민트계열도 있으면 좋겠어""]",success,success,success,1,2.4074814000632614,647.0,99.0,746.0,
+UQ0060,살같에서 날 것 같은 베이비 파우더 같은 거 가지고 싶어,"{
+  ""scent_preference"": [""Baby Powder""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""살갗에서 날 것 같은 느낌""]
+}","[""Baby Powder""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""살갗에서 날 것 같은 느낌""]",success,success,success,1,1.4881577000487596,638.0,79.0,717.0,
+UQ0061,흰 꽃에서만 나는 맑은 향에 시트러스 향 섞인 거 갖고싶어.,"{
+  ""scent_preference"": [
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""맑은 향"",
+    ""흰 꽃에서만 나는 향"",
+    ""시트러스 향이 섞인 것""
+  ]
+}","[""citrus""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""맑은 향"",""흰 꽃에서만 나는 향"",""시트러스 향이 섞인 것""]",success,success,success,1,2.012364000082016,645.0,106.0,751.0,
+UQ0062,풍성한 복숭아!!! 나는 복숭아 밭한다!!! 할 정도로 복숭아 향나는 폭닥한거,"{
+  ""scent_preference"": [
+    ""Peach""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""peach 향이 풍성한"",
+    ""폭닥한 느낌""
+  ]
+}","[""Peach""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""peach 향이 풍성한"",""폭닥한 느낌""]",success,success,success,1,1.4641547000501305,651.0,93.0,744.0,
+UQ0063,쨍한 허브 비누향에 세제 잔뜩 쓴 것 같은 향 갖고 싶어,"{
+  ""scent_preference"": [
+    ""Fresh herb"",
+    ""clean soap""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""세제를 잔뜩 쓴 것 같은 향""
+  ]
+}","[""Fresh herb"",""clean soap""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""세제를 잔뜩 쓴 것 같은 향""]",success,success,success,1,1.7540531000122428,646.0,95.0,741.0,
+UQ0064,차가운데 쨍한 향수 추천,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""차가운데 쨍한 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""차가운데 쨍한 향""]",success,success,success,1,1.4097984998952595,631.0,80.0,711.0,
+UQ0065,은은하게 잔향 좋은 거. 향은 딱히 선호 없음 모름 잘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""은은하게 잔향 좋은 거"",
+    ""향은 딱히 선호 없음/모름""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],"[""은은하게 잔향 좋은 거"",""향은 딱히 선호 없음/모름""]",success,success,success,1,1.658138600178063,641.0,96.0,737.0,
+UQ0066,자연스러운 향수 갖고싶음 은은한 살냄새 같은 걸로,"{
+  ""scent_preference"": [
+    ""Skin scent""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""자연스러운 향"",
+    ""은은한 살냄새 같은 느낌""
+  ]
+}","[""Skin scent""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],"[""자연스러운 향"",""은은한 살냄새 같은 느낌""]",success,success,success,1,2.1852507998701185,641.0,98.0,739.0,
+UQ0067,중성적인 향수 원해. 약간 담백하고 부드러운데 엣지있는거?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""neuter""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""약간 담백하고 부드러운데 엣지 있는 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""neuter""]}","{""intensity"":"""",""longevity"":""""}",[],"[""약간 담백하고 부드러운데 엣지 있는 느낌""]",success,success,success,1,2.151803199900314,644.0,93.0,737.0,
+UQ0068,장마철 호수에 떠있는 연꽃같은 느낌 원해,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""장마철, 호수 위에 떠있는 연꽃 같은 느낌""
+  ]
+}",[],"{""season"":[""summer""],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""장마철, 호수 위에 떠있는 연꽃 같은 느낌""]",success,success,success,1,1.658338899957016,636.0,92.0,728.0,
+UQ0069,땀 냄새랑 섞여도 안 이상한 거. 바디스프레이처럼 쓸 수 있는 거 필요함,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""땀 냄새랑 섞여도 이상하지 않음"",
+    ""바디스프레이처럼 가볍게/편하게 사용 가능""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""땀 냄새랑 섞여도 이상하지 않음"",""바디스프레이처럼 가볍게/편하게 사용 가능""]",success,success,success,1,2.1994357998482883,650.0,105.0,755.0,
+UQ0070,10만원 이내에서 살 수 있는 저렴한 시원한 향기 나는 향수,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""10만원 이내"",
+    ""저렴한"",
+    ""시원한 향기""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""10만원 이내"",""저렴한"",""시원한 향기""]",success,success,success,1,1.8043152000755072,640.0,90.0,730.0,
+UQ0071,무조건 20만원 이내에서 조합 괜찮은 향수 2개. 중성적인 느낌으로!,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""neuter""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""20만원 이내"",
+    ""조합 괜찮은 향수 2개"",
+    ""중성적인 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""neuter""]}","{""intensity"":"""",""longevity"":""""}",[],"[""20만원 이내"",""조합 괜찮은 향수 2개"",""중성적인 느낌""]",success,success,success,1,1.6489327000454068,647.0,104.0,751.0,
+UQ0072,이슬을 머금은 장미같은 향수 추천해줘,"{
+  ""scent_preference"": [""Rose""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": [""이슬을 머금은 장미 같은 향""]
+}","[""Rose""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""이슬을 머금은 장미 같은 향""]",success,success,success,1,1.408842500066385,636.0,70.0,706.0,
+UQ0073,첫 인상이 포근하고 릴랙싱한 향수를 가지고 싶어,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""첫 인상이 포근하고 릴랙싱한 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""첫 인상이 포근하고 릴랙싱한 향""]",success,success,success,1,1.8109963000752032,637.0,84.0,721.0,
+UQ0074,비 오는 날에 뿌릴 만한 30대 여성 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": ""female""
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""비 오는 날"",
+    ""30대 여성"",
+    ""추천 요청""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],[],success,success,failed,3,8.413809000048786,,,,empty_stage1_for_200_query_evaluation
+UQ0075,회사나 중요한 공식석상에서 뿌리기 적합한 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""회사나 중요한 공식석상에서 뿌리기 적합""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""회사나 중요한 공식석상에서 뿌리기 적합""]",success,success,success,1,1.3585429000668228,641.0,86.0,727.0,
+UQ0076,산뜻하면서 과일냄새 나는 향수 사고싶어,"{
+  ""scent_preference"": [
+    ""citrus"",
+    ""fruity""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""산뜻하면서 과일냄새 나는 향수""
+  ]
+}","[""citrus"",""fruity""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""산뜻하면서 과일냄새 나는 향수""]",success,success,success,1,1.6053816999774426,635.0,96.0,731.0,
+UQ0077,지금 단종된 템버린즈 볼드 시트러스랑 비슷한 향수 추천해줘,"{
+  ""scent_preference"": [
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""지금 단종된 템버린즈 볼드 시트러스와 비슷한 향""
+  ]
+}","[""citrus""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""지금 단종된 템버린즈 볼드 시트러스와 비슷한 향""]",success,success,success,1,1.771979499841109,645.0,100.0,745.0,
+UQ0078,가볍고 부드러운 느낌의 향수,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""가볍고 부드러운 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""가볍고 부드러운 느낌""]",success,success,success,1,1.745500799966976,632.0,80.0,712.0,
+UQ0079,물 대신 과즙을 마시고 자란 꽃 같은 느낌과 최대한 비슷한 느낌의 향수,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""물 대신 과즙을 마신 듯한 느낌"",
+    ""자란 꽃 같은 느낌"",
+    ""가능한 한 최대한 비슷한 느낌의 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""물 대신 과즙을 마신 듯한 느낌"",""자란 꽃 같은 느낌"",""가능한 한 최대한 비슷한 느낌의 향수""]",success,success,success,1,2.200581000186503,645.0,106.0,751.0,
+UQ0080,바다에 누워서 가만히 하늘을 올려다보고있는 듯한 느낌의 향수,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""바다에 누워서 가만히 하늘을 올려다보고 있는 듯한 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""바다에 누워서 가만히 하늘을 올려다보고 있는 듯한 느낌""]",success,success,success,1,1.8580632000230253,644.0,92.0,736.0,
+UQ0081,휴양지에 놀러갔을 때 어울릴만한 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""휴양지에서 어울릴만한 향수 추천""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""휴양지에서 어울릴만한 향수 추천""]",success,success,success,1,1.5297276999335736,641.0,80.0,721.0,
+UQ0082,뿌리고 슥 지나갔을 때 향이 너무 좋아서 사람들이 다 돌아볼 것 같은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""뿌리고 슥 지나갔을 때 향이 좋을 것"",
+    ""사람들이 돌아볼 것 같은 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""뿌리고 슥 지나갔을 때 향이 좋을 것"",""사람들이 돌아볼 것 같은 향""]",success,success,success,1,2.1024972000159323,648.0,99.0,747.0,
+UQ0083,귀엽고 산뜻한 20대 여자가 뿌리면 잘어울릴 향수 알려줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""female""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""귀엽고 산뜻한"", ""20대 여성""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""female""]}","{""intensity"":"""",""longevity"":""""}",[],"[""귀엽고 산뜻한"",""20대 여성""]",success,success,success,2,4.3250902001746,646.0,82.0,728.0,
+UQ0084,40대 남성 데일리 향수 추천,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [
+      ""day""
+    ],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""40대"",
+    ""daily""
+  ]
+}",[],"{""season"":[],""daypart"":[""day""],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""40대"",""daily""]",success,success,success,1,1.7178404999431225,631.0,90.0,721.0,
+UQ0085,여름에 남자가 쓰기 좋은 시원한 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""여름에 남자가 쓰기 좋은 시원한 향수""
+  ]
+}",[],"{""season"":[""summer""],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""여름에 남자가 쓰기 좋은 시원한 향수""]",success,success,success,1,1.7179328999482095,637.0,97.0,734.0,
+UQ0086,봄에 데일리로 쓰기 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""spring""
+    ],
+    ""daypart"": [
+      ""day""
+    ],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""daily use""
+  ]
+}",[],"{""season"":[""spring""],""daypart"":[""day""],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""daily use""]",success,success,success,1,1.422600100049749,636.0,86.0,722.0,
+UQ0087,가을에 잘 어울리는 우디 향수 추천해줘,"{
+  ""scent_preference"": [""woody""],
+  ""context"": {
+    ""season"": [""autumn""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""가을에 잘 어울리는 우디 향수 추천해줘""]
+}","[""woody""]","{""season"":[""autumn""],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""가을에 잘 어울리는 우디 향수 추천해줘""]",success,success,success,1,1.587847099872306,635.0,88.0,723.0,
+UQ0088,출근할 때 부담 없이 뿌릴 수 있는 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [""day""],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""출근할 때 부담 없이 뿌릴 수 있는 향수 추천""]
+}",[],"{""season"":[],""daypart"":[""day""],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""출근할 때 부담 없이 뿌릴 수 있는 향수 추천""]",success,success,success,1,1.6571980000007898,638.0,85.0,723.0,
+UQ0089,소개팅할 때 쓰기 좋은 남자 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""소개팅할 때"",
+    ""남자 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""소개팅할 때"",""남자 향수""]",success,success,success,1,1.434417099924758,635.0,83.0,718.0,
+UQ0090,데이트할 때 반응 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""데이트할 때 반응 좋은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""데이트할 때 반응 좋은 향수 추천""]",success,success,success,1,1.4190493999049067,632.0,81.0,713.0,
+UQ0091,회사에서 쓰기 좋은 은은한 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""회사에서 쓰기 좋은"", ""은은한 향수""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],"[""회사에서 쓰기 좋은"",""은은한 향수""]",success,success,success,1,1.857384700095281,634.0,82.0,716.0,
+UQ0092,향이 너무 세지 않은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],[],success,success,success,1,1.9801743000280112,632.0,69.0,701.0,
+UQ0093,인기많은 남자 향수 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""인기 많은 남자 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""인기 많은 남자 향수""]",success,success,success,1,1.5046876999549568,633.0,85.0,718.0,
+UQ0094,너무 흔하지 않으면서 섹시한 느낌의 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""너무 흔하지 않음"",
+    ""섹시한 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""너무 흔하지 않음"",""섹시한 느낌""]",success,success,success,1,1.5290129000786692,639.0,86.0,725.0,
+UQ0095,햇살 내리쬐는 일본 여름같은 향수,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""햇살 내리쬐는 일본 여름 같은 향""
+  ]
+}",[],"{""season"":[""summer""],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""햇살 내리쬐는 일본 여름 같은 향""]",success,success,success,1,1.51571619999595,637.0,92.0,729.0,
+UQ0096,중성적이면서 살짝 꿀 향이 나는 향수 찾고있어,"{
+  ""scent_preference"": [
+    ""Honey""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""neuter""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""중성적""
+  ]
+}","[""Honey""]","{""season"":[],""daypart"":[],""gender"":[""neuter""]}","{""intensity"":"""",""longevity"":""""}",[],"[""중성적""]",success,success,success,1,1.5808137999847531,639.0,88.0,727.0,
+UQ0097,마사지숍에서 날 것 같은 향수,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""마사지숍에서 날 것 같은 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""마사지숍에서 날 것 같은 향""]",success,success,success,1,1.9002652000635865,630.0,80.0,710.0,
+UQ0098,양키캔들 핑크 샌즈 쓰고 있는데 이거 향 너무 좋아서 이거랑 비슷한 향수 갖고싶어,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""양키캔들 핑크 샌즈와 비슷한 향을 원함"",
+    ""현재 사용 중인 '핑크 샌즈' 향이 너무 마음에 듦""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""양키캔들 핑크 샌즈와 비슷한 향을 원함"",""현재 사용 중인 '핑크 샌즈' 향이 너무 마음에 듦""]",success,success,success,1,1.6908549000509083,653.0,112.0,765.0,
+UQ0099,갓 세탁한 포근한 이불 같은 느낌의 향수 가지고싶어,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""갓 세탁한 포근한 이불 같은 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""갓 세탁한 포근한 이불 같은 느낌""]",success,success,success,1,2.085098500130698,639.0,84.0,723.0,
+UQ0100,샤넬 no5랑 믹스해서 사용하기 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""샤넬 No.5와 믹스해서 사용하기 좋은 향수 추천"",
+    ""No.5와 함께 레이어링 용도""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""샤넬 No.5와 믹스해서 사용하기 좋은 향수 추천"",""No.5와 함께 레이어링 용도""]",success,success,success,1,2.543315899791196,640.0,103.0,743.0,
+UQ0101,봄에 쓰기 좋은 달달한 꽃 향수 사고싶어,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [""spring""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""sweet"", ""floral""]
+}",[],"{""season"":[""spring""],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""sweet"",""floral""]",success,success,success,1,1.634162100031972,636.0,75.0,711.0,
+UQ0102,아빠 선물용으로 실패 확률 낮은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""아빠 선물용"",
+    ""실패 확률 낮은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""아빠 선물용"",""실패 확률 낮은 향수 추천""]",success,success,success,1,1.6613559001125395,637.0,89.0,726.0,
+UQ0103,평소에 스트릿룩 많이 입는데 스트릿룩이랑 어울리는 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""스트릿룩과 어울리는 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""스트릿룩과 어울리는 향수 추천""]",success,success,success,1,1.7477557000238448,645.0,83.0,728.0,
+UQ0104,향수 하나만 산다면 사계절용으로 뭐가 좋아?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [""spring"", ""summer"", ""autumn"", ""winter""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""하나만 추천"", ""사계절용""]
+}",[],"{""season"":[""spring"",""summer"",""autumn"",""winter""],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""하나만 추천"",""사계절용""]",success,success,success,1,1.499278400093317,636.0,90.0,726.0,
+UQ0105,시향 없이 블라인드 구매해도 괜찮은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""시향 없이 블라인드 구매해도 괜찮은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""시향 없이 블라인드 구매해도 괜찮은 향수 추천""]",success,success,success,1,1.5953417997807264,639.0,88.0,727.0,
+UQ0106,지속력 좋은 남자 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""HIGH""}",[],[],success,success,success,1,1.7059458999428898,632.0,71.0,703.0,
+UQ0107,잔향이 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""잔향이 좋은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""HIGH""}",[],"[""잔향이 좋은 향수 추천""]",success,success,success,1,1.472313999896869,630.0,81.0,711.0,
+UQ0108,처음 맡았을 때 호불호 적은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""처음 맡았을 때 호불호가 적은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""처음 맡았을 때 호불호가 적은 향수 추천""]",success,success,success,1,1.720129600027576,637.0,87.0,724.0,
+UQ0109,여자들이 좋아할 만한 남자 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""여자들이 좋아할 만한 남자 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""여자들이 좋아할 만한 남자 향수 추천""]",success,success,success,1,1.6366235001478344,635.0,90.0,725.0,
+UQ0110,남자가 쓰기 좋은 머스크 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""남자가 쓰기 좋은 머스크 향수 추천해줘""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""남자가 쓰기 좋은 머스크 향수 추천해줘""]",success,success,success,1,2.058560500154272,633.0,90.0,723.0,
+UQ0111,남자가 쓰기 좋은 파우더리 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""파우더리 향수"",
+    ""남자가 쓰기 좋은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""파우더리 향수"",""남자가 쓰기 좋은 향수 추천""]",success,success,success,1,2.6454481999389827,635.0,95.0,730.0,
+UQ0112,깨끗하고 포근한 느낌의 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""깨끗한 느낌"",
+    ""포근한 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""깨끗한 느낌"",""포근한 느낌""]",success,success,success,1,1.8267188998870552,635.0,84.0,719.0,
+UQ0113,샤워하고 나온 것 같은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""샤워하고 나온 것 같은 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""샤워하고 나온 것 같은 향""]",success,success,success,1,1.5184018998406827,633.0,80.0,713.0,
+UQ0114,부드러운 우디 향수 추천해줘,"{
+  ""scent_preference"": [
+    ""woody""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""부드러운 우디 향수 추천""
+  ]
+}","[""woody""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""부드러운 우디 향수 추천""]",success,success,success,1,1.4280213001184163,631.0,87.0,718.0,
+UQ0115,호텔 로비 같은 고급스러운 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""호텔 로비 같은 고급스러운 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""호텔 로비 같은 고급스러운 향""]",success,success,success,1,1.4724131000693887,634.0,81.0,715.0,
+UQ0116,달달하지만 너무 느끼하지 않은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""달달한 향"",
+    ""너무 느끼하지 않은 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""달달한 향"",""너무 느끼하지 않은 향""]",success,success,success,1,1.687124100048095,634.0,86.0,720.0,
+UQ0117,시트러스 향이 오래가는 향수 추천해줘,"{
+  ""scent_preference"": [
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","[""citrus""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""HIGH""}",[],[],success,success,success,1,1.4602822000160811,633.0,77.0,710.0,
+UQ0118,니치 향수 입문용으로 추천해줄 만한 거 있어?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""니치 향수 입문용 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""니치 향수 입문용 추천""]",success,success,success,1,1.6194428000599146,637.0,80.0,717.0,
+UQ0119,10만 원대에서 살 만한 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""10만 원대 예산""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""10만 원대 예산""]",success,success,success,1,1.4755734000355003,634.0,78.0,712.0,
+UQ0120,20만 원 이하로 가성비 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""가격 20만 원 이하"",
+    ""가성비 좋은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""가격 20만 원 이하"",""가성비 좋은 향수 추천""]",success,success,success,1,1.3694257999304682,635.0,88.0,723.0,
+UQ0121,20대 후반 남자한테 어울리는 향수 내놔,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""20대 후반 남자에게 어울리는 향수""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""20대 후반 남자에게 어울리는 향수""]",success,success,success,1,1.4675370000768453,637.0,82.0,719.0,
+UQ0122,결혼하는 사람한테 선물해줄 향수는 뭐가 있을까?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""결혼하는 사람에게 선물할 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""결혼하는 사람에게 선물할 향수""]",success,success,success,1,1.6550425000023097,639.0,82.0,721.0,
+UQ0123,운동하고 뿌리면 좋을 남자 향수가 필요해,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""운동하고 뿌리기 좋음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""운동하고 뿌리기 좋음""]",success,success,success,1,1.650324699934572,637.0,88.0,725.0,
+UQ0124,요즘 올리브영이나 백화점에서 가장 핫하고 인기 많은 여자 향수 알려줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""female""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""올리브영에서 핫하고 인기 많은 여자 향수"", ""백화점에서 핫하고 인기 많은 여자 향수""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""female""]}","{""intensity"":"""",""longevity"":""""}",[],"[""올리브영에서 핫하고 인기 많은 여자 향수"",""백화점에서 핫하고 인기 많은 여자 향수""]",success,success,success,1,1.566871500108391,644.0,97.0,741.0,
+UQ0125,호불호 안 갈리고 누구나 맡았을 때 '좋다'고 느낄 만한 향수 추천좀,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""호불호 안 갈리고 누구나 맡았을 때 '좋다'고 느낄 만한 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""호불호 안 갈리고 누구나 맡았을 때 '좋다'고 느낄 만한 향수 추천""]",success,success,success,1,2.103383800014853,647.0,97.0,744.0,
+UQ0126,향수 초보인데 실패 확률 제일 적고 남들이 다들 좋다고 하는 남자 향수는 뭐가 있어,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향수 초보"",
+    ""실패 확률이 가장 낮은 남자 향수"",
+    ""주변 사람들이 대체로 좋다고 하는 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""향수 초보"",""실패 확률이 가장 낮은 남자 향수"",""주변 사람들이 대체로 좋다고 하는 향""]",success,success,success,1,1.6653438000939786,648.0,104.0,752.0,
+UQ0127,이번에 향수 하나 장만하려는데 남자 향수는 요즘 뭐가 제일 잘 나가냐?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""남자 향수 중 요즘 가장 잘 나가는 제품 추천 요청"", ""향수는 하나만 구매하려는 상황""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""남자 향수 중 요즘 가장 잘 나가는 제품 추천 요청"",""향수는 하나만 구매하려는 상황""]",success,success,success,1,1.6458407000172883,646.0,95.0,741.0,
+UQ0128,호불호 안 갈리는 여자친구 선물용 향수 추천,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""female""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""호불호 안 가는 여자친구 선물용""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""female""]}","{""intensity"":"""",""longevity"":""""}",[],"[""호불호 안 가는 여자친구 선물용""]",success,success,success,1,1.8367540000472216,636.0,82.0,718.0,
+UQ0129,비누 향이나 세탁 건조기처럼 포근하고 깨끗한 향 나는 남자 향수 찾고 있어요,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""비누 향"",
+    ""세탁 건조기처럼 포근하고 깨끗한 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""비누 향"",""세탁 건조기처럼 포근하고 깨끗한 향""]",success,success,success,1,1.9963829000480475,648.0,98.0,746.0,
+UQ0130,향수병 디자인이 독특하거나 예술적인 향수 추천해 주세용,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향수병 디자인이 독특한"",
+    ""예술적인 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""향수병 디자인이 독특한"",""예술적인 향수""]",success,success,success,1,1.4361632999498395,639.0,88.0,727.0,
+UQ0131,우디 향수가 좋아~,"{
+  ""scent_preference"": [""woody""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","[""woody""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],[],success,success,success,1,2.297366400016472,627.0,70.0,697.0,
+UQ0132,바다가 떠오르는 여름용 남자 향수가 필요해,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""바다가 떠오르는 여름용 남자 향수""
+  ]
+}",[],"{""season"":[""summer""],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""바다가 떠오르는 여름용 남자 향수""]",success,success,success,1,1.60658139991574,635.0,96.0,731.0,
+UQ0133,디자인이 엄청 고급스럽고 화려해서 선물용으로 소장 가치 있는 향수 병 디자인 추천해 줄래,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""병 디자인이 엄청 고급스럽고 화려함"",
+    ""선물용"",
+    ""소장 가치 있는 향수 병 디자인 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""병 디자인이 엄청 고급스럽고 화려함"",""선물용"",""소장 가치 있는 향수 병 디자인 추천""]",success,success,success,1,2.6531479000113904,649.0,102.0,751.0,
+UQ0134,요즘은 어떤 향수가 인기가 많냐?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""요즘 인기 있는 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""요즘 인기 있는 향수 추천""]",success,success,success,1,1.810605499893427,632.0,79.0,711.0,
+UQ0135,SNS에서 인기 많은 남자 향수는 어떤게 있니,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""SNS에서 인기 많은 남자 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""SNS에서 인기 많은 남자 향수 추천""]",success,success,success,1,1.599049299955368,634.0,87.0,721.0,
+UQ0136,겨울용 남자 향수가 필요한데 남들이 잘 안쓰는 독특한걸 찾고 싶어,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""winter""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""남들이 잘 안쓰는 독특한 향을 원함"",
+    ""겨울용 남자 향수 필요""
+  ]
+}",[],"{""season"":[""winter""],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""남들이 잘 안쓰는 독특한 향을 원함"",""겨울용 남자 향수 필요""]",success,success,success,1,2.385012299986556,644.0,108.0,752.0,
+UQ0137,그린 노트나 허브 향 나는 향수 추천해 줄래?,"{
+  ""scent_preference"": [""green notes"", ""herbal""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","[""green notes"",""herbal""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],[],success,success,success,1,1.5347419998142868,637.0,64.0,701.0,
+UQ0138,향이 오래가는 남자 향수 골라줘봐라,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""HIGH""}",[],[],success,success,success,1,1.4203432998619974,634.0,71.0,705.0,
+UQ0139,은은한 스모키함이나 가죽 향이 감도는 시크한 느낌의 남자 향수 찾아줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""은은한 스모키함"",
+    ""가죽 향이 감도는"",
+    ""시크한 느낌"",
+    ""남자 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""은은한 스모키함"",""가죽 향이 감도는"",""시크한 느낌"",""남자 향수""]",success,success,success,1,1.6085280999541285,647.0,109.0,756.0,
+UQ0140,중성적인 향수에는 뭐가 있을까?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""neuter""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""중성적인 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""neuter""]}","{""intensity"":"""",""longevity"":""""}",[],"[""중성적인 향수 추천""]",success,success,success,1,2.24900840013288,632.0,85.0,717.0,
+UQ0141,"남친한테 향수 선물할 건데, 제일 유명한 남자 향수로 5개 정도 추천해줘","{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""남자 향수 선물"",
+    ""제일 유명한 남자 향수"",
+    ""5개 정도 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""""}",[],"[""남자 향수 선물"",""제일 유명한 남자 향수"",""5개 정도 추천""]",success,success,success,1,1.8340809000656009,649.0,102.0,751.0,
+UQ0142,밀폐된 공간에서 써도 안 어지러울만한 거 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""밀폐된 공간에서 사용해도 어지럽지 않을 만한 향을 원함""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""밀폐된 공간에서 사용해도 어지럽지 않을 만한 향을 원함""]",success,success,success,1,1.4685090999118984,640.0,91.0,731.0,
+UQ0143,카리스마 있어보이는 딱딱한 향수 근데 여자걸로 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""female""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""카리스마 있어보이는"",
+    ""딱딱한 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""female""]}","{""intensity"":"""",""longevity"":""""}",[],"[""카리스마 있어보이는"",""딱딱한 느낌""]",success,success,success,1,1.5352012999355793,642.0,93.0,735.0,
+UQ0144,한 5만원 이내로 살 수 있는데 백화점 향수 느낌 나는 거,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""5만원 이내"",
+    ""백화점 향수 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""5만원 이내"",""백화점 향수 느낌""]",success,success,success,1,2.1417527000885457,639.0,85.0,724.0,
+UQ0145,천연 향신료 사용하는 성분 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""천연 향신료를 사용하는 성분 좋은 향수 추천""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""천연 향신료를 사용하는 성분 좋은 향수 추천""]",success,success,success,1,1.386372599983588,635.0,81.0,716.0,
+UQ0146,가격 상관 없음. 리한나가 쓰는 향수 갖고싶어,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""가격 상관 없음"",
+    ""리한나가 쓰는 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""가격 상관 없음"",""리한나가 쓰는 향수""]",success,success,success,1,1.5343851000070572,638.0,87.0,725.0,
+UQ0147,지속력은 길었으면 좋겠는데 향이 멀리까지 퍼지는 건 싫어. 그런 향수 있어?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향이 멀리까지 퍼지는 것(확산/향의 강한 퍼짐)은 싫음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""HIGH""}",[],"[""향이 멀리까지 퍼지는 것(확산/향의 강한 퍼짐)은 싫음""]",success,success,success,1,7.153692400082946,649.0,97.0,746.0,
+UQ0148,"향추 추천해줘. 달콤한 향은 좋은데, 바닐라는 싫어.","{
+  ""scent_preference"": [
+    ""sweet""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""Vanilla""
+  ],
+  ""additional_requirements"": []
+}","[""sweet""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""Vanilla""]",[],success,success,success,1,1.946922600036487,644.0,80.0,724.0,
+UQ0149,"시원한 향은 좋은데, 남자 스킨 냄새는 진짜 별로야. 안 그런 거 있어?","{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""male skin scent""
+  ],
+  ""additional_requirements"": [
+    ""시원한 향을 선호"",
+    ""남자 스킨 냄새는 피하고 싶음"",
+    ""안 그런(남자 스킨 냄새가 아닌) 향이 있는지 문의""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""male skin scent""]","[""시원한 향을 선호"",""남자 스킨 냄새는 피하고 싶음"",""안 그런(남자 스킨 냄새가 아닌) 향이 있는지 문의""]",success,success,success,1,1.9992821998894212,648.0,123.0,771.0,
+UQ0150,우디 향 좋아하는데 무겁거나 중후한 건 싫어. 추천 좀.,"{
+  ""scent_preference"": [""woody""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [""heavy"", ""heavy and mature""],
+  ""additional_requirements"": [""우디 향 선호"", ""무겁거나 중후한 느낌은 싫음"", ""추천 요청""]
+}","[""woody""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""heavy"",""heavy and mature""]","[""우디 향 선호"",""무겁거나 중후한 느낌은 싫음"",""추천 요청""]",success,success,success,1,1.8413486999925224,641.0,90.0,731.0,
+UQ0151,"꽃향은 좋은데, 화장품 냄새 같은 꽃향은 싫음.","{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""cosmetic-smelling floral""
+  ],
+  ""additional_requirements"": [
+    ""floral is okay, but not the kind that smells like cosmetics""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""cosmetic-smelling floral""]","[""floral is okay, but not the kind that smells like cosmetics""]",success,success,success,1,1.6473728001583368,641.0,95.0,736.0,
+UQ0152,패출리 들어간 향은 싫어. 그거 뺀 걸로 추천 좀.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""Patchouli""
+  ],
+  ""additional_requirements"": [
+    ""패출리 들어간 향은 싫음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""Patchouli""]","[""패출리 들어간 향은 싫음""]",success,success,success,1,2.3038745000958443,642.0,89.0,731.0,
+UQ0153,인센스나 절 냄새 나는 향수 개극혐이니까 그거 말고 다양한 종류로 추천 좀.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""incense"", ""incense/절 냄새""],
+  ""additional_requirements"": [""다양한 종류로 추천 요청""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""incense"",""incense/절 냄새""]","[""다양한 종류로 추천 요청""]",success,success,success,1,1.4344079999718815,648.0,87.0,735.0,
+UQ0154,"과일 향수 추천하는데 복숭아, 체리는 빼고 해줘. 그거 싫어.","{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""Peach"",
+    ""Cherry""
+  ],
+  ""additional_requirements"": [
+    ""Fruity perfume preference"",
+    ""Recommend fruity scents but exclude peach and cherry""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""Peach"",""Cherry""]","[""Fruity perfume preference"",""Recommend fruity scents but exclude peach and cherry""]",success,success,success,1,1.807172100059688,647.0,99.0,746.0,
+UQ0155,딥티크 탐다오랑 오르페옹 중에 출근용으로 뭐가 더 나아?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [""day""],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""딥티크 탐다오 vs 딥티크 오르페옹 중 출근용으로 더 나은 것 문의""]
+}",[],"{""season"":[],""daypart"":[""day""],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""딥티크 탐다오 vs 딥티크 오르페옹 중 출근용으로 더 나은 것 문의""]",success,success,success,1,1.6547779999673369,646.0,97.0,743.0,
+UQ0156,블루 드 샤넬보다 덜 흔한 느낌으로 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""블루 드 샤넬보다 덜 흔한 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""블루 드 샤넬보다 덜 흔한 느낌""]",success,success,success,1,1.4826925999950618,639.0,85.0,724.0,
+UQ0157,지금 쓰는 향수보가 조말론인데 조금 더 성숙한 느낌으로 바꾸고 싶어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""현재 사용하는 향수: 조말론"",
+    ""더 성숙한 느낌으로 바꾸고 싶음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""현재 사용하는 향수: 조말론"",""더 성숙한 느낌으로 바꾸고 싶음""]",success,success,success,1,1.8944103000685573,646.0,94.0,740.0,
+UQ0158,새벽 바닷가 같은 느낌인데 소금 냄새가 너무 강하진 않았으면 좋겠어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""새벽 바닷가 같은 느낌"",
+    ""소금 냄새가 너무 강하지 않았으면 좋겠음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""새벽 바닷가 같은 느낌"",""소금 냄새가 너무 강하지 않았으면 좋겠음""]",success,success,success,1,1.5608749000821265,645.0,96.0,741.0,
+UQ0159,비 오는 숲 같은데 흙냄새보다는 젖은 나무 냄새가 강했으면 좋겠어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""earthy smell""
+  ],
+  ""additional_requirements"": [
+    ""wet wood smell more than earthy smell"",
+    ""rainy forest-like atmosphere""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""earthy smell""]","[""wet wood smell more than earthy smell"",""rainy forest-like atmosphere""]",success,success,success,1,2.1110232998617,650.0,95.0,745.0,
+UQ0160,차가운 금속같은 이미지인데 향 자체는 너무 날카롭지 않았으면 좋겠어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""차가운 금속같은 이미지"",
+    ""향 자체는 너무 날카롭지 않았으면 좋겠음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""차가운 금속같은 이미지"",""향 자체는 너무 날카롭지 않았으면 좋겠음""]",success,success,success,1,2.130029099993408,644.0,96.0,740.0,
+UQ0161,햇빛 받은 흰 셔츠 같은 느낌하고 싶은데 시트러스는 싫어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""citrus""
+  ],
+  ""additional_requirements"": [
+    ""햇빛 받은 흰 셔츠 같은 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""citrus""]","[""햇빛 받은 흰 셔츠 같은 느낌""]",success,success,success,1,1.6572373998351395,643.0,91.0,734.0,
+UQ0162,호텔 침구 같은 깨끗함! 근데 세제 냄새처럼 인위적이면 싫어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""soapy/detergent-like 인위적인 냄새""
+  ],
+  ""additional_requirements"": [
+    ""호텔 침구 같은 깨끗한 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""soapy/detergent-like 인위적인 냄새""]","[""호텔 침구 같은 깨끗한 느낌""]",success,success,success,1,2.20158619992435,646.0,99.0,745.0,
+UQ0163,"나 꿀 같은 향은 좋아하는데, 너무 냄새가 강하지는 않았으면 좋겠어. 그런 향수 있을까?","{
+  ""scent_preference"": [""Honey""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","[""Honey""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],[],success,success,success,1,1.6231033999938518,651.0,71.0,722.0,
+UQ0164,장미 꽃 향기는 좋은데 인위적인 향기는 아니었으면 좋겠음. 추천 좀,"{
+  ""scent_preference"": [
+    ""Rose""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""인위적인 향""
+  ],
+  ""additional_requirements"": [
+    ""장미 꽃 향기는 좋지만 인위적인 향처럼 느껴지지 않았으면 좋겠음""
+  ]
+}","[""Rose""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""인위적인 향""]","[""장미 꽃 향기는 좋지만 인위적인 향처럼 느껴지지 않았으면 좋겠음""]",success,success,success,1,1.6627682999242095,642.0,108.0,750.0,
+UQ0165,사과랑 자스민 냄새 같이 나는 향수 없나? 있으면 좋겠는데.,"{
+  ""scent_preference"": [""Apple"", ""Jasmine""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","[""Apple"",""Jasmine""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],[],success,success,success,1,1.747817700030282,643.0,73.0,716.0,
+UQ0166,카라멜 향기 달달하게 났으면 좋겠어. 초코 향이면 안돼!!,"{
+  ""scent_preference"": [""Caramel"", ""Sweet""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""Chocolate""],
+  ""additional_requirements"": []
+}","[""Caramel"",""Sweet""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""Chocolate""]",[],success,success,success,1,1.5207788001280278,643.0,75.0,718.0,
+UQ0167,머스크말고 화이트 머스크 향이 나는 향수로 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""musk""
+  ],
+  ""additional_requirements"": [
+    ""화이트 머스크 향이 나는 향수로 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""musk""]","[""화이트 머스크 향이 나는 향수로 추천""]",success,success,success,1,1.898988800123334,639.0,89.0,728.0,
+UQ0168,바질 냄새 싫어. 바질 냄새 안나는 그린 계열 향수 추천 해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""Basil""
+  ],
+  ""additional_requirements"": [
+    ""바질 냄새 안 나는 그린 계열 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""Basil""]","[""바질 냄새 안 나는 그린 계열 향수 추천""]",success,success,success,1,1.6919076999183744,647.0,93.0,740.0,
+UQ0169,"딸기 향기가 났으면 좋겠어. 달달한 거 말고, 진짜 싱싱한 딸기 향기 나는 향수 추천해줘.","{
+  ""scent_preference"": [""Strawberry""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""sweet""],
+  ""additional_requirements"": [""진짜 싱싱한 딸기 향기"", ""달달한 것보다는 싱싱한 쪽을 원함""]
+}","[""Strawberry""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""sweet""]","[""진짜 싱싱한 딸기 향기"",""달달한 것보다는 싱싱한 쪽을 원함""]",success,success,success,1,1.6060726998839527,658.0,102.0,760.0,
+UQ0170,청량한데 남자 향수 냄새는 안났으면 좋겠음. 뭔말인지 알지?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""청량한 느낌을 원함"",
+    ""남자 향수 냄새는 안났으면 좋겠음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""청량한 느낌을 원함"",""남자 향수 냄새는 안났으면 좋겠음""]",success,success,success,1,1.746249900199473,647.0,96.0,743.0,
+UQ0171,처음에는 상쾌한데 시간이 지나면 포근하게 남는 향수 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""처음에는 상쾌한데 시간이 지나면 포근하게 남는 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""처음에는 상쾌한데 시간이 지나면 포근하게 남는 향""]",success,success,success,1,1.4699013999197632,644.0,90.0,734.0,
+UQ0172,오래된 목조 도서관에 들어갔을 때 나는 냄새 같은 향수가 있을까?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""오래된 목조 도서관에 들어갔을 때 나는 냄새 같은 향수를 찾고 싶음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""오래된 목조 도서관에 들어갔을 때 나는 냄새 같은 향수를 찾고 싶음""]",success,success,success,1,1.7000462000723928,645.0,97.0,742.0,
+UQ0173,평소에는 조용한데 은근히 개성 있어 보이는 사람이 쓸 것 같은 향수 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""평소에는 조용한데 은근히 개성 있어 보이는 사람이 쓸 것 같은 향수""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""평소에는 조용한데 은근히 개성 있어 보이는 사람이 쓸 것 같은 향수""]",success,success,success,1,1.5742850000970066,647.0,90.0,737.0,
+UQ0174,상대방 취향을 전혀 모르는데 선물하기 실패 확률 낮은 향수 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""상대방 취향을 전혀 모름"",
+    ""선물하기 실패 확률 낮은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""상대방 취향을 전혀 모름"",""선물하기 실패 확률 낮은 향수 추천""]",success,success,success,1,2.1160854999907315,645.0,96.0,741.0,
+UQ0175,미니멀하게 옷 입는 사람한테 어울리는 담백한 향수 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""미니멀하게 옷 입는 사람에게 어울리는"",
+    ""담백한 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""미니멀하게 옷 입는 사람에게 어울리는"",""담백한 향수""]",success,success,success,1,1.91814720002003,644.0,93.0,737.0,
+UQ0176,실내에서만 있는 직업인데 답답하지 않은 향 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""실내에서만 있는 직업"",
+    ""답답하지 않은 향""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""실내에서만 있는 직업"",""답답하지 않은 향""]",success,success,success,1,1.531060199951753,638.0,87.0,725.0,
+UQ0177,파우더리하고 장미느낌이 나는 옛날 향수는 어떤 있어?,"{
+  ""scent_preference"": [""Rose"", ""Powdery""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""옛날 향수 느낌""]
+}","[""Rose"",""Powdery""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""옛날 향수 느낌""]",success,success,success,1,1.725457699969411,641.0,81.0,722.0,
+UQ0178,30대 남자의 정장차림에 어울리는 지속력 좋은 향수 추천해줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""30대 남성"",
+    ""정장차림에 어울리는 향수"",
+    ""지속력 좋은 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[""male""]}","{""intensity"":"""",""longevity"":""HIGH""}",[],"[""30대 남성"",""정장차림에 어울리는 향수"",""지속력 좋은 향수 추천""]",success,success,success,1,1.7317516999319196,641.0,107.0,748.0,
+UQ0179,이솝 휠이랑 레이어링하면 좋은 향수 가르쳐줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""Aesop Wh i l e(이솝 휠)과 레이어링해서 잘 어울리는 향수 추천 요청""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""Aesop Wh i l e(이솝 휠)과 레이어링해서 잘 어울리는 향수 추천 요청""]",success,success,success,1,1.6470069999340922,640.0,100.0,740.0,
+UQ0180,플로럴인데 파우더리하지 않고 잔향 오래가는 거 추천해줘,"{
+  ""scent_preference"": [
+    ""floral""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [
+    ""powdery""
+  ],
+  ""additional_requirements"": []
+}","[""floral""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""HIGH""}","[""powdery""]",[],success,success,success,1,1.9166273998562249,640.0,84.0,724.0,
+UQ0181,커피 노트가 들어간 향수 추천해줘,"{
+  ""scent_preference"": [""Coffee""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","[""Coffee""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],[],success,success,success,1,1.5477865999564528,633.0,69.0,702.0,
+UQ0182,겨울용 무거운 향인데 사무실에서도 부담없이 사용할 수 있는 향수 알려줘,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""winter""
+    ],
+    ""daypart"": [
+      ""day""
+    ],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""winter용 무거운 향"",
+    ""사무실에서도 부담없이 사용할 수 있는 향수""
+  ]
+}",[],"{""season"":[""winter""],""daypart"":[""day""],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""winter용 무거운 향"",""사무실에서도 부담없이 사용할 수 있는 향수""]",success,success,success,1,1.84009509999305,642.0,104.0,746.0,
+UQ0183,갓 깎은 잔디밭에 누워 있는 느낌이 날 수 있는 향수가 있을까?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""갓 깎은 잔디밭에 누워 있는 느낌이 날 수 있는 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""갓 깎은 잔디밭에 누워 있는 느낌이 날 수 있는 향수""]",success,success,success,1,2.1778195998631418,645.0,93.0,738.0,
+UQ0184,시프레 계열이 뭔지 모르겠는데 대표적인 거 몇 개만 알려주겠니?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""시프레 계열이 무엇인지 모르겠음"",
+    ""대표적인(몇 개만) 예시를 알려달라는 요청""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""시프레 계열이 무엇인지 모르겠음"",""대표적인(몇 개만) 예시를 알려달라는 요청""]",success,success,success,1,1.6338829998858273,644.0,100.0,744.0,
+UQ0185,산타마리아노벨라 시향했는데 너무 올드하더라. 젊은 느낌으로 추천해줄래?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""too old-fashioned""
+  ],
+  ""additional_requirements"": [
+    ""Santamaría Novella에서 시향한 향이 너무 올드하다고 느낌"",
+    ""젊은 느낌으로 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""too old-fashioned""]","[""Santamaría Novella에서 시향한 향이 너무 올드하다고 느낌"",""젊은 느낌으로 추천""]",success,success,success,1,1.960129200015217,649.0,106.0,755.0,
+UQ0186,오래된 헌책방 냄새 같은 향수 있어?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""오래된 헌책방 냄새 같은 향수""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""오래된 헌책방 냄새 같은 향수""]",success,success,success,1,1.4210167001001537,636.0,85.0,721.0,
+UQ0187,아이리스가 세련됐다던데 입문용으로 괜찮은 거 있어?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""입문용"",
+    ""아이리스가 세련됐다고 들은 것""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""입문용"",""아이리스가 세련됐다고 들은 것""]",success,success,success,1,1.6680435999296606,640.0,88.0,728.0,
+UQ0188,크리드 실버마운틴워터 사고 싶은데 너무 비싸. 비슷한데 더 저렴한거 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""Creed Silver Mountain Water와 비슷한 향을 더 저렴한 가격대에서 추천 요청"",
+    ""현재 가격이 너무 비쌈""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""Creed Silver Mountain Water와 비슷한 향을 더 저렴한 가격대에서 추천 요청"",""현재 가격이 너무 비쌈""]",success,success,success,1,1.73325389996171,651.0,103.0,754.0,
+UQ0189,무화과 노트 좋아하는데 그중에 제일 유명한 거 뭐야,"{
+  ""scent_preference"": [""Fig""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": [""무화과 노트를 좋아함"", ""그중에서 가장 유명한 향수(제품)를 알고 싶음""]
+}","[""Fig""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""무화과 노트를 좋아함"",""그중에서 가장 유명한 향수(제품)를 알고 싶음""]",success,success,success,1,1.5888496001716703,639.0,83.0,722.0,
+UQ0190,단종된 향수랑 비슷한 걸 찾고 싶어. 파우더리하고 비누향이었어,"{
+  ""scent_preference"": [""powdery"", ""soapy""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""단종된 향수와 비슷한 것을 찾고 싶음""]
+}","[""powdery"",""soapy""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""단종된 향수와 비슷한 것을 찾고 싶음""]",success,success,success,1,1.7743075999896971,647.0,90.0,737.0,
+UQ0191,베티버가 뭔지 궁금한데 베티버 들어간 향수 추천해줘,"{
+  ""scent_preference"": [
+    ""Vetiver""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""베티버가 뭔지 궁금함"",
+    ""베티버가 들어간 향수 추천""
+  ]
+}","[""Vetiver""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""베티버가 뭔지 궁금함"",""베티버가 들어간 향수 추천""]",success,success,success,1,1.9005317999981344,642.0,101.0,743.0,
+UQ0192,지금 우디 향수만 여러 개 가지고 있어서 완전히 다른 계열 하나 사고 싶어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""woody""
+  ],
+  ""additional_requirements"": [
+    ""우디 향수는 제외하고 완전히 다른 계열 한 가지 구입하고 싶음""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""woody""]","[""우디 향수는 제외하고 완전히 다른 계열 한 가지 구입하고 싶음""]",success,success,success,1,1.6230843998491764,642.0,98.0,740.0,
+UQ0193,뭔가 깨끗하고 세련된 느낌이면 좋겠는데 정확히 어떤 향인지는 모르겠어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""깨끗하고 세련된 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""깨끗하고 세련된 느낌""]",success,success,success,1,1.701379100093618,646.0,80.0,726.0,
+UQ0194,포근한 니트 같은 느낌인데 달달하지 않은 향수 있을까?,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""sweet""
+  ],
+  ""additional_requirements"": [
+    ""cozy knit-like feeling"",
+    ""not overly sweet""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""sweet""]","[""cozy knit-like feeling"",""not overly sweet""]",success,success,success,1,1.6208716998808086,638.0,89.0,727.0,
+UQ0195,따뜻한 차 한 잔 마시면서 창밖에 비 오는 걸 보는 느낌의 향수 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""따뜻한 차 한 잔을 마시며"",
+    ""창밖에 비 오는 걸 보는 느낌""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""따뜻한 차 한 잔을 마시며"",""창밖에 비 오는 걸 보는 느낌""]",success,success,success,1,2.1737598998006438,646.0,94.0,740.0,
+UQ0196,우디 향 좋아하는데 너무 무겁거나 아저씨 같은 느낌은 싫어.,"{
+  ""scent_preference"": [
+    ""woody""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""too heavy"",
+    ""old-fashioned/uncle-like feeling""
+  ],
+  ""additional_requirements"": []
+}","[""woody""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}","[""too heavy"",""old-fashioned/uncle-like feeling""]",[],success,success,success,1,1.6751637000124902,641.0,91.0,732.0,
+UQ0197,강의실에서 뿌려도 민폐 아닌 강도의 가벼운 향수 추천해줘.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""강의실에서 뿌려도 민폐 아닌 강도"",
+    ""가벼운 향수 추천""
+  ]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":""LOW"",""longevity"":""""}",[],"[""강의실에서 뿌려도 민폐 아닌 강도"",""가벼운 향수 추천""]",success,success,success,1,1.6432463999371976,645.0,98.0,743.0,
+UQ0198,헬스장용인데 땀이랑 안 겹치고 저렴한 향수를 추천받고 싶어.,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""헬스장용"", ""땀이랑 겹치지 않기"", ""저렴한 향수 추천""]
+}",[],"{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""헬스장용"",""땀이랑 겹치지 않기"",""저렴한 향수 추천""]",success,success,success,1,1.7700646000448614,647.0,93.0,740.0,
+UQ0199,오렌지 블로썸 위주인 향수는 어떤게 있을까?,"{
+  ""scent_preference"": [
+    ""orange blossom""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""오렌지 블로썸 위주 향수 추천 요청""
+  ]
+}","[""orange blossom""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""오렌지 블로썸 위주 향수 추천 요청""]",success,success,success,1,1.5527626001276076,639.0,92.0,731.0,
+UQ0200,탬버린즈 계열 좋아하는데 다른 국내 브랜드 추천해줘.,"{
+  ""scent_preference"": [
+    ""tuberose""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""국내 브랜드 추천"",
+    ""탬버린즈 계열 선호""
+  ]
+}","[""tuberose""]","{""season"":[],""daypart"":[],""gender"":[]}","{""intensity"":"""",""longevity"":""""}",[],"[""국내 브랜드 추천"",""탬버린즈 계열 선호""]",success,success,success,1,1.582101299893111,638.0,96.0,734.0,

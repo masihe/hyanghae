@@ -1,0 +1,8 @@
+﻿fragrantica_feature,feature_type,ifra_candidate,candidate_reason,requires_manual_review
+musky,accord,Musk Like,adjectival-form candidate,True
+animalic,accord,Animal Like,common descriptor wording candidate,True
+oud,accord,Agarwood,common perfume-note synonym,True
+Musk,note,Musk Like,concept-to-descriptor candidate,True
+Cedar,note,Cedarwood,short-form candidate,True
+Agarwood (Oud),note,Agarwood,parenthetical synonym candidate,True
+Oud,note,Agarwood,common perfume-note synonym,True

@@ -1,0 +1,9 @@
+﻿term,candidate,stage17_status,final_relation,canonical_term,confidence,reason,evidence_count,manual_review_required
+Woody Notes,Woody,UNMATCHED,SAME_CONCEPT,Woody,HIGH,"IFRA itself defines Woody using the phrase woody notes, and IFF uses Woody as an olfactive family.",2,False
+Green Notes,Green,UNMATCHED,SAME_CONCEPT,Green,HIGH,IFRA defines Green as a broad descriptor and explicitly refers to green notes.,2,False
+Floral Notes,Floral,UNMATCHED,SAME_CONCEPT,Floral,HIGH,IFRA explicitly defines floral notes as belonging to the floral family; IFF uses Floral as an olfactive family.,2,False
+Citruses,Citrus,UNMATCHED,SAME_CONCEPT,Citrus,HIGH,The P0 plural label and IFRA's Citrus-notes category refer to the same citrus-family scent category.,2,False
+Black Currant,Blackcurrant,UNMATCHED,SAME_CONCEPT,Blackcurrant,HIGH,"This is an orthographic canonicalization; IFF explicitly pairs Blackcurrant with cassis, and IFRA links Cassis materials to Blackcurrant descriptors.",3,False
+White Musk,Musk-Like,UNMATCHED,FAMILY,White Musk,MEDIUM,"IFF supports white musk as a specific soft/powdery musk profile, while IFRA Musk-Like covers a wider set of materials and facets.",2,True
+Oud,Agarwood,CANDIDATE_ONLY,SAME_CONCEPT,Agarwood,HIGH,"Givaudan uses oud in the official Agarwood Oil material context; IFRA shows that Agarwood maps to multiple ingredient variants, so only term-level equivalence is confirmed.",2,False
+Cedar,Cedarwood,CANDIDATE_ONLY,FAMILY,Cedar,MEDIUM,"Official sources document cedarwood materials from Juniperus, Cupressus and Cedrus with different CAS/species; collapsing Cedar to one ingredient or full synonym is unsafe.",4,True

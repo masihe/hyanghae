@@ -1,0 +1,6 @@
+﻿rule,trigger_query_count,field_correct_count,field_wrong_count,field_accuracy_when_triggered
+gender,39,31,8,0.7948717948717948
+intensity,8,7,1,0.875
+longevity,5,5,0,1.0
+avoid,21,3,18,0.14285714285714285
+extended_scent,5,4,1,0.8

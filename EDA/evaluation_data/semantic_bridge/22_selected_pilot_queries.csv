@@ -1,0 +1,13 @@
+﻿query_id,group,selection_reason
+SQ0061,PURE,natural_environment
+SQ0032,PURE,natural_environment
+SQ0136,PURE,clean_fabric_routine
+SQ0105,PURE,temperature_texture_atmosphere
+SQ0012,PURE,clean_fabric_routine
+SQ0058,PURE,natural_environment
+SQ0002,MIXED,mixed_indirect_and_direct
+SQ0047,MIXED,mixed_indirect_and_direct
+SQ0051,MIXED,clean_fabric_with_direct_feature
+SQ0071,MIXED,temperature_atmosphere_with_direct_feature
+SQ0073,MIXED,natural_atmosphere_with_direct_feature
+SQ0132,MIXED,mixed_indirect_and_direct

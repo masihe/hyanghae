@@ -1,0 +1,1599 @@
+{
+  "pilot_version": "semantic-bridge-pilot-v1",
+  "created_at_utc": "2026-09-01T15:12:55.853728+00:00",
+  "source_plan": "docs\\plans\\SEMANTIC_BRIDGE_PILOT_PLAN.md",
+  "source_plan_sha256": "cb3511d7254afddcf9559daba40bb43d60f974b4692035cd071525fcfd5c1da5",
+  "protected_inputs_sha256": {
+    "plan": "cb3511d7254afddcf9559daba40bb43d60f974b4692035cd071525fcfd5c1da5",
+    "survey_candidates": "cb10e249489feb2eb952ef4b45268a53e4752dcefd14ae68472c8819bc2ba216",
+    "selected_queries": "6bf274915c6903460c95d6e159572ef4cbd5f83f4e0172e45bdc28b174dce0dd",
+    "accord_dictionary": "567e91370e575731d11970f89a03120a8c581db5e73df1c16daf37110e79046c",
+    "note_dictionary": "72de5566687add52bf5997bb4a34da36cecf04a0ff30c0816b297d7d06de8388",
+    "accord_ifra_matching": "be6e6b594f3c39cf4900aa653f3536a45ffe584ab522f3d1bbbf518d89d113d5",
+    "note_ifra_matching": "b54d3fd27a78aa3f8af7459cea995b4064c811597e68a0647797c2a4c25aa3ab",
+    "canonical_map": "7c8c327c41a1b44beacbbab5985efecd0a649b65839a036431e0e937bbf55298",
+    "scent_dictionary": "2c44630ca4fc19db786e9bef90812897132ea689afeeea39283f6e936a8986a6",
+    "scent_evidence": "cbfe49b492ba8de6b3c4d3a9c232325cef54ebc8910114874ccea35959d785ce",
+    "ifra_definitions": "9ca2a4d48cd4a920af0a16ddba7952f38e5043e1ed91bfbfe776d2ecb2b2f0d6",
+    "perfumes": "414478c1921f30dd40ef140258d7f96411f5192ab20a1e76337578155ef71af4"
+  },
+  "selection": {
+    "method": "MANUAL_PRESELECTED",
+    "source_path": "evaluation_data\\semantic_bridge\\22_selected_pilot_queries.csv",
+    "source_sha256": "6bf274915c6903460c95d6e159572ef4cbd5f83f4e0172e45bdc28b174dce0dd",
+    "population_reference": "data/survey/processed/survey_nlp_queries_candidates.csv",
+    "expected_query_count": 12,
+    "expected_group_counts": {
+      "PURE": 6,
+      "MIXED": 6
+    },
+    "replacement_rule": "No automatic or discretionary replacement; report and stop on invalid query",
+    "generalization_limit": "Purposeful feasibility pilot; do not generalize to all 155 survey queries",
+    "selected_queries": [
+      {
+        "query_id": "SQ0061",
+        "query_text": "비 온 뒤의 숲의 냄새",
+        "source": "survey_2026_08",
+        "source_row": 62,
+        "resolution_type": "PURE",
+        "selection_reason": "natural_environment",
+        "primary_expression_type": "NATURAL_ENVIRONMENT",
+        "secondary_expression_types": [],
+        "direct_accords": [],
+        "direct_canonical_notes": [],
+        "seasons": [],
+        "dayparts": [],
+        "avoid_accords": [],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [],
+        "context_evidence_spans": [],
+        "avoid_evidence_spans": [],
+        "bridge_phrase": "비 온 뒤의 숲의 냄새",
+        "bridge_evaluation_text": "비 온 뒤의 숲의 냄새",
+        "excluded_other_requirements": "",
+        "bridge_applicability": "YES"
+      },
+      {
+        "query_id": "SQ0032",
+        "query_text": "여름에 어울리는 숲 속에 온 듯한 향을 추천해줘",
+        "source": "survey_2026_08",
+        "source_row": 33,
+        "resolution_type": "PURE",
+        "selection_reason": "natural_environment",
+        "primary_expression_type": "NATURAL_ENVIRONMENT",
+        "secondary_expression_types": [],
+        "direct_accords": [],
+        "direct_canonical_notes": [],
+        "seasons": [
+          "summer"
+        ],
+        "dayparts": [],
+        "avoid_accords": [],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [],
+        "context_evidence_spans": [
+          "여름"
+        ],
+        "avoid_evidence_spans": [],
+        "bridge_phrase": "숲 속에 온 듯한 향",
+        "bridge_evaluation_text": "여름에 어울리는 숲 속에 온 듯한 향",
+        "excluded_other_requirements": "",
+        "bridge_applicability": "YES"
+      },
+      {
+        "query_id": "SQ0136",
+        "query_text": "내가 원하는 향수는 향이 너무 강하지 않았으면 좋겠어. 향이 강해서 머리가 아픈적이 있었거든. 그리고 빨래향 같이 자연스러운 향이 좋아서 그런 계열의 향이었으면 좋겠어.",
+        "source": "survey_2026_08",
+        "source_row": 137,
+        "resolution_type": "PURE",
+        "selection_reason": "clean_fabric_routine",
+        "primary_expression_type": "CLEAN_FABRIC_ROUTINE",
+        "secondary_expression_types": [],
+        "direct_accords": [],
+        "direct_canonical_notes": [],
+        "seasons": [],
+        "dayparts": [],
+        "avoid_accords": [],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [],
+        "context_evidence_spans": [],
+        "avoid_evidence_spans": [],
+        "bridge_phrase": "빨래향 같이 자연스러운 향",
+        "bridge_evaluation_text": "빨래향 같이 자연스러운 향",
+        "excluded_other_requirements": "향이 너무 강하지 않음; 강한 향으로 인한 두통",
+        "bridge_applicability": "YES"
+      },
+      {
+        "query_id": "SQ0105",
+        "query_text": "주말 오후에 따뜻한 햇살을 받으며 침대 위에 누워있는 듯한 느낌의 향수 추천해줘",
+        "source": "survey_2026_08",
+        "source_row": 106,
+        "resolution_type": "PURE",
+        "selection_reason": "temperature_texture_atmosphere",
+        "primary_expression_type": "TEMPERATURE_TEXTURE_ATMOSPHERE",
+        "secondary_expression_types": [],
+        "direct_accords": [],
+        "direct_canonical_notes": [],
+        "seasons": [],
+        "dayparts": [],
+        "avoid_accords": [],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [],
+        "context_evidence_spans": [],
+        "avoid_evidence_spans": [],
+        "bridge_phrase": "따뜻한 햇살을 받으며 침대 위에 누워있는 듯한 느낌의 향수",
+        "bridge_evaluation_text": "따뜻한 햇살을 받으며 침대 위에 누워있는 듯한 느낌의 향수",
+        "excluded_other_requirements": "주말 오후 사용 상황",
+        "bridge_applicability": "UNCERTAIN"
+      },
+      {
+        "query_id": "SQ0012",
+        "query_text": "샤워하고 나온듯한 따뜻하고 포근한 느낌의 향기를 추천해줘",
+        "source": "survey_2026_08",
+        "source_row": 13,
+        "resolution_type": "PURE",
+        "selection_reason": "clean_fabric_routine",
+        "primary_expression_type": "CLEAN_FABRIC_ROUTINE",
+        "secondary_expression_types": [
+          "TEMPERATURE_TEXTURE_ATMOSPHERE"
+        ],
+        "direct_accords": [],
+        "direct_canonical_notes": [],
+        "seasons": [],
+        "dayparts": [],
+        "avoid_accords": [],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [],
+        "context_evidence_spans": [],
+        "avoid_evidence_spans": [],
+        "bridge_phrase": "샤워하고 나온듯한 따뜻하고 포근한 느낌의 향기",
+        "bridge_evaluation_text": "샤워하고 나온듯한 따뜻하고 포근한 느낌의 향기",
+        "excluded_other_requirements": "",
+        "bridge_applicability": "YES"
+      },
+      {
+        "query_id": "SQ0058",
+        "query_text": "여름 바다가 생각나는 시원한 향으로 향수 추천해줘. 가격이 10만원 미만이고 지속력이 은은하게 긴 향수면 좋겠어. 여자고 너무 진한향이나 우드, 머스크는 좋아하지않으니까 제외하고 추천해줘.",
+        "source": "survey_2026_08",
+        "source_row": 59,
+        "resolution_type": "PURE",
+        "selection_reason": "natural_environment",
+        "primary_expression_type": "NATURAL_ENVIRONMENT",
+        "secondary_expression_types": [
+          "TEMPERATURE_TEXTURE_ATMOSPHERE"
+        ],
+        "direct_accords": [],
+        "direct_canonical_notes": [],
+        "seasons": [
+          "summer"
+        ],
+        "dayparts": [],
+        "avoid_accords": [
+          "woody",
+          "musky"
+        ],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [],
+        "context_evidence_spans": [
+          "여름"
+        ],
+        "avoid_evidence_spans": [
+          "우드",
+          "머스크"
+        ],
+        "bridge_phrase": "바다가 생각나는 시원한 향",
+        "bridge_evaluation_text": "여름 바다가 생각나는 시원한 향",
+        "excluded_other_requirements": "가격 10만원 미만; 지속력; 성별; 너무 진한 향 회피",
+        "bridge_applicability": "YES"
+      },
+      {
+        "query_id": "SQ0002",
+        "query_text": "시트러스 향처럼 시원하고 깔끔한 향",
+        "source": "survey_2026_08",
+        "source_row": 3,
+        "resolution_type": "MIXED",
+        "selection_reason": "mixed_indirect_and_direct",
+        "primary_expression_type": "TEMPERATURE_TEXTURE_ATMOSPHERE",
+        "secondary_expression_types": [],
+        "direct_accords": [
+          "citrus"
+        ],
+        "direct_canonical_notes": [],
+        "seasons": [],
+        "dayparts": [],
+        "avoid_accords": [],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [
+          "시트러스"
+        ],
+        "context_evidence_spans": [],
+        "avoid_evidence_spans": [],
+        "bridge_phrase": "시원하고 깔끔한 향",
+        "bridge_evaluation_text": "시트러스 향처럼 시원하고 깔끔한 향",
+        "excluded_other_requirements": "",
+        "bridge_applicability": "UNCERTAIN"
+      },
+      {
+        "query_id": "SQ0047",
+        "query_text": "여름에 쓰기 좋은 가벼우면서 시원한 느낌의 비누향, 머스크향, 약간의 우드향이 들어간 향수를 추천해줘.",
+        "source": "survey_2026_08",
+        "source_row": 48,
+        "resolution_type": "MIXED",
+        "selection_reason": "mixed_indirect_and_direct",
+        "primary_expression_type": "TEMPERATURE_TEXTURE_ATMOSPHERE",
+        "secondary_expression_types": [],
+        "direct_accords": [
+          "soapy",
+          "musky",
+          "woody"
+        ],
+        "direct_canonical_notes": [],
+        "seasons": [
+          "summer"
+        ],
+        "dayparts": [],
+        "avoid_accords": [],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [
+          "비누향",
+          "머스크향",
+          "우드향"
+        ],
+        "context_evidence_spans": [
+          "여름"
+        ],
+        "avoid_evidence_spans": [],
+        "bridge_phrase": "가벼우면서 시원한 느낌",
+        "bridge_evaluation_text": "여름에 쓰기 좋은 가벼우면서 시원한 느낌의 비누향, 머스크향, 약간의 우드향",
+        "excluded_other_requirements": "",
+        "bridge_applicability": "YES"
+      },
+      {
+        "query_id": "SQ0051",
+        "query_text": "너는 최고급 니치 향수 전문 컨설턴트야. 내가 좋아하는 향을 설명해 줄테니까, 이 향의 핵심 포인트를 정확히 이해하고 나와 어울리는 향수를 추천해줘. [내가 좋아하는 향수 포인트] - 톡 쏘는 듯한 청량함과 방금 막 세탁된 코튼 향처럼 깨끗한 공기향 - 과하지 않은 은은한 복숭아 향 - 단순한 비누향이 아닌, 니치 향수 특유의 깊고 크리미한 잔향 위의 포인트와 결이 비슷한 향수 3가지를 추천해 줘. 각 향수마다 왜 이 향수를 골랐는지, 그리고 어떤 매력이 있는지 자세히 설명해 줬으면 좋겠어.",
+        "source": "survey_2026_08",
+        "source_row": 52,
+        "resolution_type": "MIXED",
+        "selection_reason": "clean_fabric_with_direct_feature",
+        "primary_expression_type": "CLEAN_FABRIC_ROUTINE",
+        "secondary_expression_types": [
+          "TEMPERATURE_TEXTURE_ATMOSPHERE"
+        ],
+        "direct_accords": [],
+        "direct_canonical_notes": [
+          "Peach"
+        ],
+        "seasons": [],
+        "dayparts": [],
+        "avoid_accords": [
+          "soapy"
+        ],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [
+          "복숭아 향"
+        ],
+        "context_evidence_spans": [],
+        "avoid_evidence_spans": [
+          "비누향이 아닌"
+        ],
+        "bridge_phrase": "톡 쏘는 듯한 청량함과 방금 막 세탁된 코튼 향처럼 깨끗한 공기향",
+        "bridge_evaluation_text": "톡 쏘는 듯한 청량함과 방금 막 세탁된 코튼 향처럼 깨끗한 공기향, 복숭아 향",
+        "excluded_other_requirements": "향 강도; 니치 향수 특유의 깊고 크리미한 잔향; 3개 추천과 설명 요청",
+        "bridge_applicability": "YES"
+      },
+      {
+        "query_id": "SQ0071",
+        "query_text": "겨울 아침에 딱~ 일어나서 창문을 열었는데 느껴지는 차갑고 상쾌한 향(탑노트). 점심에 느껴지는 밸런스가 느껴지는 머스크 계열의 향(미들노트) .저녁에 느껴지는 해가지는 느낌의 우디한 무거운 향(베이스노트)",
+        "source": "survey_2026_08",
+        "source_row": 72,
+        "resolution_type": "MIXED",
+        "selection_reason": "temperature_atmosphere_with_direct_feature",
+        "primary_expression_type": "TEMPERATURE_TEXTURE_ATMOSPHERE",
+        "secondary_expression_types": [
+          "NATURAL_ENVIRONMENT"
+        ],
+        "direct_accords": [
+          "musky",
+          "woody"
+        ],
+        "direct_canonical_notes": [],
+        "seasons": [
+          "winter"
+        ],
+        "dayparts": [],
+        "avoid_accords": [],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [
+          "머스크 계열",
+          "우디한"
+        ],
+        "context_evidence_spans": [
+          "겨울"
+        ],
+        "avoid_evidence_spans": [],
+        "bridge_phrase": "겨울 아침에 딱~ 일어나서 창문을 열었는데 느껴지는 차갑고 상쾌한 향",
+        "bridge_evaluation_text": "겨울 아침의 차갑고 상쾌한 향, 머스크 계열, 우디한 향",
+        "excluded_other_requirements": "탑/미들/베이스 시간대별 전개와 무게감",
+        "bridge_applicability": "YES"
+      },
+      {
+        "query_id": "SQ0073",
+        "query_text": "나는 깨끗하고 시원한 향을 좋아하고, 편백나무, 산내음처럼 자연스러운 향을 좋아해. 그래서 주로 우디나 플로럴한 계열을 좋아하는데, 대신 스파이시한 계열은 좋아하지 않아. 이런 나한테 향수를 추천해줄래?",
+        "source": "survey_2026_08",
+        "source_row": 74,
+        "resolution_type": "MIXED",
+        "selection_reason": "natural_atmosphere_with_direct_feature",
+        "primary_expression_type": "NATURAL_ENVIRONMENT",
+        "secondary_expression_types": [
+          "TEMPERATURE_TEXTURE_ATMOSPHERE"
+        ],
+        "direct_accords": [
+          "woody",
+          "floral"
+        ],
+        "direct_canonical_notes": [],
+        "seasons": [],
+        "dayparts": [],
+        "avoid_accords": [
+          "fresh spicy",
+          "warm spicy"
+        ],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [
+          "우디",
+          "플로럴"
+        ],
+        "context_evidence_spans": [],
+        "avoid_evidence_spans": [
+          "스파이시한 계열"
+        ],
+        "bridge_phrase": "깨끗하고 시원한 향을 좋아하고, 편백나무, 산내음처럼 자연스러운 향",
+        "bridge_evaluation_text": "깨끗하고 시원한 향, 편백나무와 산내음처럼 자연스러운 향, 우디와 플로럴 계열",
+        "excluded_other_requirements": "",
+        "bridge_applicability": "YES"
+      },
+      {
+        "query_id": "SQ0132",
+        "query_text": "나는 머스크 계열 향을 좋아하고 무겁지 않고 가벼운데 잔향은 오래 남는 포근한 느낌이 좋아. 상큼한 향도 괜찮아. 내 취향에 맞춰서 향수 추천해줘",
+        "source": "survey_2026_08",
+        "source_row": 133,
+        "resolution_type": "MIXED",
+        "selection_reason": "mixed_indirect_and_direct",
+        "primary_expression_type": "TEMPERATURE_TEXTURE_ATMOSPHERE",
+        "secondary_expression_types": [],
+        "direct_accords": [
+          "musky"
+        ],
+        "direct_canonical_notes": [],
+        "seasons": [],
+        "dayparts": [],
+        "avoid_accords": [],
+        "avoid_canonical_notes": [],
+        "direct_evidence_spans": [
+          "머스크 계열"
+        ],
+        "context_evidence_spans": [],
+        "avoid_evidence_spans": [],
+        "bridge_phrase": "포근한 느낌",
+        "bridge_evaluation_text": "머스크 계열 향과 포근한 느낌",
+        "excluded_other_requirements": "가벼운 무게감; 오래 남는 잔향; 상큼한 향도 허용",
+        "bridge_applicability": "UNCERTAIN"
+      }
+    ],
+    "validated_before_llm": true,
+    "validated_at_utc": "2026-09-02T02:00:24.847414+00:00",
+    "survey_source_sha256": "cb10e249489feb2eb952ef4b45268a53e4752dcefd14ae68472c8819bc2ba216",
+    "selected_query_ids": [
+      "SQ0061",
+      "SQ0032",
+      "SQ0136",
+      "SQ0105",
+      "SQ0012",
+      "SQ0058",
+      "SQ0002",
+      "SQ0047",
+      "SQ0051",
+      "SQ0071",
+      "SQ0073",
+      "SQ0132"
+    ],
+    "actual_group_counts": {
+      "PURE": 6,
+      "MIXED": 6
+    },
+    "selection_annotation_sha256": "6ed45347220cf22c173970e97c6a47d890da402d53cf71255821eafd0d176353",
+    "invalid_query_replacements": []
+  },
+  "allowed_vocabulary": {
+    "accord_count": 92,
+    "canonical_note_count": 178,
+    "strict_raw_note_count": 185,
+    "sha256": "a7b2c1babddc07d8ab1c0222704602dd281d87c0e3c5d353ef0e2b49fb56e7d8",
+    "note_equivalence_relations": [
+      "CANONICAL",
+      "SAME_CONCEPT"
+    ],
+    "excluded_relations": [
+      "FAMILY",
+      "RELATED",
+      "REVIEW",
+      "NOT_SAME"
+    ],
+    "items": [
+      {
+        "target_type": "ACCORD",
+        "target_feature": "Champagne"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "Pear"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "alcohol"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "aldehydic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "almond"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "amber"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "animalic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "anis"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "aquatic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "aromatic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "asphault"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "bacon"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "balsamic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "bbq"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "beeswax"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "bitter"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "brown scotch tape"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "cacao"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "camphor"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "cannabis"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "caramel"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "cherry"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "chocolate"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "cinnamon"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "citrus"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "clay"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "coca-cola"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "coconut"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "coffee"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "conifer"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "earthy"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "floral"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "foresty"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "fresh"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "fresh spicy"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "fruity"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "gasoline"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "gourmand"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "green"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "herbal"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "honey"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "hot iron"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "industrial glue"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "iris"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "lactonic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "lavender"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "leather"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "marine"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "meat"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "metallic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "milky"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "mineral"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "mossy"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "musky"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "nutty"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "oily"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "oud"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "ozonic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "paper"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "patchouli"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "plastic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "powdery"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "rose"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "rubber"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "rum"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "sake"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "salty"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "sand"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "savory"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "smoky"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "soapy"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "soft spicy"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "sour"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "spice"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "sweet"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "tennis ball"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "terpenic"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "tobacco"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "tropical"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "tuberose"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "vanilla"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "varnish"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "vinyl"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "violet"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "vodka"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "warm spicy"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "wet plaster"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "whiskey"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "white floral"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "wine"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "woody"
+      },
+      {
+        "target_type": "ACCORD",
+        "target_feature": "yellow floral"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Agarwood"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Aldehydic"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Almond"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Amber"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Ambroxide"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Amyl Salicylate"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Apple"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Apricot"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Artemisia"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Banana"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Basil"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Benzoin"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Bergamot"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Bisabolene"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Blackcurrant"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Blueberry"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Borneol"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Brandy"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Bread"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Butterscotch"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cacao Absolute"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cade oil"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Caramel"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Caraway"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Carnation"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Carrot"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cashmeran"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cassis"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cedarwood"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Celery"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Chamomile"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cherry"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cherry Blossom"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Chocolate"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cinnamaldehyde"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cinnamon"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Citrus"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Clove"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cocoa"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Coconut"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Coffee"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Coriander"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Corn"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Coumarin"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cucumber"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cumin"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cyclamen"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cypress"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Cypriol Oil"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Dihydromyrcenol"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Dried-Fruit"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Ethyl Maltol"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Eucalyptus"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Eugenol"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Fenugreek"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Floral"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Frangipani"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Fruity"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Galbanum"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Gardenia"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Garlic"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Geranium"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Ginger"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Grapefruit"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Green"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Guaiacol"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Gurjun Balsam"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Hawthorn"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Hay"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Heliotrope"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Herbal"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Hexyl acetate"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Ho Wood"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Honey"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Honeysuckle"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Hyacinth"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Incense"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Indole"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Iris"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Juniper"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Kiwi"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Labdanum"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Lavender"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Lavender Extract"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Leather"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Lemon"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Lemongrass"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Licorice"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Lily"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Lime"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Magnolia"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Maltol"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Mandarin"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Mango"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Maple"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Marigold"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Marine"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Melon"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Menthol"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Mimosa"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Mimosa absolute"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Muguet"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Mushroom"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Musk-Like"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Myrrh"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Myrrh Oil"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Narcissus"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Nasturtium"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Neroli"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Nutmeg"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Oak"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Orange"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Orris"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Osmanthus"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Ozonic"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Parsley"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Passion Fruit"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Patchouli"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Pea"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Peach"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Peanut"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Pear"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Peony"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Peppermint"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Petitgrain"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Pine"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Pineapple"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Plastic"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Plum"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Popcorn"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Potato"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Powdery"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Privet"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Raspberry"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Rhodinol"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Rhubarb"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Rice"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Rose"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Rose Oil"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Rosemary"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Rum"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Saffron"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Sage"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Sandalwood"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Seaweed"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Sesame"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Skatole"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Smoky"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Spearmint"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Spicy"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Strawberry"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Sweet"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Sweet Pea"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Tangerine"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Tarragon"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Tea"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Tea Tree Oil"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Terpineol"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Thyme"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Tobacco"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Toffee"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Tonka"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Tropical Fruit"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Truffle"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Tuberose"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Turmeric"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Valerian"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Vanilla"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Vanilla Absolute"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Vanillin"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Verbena"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Vetiver"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Violet"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Watermelon"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Watery"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Wine Lees"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Woody"
+      },
+      {
+        "target_type": "CANONICAL_NOTE",
+        "target_feature": "Yeast"
+      }
+    ]
+  },
+  "feature_glossary": {
+    "path": "evaluation_data\\semantic_bridge\\22_feature_glossary.csv",
+    "rows": 270,
+    "sha256": "7b6e353ccccf5f60979f0f5c9dbbadca9e440cd0b0ce5f0c7e2ea3437aee0bab",
+    "generated_without_llm": true
+  },
+  "llm": {
+    "model": "gpt-5.4-nano",
+    "endpoint": "https://gms.ssafy.io/gmsapi/api.openai.com/v1/chat/completions",
+    "temperature": 0,
+    "max_retries_after_initial": 2,
+    "timeout_seconds": 90,
+    "system_prompt": "You are the sole candidate proposer for Semantic Bridge Pilot v1.\nRead only the Korean bridge_phrase supplied by the user. Select zero to three scent targets\nfrom the exact closed vocabulary below. Do not recommend perfumes. Do not modify direct,\ncontext, or avoid conditions. Do not invent targets or silently correct names. If the closed\nvocabulary does not support a defensible mapping, return ABSTAIN. Use REVIEW only when the\nphrase appears scent-related but is too ambiguous to apply automatically.\n\nReturn exactly one JSON object with these keys and no prose:\n{\"bridge_status\":\"MAPPED|ABSTAIN|REVIEW\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"exact allowed name\"}],\"abstain_reason\":\"short text or empty string\"}\n\nRules:\n- MAPPED requires 1-3 unique exact targets.\n- ABSTAIN and REVIEW require an empty targets list.\n- Never output confidence, weights, rationale, aliases, perfume names, or extra keys.\n\nALLOWED ACCORD (92):\n[\"Champagne\", \"Pear\", \"alcohol\", \"aldehydic\", \"almond\", \"amber\", \"animalic\", \"anis\", \"aquatic\", \"aromatic\", \"asphault\", \"bacon\", \"balsamic\", \"bbq\", \"beeswax\", \"bitter\", \"brown scotch tape\", \"cacao\", \"camphor\", \"cannabis\", \"caramel\", \"cherry\", \"chocolate\", \"cinnamon\", \"citrus\", \"clay\", \"coca-cola\", \"coconut\", \"coffee\", \"conifer\", \"earthy\", \"floral\", \"foresty\", \"fresh\", \"fresh spicy\", \"fruity\", \"gasoline\", \"gourmand\", \"green\", \"herbal\", \"honey\", \"hot iron\", \"industrial glue\", \"iris\", \"lactonic\", \"lavender\", \"leather\", \"marine\", \"meat\", \"metallic\", \"milky\", \"mineral\", \"mossy\", \"musky\", \"nutty\", \"oily\", \"oud\", \"ozonic\", \"paper\", \"patchouli\", \"plastic\", \"powdery\", \"rose\", \"rubber\", \"rum\", \"sake\", \"salty\", \"sand\", \"savory\", \"smoky\", \"soapy\", \"soft spicy\", \"sour\", \"spice\", \"sweet\", \"tennis ball\", \"terpenic\", \"tobacco\", \"tropical\", \"tuberose\", \"vanilla\", \"varnish\", \"vinyl\", \"violet\", \"vodka\", \"warm spicy\", \"wet plaster\", \"whiskey\", \"white floral\", \"wine\", \"woody\", \"yellow floral\"]\n\nALLOWED CANONICAL_NOTE (178):\n[\"Agarwood\", \"Aldehydic\", \"Almond\", \"Amber\", \"Ambroxide\", \"Amyl Salicylate\", \"Apple\", \"Apricot\", \"Artemisia\", \"Banana\", \"Basil\", \"Benzoin\", \"Bergamot\", \"Bisabolene\", \"Blackcurrant\", \"Blueberry\", \"Borneol\", \"Brandy\", \"Bread\", \"Butterscotch\", \"Cacao Absolute\", \"Cade oil\", \"Caramel\", \"Caraway\", \"Carnation\", \"Carrot\", \"Cashmeran\", \"Cassis\", \"Cedarwood\", \"Celery\", \"Chamomile\", \"Cherry\", \"Cherry Blossom\", \"Chocolate\", \"Cinnamaldehyde\", \"Cinnamon\", \"Citrus\", \"Clove\", \"Cocoa\", \"Coconut\", \"Coffee\", \"Coriander\", \"Corn\", \"Coumarin\", \"Cucumber\", \"Cumin\", \"Cyclamen\", \"Cypress\", \"Cypriol Oil\", \"Dihydromyrcenol\", \"Dried-Fruit\", \"Ethyl Maltol\", \"Eucalyptus\", \"Eugenol\", \"Fenugreek\", \"Floral\", \"Frangipani\", \"Fruity\", \"Galbanum\", \"Gardenia\", \"Garlic\", \"Geranium\", \"Ginger\", \"Grapefruit\", \"Green\", \"Guaiacol\", \"Gurjun Balsam\", \"Hawthorn\", \"Hay\", \"Heliotrope\", \"Herbal\", \"Hexyl acetate\", \"Ho Wood\", \"Honey\", \"Honeysuckle\", \"Hyacinth\", \"Incense\", \"Indole\", \"Iris\", \"Juniper\", \"Kiwi\", \"Labdanum\", \"Lavender\", \"Lavender Extract\", \"Leather\", \"Lemon\", \"Lemongrass\", \"Licorice\", \"Lily\", \"Lime\", \"Magnolia\", \"Maltol\", \"Mandarin\", \"Mango\", \"Maple\", \"Marigold\", \"Marine\", \"Melon\", \"Menthol\", \"Mimosa\", \"Mimosa absolute\", \"Muguet\", \"Mushroom\", \"Musk-Like\", \"Myrrh\", \"Myrrh Oil\", \"Narcissus\", \"Nasturtium\", \"Neroli\", \"Nutmeg\", \"Oak\", \"Orange\", \"Orris\", \"Osmanthus\", \"Ozonic\", \"Parsley\", \"Passion Fruit\", \"Patchouli\", \"Pea\", \"Peach\", \"Peanut\", \"Pear\", \"Peony\", \"Peppermint\", \"Petitgrain\", \"Pine\", \"Pineapple\", \"Plastic\", \"Plum\", \"Popcorn\", \"Potato\", \"Powdery\", \"Privet\", \"Raspberry\", \"Rhodinol\", \"Rhubarb\", \"Rice\", \"Rose\", \"Rose Oil\", \"Rosemary\", \"Rum\", \"Saffron\", \"Sage\", \"Sandalwood\", \"Seaweed\", \"Sesame\", \"Skatole\", \"Smoky\", \"Spearmint\", \"Spicy\", \"Strawberry\", \"Sweet\", \"Sweet Pea\", \"Tangerine\", \"Tarragon\", \"Tea\", \"Tea Tree Oil\", \"Terpineol\", \"Thyme\", \"Tobacco\", \"Toffee\", \"Tonka\", \"Tropical Fruit\", \"Truffle\", \"Tuberose\", \"Turmeric\", \"Valerian\", \"Vanilla\", \"Vanilla Absolute\", \"Vanillin\", \"Verbena\", \"Vetiver\", \"Violet\", \"Watermelon\", \"Watery\", \"Wine Lees\", \"Woody\", \"Yeast\"]",
+    "user_prompt_template": "bridge_phrase: {bridge_phrase}",
+    "prompt_sha256": "1dd2c0309d290ecc03a7eff656874e867e456e7393bbb4ec175a81fcdcf9c19e",
+    "one_response_per_query": true
+  },
+  "validation": {
+    "statuses": [
+      "MAPPED",
+      "ABSTAIN",
+      "REVIEW"
+    ],
+    "target_count": "1-3 only for MAPPED; 0 for ABSTAIN/REVIEW",
+    "exact_vocabulary_match": true,
+    "duplicates_allowed": false,
+    "avoid_conflict_action": "REVIEW and do not retrieve Bridge targets",
+    "automatic_spelling_correction": false
+  },
+  "retrieval": {
+    "baseline": "Direct Accord/Canonical Note/Season/Daypart only",
+    "treatment": "Baseline plus validated Bridge Accord/Canonical Note",
+    "score": "11_rule_based_query_retrieval_baseline category mean times evidence coverage",
+    "tie_break": [
+      "final_score desc",
+      "evidence_coverage desc",
+      "base_match_score desc",
+      "perfume_id asc"
+    ],
+    "top_k": 5,
+    "canonical_note_match": "OR across CANONICAL/SAME_CONCEPT raw aliases"
+  },
+  "human_evaluation": {
+    "independent_reviewers": 2,
+    "blind_salt": "semantic-bridge-pilot-v1-blind|",
+    "concept_scale": {
+      "2": "STRONG",
+      "1": "PLAUSIBLE",
+      "0": "WRONG/HARMFUL"
+    },
+    "retrieval_scale": {
+      "2": "HIGHLY_RELEVANT",
+      "1": "PARTIALLY_RELEVANT",
+      "0": "NOT_RELEVANT"
+    },
+    "abstain_causes": [
+      "APPROPRIATE_ABSTENTION",
+      "TARGET_SPACE_LIMITATION",
+      "MAPPING_FAILURE"
+    ],
+    "agreement": "exact agreement and quadratic weighted Cohen's kappa; constant identical ratings count as kappa 1.0",
+    "kappa_gate": 0.4,
+    "pooled_ndcg_scope": "Baseline/Treatment TOP 5 union only; not global corpus judgment"
+  },
+  "decision_thresholds": {
+    "go": {
+      "safe_resolution_min": 9,
+      "query_count": 12,
+      "graded_concept_precision_at_3_min": 0.67,
+      "wrong_harmful_rate_max": 0.2,
+      "mixed_wins_min": 4,
+      "mixed_mean_delta_pooled_ndcg_positive": true,
+      "pure_strong_hit_queries_min": 4
+    },
+    "stop": {
+      "safe_resolution_below": 6,
+      "graded_concept_precision_at_3_below": 0.5,
+      "wrong_harmful_rate_above": 0.3,
+      "operational_no_retrieval_value": "mixed mean delta <= 0 and pure strong-hit count = 0"
+    }
+  },
+  "protections": {
+    "final_holdout_used": false,
+    "golden_set_modified": false,
+    "survey_source_modified": false,
+    "new_external_data_added": false
+  },
+  "state": "WAITING_FOR_HUMAN_EVALUATION",
+  "selection_method_changed_at_utc": "2026-09-02T02:00:18.906582+00:00",
+  "selection_method_change_reason": "Replaced unexecuted 155-query screening/hash selection with human-preselected 12-query pilot input",
+  "execution_gate": {
+    "run_llm_enabled": true,
+    "reason": "Report 12-query validation before the first proposer call"
+  }
+}

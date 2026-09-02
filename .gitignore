@@ -1,0 +1,88 @@
+# ==================================================
+# Python
+# ==================================================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==================================================
+# Virtual environment
+# ==================================================
+venv/
+.venv/
+env/
+
+# ==================================================
+# Environment / Secrets
+# ==================================================
+.env
+.env.*
+!.env.example
+
+# ==================================================
+# Jupyter
+# ==================================================
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ==================================================
+# IDE / OS
+# ==================================================
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================================================
+# Large source datasets
+# ==================================================
+perfumes.csv
+perfumes.jsonl
+
+# 필요 시 외부 원본 데이터도 제외
+data/external/**/raw/
+
+# ==================================================
+# Temporary / Cache files
+# ==================================================
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+
+.cache/
+tmp/
+temp/
+
+# ==================================================
+# Generated analysis outputs
+# ==================================================
+analysis_outputs/*.json
+analysis_outputs/*.jsonl
+analysis_outputs/*.pkl
+analysis_outputs/*.pickle
+analysis_outputs/*.parquet
+
+# 이미지/그래프 자동 생성물이 있다면
+analysis_outputs/*.png
+analysis_outputs/*.jpg
+analysis_outputs/*.jpeg
+analysis_outputs/*.svg
+
+# ==================================================
+# LLM/API temporary outputs
+# ==================================================
+*_checkpoint.tmp
+*_response_cache.*
+
+*.pdf
+!docs/some_report.pdf

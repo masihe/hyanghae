@@ -1,0 +1,51 @@
+﻿note,perfume_count,occurrence_count,candidate_term,relation_type,canonical_term,parent_term,confidence,evidence_count,evidence_sources,decision_reason,manual_review_required
+Mandarin Orange,11646,11652,,UNRESOLVED,Mandarin Orange,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Orange Blossom,11479,11545,,UNRESOLVED,Orange Blossom,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Leather,10626,10754,Leathery,RELATED,Leather,Leathery,MEDIUM,1,IFRA,"RELATED_DESCRIPTOR_ONLY: IFRA contains a closely related descriptor, but official equivalence to the note concept is not explicit.",True
+Pink Pepper,10387,10395,,UNRESOLVED,Pink Pepper,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Lily-of-the-Valley,7339,7366,,UNRESOLVED,Lily-of-the-Valley,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Freesia,5683,5696,,UNRESOLVED,Freesia,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Black Pepper,4795,4807,,UNRESOLVED,Black Pepper,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Mint,4605,4627,,UNRESOLVED,Mint,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Moss,4302,4310,Mossy,RELATED,Moss,Mossy,MEDIUM,1,IFRA,"RELATED_DESCRIPTOR_ONLY: IFRA contains a closely related descriptor, but official equivalence to the note concept is not explicit.",True
+Woodsy Notes,3240,3250,,UNRESOLVED,Woodsy Notes,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Lily of the Valley,3105,3118,,UNRESOLVED,Lily of the Valley,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Ambroxan,3051,3062,,UNRESOLVED,Ambroxan,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Orchid,2814,2824,,UNRESOLVED,Orchid,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Virginia Cedar,2694,2695,,UNRESOLVED,Virginia Cedar,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cashmere Wood,2688,2691,,UNRESOLVED,Cashmere Wood,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cashmeran,2386,2388,,UNRESOLVED,Cashmeran,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+White Flowers,2317,2323,,UNRESOLVED,White Flowers,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Sea Notes,2183,2193,Marine,RELATED,Sea Notes,Marine,MEDIUM,1,IFRA,"RELATED_DESCRIPTOR_ONLY: IFRA contains a closely related descriptor, but official equivalence to the note concept is not explicit.",True
+Praline,2164,2171,,UNRESOLVED,Praline,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Orris Root,2137,2150,,UNRESOLVED,Orris Root,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Bulgarian Rose,2122,2131,,UNRESOLVED,Bulgarian Rose,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Sugar,2094,2116,,UNRESOLVED,Sugar,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Vanille,2033,2037,,UNRESOLVED,Vanille,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Turkish Rose,1811,1822,,UNRESOLVED,Turkish Rose,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Fig,1810,1846,,UNRESOLVED,Fig,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Bitter Orange,1809,1809,,UNRESOLVED,Bitter Orange,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Lotus,1771,1781,,UNRESOLVED,Lotus,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Amberwood,1757,1761,,UNRESOLVED,Amberwood,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Suede,1733,1737,,UNRESOLVED,Suede,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Litchi,1708,1712,,UNRESOLVED,Litchi,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Green Apple,1658,1660,,UNRESOLVED,Green Apple,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Milk,1657,1674,Milky,RELATED,Milk,Milky,MEDIUM,1,IFRA,"RELATED_DESCRIPTOR_ONLY: IFRA contains a closely related descriptor, but official equivalence to the note concept is not explicit.",True
+Damask Rose,1644,1657,,UNRESOLVED,Damask Rose,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Frankincense,1546,1568,,UNRESOLVED,Frankincense,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Red Berries,1527,1530,,UNRESOLVED,Red Berries,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Lilac,1417,1429,,UNRESOLVED,Lilac,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Madagascar Vanilla,1377,1386,,UNRESOLVED,Madagascar Vanilla,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Blackberry,1342,1354,,UNRESOLVED,Blackberry,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Amalfi Lemon,1325,1325,,UNRESOLVED,Amalfi Lemon,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Green Tea,1323,1333,,UNRESOLVED,Green Tea,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Juniper Berries,1316,1318,,UNRESOLVED,Juniper Berries,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Blood Orange,1289,1291,,UNRESOLVED,Blood Orange,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Palisander Rosewood,1245,1247,,UNRESOLVED,Palisander Rosewood,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Yuzu,1222,1231,,UNRESOLVED,Yuzu,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Haitian Vetiver,1214,1217,,UNRESOLVED,Haitian Vetiver,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Cypriol Oil or Nagarmotha,1197,1198,,UNRESOLVED,Cypriol Oil or Nagarmotha,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Ambrette (Musk Mallow),1192,1194,,UNRESOLVED,Ambrette (Musk Mallow),,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Water Lily,1182,1185,,UNRESOLVED,Water Lily,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Green Leaves,1138,1144,,UNRESOLVED,Green Leaves,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True
+Bourbon Vanilla,1104,1113,,UNRESOLVED,Bourbon Vanilla,,LOW,1,IFRA,"No exact descriptor, verified official alias, or conservative material-family link was found in the allowed sources.",True

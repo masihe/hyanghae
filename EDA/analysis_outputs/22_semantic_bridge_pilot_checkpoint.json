@@ -1,0 +1,3602 @@
+{
+  "pilot_version": "semantic-bridge-pilot-v1",
+  "selection_annotation_sha256": "6ed45347220cf22c173970e97c6a47d890da402d53cf71255821eafd0d176353",
+  "allowed_vocabulary_sha256": "a7b2c1babddc07d8ab1c0222704602dd281d87c0e3c5d353ef0e2b49fb56e7d8",
+  "prompt_sha256": "1dd2c0309d290ecc03a7eff656874e867e456e7393bbb4ec175a81fcdcf9c19e",
+  "model": "gpt-5.4-nano",
+  "llm_results": [
+    {
+      "query_id": "SQ0061",
+      "bridge_phrase": "비 온 뒤의 숲의 냄새",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:35:24.387782+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV6qDpwctpfUzy4EpNhV4qtEImgj",
+            "object": "chat.completion",
+            "created": 1788316524,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"earthy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"wet plaster\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1407,
+              "completion_tokens": 72,
+              "total_tokens": 1479,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"earthy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"wet plaster\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 2,
+          "called_at_utc": "2026-09-02T02:35:26.627416+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV6sJZEvjptlPqBdNKR0fnW7ONbb",
+            "object": "chat.completion",
+            "created": 1788316526,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"wet plaster\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"earthy\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1407,
+              "completion_tokens": 72,
+              "total_tokens": 1479,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"wet plaster\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"earthy\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 3,
+          "called_at_utc": "2026-09-02T02:35:31.294283+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV6xDVfUh7xMSb5HFsiGNzYjWim1",
+            "object": "chat.completion",
+            "created": 1788316531,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"wet plaster\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"earthy\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1407,
+              "completion_tokens": 72,
+              "total_tokens": 1479,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"wet plaster\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"earthy\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "INVALID_OUTPUT",
+      "validated_bridge_status": "ABSTAIN",
+      "validated_targets": [],
+      "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0032",
+      "bridge_phrase": "숲 속에 온 듯한 향",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:35:33.382125+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV6zr7H2EVd7aYXHpXG5euUDqzM4",
+            "object": "chat.completion",
+            "created": 1788316533,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 55,
+              "total_tokens": 1460,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 2,
+          "called_at_utc": "2026-09-02T02:35:37.002044+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV73CxeCsf1ViVDVKhaaFjUTfonJ",
+            "object": "chat.completion",
+            "created": 1788316537,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 55,
+              "total_tokens": 1460,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 3,
+          "called_at_utc": "2026-09-02T02:35:41.142326+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV77idXxLuJJi7OenXRvKmVa5SvM",
+            "object": "chat.completion",
+            "created": 1788316541,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 55,
+              "total_tokens": 1460,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "INVALID_OUTPUT",
+      "validated_bridge_status": "ABSTAIN",
+      "validated_targets": [],
+      "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0136",
+      "bridge_phrase": "빨래향 같이 자연스러운 향",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:35:42.831922+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV791oA5Thdn4KFaTELjucrAeS4s",
+            "object": "chat.completion",
+            "created": 1788316543,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 54,
+              "total_tokens": 1459,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 2,
+          "called_at_utc": "2026-09-02T02:35:45.941123+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7C32SX6KMPo5G9Ph5b8VlRdMI1",
+            "object": "chat.completion",
+            "created": 1788316546,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 54,
+              "total_tokens": 1459,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 3,
+          "called_at_utc": "2026-09-02T02:35:50.135112+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7Gp0XoTGcUR9W5j8WthUZACvzw",
+            "object": "chat.completion",
+            "created": 1788316550,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 54,
+              "total_tokens": 1459,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "INVALID_OUTPUT",
+      "validated_bridge_status": "ABSTAIN",
+      "validated_targets": [],
+      "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0105",
+      "bridge_phrase": "따뜻한 햇살을 받으며 침대 위에 누워있는 듯한 느낌의 향수",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:35:52.401165+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7IJrhiml4t4P0AJXiexS80BhHk",
+            "object": "chat.completion",
+            "created": 1788316552,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"ABSTAIN\",\"targets\":[],\"abstain_reason\":\"향수의 구체적인 향(예: 바닐라, 시트러스, 플로럴 등)이 제시되지 않고 '따뜻한 햇살'과 '침대 위'의 감각적 묘사만 있어 폐쇄 어휘로 매핑이 불가능함\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1419,
+              "completion_tokens": 82,
+              "total_tokens": 1501,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"ABSTAIN\",\"targets\":[],\"abstain_reason\":\"향수의 구체적인 향(예: 바닐라, 시트러스, 플로럴 등)이 제시되지 않고 '따뜻한 햇살'과 '침대 위'의 감각적 묘사만 있어 폐쇄 어휘로 매핑이 불가능함\"}",
+          "validation_error": ""
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "ABSTAIN",
+      "validated_bridge_status": "ABSTAIN",
+      "validated_targets": [],
+      "validation_error": "",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0012",
+      "bridge_phrase": "샤워하고 나온듯한 따뜻하고 포근한 느낌의 향기",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:35:53.760715+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7Ks2dg9149NfReN9fVgu5qvUiA",
+            "object": "chat.completion",
+            "created": 1788316554,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"warm spicy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"vanilla\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1414,
+              "completion_tokens": 72,
+              "total_tokens": 1486,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"warm spicy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"vanilla\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 2,
+          "called_at_utc": "2026-09-02T02:35:56.318412+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7MPn5j4caCJzQU7eMjoOyyjNBC",
+            "object": "chat.completion",
+            "created": 1788316556,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"warm spicy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"vanilla\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1414,
+              "completion_tokens": 72,
+              "total_tokens": 1486,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"warm spicy\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"vanilla\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 3,
+          "called_at_utc": "2026-09-02T02:35:59.626717+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7Q6lSmyqKatEXKtXHcgEhDAFMQ",
+            "object": "chat.completion",
+            "created": 1788316560,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"warm spicy\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"sweet\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1414,
+              "completion_tokens": 56,
+              "total_tokens": 1470,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD\",\"target_feature\":\"soapy\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"warm spicy\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"sweet\"}],\"abstain_reason\":\"\"}",
+          "validation_error": ""
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "MAPPED",
+      "validated_bridge_status": "MAPPED",
+      "validated_targets": [
+        {
+          "target_type": "ACCORD",
+          "target_feature": "soapy"
+        },
+        {
+          "target_type": "ACCORD",
+          "target_feature": "warm spicy"
+        },
+        {
+          "target_type": "ACCORD",
+          "target_feature": "sweet"
+        }
+      ],
+      "validation_error": "",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0058",
+      "bridge_phrase": "바다가 생각나는 시원한 향",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:36:00.955995+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7Rz0ogwjSgGpShdFENAVdEdQJb",
+            "object": "chat.completion",
+            "created": 1788316561,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"aquatic\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Marine\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 70,
+              "total_tokens": 1475,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"aquatic\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Marine\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 2,
+          "called_at_utc": "2026-09-02T02:36:03.276674+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7TiybkHt6JqWqfcvw9SXoAzuNx",
+            "object": "chat.completion",
+            "created": 1788316563,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"aquatic\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Marine\"}]}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 47,
+              "total_tokens": 1452,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"aquatic\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Marine\"}]}",
+          "validation_error": "schema key가 exact match가 아닙니다."
+        },
+        {
+          "attempt": 3,
+          "called_at_utc": "2026-09-02T02:36:06.654140+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7WkKkOUohxq8Z5LIOCSQ5xgV6c",
+            "object": "chat.completion",
+            "created": 1788316566,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"aquatic\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Marine\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 70,
+              "total_tokens": 1475,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"aquatic\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Marine\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "INVALID_OUTPUT",
+      "validated_bridge_status": "ABSTAIN",
+      "validated_targets": [],
+      "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0002",
+      "bridge_phrase": "시원하고 깔끔한 향",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:36:07.894235+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7YVbPxBl4cyl9a9EHQ9aJFIcTd",
+            "object": "chat.completion",
+            "created": 1788316568,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 54,
+              "total_tokens": 1459,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 2,
+          "called_at_utc": "2026-09-02T02:36:10.217422+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7aqQjsuxyPmfbYixNsK1XP8LxE",
+            "object": "chat.completion",
+            "created": 1788316570,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 54,
+              "total_tokens": 1459,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 3,
+          "called_at_utc": "2026-09-02T02:36:13.543628+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7d80oDoaiiPq2RTFfHNf6aiSsJ",
+            "object": "chat.completion",
+            "created": 1788316573,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1405,
+              "completion_tokens": 54,
+              "total_tokens": 1459,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"soapy\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "INVALID_OUTPUT",
+      "validated_bridge_status": "ABSTAIN",
+      "validated_targets": [],
+      "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0047",
+      "bridge_phrase": "가벼우면서 시원한 느낌",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:36:14.761945+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7f0k69GivwMMrMpEyLtvkFYXUM",
+            "object": "chat.completion",
+            "created": 1788316575,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"aquatic\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1406,
+              "completion_tokens": 44,
+              "total_tokens": 1450,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"aquatic\"}],\"abstain_reason\":\"\"}",
+          "validation_error": ""
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "MAPPED",
+      "validated_bridge_status": "MAPPED",
+      "validated_targets": [
+        {
+          "target_type": "ACCORD",
+          "target_feature": "fresh"
+        },
+        {
+          "target_type": "ACCORD",
+          "target_feature": "aquatic"
+        }
+      ],
+      "validation_error": "",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0051",
+      "bridge_phrase": "톡 쏘는 듯한 청량함과 방금 막 세탁된 코튼 향처럼 깨끗한 공기향",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:36:16.205257+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7gqsjMJlSFYz9VBhepueebtUuZ",
+            "object": "chat.completion",
+            "created": 1788316576,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Citrus\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Powdery\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1426,
+              "completion_tokens": 73,
+              "total_tokens": 1499,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Citrus\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Powdery\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 2,
+          "called_at_utc": "2026-09-02T02:36:18.569666+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7iL5e9wrsNOktZAGLAtbkRhDJI",
+            "object": "chat.completion",
+            "created": 1788316578,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Citrus\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Powdery\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1426,
+              "completion_tokens": 73,
+              "total_tokens": 1499,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Citrus\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Powdery\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 3,
+          "called_at_utc": "2026-09-02T02:36:22.460755+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7m27iKcacz7Xj49KrvfNF9VTOU",
+            "object": "chat.completion",
+            "created": 1788316582,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Citrus\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Powdery\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1426,
+              "completion_tokens": 73,
+              "total_tokens": 1499,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Citrus\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"Powdery\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "INVALID_OUTPUT",
+      "validated_bridge_status": "ABSTAIN",
+      "validated_targets": [],
+      "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0071",
+      "bridge_phrase": "겨울 아침에 딱~ 일어나서 창문을 열었는데 느껴지는 차갑고 상쾌한 향",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:36:23.545957+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7nrEAMO1krIi1N6C3fmqwe5qzE",
+            "object": "chat.completion",
+            "created": 1788316583,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"citrus\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"ozonic\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1426,
+              "completion_tokens": 57,
+              "total_tokens": 1483,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"citrus\"},{\"target_type\":\"ACCORD\",\"target_feature\":\"ozonic\"}],\"abstain_reason\":\"\"}",
+          "validation_error": ""
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "MAPPED",
+      "validated_bridge_status": "MAPPED",
+      "validated_targets": [
+        {
+          "target_type": "ACCORD",
+          "target_feature": "fresh"
+        },
+        {
+          "target_type": "ACCORD",
+          "target_feature": "citrus"
+        },
+        {
+          "target_type": "ACCORD",
+          "target_feature": "ozonic"
+        }
+      ],
+      "validation_error": "",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0073",
+      "bridge_phrase": "깨끗하고 시원한 향을 좋아하고, 편백나무, 산내음처럼 자연스러운 향",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:36:24.921077+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7pk8BwFEVwWW2JkgZMXBuZSMlH",
+            "object": "chat.completion",
+            "created": 1788316585,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1422,
+              "completion_tokens": 71,
+              "total_tokens": 1493,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 2,
+          "called_at_utc": "2026-09-02T02:36:27.022655+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7r1RKORt87biRA6xZA6oBIRRP9",
+            "object": "chat.completion",
+            "created": 1788316587,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1422,
+              "completion_tokens": 71,
+              "total_tokens": 1493,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        },
+        {
+          "attempt": 3,
+          "called_at_utc": "2026-09-02T02:36:30.636992+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7udNiI5qhY4yTBb3hc1szgHcUv",
+            "object": "chat.completion",
+            "created": 1788316590,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"}],\"abstain_reason\":\"\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1422,
+              "completion_tokens": 71,
+              "total_tokens": 1493,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"MAPPED\",\"targets\":[{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"fresh\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"woody\"},{\"target_type\":\"ACCORD|CANONICAL_NOTE\",\"target_feature\":\"foresty\"}],\"abstain_reason\":\"\"}",
+          "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'"
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "INVALID_OUTPUT",
+      "validated_bridge_status": "ABSTAIN",
+      "validated_targets": [],
+      "validation_error": "target_type 오류: 'ACCORD|CANONICAL_NOTE'",
+      "avoid_conflicts": []
+    },
+    {
+      "query_id": "SQ0132",
+      "bridge_phrase": "포근한 느낌",
+      "attempts": [
+        {
+          "attempt": 1,
+          "called_at_utc": "2026-09-02T02:36:32.108286+00:00",
+          "raw_response": {
+            "id": "chatcmpl-EJV7wDv96GsizjCnUkajGPWzUnHr6",
+            "object": "chat.completion",
+            "created": 1788316592,
+            "model": "gpt-5.4-nano-2026-03-17",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "{\"bridge_status\":\"ABSTAIN\",\"targets\":[],\"abstain_reason\":\"포근한 느낌은 향(예: 따뜻함/달콤함/머스크 등)으로 특정할 수 있는 단서가 부족해 폐쇄 어휘로 방어적으로 매핑하기 어렵습니다.\"}",
+                  "refusal": null,
+                  "annotations": []
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1401,
+              "completion_tokens": 66,
+              "total_tokens": 1467,
+              "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "audio_tokens": 0
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 0,
+                "audio_tokens": 0,
+                "accepted_prediction_tokens": 0,
+                "rejected_prediction_tokens": 0
+              }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+          },
+          "content": "{\"bridge_status\":\"ABSTAIN\",\"targets\":[],\"abstain_reason\":\"포근한 느낌은 향(예: 따뜻함/달콤함/머스크 등)으로 특정할 수 있는 단서가 부족해 폐쇄 어휘로 방어적으로 매핑하기 어렵습니다.\"}",
+          "validation_error": ""
+        }
+      ],
+      "completed": true,
+      "raw_bridge_status": "ABSTAIN",
+      "validated_bridge_status": "ABSTAIN",
+      "validated_targets": [],
+      "validation_error": "",
+      "avoid_conflicts": []
+    }
+  ],
+  "retrieval_key": {
+    "SQ0061": {
+      "baseline_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "baseline": [],
+      "treatment": [],
+      "anonymous_candidates": []
+    },
+    "SQ0032": {
+      "baseline_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [
+          "summer"
+        ],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [
+          "summer"
+        ],
+        "dayparts": []
+      },
+      "baseline": [
+        {
+          "rank": 1,
+          "perfume_id": 100693,
+          "name": "Summer",
+          "brand": "We Pink",
+          "final_score": 0.8775510191917419,
+          "base_match_score": 0.8775510191917419,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 108516,
+          "name": "Spray Tan",
+          "brand": "Snif",
+          "final_score": 0.875,
+          "base_match_score": 0.875,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 77035,
+          "name": "Honolulu Sun",
+          "brand": "Bath & Body Works",
+          "final_score": 0.8461538553237915,
+          "base_match_score": 0.8461538553237915,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 107829,
+          "name": "Pink Guava",
+          "brand": "Kopari",
+          "final_score": 0.8095238208770752,
+          "base_match_score": 0.8095238208770752,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 15241,
+          "name": "Dreams Unlimited™ Sun Fresh",
+          "brand": "The Body Shop",
+          "final_score": 0.8070175647735596,
+          "base_match_score": 0.8070175647735596,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "treatment": [
+        {
+          "rank": 1,
+          "perfume_id": 100693,
+          "name": "Summer",
+          "brand": "We Pink",
+          "final_score": 0.8775510191917419,
+          "base_match_score": 0.8775510191917419,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 108516,
+          "name": "Spray Tan",
+          "brand": "Snif",
+          "final_score": 0.875,
+          "base_match_score": 0.875,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 77035,
+          "name": "Honolulu Sun",
+          "brand": "Bath & Body Works",
+          "final_score": 0.8461538553237915,
+          "base_match_score": 0.8461538553237915,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 107829,
+          "name": "Pink Guava",
+          "brand": "Kopari",
+          "final_score": 0.8095238208770752,
+          "base_match_score": 0.8095238208770752,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 15241,
+          "name": "Dreams Unlimited™ Sun Fresh",
+          "brand": "The Body Shop",
+          "final_score": 0.8070175647735596,
+          "base_match_score": 0.8070175647735596,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "anonymous_candidates": [
+        {
+          "anonymous_item_id": "SQ0032-C01",
+          "perfume_id": 107829,
+          "name": "Pink Guava",
+          "brand": "Kopari",
+          "baseline_rank": 4,
+          "treatment_rank": 4,
+          "baseline_detail": {
+            "rank": 4,
+            "perfume_id": 107829,
+            "name": "Pink Guava",
+            "brand": "Kopari",
+            "final_score": 0.8095238208770752,
+            "base_match_score": 0.8095238208770752,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 4,
+            "perfume_id": 107829,
+            "name": "Pink Guava",
+            "brand": "Kopari",
+            "final_score": 0.8095238208770752,
+            "base_match_score": 0.8095238208770752,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0032-C02",
+          "perfume_id": 100693,
+          "name": "Summer",
+          "brand": "We Pink",
+          "baseline_rank": 1,
+          "treatment_rank": 1,
+          "baseline_detail": {
+            "rank": 1,
+            "perfume_id": 100693,
+            "name": "Summer",
+            "brand": "We Pink",
+            "final_score": 0.8775510191917419,
+            "base_match_score": 0.8775510191917419,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 1,
+            "perfume_id": 100693,
+            "name": "Summer",
+            "brand": "We Pink",
+            "final_score": 0.8775510191917419,
+            "base_match_score": 0.8775510191917419,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0032-C03",
+          "perfume_id": 15241,
+          "name": "Dreams Unlimited™ Sun Fresh",
+          "brand": "The Body Shop",
+          "baseline_rank": 5,
+          "treatment_rank": 5,
+          "baseline_detail": {
+            "rank": 5,
+            "perfume_id": 15241,
+            "name": "Dreams Unlimited™ Sun Fresh",
+            "brand": "The Body Shop",
+            "final_score": 0.8070175647735596,
+            "base_match_score": 0.8070175647735596,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 5,
+            "perfume_id": 15241,
+            "name": "Dreams Unlimited™ Sun Fresh",
+            "brand": "The Body Shop",
+            "final_score": 0.8070175647735596,
+            "base_match_score": 0.8070175647735596,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0032-C04",
+          "perfume_id": 108516,
+          "name": "Spray Tan",
+          "brand": "Snif",
+          "baseline_rank": 2,
+          "treatment_rank": 2,
+          "baseline_detail": {
+            "rank": 2,
+            "perfume_id": 108516,
+            "name": "Spray Tan",
+            "brand": "Snif",
+            "final_score": 0.875,
+            "base_match_score": 0.875,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 2,
+            "perfume_id": 108516,
+            "name": "Spray Tan",
+            "brand": "Snif",
+            "final_score": 0.875,
+            "base_match_score": 0.875,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0032-C05",
+          "perfume_id": 77035,
+          "name": "Honolulu Sun",
+          "brand": "Bath & Body Works",
+          "baseline_rank": 3,
+          "treatment_rank": 3,
+          "baseline_detail": {
+            "rank": 3,
+            "perfume_id": 77035,
+            "name": "Honolulu Sun",
+            "brand": "Bath & Body Works",
+            "final_score": 0.8461538553237915,
+            "base_match_score": 0.8461538553237915,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 3,
+            "perfume_id": 77035,
+            "name": "Honolulu Sun",
+            "brand": "Bath & Body Works",
+            "final_score": 0.8461538553237915,
+            "base_match_score": 0.8461538553237915,
+            "evidence_coverage": 1.0
+          }
+        }
+      ]
+    },
+    "SQ0136": {
+      "baseline_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "baseline": [],
+      "treatment": [],
+      "anonymous_candidates": []
+    },
+    "SQ0105": {
+      "baseline_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "baseline": [],
+      "treatment": [],
+      "anonymous_candidates": []
+    },
+    "SQ0012": {
+      "baseline_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [
+          "soapy",
+          "warm spicy",
+          "sweet"
+        ],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "baseline": [],
+      "treatment": [
+        {
+          "rank": 1,
+          "perfume_id": 77411,
+          "name": "Elixir of Life",
+          "brand": "Elixir Signature Scents",
+          "final_score": 0.6666667461395264,
+          "base_match_score": 0.6666667461395264,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 94587,
+          "name": "Velvet Rose & Oud",
+          "brand": " Wicked Good",
+          "final_score": 0.6666667461395264,
+          "base_match_score": 0.6666667461395264,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 102566,
+          "name": "100 Degrees",
+          "brand": "Lommeri Fragrance",
+          "final_score": 0.6666667461395264,
+          "base_match_score": 0.6666667461395264,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 113959,
+          "name": "Iced Coffee with Cream",
+          "brand": "Wilson and Son Spoon Co.",
+          "final_score": 0.6666667461395264,
+          "base_match_score": 0.6666667461395264,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 121959,
+          "name": "Signature Vanilla",
+          "brand": "Aura Fragrances",
+          "final_score": 0.6666667461395264,
+          "base_match_score": 0.6666667461395264,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "anonymous_candidates": [
+        {
+          "anonymous_item_id": "SQ0012-C01",
+          "perfume_id": 113959,
+          "name": "Iced Coffee with Cream",
+          "brand": "Wilson and Son Spoon Co.",
+          "baseline_rank": null,
+          "treatment_rank": 4,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 4,
+            "perfume_id": 113959,
+            "name": "Iced Coffee with Cream",
+            "brand": "Wilson and Son Spoon Co.",
+            "final_score": 0.6666667461395264,
+            "base_match_score": 0.6666667461395264,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0012-C02",
+          "perfume_id": 77411,
+          "name": "Elixir of Life",
+          "brand": "Elixir Signature Scents",
+          "baseline_rank": null,
+          "treatment_rank": 1,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 1,
+            "perfume_id": 77411,
+            "name": "Elixir of Life",
+            "brand": "Elixir Signature Scents",
+            "final_score": 0.6666667461395264,
+            "base_match_score": 0.6666667461395264,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0012-C03",
+          "perfume_id": 94587,
+          "name": "Velvet Rose & Oud",
+          "brand": " Wicked Good",
+          "baseline_rank": null,
+          "treatment_rank": 2,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 2,
+            "perfume_id": 94587,
+            "name": "Velvet Rose & Oud",
+            "brand": " Wicked Good",
+            "final_score": 0.6666667461395264,
+            "base_match_score": 0.6666667461395264,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0012-C04",
+          "perfume_id": 121959,
+          "name": "Signature Vanilla",
+          "brand": "Aura Fragrances",
+          "baseline_rank": null,
+          "treatment_rank": 5,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 5,
+            "perfume_id": 121959,
+            "name": "Signature Vanilla",
+            "brand": "Aura Fragrances",
+            "final_score": 0.6666667461395264,
+            "base_match_score": 0.6666667461395264,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0012-C05",
+          "perfume_id": 102566,
+          "name": "100 Degrees",
+          "brand": "Lommeri Fragrance",
+          "baseline_rank": null,
+          "treatment_rank": 3,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 3,
+            "perfume_id": 102566,
+            "name": "100 Degrees",
+            "brand": "Lommeri Fragrance",
+            "final_score": 0.6666667461395264,
+            "base_match_score": 0.6666667461395264,
+            "evidence_coverage": 1.0
+          }
+        }
+      ]
+    },
+    "SQ0058": {
+      "baseline_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [
+          "summer"
+        ],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [],
+        "canonical_notes": [],
+        "seasons": [
+          "summer"
+        ],
+        "dayparts": []
+      },
+      "baseline": [
+        {
+          "rank": 1,
+          "perfume_id": 100693,
+          "name": "Summer",
+          "brand": "We Pink",
+          "final_score": 0.8775510191917419,
+          "base_match_score": 0.8775510191917419,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 108516,
+          "name": "Spray Tan",
+          "brand": "Snif",
+          "final_score": 0.875,
+          "base_match_score": 0.875,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 77035,
+          "name": "Honolulu Sun",
+          "brand": "Bath & Body Works",
+          "final_score": 0.8461538553237915,
+          "base_match_score": 0.8461538553237915,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 107829,
+          "name": "Pink Guava",
+          "brand": "Kopari",
+          "final_score": 0.8095238208770752,
+          "base_match_score": 0.8095238208770752,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 15241,
+          "name": "Dreams Unlimited™ Sun Fresh",
+          "brand": "The Body Shop",
+          "final_score": 0.8070175647735596,
+          "base_match_score": 0.8070175647735596,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "treatment": [
+        {
+          "rank": 1,
+          "perfume_id": 100693,
+          "name": "Summer",
+          "brand": "We Pink",
+          "final_score": 0.8775510191917419,
+          "base_match_score": 0.8775510191917419,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 108516,
+          "name": "Spray Tan",
+          "brand": "Snif",
+          "final_score": 0.875,
+          "base_match_score": 0.875,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 77035,
+          "name": "Honolulu Sun",
+          "brand": "Bath & Body Works",
+          "final_score": 0.8461538553237915,
+          "base_match_score": 0.8461538553237915,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 107829,
+          "name": "Pink Guava",
+          "brand": "Kopari",
+          "final_score": 0.8095238208770752,
+          "base_match_score": 0.8095238208770752,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 15241,
+          "name": "Dreams Unlimited™ Sun Fresh",
+          "brand": "The Body Shop",
+          "final_score": 0.8070175647735596,
+          "base_match_score": 0.8070175647735596,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "anonymous_candidates": [
+        {
+          "anonymous_item_id": "SQ0058-C01",
+          "perfume_id": 100693,
+          "name": "Summer",
+          "brand": "We Pink",
+          "baseline_rank": 1,
+          "treatment_rank": 1,
+          "baseline_detail": {
+            "rank": 1,
+            "perfume_id": 100693,
+            "name": "Summer",
+            "brand": "We Pink",
+            "final_score": 0.8775510191917419,
+            "base_match_score": 0.8775510191917419,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 1,
+            "perfume_id": 100693,
+            "name": "Summer",
+            "brand": "We Pink",
+            "final_score": 0.8775510191917419,
+            "base_match_score": 0.8775510191917419,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0058-C02",
+          "perfume_id": 77035,
+          "name": "Honolulu Sun",
+          "brand": "Bath & Body Works",
+          "baseline_rank": 3,
+          "treatment_rank": 3,
+          "baseline_detail": {
+            "rank": 3,
+            "perfume_id": 77035,
+            "name": "Honolulu Sun",
+            "brand": "Bath & Body Works",
+            "final_score": 0.8461538553237915,
+            "base_match_score": 0.8461538553237915,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 3,
+            "perfume_id": 77035,
+            "name": "Honolulu Sun",
+            "brand": "Bath & Body Works",
+            "final_score": 0.8461538553237915,
+            "base_match_score": 0.8461538553237915,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0058-C03",
+          "perfume_id": 107829,
+          "name": "Pink Guava",
+          "brand": "Kopari",
+          "baseline_rank": 4,
+          "treatment_rank": 4,
+          "baseline_detail": {
+            "rank": 4,
+            "perfume_id": 107829,
+            "name": "Pink Guava",
+            "brand": "Kopari",
+            "final_score": 0.8095238208770752,
+            "base_match_score": 0.8095238208770752,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 4,
+            "perfume_id": 107829,
+            "name": "Pink Guava",
+            "brand": "Kopari",
+            "final_score": 0.8095238208770752,
+            "base_match_score": 0.8095238208770752,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0058-C04",
+          "perfume_id": 15241,
+          "name": "Dreams Unlimited™ Sun Fresh",
+          "brand": "The Body Shop",
+          "baseline_rank": 5,
+          "treatment_rank": 5,
+          "baseline_detail": {
+            "rank": 5,
+            "perfume_id": 15241,
+            "name": "Dreams Unlimited™ Sun Fresh",
+            "brand": "The Body Shop",
+            "final_score": 0.8070175647735596,
+            "base_match_score": 0.8070175647735596,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 5,
+            "perfume_id": 15241,
+            "name": "Dreams Unlimited™ Sun Fresh",
+            "brand": "The Body Shop",
+            "final_score": 0.8070175647735596,
+            "base_match_score": 0.8070175647735596,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0058-C05",
+          "perfume_id": 108516,
+          "name": "Spray Tan",
+          "brand": "Snif",
+          "baseline_rank": 2,
+          "treatment_rank": 2,
+          "baseline_detail": {
+            "rank": 2,
+            "perfume_id": 108516,
+            "name": "Spray Tan",
+            "brand": "Snif",
+            "final_score": 0.875,
+            "base_match_score": 0.875,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 2,
+            "perfume_id": 108516,
+            "name": "Spray Tan",
+            "brand": "Snif",
+            "final_score": 0.875,
+            "base_match_score": 0.875,
+            "evidence_coverage": 1.0
+          }
+        }
+      ]
+    },
+    "SQ0002": {
+      "baseline_features": {
+        "accords": [
+          "citrus"
+        ],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [
+          "citrus"
+        ],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "baseline": [
+        {
+          "rank": 1,
+          "perfume_id": 54,
+          "name": "Shalimar Legere",
+          "brand": "Guerlain",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 57,
+          "name": "Aqua Allegoria Pamplelune",
+          "brand": "Guerlain",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 58,
+          "name": "Aqua Allegoria Gentiana",
+          "brand": "Guerlain",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 134491,
+          "name": "Macadâmia + Bergamota",
+          "brand": "Labotrat",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 134520,
+          "name": "Leaf Crush",
+          "brand": "INSENF",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "treatment": [
+        {
+          "rank": 1,
+          "perfume_id": 54,
+          "name": "Shalimar Legere",
+          "brand": "Guerlain",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 57,
+          "name": "Aqua Allegoria Pamplelune",
+          "brand": "Guerlain",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 58,
+          "name": "Aqua Allegoria Gentiana",
+          "brand": "Guerlain",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 134491,
+          "name": "Macadâmia + Bergamota",
+          "brand": "Labotrat",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 134520,
+          "name": "Leaf Crush",
+          "brand": "INSENF",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "anonymous_candidates": [
+        {
+          "anonymous_item_id": "SQ0002-C01",
+          "perfume_id": 134520,
+          "name": "Leaf Crush",
+          "brand": "INSENF",
+          "baseline_rank": 5,
+          "treatment_rank": 5,
+          "baseline_detail": {
+            "rank": 5,
+            "perfume_id": 134520,
+            "name": "Leaf Crush",
+            "brand": "INSENF",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 5,
+            "perfume_id": 134520,
+            "name": "Leaf Crush",
+            "brand": "INSENF",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0002-C02",
+          "perfume_id": 134491,
+          "name": "Macadâmia + Bergamota",
+          "brand": "Labotrat",
+          "baseline_rank": 4,
+          "treatment_rank": 4,
+          "baseline_detail": {
+            "rank": 4,
+            "perfume_id": 134491,
+            "name": "Macadâmia + Bergamota",
+            "brand": "Labotrat",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 4,
+            "perfume_id": 134491,
+            "name": "Macadâmia + Bergamota",
+            "brand": "Labotrat",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0002-C03",
+          "perfume_id": 54,
+          "name": "Shalimar Legere",
+          "brand": "Guerlain",
+          "baseline_rank": 1,
+          "treatment_rank": 1,
+          "baseline_detail": {
+            "rank": 1,
+            "perfume_id": 54,
+            "name": "Shalimar Legere",
+            "brand": "Guerlain",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 1,
+            "perfume_id": 54,
+            "name": "Shalimar Legere",
+            "brand": "Guerlain",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0002-C04",
+          "perfume_id": 57,
+          "name": "Aqua Allegoria Pamplelune",
+          "brand": "Guerlain",
+          "baseline_rank": 2,
+          "treatment_rank": 2,
+          "baseline_detail": {
+            "rank": 2,
+            "perfume_id": 57,
+            "name": "Aqua Allegoria Pamplelune",
+            "brand": "Guerlain",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 2,
+            "perfume_id": 57,
+            "name": "Aqua Allegoria Pamplelune",
+            "brand": "Guerlain",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0002-C05",
+          "perfume_id": 58,
+          "name": "Aqua Allegoria Gentiana",
+          "brand": "Guerlain",
+          "baseline_rank": 3,
+          "treatment_rank": 3,
+          "baseline_detail": {
+            "rank": 3,
+            "perfume_id": 58,
+            "name": "Aqua Allegoria Gentiana",
+            "brand": "Guerlain",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 3,
+            "perfume_id": 58,
+            "name": "Aqua Allegoria Gentiana",
+            "brand": "Guerlain",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        }
+      ]
+    },
+    "SQ0047": {
+      "baseline_features": {
+        "accords": [
+          "soapy",
+          "musky",
+          "woody"
+        ],
+        "canonical_notes": [],
+        "seasons": [
+          "summer"
+        ],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [
+          "soapy",
+          "musky",
+          "woody",
+          "fresh",
+          "aquatic"
+        ],
+        "canonical_notes": [],
+        "seasons": [
+          "summer"
+        ],
+        "dayparts": []
+      },
+      "baseline": [
+        {
+          "rank": 1,
+          "perfume_id": 54319,
+          "name": "Rising Sun",
+          "brand": "Shiseido",
+          "final_score": 0.6159479022026062,
+          "base_match_score": 0.6159479022026062,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 54244,
+          "name": "Pure Grace Desert Summer",
+          "brand": "Philosophy",
+          "final_score": 0.6100000143051147,
+          "base_match_score": 0.6100000143051147,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 72621,
+          "name": "Light Blue Italian Love",
+          "brand": "Dolce&Gabbana",
+          "final_score": 0.594313234090805,
+          "base_match_score": 0.594313234090805,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 105776,
+          "name": "Bombshell Santorini",
+          "brand": "Victoria's Secret",
+          "final_score": 0.5803030580282211,
+          "base_match_score": 0.5803030580282211,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 90433,
+          "name": "Invictus Parfum",
+          "brand": "Rabanne",
+          "final_score": 0.5783477425575256,
+          "base_match_score": 0.5783477425575256,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "treatment": [
+        {
+          "rank": 1,
+          "perfume_id": 63637,
+          "name": "Free Spirit",
+          "brand": "Mary Kay",
+          "final_score": 0.604454517364502,
+          "base_match_score": 0.604454517364502,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 2448,
+          "name": "Yllozure",
+          "brand": "Yllozure",
+          "final_score": 0.5831666737794876,
+          "base_match_score": 0.5831666737794876,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 18373,
+          "name": "L'Homme Libre Cologne Tonic",
+          "brand": "Yves Saint Laurent",
+          "final_score": 0.5676107108592987,
+          "base_match_score": 0.5676107108592987,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 53656,
+          "name": "Bendito Beso",
+          "brand": "Beso Beach Perfumes",
+          "final_score": 0.5640000104904175,
+          "base_match_score": 0.5640000104904175,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 105776,
+          "name": "Bombshell Santorini",
+          "brand": "Victoria's Secret",
+          "final_score": 0.563636377453804,
+          "base_match_score": 0.563636377453804,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "anonymous_candidates": [
+        {
+          "anonymous_item_id": "SQ0047-C01",
+          "perfume_id": 54319,
+          "name": "Rising Sun",
+          "brand": "Shiseido",
+          "baseline_rank": 1,
+          "treatment_rank": null,
+          "baseline_detail": {
+            "rank": 1,
+            "perfume_id": 54319,
+            "name": "Rising Sun",
+            "brand": "Shiseido",
+            "final_score": 0.6159479022026062,
+            "base_match_score": 0.6159479022026062,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": null
+        },
+        {
+          "anonymous_item_id": "SQ0047-C02",
+          "perfume_id": 72621,
+          "name": "Light Blue Italian Love",
+          "brand": "Dolce&Gabbana",
+          "baseline_rank": 3,
+          "treatment_rank": null,
+          "baseline_detail": {
+            "rank": 3,
+            "perfume_id": 72621,
+            "name": "Light Blue Italian Love",
+            "brand": "Dolce&Gabbana",
+            "final_score": 0.594313234090805,
+            "base_match_score": 0.594313234090805,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": null
+        },
+        {
+          "anonymous_item_id": "SQ0047-C03",
+          "perfume_id": 53656,
+          "name": "Bendito Beso",
+          "brand": "Beso Beach Perfumes",
+          "baseline_rank": null,
+          "treatment_rank": 4,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 4,
+            "perfume_id": 53656,
+            "name": "Bendito Beso",
+            "brand": "Beso Beach Perfumes",
+            "final_score": 0.5640000104904175,
+            "base_match_score": 0.5640000104904175,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0047-C04",
+          "perfume_id": 90433,
+          "name": "Invictus Parfum",
+          "brand": "Rabanne",
+          "baseline_rank": 5,
+          "treatment_rank": null,
+          "baseline_detail": {
+            "rank": 5,
+            "perfume_id": 90433,
+            "name": "Invictus Parfum",
+            "brand": "Rabanne",
+            "final_score": 0.5783477425575256,
+            "base_match_score": 0.5783477425575256,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": null
+        },
+        {
+          "anonymous_item_id": "SQ0047-C05",
+          "perfume_id": 2448,
+          "name": "Yllozure",
+          "brand": "Yllozure",
+          "baseline_rank": null,
+          "treatment_rank": 2,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 2,
+            "perfume_id": 2448,
+            "name": "Yllozure",
+            "brand": "Yllozure",
+            "final_score": 0.5831666737794876,
+            "base_match_score": 0.5831666737794876,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0047-C06",
+          "perfume_id": 63637,
+          "name": "Free Spirit",
+          "brand": "Mary Kay",
+          "baseline_rank": null,
+          "treatment_rank": 1,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 1,
+            "perfume_id": 63637,
+            "name": "Free Spirit",
+            "brand": "Mary Kay",
+            "final_score": 0.604454517364502,
+            "base_match_score": 0.604454517364502,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0047-C07",
+          "perfume_id": 105776,
+          "name": "Bombshell Santorini",
+          "brand": "Victoria's Secret",
+          "baseline_rank": 4,
+          "treatment_rank": 5,
+          "baseline_detail": {
+            "rank": 4,
+            "perfume_id": 105776,
+            "name": "Bombshell Santorini",
+            "brand": "Victoria's Secret",
+            "final_score": 0.5803030580282211,
+            "base_match_score": 0.5803030580282211,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 5,
+            "perfume_id": 105776,
+            "name": "Bombshell Santorini",
+            "brand": "Victoria's Secret",
+            "final_score": 0.563636377453804,
+            "base_match_score": 0.563636377453804,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0047-C08",
+          "perfume_id": 54244,
+          "name": "Pure Grace Desert Summer",
+          "brand": "Philosophy",
+          "baseline_rank": 2,
+          "treatment_rank": null,
+          "baseline_detail": {
+            "rank": 2,
+            "perfume_id": 54244,
+            "name": "Pure Grace Desert Summer",
+            "brand": "Philosophy",
+            "final_score": 0.6100000143051147,
+            "base_match_score": 0.6100000143051147,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": null
+        },
+        {
+          "anonymous_item_id": "SQ0047-C09",
+          "perfume_id": 18373,
+          "name": "L'Homme Libre Cologne Tonic",
+          "brand": "Yves Saint Laurent",
+          "baseline_rank": null,
+          "treatment_rank": 3,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 3,
+            "perfume_id": 18373,
+            "name": "L'Homme Libre Cologne Tonic",
+            "brand": "Yves Saint Laurent",
+            "final_score": 0.5676107108592987,
+            "base_match_score": 0.5676107108592987,
+            "evidence_coverage": 1.0
+          }
+        }
+      ]
+    },
+    "SQ0051": {
+      "baseline_features": {
+        "accords": [],
+        "canonical_notes": [
+          "Peach"
+        ],
+        "seasons": [],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [],
+        "canonical_notes": [
+          "Peach"
+        ],
+        "seasons": [],
+        "dayparts": []
+      },
+      "baseline": [
+        {
+          "rank": 1,
+          "perfume_id": 6,
+          "name": "Arpège",
+          "brand": "Lanvin",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 8116,
+          "name": "Giordani Gold Shine",
+          "brand": "Oriflame",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 8139,
+          "name": "DKNY Fresh Blossom Art Limited Edition",
+          "brand": "Donna Karan",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 134508,
+          "name": "Puffletuft’s White Milk",
+          "brand": "The Dua Brand",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 134523,
+          "name": "Ciao Cocca",
+          "brand": "Pinalli",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "treatment": [
+        {
+          "rank": 1,
+          "perfume_id": 6,
+          "name": "Arpège",
+          "brand": "Lanvin",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 8116,
+          "name": "Giordani Gold Shine",
+          "brand": "Oriflame",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 8139,
+          "name": "DKNY Fresh Blossom Art Limited Edition",
+          "brand": "Donna Karan",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 134508,
+          "name": "Puffletuft’s White Milk",
+          "brand": "The Dua Brand",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 134523,
+          "name": "Ciao Cocca",
+          "brand": "Pinalli",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "anonymous_candidates": [
+        {
+          "anonymous_item_id": "SQ0051-C01",
+          "perfume_id": 8116,
+          "name": "Giordani Gold Shine",
+          "brand": "Oriflame",
+          "baseline_rank": 2,
+          "treatment_rank": 2,
+          "baseline_detail": {
+            "rank": 2,
+            "perfume_id": 8116,
+            "name": "Giordani Gold Shine",
+            "brand": "Oriflame",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 2,
+            "perfume_id": 8116,
+            "name": "Giordani Gold Shine",
+            "brand": "Oriflame",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0051-C02",
+          "perfume_id": 134508,
+          "name": "Puffletuft’s White Milk",
+          "brand": "The Dua Brand",
+          "baseline_rank": 4,
+          "treatment_rank": 4,
+          "baseline_detail": {
+            "rank": 4,
+            "perfume_id": 134508,
+            "name": "Puffletuft’s White Milk",
+            "brand": "The Dua Brand",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 4,
+            "perfume_id": 134508,
+            "name": "Puffletuft’s White Milk",
+            "brand": "The Dua Brand",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0051-C03",
+          "perfume_id": 6,
+          "name": "Arpège",
+          "brand": "Lanvin",
+          "baseline_rank": 1,
+          "treatment_rank": 1,
+          "baseline_detail": {
+            "rank": 1,
+            "perfume_id": 6,
+            "name": "Arpège",
+            "brand": "Lanvin",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 1,
+            "perfume_id": 6,
+            "name": "Arpège",
+            "brand": "Lanvin",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0051-C04",
+          "perfume_id": 8139,
+          "name": "DKNY Fresh Blossom Art Limited Edition",
+          "brand": "Donna Karan",
+          "baseline_rank": 3,
+          "treatment_rank": 3,
+          "baseline_detail": {
+            "rank": 3,
+            "perfume_id": 8139,
+            "name": "DKNY Fresh Blossom Art Limited Edition",
+            "brand": "Donna Karan",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 3,
+            "perfume_id": 8139,
+            "name": "DKNY Fresh Blossom Art Limited Edition",
+            "brand": "Donna Karan",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0051-C05",
+          "perfume_id": 134523,
+          "name": "Ciao Cocca",
+          "brand": "Pinalli",
+          "baseline_rank": 5,
+          "treatment_rank": 5,
+          "baseline_detail": {
+            "rank": 5,
+            "perfume_id": 134523,
+            "name": "Ciao Cocca",
+            "brand": "Pinalli",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 5,
+            "perfume_id": 134523,
+            "name": "Ciao Cocca",
+            "brand": "Pinalli",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        }
+      ]
+    },
+    "SQ0071": {
+      "baseline_features": {
+        "accords": [
+          "musky",
+          "woody"
+        ],
+        "canonical_notes": [],
+        "seasons": [
+          "winter"
+        ],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [
+          "musky",
+          "woody",
+          "fresh",
+          "citrus",
+          "ozonic"
+        ],
+        "canonical_notes": [],
+        "seasons": [
+          "winter"
+        ],
+        "dayparts": []
+      },
+      "baseline": [
+        {
+          "rank": 1,
+          "perfume_id": 9332,
+          "name": "Gala",
+          "brand": "Loewe",
+          "final_score": 0.7206637263298035,
+          "base_match_score": 0.7206637263298035,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 52594,
+          "name": "White Fox",
+          "brand": "Solstice Scents",
+          "final_score": 0.7199999988079071,
+          "base_match_score": 0.7199999988079071,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 50252,
+          "name": "Veneno",
+          "brand": "Miguel Matos",
+          "final_score": 0.7191666811704636,
+          "base_match_score": 0.7191666811704636,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 22862,
+          "name": "Al Attar Al Thameen Al Bahy",
+          "brand": "Rasasi",
+          "final_score": 0.7155952304601669,
+          "base_match_score": 0.7155952304601669,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 76776,
+          "name": "Pipe",
+          "brand": "TSVGA Parfums",
+          "final_score": 0.7150000035762787,
+          "base_match_score": 0.7150000035762787,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "treatment": [
+        {
+          "rank": 1,
+          "perfume_id": 88917,
+          "name": "Penguin",
+          "brand": "Zoologist Perfumes",
+          "final_score": 0.5530165433883667,
+          "base_match_score": 0.5530165433883667,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 39544,
+          "name": "Winter Wishes",
+          "brand": "Mary Kay",
+          "final_score": 0.5419999957084656,
+          "base_match_score": 0.5419999957084656,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 52594,
+          "name": "White Fox",
+          "brand": "Solstice Scents",
+          "final_score": 0.5404999852180481,
+          "base_match_score": 0.5404999852180481,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 63624,
+          "name": "Snow Angel",
+          "brand": "Philosophy",
+          "final_score": 0.535638302564621,
+          "base_match_score": 0.535638302564621,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 35598,
+          "name": "Spirit for Men",
+          "brand": "Avon",
+          "final_score": 0.5295000076293945,
+          "base_match_score": 0.5295000076293945,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "anonymous_candidates": [
+        {
+          "anonymous_item_id": "SQ0071-C01",
+          "perfume_id": 88917,
+          "name": "Penguin",
+          "brand": "Zoologist Perfumes",
+          "baseline_rank": null,
+          "treatment_rank": 1,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 1,
+            "perfume_id": 88917,
+            "name": "Penguin",
+            "brand": "Zoologist Perfumes",
+            "final_score": 0.5530165433883667,
+            "base_match_score": 0.5530165433883667,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0071-C02",
+          "perfume_id": 9332,
+          "name": "Gala",
+          "brand": "Loewe",
+          "baseline_rank": 1,
+          "treatment_rank": null,
+          "baseline_detail": {
+            "rank": 1,
+            "perfume_id": 9332,
+            "name": "Gala",
+            "brand": "Loewe",
+            "final_score": 0.7206637263298035,
+            "base_match_score": 0.7206637263298035,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": null
+        },
+        {
+          "anonymous_item_id": "SQ0071-C03",
+          "perfume_id": 76776,
+          "name": "Pipe",
+          "brand": "TSVGA Parfums",
+          "baseline_rank": 5,
+          "treatment_rank": null,
+          "baseline_detail": {
+            "rank": 5,
+            "perfume_id": 76776,
+            "name": "Pipe",
+            "brand": "TSVGA Parfums",
+            "final_score": 0.7150000035762787,
+            "base_match_score": 0.7150000035762787,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": null
+        },
+        {
+          "anonymous_item_id": "SQ0071-C04",
+          "perfume_id": 39544,
+          "name": "Winter Wishes",
+          "brand": "Mary Kay",
+          "baseline_rank": null,
+          "treatment_rank": 2,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 2,
+            "perfume_id": 39544,
+            "name": "Winter Wishes",
+            "brand": "Mary Kay",
+            "final_score": 0.5419999957084656,
+            "base_match_score": 0.5419999957084656,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0071-C05",
+          "perfume_id": 22862,
+          "name": "Al Attar Al Thameen Al Bahy",
+          "brand": "Rasasi",
+          "baseline_rank": 4,
+          "treatment_rank": null,
+          "baseline_detail": {
+            "rank": 4,
+            "perfume_id": 22862,
+            "name": "Al Attar Al Thameen Al Bahy",
+            "brand": "Rasasi",
+            "final_score": 0.7155952304601669,
+            "base_match_score": 0.7155952304601669,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": null
+        },
+        {
+          "anonymous_item_id": "SQ0071-C06",
+          "perfume_id": 50252,
+          "name": "Veneno",
+          "brand": "Miguel Matos",
+          "baseline_rank": 3,
+          "treatment_rank": null,
+          "baseline_detail": {
+            "rank": 3,
+            "perfume_id": 50252,
+            "name": "Veneno",
+            "brand": "Miguel Matos",
+            "final_score": 0.7191666811704636,
+            "base_match_score": 0.7191666811704636,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": null
+        },
+        {
+          "anonymous_item_id": "SQ0071-C07",
+          "perfume_id": 63624,
+          "name": "Snow Angel",
+          "brand": "Philosophy",
+          "baseline_rank": null,
+          "treatment_rank": 4,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 4,
+            "perfume_id": 63624,
+            "name": "Snow Angel",
+            "brand": "Philosophy",
+            "final_score": 0.535638302564621,
+            "base_match_score": 0.535638302564621,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0071-C08",
+          "perfume_id": 35598,
+          "name": "Spirit for Men",
+          "brand": "Avon",
+          "baseline_rank": null,
+          "treatment_rank": 5,
+          "baseline_detail": null,
+          "treatment_detail": {
+            "rank": 5,
+            "perfume_id": 35598,
+            "name": "Spirit for Men",
+            "brand": "Avon",
+            "final_score": 0.5295000076293945,
+            "base_match_score": 0.5295000076293945,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0071-C09",
+          "perfume_id": 52594,
+          "name": "White Fox",
+          "brand": "Solstice Scents",
+          "baseline_rank": 2,
+          "treatment_rank": 3,
+          "baseline_detail": {
+            "rank": 2,
+            "perfume_id": 52594,
+            "name": "White Fox",
+            "brand": "Solstice Scents",
+            "final_score": 0.7199999988079071,
+            "base_match_score": 0.7199999988079071,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 3,
+            "perfume_id": 52594,
+            "name": "White Fox",
+            "brand": "Solstice Scents",
+            "final_score": 0.5404999852180481,
+            "base_match_score": 0.5404999852180481,
+            "evidence_coverage": 1.0
+          }
+        }
+      ]
+    },
+    "SQ0073": {
+      "baseline_features": {
+        "accords": [
+          "woody",
+          "floral"
+        ],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [
+          "woody",
+          "floral"
+        ],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "baseline": [
+        {
+          "rank": 1,
+          "perfume_id": 72745,
+          "name": "Maldives Sunrise",
+          "brand": "Mary Kay",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 80168,
+          "name": "Flouvella",
+          "brand": "Sauzé",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 84711,
+          "name": "Nina Nina",
+          "brand": "Ascania",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 105965,
+          "name": "Slow Brew",
+          "brand": "Noseway",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 118482,
+          "name": "Aurea",
+          "brand": "Derbe",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "treatment": [
+        {
+          "rank": 1,
+          "perfume_id": 72745,
+          "name": "Maldives Sunrise",
+          "brand": "Mary Kay",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 80168,
+          "name": "Flouvella",
+          "brand": "Sauzé",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 84711,
+          "name": "Nina Nina",
+          "brand": "Ascania",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 105965,
+          "name": "Slow Brew",
+          "brand": "Noseway",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 118482,
+          "name": "Aurea",
+          "brand": "Derbe",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "anonymous_candidates": [
+        {
+          "anonymous_item_id": "SQ0073-C01",
+          "perfume_id": 72745,
+          "name": "Maldives Sunrise",
+          "brand": "Mary Kay",
+          "baseline_rank": 1,
+          "treatment_rank": 1,
+          "baseline_detail": {
+            "rank": 1,
+            "perfume_id": 72745,
+            "name": "Maldives Sunrise",
+            "brand": "Mary Kay",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 1,
+            "perfume_id": 72745,
+            "name": "Maldives Sunrise",
+            "brand": "Mary Kay",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0073-C02",
+          "perfume_id": 105965,
+          "name": "Slow Brew",
+          "brand": "Noseway",
+          "baseline_rank": 4,
+          "treatment_rank": 4,
+          "baseline_detail": {
+            "rank": 4,
+            "perfume_id": 105965,
+            "name": "Slow Brew",
+            "brand": "Noseway",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 4,
+            "perfume_id": 105965,
+            "name": "Slow Brew",
+            "brand": "Noseway",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0073-C03",
+          "perfume_id": 80168,
+          "name": "Flouvella",
+          "brand": "Sauzé",
+          "baseline_rank": 2,
+          "treatment_rank": 2,
+          "baseline_detail": {
+            "rank": 2,
+            "perfume_id": 80168,
+            "name": "Flouvella",
+            "brand": "Sauzé",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 2,
+            "perfume_id": 80168,
+            "name": "Flouvella",
+            "brand": "Sauzé",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0073-C04",
+          "perfume_id": 118482,
+          "name": "Aurea",
+          "brand": "Derbe",
+          "baseline_rank": 5,
+          "treatment_rank": 5,
+          "baseline_detail": {
+            "rank": 5,
+            "perfume_id": 118482,
+            "name": "Aurea",
+            "brand": "Derbe",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 5,
+            "perfume_id": 118482,
+            "name": "Aurea",
+            "brand": "Derbe",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0073-C05",
+          "perfume_id": 84711,
+          "name": "Nina Nina",
+          "brand": "Ascania",
+          "baseline_rank": 3,
+          "treatment_rank": 3,
+          "baseline_detail": {
+            "rank": 3,
+            "perfume_id": 84711,
+            "name": "Nina Nina",
+            "brand": "Ascania",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 3,
+            "perfume_id": 84711,
+            "name": "Nina Nina",
+            "brand": "Ascania",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        }
+      ]
+    },
+    "SQ0132": {
+      "baseline_features": {
+        "accords": [
+          "musky"
+        ],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "treatment_features": {
+        "accords": [
+          "musky"
+        ],
+        "canonical_notes": [],
+        "seasons": [],
+        "dayparts": []
+      },
+      "baseline": [
+        {
+          "rank": 1,
+          "perfume_id": 6098,
+          "name": "Wild Musk",
+          "brand": "Coty",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 42290,
+          "name": "Men's Club",
+          "brand": "Helena Rubinstein",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 53802,
+          "name": "DKNY Women Limited Edition",
+          "brand": "Donna Karan",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 88754,
+          "name": "Celebrate Life",
+          "brand": "We Pink",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 122365,
+          "name": "Emishiki Sensation White",
+          "brand": "Tada Parfumeur",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "treatment": [
+        {
+          "rank": 1,
+          "perfume_id": 6098,
+          "name": "Wild Musk",
+          "brand": "Coty",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 2,
+          "perfume_id": 42290,
+          "name": "Men's Club",
+          "brand": "Helena Rubinstein",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 3,
+          "perfume_id": 53802,
+          "name": "DKNY Women Limited Edition",
+          "brand": "Donna Karan",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 4,
+          "perfume_id": 88754,
+          "name": "Celebrate Life",
+          "brand": "We Pink",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        },
+        {
+          "rank": 5,
+          "perfume_id": 122365,
+          "name": "Emishiki Sensation White",
+          "brand": "Tada Parfumeur",
+          "final_score": 1.0,
+          "base_match_score": 1.0,
+          "evidence_coverage": 1.0
+        }
+      ],
+      "anonymous_candidates": [
+        {
+          "anonymous_item_id": "SQ0132-C01",
+          "perfume_id": 42290,
+          "name": "Men's Club",
+          "brand": "Helena Rubinstein",
+          "baseline_rank": 2,
+          "treatment_rank": 2,
+          "baseline_detail": {
+            "rank": 2,
+            "perfume_id": 42290,
+            "name": "Men's Club",
+            "brand": "Helena Rubinstein",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 2,
+            "perfume_id": 42290,
+            "name": "Men's Club",
+            "brand": "Helena Rubinstein",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0132-C02",
+          "perfume_id": 6098,
+          "name": "Wild Musk",
+          "brand": "Coty",
+          "baseline_rank": 1,
+          "treatment_rank": 1,
+          "baseline_detail": {
+            "rank": 1,
+            "perfume_id": 6098,
+            "name": "Wild Musk",
+            "brand": "Coty",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 1,
+            "perfume_id": 6098,
+            "name": "Wild Musk",
+            "brand": "Coty",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0132-C03",
+          "perfume_id": 122365,
+          "name": "Emishiki Sensation White",
+          "brand": "Tada Parfumeur",
+          "baseline_rank": 5,
+          "treatment_rank": 5,
+          "baseline_detail": {
+            "rank": 5,
+            "perfume_id": 122365,
+            "name": "Emishiki Sensation White",
+            "brand": "Tada Parfumeur",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 5,
+            "perfume_id": 122365,
+            "name": "Emishiki Sensation White",
+            "brand": "Tada Parfumeur",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0132-C04",
+          "perfume_id": 53802,
+          "name": "DKNY Women Limited Edition",
+          "brand": "Donna Karan",
+          "baseline_rank": 3,
+          "treatment_rank": 3,
+          "baseline_detail": {
+            "rank": 3,
+            "perfume_id": 53802,
+            "name": "DKNY Women Limited Edition",
+            "brand": "Donna Karan",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 3,
+            "perfume_id": 53802,
+            "name": "DKNY Women Limited Edition",
+            "brand": "Donna Karan",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        },
+        {
+          "anonymous_item_id": "SQ0132-C05",
+          "perfume_id": 88754,
+          "name": "Celebrate Life",
+          "brand": "We Pink",
+          "baseline_rank": 4,
+          "treatment_rank": 4,
+          "baseline_detail": {
+            "rank": 4,
+            "perfume_id": 88754,
+            "name": "Celebrate Life",
+            "brand": "We Pink",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          },
+          "treatment_detail": {
+            "rank": 4,
+            "perfume_id": 88754,
+            "name": "Celebrate Life",
+            "brand": "We Pink",
+            "final_score": 1.0,
+            "base_match_score": 1.0,
+            "evidence_coverage": 1.0
+          }
+        }
+      ]
+    }
+  },
+  "human_evaluation_path": "evaluation_data\\semantic_bridge\\22_pilot_human_evaluation.csv",
+  "human_evaluation_blind_columns_verified": true
+}

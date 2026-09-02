@@ -1,0 +1,4 @@
+data/external/ifra/raw/*.pdf
+/venv
+venv/*
+.env

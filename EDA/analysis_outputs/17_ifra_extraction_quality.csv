@@ -1,0 +1,14 @@
+﻿metric,value,notes
+pdf_page_count,111,Physical PDF pages
+glossary_table_page_count,99,PDF pages 13-111
+total_extracted_rows,3119,Excludes repeated header
+rows_with_missing_cas,0,
+rows_with_missing_name,0,
+rows_with_missing_primary,0,
+rows_with_missing_descriptor2,0,
+rows_with_missing_descriptor3,0,
+rows_with_non_5_column_table,0,Extraction stops if detected
+rows_with_invalid_cas_format,0,Allows one parenthesized alternate CAS
+rows_with_cas_in_non_cas_column,0,Column-shift diagnostic
+header_footer_contamination_rows,0,
+updated_marker_removed_from_name,4,"PDF footnote marker, not part of principal name"
