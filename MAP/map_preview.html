@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>향 지도 검증 뷰어</title>
+<!--
+  좌표가 말이 되는지 눈으로 확인하는 진단 도구다. 제품 UI가 아니다.
+  합격 판정은 build_map.py가 찍는 수치 지표가 하고, 여기서는 수치가 못 잡는
+  문제(한 점에 뭉침, 정반대 향이 붙어 있음)를 찾는다.
+
+  실행:  MAP/ 에서  python -m http.server 8000   후  localhost:8000/map_preview.html
+  (file:// 로 열면 JSON fetch가 CORS로 막힌다)
+-->
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; background:#12151c; color:#dde3ee;
+         font:13px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; display:flex; height:100vh; }
+  #stage { flex:1; position:relative; min-width:0; }
+  canvas { display:block; width:100%; height:100%; }
+  #side { width:330px; border-left:1px solid #262c38; padding:14px; overflow-y:auto; background:#161a23; }
+  h1 { font-size:14px; margin:0 0 4px; letter-spacing:.02em; }
+  .sub { color:#7b879c; font-size:11px; margin-bottom:14px; }
+  .ctl { display:flex; flex-direction:column; gap:7px; margin-bottom:14px; }
+  label { display:flex; align-items:center; gap:7px; cursor:pointer; }
+  input[type=search] { background:#0e1117; border:1px solid #2c3444; color:#dde3ee;
+                       padding:6px 9px; border-radius:5px; width:100%; box-sizing:border-box; font:inherit; }
+  h2 { font-size:11px; text-transform:uppercase; letter-spacing:.08em; color:#7b879c;
+       margin:16px 0 7px; border-top:1px solid #262c38; padding-top:11px; }
+  .row { padding:5px 7px; border-radius:4px; cursor:pointer; }
+  .row:hover { background:#1e2431; }
+  .muted { color:#7b879c; }
+  .pill { display:inline-block; background:#232b3a; border-radius:9px;
+          padding:1px 7px; margin:2px 3px 0 0; font-size:11px; }
+  #tip { position:absolute; pointer-events:none; background:#0b0e14ee; border:1px solid #333c4e;
+         border-radius:6px; padding:7px 9px; font-size:12px; max-width:270px; display:none; }
+  #legend { position:absolute; left:10px; bottom:10px; background:#0b0e14cc;
+            border:1px solid #262c38; border-radius:6px; padding:8px 10px; font-size:11px; }
+  #legend div { display:flex; align-items:center; gap:6px; }
+  .sw { width:9px; height:9px; border-radius:50%; flex:none; }
+  b { color:#fff; font-weight:600; }
+</style>
+
+<div id="stage"><canvas id="cv"></canvas><div id="tip"></div><div id="legend"></div></div>
+<div id="side">
+  <h1>향 지도 검증 뷰어</h1>
+  <div class="sub" id="meta">불러오는 중…</div>
+  <div class="ctl">
+    <input type="search" id="q" placeholder="향수 이름 / 브랜드 검색">
+    <label><input type="checkbox" id="only200"> 화면용 200개만 보기</label>
+    <label><input type="checkbox" id="edges" checked> reminds_me_of 정답 간선 표시</label>
+    <label><input type="checkbox" id="longonly"> 긴 간선(&gt;0.35)만 — 실패 사례</label>
+    <label><input type="checkbox" id="labels"> 이름 표시 (선택·검색 결과)</label>
+  </div>
+  <div id="detail"></div>
+  <h2>가장 긴 정답 간선 20개</h2>
+  <div class="sub" style="margin:-4px 0 8px">사용자가 닮았다고 투표했는데 지도에서 멀리 떨어진 쌍. 실패 사례 목록이다.</div>
+  <div id="worst"></div>
+</div>
+
+<script>
+const PALETTE = ["#5b8ff9","#61ddaa","#f6bd16","#f08bb4","#7262fd","#78d3f8","#d97b3a","#9661bc",
+                 "#e8684a","#6dc8ec","#a7d64c","#ff9d4d","#b8d0ff","#8378ea","#4ecb73","#c8a0d6"];
+const cv = document.getElementById("cv"), ctx = cv.getContext("2d");
+const tip = document.getElementById("tip");
+let data, edges = [], pts = [], selected = null, hover = null, matches = new Set(), worst = [];
+let view = { s: 1, tx: 0, ty: 0 };
+
+Promise.all([
+  fetch("output/scent_map_v1.json").then(r => r.json()),
+  fetch("output/diagnostic_edges.json").then(r => r.json()).catch(() => ({reminds_confident: []})),
+]).then(([map, diag]) => {
+  data = map;
+  const byId = new Map(data.perfumes.map(p => [p.id, p]));
+  edges = diag.reminds_confident.filter(([a, b]) => byId.has(a) && byId.has(b))
+                                .map(([a, b]) => [byId.get(a), byId.get(b)]);
+  // 실패 사례: 2D 거리가 먼 정답 쌍부터
+  worst = edges.map(([a, b]) => ({a, b, d: Math.hypot(a.x - b.x, a.y - b.y)}))
+               .sort((x, y) => y.d - x.d).slice(0, 20);
+  const L = data.layout;
+  const ds = edges.map(([a, b]) => Math.hypot(a.x - b.x, a.y - b.y)).sort((x, y) => x - y);
+  const med = ds[ds.length >> 1];
+  const longShare = ds.filter(d => d > 0.35).length / ds.length;
+  const sameCl = edges.filter(([a, b]) => a.cluster === b.cluster).length / edges.length;
+  document.getElementById("meta").innerHTML =
+    `${data.perfumes.length}개 · ${data.clusters.length} 클러스터 · ${L.method}<br>` +
+    `trustworthiness@10 <b>${L.trustworthiness_at_10}</b> · kNN overlap@10 <b>${L.knn_overlap_at_10}</b><br>` +
+    `정답쌍 지도거리 중앙값 <b>${med.toFixed(3)}</b> · 같은 클러스터 <b>${(sameCl*100).toFixed(0)}%</b>` +
+    ` · 0.35 초과 <b>${(longShare*100).toFixed(0)}%</b><br>` +
+    `<span class="muted">빨간 선은 화면을 가로질러 그려져 실제 비율보다 많아 보인다. ` +
+    `판단은 위 수치로 할 것.<br>지도상 거리는 유사도가 아니다 (distance_is_metric: false). ` +
+    `정확한 답은 각 향수의 neighbors 목록.</span>`;
+  buildLegend(); renderWorst(); resize();
+});
+
+function buildLegend() {
+  document.getElementById("legend").innerHTML = data.clusters.map(c =>
+    `<div><span class="sw" style="background:${PALETTE[c.id % PALETTE.length]}"></span>` +
+    `${c.top_accords.join(" · ")} <span class="muted">(${c.size})</span></div>`).join("");
+}
+
+function visible(p) { return !document.getElementById("only200").checked || p.display; }
+
+function layout() {
+  const w = cv.width, h = cv.height, pad = 34;
+  const s = Math.min(w - pad * 2, h - pad * 2);
+  view.s = s; view.tx = (w - s) / 2; view.ty = (h - s) / 2;
+  pts = data.perfumes.map(p => ({p, X: view.tx + p.x * s, Y: view.ty + (1 - p.y) * s}));
+}
+
+function draw() {
+  const w = cv.width, h = cv.height;
+  ctx.fillStyle = "#12151c"; ctx.fillRect(0, 0, w, h);
+  const pos = new Map(pts.map(o => [o.p.id, o]));
+
+  if (document.getElementById("edges").checked) {
+    const longOnly = document.getElementById("longonly").checked;
+    // 긴 간선은 화면을 가로질러 그려져 실제 비율(16%)보다 훨씬 많아 보인다.
+    // 그래서 얇고 옅게 그리고, 판단은 옆 패널의 수치로 한다.
+    for (const [a, b] of edges) {
+      if (!visible(a) || !visible(b)) continue;
+      const d = Math.hypot(a.x - b.x, a.y - b.y);
+      const isLong = d > 0.35;
+      if (longOnly && !isLong) continue;
+      const A = pos.get(a.id), B = pos.get(b.id);
+      ctx.strokeStyle = isLong ? "rgba(240,90,80,.30)" : "rgba(90,210,150,.22)";
+      ctx.lineWidth = isLong ? .8 : .6;
+      ctx.beginPath(); ctx.moveTo(A.X, A.Y); ctx.lineTo(B.X, B.Y); ctx.stroke();
+    }
+  }
+
+  const sel = selected, nb = sel ? new Set(sel.neighbors.map(n => n.id)) : null;
+  for (const o of pts) {
+    if (!visible(o.p)) continue;
+    const isSel = sel && o.p.id === sel.id, isNb = nb && nb.has(o.p.id);
+    const isMatch = matches.size && matches.has(o.p.id);
+    ctx.beginPath();
+    ctx.arc(o.X, o.Y, isSel ? 6.5 : isNb ? 4.5 : o.p.display ? 3.2 : 2.2, 0, 6.284);
+    ctx.globalAlpha = (matches.size && !isMatch && !isSel && !isNb) ? .12 : (sel && !isSel && !isNb ? .3 : .9);
+    ctx.fillStyle = isSel ? "#fff" : isNb ? "#ffd166" : PALETTE[o.p.cluster % PALETTE.length];
+    ctx.fill();
+    ctx.globalAlpha = 1;
+  }
+
+  if (sel) {  // 선택 향수 -> 고차원 기준 이웃
+    const A = pos.get(sel.id);
+    ctx.strokeStyle = "rgba(255,209,102,.5)"; ctx.lineWidth = 1;
+    for (const n of sel.neighbors) {
+      const B = pos.get(n.id); if (!B || !visible(B.p)) continue;
+      ctx.beginPath(); ctx.moveTo(A.X, A.Y); ctx.lineTo(B.X, B.Y); ctx.stroke();
+    }
+  }
+
+  if (document.getElementById("labels").checked) {
+    ctx.fillStyle = "#c7d0e0"; ctx.font = "11px system-ui";
+    for (const o of pts) {
+      if (!visible(o.p)) continue;
+      const show = (matches.size && matches.has(o.p.id)) || (sel && o.p.id === sel.id);
+      if (show) ctx.fillText(o.p.name, o.X + 8, o.Y + 3);
+    }
+  }
+}
+
+function nearest(mx, my) {
+  let best = null, bd = 14 * 14;
+  for (const o of pts) {
+    if (!visible(o.p)) continue;
+    const d = (o.X - mx) ** 2 + (o.Y - my) ** 2;
+    if (d < bd) { bd = d; best = o; }
+  }
+  return best;
+}
+
+cv.addEventListener("mousemove", e => {
+  const r = cv.getBoundingClientRect();
+  const o = nearest((e.clientX - r.left) * devicePixelRatio, (e.clientY - r.top) * devicePixelRatio);
+  hover = o;
+  if (!o) { tip.style.display = "none"; return; }
+  tip.style.display = "block";
+  tip.style.left = (e.clientX - r.left + 14) + "px";
+  tip.style.top = (e.clientY - r.top + 14) + "px";
+  tip.innerHTML = `<b>${o.p.name}</b><br><span class="muted">${o.p.brand}` +
+    `${o.p.year ? " · " + o.p.year : ""}</span><br>` +
+    o.p.top_accords.map(a => `<span class="pill">${a.name} ${a.strength}</span>`).join("");
+});
+cv.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+cv.addEventListener("click", () => { if (hover) select(hover.p); });
+
+function select(p) {
+  selected = p;
+  const byId = new Map(data.perfumes.map(x => [x.id, x]));
+  const cl = data.clusters.find(c => c.id === p.cluster);
+  document.getElementById("detail").innerHTML =
+    `<h2>선택한 향수</h2><div><b>${p.name}</b><br><span class="muted">${p.brand}` +
+    `${p.year ? " · " + p.year : ""} · ${p.gender}</span></div>` +
+    `<div style="margin-top:6px">${p.top_accords.map(a =>
+        `<span class="pill">${a.name} ${a.strength}</span>`).join("")}</div>` +
+    `<div class="muted" style="margin-top:6px">계열 ${p.dominant_accord} · ` +
+    `클러스터 ${cl ? cl.top_accords.join("·") : p.cluster}</div>` +
+    `<h2>이웃 (고차원 유사도 기준)</h2>` +
+    p.neighbors.map(n => {
+      const q = byId.get(n.id);
+      const d = Math.hypot(p.x - q.x, p.y - q.y);
+      return `<div class="row" data-id="${n.id}">${q.name} <span class="muted">— ${q.brand}` +
+             ` · sim ${n.sim.toFixed(3)} · 지도거리 ${d.toFixed(3)}</span></div>`;
+    }).join("");
+  bindRows(); draw();
+}
+
+function renderWorst() {
+  document.getElementById("worst").innerHTML = worst.map(({a, b, d}) =>
+    `<div class="row" data-id="${a.id}">${a.name} <span class="muted">↔</span> ${b.name}` +
+    `<br><span class="muted">지도거리 ${d.toFixed(3)} · ${a.dominant_accord} / ${b.dominant_accord}</span></div>`
+  ).join("");
+  bindRows();
+}
+
+function bindRows() {
+  document.querySelectorAll(".row[data-id]").forEach(el =>
+    el.onclick = () => select(data.perfumes.find(p => p.id === +el.dataset.id)));
+}
+
+document.getElementById("q").addEventListener("input", e => {
+  const v = e.target.value.trim().toLowerCase();
+  matches = new Set(v ? data.perfumes
+    .filter(p => (p.name + " " + p.brand).toLowerCase().includes(v))
+    .map(p => p.id) : []);
+  draw();
+});
+["only200", "edges", "labels", "longonly"].forEach(id =>
+  document.getElementById(id).addEventListener("change", draw));
+
+function resize() {
+  const st = document.getElementById("stage");
+  cv.width = st.clientWidth * devicePixelRatio;
+  cv.height = st.clientHeight * devicePixelRatio;
+  layout(); draw();
+}
+addEventListener("resize", resize);
+</script>

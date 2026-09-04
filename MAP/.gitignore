@@ -1,0 +1,3 @@
+# perfumes.jsonl에서 다시 만들 수 있는 파생 데이터 (약 10MB)
+#   python prepare_data.py
+cache/
