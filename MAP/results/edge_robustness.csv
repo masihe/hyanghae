@@ -1,0 +1,9 @@
+criterion,same_brand_excluded,n_edges,same_brand_share,cross_region_edges,cross_region_share,reminds_pct,total_votes_median
+A_up>=3_up>down,False,872,0.3475,306,0.3509,0.1766,506
+A_up>=3_up>down_no_same_brand,True,569,0.0,234,0.4112,0.2039,499
+B_up>=5_ratio>=0.7,False,389,0.4936,93,0.2391,0.1403,731
+B_up>=5_ratio>=0.7_no_same_brand,True,197,0.0,63,0.3198,0.1923,842
+C_up>=10_ratio>=0.7,False,386,0.4948,91,0.2358,0.1386,731
+C_up>=10_ratio>=0.7_no_same_brand,True,195,0.0,62,0.3179,0.1936,842
+D_total>=20_ratio>=0.8,False,207,0.6329,34,0.1643,0.1042,920
+D_total>=20_ratio>=0.8_no_same_brand,True,76,0.0,16,0.2105,0.1597,1331
