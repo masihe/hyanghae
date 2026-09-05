@@ -533,3 +533,78 @@ CLAUDE.md / `EDA/AGENTS.md`의 범위 통제 원칙에 따라 다음은 하지 �
 - **기각된 실험을 지우지 않는다.** MDS를 검토했다가 측정으로 뒤집은 과정, tier 가중이 기각된 β 스윕은 그 자체가 판단 근거를 보여주는 자료다.
 - **개선을 주장할 때 반드시 비교 대상과 조건을 함께 적는다.** "정확도 개선" 대신 "random layout 대비 trustworthiness@10 X → Y".
 - 기대한 개선이 안 나와도 숨기지 않는다. UMAP이 PCA를 못 이기면 그 사실이 기록 대상이다.
+
+실험 B — 클러스터 라벨을 넣은 반지도 UMAP (섬 분리 실험)
+
+표기 규칙은 PLAN.md와 동일. [확정] 측정된 사실 / [논의] 팀 확인 필요 / [제안] 근거 있는 추천, 확정 아님. 이 섹션은 구현 전 명세다. 결과가 나오기 전에 합격 기준을 바꾸지 않는다.
+
+문제
+
+[확정] 현재 좌표(umap_nn10_md0.1)는 이웃 보존은 좋지만(trust@10 0.9387, knn_overlap@10 0.3888) 2D에서 클러스터가 섬처럼 분리되지 않는다. 프론트는 (1) 탑뷰에서 읽히는 영역, (2) 사용자 취향 원이 어느 영역인지가 필요하다. 12개 클러스터의 2D 응집도 0.748(무작위 0.171)로 영역은 존재하지만 경계가 맞닿아 있다.
+
+[확정] 4계열 라벨로 좌표를 재배치하는 C안은 scent_family_decision.html에서 기각됐다. 이유: 4계열은 Fragrantica 설명문 라벨이고 향 구성과 다른 축이다(닮았다 투표 쌍의 50.1%가 계열 간). 이번 실험은 향 구성에서 나온 12개 클러스터를 라벨로 쓰므로 그 반박이 그대로 적용되지 않는다. 다만 왜곡이 작을 것이라는 건 예측이고 측정으로 확인해야 한다.
+
+가설
+
+12개 클러스터 라벨을 UMAP target으로 주면, 클러스터가 2D에서 분리되면서 이웃 보존 지표의 하락이 아래 합격 기준 안에 머문다.
+
+고정하는 것
+거리행렬 D: D1의 Base Similarity 그대로(scent_map.base_similarity). 재계산하지 않는다.
+n_neighbors=10, min_dist=0.1, random_state=42, metric='precomputed' — D2 채택값과 동일.
+대상 1,000개, display 200 플래그 — D3 그대로.
+neighbors 배열 — 고차원 기준이라 배치와 무관. 건드리지 않는다.
+output/scent_map_v1.json — 덮어쓰지 않는다. 채택 시에만 v2로 별도 저장.
+라벨 준비
+D4의 k=12 AgglomerativeClustering(average linkage, precomputed) 결과를 그대로 사용.
+n ≤ 3 클러스터는 병합 — 해당 클러스터의 각 향수를, 고차원 거리 D 기준 가장 가까운 다른 클러스터(크기 ≥ 4)의 중심에 배정. 결과 라벨 수와 병합 내역을 기록.
+병합 후 라벨을 y로 사용. (12개 원본 라벨로도 1회 돌려 비교값을 남기되, 판정은 병합 라벨 기준.)
+바꾸는 것 — 단일 변수
+
+target_weight ∈ {0.2, 0.35, 0.5, 0.7}, target_metric='categorical'.
+
+python
+reducer = umap.UMAP(n_components=2, metric="precomputed", n_neighbors=10,
+                    min_dist=0.1, random_state=42,
+                    target_metric="categorical", target_weight=w)
+coords = reducer.fit_transform(D, y=labels)
+
+선행 확인 (Step 0): metric='precomputed' + y 조합이 umap-learn 현재 버전에서 동작하는지 1회 실행으로 확인. 실패하면 구현을 멈추고 보고한다. 원 feature로 우회하면 D2와 비교 불가.
+
+지표
+
+기존(build_map.evaluate_layout 재사용):
+
+trust@10, trust@20, knn_overlap@10, reminds_pct, also_liked_pct
+
+신규(모두 baseline에 대해서도 계산):
+
+sil2d — 2D 좌표 × 병합 라벨의 silhouette score. "섬이 갈라진 정도".
+cohesion_all / cohesion_display — region_cohesion을 1,000개 전체와 display 200 부분집합에 각각. (display 200 응집도는 현재 미측정 항목.)
+reminds_pct_same / reminds_pct_cross — 신뢰 간선 872개를 같은 클러스터 쌍 / 다른 클러스터 쌍으로 나눠 각각. cross가 이 실험의 핵심 비용이다.
+Baseline
+
+umap_nn10_md0.1: trust@10 0.9387 / trust@20 0.9186 / knn_overlap@10 0.3888 / reminds_pct 0.1766 / cohesion_all 0.748. sil2d, cohesion_display, reminds_pct_same/cross는 baseline에서도 이번에 새로 계산한다.
+
+합격 기준 [제안 — 실행 전 팀 확정, 결과 보고 수정 금지]
+
+근거: D2 스윕에서 채택 가능하다고 본 UMAP 설정들의 범위.
+
+trust@10 ≥ 0.90 (D2에서 nn 10/15/30 전부 0.90~0.94)
+knn_overlap@10 ≥ 0.30 (D2 스윕 최저 0.305)
+reminds_pct_cross ≤ baseline + 0.05
+위 셋을 만족하는 w 중 sil2d 최대인 것을 채택.
+만족하는 w가 없으면 B 기각, A안(좌표 유지 + 영역 경계 오버레이) 유지.
+절차
+Step 0 선행 확인.
+라벨 병합, 병합 내역 출력.
+baseline 포함 5개 layout × 지표 전부 계산 → results/supervised_umap_comparison.csv 1개 파일.
+map_preview.html에 baseline과 후보 w를 나란히 볼 수 있게 layout 선택만 추가(새 뷰어 만들지 않음).
+수치 표 + 육안 확인 결과를 보고. 나빠진 지표도 그대로 기록.
+기록
+
+결과가 어느 쪽이든 DECISIONS.md에 D9로 추가: 문제 → 검토한 방법 → 결정 → 근거 → 결과(표) → Trade-off. 채택 시 output/scent_map_v2.json에 layout.method = "umap_nn10_md0.1_target_w{w}", layout.supervised_labels = "cluster_merged"를 명시하고, 영역 경계 계산은 별도 후속 작업으로 둔다.
+
+이 실험이 답하지 않는 것 [논의]
+영역의 한국어 이름 — 팀 결정.
+사용자 취향 원을 1개로 할지 복수 허용할지 — 기획 결정.
+영역 경계 다각형 계산 방식(볼록 껍질 vs 밀도 등고선) — 좌표가 확정된 뒤 결정.

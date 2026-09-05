@@ -17,6 +17,7 @@ import pandas as pd
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.decomposition import PCA
 from sklearn.manifold import MDS, trustworthiness
+from sklearn.metrics import silhouette_score
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -401,26 +402,232 @@ def step4(targets, coords, labels, S, metrics, layout_name, conf_edge_pairs):
     return path
 
 
-def main():
+# ==========================================================================
+# 실험 B — 클러스터 라벨을 넣은 반지도 UMAP (PLAN.md "실험 B")
+# ==========================================================================
+# 바꾸는 것은 target_weight 하나뿐이다. 거리행렬·대상 1000개·n_neighbors·
+# min_dist·random_state는 D2 채택값 그대로 고정한다.
+TARGET_WEIGHTS = (0.2, 0.35, 0.5, 0.7)
+MIN_CLUSTER_SIZE = 4          # n <= 3 클러스터는 병합한다
+
+# 합격 기준은 실행 전에 확정했다. 결과를 보고 수정하지 않는다.
+PASS_TRUST10 = 0.90           # D2 스윕에서 nn 10/15/30 전부 0.90~0.94
+PASS_OVERLAP10 = 0.30         # D2 스윕 최저 0.305
+PASS_CROSS_MARGIN = 0.05      # baseline reminds_pct_cross 대비 허용 악화폭
+
+# results/layout_comparison.csv의 umap_nn10_md0.1 행. baseline 재현 대조용.
+BASELINE_REF = {"trust@10": 0.9387, "knn_overlap@10": 0.3888, "reminds_pct": 0.1766}
+
+
+def merge_small_clusters(D, labels, min_size=MIN_CLUSTER_SIZE):
+    """n < min_size인 클러스터의 향수를 가장 가까운 큰 클러스터로 옮긴다.
+
+    precomputed 거리에는 중심(centroid)이 없다. 그래서 "그 클러스터 구성원까지의
+    평균 거리"를 가까움의 기준으로 쓴다. 클러스터를 만든 average linkage와 같은
+    기준이라 일관되고 결과가 결정적이다.
+
+    배정은 병합 전 소속을 기준으로 한 번에 계산한다. 옮기면서 계산하면 앞선
+    배정이 뒤의 기준을 바꿔버린다.
+    """
+    orig = np.asarray(labels)
+    sizes = {int(c): int((orig == c).sum()) for c in np.unique(orig)}
+    big = [c for c, n in sizes.items() if n >= min_size]
+    small = [c for c, n in sizes.items() if n < min_size]
+
+    out = orig.copy()
+    log = []
+    for c in small:
+        for i in np.flatnonzero(orig == c):
+            means = [float(D[i, np.flatnonzero(orig == t)].mean()) for t in big]
+            j = int(np.argmin(means))
+            out[i] = big[j]
+            log.append({"row": int(i), "from": c, "to": big[j], "n_from": sizes[c],
+                        "mean_dist": round(means[j], 4)})
+
+    _, contiguous = np.unique(out, return_inverse=True)
+    return contiguous, log
+
+
+def experiment_metrics(coords, D, index_of, ce, ae, labels, display_mask):
+    """한 레이아웃의 지표 한 줄. 지표 구현은 전부 기존 함수를 그대로 쓴다."""
+    coords = np.asarray(coords, dtype=float)
+    labels = np.asarray(labels)
+
+    m = evaluate_layout(coords, D, index_of, ce)
+    m["also_liked_pct"] = edge_distance_percentile(coords, index_of, ae)[0]
+    m["sil2d"] = float(silhouette_score(coords, labels))
+
+    m["cohesion_all"], m["cohesion_all_expected"], _ = region_cohesion(coords, labels)
+    dm = np.asarray(display_mask, dtype=bool)
+    m["cohesion_display"], m["cohesion_display_expected"], _ = region_cohesion(
+        coords[dm], labels[dm])
+
+    # 신뢰 간선을 같은 클러스터 쌍 / 다른 클러스터 쌍으로 나눈다.
+    # cross가 이 실험의 핵심 비용이다 — 라벨로 갈라놓으면 클러스터를 넘나드는
+    # "닮았다" 투표 쌍이 지도에서 멀어진다.
+    same = [(a, b) for a, b in ce if labels[index_of[a]] == labels[index_of[b]]]
+    cross = [(a, b) for a, b in ce if labels[index_of[a]] != labels[index_of[b]]]
+    m["reminds_pct_same"], m["n_edges_same"] = (
+        edge_distance_percentile(coords, index_of, same) if same else (float("nan"), 0))
+    m["reminds_pct_cross"], m["n_edges_cross"] = (
+        edge_distance_percentile(coords, index_of, cross) if cross else (float("nan"), 0))
+    return m
+
+
+def supervised_precheck(umap):
+    """metric='precomputed' + y 조합이 이 umap-learn 버전에서 동작하는가.
+
+    실패하면 실험을 중단한다. 원 feature로 우회하면 D2 좌표와 비교가 불가능해져
+    실험 자체가 성립하지 않는다.
+    """
+    rng = np.random.default_rng(SEED)
+    d = rng.random((40, 40))
+    d = (d + d.T) / 2
+    np.fill_diagonal(d, 0.0)
+    umap.UMAP(n_components=2, metric="precomputed", n_neighbors=10, min_dist=0.1,
+              random_state=SEED, target_metric="categorical",
+              target_weight=0.5).fit_transform(d, y=np.arange(40) % 4)
+
+
+def experiment_b():
+    print("=" * 74)
+    print("실험 B — 클러스터 라벨을 넣은 반지도 UMAP")
+    print("=" * 74)
+    import umap
+
+    print(f"umap-learn {umap.__version__} / precomputed + y 선행 확인 ...", end=" ")
+    try:
+        supervised_precheck(umap)
+    except Exception as e:
+        print("실패")
+        print(f"  {type(e).__name__}: {e}")
+        print("  -> 실험을 중단한다. 원 feature로 우회하면 D2와 비교할 수 없다.")
+        return None
+    print("성공")
+
+    _, targets, _, S, D, index_of, ce, ae = prepare(with_selection_comparison=False)
+    display_mask = targets["display"].to_numpy()
+
+    labels12 = step3(D, targets, S)[CLUSTER_K]
+    merged, log = merge_small_clusters(D, labels12)
+
+    print()
+    print(f"  라벨 병합 (n < {MIN_CLUSTER_SIZE}): {len(np.unique(labels12))}개 -> "
+          f"{len(np.unique(merged))}개, 이동한 향수 {len(log)}개")
+    for r in log:
+        t = targets.iloc[r["row"]]
+        print(f"    c{r['from']}(n={r['n_from']}) -> c{r['to']}  평균거리 {r['mean_dist']}  "
+              f"{t['name']} / {t['brand']}")
+    print(f"  병합 후 크기 {sorted(np.bincount(merged).tolist(), reverse=True)}")
+    print("  * 판정은 병합 라벨 기준. 원본 12라벨은 비교값으로만 남긴다.")
+    print("  * 지표 계산 라벨은 모든 행에서 병합 라벨로 통일한다(행 간 비교가 가능하도록).")
+
+    print()
+    runs = [("umap_nn10_md0.1", "none", None, None)]
+    runs += [(f"umap_nn10_md0.1_target_w{w}", "cluster_merged", w, merged) for w in TARGET_WEIGHTS]
+    runs += [(f"umap_nn10_md0.1_target_w{w}", "cluster_raw12", w, labels12) for w in TARGET_WEIGHTS]
+
+    coords_by_run = []
+    for name, kind, w, y in runs:
+        t = time.time()
+        extra = {} if y is None else {"target_metric": "categorical", "target_weight": w}
+        reducer = umap.UMAP(n_components=2, metric="precomputed", n_neighbors=10,
+                            min_dist=0.1, random_state=SEED, **extra)
+        coords = reducer.fit_transform(D) if y is None else reducer.fit_transform(D, y=y)
+        coords_by_run.append(coords)
+        print(f"  {name} [{kind}] 완료 ({time.time()-t:.0f}s)")
+
+    rows = []
+    for (name, kind, w, _), coords in zip(runs, coords_by_run):
+        m = experiment_metrics(coords, D, index_of, ce, ae, merged, display_mask)
+        m.update({"layout": name, "labels": kind, "target_weight": w})
+        rows.append(m)
+
+    cols = ["layout", "labels", "target_weight", "trust@10", "trust@20", "knn_overlap@10",
+            "reminds_pct", "reminds_pct_same", "reminds_pct_cross",
+            "n_edges", "n_edges_same", "n_edges_cross",
+            "also_liked_pct", "sil2d", "cohesion_all", "cohesion_all_expected",
+            "cohesion_display", "cohesion_display_expected"]
+    res = pd.DataFrame(rows)[cols]
+
+    # baseline 재현 확인 — 어긋나면 입력이 달라진 것이므로 이후 수치를 믿지 않는다.
+    base = res.iloc[0]
+    print()
+    print("  [baseline 재현] results/layout_comparison.csv의 umap_nn10_md0.1과 대조")
+    for k, ref in BASELINE_REF.items():
+        got = float(base[k])
+        print(f"    {k:<16} {got:.4f}  (기록 {ref:.4f}, 차이 {got-ref:+.4f})")
+
+    base_cross = float(base["reminds_pct_cross"])
+    limit = base_cross + PASS_CROSS_MARGIN
+    ok = ((res["labels"] == "cluster_merged")
+          & (res["trust@10"] >= PASS_TRUST10)
+          & (res["knn_overlap@10"] >= PASS_OVERLAP10)
+          & (res["reminds_pct_cross"] <= limit))
+    res["pass"] = np.where(res["labels"] == "cluster_merged", ok.astype(str), "")
+
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    out = os.path.join(RESULTS_DIR, "supervised_umap_comparison.csv")
+    res.to_csv(out, index=False)
+
+    print()
+    print("  sil2d: 2D 좌표 × 병합 라벨 silhouette (섬이 갈라진 정도, 높을수록 분리)")
+    print("  cohesion_*: 2D 최근접 10개 중 같은 라벨 비율")
+    print("  reminds_pct_cross: 다른 클러스터에 속한 정답 쌍의 2D 거리 백분위 (이 실험의 비용)")
+    print()
+    show = ["layout", "labels", "trust@10", "knn_overlap@10", "reminds_pct",
+            "reminds_pct_same", "reminds_pct_cross", "sil2d",
+            "cohesion_all", "cohesion_display", "pass"]
+    print(res[show].to_string(index=False, float_format=lambda v: f"{v:.4f}"))
+    print(f"\n  -> {out} 저장")
+
+    print()
+    print(f"  합격 기준(실행 전 확정): trust@10 >= {PASS_TRUST10} / "
+          f"knn_overlap@10 >= {PASS_OVERLAP10} / reminds_pct_cross <= {limit:.4f} "
+          f"(baseline {base_cross:.4f} + {PASS_CROSS_MARGIN})")
+    passed = res[ok]
+    if passed.empty:
+        print("  결과: 만족하는 target_weight 없음 -> 실험 B 기각. "
+              "A안(좌표 유지 + 영역 경계 오버레이)을 유지한다.")
+    else:
+        win = passed.loc[passed["sil2d"].idxmax()]
+        print(f"  결과: 합격 {list(passed['target_weight'])} 중 sil2d 최대 -> "
+              f"target_weight={win['target_weight']} 채택 "
+              f"(sil2d {win['sil2d']:.4f}, baseline {float(base['sil2d']):.4f})")
+    return res
+
+
+def prepare(with_selection_comparison=True):
+    """step0부터 거리행렬·간선 리스트까지의 공통 준비.
+
+    main()과 experiment_b()가 같은 입력에서 출발해야 비교가 성립하므로
+    준비 과정을 한 곳에만 둔다.
+    """
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     df, targets, conf_edges, also_edges, reminds = step0()
-    selection_comparison(df, targets, reminds)
+    if with_selection_comparison:
+        selection_comparison(df, targets, reminds)
 
     idf_map = sm.load_note_idf()
-    S, s_acc, s_note = sm.base_similarity(list(targets["accord_list"]),
-                                          list(targets["note_set"]), idf_map)
+    S, _, _ = sm.base_similarity(list(targets["accord_list"]),
+                                 list(targets["note_set"]), idf_map)
     D = 1.0 - S
     np.fill_diagonal(D, 0.0)
     index_of = {int(v): i for i, v in enumerate(targets["id"])}
+
+    ce = [(int(a), int(b)) for a, b in conf_edges[["src", "dst"]].itertuples(index=False, name=None)]
+    ae = [(int(a), int(b)) for a, b in also_edges[["src", "dst"]].itertuples(index=False, name=None)]
+    return df, targets, idf_map, S, D, index_of, ce, ae
+
+
+def main():
+    df, targets, idf_map, S, D, index_of, ce, ae = prepare()
 
     A, _ = sm.build_accord_matrix(list(targets["accord_list"]))
     B, w, _, _ = sm.build_note_matrix(list(targets["note_set"]), idf_map)
     Bn = B * w
     norm = np.linalg.norm(Bn, axis=1, keepdims=True); norm[norm == 0] = 1
     features = np.hstack([A, Bn / norm])
-
-    ce = [(int(a), int(b)) for a, b in conf_edges[["src", "dst"]].itertuples(index=False, name=None)]
-    ae = [(int(a), int(b)) for a, b in also_edges[["src", "dst"]].itertuples(index=False, name=None)]
 
     layouts, best, res = step2(D, index_of, ce, ae, features)
 
@@ -447,4 +654,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--experiment-b" in sys.argv:
+        experiment_b()
+    else:
+        main()
