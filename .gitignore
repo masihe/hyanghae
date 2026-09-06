@@ -86,3 +86,7 @@ analysis_outputs/*.svg
 
 *.pdf
 !docs/some_report.pdf
+
+# Browser network capture files
+*.har
+*.har.gz
