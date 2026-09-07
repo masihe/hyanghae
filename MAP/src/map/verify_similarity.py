@@ -17,6 +17,7 @@ from scipy import sparse
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "common")))
 import scent_map as sm
 
 SEED = 42
@@ -135,7 +136,7 @@ def query_metrics(recommended_ids, relevant, k=10):
 
 
 def main():
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))  # MAP/
     df = sm.load_perfumes()
     idf_map = sm.load_note_idf()
 

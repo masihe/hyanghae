@@ -19,7 +19,7 @@ matplotlib.rcParams["axes.unicode_minus"] = False
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-MAP_DIR = os.path.dirname(os.path.abspath(__file__))
+MAP_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))  # MAP/
 GROUP_COLORS = {"Floral": "#f08bb4", "Amber": "#f6bd16",
                 "Woody": "#d97b3a", "Fresh": "#61ddaa"}
 CLUSTER_PALETTE = ["#5b8ff9", "#61ddaa", "#f6bd16", "#f08bb4", "#7262fd", "#78d3f8",

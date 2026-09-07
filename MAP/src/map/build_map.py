@@ -21,6 +21,7 @@ from sklearn.metrics import silhouette_score
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "common")))
 import scent_map as sm
 
 SEED = 42
@@ -38,8 +39,9 @@ RELIABLE_VOTES = 20           # EDA 07의 reliable 기준
 # PLAN.md §3.5에서 사전 측정한 값. 재현되지 않으면 선정 로직이 달라진 것이다.
 EXPECTED = {"groups": 4, "accords": 58, "brands": 223, "confident_edges": 872}
 
-OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
-RESULTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
+MAP_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))  # MAP/
+OUT_DIR = os.path.join(MAP_DIR, "output")
+RESULTS_DIR = os.path.join(MAP_DIR, "results")
 
 
 # ==========================================================================
@@ -603,7 +605,7 @@ def prepare(with_selection_comparison=True):
     main()과 experiment_b()가 같은 입력에서 출발해야 비교가 성립하므로
     준비 과정을 한 곳에만 둔다.
     """
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(MAP_DIR)
     df, targets, conf_edges, also_edges, reminds = step0()
     if with_selection_comparison:
         selection_comparison(df, targets, reminds)

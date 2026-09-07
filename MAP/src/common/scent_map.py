@@ -16,7 +16,7 @@ import re
 import numpy as np
 import pandas as pd
 
-MAP_DIR = os.path.dirname(os.path.abspath(__file__))
+MAP_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))  # MAP/
 EDA_DIR = os.path.join(os.path.dirname(MAP_DIR), "EDA")
 CACHE = os.path.join(MAP_DIR, "cache")
 

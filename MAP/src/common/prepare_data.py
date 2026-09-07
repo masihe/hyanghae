@@ -14,7 +14,7 @@ import csv
 import json
 import os
 
-MAP_DIR = os.path.dirname(os.path.abspath(__file__))
+MAP_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))  # MAP/
 JSONL = os.path.join(MAP_DIR, "perfumes.jsonl")
 CACHE = os.path.join(MAP_DIR, "cache")
 

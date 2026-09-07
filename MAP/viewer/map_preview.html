@@ -6,7 +6,7 @@
   합격 판정은 build_map.py가 찍는 수치 지표가 하고, 여기서는 수치가 못 잡는
   문제(한 점에 뭉침, 정반대 향이 붙어 있음)를 찾는다.
 
-  실행:  MAP/ 에서  python -m http.server 8000   후  localhost:8000/map_preview.html
+  실행:  MAP/ 에서  python -m http.server 8000   후  localhost:8000/viewer/map_preview.html
   (file:// 로 열면 JSON fetch가 CORS로 막힌다)
 -->
 <style>
@@ -64,8 +64,8 @@ let data, edges = [], pts = [], selected = null, hover = null, matches = new Set
 let view = { s: 1, tx: 0, ty: 0 };
 
 Promise.all([
-  fetch("output/scent_map_v1.json").then(r => r.json()),
-  fetch("output/diagnostic_edges.json").then(r => r.json()).catch(() => ({reminds_confident: []})),
+  fetch("../output/scent_map_v1.json").then(r => r.json()),
+  fetch("../output/diagnostic_edges.json").then(r => r.json()).catch(() => ({reminds_confident: []})),
 ]).then(([map, diag]) => {
   data = map;
   const byId = new Map(data.perfumes.map(p => [p.id, p]));

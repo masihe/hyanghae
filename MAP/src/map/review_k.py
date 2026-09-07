@@ -21,7 +21,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 import build_map as bm
 
-MAP_DIR = os.path.dirname(os.path.abspath(__file__))
+MAP_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))  # MAP/
 K_CANDIDATES = (8, 12, 16)
 WEAK_COHESION = 0.35      # 이 아래면 경계를 그릴 수 없는 라벨로 본다
 

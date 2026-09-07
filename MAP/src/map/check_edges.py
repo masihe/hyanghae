@@ -17,10 +17,11 @@ import pandas as pd
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "common")))
 import build_map as bm
 import scent_map as sm
 
-MAP_DIR = os.path.dirname(os.path.abspath(__file__))
+MAP_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))  # MAP/
 RESULTS_DIR = os.path.join(MAP_DIR, "results")
 TOP_SHARE = 0.30       # 사람 점검용: vote_count 상위 30%
 N_PER_SIDE = 10        # 같은 영역 10쌍 / 다른 영역 10쌍
