@@ -1,0 +1,256 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>향 지도 데이터 — DB 인계</title>
+<style>
+:root{--bg:#fbfcfc;--card:#f2f5f6;--ink:#1d2528;--muted:#6b797f;--hair:#dde4e6;
+      --ok:#2f7d4f;--warn:#b4442e;--sea:#e7edef;--acc:#2b6b7a}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);
+     font:15px/1.72 -apple-system,'Segoe UI',Roboto,'Malgun Gothic',sans-serif;
+     -webkit-font-smoothing:antialiased}
+.wrap{max-width:880px;margin:0 auto;padding:34px 22px 72px}
+h1{font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-.3px}
+.lede{color:var(--muted);font-size:14px;margin:0 0 26px}
+h2{font-size:19.5px;font-weight:600;margin:46px 0 10px;padding-top:22px;
+   border-top:1px solid var(--hair)}
+h2 .num{color:var(--muted);font-weight:400;margin-right:9px}
+h3{font-size:16px;font-weight:600;margin:28px 0 8px}
+p{margin:11px 0}
+.notice{background:#fff;border:1px solid var(--hair);border-left:3px solid var(--acc);
+        border-radius:0 10px 10px 0;padding:13px 17px;margin:0 0 26px;font-size:14px}
+.notice p{margin:5px 0}
+.todo{background:var(--card);border:1px solid var(--hair);border-radius:13px;
+      padding:18px 22px;margin:18px 0}
+.todo h3{margin:0 0 8px;font-size:15px}
+.todo ol{margin:0;padding-left:22px}
+.todo li{margin:7px 0}
+.big{background:var(--card);border:1px solid var(--hair);border-radius:13px;
+     padding:15px 19px;margin:16px 0}
+.big p:first-child{margin-top:0}.big p:last-child{margin-bottom:0}
+.alert{background:#fdf4f1;border:1px solid #f0d9d1;border-left:3px solid var(--warn);
+       border-radius:0 12px 12px 0;padding:15px 19px;margin:18px 0}
+.alert p:first-child{margin-top:0}.alert p:last-child{margin-bottom:0}
+.tag{display:inline-block;font-size:11.5px;font-weight:600;padding:1px 7px;
+     border-radius:4px;vertical-align:2px;margin-right:5px;letter-spacing:.2px}
+.m{background:#e3eef1;color:#1d5764}
+.s{background:#efe9f5;color:#5b4780}
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:14px 0}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--hair);
+      vertical-align:top}
+th{color:var(--muted);font-weight:500;font-size:12.5px}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+code{font:13px/1.5 ui-monospace,Menlo,Consolas,monospace;background:var(--sea);
+     padding:1px 5px;border-radius:4px}
+pre{background:#20282b;color:#dfe7e9;border-radius:11px;padding:15px 18px;
+    overflow:auto;font:12.5px/1.7 ui-monospace,Menlo,Consolas,monospace;margin:14px 0}
+pre .c{color:#8fa3a8}
+pre .k{color:#8fc7d6}
+pre .s{color:#c8d9a0;background:none;padding:0}
+.note{font-size:13px;color:var(--muted)}
+ul{margin:10px 0;padding-left:22px}li{margin:5px 0}
+.step{background:var(--card);border:1px solid var(--hair);border-radius:13px;
+      padding:16px 20px;margin:16px 0;counter-increment:st}
+.steps{counter-reset:st}
+.step h3{margin:0 0 6px;display:flex;align-items:center;gap:9px}
+.step h3::before{content:counter(st);background:var(--acc);color:#fff;
+   width:22px;height:22px;border-radius:50%;display:inline-flex;
+   align-items:center;justify-content:center;font-size:12.5px;flex:none}
+.leg{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+.leg span{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;
+          color:var(--muted)}
+.leg i{width:11px;height:11px;border-radius:3px;display:inline-block}
+canvas{width:100%;height:auto;display:block;border-radius:10px;
+       border:1px solid var(--hair);background:var(--sea)}
+.ask{background:#fff;border:1px dashed var(--hair);border-radius:12px;
+     padding:15px 19px;margin:18px 0}
+.ask h3{margin:0 0 7px;font-size:15px}
+.ask ul{margin:0}
+.files{background:#20282b;color:#dfe7e9;border-radius:11px;padding:15px 18px;
+       font:12.5px/1.75 ui-monospace,Menlo,Consolas,monospace;margin:14px 0}
+.files b{color:#8fc7d6;font-weight:400}
+</style>
+<div class="wrap">
+<h1>향 지도 데이터 — DB 담당자용</h1>
+<p class="lede">국내 대표 향수 200개의 향 지도. 어떤 데이터를 어떤 표에 넣으면 되는지.</p>
+<div class="notice">
+<p><span class="tag m">측정</span> 은 실제 데이터에서 확인한 값입니다. 여기에 맞지 않게
+만들면 데이터가 들어가지 않으니 그대로 지켜 주세요.</p>
+<p><span class="tag s">제안</span> 은 저희 판단일 뿐입니다. <b>참고만 하시고 실제 설계는
+담당자분이 정하시면 됩니다.</b> 그대로 구현하지 않으셔도 괜찮습니다.</p>
+</div>
+
+<div class="todo"><h3>이 문서를 다 읽지 않아도 되는 요약</h3><ol>
+<li><b>먼저 하나 정해 주세요</b> — <code>perfumes</code> 테이블에서 향수를 식별할 방법이
+필요합니다. 이게 정해지지 않으면 나머지가 전부 막힙니다 (아래 1번).</li>
+<li><b>표 5개를 만듭니다.</b> 4개는 지금 ERD 에 있는 것과 거의 같고, 1개는 새로
+필요합니다 (아래 2번).</li>
+<li><b>CSV 6개를 순서대로 넣습니다.</b> <code>seed/</code> 폴더에 있습니다.</li>
+</ol></div>
+
+<p>넘겨드리는 것은 <b>국내 대표 향수 200개를 향 지도 위에 배치한 결과</b>입니다.
+향수마다 지도 위 위치가 있고, 어떤 향 계열에 속하는지, 어떤 향수와 닮았는지가 붙어
+있습니다. 향 계열은 시트러스 · 플로럴 · 우디 같은 <b>9개</b>입니다.</p>
+
+<h2><span class="num">1</span>먼저 정해야 하는 것 — 향수를 무엇으로 식별할까요</h2>
+
+<p>저희 데이터는 향수를 <b>Fragrantica 의 id</b> 로 식별합니다. 향수 데이터의 원천이
+Fragrantica 라서 그렇습니다. 그런데 지금 ERD 의 <code>perfumes</code> 테이블에는
+외부 id 를 담는 컬럼이 없습니다.</p>
+
+<p>그래서 <b>넘겨드리는 CSV 를 <code>perfumes</code> 행과 이어붙일 방법이 없습니다.</b>
+브랜드명과 향수명으로 맞추는 방법도 있지만, 같은 향수가 농도나 표기만 달라도 여러 줄로
+존재해서 정확하지 않습니다.</p>
+
+<div class="alert">
+<p><span class="tag s">제안</span> <code>perfumes</code> 에 <code>fragrantica_id BIGINT UNIQUE</code> 컬럼을
+추가하는 것이 가장 단순합니다.</p>
+<p>컬럼 추가가 부담스러우면 <b>매핑 테이블을 따로 두는 방법</b>도 있습니다. 어느 쪽이든
+정해 주시면 <b>저희가 CSV 를 그 키로 다시 내보내 드립니다.</b> 지금 CSV 는 전부
+<code>fragrantica_id</code> 로 되어 있습니다.</p>
+</div>
+
+<h2><span class="num">2</span>지금 설계로는 담기지 않는 것 — 향수 하나가 계열 여러 개</h2>
+
+<p>향수는 보통 한 가지 향만 나지 않습니다. 예를 들어 Byredo 의 Blanche 는
+<b>플로럴 0.60 + 머스크·파우더리 0.32</b> 로, 두 계열에 걸쳐 있습니다. 이런 향수가
+지도에서 두 영역 사이에 놓여서, 사용자가 한 계열에서 다른 계열로 넘어가는 다리가
+됩니다.</p>
+
+<p><span class="tag m">측정</span> 향수 200개 중 <b>계열이 1개인 향수가 105개, 2개가 87개,
+3개가 8개</b>입니다. 향수당 평균 1.515개이고 3개를 넘는 향수는
+없습니다. 전부 합치면 <b>303행</b>이 됩니다.</p>
+
+<p>그런데 지금 <code>perfume_map_points</code> 의
+<code>scent_region_id BIGINT NOT NULL</code> 은 <b>영역을 하나만 담을 수 있습니다.</b>
+이대로면 두 번째·세 번째 계열이 버려지고, 지도에서 경계에 놓이는 향수를 표현할 수
+없습니다.</p>
+
+<div class="alert">
+<p><span class="tag s">제안</span> <b>향수 ↔ 계열 표를 따로 두는 것</b>을 제안합니다
+(<code>perfume_id</code> · <code>family_key</code> · <code>weight</code> ·
+<code>rank</code>).</p>
+<p><code>perfume_map_points.scent_region_id</code> 는 <b>가중치가 가장 큰 계열</b>을
+넣어 그대로 두셔도 되고, 빼셔도 됩니다. CSV 에
+<code>primary_family_key</code> 로 함께 넣어 두었습니다.</p>
+</div>
+
+<h2><span class="num">3</span>그 밖에 안 맞는 곳 4가지</h2>
+
+<p>충돌이라기보다 <b>"저희 데이터가 이 모양이라 이 컬럼으로는 안 들어갑니다"</b> 정도의
+이야기입니다.</p>
+
+<h3>① 향 계열 영역이 사각형이 아닙니다</h3>
+<p><span class="tag m">측정</span> <code>scent_regions</code> 는 <code>min_x</code> · <code>min_y</code> ·
+<code>max_x</code> · <code>max_y</code> 로 사각형만 담습니다. 그런데 향 계열 영역은
+지도 위에 <b>불규칙한 모양</b>으로 퍼져 있고, 계열마다 조각이 1~5개입니다.
+사각형으로는 모양을 그릴 수 없습니다.</p>
+<p><span class="tag s">제안</span> <code>polygon JSONB</code> 와 라벨 위치(<code>anchor_x</code> ·
+<code>anchor_y</code>) 컬럼을 더하는 것을 제안합니다.</p>
+
+<h3>② <code>scent_regions</code> 가 지금 무엇을 담고 있는지 저희가 모릅니다</h3>
+<p><code>user_preference_regions</code> 가 이 테이블을 참조하고 있어서,
+<b>기존 행이 있다면 의미가 바뀌는 문제</b>가 생깁니다. 확인 부탁드립니다.</p>
+<p>참고로 이전 버전 지도에는 데이터로 자동 묶은 영역 7개가 있었는데, 그 7개는
+<b>한글 이름을 붙일 수 없어서</b> 이번에 버렸습니다. 향 계열 9개만 넘겨드립니다.</p>
+
+<h3>③ 닮은 향수 목록에 순서 컬럼이 필요합니다</h3>
+<p><span class="tag m">측정</span> <code>perfume_neighbors</code> 는 <code>(perfume_id, neighbor_perfume_id)</code>
+만 담습니다. 그런데 저희가 주는 목록은 <b>닮은 순서대로 정렬된 상위 10개</b>이고
+유사도 값도 있습니다. 순서를 잃으면 "가장 닮은 향수" 를 알 수 없게 됩니다.</p>
+<p><span class="tag s">제안</span> <code>rank INTEGER</code> 와 <code>similarity NUMERIC</code> 을 더해 주세요.</p>
+
+<h3>④ 지도 배경은 DB 에 안 넣는 편이 낫습니다</h3>
+<p>지도에는 땅과 바다, 색면, 해안선이 있습니다. 이건 향수별 데이터가 아니라
+<b>지도를 128×108 칸으로 나눈 격자</b>라서, 조회할 조건이 없고 지도를 다시 만들 때만
+바뀝니다.</p>
+<p><span class="tag s">제안</span> 이 부분은 <code>scent_map_terrain.json</code> 파일로 따로 드리니
+<b>정적 파일로 프론트에 바로 내려주는 것</b>을 제안합니다. 팀에서 이미 그렇게 정했습니다.</p>
+
+<h2><span class="num">4</span>적재할 때 걸리기 쉬운 것 3가지</h2>
+
+<p>실제로 넣어 보면 막힐 수 있는 곳입니다. 미리 봐 두시면 좋습니다.</p>
+
+<div class="big">
+<p><b>① 계열 가중치에 <code>>= 0.24</code> 제약을 걸면 적재가 실패합니다.</b></p>
+<p>계열을 뽑는 기준은 0.24 지만, <b>가장 큰 계열은 기준에 못 미쳐도 반드시 넣습니다</b>
+(그러지 않으면 어느 계열에도 속하지 않는 향수가 생깁니다). 그래서 <span class="tag m">측정</span> 실제 최솟값은
+<b>0.2</b> 입니다.</p>
+<p>쓰셔야 하는 제약은 <code>weight > 0 AND weight &lt;= 1</code> 입니다.</p>
+</div>
+
+<div class="big">
+<p><b>② 향수별 가중치 합이 1.0 이 아닙니다.</b></p>
+<p><span class="tag m">측정</span> 향수별 합이 <b>0.20 ~ 1.00</b> 사이입니다.
+기준 미달인 작은 계열은 목록에서 빠지는데 <b>남은 것을 다시 정규화하지 않았기</b>
+때문입니다.</p>
+<p>그래서 <code>SUM(weight) = 1</code> 같은 제약을 걸면 안 되고,
+<code>1 - SUM(weight)</code> 를 "기타 계열" 로 읽어서도 안 됩니다.</p>
+</div>
+
+<div class="big">
+<p><b>③ 좌표 <code>CHECK (0~1)</code> 은 향수 좌표에만 걸어야 합니다.</b></p>
+<p><span class="tag m">측정</span> 향수 좌표는 <code>x</code> 0~1, <code>y</code> 0~0.83056 입니다.
+그런데 <b>계열 영역의 폴리곤과 라벨 위치는 좌표계가 다릅니다</b> — 지도 바깥으로
+여백이 붙어 있어서 <code>-0.04565</code> 같은 음수가 나옵니다.</p>
+<p>폴리곤 컬럼에 0~1 제약을 걸면 계열 9개가 전부 적재에 실패합니다.</p>
+</div>
+
+<h2><span class="num">5</span>넘겨드리는 CSV 6개</h2>
+
+<div class="files">
+<b>seed/</b>
+  accords.csv                     60행   향 특성 이름 목록
+  scent_families.csv               9행   향 계열 9개 (이름 · 영역 · 라벨 위치)
+  perfume_map_points.csv         200행   향수 좌표
+  perfume_map_families.csv       303행   향수 ↔ 계열  <b>← 새로 필요한 표</b>
+  perfume_map_neighbors.csv     2000행   닮은 향수 (향수당 10개)
+  perfume_map_accords.csv       1598행   향수의 향 특성 (향수당 7~8개)
+</div>
+
+<p>모두 UTF-8(BOM) CSV 이라 Excel 로 바로 열립니다. 향수는 전부
+<code>fragrantica_id</code> 로 되어 있으니, <code>perfumes</code> 와 조인해
+<code>perfume_id</code> 로 바꿔 넣으시면 됩니다.</p>
+
+<h3>향 계열 9개</h3>
+<table><thead><tr><th>키</th><th>이름</th><th class="n">대표 향수</th>
+<th class="n">걸쳐 있는 향수</th></tr></thead><tbody><tr><td><code>CITRUS</code></td><td>시트러스</td><td class="n">23</td><td class="n">36</td></tr><tr><td><code>FRUITY</code></td><td>프루티</td><td class="n">8</td><td class="n">14</td></tr><tr><td><code>FLORAL</code></td><td>플로럴</td><td class="n">61</td><td class="n">76</td></tr><tr><td><code>GREEN</code></td><td>그린·아로마틱</td><td class="n">21</td><td class="n">39</td></tr><tr><td><code>AQUATIC</code></td><td>아쿠아틱</td><td class="n">12</td><td class="n">13</td></tr><tr><td><code>WOODY</code></td><td>우디</td><td class="n">23</td><td class="n">32</td></tr><tr><td><code>AMBER</code></td><td>앰버·스파이시</td><td class="n">14</td><td class="n">24</td></tr><tr><td><code>GOURMAND</code></td><td>구르망</td><td class="n">20</td><td class="n">32</td></tr><tr><td><code>MUSK</code></td><td>머스크·파우더리</td><td class="n">18</td><td class="n">37</td></tr></tbody></table>
+<p class="note">"대표 향수" 는 이 계열이 1순위인 향수 수로 합이 200입니다.
+"걸쳐 있는 향수" 는 2·3순위까지 포함한 수로 합이 303입니다.</p>
+
+<div class="alert">
+<p><span class="tag m">측정</span> <b>계열의 키는 <code>CITRUS</code> 같은 문자열을 쓰시는 걸 권합니다.</b></p>
+<p>저희 파일에는 0~8 정수 번호도 있는데 그건 <b>배열 위치값</b>입니다. 나중에 계열이
+하나 빠지면 그 뒤 번호가 전부 밀려서, 저장해 둔 지도 격자가 어긋납니다. 문자열 키는
+그런 일이 없습니다.</p>
+</div>
+
+<h2><span class="num">6</span>적재 순서와 갱신</h2>
+
+<p>참조 관계 때문에 순서가 있습니다.</p>
+<ol>
+<li><code>accords.csv</code> — 기존 <code>accords</code> 테이블이 이미 있으면 확인만</li>
+<li><code>scent_families.csv</code> — 9행</li>
+<li><code>perfumes</code> 에 향수 식별 컬럼 채우기 (1번 항목)</li>
+<li><code>perfume_map_points.csv</code> — 200행</li>
+<li><code>perfume_map_families.csv</code> — 303행</li>
+<li><code>perfume_map_neighbors.csv</code> — 2000행</li>
+<li><code>perfume_map_accords.csv</code> — 1598행</li>
+</ol>
+
+<p><span class="tag s">제안</span> <b>갱신은 행 단위로 고치기보다 4~7번을 비우고 다시 넣는 쪽이 안전합니다.</b>
+지도를 다시 만들면 향수 200개의 좌표와 계열 영역이 <b>전부</b> 바뀌기 때문입니다
+(일부만 바뀌는 일이 없습니다).</p>
+
+<p>CREATE / ALTER 문 초안은 <code>scent_map_proposal.sql</code> 에
+있습니다. <b>실행해 본 적이 없는 제안이니</b> 팀 규약(네이밍 · <code>is_active</code> ·
+삭제 정책)에 맞게 검토해 주세요. 타입과 길이가 실제 값을 받는지는 저희가 확인했습니다.</p>
+
+<div class="ask"><h3>확인이 필요한 것</h3><ul>
+<li><b>향수를 무엇으로 식별할까요.</b> 정해 주시면 CSV 를 그 키로 다시 냅니다.</li>
+<li><b><code>scent_regions</code> 에 지금 행이 들어 있나요.</b> 있으면 향 계열 9개를
+같은 테이블에 넣을지, 새 테이블로 나눌지 정해야 합니다.</li>
+<li><b>향수별 계절·시간대 투표를 쓸까요.</b> 데이터는 있는데(향수 200개 중 185개 ·
+181개) ERD 에 담을 곳이 없습니다. 지금 지도에는 필요하지 않아 이번 CSV 에서 뺐습니다.
+쓰실 거면 표를 하나 더 만들어야 합니다.</li>
+</ul></div>
+
+</div>

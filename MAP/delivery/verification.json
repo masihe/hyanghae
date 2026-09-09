@@ -1,0 +1,181 @@
+{
+ "pass": 35,
+ "total": 35,
+ "checks": [
+  {
+   "check": "행 수 accords.csv",
+   "ok": true,
+   "detail": "60 == 60"
+  },
+  {
+   "check": "행 수 scent_families.csv",
+   "ok": true,
+   "detail": "9 == 9"
+  },
+  {
+   "check": "행 수 perfume_map_points.csv",
+   "ok": true,
+   "detail": "200 == 200"
+  },
+  {
+   "check": "행 수 perfume_map_families.csv",
+   "ok": true,
+   "detail": "303 == 303"
+  },
+  {
+   "check": "행 수 perfume_map_neighbors.csv",
+   "ok": true,
+   "detail": "2000 == 2000"
+  },
+  {
+   "check": "행 수 perfume_map_accords.csv",
+   "ok": true,
+   "detail": "1598 == 1598"
+  },
+  {
+   "check": "좌표가 v3 와 동일",
+   "ok": true,
+   "detail": "불일치 0개"
+  },
+  {
+   "check": "계열 소속·가중치가 v3 와 동일",
+   "ok": true,
+   "detail": "불일치 0개"
+  },
+  {
+   "check": "이웃·유사도가 v3 와 동일",
+   "ok": true,
+   "detail": "불일치 0개"
+  },
+  {
+   "check": "accord·세기가 v3 와 동일",
+   "ok": true,
+   "detail": "불일치 0개"
+  },
+  {
+   "check": "계열 폴리곤이 v3 와 동일",
+   "ok": true,
+   "detail": "불일치 0개"
+  },
+  {
+   "check": "향수 좌표가 [0,1] 안",
+   "ok": true,
+   "detail": "x 0.0~1.0 · y 0.0~0.83056"
+  },
+  {
+   "check": "폴리곤은 지형 bounds 공간 (음수 존재)",
+   "ok": true,
+   "detail": "최소 y -0.04565 — 향수 좌표와 다른 공간이다"
+  },
+  {
+   "check": "가중치 > 0",
+   "ok": true,
+   "detail": "최소 0.2"
+  },
+  {
+   "check": "가중치 최솟값이 임계 0.24 미만 (argmax 예외)",
+   "ok": true,
+   "detail": "최소 0.2 — DDL 에 weight >= 0.24 를 걸면 안 되는 이유"
+  },
+  {
+   "check": "향수별 가중치 합 <= 1.0001",
+   "ok": true,
+   "detail": "최대 1.0000 · 최소 0.2000"
+  },
+  {
+   "check": "rank 1 이 항상 가중치 최대 계열",
+   "ok": true,
+   "detail": "위반 0개"
+  },
+  {
+   "check": "밀도 격자 길이 = 폭 x 높이",
+   "ok": true,
+   "detail": "13824 == 128x108 = 13824"
+  },
+  {
+   "check": "계열 격자 길이 = 폭 x 높이",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "격자 2장이 v3 와 동일",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "모든 이웃 id 가 200개 안에 있다",
+   "ok": true,
+   "detail": "바깥 0개 — NOT NULL FK 안전"
+  },
+  {
+   "check": "모든 계열 키가 9개 enum 안에 있다",
+   "ok": true,
+   "detail": "9종"
+  },
+  {
+   "check": "모든 accord 가 마스터에 있다",
+   "ok": true,
+   "detail": "마스터 밖 0개"
+  },
+  {
+   "check": "자식 CSV 의 향수 id 가 전부 부모에 있다",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "이웃에 자기 자신이 없다",
+   "ok": true,
+   "detail": "0건"
+  },
+  {
+   "check": "제안 DDL 의 타입·길이가 실제 값을 받는다",
+   "ok": true,
+   "detail": "위반 0건 (Postgres 문법은 미실행)"
+  },
+  {
+   "check": "군집 7개(regions)가 빠졌다",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "파생 필드가 빠졌다",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "계열별 name_ko 중복이 빠졌다",
+   "ok": true,
+   "detail": "마스터에서 key 로 조인한다"
+  },
+  {
+   "check": "for_db/ 파일 9개",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "for_backend/ 파일 4개",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "for_frontend/ 파일 5개",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "백엔드·프론트의 scent_map.json 이 같은 파일",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "v2 파일 불변 (기록된 해시와 대조)",
+   "ok": true,
+   "detail": "9dee6b6b5794e2ae..."
+  },
+  {
+   "check": "보호 파일 59개 불변",
+   "ok": true,
+   "detail": "변경 0개"
+  }
+ ]
+}
