@@ -1,0 +1,4862 @@
+[
+  {
+    "commercial_identity_id": "ci_4810685a726a",
+    "raw_name": "피렌체 1221 에디션 오드코롱 [프리지아]",
+    "raw_brand": "산타마리아노벨라",
+    "canonical_brand": "Santa Maria Novella",
+    "identity_text": "피렌체 1221 에디션 프리지아",
+    "core_name": "피렌체 1221 에디션 프리지아",
+    "concentrations": [
+      "EDC"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오드코롱"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 28,
+    "source_product_id": "1979487",
+    "brand_basis": "exact_or_alias:산타마리아노벨라->Santa Maria Novella",
+    "selected_brands": [
+      [
+        "Santa Maria Novella",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Maison Marinelie",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Natalie Noor",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 67,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_3f1625d048c2",
+    "raw_name": "[단독기획] 제니퍼로페즈 글로우 바이제이로 EDT 100ml 기획(+프로미스 바디로션)",
+    "raw_brand": "제니퍼로페즈",
+    "canonical_brand": "Jennifer Lopez",
+    "identity_text": "제니퍼로페즈 글로우 바이제이로",
+    "core_name": "글로우 바이제이로",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "[단독기획]",
+      "(+프로미스 바디로션)",
+      "100ml",
+      "기획"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "제니퍼로페즈 ",
+    "source": "oliveyoung",
+    "source_rank": 14,
+    "source_product_id": "A000000200391",
+    "brand_basis": "exact_or_alias:제니퍼로페즈->Jennifer Lopez",
+    "selected_brands": [
+      [
+        "Jennifer Lopez",
+        "EXACT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 27,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_fa40e8f891bc",
+    "raw_name": "[명품향수/ 블랙베리&베이]로맨띠끄 블랙베리 퍼퓸 50ml",
+    "raw_brand": "로맨띠끄",
+    "canonical_brand": "로맨띠끄",
+    "identity_text": "명품향수/ 블랙베리&베이 로맨띠끄 블랙베리",
+    "core_name": "명품향수/ 블랙베리&베이 로맨띠끄 블랙베리",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "oliveyoung",
+    "source_rank": 120,
+    "source_product_id": "A000000152436",
+    "brand_basis": "unresolved_brand:로맨띠끄",
+    "selected_brands": [
+      [
+        "Aromante",
+        "BOUNDED_FALLBACK",
+        0.8888888888888888
+      ],
+      [
+        "Aromatica",
+        "BOUNDED_FALLBACK",
+        0.8888888888888888
+      ],
+      [
+        "Orientica",
+        "BOUNDED_FALLBACK",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 61,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_d042ddd14dbc",
+    "raw_name": "클래식 소프트 런드리 EDP 30ML",
+    "raw_brand": "클린",
+    "canonical_brand": "Clean",
+    "identity_text": "클래식 소프트 런드리",
+    "core_name": "클래식 소프트 런드리",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ML"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 323,
+    "source_product_id": "2597654",
+    "brand_basis": "exact_or_alias:클린->Clean",
+    "selected_brands": [
+      [
+        "Clean",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Aquolina",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caron",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 257,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_c55267126886",
+    "raw_name": "잉글리쉬 페어 앤 프리지아 코롱",
+    "raw_brand": "조말론",
+    "canonical_brand": "Jo Malone London",
+    "identity_text": "잉글리쉬 페어 앤 프리지아",
+    "core_name": "잉글리쉬 페어 앤 프리지아",
+    "concentrations": [
+      "EDC"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "코롱"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 57,
+    "source_product_id": "2014190",
+    "brand_basis": "exact_or_alias:조말론->Jo Malone London",
+    "selected_brands": [
+      [
+        "Jo Malone London",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Jeremy Lin",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Josie Maran",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 219,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_90e038c982e8",
+    "raw_name": "오 드 퍼퓸 레이 30ml",
+    "raw_brand": "에이오지",
+    "canonical_brand": "에이오지",
+    "identity_text": "레이",
+    "core_name": "레이",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml"
+    ],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 191,
+    "source_product_id": "3518010",
+    "brand_basis": "unresolved_brand:에이오지",
+    "selected_brands": [
+      [
+        "J.",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "JOI",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Joie",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 4,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_dd74e4775403",
+    "raw_name": "레드 로즈 코롱",
+    "raw_brand": "조말론",
+    "canonical_brand": "Jo Malone London",
+    "identity_text": "레드 로즈",
+    "core_name": "레드 로즈",
+    "concentrations": [
+      "EDC"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "코롱"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 76,
+    "source_product_id": "1764636",
+    "brand_basis": "exact_or_alias:조말론->Jo Malone London",
+    "selected_brands": [
+      [
+        "Jo Malone London",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Jeremy Lin",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Josie Maran",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 219,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_53ea5c255a06",
+    "raw_name": "나르시소 로드리게즈 포 허 EDT (30ml/50ml)",
+    "raw_brand": "나르시소 로드리게즈",
+    "canonical_brand": "Narciso Rodriguez",
+    "identity_text": "나르시소 로드리게즈 포 허",
+    "core_name": "포 허",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml",
+      "50ml"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "나르시소 로드리게즈 ",
+    "source": "oliveyoung",
+    "source_rank": 182,
+    "source_product_id": "A000000111388",
+    "brand_basis": "exact_or_alias:나르시소 로드리게즈->Narciso Rodriguez",
+    "selected_brands": [
+      [
+        "Narciso Rodriguez",
+        "EXACT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 49,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_be5552a929f6",
+    "raw_name": "[박지훈 포카증정] 포맨트 시그니처 퍼퓸 코튼메모리 50ml 단품/기획",
+    "raw_brand": "포맨트",
+    "canonical_brand": "Forment",
+    "identity_text": "포맨트 시그니처 코튼메모리",
+    "core_name": "시그니처 코튼메모리",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "[박지훈 포카증정]",
+      "50ml",
+      "단품",
+      "기획"
+    ],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "포맨트 ",
+    "source": "oliveyoung",
+    "source_rank": 20,
+    "source_product_id": "A000000221676",
+    "brand_basis": "exact_or_alias:포맨트->Forment",
+    "selected_brands": [
+      [
+        "Forment",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "M.INT",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ],
+      [
+        "*Apartment",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 38,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_be5552a929f6",
+    "raw_name": "시그니처 퍼퓸 [코튼메모리]",
+    "raw_brand": "포맨트",
+    "canonical_brand": "Forment",
+    "identity_text": "시그니처 코튼메모리",
+    "core_name": "시그니처 코튼메모리",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 7,
+    "source_product_id": "2136042",
+    "brand_basis": "exact_or_alias:포맨트->Forment",
+    "selected_brands": [
+      [
+        "Forment",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "M.INT",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ],
+      [
+        "*Apartment",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 38,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_be5552a929f6",
+    "raw_name": "헬로키티 에디션 시그니처 퍼퓸 [코튼메모리]",
+    "raw_brand": "포맨트",
+    "canonical_brand": "Forment",
+    "identity_text": "헬로키티 에디션 시그니처 코튼메모리",
+    "core_name": "헬로키티 에디션 시그니처 코튼메모리",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 18,
+    "source_product_id": "2142055",
+    "brand_basis": "exact_or_alias:포맨트->Forment",
+    "selected_brands": [
+      [
+        "Forment",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "M.INT",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ],
+      [
+        "*Apartment",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 38,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_801a083b87d3",
+    "raw_name": "아리아나그란데 클라우드 EDP 50ml",
+    "raw_brand": "아리아나그란데",
+    "canonical_brand": "Ariana Grande",
+    "identity_text": "아리아나그란데 클라우드",
+    "core_name": "클라우드",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "아리아나그란데 ",
+    "source": "oliveyoung",
+    "source_rank": 112,
+    "source_product_id": "A000000136757",
+    "brand_basis": "exact_or_alias:아리아나그란데->Ariana Grande",
+    "selected_brands": [
+      [
+        "Ariana Grande",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Rene Garraud",
+        "SOFT_SPELLING",
+        0.9090909090909091
+      ],
+      [
+        "Grove England",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 32,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_801a083b87d3",
+    "raw_name": "클라우드 EDP",
+    "raw_brand": "아리아나그란데",
+    "canonical_brand": "Ariana Grande",
+    "identity_text": "클라우드",
+    "core_name": "클라우드",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 72,
+    "source_product_id": "1873625",
+    "brand_basis": "exact_or_alias:아리아나그란데->Ariana Grande",
+    "selected_brands": [
+      [
+        "Ariana Grande",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Rene Garraud",
+        "SOFT_SPELLING",
+        0.9090909090909091
+      ],
+      [
+        "Grove England",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 32,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_ed334daca304",
+    "raw_name": "랑방 레 플레르 드 랑방 워터 릴리 EDT 90ml",
+    "raw_brand": "랑방",
+    "canonical_brand": "Lanvin",
+    "identity_text": "랑방 레 플레르 드 랑방 워터 릴리",
+    "core_name": "레 플레르 드 랑방 워터 릴리",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "90ml"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "랑방 ",
+    "source": "oliveyoung",
+    "source_rank": 60,
+    "source_product_id": "A000000216068",
+    "brand_basis": "exact_or_alias:랑방->Lanvin",
+    "selected_brands": [
+      [
+        "Lanvin",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Carolina Gynning",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ],
+      [
+        "Lang Lang",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ]
+    ],
+    "pool_count": 64,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_ed334daca304",
+    "raw_name": "랑방 레 플레르 드 랑방 워터 릴리 EDT 50ml",
+    "raw_brand": "랑방",
+    "canonical_brand": "Lanvin",
+    "identity_text": "랑방 레 플레르 드 랑방 워터 릴리",
+    "core_name": "레 플레르 드 랑방 워터 릴리",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "랑방 ",
+    "source": "oliveyoung",
+    "source_rank": 62,
+    "source_product_id": "A000000183800",
+    "brand_basis": "exact_or_alias:랑방->Lanvin",
+    "selected_brands": [
+      [
+        "Lanvin",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Carolina Gynning",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ],
+      [
+        "Lang Lang",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ]
+    ],
+    "pool_count": 64,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_ed334daca304",
+    "raw_name": "레 플레르 드 EDT [워터릴리]",
+    "raw_brand": "랑방",
+    "canonical_brand": "Lanvin",
+    "identity_text": "레 플레르 드 워터릴리",
+    "core_name": "레 플레르 드 워터릴리",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 68,
+    "source_product_id": "2010720",
+    "brand_basis": "exact_or_alias:랑방->Lanvin",
+    "selected_brands": [
+      [
+        "Lanvin",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Carolina Gynning",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ],
+      [
+        "Lang Lang",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ]
+    ],
+    "pool_count": 64,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_09d4167c0459",
+    "raw_name": "르셀디세이 오드뚜왈렛 100ml",
+    "raw_brand": "이세이미야케 퍼퓸",
+    "canonical_brand": "Issey Miyake",
+    "identity_text": "르셀디세이",
+    "core_name": "르셀디세이",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ml"
+    ],
+    "attributes_removed": [
+      "오드뚜왈렛"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 114,
+    "source_product_id": "4352290",
+    "brand_basis": "exact_or_alias:이세이미야케 퍼퓸->Issey Miyake",
+    "selected_brands": [
+      [
+        "Issey Miyake",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Smoke",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Erasmic",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 138,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_09d4167c0459",
+    "raw_name": "르셀디세이 오드뚜왈렛 50ml",
+    "raw_brand": "이세이미야케 퍼퓸",
+    "canonical_brand": "Issey Miyake",
+    "identity_text": "르셀디세이",
+    "core_name": "르셀디세이",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "오드뚜왈렛"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 151,
+    "source_product_id": "4352251",
+    "brand_basis": "exact_or_alias:이세이미야케 퍼퓸->Issey Miyake",
+    "selected_brands": [
+      [
+        "Issey Miyake",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Smoke",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Erasmic",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 138,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_09d4167c0459",
+    "raw_name": "이세이미야케 르 셀 디세이 EDT (50ml/100ml/기획)",
+    "raw_brand": "이세이미야케",
+    "canonical_brand": "Issey Miyake",
+    "identity_text": "이세이미야케 르 셀 디세이",
+    "core_name": "르 셀 디세이",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "(50ml/100ml/기획)"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "이세이미야케 ",
+    "source": "oliveyoung",
+    "source_rank": 104,
+    "source_product_id": "A000000210408",
+    "brand_basis": "exact_or_alias:이세이미야케->Issey Miyake",
+    "selected_brands": [
+      [
+        "Issey Miyake",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Smoke",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Erasmic",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 138,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_17304073f859",
+    "raw_name": "오 드 퍼퓸 [블랑쉬]",
+    "raw_brand": "바이레도",
+    "canonical_brand": "Byredo",
+    "identity_text": "블랑쉬",
+    "core_name": "블랑쉬",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 14,
+    "source_product_id": "2075166",
+    "brand_basis": "exact_or_alias:바이레도->Byredo",
+    "selected_brands": [
+      [
+        "Byredo",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Baldi",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Be Layered",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 123,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_090d5c757bdd",
+    "raw_name": "[프레쉬로즈향] 나르시소 로드리게즈 나르시소 크리스탈 EDP (30ml/50m/기획)",
+    "raw_brand": "나르시소 로드리게즈",
+    "canonical_brand": "Narciso Rodriguez",
+    "identity_text": "프레쉬로즈향 나르시소 로드리게즈 나르시소 크리스탈",
+    "core_name": "프레쉬로즈향 나르시소 로드리게즈 나르시소 크리스탈",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "(30ml/50m/기획)"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "oliveyoung",
+    "source_rank": 48,
+    "source_product_id": "A000000187588",
+    "brand_basis": "exact_or_alias:나르시소 로드리게즈->Narciso Rodriguez",
+    "selected_brands": [
+      [
+        "Narciso Rodriguez",
+        "EXACT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 64,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_c0996b76357a",
+    "raw_name": "[남친향수] 아이젠틀맨 콜 유 마인 오 드 퍼퓸 50ml",
+    "raw_brand": "아이젠틀맨",
+    "canonical_brand": "아이젠틀맨",
+    "identity_text": "남친향수 아이젠틀맨 콜 유 마인",
+    "core_name": "남친향수 아이젠틀맨 콜 유 마인",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "oliveyoung",
+    "source_rank": 332,
+    "source_product_id": "A000000206522",
+    "brand_basis": "unresolved_brand:아이젠틀맨",
+    "selected_brands": [
+      [
+        "J. Peterman",
+        "BOUNDED_FALLBACK",
+        0.8333333333333334
+      ],
+      [
+        "Natur Milano",
+        "BOUNDED_FALLBACK",
+        0.8333333333333334
+      ],
+      [
+        "Anatoline",
+        "BOUNDED_FALLBACK",
+        0.8
+      ]
+    ],
+    "pool_count": 20,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_d26a1c904519",
+    "raw_name": "미스 디올 오 드 퍼퓸",
+    "raw_brand": "디올",
+    "canonical_brand": "Dior",
+    "identity_text": "미스 디올",
+    "core_name": "미스 디올",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 15,
+    "source_product_id": "1975958",
+    "brand_basis": "exact_or_alias:디올->Dior",
+    "selected_brands": [
+      [
+        "Dior",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "ADAR",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Del Río",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 243,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_1ee9b276cd55",
+    "raw_name": "[보이넥스트도어 PICK] 에끌로에 오 드 퍼퓸 EDP 50ml",
+    "raw_brand": "비비앙",
+    "canonical_brand": "Vivienne Westwood",
+    "identity_text": "에끌로에",
+    "core_name": "에끌로에",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "[보이넥스트도어 PICK]",
+      "50ml"
+    ],
+    "attributes_removed": [
+      "오 드 퍼퓸",
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 267,
+    "source_product_id": "4425060",
+    "brand_basis": "exact_or_alias:비비앙->Vivienne Westwood",
+    "selected_brands": [
+      [
+        "Vivienne Westwood",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "BEYOUNG",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "BiBiANG",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 21,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_fd42acc0c3f9",
+    "raw_name": "[올영단독기획] 어뮤즈 헤어 퍼퓸 미스트 한정 기획 (+솔리드퍼퓸밤키링증정)",
+    "raw_brand": "어뮤즈",
+    "canonical_brand": "어뮤즈",
+    "identity_text": "어뮤즈 미스트 한정",
+    "core_name": "미스트 한정",
+    "concentrations": [],
+    "product_form": "HAIR_FRAGRANCE",
+    "noise": [
+      "[올영단독기획]",
+      "(+솔리드퍼퓸밤키링증정)",
+      "기획"
+    ],
+    "attributes_removed": [
+      "헤어 퍼퓸"
+    ],
+    "brand_prefix_removed": "어뮤즈 ",
+    "source": "oliveyoung",
+    "source_rank": 65,
+    "source_product_id": "A000000237796",
+    "brand_basis": "unresolved_brand:어뮤즈",
+    "selected_brands": [
+      [
+        "Emoji",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Mojo",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Momiji",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 0,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_0dcd41256f4a",
+    "raw_name": "글로우 바이 제이로 EDT 30ML",
+    "raw_brand": "제니퍼로페즈",
+    "canonical_brand": "Jennifer Lopez",
+    "identity_text": "글로우 바이 제이로",
+    "core_name": "글로우 바이 제이로",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 128,
+    "source_product_id": "1910182",
+    "brand_basis": "exact_or_alias:제니퍼로페즈->Jennifer Lopez",
+    "selected_brands": [
+      [
+        "Jennifer Lopez",
+        "EXACT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 27,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_0dcd41256f4a",
+    "raw_name": "글로우 바이 제이로 EDT 50ML",
+    "raw_brand": "제니퍼로페즈",
+    "canonical_brand": "Jennifer Lopez",
+    "identity_text": "글로우 바이 제이로",
+    "core_name": "글로우 바이 제이로",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 245,
+    "source_product_id": "1910181",
+    "brand_basis": "exact_or_alias:제니퍼로페즈->Jennifer Lopez",
+    "selected_brands": [
+      [
+        "Jennifer Lopez",
+        "EXACT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 27,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_0dcd41256f4a",
+    "raw_name": "제니퍼로페즈 글로우 바이제이로 EDT 30ml",
+    "raw_brand": "제니퍼로페즈",
+    "canonical_brand": "Jennifer Lopez",
+    "identity_text": "제니퍼로페즈 글로우 바이제이로",
+    "core_name": "글로우 바이제이로",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "제니퍼로페즈 ",
+    "source": "oliveyoung",
+    "source_rank": 76,
+    "source_product_id": "A000000104639",
+    "brand_basis": "exact_or_alias:제니퍼로페즈->Jennifer Lopez",
+    "selected_brands": [
+      [
+        "Jennifer Lopez",
+        "EXACT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 27,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_0dcd41256f4a",
+    "raw_name": "제니퍼로페즈 글로우 바이제이로 EDT 50ml",
+    "raw_brand": "제니퍼로페즈",
+    "canonical_brand": "Jennifer Lopez",
+    "identity_text": "제니퍼로페즈 글로우 바이제이로",
+    "core_name": "글로우 바이제이로",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "제니퍼로페즈 ",
+    "source": "oliveyoung",
+    "source_rank": 156,
+    "source_product_id": "A000000104640",
+    "brand_basis": "exact_or_alias:제니퍼로페즈->Jennifer Lopez",
+    "selected_brands": [
+      [
+        "Jennifer Lopez",
+        "EXACT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 27,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_0dcd41256f4a",
+    "raw_name": "글로우 바이 제이로 EDT",
+    "raw_brand": "제니퍼로페즈",
+    "canonical_brand": "Jennifer Lopez",
+    "identity_text": "글로우 바이 제이로",
+    "core_name": "글로우 바이 제이로",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 27,
+    "source_product_id": "2169817",
+    "brand_basis": "exact_or_alias:제니퍼로페즈->Jennifer Lopez",
+    "selected_brands": [
+      [
+        "Jennifer Lopez",
+        "EXACT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 27,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_d7d573ee1c3e",
+    "raw_name": "리브르 오 드 빠르펭",
+    "raw_brand": "입생로랑뷰티",
+    "canonical_brand": "Yves Saint Laurent",
+    "identity_text": "리브르",
+    "core_name": "리브르",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오 드 빠르펭"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 46,
+    "source_product_id": "1855131",
+    "brand_basis": "exact_or_alias:입생로랑뷰티->Yves Saint Laurent",
+    "selected_brands": [
+      [
+        "Yves Saint Laurent",
+        "EXACT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 231,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_ead83e6160b4",
+    "raw_name": "르셀디세이 오 드 퍼퓸 100ml",
+    "raw_brand": "이세이미야케 퍼퓸",
+    "canonical_brand": "Issey Miyake",
+    "identity_text": "르셀디세이",
+    "core_name": "르셀디세이",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ml"
+    ],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 143,
+    "source_product_id": "5250747",
+    "brand_basis": "exact_or_alias:이세이미야케 퍼퓸->Issey Miyake",
+    "selected_brands": [
+      [
+        "Issey Miyake",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Smoke",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Erasmic",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 110,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_ead83e6160b4",
+    "raw_name": "르셀디세이 오 드 퍼퓸 50ml",
+    "raw_brand": "이세이미야케 퍼퓸",
+    "canonical_brand": "Issey Miyake",
+    "identity_text": "르셀디세이",
+    "core_name": "르셀디세이",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 283,
+    "source_product_id": "5250703",
+    "brand_basis": "exact_or_alias:이세이미야케 퍼퓸->Issey Miyake",
+    "selected_brands": [
+      [
+        "Issey Miyake",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Smoke",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Erasmic",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 110,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_ead83e6160b4",
+    "raw_name": "이세이미야케 르 셀 디세이 EDP (50ml/100ml)",
+    "raw_brand": "이세이미야케",
+    "canonical_brand": "Issey Miyake",
+    "identity_text": "이세이미야케 르 셀 디세이",
+    "core_name": "르 셀 디세이",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml",
+      "100ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "이세이미야케 ",
+    "source": "oliveyoung",
+    "source_rank": 173,
+    "source_product_id": "A000000230831",
+    "brand_basis": "exact_or_alias:이세이미야케->Issey Miyake",
+    "selected_brands": [
+      [
+        "Issey Miyake",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Smoke",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Erasmic",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 110,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_bd02a2fbb9cf",
+    "raw_name": "모던 프린세스 오 센슈얼 EDT",
+    "raw_brand": "랑방",
+    "canonical_brand": "Lanvin",
+    "identity_text": "모던 프린세스 오 센슈얼",
+    "core_name": "모던 프린세스 오 센슈얼",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 44,
+    "source_product_id": "1829140",
+    "brand_basis": "exact_or_alias:랑방->Lanvin",
+    "selected_brands": [
+      [
+        "Lanvin",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Carolina Gynning",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ],
+      [
+        "Lang Lang",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ]
+    ],
+    "pool_count": 64,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_4277d84bcdbc",
+    "raw_name": "쟈도르 오 드 퍼퓸",
+    "raw_brand": "디올",
+    "canonical_brand": "Dior",
+    "identity_text": "쟈도르",
+    "core_name": "쟈도르",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 31,
+    "source_product_id": "1969079",
+    "brand_basis": "exact_or_alias:디올->Dior",
+    "selected_brands": [
+      [
+        "Dior",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "ADAR",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Del Río",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 243,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_7b7aed26cc5b",
+    "raw_name": "샹스 오 비브 오 드 뚜왈렛",
+    "raw_brand": "샤넬",
+    "canonical_brand": "Chanel",
+    "identity_text": "샹스 오 비브",
+    "core_name": "샹스 오 비브",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오 드 뚜왈렛"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 41,
+    "source_product_id": "1769749",
+    "brand_basis": "exact_or_alias:샤넬->Chanel",
+    "selected_brands": [
+      [
+        "Chanel",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Sanrio",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Addison Rae",
+        "SOFT_SPELLING",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 115,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_4a563c9a37f7",
+    "raw_name": "오 드 퍼퓸 페더 10ml",
+    "raw_brand": "테누이",
+    "canonical_brand": "테누이",
+    "identity_text": "페더",
+    "core_name": "페더",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "10ml"
+    ],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 156,
+    "source_product_id": "5819269",
+    "brand_basis": "unresolved_brand:테누이",
+    "selected_brands": [
+      [
+        "ATon",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Etnia",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Teana",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 35,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_ed4dff7afb27",
+    "raw_name": "클리어 애플 블로썸 EDP 30ML",
+    "raw_brand": "클린",
+    "canonical_brand": "Clean",
+    "identity_text": "클리어 애플 블로썸",
+    "core_name": "클리어 애플 블로썸",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ML"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 48,
+    "source_product_id": "4771019",
+    "brand_basis": "exact_or_alias:클린->Clean",
+    "selected_brands": [
+      [
+        "Clean",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Aquolina",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caron",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 257,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_ed4dff7afb27",
+    "raw_name": "클리어 애플 블로썸 EDP 60ML",
+    "raw_brand": "클린",
+    "canonical_brand": "Clean",
+    "identity_text": "클리어 애플 블로썸",
+    "core_name": "클리어 애플 블로썸",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "60ML"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 98,
+    "source_product_id": "4771015",
+    "brand_basis": "exact_or_alias:클린->Clean",
+    "selected_brands": [
+      [
+        "Clean",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Aquolina",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caron",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 257,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_3c6a890dddda",
+    "raw_name": "옴므 코롱",
+    "raw_brand": "디올",
+    "canonical_brand": "Dior",
+    "identity_text": "옴므",
+    "core_name": "옴므",
+    "concentrations": [
+      "EDC"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "코롱"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 93,
+    "source_product_id": "1765825",
+    "brand_basis": "exact_or_alias:디올->Dior",
+    "selected_brands": [
+      [
+        "Dior",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "ADAR",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Del Río",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 199,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_107454de822b",
+    "raw_name": "시그니처 EDP",
+    "raw_brand": "끌로에",
+    "canonical_brand": "Chloé",
+    "identity_text": "시그니처",
+    "core_name": "시그니처",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 13,
+    "source_product_id": "2009995",
+    "brand_basis": "exact_or_alias:끌로에->Chloé",
+    "selected_brands": [
+      [
+        "Chloé",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "AEQUILL",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Acorelle",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 109,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_d2fcaaa64889",
+    "raw_name": "랄프로렌 폴로 랄프 EDT 30ml,50ml 단품/기획 중 택 1",
+    "raw_brand": "랄프로렌",
+    "canonical_brand": "Ralph Lauren",
+    "identity_text": "랄프로렌 폴로 랄프 , / 중",
+    "core_name": "폴로 랄프 , / 중",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml",
+      "50ml",
+      "단품",
+      "기획",
+      "택 1"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "랄프로렌 ",
+    "source": "oliveyoung",
+    "source_rank": 93,
+    "source_product_id": "A000000142176",
+    "brand_basis": "exact_or_alias:랄프로렌->Ralph Lauren",
+    "selected_brands": [
+      [
+        "Ralph Lauren",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "le Pelerin",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Le Persona",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 113,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_0bb163868ef8",
+    "raw_name": "블랙베리 앤 베이 코롱",
+    "raw_brand": "조말론",
+    "canonical_brand": "Jo Malone London",
+    "identity_text": "블랙베리 앤 베이",
+    "core_name": "블랙베리 앤 베이",
+    "concentrations": [
+      "EDC"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "코롱"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 23,
+    "source_product_id": "2103482",
+    "brand_basis": "exact_or_alias:조말론->Jo Malone London",
+    "selected_brands": [
+      [
+        "Jo Malone London",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Jeremy Lin",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Josie Maran",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 219,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_cbb9c5fbc6d6",
+    "raw_name": "리플레이 소스 오브 라이프 포 맨 오드뚜왈렛 30ml",
+    "raw_brand": "향수존",
+    "canonical_brand": "Replay",
+    "identity_text": "리플레이 소스 오브 라이프 포 맨",
+    "core_name": "리플레이 소스 오브 라이프 포 맨",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml"
+    ],
+    "attributes_removed": [
+      "오드뚜왈렛"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 244,
+    "source_product_id": "PD51658649",
+    "brand_basis": "exact_or_alias:리플레이->Replay",
+    "selected_brands": [
+      [
+        "Replay",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "La Perla",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "La Prairie",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 91,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_cbb9c5fbc6d6",
+    "raw_name": "[리플레이] 소스 오브 라이프 포 맨 오드뚜왈렛 100ml",
+    "raw_brand": "향수존",
+    "canonical_brand": "Replay",
+    "identity_text": "리플레이 소스 오브 라이프 포 맨",
+    "core_name": "리플레이 소스 오브 라이프 포 맨",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ml"
+    ],
+    "attributes_removed": [
+      "오드뚜왈렛"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 247,
+    "source_product_id": "PD51917591",
+    "brand_basis": "exact_or_alias:리플레이->Replay",
+    "selected_brands": [
+      [
+        "Replay",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "La Perla",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "La Prairie",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 91,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_2fc2db319ecd",
+    "raw_name": "몽블랑 레전드 EDT 30ml/50ml 중 택1",
+    "raw_brand": "몽블랑",
+    "canonical_brand": "Montblanc",
+    "identity_text": "몽블랑 레전드 / 중",
+    "core_name": "레전드 / 중",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml",
+      "50ml",
+      "택1"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "몽블랑 ",
+    "source": "oliveyoung",
+    "source_rank": 71,
+    "source_product_id": "A000000002290",
+    "brand_basis": "exact_or_alias:몽블랑->Montblanc",
+    "selected_brands": [
+      [
+        "Montblanc",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Grooming Lounge",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Emanuel Ungaro",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 102,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_135a36451863",
+    "raw_name": "아티산 블루 EDT 75ML",
+    "raw_brand": "존바바토스",
+    "canonical_brand": "John Varvatos",
+    "identity_text": "아티산 블루",
+    "core_name": "아티산 블루",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "75ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 120,
+    "source_product_id": "1910207",
+    "brand_basis": "exact_or_alias:존바바토스->John Varvatos",
+    "selected_brands": [
+      [
+        "John Varvatos",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Joan Vass",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Jean Bouvaist",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 44,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_135a36451863",
+    "raw_name": "아티산 블루 EDT 125ML",
+    "raw_brand": "존바바토스",
+    "canonical_brand": "John Varvatos",
+    "identity_text": "아티산 블루",
+    "core_name": "아티산 블루",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "125ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 158,
+    "source_product_id": "1910206",
+    "brand_basis": "exact_or_alias:존바바토스->John Varvatos",
+    "selected_brands": [
+      [
+        "John Varvatos",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Joan Vass",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Jean Bouvaist",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 44,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_135a36451863",
+    "raw_name": "존바바토스 아티산 블루 EDT 125ml",
+    "raw_brand": "존바바토스",
+    "canonical_brand": "John Varvatos",
+    "identity_text": "존바바토스 아티산 블루",
+    "core_name": "아티산 블루",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "125ml"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "존바바토스 ",
+    "source": "oliveyoung",
+    "source_rank": 90,
+    "source_product_id": "A000000013262",
+    "brand_basis": "exact_or_alias:존바바토스->John Varvatos",
+    "selected_brands": [
+      [
+        "John Varvatos",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Joan Vass",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Jean Bouvaist",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 44,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_135a36451863",
+    "raw_name": "존바바토스 아티산 블루 EDT 75ml (단품/기획)",
+    "raw_brand": "존바바토스",
+    "canonical_brand": "John Varvatos",
+    "identity_text": "존바바토스 아티산 블루",
+    "core_name": "아티산 블루",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "(단품/기획)",
+      "75ml"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "존바바토스 ",
+    "source": "oliveyoung",
+    "source_rank": 245,
+    "source_product_id": "A000000193154",
+    "brand_basis": "exact_or_alias:존바바토스->John Varvatos",
+    "selected_brands": [
+      [
+        "John Varvatos",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Joan Vass",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Jean Bouvaist",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 44,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_fe5476d260a3",
+    "raw_name": "무신사 스탠다드 스모크 오우드 EDP 50ml",
+    "raw_brand": "무신사 스탠다드 뷰티",
+    "canonical_brand": "무신사 스탠다드 뷰티",
+    "identity_text": "무신사 스탠다드 스모크 오우드",
+    "core_name": "무신사 스탠다드 스모크 오우드",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 11,
+    "source_product_id": "4388018",
+    "brand_basis": "unresolved_brand:무신사 스탠다드 뷰티",
+    "selected_brands": [
+      [
+        "Musinsa Standard",
+        "BOUNDED_FALLBACK",
+        0.7777777777777778
+      ],
+      [
+        "Essensitive",
+        "BOUNDED_FALLBACK",
+        0.7142857142857143
+      ],
+      [
+        "Moon Stone",
+        "BOUNDED_FALLBACK",
+        0.7142857142857143
+      ]
+    ],
+    "pool_count": 16,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_d68c89b83d25",
+    "raw_name": "퓨레앙스 페어 가든 오드퍼퓸 50ml",
+    "raw_brand": "향수존",
+    "canonical_brand": "퓨레앙스",
+    "identity_text": "퓨레앙스 페어 가든",
+    "core_name": "퓨레앙스 페어 가든",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 101,
+    "source_product_id": "LE1221806089",
+    "brand_basis": "unresolved_brand:퓨레앙스",
+    "selected_brands": [
+      [
+        "ELOREA | 향수",
+        "BOUNDED_FALLBACK",
+        0.8
+      ],
+      [
+        "Plantage",
+        "BOUNDED_FALLBACK",
+        0.8
+      ],
+      [
+        "Pleasing",
+        "BOUNDED_FALLBACK",
+        0.8
+      ]
+    ],
+    "pool_count": 27,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_b1e45f9c38b7",
+    "raw_name": "[엔믹스규진PICK] 에틀리에 오 드 퍼퓸 트와일라잇블룸 30ml/10ml",
+    "raw_brand": "에틀리에",
+    "canonical_brand": "에틀리에",
+    "identity_text": "에틀리에 트와일라잇블룸",
+    "core_name": "트와일라잇블룸",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "[엔믹스규진PICK]",
+      "30ml",
+      "10ml"
+    ],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "에틀리에 ",
+    "source": "oliveyoung",
+    "source_rank": 209,
+    "source_product_id": "A000000248073",
+    "brand_basis": "unresolved_brand:에틀리에",
+    "selected_brands": [
+      [
+        "Atralia",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Etereo",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Etro",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 73,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_9d1a7b03ec31",
+    "raw_name": "피코 디 아말피 오 드 뜨왈렛",
+    "raw_brand": "아쿠아디파르마",
+    "canonical_brand": "Acqua di Parma",
+    "identity_text": "피코 디 아말피 오 드 뜨왈렛",
+    "core_name": "피코 디 아말피 오 드 뜨왈렛",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 71,
+    "source_product_id": "1959643",
+    "brand_basis": "exact_or_alias:아쿠아디파르마->Acqua di Parma",
+    "selected_brands": [
+      [
+        "Acqua di Parma",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Di Palomo",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Café de Parfum",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ]
+    ],
+    "pool_count": 116,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_c565283367da",
+    "raw_name": "끌로에 나츄렐 EDP 30ml/50ml",
+    "raw_brand": "끌로에",
+    "canonical_brand": "Chloé",
+    "identity_text": "끌로에 나츄렐",
+    "core_name": "나츄렐",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml",
+      "50ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "끌로에 ",
+    "source": "oliveyoung",
+    "source_rank": 172,
+    "source_product_id": "A000000161643",
+    "brand_basis": "exact_or_alias:끌로에->Chloé",
+    "selected_brands": [
+      [
+        "Chloé",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "AEQUILL",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Acorelle",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 109,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_e950f7d25ef0",
+    "raw_name": "캘빈클라인 CK One EDT 단품/기획",
+    "raw_brand": "캘빈클라인",
+    "canonical_brand": "Calvin Klein",
+    "identity_text": "캘빈클라인 CK One",
+    "core_name": "CK One",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "단품",
+      "기획"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "캘빈클라인 ",
+    "source": "oliveyoung",
+    "source_rank": 33,
+    "source_product_id": "A000000128148",
+    "brand_basis": "exact_or_alias:캘빈클라인->Calvin Klein",
+    "selected_brands": [
+      [
+        "Calvin Klein",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "C&A",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caia",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 189,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_e950f7d25ef0",
+    "raw_name": "원 EDT",
+    "raw_brand": "CK",
+    "canonical_brand": "Calvin Klein",
+    "identity_text": "원",
+    "core_name": "원",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 30,
+    "source_product_id": "2031885",
+    "brand_basis": "exact_or_alias:CK->Calvin Klein",
+    "selected_brands": [
+      [
+        "Calvin Klein",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "C&A",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caia",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 189,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_6a8371b682cf",
+    "raw_name": "시그니처 퍼퓸 틴타슈 30ML",
+    "raw_brand": "누다라",
+    "canonical_brand": "누다라",
+    "identity_text": "시그니처 틴타슈",
+    "core_name": "시그니처 틴타슈",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ML"
+    ],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 342,
+    "source_product_id": "4162194",
+    "brand_basis": "unresolved_brand:누다라",
+    "selected_brands": [
+      [
+        "Annindriya",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Andesara",
+        "BOUNDED_FALLBACK",
+        0.8571428571428571
+      ],
+      [
+        "Andreea Rada",
+        "BOUNDED_FALLBACK",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 17,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_86283a068b96",
+    "raw_name": "퍼퓸 솝클린솝 50ml",
+    "raw_brand": "센녹",
+    "canonical_brand": "센녹",
+    "identity_text": "솝클린솝",
+    "core_name": "솝클린솝",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 47,
+    "source_product_id": "5115518",
+    "brand_basis": "unresolved_brand:센녹",
+    "selected_brands": [
+      [
+        "ESSNCE",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Essence جوهر",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Senke",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 71,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_9503328d5cdd",
+    "raw_name": "오리지널 머스크 향수",
+    "raw_brand": "키엘",
+    "canonical_brand": "키엘",
+    "identity_text": "오리지널 머스크",
+    "core_name": "오리지널 머스크",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "향수"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 21,
+    "source_product_id": "1814936",
+    "brand_basis": "unresolved_brand:키엘",
+    "selected_brands": [
+      [
+        "AEQUILL",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Acorelle",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Acqua Reale",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 46,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_22b490f019e7",
+    "raw_name": "[장미 생화향] 오 드 퍼퓸 로즈 제스트 30ML Rose Zest",
+    "raw_brand": "리베르",
+    "canonical_brand": "리베르",
+    "identity_text": "장미 생화향 로즈 제스트 Rose Zest",
+    "core_name": "장미 생화향 로즈 제스트 Rose Zest",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ML"
+    ],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 153,
+    "source_product_id": "6039284",
+    "brand_basis": "unresolved_brand:리베르",
+    "selected_brands": [
+      [
+        "L'Bel",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "L'Erbolario",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "La Ville",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 129,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_56efd786d857",
+    "raw_name": "[기획] 알보우 케이스 스터디 EDP 30ml 상탈 블루 (+핸드크림)",
+    "raw_brand": "알보우",
+    "canonical_brand": "알보우",
+    "identity_text": "알보우 케이스 스터디 상탈 블루",
+    "core_name": "케이스 스터디 상탈 블루",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "[기획]",
+      "(+핸드크림)",
+      "30ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "알보우 ",
+    "source": "oliveyoung",
+    "source_rank": 347,
+    "source_product_id": "A000000216041",
+    "brand_basis": "unresolved_brand:알보우",
+    "selected_brands": [
+      [
+        "Arabia",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Arve",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Ayliva",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 4,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_1bf0bf800b0a",
+    "raw_name": "허그 향수",
+    "raw_brand": "바닐라부티크",
+    "canonical_brand": "Vanilla Boutique",
+    "identity_text": "허그",
+    "core_name": "허그",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "향수"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 10,
+    "source_product_id": "2098221",
+    "brand_basis": "unresolved_brand:바닐라부티크",
+    "selected_brands": [
+      [
+        "BellaVita",
+        "BOUNDED_FALLBACK",
+        0.8
+      ],
+      [
+        "Bow New York",
+        "BOUNDED_FALLBACK",
+        0.8
+      ],
+      [
+        "Bultaco",
+        "BOUNDED_FALLBACK",
+        0.8
+      ]
+    ],
+    "pool_count": 80,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_2084bc83573d",
+    "raw_name": "미스 디올 블루밍 부케 오 드 뚜왈렛",
+    "raw_brand": "디올",
+    "canonical_brand": "Dior",
+    "identity_text": "미스 디올 블루밍 부케",
+    "core_name": "미스 디올 블루밍 부케",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오 드 뚜왈렛"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 16,
+    "source_product_id": "2004415",
+    "brand_basis": "exact_or_alias:디올->Dior",
+    "selected_brands": [
+      [
+        "Dior",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "ADAR",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Del Río",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 254,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5f841369d660",
+    "raw_name": "끌로에 노마드 EDP 30ml/50ml/50ml 기획",
+    "raw_brand": "끌로에",
+    "canonical_brand": "Chloé",
+    "identity_text": "끌로에 노마드",
+    "core_name": "노마드",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml",
+      "50ml",
+      "50ml",
+      "기획"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "끌로에 ",
+    "source": "oliveyoung",
+    "source_rank": 125,
+    "source_product_id": "A000000203627",
+    "brand_basis": "exact_or_alias:끌로에->Chloé",
+    "selected_brands": [
+      [
+        "Chloé",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "AEQUILL",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Acorelle",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 109,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_2228ae3a9f00",
+    "raw_name": "아티산 EDT 75ML",
+    "raw_brand": "존바바토스",
+    "canonical_brand": "John Varvatos",
+    "identity_text": "아티산",
+    "core_name": "아티산",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "75ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 42,
+    "source_product_id": "1910209",
+    "brand_basis": "exact_or_alias:존바바토스->John Varvatos",
+    "selected_brands": [
+      [
+        "John Varvatos",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Joan Vass",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Jean Bouvaist",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 44,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_2228ae3a9f00",
+    "raw_name": "아티산 EDT 125ML",
+    "raw_brand": "존바바토스",
+    "canonical_brand": "John Varvatos",
+    "identity_text": "아티산",
+    "core_name": "아티산",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "125ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 49,
+    "source_product_id": "1910208",
+    "brand_basis": "exact_or_alias:존바바토스->John Varvatos",
+    "selected_brands": [
+      [
+        "John Varvatos",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Joan Vass",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Jean Bouvaist",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 44,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_9fcfdb7b6424",
+    "raw_name": "인마이메모리 오드 퍼퓸 50ml",
+    "raw_brand": "투데이이즈",
+    "canonical_brand": "투데이이즈",
+    "identity_text": "인마이메모리",
+    "core_name": "인마이메모리",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "오드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 84,
+    "source_product_id": "6211036",
+    "brand_basis": "unresolved_brand:투데이이즈",
+    "selected_brands": [
+      [
+        "Attitude",
+        "BOUNDED_FALLBACK",
+        0.8
+      ],
+      [
+        "Atwood",
+        "BOUNDED_FALLBACK",
+        0.8
+      ],
+      [
+        "Tujoué",
+        "BOUNDED_FALLBACK",
+        0.8
+      ]
+    ],
+    "pool_count": 9,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_6c7d7de64d1a",
+    "raw_name": "[베르사체] 에로스플레임 오드퍼퓸 100ml (미니어처1종 랜덤증정)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Versace",
+    "identity_text": "베르사체 에로스플레임",
+    "core_name": "베르사체 에로스플레임",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "(미니어처1종 랜덤증정)",
+      "100ml"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 103,
+    "source_product_id": "LE1207942397",
+    "brand_basis": "exact_or_alias:베르사체->Versace",
+    "selected_brands": [
+      [
+        "Versace",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Valesch B.",
+        "SOFT_SPELLING",
+        0.9090909090909091
+      ],
+      [
+        "Balocchi",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 87,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_be61dc55fcd7",
+    "raw_name": "무신사 스탠다드 코코모 EDP 50ml",
+    "raw_brand": "무신사 스탠다드 뷰티",
+    "canonical_brand": "무신사 스탠다드 뷰티",
+    "identity_text": "무신사 스탠다드 코코모",
+    "core_name": "무신사 스탠다드 코코모",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 20,
+    "source_product_id": "4388017",
+    "brand_basis": "unresolved_brand:무신사 스탠다드 뷰티",
+    "selected_brands": [
+      [
+        "Musinsa Standard",
+        "BOUNDED_FALLBACK",
+        0.7777777777777778
+      ],
+      [
+        "Essensitive",
+        "BOUNDED_FALLBACK",
+        0.7142857142857143
+      ],
+      [
+        "Moon Stone",
+        "BOUNDED_FALLBACK",
+        0.7142857142857143
+      ]
+    ],
+    "pool_count": 16,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_c1af0ea0301d",
+    "raw_name": "피렌체 1221 에디션 로사 가데니아 오드코롱",
+    "raw_brand": "산타마리아노벨라",
+    "canonical_brand": "Santa Maria Novella",
+    "identity_text": "피렌체 1221 에디션 로사 가데니아",
+    "core_name": "피렌체 1221 에디션 로사 가데니아",
+    "concentrations": [
+      "EDC"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오드코롱"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 74,
+    "source_product_id": "1979469",
+    "brand_basis": "exact_or_alias:산타마리아노벨라->Santa Maria Novella",
+    "selected_brands": [
+      [
+        "Santa Maria Novella",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Maison Marinelie",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Natalie Noor",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 67,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_4f945c5205c0",
+    "raw_name": "[NEW/기획] 아뜰리에페이 퍼퓸 30ml 데이오프",
+    "raw_brand": "아뜰리에페이",
+    "canonical_brand": "Atelier Faye",
+    "identity_text": "아뜰리에페이 데이오프",
+    "core_name": "데이오프",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "[NEW/기획]",
+      "30ml"
+    ],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "아뜰리에페이 ",
+    "source": "oliveyoung",
+    "source_rank": 29,
+    "source_product_id": "A000000267356",
+    "brand_basis": "unresolved_brand:아뜰리에페이",
+    "selected_brands": [
+      [
+        "Tulip",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Artalep",
+        "BOUNDED_FALLBACK",
+        0.8571428571428571
+      ],
+      [
+        "Evterpa",
+        "BOUNDED_FALLBACK",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 71,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_4f945c5205c0",
+    "raw_name": "데이 오프",
+    "raw_brand": "아뜰리에페이",
+    "canonical_brand": "Atelier Faye",
+    "identity_text": "데이 오프",
+    "core_name": "데이 오프",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 20,
+    "source_product_id": "2093332",
+    "brand_basis": "unresolved_brand:아뜰리에페이",
+    "selected_brands": [
+      [
+        "Tulip",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Artalep",
+        "BOUNDED_FALLBACK",
+        0.8571428571428571
+      ],
+      [
+        "Evterpa",
+        "BOUNDED_FALLBACK",
+        0.8571428571428571
+      ]
+    ],
+    "pool_count": 71,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_25a3e29e48bc",
+    "raw_name": "#20 밤쉘 Type (업그레이드) 엑스트레드퍼퓸/니치향수 50ml",
+    "raw_brand": "데이모어센트",
+    "canonical_brand": "데이모어센트",
+    "identity_text": "#20 밤쉘 Type 업그레이드 /니치향수",
+    "core_name": "#20 밤쉘 Type 업그레이드 /니치향수",
+    "concentrations": [
+      "EXTRAIT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "엑스트레드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 268,
+    "source_product_id": "4389950",
+    "brand_basis": "unresolved_brand:데이모어센트",
+    "selected_brands": [
+      [
+        "Dumont",
+        "BOUNDED_FALLBACK",
+        0.8888888888888888
+      ],
+      [
+        "Domestica",
+        "BOUNDED_FALLBACK",
+        0.8
+      ],
+      [
+        "Maison d'ETTO",
+        "BOUNDED_FALLBACK",
+        0.8
+      ]
+    ],
+    "pool_count": 50,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_27bd716825bd",
+    "raw_name": "[에탄올 FREE] 에이딕트 헤어 퍼퓸 30ml 버베나 레인 (단품/기획)",
+    "raw_brand": "에이딕트",
+    "canonical_brand": "에이딕트",
+    "identity_text": "에탄올 FREE 에이딕트 버베나 레인",
+    "core_name": "에탄올 FREE 에이딕트 버베나 레인",
+    "concentrations": [],
+    "product_form": "HAIR_FRAGRANCE",
+    "noise": [
+      "(단품/기획)",
+      "30ml"
+    ],
+    "attributes_removed": [
+      "헤어 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "oliveyoung",
+    "source_rank": 167,
+    "source_product_id": "A000000224306",
+    "brand_basis": "unresolved_brand:에이딕트",
+    "selected_brands": [
+      [
+        "Addct",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Ducati",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Odict",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 0,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_f7ced541c01c",
+    "raw_name": "[생화장미향수] 로즈온어플래닛 오드퍼퓸 향수 50ml",
+    "raw_brand": "마인드오버바디",
+    "canonical_brand": "마인드오버바디",
+    "identity_text": "생화장미향수 로즈온어플래닛",
+    "core_name": "생화장미향수 로즈온어플래닛",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸",
+      "향수"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 256,
+    "source_product_id": "4758034",
+    "brand_basis": "unresolved_brand:마인드오버바디",
+    "selected_brands": [
+      [
+        "Emanuel Dubai",
+        "BOUNDED_FALLBACK",
+        0.8
+      ],
+      [
+        "Mondi",
+        "BOUNDED_FALLBACK",
+        0.75
+      ],
+      [
+        "Armand Basi",
+        "BOUNDED_FALLBACK",
+        0.7272727272727273
+      ]
+    ],
+    "pool_count": 53,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_6716e7dfa806",
+    "raw_name": "아쿠아 다이브 퍼퓸 50ml",
+    "raw_brand": "다슈",
+    "canonical_brand": "다슈",
+    "identity_text": "아쿠아 다이브",
+    "core_name": "아쿠아 다이브",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 93,
+    "source_product_id": "2637311",
+    "brand_basis": "unresolved_brand:다슈",
+    "selected_brands": [
+      [
+        "-DIS",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Adidas",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Eau De Soie",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 98,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_6716e7dfa806",
+    "raw_name": "아쿠아 다이브 퍼퓸",
+    "raw_brand": "다슈",
+    "canonical_brand": "다슈",
+    "identity_text": "아쿠아 다이브",
+    "core_name": "아쿠아 다이브",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 29,
+    "source_product_id": "1940005",
+    "brand_basis": "unresolved_brand:다슈",
+    "selected_brands": [
+      [
+        "-DIS",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Adidas",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Eau De Soie",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 98,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_53a64fbdd1d7",
+    "raw_name": "우먼 EDT 40ML",
+    "raw_brand": "지미추 퍼퓸",
+    "canonical_brand": "Jimmy Choo",
+    "identity_text": "우먼",
+    "core_name": "우먼",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "40ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 205,
+    "source_product_id": "2005112",
+    "brand_basis": "exact_or_alias:지미추 퍼퓸->Jimmy Choo",
+    "selected_brands": [
+      [
+        "Jimmy Choo",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Jack Hope",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 57,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_844918cb9436",
+    "raw_name": "오 드 퍼퓸 [라튤립]",
+    "raw_brand": "바이레도",
+    "canonical_brand": "Byredo",
+    "identity_text": "라튤립",
+    "core_name": "라튤립",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 22,
+    "source_product_id": "2015342",
+    "brand_basis": "exact_or_alias:바이레도->Byredo",
+    "selected_brands": [
+      [
+        "Byredo",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Baldi",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Be Layered",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 123,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_c015a799d166",
+    "raw_name": "레 플레르 드 랑방 블루 오키드 EDT 50ML",
+    "raw_brand": "랑방 퍼퓸",
+    "canonical_brand": "Lanvin",
+    "identity_text": "레 플레르 드 랑방 블루 오키드",
+    "core_name": "레 플레르 드 랑방 블루 오키드",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 188,
+    "source_product_id": "2530216",
+    "brand_basis": "exact_or_alias:랑방 퍼퓸->Lanvin",
+    "selected_brands": [
+      [
+        "Lanvin",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Carolina Gynning",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ],
+      [
+        "Lang Lang",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ]
+    ],
+    "pool_count": 64,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_c015a799d166",
+    "raw_name": "레 플레르 드 EDT [블루오키드]",
+    "raw_brand": "랑방",
+    "canonical_brand": "Lanvin",
+    "identity_text": "레 플레르 드 블루오키드",
+    "core_name": "레 플레르 드 블루오키드",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 82,
+    "source_product_id": "2010590",
+    "brand_basis": "exact_or_alias:랑방->Lanvin",
+    "selected_brands": [
+      [
+        "Lanvin",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Carolina Gynning",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ],
+      [
+        "Lang Lang",
+        "SOFT_SPELLING",
+        0.8333333333333334
+      ]
+    ],
+    "pool_count": 64,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_76232424e429",
+    "raw_name": "[베르사체] 에로스 에너지 EDP 100ml (미니어처 1종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Versace",
+    "identity_text": "베르사체 에로스 에너지",
+    "core_name": "베르사체 에로스 에너지",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "(미니어처 1종)",
+      "100ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 3,
+    "source_product_id": "LE1220689552",
+    "brand_basis": "exact_or_alias:베르사체->Versace",
+    "selected_brands": [
+      [
+        "Versace",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Valesch B.",
+        "SOFT_SPELLING",
+        0.9090909090909091
+      ],
+      [
+        "Balocchi",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 87,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_76232424e429",
+    "raw_name": "[베르사체] 에로스 에너지 EDP 50ml (미니어처 1종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Versace",
+    "identity_text": "베르사체 에로스 에너지",
+    "core_name": "베르사체 에로스 에너지",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "(미니어처 1종)",
+      "50ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 137,
+    "source_product_id": "LE1220689602",
+    "brand_basis": "exact_or_alias:베르사체->Versace",
+    "selected_brands": [
+      [
+        "Versace",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Valesch B.",
+        "SOFT_SPELLING",
+        0.9090909090909091
+      ],
+      [
+        "Balocchi",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 87,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_76232424e429",
+    "raw_name": "[베르사체] 에로스 에너지 오드퍼퓸 100ml (+ 미니어처 1종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Versace",
+    "identity_text": "베르사체 에로스 에너지",
+    "core_name": "베르사체 에로스 에너지",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "(+ 미니어처 1종)",
+      "100ml"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 167,
+    "source_product_id": "LE1220233289",
+    "brand_basis": "exact_or_alias:베르사체->Versace",
+    "selected_brands": [
+      [
+        "Versace",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Valesch B.",
+        "SOFT_SPELLING",
+        0.9090909090909091
+      ],
+      [
+        "Balocchi",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 87,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_76232424e429",
+    "raw_name": "[베르사체] 에로스 에너지 오드퍼퓸 50ml (+ 미니어처 1종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Versace",
+    "identity_text": "베르사체 에로스 에너지",
+    "core_name": "베르사체 에로스 에너지",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "(+ 미니어처 1종)",
+      "50ml"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 184,
+    "source_product_id": "LE1220233344",
+    "brand_basis": "exact_or_alias:베르사체->Versace",
+    "selected_brands": [
+      [
+        "Versace",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Valesch B.",
+        "SOFT_SPELLING",
+        0.9090909090909091
+      ],
+      [
+        "Balocchi",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 87,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_b5092ea1a84d",
+    "raw_name": "[몽탈] 머스크 투 머스크 오드퍼퓸 100ml (바이알 3종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Montale",
+    "identity_text": "몽탈 머스크 투 머스크",
+    "core_name": "몽탈 머스크 투 머스크",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ml",
+      "3종",
+      "바이알"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 231,
+    "source_product_id": "LE1215945675",
+    "brand_basis": "exact_or_alias:몽탈->Montale",
+    "selected_brands": [
+      [
+        "Montale",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Monogatari",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Ménage à Trois",
+        "SOFT_SPELLING",
+        0.9090909090909091
+      ]
+    ],
+    "pool_count": 177,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_b5092ea1a84d",
+    "raw_name": "[몽탈] 머스크 투 머스크 오드퍼퓸 100ml (바이알 3종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Montale",
+    "identity_text": "몽탈 머스크 투 머스크",
+    "core_name": "몽탈 머스크 투 머스크",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ml",
+      "3종",
+      "바이알"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 278,
+    "source_product_id": "PD66474911",
+    "brand_basis": "exact_or_alias:몽탈->Montale",
+    "selected_brands": [
+      [
+        "Montale",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Monogatari",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Ménage à Trois",
+        "SOFT_SPELLING",
+        0.9090909090909091
+      ]
+    ],
+    "pool_count": 177,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5ff6bd9e62a7",
+    "raw_name": "[니샤네] 헌드레드사일런트 웨이즈 엑스트레 드 퍼퓸 100ml (바이알3종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Nishane",
+    "identity_text": "니샤네 헌드레드사일런트 웨이즈 바이알3종",
+    "core_name": "니샤네 헌드레드사일런트 웨이즈 바이알3종",
+    "concentrations": [
+      "EXTRAIT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ml"
+    ],
+    "attributes_removed": [
+      "엑스트레 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 111,
+    "source_product_id": "LE1220210522",
+    "brand_basis": "exact_or_alias:니샤네->Nishane",
+    "selected_brands": [
+      [
+        "Nishane",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "NeZ ZeN",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Nissan",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 69,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_d97a8f66f9f2",
+    "raw_name": "무신사 스탠다드 시어 EDP 50ml",
+    "raw_brand": "무신사 스탠다드 뷰티",
+    "canonical_brand": "무신사 스탠다드 뷰티",
+    "identity_text": "무신사 스탠다드 시어",
+    "core_name": "무신사 스탠다드 시어",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 8,
+    "source_product_id": "5357869",
+    "brand_basis": "unresolved_brand:무신사 스탠다드 뷰티",
+    "selected_brands": [
+      [
+        "Musinsa Standard",
+        "BOUNDED_FALLBACK",
+        0.7777777777777778
+      ],
+      [
+        "Essensitive",
+        "BOUNDED_FALLBACK",
+        0.7142857142857143
+      ],
+      [
+        "Moon Stone",
+        "BOUNDED_FALLBACK",
+        0.7142857142857143
+      ]
+    ],
+    "pool_count": 16,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5b7152a05a88",
+    "raw_name": "익스플로러 EDP 100ML",
+    "raw_brand": "몽블랑 퍼퓸",
+    "canonical_brand": "Montblanc",
+    "identity_text": "익스플로러",
+    "core_name": "익스플로러",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ML"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 71,
+    "source_product_id": "1997946",
+    "brand_basis": "exact_or_alias:몽블랑 퍼퓸->Montblanc",
+    "selected_brands": [
+      [
+        "Montblanc",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Grooming Lounge",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Emanuel Ungaro",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 98,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5b7152a05a88",
+    "raw_name": "익스플로러 EDP 30ML",
+    "raw_brand": "몽블랑 퍼퓸",
+    "canonical_brand": "Montblanc",
+    "identity_text": "익스플로러",
+    "core_name": "익스플로러",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ML"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 131,
+    "source_product_id": "1997941",
+    "brand_basis": "exact_or_alias:몽블랑 퍼퓸->Montblanc",
+    "selected_brands": [
+      [
+        "Montblanc",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Grooming Lounge",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Emanuel Ungaro",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 98,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5b7152a05a88",
+    "raw_name": "익스플로러 EDP 60ML",
+    "raw_brand": "몽블랑 퍼퓸",
+    "canonical_brand": "Montblanc",
+    "identity_text": "익스플로러",
+    "core_name": "익스플로러",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "60ML"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 207,
+    "source_product_id": "1997945",
+    "brand_basis": "exact_or_alias:몽블랑 퍼퓸->Montblanc",
+    "selected_brands": [
+      [
+        "Montblanc",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Grooming Lounge",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Emanuel Ungaro",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 98,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5b7152a05a88",
+    "raw_name": "몽블랑 익스플로러 EDP (30ml/60ml/100ml)",
+    "raw_brand": "몽블랑",
+    "canonical_brand": "Montblanc",
+    "identity_text": "몽블랑 익스플로러",
+    "core_name": "익스플로러",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml",
+      "60ml",
+      "100ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "몽블랑 ",
+    "source": "oliveyoung",
+    "source_rank": 25,
+    "source_product_id": "A000000189088",
+    "brand_basis": "exact_or_alias:몽블랑->Montblanc",
+    "selected_brands": [
+      [
+        "Montblanc",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Grooming Lounge",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Emanuel Ungaro",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 98,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5b7152a05a88",
+    "raw_name": "몽블랑 익스플로러 EDP 100ml",
+    "raw_brand": "몽블랑",
+    "canonical_brand": "Montblanc",
+    "identity_text": "몽블랑 익스플로러",
+    "core_name": "익스플로러",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "몽블랑 ",
+    "source": "oliveyoung",
+    "source_rank": 123,
+    "source_product_id": "A000000189526",
+    "brand_basis": "exact_or_alias:몽블랑->Montblanc",
+    "selected_brands": [
+      [
+        "Montblanc",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Grooming Lounge",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Emanuel Ungaro",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 98,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5b7152a05a88",
+    "raw_name": "몽블랑 익스플로러 EDP 30ml",
+    "raw_brand": "몽블랑",
+    "canonical_brand": "Montblanc",
+    "identity_text": "몽블랑 익스플로러",
+    "core_name": "익스플로러",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ml"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "몽블랑 ",
+    "source": "oliveyoung",
+    "source_rank": 149,
+    "source_product_id": "A000000123934",
+    "brand_basis": "exact_or_alias:몽블랑->Montblanc",
+    "selected_brands": [
+      [
+        "Montblanc",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Grooming Lounge",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Emanuel Ungaro",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 98,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5b7152a05a88",
+    "raw_name": "익스플로러 오 드 퍼퓸",
+    "raw_brand": "몽블랑",
+    "canonical_brand": "Montblanc",
+    "identity_text": "익스플로러",
+    "core_name": "익스플로러",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 97,
+    "source_product_id": "1831130",
+    "brand_basis": "exact_or_alias:몽블랑->Montblanc",
+    "selected_brands": [
+      [
+        "Montblanc",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Grooming Lounge",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Emanuel Ungaro",
+        "SOFT_SPELLING",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 98,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_f974d3be25a5",
+    "raw_name": "더 딥 퍼퓸 스틱 피그 우디끄",
+    "raw_brand": "로그인 포레스트",
+    "canonical_brand": "로그인 포레스트",
+    "identity_text": "더 딥 피그 우디끄",
+    "core_name": "더 딥 피그 우디끄",
+    "concentrations": [],
+    "product_form": "BALM_OR_STICK",
+    "noise": [],
+    "attributes_removed": [
+      "퍼퓸 스틱"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 329,
+    "source_product_id": "4230146",
+    "brand_basis": "unresolved_brand:로그인 포레스트",
+    "selected_brands": [
+      [
+        "Lorinna Paris",
+        "BOUNDED_FALLBACK",
+        0.8333333333333334
+      ],
+      [
+        "Karnain Paris",
+        "BOUNDED_FALLBACK",
+        0.7692307692307693
+      ],
+      [
+        "Le Prestige",
+        "BOUNDED_FALLBACK",
+        0.7692307692307693
+      ]
+    ],
+    "pool_count": 0,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5aa30ef621dc",
+    "raw_name": "레플리카 재즈 클럽 EDT 10ML",
+    "raw_brand": "메종 마르지엘라 퍼퓸",
+    "canonical_brand": "Maison Martin Margiela",
+    "identity_text": "레플리카 재즈 클럽",
+    "core_name": "레플리카 재즈 클럽",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "10ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 37,
+    "source_product_id": "3122050",
+    "brand_basis": "exact_or_alias:메종 마르지엘라 퍼퓸->Maison Martin Margiela",
+    "selected_brands": [
+      [
+        "Maison Martin Margiela",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Montgomery Taylor",
+        "SOFT_SPELLING",
+        0.75
+      ]
+    ],
+    "pool_count": 47,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5aa30ef621dc",
+    "raw_name": "레플리카 재즈 클럽 EDT 30ML",
+    "raw_brand": "메종 마르지엘라 퍼퓸",
+    "canonical_brand": "Maison Martin Margiela",
+    "identity_text": "레플리카 재즈 클럽",
+    "core_name": "레플리카 재즈 클럽",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 39,
+    "source_product_id": "2027861",
+    "brand_basis": "exact_or_alias:메종 마르지엘라 퍼퓸->Maison Martin Margiela",
+    "selected_brands": [
+      [
+        "Maison Martin Margiela",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Montgomery Taylor",
+        "SOFT_SPELLING",
+        0.75
+      ]
+    ],
+    "pool_count": 47,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5aa30ef621dc",
+    "raw_name": "레플리카 재즈 클럽 EDT 100ML",
+    "raw_brand": "메종 마르지엘라 퍼퓸",
+    "canonical_brand": "Maison Martin Margiela",
+    "identity_text": "레플리카 재즈 클럽",
+    "core_name": "레플리카 재즈 클럽",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ML"
+    ],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 54,
+    "source_product_id": "2027862",
+    "brand_basis": "exact_or_alias:메종 마르지엘라 퍼퓸->Maison Martin Margiela",
+    "selected_brands": [
+      [
+        "Maison Martin Margiela",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Montgomery Taylor",
+        "SOFT_SPELLING",
+        0.75
+      ]
+    ],
+    "pool_count": 47,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_5aa30ef621dc",
+    "raw_name": "재즈 클럽 EDT",
+    "raw_brand": "메종 마르지엘라",
+    "canonical_brand": "Maison Martin Margiela",
+    "identity_text": "재즈 클럽",
+    "core_name": "재즈 클럽",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "EDT"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 35,
+    "source_product_id": "2049780",
+    "brand_basis": "exact_or_alias:메종 마르지엘라->Maison Martin Margiela",
+    "selected_brands": [
+      [
+        "Maison Martin Margiela",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Montgomery Taylor",
+        "SOFT_SPELLING",
+        0.75
+      ]
+    ],
+    "pool_count": 47,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_393fc8cf01a3",
+    "raw_name": "[만세라] 프렌치 리비에라 오드퍼퓸 120ml (바이알 3종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Mancera",
+    "identity_text": "만세라 프렌치 리비에라",
+    "core_name": "만세라 프렌치 리비에라",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "120ml",
+      "3종",
+      "바이알"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 55,
+    "source_product_id": "PD63595711",
+    "brand_basis": "exact_or_alias:만세라->Mancera",
+    "selected_brands": [
+      [
+        "Mancera",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "MAISON ASRAR",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Manish Arora",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 208,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_723799ff0906",
+    "raw_name": "[니샤네] 하지밧 엑스트레 드 퍼퓸 50ml (바이알3종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Nishane",
+    "identity_text": "니샤네 하지밧 바이알3종",
+    "core_name": "니샤네 하지밧 바이알3종",
+    "concentrations": [
+      "EXTRAIT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "엑스트레 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 21,
+    "source_product_id": "PD66650759",
+    "brand_basis": "exact_or_alias:니샤네->Nishane",
+    "selected_brands": [
+      [
+        "Nishane",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "NeZ ZeN",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Nissan",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 69,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_86e8202df97e",
+    "raw_name": "쟈도르 퍼퓸 도",
+    "raw_brand": "디올",
+    "canonical_brand": "Dior",
+    "identity_text": "쟈도르 도",
+    "core_name": "쟈도르 도",
+    "concentrations": [],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 81,
+    "source_product_id": "2011798",
+    "brand_basis": "exact_or_alias:디올->Dior",
+    "selected_brands": [
+      [
+        "Dior",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "ADAR",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Del Río",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 309,
+    "cap_excluded_count": 6,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_fd132e81dcb9",
+    "raw_name": "취 오드퍼퓸 50ml 사찰",
+    "raw_brand": "취",
+    "canonical_brand": "취",
+    "identity_text": "취 사찰",
+    "core_name": "사찰",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "50ml"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "취 ",
+    "source": "oliveyoung",
+    "source_rank": 334,
+    "source_product_id": "A000000206702",
+    "brand_basis": "unresolved_brand:취",
+    "selected_brands": [
+      [
+        "Chi",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Chwi 취",
+        "BOUNDED_FALLBACK",
+        1.0
+      ],
+      [
+        "Coach",
+        "BOUNDED_FALLBACK",
+        1.0
+      ]
+    ],
+    "pool_count": 41,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_e4de5fac0d9b",
+    "raw_name": "퓨어솝 EDP 60ML",
+    "raw_brand": "클린",
+    "canonical_brand": "Clean",
+    "identity_text": "퓨어솝",
+    "core_name": "퓨어솝",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "60ML"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 68,
+    "source_product_id": "2246800",
+    "brand_basis": "exact_or_alias:클린->Clean",
+    "selected_brands": [
+      [
+        "Clean",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Aquolina",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caron",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 257,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_e4de5fac0d9b",
+    "raw_name": "퓨어솝 EDP 30ML",
+    "raw_brand": "클린",
+    "canonical_brand": "Clean",
+    "identity_text": "퓨어솝",
+    "core_name": "퓨어솝",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "30ML"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 73,
+    "source_product_id": "2246802",
+    "brand_basis": "exact_or_alias:클린->Clean",
+    "selected_brands": [
+      [
+        "Clean",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Aquolina",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caron",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 257,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_e4de5fac0d9b",
+    "raw_name": "퓨어솝 EDP",
+    "raw_brand": "클린",
+    "canonical_brand": "Clean",
+    "identity_text": "퓨어솝",
+    "core_name": "퓨어솝",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 62,
+    "source_product_id": "1978596",
+    "brand_basis": "exact_or_alias:클린->Clean",
+    "selected_brands": [
+      [
+        "Clean",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Aquolina",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caron",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 257,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_cd663b989366",
+    "raw_name": "리플레이 탱크 플레이트 포 우먼 오드뚜왈렛 100ml",
+    "raw_brand": "향수존",
+    "canonical_brand": "Replay",
+    "identity_text": "리플레이 탱크 플레이트 포 우먼",
+    "core_name": "리플레이 탱크 플레이트 포 우먼",
+    "concentrations": [
+      "EDT"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ml"
+    ],
+    "attributes_removed": [
+      "오드뚜왈렛"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 252,
+    "source_product_id": "PD51659802",
+    "brand_basis": "exact_or_alias:리플레이->Replay",
+    "selected_brands": [
+      [
+        "Replay",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "La Perla",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "La Prairie",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 91,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_58d98aa97d8b",
+    "raw_name": "[재규어] 이어러 리로디드 오드퍼퓸 100ml",
+    "raw_brand": "향수존",
+    "canonical_brand": "Jaguar",
+    "identity_text": "재규어 이어러 리로디드",
+    "core_name": "재규어 이어러 리로디드",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "100ml"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 120,
+    "source_product_id": "LE1217243895",
+    "brand_basis": "exact_or_alias:재규어->Jaguar",
+    "selected_brands": [
+      [
+        "Jaguar",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Jagaia",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Jivago",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 65,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_c420901cde27",
+    "raw_name": "클래식 쿨 코튼 EDP 60ML",
+    "raw_brand": "클린",
+    "canonical_brand": "Clean",
+    "identity_text": "클래식 쿨 코튼",
+    "core_name": "클래식 쿨 코튼",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "60ML"
+    ],
+    "attributes_removed": [
+      "EDP"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 293,
+    "source_product_id": "1937365",
+    "brand_basis": "exact_or_alias:클린->Clean",
+    "selected_brands": [
+      [
+        "Clean",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Aquolina",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caron",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 257,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_c420901cde27",
+    "raw_name": "쿨 코튼 오 드 퍼퓸",
+    "raw_brand": "클린",
+    "canonical_brand": "Clean",
+    "identity_text": "쿨 코튼",
+    "core_name": "쿨 코튼",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [],
+    "attributes_removed": [
+      "오 드 퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "hwahae",
+    "source_rank": 88,
+    "source_product_id": "1854558",
+    "brand_basis": "exact_or_alias:클린->Clean",
+    "selected_brands": [
+      [
+        "Clean",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Aquolina",
+        "SOFT_SPELLING",
+        1.0
+      ],
+      [
+        "Caron",
+        "SOFT_SPELLING",
+        1.0
+      ]
+    ],
+    "pool_count": 257,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_d949fba63554",
+    "raw_name": "[만세라] 베티버 센슈얼 오드퍼퓸 60ml (바이알 3종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Mancera",
+    "identity_text": "만세라 베티버 센슈얼",
+    "core_name": "만세라 베티버 센슈얼",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "60ml",
+      "3종",
+      "바이알"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 230,
+    "source_product_id": "LE1215963369",
+    "brand_basis": "exact_or_alias:만세라->Mancera",
+    "selected_brands": [
+      [
+        "Mancera",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "MAISON ASRAR",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Manish Arora",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 208,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_d949fba63554",
+    "raw_name": "[만세라] 베티버 센슈얼 오드퍼퓸 60ml (바이알 3종)",
+    "raw_brand": "향수존",
+    "canonical_brand": "Mancera",
+    "identity_text": "만세라 베티버 센슈얼",
+    "core_name": "만세라 베티버 센슈얼",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "60ml",
+      "3종",
+      "바이알"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "lotte",
+    "source_rank": 258,
+    "source_product_id": "PD63596885",
+    "brand_basis": "exact_or_alias:만세라->Mancera",
+    "selected_brands": [
+      [
+        "Mancera",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "MAISON ASRAR",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ],
+      [
+        "Manish Arora",
+        "SOFT_SPELLING",
+        0.8888888888888888
+      ]
+    ],
+    "pool_count": 208,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  },
+  {
+    "commercial_identity_id": "ci_aed707d08d34",
+    "raw_name": "블루 탈리스만 오드퍼퓸 10ml",
+    "raw_brand": "엑스니힐로",
+    "canonical_brand": "Ex Nihilo",
+    "identity_text": "블루 탈리스만",
+    "core_name": "블루 탈리스만",
+    "concentrations": [
+      "EDP"
+    ],
+    "product_form": "LIQUID_PERFUME",
+    "noise": [
+      "10ml"
+    ],
+    "attributes_removed": [
+      "오드퍼퓸"
+    ],
+    "brand_prefix_removed": "",
+    "source": "musinsa",
+    "source_rank": 100,
+    "source_product_id": "5956388",
+    "brand_basis": "exact_or_alias:엑스니힐로->Ex Nihilo",
+    "selected_brands": [
+      [
+        "Ex Nihilo",
+        "EXACT_SPELLING",
+        1.0
+      ],
+      [
+        "Carolina Herrera",
+        "SOFT_SPELLING",
+        0.8
+      ],
+      [
+        "Casaniche",
+        "SOFT_SPELLING",
+        0.8
+      ]
+    ],
+    "pool_count": 290,
+    "cap_excluded_count": 0,
+    "attribute_conflict": false
+  }
+]

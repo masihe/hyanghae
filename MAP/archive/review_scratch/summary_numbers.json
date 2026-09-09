@@ -1,0 +1,44 @@
+{
+  "label_top5_vs8_order_changed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    10
+  ],
+  "label_top5_vs8_membership_changed": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    9,
+    10
+  ],
+  "label_20_30_40_changed": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10
+  ],
+  "display_accord_count": 28,
+  "all_accord_count": 58,
+  "group_accord_counts_minmax": [
+    1,
+    25
+  ],
+  "selection_edge_loss_percent": 4.699453551912568,
+  "dev_directed_overlap_percent": 3.4403669724770642,
+  "dev_unordered_relation_weight_percent": 6.422018348623853,
+  "dev_unique_pair_overlap_percent": 6.185567010309279,
+  "transform_pct_gap_common_universe": 0.03466570554893961,
+  "extra_without_confident_outgoing": 1730,
+  "review_cumulative_seconds": 49.34692050004378
+}

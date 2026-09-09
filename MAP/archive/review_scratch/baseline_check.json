@@ -1,0 +1,46 @@
+{
+  "seconds": 44.32402219995856,
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "0.5.12",
+    "numba": "0.67.0",
+    "llvmlite": "0.49.0"
+  },
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "error": null,
+  "comparison": {
+    "results/layout_comparison.csv": {
+      "original_sha256": "0b5be35bd5be01a64bf06d78e3798ab1099dd4146e9f2e1fed4f44a14c68216b",
+      "regenerated_sha256": "0b5be35bd5be01a64bf06d78e3798ab1099dd4146e9f2e1fed4f44a14c68216b",
+      "byte_equal": true
+    },
+    "output/scent_map_v1.json": {
+      "original_sha256": "fe9259335b0c4ea06fffbe99706ada49854a339cfde2651a71bc8f21e860d7e6",
+      "regenerated_sha256": "fe9259335b0c4ea06fffbe99706ada49854a339cfde2651a71bc8f21e860d7e6",
+      "byte_equal": true
+    },
+    "results/selection_comparison.csv": {
+      "original_sha256": "6c009e94b9616cf412720b78961dad41239a159f46f040656372de1d33ff58b9",
+      "regenerated_sha256": "6c009e94b9616cf412720b78961dad41239a159f46f040656372de1d33ff58b9",
+      "byte_equal": true
+    }
+  },
+  "protected_unchanged": true,
+  "protected_sha256": {
+    "build_map.py": "7aae8eb1b6d63e6efed410ca87bb51f1cb371c90261a1fbb983f8900286c2be5",
+    "scent_map.py": "a86937bd42d754c3fca8b8bf8186525d7406dbf77e5d4b951df61d30d185a748",
+    "verify_similarity.py": "5a119b033c7a9dcc4c1b33e7c356ccd1d2c9e235daf934aad2e7c01987e43598",
+    "review_k.py": "38266fbcef34e6314bc7811288efb1964462158312bdd2b84bc50dc3f579a442",
+    "DECISIONS.md": "a50c544c6c502b832f2654352f645f810bf3edcbda8fefb8f7733d13633ab29b",
+    "results\\edge_robustness.csv": "9180066e84050ff458a2720b47d1bd23460fd4e536d4ee685efc3744efe2c976",
+    "results\\human_check_pairs.csv": "d2e6f613556f72774987f0d21ee6d74bd49778aa1963d6046257361841d060e4",
+    "results\\layout_comparison.csv": "0b5be35bd5be01a64bf06d78e3798ab1099dd4146e9f2e1fed4f44a14c68216b",
+    "results\\selection_comparison.csv": "6c009e94b9616cf412720b78961dad41239a159f46f040656372de1d33ff58b9",
+    "results\\supervised_umap_comparison.csv": "3dacc67faf6ac1331696dccfea17f6e12865e3d18068af2f4acbeb75fb426657",
+    "output\\diagnostic_edges.json": "a16e8eb6fedda99163a1c3e59fd59256f42a6208cd27264ca73c1f52a35547eb",
+    "output\\scent_map_v1.json": "fe9259335b0c4ea06fffbe99706ada49854a339cfde2651a71bc8f21e860d7e6"
+  }
+}

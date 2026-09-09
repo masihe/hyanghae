@@ -1,0 +1,101 @@
+﻿source,source_rank,ranking_basis,ranking_updated_at,source_product_id,brand_raw,product_name_raw,package_info_raw,price_raw,commerce_price_raw,review_count,review_rating,is_rank_new,rank_delta,collected_at,source_file,har_entry_index
+hwahae,1,카테고리별 랭킹,2026-09-03T05:00:00,2032770,멈칫,스테이퍼퓸 [밤쉘],80ml,32500,29500,139,4.61,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,2,카테고리별 랭킹,2026-09-03T05:00:00,1951691,딥티크,오 드 퍼퓸 오르페옹,75ml,315000,,32,4.56,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,3,카테고리별 랭킹,2026-09-03T05:00:00,2009917,엘리자베스아덴,그린티 센트 스프레이,30ml,35000,32000,75,4.6,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,4,카테고리별 랭킹,2026-09-03T05:00:00,2103479,조말론,우드 세이지 앤 씨 솔트 코롱,30ml,110000,,24,4.38,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,5,카테고리별 랭킹,2026-09-03T05:00:00,2170533,다니엘트루스,시그니처 밤쉘루스,10ml,59000,,10,4.9,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,6,카테고리별 랭킹,2026-09-03T05:00:00,1899775,랑방,에끌라 드 아르페쥬 EDP,30ml,70000,,1702,4.26,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,7,카테고리별 랭킹,2026-09-03T05:00:00,2136042,포맨트,시그니처 퍼퓸 [코튼메모리],50 ml｜1.69 fl. oz.,62000,,10,4.5,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,8,카테고리별 랭킹,2026-09-03T05:00:00,2134257,르라보,어나더 13 EDP,50ml,310000,,12,4.83,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,9,카테고리별 랭킹,2026-09-03T05:00:00,2042358,딥티크,오 드 뚜왈렛 오 로즈,50ml,165000,,21,4.52,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,10,카테고리별 랭킹,2026-09-03T05:00:00,2098221,바닐라부티크,허그 향수,40ml,39000,29800,17,4.65,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,11,카테고리별 랭킹,2026-09-03T05:00:00,1997094,이솝,테싯 오 드 퍼퓸,50 mL,199000,,99,4.59,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,12,카테고리별 랭킹,2026-09-03T05:00:00,1858536,메종 마르지엘라,레이지 선데이 모닝 EDT,30ml,98000,,55,4.51,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,13,카테고리별 랭킹,2026-09-03T05:00:00,2009995,끌로에,시그니처 EDP,30ml,115000,,33,4.85,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,14,카테고리별 랭킹,2026-09-03T05:00:00,2075166,바이레도,오 드 퍼퓸 [블랑쉬],50ml,280000,,21,4.43,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,15,카테고리별 랭킹,2026-09-03T05:00:00,1975958,디올,미스 디올 오 드 퍼퓸,30ml,128000,,67,4.49,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,16,카테고리별 랭킹,2026-09-03T05:00:00,2004415,디올,미스 디올 블루밍 부케 오 드 뚜왈렛,30ml,96000,,86,4.4,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,17,카테고리별 랭킹,2026-09-03T05:00:00,2047254,딥티크,오 드 뚜왈렛 필로시코스,50ml,165000,,16,4.56,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,18,카테고리별 랭킹,2026-09-03T05:00:00,2142055,포맨트,헬로키티 에디션 시그니처 퍼퓸 [코튼메모리],50 ml｜1.69 fl. oz.,62000,,13,4.85,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,19,카테고리별 랭킹,2026-09-03T05:00:00,2136035,포맨트,시그니처 퍼퓸 [코튼허그],50 ml｜1.69 fl. oz.,49000,,25,4.44,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,20,카테고리별 랭킹,2026-09-03T05:00:00,2093332,아뜰리에페이,데이 오프,30ml,67000,,10,4.6,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,2
+hwahae,21,카테고리별 랭킹,2026-09-03T05:00:00,1814936,키엘,오리지널 머스크 향수,50ml,96000,,269,4.5,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,22,카테고리별 랭킹,2026-09-03T05:00:00,2015342,바이레도,오 드 퍼퓸 [라튤립],50ml,280000,,40,4.58,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,23,카테고리별 랭킹,2026-09-03T05:00:00,2103482,조말론,블랙베리 앤 베이 코롱,30ml,110000,,24,4.38,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,24,카테고리별 랭킹,2026-09-03T05:00:00,1954133,포맨트,시그니처 퍼퓸 [코튼브리즈],50ml｜e 1.69 fl. oz.,62000,,12,4.75,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,25,카테고리별 랭킹,2026-09-03T05:00:00,2136962,비비앙,오 드 퍼퓸 [월넛크릭그린],10ml,57000,,16,4.62,false,3,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,26,카테고리별 랭킹,2026-09-03T05:00:00,2031474,바이레도,발 다프리크 오 드 퍼퓸,50ml,280000,,13,4.62,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,27,카테고리별 랭킹,2026-09-03T05:00:00,2169817,제니퍼로페즈,글로우 바이 제이로 EDT,30ML,60000,,13,4.62,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,28,카테고리별 랭킹,2026-09-03T05:00:00,1979487,산타마리아노벨라,피렌체 1221 에디션 오드코롱 [프리지아],50ml,145000,,51,4.49,false,-2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,29,카테고리별 랭킹,2026-09-03T05:00:00,1940005,다슈,아쿠아 다이브 퍼퓸,10ml,22000,33000,13,4.77,false,7,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,30,카테고리별 랭킹,2026-09-03T05:00:00,2031885,CK,원 EDT,50ml,69000,,12,4.58,false,2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,31,카테고리별 랭킹,2026-09-03T05:00:00,1969079,디올,쟈도르 오 드 퍼퓸,30 mL,128000,,239,4.33,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,32,카테고리별 랭킹,2026-09-03T05:00:00,2000075,샤넬,샹스 오 후레쉬 오 드 뚜왈렛,100ml,193000,,10,4.4,false,-3,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,33,카테고리별 랭킹,2026-09-03T05:00:00,1886673,아리아나그란데,땡큐 넥스트 EDP,30ml,57000,48450,87,4.54,false,-2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,34,카테고리별 랭킹,2026-09-03T05:00:00,1756221,샤넬,N°5 오 프르미에르 오 드 빠르펭,35ml,100000,,73,4.27,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,35,카테고리별 랭킹,2026-09-03T05:00:00,2049780,메종 마르지엘라,재즈 클럽 EDT,30ML,108000,,11,4.64,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,36,카테고리별 랭킹,2026-09-03T05:00:00,2042361,딥티크,오 드 퍼퓸 플레르 드 뽀,75ml,269000,,50,4.58,false,-3,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,37,카테고리별 랭킹,2026-09-03T05:00:00,1841124,샤넬,알뤼르 옴므 스포츠 오 드 뚜왈렛,50ml,134000,,28,4.75,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,38,카테고리별 랭킹,2026-09-03T05:00:00,1880993,아리아나그란데,스위트 라이크 캔디 EDP,30ml,57000,48450,88,4.38,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,39,카테고리별 랭킹,2026-09-03T05:00:00,1880999,아리아나그란데,아리 EDP,30ml,57000,48450,78,4.47,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,40,카테고리별 랭킹,2026-09-03T05:00:00,1999654,샤넬,코코 마드모아젤 오 드 빠르펭,35ml,139000,,39,4.44,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,96
+hwahae,41,카테고리별 랭킹,2026-09-03T05:00:00,1769749,샤넬,샹스 오 비브 오 드 뚜왈렛,50ml,166000,,26,4.46,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,42,카테고리별 랭킹,2026-09-03T05:00:00,1793593,랑콤,미라클 오 드 퍼퓸,30ml,121000,,190,4.21,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,43,카테고리별 랭킹,2026-09-03T05:00:00,1822873,톰포드,네롤리 포르토피노 EDP,50ml,395000,,24,4.5,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,44,카테고리별 랭킹,2026-09-03T05:00:00,1829140,랑방,모던 프린세스 오 센슈얼 EDT,30ml,55000,,86,4.49,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,45,카테고리별 랭킹,2026-09-03T05:00:00,1888447,에르메스,운 자르뎅 수르닐 오 드 뚜왈렛,100ml,195000,,56,4.5,false,4,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,46,카테고리별 랭킹,2026-09-03T05:00:00,1855131,입생로랑뷰티,리브르 오 드 빠르펭,30ml,155000,,118,4.3,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,47,카테고리별 랭킹,2026-09-03T05:00:00,1818814,조말론,잉글리쉬 오크 앤 헤이즐넛 코롱,30ml,110000,,14,4.86,false,-3,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,48,카테고리별 랭킹,2026-09-03T05:00:00,2034103,구찌,플로라 오 드 퍼퓸 [골저스가드니아],50ml,174000,,13,4.77,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,49,카테고리별 랭킹,2026-09-03T05:00:00,2025129,바이레도,모하비 고스트 오 드 퍼퓸,50ml,280000,,17,4.35,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,50,카테고리별 랭킹,2026-09-03T05:00:00,1899298,샤넬,샹스 오 땅드르 오 드 빠르펭,35ml,126000,,39,4.67,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,51,카테고리별 랭킹,2026-09-03T05:00:00,1994200,샤넬,N°1 드 샤넬 레드 까멜리아 향수,100ml,176000,,14,4.64,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,52,카테고리별 랭킹,2026-09-03T05:00:00,1739435,지미추,블러썸 EDP,40ml,84000,,362,4.38,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,53,카테고리별 랭킹,2026-09-03T05:00:00,1872402,르라보,상탈 33 EDP,50ml,310000,,35,4.4,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,54,카테고리별 랭킹,2026-09-03T05:00:00,14061,랑방,메리미 EDP,30ml,76000,,448,4.06,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,55,카테고리별 랭킹,2026-09-03T05:00:00,1879931,이솝,로즈 오 드 퍼퓸,50 mL,225000,,21,4.43,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,56,카테고리별 랭킹,2026-09-03T05:00:00,1979676,헉슬리,퍼퓸 [모로칸가드너],15ml,48000,,45,4.47,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,57,카테고리별 랭킹,2026-09-03T05:00:00,2014190,조말론,잉글리쉬 페어 앤 프리지아 코롱,30ml,110000,,49,4.45,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,58,카테고리별 랭킹,2026-09-03T05:00:00,1744279,살바토레페라가모,인칸토 참 오 드 뚜왈렛,30ml,64000,,585,4.06,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,59,카테고리별 랭킹,2026-09-03T05:00:00,1734173,랑방,잔느 EDP,30ml,72000,,332,4.22,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,60,카테고리별 랭킹,2026-09-03T05:00:00,1790172,토스,베이비 토스 오 데 코롱,100ml,,,33,4.36,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,122
+hwahae,61,카테고리별 랭킹,2026-09-03T05:00:00,1869268,에스티로더,플레져 오 드 퍼퓸 스프레이,,,,51,4.47,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,62,카테고리별 랭킹,2026-09-03T05:00:00,1978596,클린,퓨어솝 EDP,30ml,57000,39900,31,4.26,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,63,카테고리별 랭킹,2026-09-03T05:00:00,1825872,베르사체,브라이트 크리스탈 EDT,30ml,,,96,4.29,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,64,카테고리별 랭킹,2026-09-03T05:00:00,2009872,구찌,블룸 오 드 퍼퓸,100ml,243000,,20,4.55,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,65,카테고리별 랭킹,2026-09-03T05:00:00,1778651,바이레도,집시 워터 오 드 퍼퓸,50ml,280000,,40,4.33,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,66,카테고리별 랭킹,2026-09-03T05:00:00,1764633,조말론,와일드 블루벨 코롱,30ml,110000,,61,4.34,false,-2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,67,카테고리별 랭킹,2026-09-03T05:00:00,1941895,입생로랑뷰티,리브르 오 드 뚜왈렛,30ml,113000,,31,4.55,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,68,카테고리별 랭킹,2026-09-03T05:00:00,2010720,랑방,레 플레르 드 EDT [워터릴리],50ml,63000,,20,4.55,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,69,카테고리별 랭킹,2026-09-03T05:00:00,1765272,입생로랑뷰티,몽 파리 오 드 빠르펭,50ml,230000,,155,4.28,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,70,카테고리별 랭킹,2026-09-03T05:00:00,1979489,산타마리아노벨라,피렌체 1221 에디션 엔젤 디 피렌체 오드코롱,50ml,120000,,11,4.45,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,71,카테고리별 랭킹,2026-09-03T05:00:00,1959643,아쿠아디파르마,피코 디 아말피 오 드 뜨왈렛,30ml,135000,,23,4.48,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,72,카테고리별 랭킹,2026-09-03T05:00:00,1873625,아리아나그란데,클라우드 EDP,30ml,57000,48450,66,4.53,false,4,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,73,카테고리별 랭킹,2026-09-03T05:00:00,1825293,바이레도,인플로레센스 오 드 퍼퓸,50ml,280000,,24,4.46,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,74,카테고리별 랭킹,2026-09-03T05:00:00,1979469,산타마리아노벨라,피렌체 1221 에디션 로사 가데니아 오드코롱,50ml,145000,,19,4.47,false,-2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,75,카테고리별 랭킹,2026-09-03T05:00:00,1876698,샤넬,가브리엘 에쌍스 오 드 빠르펭,100ml,284000,,33,4.48,false,2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,76,카테고리별 랭킹,2026-09-03T05:00:00,1764636,조말론,레드 로즈 코롱,30ml,110000,,38,4.13,false,-2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,77,카테고리별 랭킹,2026-09-03T05:00:00,2103476,조말론,라임 바질 앤 만다린 코롱,30ml,110000,,13,4.31,false,2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,78,카테고리별 랭킹,2026-09-03T05:00:00,2076016,센녹,퍼퓸 [애프터배스],50ml,76000,,13,4.54,false,-3,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,79,카테고리별 랭킹,2026-09-03T05:00:00,1872024,CK,씨케이 올 EDT,100ml,,,17,4.47,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,80,카테고리별 랭킹,2026-09-03T05:00:00,2010773,코치,EDT,30ml,61000,,18,4.78,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,146
+hwahae,81,카테고리별 랭킹,2026-09-03T05:00:00,2011798,디올,쟈도르 퍼퓸 도,30ML,128000,,12,4.5,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,82,카테고리별 랭킹,2026-09-03T05:00:00,2010590,랑방,레 플레르 드 EDT [블루오키드],50ml,63000,,19,4.68,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,83,카테고리별 랭킹,2026-09-03T05:00:00,1734823,지미추,EDT,40ml,83000,,349,4.15,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,84,카테고리별 랭킹,2026-09-03T05:00:00,1828132,몽블랑,레전드 오 드 뚜왈렛,100ml,130000,,23,4.61,false,-3,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,85,카테고리별 랭킹,2026-09-03T05:00:00,1734821,버버리,마이 버버리 오드퍼퓸,50ml,183000,,18,4.28,false,7,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,86,카테고리별 랭킹,2026-09-03T05:00:00,1737120,CK,비 오 드 뚜왈렛,,,,66,4.0,false,2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,87,카테고리별 랭킹,2026-09-03T05:00:00,2079022,탬버린즈,에그 퍼퓸 [펌키니],14mL,45800,,11,4.45,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,88,카테고리별 랭킹,2026-09-03T05:00:00,1854558,클린,쿨 코튼 오 드 퍼퓸,30ml,60000,,16,4.62,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,89,카테고리별 랭킹,2026-09-03T05:00:00,1863215,메블릭퍼퓸,케라 오 드 퍼퓸,50ml,60000,,32,4.25,false,2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,90,카테고리별 랭킹,2026-09-03T05:00:00,1966434,에디션드퍼퓸프레데릭말,포트레이트 오브 어 레이디,50ml,450000,,10,4.4,false,-5,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,91,카테고리별 랭킹,2026-09-03T05:00:00,2011908,조말론,피오니 앤 블러쉬 스웨이드 코롱,30ml,110000,,32,4.44,false,-2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,92,카테고리별 랭킹,2026-09-03T05:00:00,2025306,데일리콤마,모스트오드퍼퓸 [텐더파리],30ml,3000,,11,3.91,false,2,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,93,카테고리별 랭킹,2026-09-03T05:00:00,1765825,디올,옴므 코롱,75 mL,150000,,31,4.42,false,-3,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,94,카테고리별 랭킹,2026-09-03T05:00:00,1791851,입생로랑뷰티,몽파리 오 드 뚜왈렛 루미에르,50ml,175000,,32,4.28,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,95,카테고리별 랭킹,2026-09-03T05:00:00,1969119,디올,소바쥬 오 드 뚜왈렛,60 mL,140000,,41,4.2,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,96,카테고리별 랭킹,2026-09-03T05:00:00,1764627,조말론,얼 그레이 앤 큐컴버 코롱,100ml,239000,,34,4.26,false,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,97,카테고리별 랭킹,2026-09-03T05:00:00,1831130,몽블랑,익스플로러 오 드 퍼퓸,100ml,142000,,30,4.47,false,1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,98,카테고리별 랭킹,2026-09-03T05:00:00,1754734,프라다,캔디 EDP,30ml,153000,,27,4.11,false,-1,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,99,카테고리별 랭킹,2026-09-03T05:00:00,1734175,랑방,루머2 로즈 EDP,30ML,66000,,284,4.12,true,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170
+hwahae,100,카테고리별 랭킹,2026-09-03T05:00:00,2017159,딥티크,오 드 퍼퓸 필로시코스,75ml,0,,16,4.31,true,0,2026-09-06,data/korea_popularity/raw/hwahae_perfume_top100_20260906.har,170

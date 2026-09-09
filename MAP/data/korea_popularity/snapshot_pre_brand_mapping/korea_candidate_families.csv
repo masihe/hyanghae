@@ -1,0 +1,669 @@
+candidate_family_id,canonical_brand,normalized_fragrance_name,commercial_identity_count,has_hwahae_signal,best_hwahae_rank,commercial_identity_ids,best_musinsa_rank,best_oliveyoung_rank,best_lotte_rank,family_priority_rrf
+cf_a2a7d12706f4,Lanvin,에끌라 드 아르페쥬,1,True,6.0,ci_8f9c6acf1230,110.0,9.0,,0.020375106564364878
+cf_50d5e8ecea17,Montblanc,익스플로러,1,True,97.0,ci_5b7152a05a88,71.0,25.0,,0.019398293668612482
+cf_87a4f91d80c0,Jennifer Lopez,글로우 바이 제이로,2,True,27.0,ci_0dcd41256f4a|ci_3f1625d048c2,128.0,14.0,,0.018832662449683728
+cf_511617399090,Vivienne Westwood,태산 월넛크릭그린,1,True,25.0,ci_0375a31d4d31,3.0,,,0.015873015873015872
+cf_16c34407d463,Forment,시그니처 코튼허그,1,True,19.0,ci_eb6bab7c7c6c,5.0,,,0.015384615384615385
+cf_e282c27e55c9,Atelier Faye,데이 오프,2,True,20.0,ci_2c2eb1b4a4b1|ci_4f945c5205c0,200.0,29.0,,0.015082108902333621
+cf_b30235b06332,Maison Martin Margiela,레플리카 레이지 선데이 모닝,1,True,12.0,ci_5aaf547e6734,14.0,,,0.013513513513513514
+cf_20c89de2f748,Elizabeth Arden,그린티 센트 스프레이,2,True,3.0,ci_3cf24523e3e0|ci_d3fc426a9647,18.0,,,0.01282051282051282
+cf_029e6f7b4540,Forment,박지훈 시그니처 코튼메모리,1,True,7.0,ci_be5552a929f6,,20.0,,0.0125
+cf_58499b932bda,Calvin Klein,CK 비,1,True,86.0,ci_bef9410756d3,,30.0,,0.011111111111111112
+cf_9a3ff5083c2c,Ariana Grande,땡큐 넥스트,1,True,33.0,ci_9a08a16f5b5e,,31.0,,0.01098901098901099
+cf_cebf9ae3f860,Calvin Klein,CK One,1,True,30.0,ci_e950f7d25ef0,,33.0,,0.010752688172043012
+cf_26cc82f0bb9d,Maison Martin Margiela,레플리카 재즈 클럽,1,True,35.0,ci_5aa30ef621dc,37.0,,,0.010309278350515464
+cf_f26ea16582f0,Calvin Klein,CK 올,1,True,79.0,ci_ecf6117c3a16,,41.0,,0.009900990099009901
+cf_95772c18e25d,Lanvin,잔느,1,True,59.0,ci_a5b6588d75c6,,44.0,,0.009615384615384616
+cf_9498491a8460,센녹,애프터배스,1,True,78.0,ci_bc9a4bd3c989,45.0,,,0.009523809523809525
+cf_4364822bef5a,Ariana Grande,스위트 라이크 캔디,1,True,38.0,ci_b1466cebe3b7,294.0,113.0,,0.008605205577871394
+cf_2478da13cb60,Jimmy Choo,블러썸,1,True,52.0,ci_c9752303ca5e,324.0,107.0,,0.008592190618762475
+cf_0139983bbcc4,Lanvin,레 플레르 드 워터 릴리,1,True,68.0,ci_ed334daca304,,60.0,,0.008333333333333333
+cf_1e505cfd7d5e,Clean,퓨어솝,1,True,62.0,ci_e4de5fac0d9b,68.0,,,0.0078125
+cf_7dfcf9743ea9,Jimmy Choo,,1,True,83.0,ci_65eac4509013,,72.0,,0.007575757575757576
+cf_8d8b0136c82d,Lanvin,메리미,1,True,54.0,ci_3637be30a1f2,,87.0,,0.006802721088435374
+cf_3692ed327400,다슈,아쿠아 다이브,1,True,29.0,ci_6716e7dfa806,93.0,,,0.006535947712418301
+cf_5087eb58dad2,Forment,시그니처 코튼브리즈,1,True,24.0,ci_d7564396fd9b,,96.0,,0.00641025641025641
+cf_2a61e8bc5446,Versace,브라이트 크리스탈 1종,1,True,63.0,ci_f87fae9b0c0e,,,105.0,0.006060606060606061
+cf_27a342bde00c,Ariana Grande,클라우드,1,True,72.0,ci_801a083b87d3,,112.0,,0.005813953488372093
+cf_6e8326977e4f,Lanvin,레 플레르 드 랑방 블루 오키드,1,True,82.0,ci_c015a799d166,188.0,,,0.004032258064516129
+cf_998b68f1c3dd,Montblanc,레전드,1,True,84.0,ci_736dd9e89d13,,195.0,,0.00392156862745098
+cf_3bc9f9d715a5,Ariana Grande,아리,1,True,39.0,ci_8320393300a0,,199.0,,0.003861003861003861
+cf_f09e9b850958,Clean,클래식 쿨 코튼,1,True,88.0,ci_c420901cde27,293.0,,,0.0028328611898017
+cf_45030163bd21,멈칫,스테이 쉘,1,True,1.0,ci_ba1f9579573d,,,,0.0
+cf_99098b2ebef3,Diptyque,오르페옹,1,True,2.0,ci_a0a02b36cbab,,,,0.0
+cf_a82dc8b7b228,Jo Malone London,우드 세이지 앤 씨 솔트 코롱,1,True,4.0,ci_c427296fb61c,,,,0.0
+cf_4ecc10343e17,Daniel's Truth,시그니처 쉘루스,1,True,5.0,ci_4de0e6367ac7,,,,0.0
+cf_326f5c8c3fdf,Le Labo,어나더 13,1,True,8.0,ci_1af25ac959c8,,,,0.0
+cf_8fef192a9d99,Diptyque,오 로즈,1,True,9.0,ci_162ce4d89e5c,,,,0.0
+cf_f11ef1db4ed3,Vanilla Boutique,허그,1,True,10.0,ci_1bf0bf800b0a,,,,0.0
+cf_20585e0dc507,Aesop,테싯,1,True,11.0,ci_9c7b60cda438,,,,0.0
+cf_38663302e4a7,Chloé,시그니처,1,True,13.0,ci_107454de822b,,,,0.0
+cf_e84c07023bd1,Byredo,블랑쉬,1,True,14.0,ci_17304073f859,,,,0.0
+cf_1156cbab15d8,Dior,미스,1,True,15.0,ci_d26a1c904519,,,,0.0
+cf_a154fa534a73,Dior,미스 블루밍 부케,1,True,16.0,ci_2084bc83573d,,,,0.0
+cf_f5bd84848f79,Diptyque,필로시코스,2,True,17.0,ci_5bd545b067ba|ci_35680c3bc0ca,,,,0.0
+cf_45afed80afab,키엘,오리지널 머스크,1,True,21.0,ci_9503328d5cdd,,,,0.0
+cf_7c9f595b60bf,Byredo,라튤립,1,True,22.0,ci_844918cb9436,,,,0.0
+cf_a5382d0be440,Jo Malone London,블랙베리 앤 베이 코롱,1,True,23.0,ci_0bb163868ef8,,,,0.0
+cf_b910370859fd,Byredo,발 다프리크,1,True,26.0,ci_062f12f6c251,,,,0.0
+cf_bb0d342c5f89,Santa Maria Novella,피렌체 1221 에디션 프리지아,1,True,28.0,ci_4810685a726a,,,,0.0
+cf_3a61acbb281f,Dior,쟈도르,1,True,31.0,ci_4277d84bcdbc,,,,0.0
+cf_ea69a0813d28,Chanel,샹스 오 후레쉬,1,True,32.0,ci_a1ab120d463f,,,,0.0
+cf_a21a3b6a8fbc,Chanel,N 5 오 프르미에르 오 드 빠르펭,1,True,34.0,ci_c64418cfae23,,,,0.0
+cf_87cc27c02da3,Diptyque,플레르 드 뽀,1,True,36.0,ci_3a60949bd23c,,,,0.0
+cf_f5108821ba2f,Chanel,알뤼르 옴므 스포츠,1,True,37.0,ci_144c02ac2e8c,,,,0.0
+cf_92ff376e66aa,Chanel,코코 마드모아 오 드 빠르펭,1,True,40.0,ci_b440592c99d0,,,,0.0
+cf_b9e446fb1b25,Chanel,샹스 오 비브,1,True,41.0,ci_7b7aed26cc5b,,,,0.0
+cf_9b8886b5e6a6,Lancôme,미라클,1,True,42.0,ci_0e58a7b232c1,,,,0.0
+cf_5d72b579387b,Tom Ford,네롤리 포르토피노,1,True,43.0,ci_62e83b955e8e,,,,0.0
+cf_6e59618f8837,Lanvin,모던 프린세스 오 센슈얼,1,True,44.0,ci_bd02a2fbb9cf,,,,0.0
+cf_9ccd344b8791,Hermès,운 자르뎅 수르닐,1,True,45.0,ci_af915105c9d6,,,,0.0
+cf_1445650e59bb,Yves Saint Laurent,리브르 오 드 빠르펭,1,True,46.0,ci_d7d573ee1c3e,,,,0.0
+cf_8b330fcf7cf0,Jo Malone London,잉글리쉬 오크 앤 헤이즐넛 코롱,1,True,47.0,ci_7140e79c0934,,,,0.0
+cf_c5d56150c9d7,Gucci,플로라 골저스가드니아,1,True,48.0,ci_a43934ab0bfc,,,,0.0
+cf_a2b3f95e0b9f,Byredo,모하비 고스트,1,True,49.0,ci_08444c325013,,,,0.0
+cf_ab698dacce16,Chanel,샹스 오 땅드르 오 드 빠르펭,1,True,50.0,ci_389cfde1d598,,,,0.0
+cf_bcde157c2f40,Chanel,N 1 드 레드 까멜리아,1,True,51.0,ci_c493990816c7,,,,0.0
+cf_790b92c0aafc,Le Labo,상탈 33,1,True,53.0,ci_293208b599e8,,,,0.0
+cf_4540033b4169,Aesop,로즈,1,True,55.0,ci_a616dd0ed39d,,,,0.0
+cf_9f61853f42f5,헉슬리,모로칸가드너,1,True,56.0,ci_8ac1e411bf3b,,,,0.0
+cf_25f1b494d4bc,Jo Malone London,잉글리쉬 페어 앤 프리지아 코롱,1,True,57.0,ci_c55267126886,,,,0.0
+cf_a5ba35db87f5,Salvatore Ferragamo,인칸토 참,1,True,58.0,ci_74dd483efbfd,,,,0.0
+cf_673515e444ca,토스,베이비 오 데 코롱,1,True,60.0,ci_6045ff2d156f,,,,0.0
+cf_bffe9ed20c92,Estée Lauder,플레져 스프레이,1,True,61.0,ci_7950ebae05bd,,,,0.0
+cf_39604428ad9d,Gucci,블룸,1,True,64.0,ci_8b6c935a8532,,,,0.0
+cf_14dda770b229,Byredo,집시 워터,1,True,65.0,ci_71ebbf36734f,,,,0.0
+cf_5e9d99f27ffb,Jo Malone London,와일드 블루벨 코롱,1,True,66.0,ci_d9f02e55e685,,,,0.0
+cf_01231600cef1,Yves Saint Laurent,리브르,1,True,67.0,ci_967f46658c28,,,,0.0
+cf_8a3690690360,Yves Saint Laurent,몽 파리 오 드 빠르펭,1,True,69.0,ci_62d910c73aef,,,,0.0
+cf_2027fb0162e7,Santa Maria Novella,피렌체 1221 에디션 엔 디 피렌체,1,True,70.0,ci_f3536fc87e94,,,,0.0
+cf_a094fe7c469e,Acqua di Parma,피코 디 아말피 오 드 뜨왈렛,1,True,71.0,ci_9d1a7b03ec31,,,,0.0
+cf_e20b7de59620,Byredo,인플로레센스,1,True,73.0,ci_e482bce17fd1,,,,0.0
+cf_15d99b2d4944,Santa Maria Novella,피렌체 1221 에디션 로사 가데니아,1,True,74.0,ci_c1af0ea0301d,,,,0.0
+cf_f6869d2f2b84,Chanel,가브리엘 에쌍스 오 드 빠르펭,1,True,75.0,ci_32a3c5eeb16c,,,,0.0
+cf_67527e4ddf87,Jo Malone London,레드 로즈 코롱,1,True,76.0,ci_dd74e4775403,,,,0.0
+cf_189de37b3cbf,Jo Malone London,라임 바질 앤 만다린 코롱,1,True,77.0,ci_df148be1ae47,,,,0.0
+cf_b4d525abf050,Coach,,1,True,80.0,ci_b942e480720e,,,,0.0
+cf_f9d644db143d,Dior,쟈도르 도,1,True,81.0,ci_86e8202df97e,,,,0.0
+cf_1539227f449e,Burberry,마이,1,True,85.0,ci_87b915f533b7,,,,0.0
+cf_cd638148bcae,탬버린즈,에그 펌키니,1,True,87.0,ci_38fcb3e04e0e,,,,0.0
+cf_2eb5e493e1c9,Mebelic,케라,1,True,89.0,ci_518dbc0d2ea8,,,,0.0
+cf_53f3d1ce5dbb,Frederic Malle,포트레이트 오브 어 레이디,1,True,90.0,ci_d06dbb3cb628,,,,0.0
+cf_3794a0001b76,Jo Malone London,피오니 앤 블러쉬 스웨이드 코롱,1,True,91.0,ci_b56d0e0e5a5c,,,,0.0
+cf_f61f2952cf10,데일리콤마,모스트 텐더파리,1,True,92.0,ci_7ed1d1421ae9,,,,0.0
+cf_dca202496e69,Dior,옴므 코롱,1,True,93.0,ci_3c6a890dddda,,,,0.0
+cf_40c7e0c40ad2,Yves Saint Laurent,몽파리 루미에르,1,True,94.0,ci_8f843e5cde59,,,,0.0
+cf_5332645e5574,Dior,소바쥬,1,True,95.0,ci_9b8e78586ef0,,,,0.0
+cf_e327faabe8de,Jo Malone London,얼 그레이 앤 큐컴버 코롱,1,True,96.0,ci_8911952ed170,,,,0.0
+cf_e104d3135daa,Prada,캔디,1,True,98.0,ci_1ccb7bd24c2a,,,,0.0
+cf_feda2e4ffcba,Lanvin,루머2 로즈,1,True,99.0,ci_44a09a59b93d,,,,0.0
+cf_e7216fa01447,Versace,브라이트 크리스탈,1,False,,ci_72b3ebd6097d,35.0,,8.0,0.025232198142414862
+cf_63abeaf62f0d,Versace,오프레쉬 맨,2,False,,ci_8798439946b7|ci_2349a2481b25,,186.0,15.0,0.017398373983739838
+cf_c0947df60c34,무신사 스탠다드 뷰티,무신사 스탠다드 애프터 샤워,1,False,,ci_e58baaff7634,1.0,,,0.01639344262295082
+cf_87fc92bc9c61,Grès,카보틴,1,False,,ci_497721463d61,,,1.0,0.01639344262295082
+cf_7d5e61646e83,Montale,초콜릿 그리디,1,False,,ci_1788671841a1,,,2.0,0.016129032258064516
+cf_dc7d8a66b49c,Forment,박지훈 시그니처 코튼허그,1,False,,ci_e2bbb1d18103,,3.0,,0.015873015873015872
+cf_26bab507d9e7,Versace,에로스 에너지,1,False,,ci_76232424e429,,,3.0,0.015873015873015872
+cf_ce6fb528ab60,Jaguar,클래식 일렉트릭 스카이,1,False,,ci_759aaa61d109,,,4.0,0.015625
+cf_d46605f5252d,Lalique,솔레이 루나,1,False,,ci_1a909149b802,,,5.0,0.015384615384615385
+cf_24344e7d2727,무신사 스탠다드 뷰티,Gen G Chovy,1,False,,ci_1eb4b6619fa0,6.0,,,0.015151515151515152
+cf_8422258c2ea9,Mancera,오드 레몬 민트,1,False,,ci_5ce232d05e65,,,6.0,0.015151515151515152
+cf_7e16920873b1,무신사 스탠다드 뷰티,노홍철 럭키 가이 실행력,1,False,,ci_ea3b2620a699,7.0,,,0.014925373134328358
+cf_c5bc8737d82c,Parfums Berdoues,그랑크뤼 아주르 리비에라,1,False,,ci_2f9d3332dc12,,,7.0,0.014925373134328358
+cf_eb3077ce8cde,무신사 스탠다드 뷰티,무신사 스탠다드 시어,1,False,,ci_d97a8f66f9f2,8.0,,,0.014705882352941176
+cf_8b638eabd45a,Banana Republic,메탈레인,1,False,,ci_36159d40c5bd,,,9.0,0.014492753623188406
+cf_1abd1e5d1062,리베르,김켄지 구름 비누향 클라우드 사이 Cloud Sai,1,False,,ci_c14f3f1be109,10.0,,,0.014285714285714285
+cf_07c68e0d098e,Nishane,팬 유어 플레임즈 엑스트레 드,1,False,,ci_7e172f0085d9,,,10.0,0.014285714285714285
+cf_3fbee79d8e5e,Versace,에로스,2,False,,ci_52ddc722ce8e|ci_ca648c4a8a05,115.0,230.0,136.0,0.014264602392681208
+cf_ea1154c5562a,무신사 스탠다드 뷰티,무신사 스탠다드 스모크 오우드,1,False,,ci_fe5476d260a3,11.0,,,0.014084507042253521
+cf_af7127fb907f,Banana Republic,미드나잇 아워,1,False,,ci_63702fd83c27,,,11.0,0.014084507042253521
+cf_2502d2b069d3,무신사 스탠다드 뷰티,무신사 스탠다드 모시 헤이즈,1,False,,ci_db1f1f0f25c7,12.0,,,0.013888888888888888
+cf_9eb71c08968b,Banana Republic,퓨어 화이트,1,False,,ci_17431ee1f5b7,,,12.0,0.013888888888888888
+cf_acb2f6eddb5f,무신사 스탠다드 뷰티,Gen G Ruler,1,False,,ci_71460603b2e8,13.0,,,0.0136986301369863
+cf_ff3c8f50325b,BMW Fragrances,더 센트 오브 베르가무드,1,False,,ci_db310e94e234,,,13.0,0.0136986301369863
+cf_165ea6cf22ef,Rance 1795,르방케 포 맨 3종,1,False,,ci_372f702bf714,,,14.0,0.013513513513513514
+cf_66881fcf37b8,SW19,Midnight,1,False,,ci_ae8fc927ce80,15.0,,,0.013333333333333334
+cf_2d8fa175a42d,유쏘풀,세인트모리츠 니치,1,False,,ci_3b6085c9c766,16.0,,,0.013157894736842105
+cf_aaf1f4126dca,Nikos,스컬프쳐 미코노스,1,False,,ci_684edcf8558a,,,16.0,0.013157894736842105
+cf_d43315e25eb1,Narciso Rodriguez,타잔 포 허 퓨어 머스크,1,False,,ci_b8cd393d2c56,,17.0,,0.012987012987012988
+cf_fc0f8200752d,Montale,비 마이 플럼,1,False,,ci_8834b2618482,,,17.0,0.012987012987012988
+cf_bf2cdb625613,Mancera,자스민 엑스클루시프,1,False,,ci_3b1cfc988a42,,,18.0,0.01282051282051282
+cf_626a4a4a592a,뉴뉴,샤를33 네놀리,1,False,,ci_5575147b0b3b,19.0,,,0.012658227848101266
+cf_c5a5cdf46fa5,Rance 1795,조세핀 포 우먼 3종,1,False,,ci_77ef68d53564,,,19.0,0.012658227848101266
+cf_9fca0bdd48ba,무신사 스탠다드 뷰티,무신사 스탠다드 코코모,1,False,,ci_be61dc55fcd7,20.0,,,0.0125
+cf_2fbae137bb50,Montale,버블 포에버,1,False,,ci_d1e694f37a14,,,20.0,0.0125
+cf_74e9c0937cdb,Nishane,하지밧 엑스트레 드 3종,1,False,,ci_723799ff0906,,,21.0,0.012345679012345678
+cf_c3d225902b07,시머스,미드나잇 파크,1,False,,ci_aeb57afd9726,51.0,249.0,,0.012245254963701565
+cf_a233df19cdf4,John Varvatos,아티산 블루,1,False,,ci_135a36451863,120.0,90.0,,0.012222222222222223
+cf_bc72c197c272,Nishane,우롱차 엑스트레 드 3종,1,False,,ci_6b994e4f8017,,,22.0,0.012195121951219513
+cf_0f75cf52bfb2,John Varvatos,아티산 블랙,1,False,,ci_ce6521f1d93a,168.0,70.0,,0.012078272604588394
+cf_471f4344ffcb,무신사 스탠다드 뷰티,무신사 스탠다드 미드나잇 램블러,1,False,,ci_7b5e6d8fb388,23.0,,,0.012048192771084338
+cf_ca1a7dffc4a1,Forment,박지훈 시그니처 코튼베이비,1,False,,ci_f149cc2700c4,,23.0,,0.012048192771084338
+cf_603ec8ac65c5,Rance 1795,데지레 포 우먼,1,False,,ci_06fde7bcef85,,,23.0,0.012048192771084338
+cf_c61a925388a3,Rance 1795,마틸드,1,False,,ci_ede5ddfd0fce,,,24.0,0.011904761904761904
+cf_14264746a3cb,Issey Miyake,르셀디세이,2,False,,ci_09d4167c0459|ci_ead83e6160b4,114.0,104.0,,0.011844687412391365
+cf_88ce78989c50,뉴뉴,샤인30,1,False,,ci_44bff09ef9ae,25.0,,,0.011764705882352941
+cf_abcfb4a89806,Essential Parfums,에센셜 더 머스크 바이 칼리스 베커 2종,1,False,,ci_943d8f44d22e,,,25.0,0.011764705882352941
+cf_05882a62fdd0,Essential Parfums,에센셜 오렌지상탈 바이 나탈리 그라시아세토 2종,1,False,,ci_efe9bf7b788d,,,26.0,0.011627906976744186
+cf_02430e44b5a2,Elizabeth Arden,그린티 스트로베리 바질,1,False,,ci_4a2f80f67c34,111.0,115.0,,0.011562238930659982
+cf_b80f77dd693b,Clean,웜코튼,1,False,,ci_28ef15b9cc2a,,27.0,,0.011494252873563218
+cf_29a8a7b99590,Essential Parfums,에센셜 피그 인퓨전 바이 나탈리 로슨 2종,1,False,,ci_479dbdac0a43,,,27.0,0.011494252873563218
+cf_4e9d7e026953,리베르,김켄지 첫눈 스노우 사이 Snow Sai,1,False,,ci_68d02e396164,28.0,,,0.011363636363636364
+cf_a33f8db6535b,퓨레앙스,화이트 블룸,1,False,,ci_c48800ffc2b0,,,28.0,0.011363636363636364
+cf_b43997709634,로이비,베르가못 앤 화이트 로즈,2,False,,ci_212f3549285e|ci_f1a6621a13b7,29.0,,,0.011235955056179775
+cf_d268959c7e59,BMW Fragrances,앰버니스,1,False,,ci_2a6bca13c7e1,,,29.0,0.011235955056179775
+cf_eab09c0afe5c,센틀리에,오렌지블라썸 토스카나,1,False,,ci_037e2669dbac,56.0,341.0,,0.011114455241207327
+cf_7c2c5a9254e2,Jill Stuart,화이트 플로럴 000상당,1,False,,ci_b0631f739e4f,30.0,,,0.011111111111111112
+cf_bbcc457b8655,BMW Fragrances,더 센트 오브 앰버니스,1,False,,ci_0b81c33195e9,,,30.0,0.011111111111111112
+cf_012fe93e0bf3,Parfums Berdoues,그랑크뤼 아쌈 오브 인디아,1,False,,ci_8340a84c1a24,,,31.0,0.01098901098901099
+cf_1d6b62cd16e9,Ralph Lauren,폴로 랄프,1,False,,ci_489e92661f61,88.0,179.0,,0.0109408571751668
+cf_7561cdd7a2cd,투데이이즈,인유어메모리 오드,1,False,,ci_6ddaef18703e,32.0,,,0.010869565217391304
+cf_0969dea96bf9,Clean,& 휩드바닐라,1,False,,ci_e138e63c4dbd,,32.0,,0.010869565217391304
+cf_e008eb3a3acc,누다라,시그니처 오키탈,1,False,,ci_de7b96871680,33.0,,,0.010752688172043012
+cf_98b92cc2e516,John Varvatos,아티산 중,1,False,,ci_ecc1ed6c7ff8,,34.0,,0.010638297872340425
+cf_19ba80df35e3,Mancera,인텐스 세드라 부아제,1,False,,ci_eac325a6dc15,,,34.0,0.010638297872340425
+cf_ae3008448f74,Banana Republic,다크체리 & 앰버,1,False,,ci_cff22b02dea9,,,35.0,0.010526315789473684
+cf_d96afb511ff7,Clean,웜코튼 중,1,False,,ci_d49aa1d6db5e,,36.0,,0.010416666666666666
+cf_21adca0e5e6d,Replay,러버즈 포 우먼,1,False,,ci_d60c0d374cfc,,,36.0,0.010416666666666666
+cf_379f7ddde27c,Chloé,로 드 인텐스 50,1,False,,ci_d3737a1b01d7,,37.0,,0.010309278350515464
+cf_2fb2d933787c,마주리,시그니처 클래식,1,False,,ci_9655311a9980,,,37.0,0.010309278350515464
+cf_690a9155cb34,Mancera,인스턴트 크러쉬,1,False,,ci_029d5242811e,,,38.0,0.01020408163265306
+cf_a32f4ea18c27,Ariana Grande,스위트 라이크 캔디 중,1,False,,ci_6a46ead3c476,,39.0,,0.010101010101010102
+cf_ceba3e317f5a,Narciso Rodriguez,포 허 퓨어 머스크 블랑,1,False,,ci_55c32188b932,,40.0,,0.01
+cf_fb9c7d52368d,Rance 1795,헬레네 포 우먼,1,False,,ci_ef14f19b3b75,,,40.0,0.01
+cf_eb5b511894d2,Mancera,통카 콜라,1,False,,ci_17579459b767,,,41.0,0.009900990099009901
+cf_347dfc796be0,John Varvatos,아티산,1,False,,ci_2228ae3a9f00,42.0,,,0.00980392156862745
+cf_6afa1ffa4e67,Kenneth Cole,맨카인드 라이즈,1,False,,ci_e202954dd7c6,,,42.0,0.00980392156862745
+cf_23bc3c04b0f4,BMW Fragrances,M2025,1,False,,ci_c6b3db5b5caa,,,43.0,0.009708737864077669
+cf_bab90df0a55c,누다라,시그니처 우드마벨,1,False,,ci_cc65771c068b,44.0,,,0.009615384615384616
+cf_15ebc984ec5a,Forment,시그니처 코튼배쓰,1,False,,ci_f2e2d7044172,,45.0,,0.009523809523809525
+cf_1127a956629f,훌라,아우텐티카,1,False,,ci_ca0ee5a0b251,,,45.0,0.009523809523809525
+cf_7493d6c734d4,Mancera,인텐스 레드 토바코 엑스트레 드,1,False,,ci_3cd9661eab70,,,46.0,0.009433962264150943
+cf_31cd4e019f0a,센녹,솝클린솝,1,False,,ci_86283a068b96,47.0,,,0.009345794392523364
+cf_6b3ee7e9ce21,Mancera,패블러스 유주,1,False,,ci_a1c5a87f45bb,,,47.0,0.009345794392523364
+cf_a65b94c535c7,Clean,클리어 애플 블로썸,1,False,,ci_ed4dff7afb27,48.0,,,0.009259259259259259
+cf_b0b728bf3515,Narciso Rodriguez,프레쉬로즈향 나르시소 크리스탈,1,False,,ci_090d5c757bdd,,48.0,,0.009259259259259259
+cf_145ebb69c6a0,훌라,아도라빌레,1,False,,ci_552d7d6dc0b6,,,48.0,0.009259259259259259
+cf_db32b9a532b6,Philosophy,원지안 어메이징 그레이스 60ml,1,False,,ci_92cf3d32574e,,49.0,,0.009174311926605505
+cf_93d04806ca30,Mancera,코코 바닐,1,False,,ci_df319d71a09a,,,49.0,0.009174311926605505
+cf_cbab37ae52ed,Coach,체리,1,False,,ci_b691058531a8,146.0,175.0,,0.009109688080975006
+cf_396d3741f494,라멜린,플로럴,1,False,,ci_d7f360daaaee,,50.0,,0.00909090909090909
+cf_902257a5f23b,Sabrina Carpenter,스위트투스,1,False,,ci_4630385a2560,319.0,95.0,,0.00909013533066644
+cf_2e2f09a46e39,Mancera,시실리,1,False,,ci_7a181ba8b2ed,,,51.0,0.009009009009009009
+cf_eeaa87bd68e8,Calvin Klein,CK One 에센스 인텐스,1,False,,ci_c5f6aa864282,,52.0,,0.008928571428571428
+cf_8148bc86c0f8,Vivienne Westwood,이한 뉴욕인틸리,1,False,,ci_46238ae10e19,53.0,,,0.008849557522123894
+cf_519627b8a7d9,Mancera,로즈 그리디,1,False,,ci_36c77bf10f8a,,,53.0,0.008849557522123894
+cf_225afcd380f3,루아페,러블리한 플로럴향 오 러브,1,False,,ci_4579fa88d473,,54.0,,0.008771929824561403
+cf_8fe2130b7f15,로이비,피오니 앤 화이트 머스크,2,False,,ci_e0e235d8b27e|ci_8fb6df1ef8a8,55.0,,,0.008695652173913044
+cf_25ff2ffd8ba1,Mancera,프렌치 리비에라,1,False,,ci_393fc8cf01a3,,,55.0,0.008695652173913044
+cf_366fe3278c82,Atelier Faye,마이스킨벗베러,1,False,,ci_102e06f3190c,,56.0,,0.008620689655172414
+cf_7fe17f19d2c9,Ralph Lauren,폴로 블루,1,False,,ci_0ff12b1de629,135.0,231.0,,0.008564631245043617
+cf_61c97dbae875,훌라,퓨라,1,False,,ci_975325349265,,,57.0,0.008547008547008548
+cf_452fce9de686,Montblanc,스타워커,1,False,,ci_844980499428,259.0,126.0,,0.00851114032426602
+cf_8f7e15ef5da1,Etat Libre d'Orange,유 오어 썸원 라이크 유,1,False,,ci_d3072c84a2f6,58.0,,,0.00847457627118644
+cf_c0869a3b6eff,에이딕트,네이키드 뮤게 313,1,False,,ci_fb6626322853,,58.0,,0.00847457627118644
+cf_e1cba7c80834,훌라,우니카,1,False,,ci_e1a4a5a7dcb1,,,58.0,0.00847457627118644
+cf_89829c324625,포뷰트,시그니처 애프터 선셋 남자,1,False,,ci_f1be476fac30,59.0,,,0.008403361344537815
+cf_5cbeb8d4e5bd,Calvin Klein,씨케이원 나이트 에센스,1,False,,ci_ae81bd990904,,59.0,,0.008403361344537815
+cf_4c36615926d0,막스앤코,모닝 캔 웨이트,1,False,,ci_a5cd171f5185,,,59.0,0.008403361344537815
+cf_35c691aa2503,알보우,도쿄 피그,1,False,,ci_2c5833b7c011,60.0,,,0.008333333333333333
+cf_ea6be805a1eb,Lanvin,레 플레르 드 써니 매그놀리아,1,False,,ci_cacb957def3b,,61.0,,0.008264462809917356
+cf_8d3ab524b742,막스앤코,굿 바이브스 돈 라이,1,False,,ci_d8461bafd796,,,61.0,0.008264462809917356
+cf_d01d069f1af4,아비브,타입 N,1,False,,ci_db35ae58fb2c,62.0,,,0.00819672131147541
+cf_284570ab8237,막스앤코,쉬 이즈 어 10,1,False,,ci_683d2418c073,,,62.0,0.00819672131147541
+cf_fcc87ca6d15b,Atelier Faye,뮤게가든,1,False,,ci_12ad9e9642b2,,63.0,,0.008130081300813009
+cf_46ebad12da22,Essential Parfums,에센셜 나이스 베르가못 바이 앙투완메종디유 2종,1,False,,ci_0e762e9fa72f,,,63.0,0.008130081300813009
+cf_5f86d7db7692,Forment,시그니처 코튼 디어 나잇,1,False,,ci_9393b93d0ce6,64.0,,,0.008064516129032258
+cf_a8c7068f4c09,Rance 1795,오드라 꾸론느,1,False,,ci_3c138ae27883,,,64.0,0.008064516129032258
+cf_c122f4842a09,어뮤즈,올영 한정,1,False,,ci_fd42acc0c3f9,,65.0,,0.008
+cf_45aab0b939f4,에이딕트,네이키드 머스크 103,1,False,,ci_6f565b1f6752,,66.0,,0.007936507936507936
+cf_fe3265f74440,Rance 1795,프랑수와찰스 포 맨,1,False,,ci_a31874bc1078,,,66.0,0.007936507936507936
+cf_a5afdc7271ce,Jimmy Choo,아이 원 추,1,False,,ci_30370b03b0c1,,67.0,,0.007874015748031496
+cf_e963059f3cf9,Rance 1795,유제니 포 우먼,1,False,,ci_15c399e96ac7,,,67.0,0.007874015748031496
+cf_97d9b42e2ee2,Rance 1795,르방케 포 맨,1,False,,ci_b1d22fc8e5ed,,,68.0,0.0078125
+cf_2fd07414ce5b,에이딕트,네이키드 30mlX2,1,False,,ci_5932eaa1a54d,69.0,,,0.007751937984496124
+cf_ac8ed9ff3d80,Rance 1795,유제니 포 우먼100ml 3종,1,False,,ci_4729f48f8c29,,,69.0,0.007751937984496124
+cf_fe5d68bf8700,Montblanc,레전드 중,1,False,,ci_2fc2db319ecd,,71.0,,0.007633587786259542
+cf_7901dce0a7d3,Rance 1795,데지레 포 우먼 3종,1,False,,ci_71fa21326226,,,71.0,0.007633587786259542
+cf_c8d9cb091f5e,Lalique,라무르 100ml,1,False,,ci_77cc9879d419,,,72.0,0.007575757575757576
+cf_34fb9b64215f,BMW Fragrances,M 1985,1,False,,ci_e308c32a4ecb,,,73.0,0.007518796992481203
+cf_951ee298cd06,BMW Fragrances,M 1972,1,False,,ci_d2c39dca8ba1,,,74.0,0.007462686567164179
+cf_334c40eb6f16,플르부아,히노끼 레더,1,False,,ci_d28b9495862b,75.0,,,0.007407407407407408
+cf_b57440fcc667,Clean,& 파파야 파라다이스,1,False,,ci_d35f8c98bc46,,75.0,,0.007407407407407408
+cf_e4c066861c7b,유쏘풀,베리섹시 니치,1,False,,ci_307172f59c1c,76.0,,,0.007352941176470588
+cf_7057fc031e0b,Banana Republic,네롤리 우드,1,False,,ci_6417c841663e,,,77.0,0.0072992700729927005
+cf_308acded0589,세이리,오스만투스 엑스트레 드,1,False,,ci_e49b9948a045,78.0,,,0.007246376811594203
+cf_6325e48efb4d,Laura Mercier,앰버바닐라,1,False,,ci_9e5e93b2c387,,78.0,,0.007246376811594203
+cf_31f1cc25e405,Chloé,루미네즈,1,False,,ci_b0e2f4a43c26,,79.0,,0.007194244604316547
+cf_ffd00184fd82,Nishane,헌드레드 사일런트 웨이즈 엑스트레 드,1,False,,ci_6525a252213c,,,79.0,0.007194244604316547
+cf_f2f253e4a395,센슬,플로우 뮤트 플로우 미닛,1,False,,ci_dde36cf02aa1,80.0,,,0.007142857142857143
+cf_abb63a33b39b,Jimmy Choo,아이 원 추 포에버,1,False,,ci_cde0bdb250ad,,80.0,,0.007142857142857143
+cf_521022fab222,Nishane,난쉬 엑스트레 드,1,False,,ci_f87ccd37195b,,,80.0,0.007142857142857143
+cf_815aea8212e3,센녹,슬로우셉템버,1,False,,ci_9f73cd06afee,82.0,,,0.007042253521126761
+cf_f35c7fcc1934,Jimmy Choo,아이원추 르 파팡,1,False,,ci_b1e88853f76a,,82.0,,0.007042253521126761
+cf_c38b292f7d7f,Vivienne Westwood,구름,1,False,,ci_30de9f13f79a,83.0,,,0.006993006993006993
+cf_0ddd1d211dc1,Burberry,위크엔드 우먼,1,False,,ci_91832dbcb560,,83.0,,0.006993006993006993
+cf_7308e75d0d85,투데이이즈,인마이메모리 오드,1,False,,ci_9fcfdb7b6424,84.0,,,0.006944444444444444
+cf_e772f18b07c3,Rance 1795,오드프랑스,1,False,,ci_0dcf5a90e211,,,84.0,0.006944444444444444
+cf_15ccf23bef1d,Burberry,포맨,1,False,,ci_8343895b72bc,,85.0,,0.006896551724137931
+cf_9ed7cc2eed95,Essential Parfums,에센셜 벨벳아이리스 바이 도미니크 로피옹 2종,1,False,,ci_ccaf177d157d,,,85.0,0.006896551724137931
+cf_81a0cf3b6456,그라펜,멀티 유즈 스프레이,1,False,,ci_80a9b463c540,86.0,,,0.00684931506849315
+cf_c93e9591b3b7,Chloé,르,1,False,,ci_e244fce7bce0,,86.0,,0.00684931506849315
+cf_7f61649e9e4d,Essential Parfums,에센셜 디바인 바닐 바이 올리비에 페슈 2종,1,False,,ci_e4a21527d71c,,,86.0,0.00684931506849315
+cf_12194920ca66,Essential Parfums,에센셜 로즈 마그네틱 바이 소피라베 2종,1,False,,ci_dca33c49dbd3,,,87.0,0.006802721088435374
+cf_29bc916eca15,Kenzo,플라워바이,2,False,,ci_1f86ce3efead|ci_69cfae7949a5,,88.0,,0.006756756756756757
+cf_ba017921d6b6,Essential Parfums,에센셜 몽 베티버 바이 브루노 조바노빅 2종,1,False,,ci_7efb9f7918b8,,,88.0,0.006756756756756757
+cf_63373fff6a96,Clean,클리어 쿨 코튼,1,False,,ci_ddb2869192fa,89.0,,,0.006711409395973154
+cf_139b1d8dad8f,Burberry,터치 포 맨,1,False,,ci_3d6cd9885fad,,89.0,,0.006711409395973154
+cf_0755eb3f2e8e,Essential Parfums,에센셜 패출리 마니아 바이 파브리스 펠레그린 2종,1,False,,ci_1078b76d0351,,,89.0,0.006711409395973154
+cf_e48769f212ec,Essential Parfums,에센셜 네롤리 보타니카 바이 앤 플리포 2종,1,False,,ci_828fd587bcc8,,,90.0,0.006666666666666667
+cf_5f48ea033b6b,Montale,아라비안 통카,1,False,,ci_48f88df72266,,,91.0,0.006622516556291391
+cf_2a169a94354b,Calvin Klein,CK 디파이,1,False,,ci_e978ba807ebb,,92.0,,0.006578947368421052
+cf_9c5f817444a2,Ralph Lauren,폴로 랄프 중,1,False,,ci_d2fcaaa64889,,93.0,,0.006535947712418301
+cf_139e9cfdbf8c,퓨레앙스,골든 텐저린,1,False,,ci_acd5fe065a4e,,,93.0,0.006535947712418301
+cf_6058ea79c9ba,Dolce&Gabbana,라이트 블루 리뉴얼,1,False,,ci_89d4dbdfbfef,94.0,,,0.006493506493506494
+cf_af8e4636a59a,퓨레앙스,블랑 드 로즈,1,False,,ci_9dca89744659,,,94.0,0.006493506493506494
+cf_fca0a5a78ea0,John Varvatos,아티산 퓨어,1,False,,ci_199e1eece1e7,95.0,,,0.0064516129032258064
+cf_0121f14e22b4,퓨레앙스,플레르 머스크,1,False,,ci_788bf737ffe8,,,95.0,0.0064516129032258064
+cf_a2929cf355e3,아로,풀 문 블로썸,2,False,,ci_c421f94bc73a|ci_d4673523c743,345.0,193.0,,0.006421704972429609
+cf_86b008499072,유겐,INSPIRE,1,False,,ci_d68eac37eef6,96.0,,,0.00641025641025641
+cf_3eb416223e9e,애프터블로우,,1,False,,ci_8a5e23bbda0a,97.0,,,0.006369426751592357
+cf_039b1356c0fa,든향,보라색 베이비 로션향 파자마,1,False,,ci_c0312168b64b,,97.0,,0.006369426751592357
+cf_e413c53d7996,에틀리에,엔믹스지우 스킨센트,1,False,,ci_b19711c7672c,,98.0,,0.006329113924050633
+cf_b0feee733c20,퓨레앙스,블랙베리 베일,1,False,,ci_dacad42c2028,,,98.0,0.006329113924050633
+cf_7c9955deb36d,헤트라스 뷰티,핸드메이드 아틀리에 티,1,False,,ci_8e966beaa7d3,99.0,,,0.006289308176100629
+cf_bf470d66296f,Adidas,김재원 아디다스 스파크업 30ml,1,False,,ci_e24fb8fa9c57,,99.0,,0.006289308176100629
+cf_d8ad0917e34c,Ex Nihilo,블루 탈리스만,1,False,,ci_aed707d08d34,100.0,,,0.00625
+cf_ad1aee3891fa,Forment,박지훈 거울키링 시그니처 코튼메모리 포켓몬 에디션,1,False,,ci_9fb8efce2e13,,100.0,,0.00625
+cf_8e52bf885c57,Lush,29 하이 스트릿,1,False,,ci_5b66cdd8fc5f,101.0,,,0.006211180124223602
+cf_fdfc7b74a2c0,퓨레앙스,페어 가든,1,False,,ci_d68c89b83d25,,,101.0,0.006211180124223602
+cf_d4012f57cc17,Maison Martin Margiela,레플리카 웬 더 레인 스탑스,1,False,,ci_cec1391bad56,102.0,,,0.006172839506172839
+cf_be534eb70925,라멜린,청량한향 오션,1,False,,ci_ead2ce126fdc,,102.0,,0.006172839506172839
+cf_613b6bbb6d11,슬로우허밍,릴리프,1,False,,ci_4fcbf0cd868b,103.0,,,0.006134969325153374
+cf_d1b2e3b4e088,그라펜,무화과 우디 타투 원우드,1,False,,ci_d07b4e786ac6,,103.0,,0.006134969325153374
+cf_1b6b621b6cb5,Versace,에로스플레임 1종,1,False,,ci_6c7d7de64d1a,,,103.0,0.006134969325153374
+cf_4d7a281ab815,Versace,에로스 플레임,1,False,,ci_e72742290d76,,,104.0,0.006097560975609756
+cf_10144bdee303,Calvin Klein,CK One 어워즈 한정,1,False,,ci_22174ff268e4,,105.0,,0.006060606060606061
+cf_0963e7952df4,Versace,오프레쉬 맨 1종,1,False,,ci_fb30d3e33775,,,107.0,0.005988023952095809
+cf_be504e15e047,Stéphane Humbert Lucas 777,갓 오브 파이어 EAU DE PARFUM,1,False,,ci_25ae9e92691e,108.0,,,0.005952380952380952
+cf_ac2c66cdb060,Dolce&Gabbana,리뉴얼 라이트블루,1,False,,ci_c0a10848ee51,,109.0,,0.005917159763313609
+cf_433aa75c72cb,Nishane,멘트 투 비 씬 엑스트레 드,1,False,,ci_2667882908d6,,,109.0,0.005917159763313609
+cf_19dad0597d0d,Lanvin,레 플레르 드 블루 오키드,1,False,,ci_7b1b0c3c97bf,,110.0,,0.0058823529411764705
+cf_091ff970a215,Philosophy,원지안 어메이징 그레이스 발레로즈,1,False,,ci_df04693e4cb4,,111.0,,0.005847953216374269
+cf_5134f96f93af,Nishane,헌드레드사일런트 웨이즈 엑스트레 드 3종,1,False,,ci_5ff6bd9e62a7,,,111.0,0.005847953216374269
+cf_0643b1e24de8,Maison Martin Margiela,레플리카 네버 엔딩 썸머,1,False,,ci_bf8562dbb7c2,112.0,,,0.005813953488372093
+cf_b2fdb88ae644,Nishane,난쉬 엑스트레 드 3종,1,False,,ci_961b6c888564,,,112.0,0.005813953488372093
+cf_f99d479da0d8,Vivienne Westwood,명재현 로스트우드,1,False,,ci_71b9d531cf3b,113.0,,,0.005780346820809248
+cf_d76c0d74ba2b,Atelier Faye,베이비 피치,1,False,,ci_a87ef349f868,,114.0,,0.005747126436781609
+cf_40d8c80da8be,Banana Republic,피오니 & 페퍼콘,1,False,,ci_b9a4a5188aac,,,115.0,0.005714285714285714
+cf_fc89087b363d,알보우,로즈 퀴르,1,False,,ci_b0236609a3c2,,116.0,,0.005681818181818182
+cf_0e6a12da593c,알보우,모노크롬,1,False,,ci_a5845353f606,,117.0,,0.005649717514124294
+cf_51debd7cbd7c,Bentley,모멘텀 언브레이커블,1,False,,ci_cbb7b0330ab2,,,117.0,0.005649717514124294
+cf_e8c56508c7a6,세이리,누드 엑스트레 드,1,False,,ci_b9e62a927dd4,118.0,,,0.0056179775280898875
+cf_26b922f6ff5e,Ralph Lauren,폴로,1,False,,ci_cd172b21d5d3,119.0,,,0.00558659217877095
+cf_5dd3acc95c30,Jaguar,이어러 리로리드,1,False,,ci_ee512d3fd83f,,,119.0,0.00558659217877095
+cf_01a181d1b59d,로맨띠끄,명품 블랙베리&베이 블랙베리,1,False,,ci_fa40e8f891bc,,120.0,,0.005555555555555556
+cf_5def6859991c,Jaguar,이어러 리로디드,1,False,,ci_58d98aa97d8b,,,120.0,0.005555555555555556
+cf_642d4d4be19e,슬로우허밍,올영단독 미니 플라워너리 릴리프 플라워솝,1,False,,ci_e9ded798e88b,,121.0,,0.0055248618784530384
+cf_a8422bb98e91,저스트에즈아이엠,무화과 수분충전 아이엠,1,False,,ci_8d3fd68851e5,,122.0,,0.005494505494505495
+cf_fc95463a85a3,BMW Fragrances,베르가무드,1,False,,ci_b07c5a904a22,,,122.0,0.005494505494505495
+cf_07f43bfd8b32,Nishane,아니 엑스트레 드,1,False,,ci_b5fded73abf9,,,123.0,0.00546448087431694
+cf_5f421e1ca0b5,Maison Martin Margiela,레플리카 세일링 데이,1,False,,ci_efb07b8e1a13,124.0,,,0.005434782608695652
+cf_06b308b242fd,Dolce&Gabbana,베스트 리뉴얼 라이트블루,1,False,,ci_f5f8a6517ebc,,124.0,,0.005434782608695652
+cf_07c62b316683,센티카,시그니처 플레르 에끌로,1,False,,ci_28ce250d3949,125.0,,,0.005405405405405406
+cf_8c663c17c6a8,Chloé,노마드,2,False,,ci_5f841369d660|ci_d586aa0a6484,,125.0,,0.005405405405405406
+cf_aca1dbccdea5,Nishane,에게 엑스트레 드 3종,1,False,,ci_8df0e96b32ea,,,125.0,0.005405405405405406
+cf_081f4800f765,Chloé,로즈탠저린,1,False,,ci_e9e3d3d4f4c3,,127.0,,0.0053475935828877
+cf_15ab8e46d0b5,Banana Republic,벨벳 포메그레네이트 75ml,1,False,,ci_dedcc1bc3243,,,127.0,0.0053475935828877
+cf_d9df97212003,Narciso Rodriguez,엉브레,1,False,,ci_6d23c4cc8ad3,,128.0,,0.005319148936170213
+cf_3e03e67961e6,Rance 1795,마틸드 3종,1,False,,ci_bfb471bec2cb,,,128.0,0.005319148936170213
+cf_4f80c7198073,Maison Martin Margiela,레플리카 업 앳 던,1,False,,ci_91145615bbf1,129.0,,,0.005291005291005291
+cf_1e0c8741ef87,Mercedes-Benz,맨,1,False,,ci_7f39563a5790,,129.0,,0.005291005291005291
+cf_331640275cb3,Replay,시크릿 포 우먼,1,False,,ci_87bf6ab870ca,,,129.0,0.005291005291005291
+cf_fad911ab1a5a,춘몽,도플 Doppel Perfume,1,False,,ci_1ee603a82573,130.0,,,0.005263157894736842
+cf_0ebd086781d2,포스테스,프롬 생트로페 2607 리뉴얼,1,False,,ci_9cc473c7a422,,130.0,,0.005263157894736842
+cf_062eb4a64939,Mancera,머스키 가든,1,False,,ci_d62c7422f3c9,,,130.0,0.005263157894736842
+cf_8d36f92bbefa,Versace,브라이트 크리스탈 앱솔루,1,False,,ci_273373b93586,,,132.0,0.005208333333333333
+cf_13facc73a65a,Narciso Rodriguez,포 허 퓨어 머스크,1,False,,ci_6f1a4c905a1d,133.0,,,0.0051813471502590676
+cf_993faf12454a,Ariana Grande,땡큐 넥스트 중,1,False,,ci_8acb92ed35b3,,133.0,,0.0051813471502590676
+cf_5a059ff4708c,Lanvin,레 플레르 드 랑방 워터 릴리,1,False,,ci_3e627a1be90a,134.0,,,0.005154639175257732
+cf_83f763ec96d0,Clean,스트로베리필즈 중,1,False,,ci_d6f47d522967,,134.0,,0.005154639175257732
+cf_1a3b9fdab1d9,헉슬리,포트브레스,1,False,,ci_bce7ce1ac560,,135.0,,0.005128205128205128
+cf_cd16608e7d2f,테누이,베어,1,False,,ci_32b078534131,136.0,,,0.00510204081632653
+cf_c8f18c147da6,에틀리에,엔믹스릴리 앰버버번,1,False,,ci_8092459cd691,,137.0,,0.005076142131979695
+cf_9688eb93fb26,쿠오카,와일드피치,1,False,,ci_0e49f0046a25,138.0,,,0.005050505050505051
+cf_c5664c6a7ca4,Adidas,김재원 아디다스 해피필즈,1,False,,ci_061397e78705,,138.0,,0.005050505050505051
+cf_e9b73492c6ee,Maison Martin Margiela,레플리카 온어데이트,1,False,,ci_ab36af4ff5b0,139.0,,,0.005025125628140704
+cf_889c6b13efb3,Replay,탱크 플레이트 포 맨,1,False,,ci_d982e707ddbc,,,139.0,0.005025125628140704
+cf_1cd4e3bb8a03,Elizabeth Arden,보,1,False,,ci_7f3e7adcd39e,140.0,,,0.005
+cf_4d6a8c996a34,Atelier Faye,슬립핑 베이비,1,False,,ci_b58c9e05319d,,140.0,,0.005
+cf_e50c2ec1f66f,Replay,시그니처 시크릿 포 우먼,1,False,,ci_2169b2f1510d,,,140.0,0.005
+cf_4dd666d17f3a,리베르,금목서 플라워 소사이어티 Flower Society,1,False,,ci_27c1466023f4,141.0,,,0.004975124378109453
+cf_d2f699856a66,그라펜,기프트 타투 원우드 선물,1,False,,ci_e0047f33d1fc,,141.0,,0.004975124378109453
+cf_5482c20b23e5,TUMI,어웨이큰 08 00,1,False,,ci_07d09ab41d6d,,,141.0,0.004975124378109453
+cf_b0399585ce21,Replay,소스 오브 라이프 포 우먼,1,False,,ci_60a36f908dca,,,142.0,0.0049504950495049506
+cf_4f0b5dbf8150,Trussardi,르비드밀라노 디이탈리안 아티스트 오브 비아솔페리노EDP,1,False,,ci_9975d74312fa,,,143.0,0.0049261083743842365
+cf_68e57a983f7a,Versace,에로스 에너지 1종,1,False,,ci_0212e7f4c6dc,,,144.0,0.004901960784313725
+cf_2958af6edf7c,Vivienne Westwood,성호 론도24,1,False,,ci_546041f781eb,145.0,,,0.004878048780487805
+cf_cfe454f436d2,Narciso Rodriguez,클린코튼향 나르시소 래디언트,1,False,,ci_da542ea22760,,145.0,,0.004878048780487805
+cf_888859454e23,Philosophy,어메이징 그레이스,1,False,,ci_fb0dea544479,,146.0,,0.0048543689320388345
+cf_88d9ac338dcd,Versace,브라이트 크리스탈 앱솔루 1종,1,False,,ci_389ff6daf20d,,,146.0,0.0048543689320388345
+cf_2d00760a3eea,센녹,베이비블러셔50ml,1,False,,ci_0285f73ab836,147.0,,,0.004830917874396135
+cf_865169db3f97,포엘리에,우디&머스크향 옴므,1,False,,ci_69104ca504fb,148.0,,,0.004807692307692308
+cf_0f6ac39ed1f7,Vivienne Westwood,운학 콜린,1,False,,ci_13239fdc7c7a,149.0,,,0.004784688995215311
+cf_64e29ee5dfc7,라퐁프,우드세이지앤씨솔트,1,False,,ci_d118d49fa626,150.0,,,0.004761904761904762
+cf_18770a5d0256,Clean,퓨어솝 중,1,False,,ci_46384c7971c9,,150.0,,0.004761904761904762
+cf_f9f9d6b27de7,Trussardi,르비드밀라노 디스트릭트 오브 노로,1,False,,ci_bbf72792ad02,,,151.0,0.004739336492890996
+cf_5474d28dbfcc,Rance 1795,오 드 제피르,1,False,,ci_f12a519af9c5,,,152.0,0.0047169811320754715
+cf_b94ac9272a26,리베르,장미 생화향 로즈 제스트 Rose Zest,1,False,,ci_22b490f019e7,153.0,,,0.004694835680751174
+cf_a7ff4e6faa2a,누다라,우디 무화과향 우드마벨,1,False,,ci_c0c0fa5e9996,,153.0,,0.004694835680751174
+cf_b4180d7f1058,Montale,아라비안스,1,False,,ci_d9e3d05906cb,,,153.0,0.004694835680751174
+cf_95609e6b4782,헤레카,트렌디한 우디향 스모키우드,1,False,,ci_cd58bf00b394,,154.0,,0.004672897196261682
+cf_871704abe269,Montale,바닐 압솔뤼,1,False,,ci_ec6da844c7a5,,,154.0,0.004672897196261682
+cf_2ba1c4d112db,SW19,5pm,1,False,,ci_dd2b9244c21e,155.0,,,0.004651162790697674
+cf_c8d9cdcdf619,테누이,페더,1,False,,ci_4a563c9a37f7,156.0,,,0.004629629629629629
+cf_d4d69038efe4,Lolita Lempicka,롤리타렘피카,1,False,,ci_a50613603e2e,157.0,,,0.004608294930875576
+cf_852d00ea283e,에이딕트,보이드 우드,1,False,,ci_e7e143c807cb,,158.0,,0.0045871559633027525
+cf_08ce3d5128d0,Montale,바닐라 케이크,1,False,,ci_47ce05cd8c6f,,,158.0,0.0045871559633027525
+cf_9252f805da84,Coach,플로럴,1,False,,ci_526ec19a16c3,159.0,,,0.0045662100456621
+cf_6f53d8b1e02d,에이딕트,웜 애프터눈,1,False,,ci_744309a78c02,,159.0,,0.0045662100456621
+cf_9dda64c465e9,밀크하우스캔들,오일 썬 키스드 피오니,1,False,,ci_778b0b7da2b4,160.0,,,0.004545454545454545
+cf_6a6752b0c3f6,호텔도슨,셀프블룸 첫사랑,1,False,,ci_86a2a6344a19,,161.0,,0.004524886877828055
+cf_a754e4dadb93,Vivienne Westwood,기프트패키지,1,False,,ci_930cf33cf7ca,162.0,,,0.0045045045045045045
+cf_33fb7bae2ce6,루아페,레몬비누향 스티미 솝,1,False,,ci_9af8bebe3a27,,162.0,,0.0045045045045045045
+cf_6d5c31a01738,Adidas,김재원 아디다스 풀 리차지 30ml,1,False,,ci_d725899bf33e,,163.0,,0.004484304932735426
+cf_0ae601989c9c,Mancera,엠버 피버,1,False,,ci_59d00d38b234,,,163.0,0.004484304932735426
+cf_82e0461d78ec,Versace,맨 오 플래쉬,1,False,,ci_d957da2d1808,164.0,,,0.004464285714285714
+cf_b947984751cf,Atelier Faye,던 인 오슬로,1,False,,ci_c71a131731e4,,164.0,,0.004464285714285714
+cf_4a7ed06cecca,Mancera,세드라 부아제,1,False,,ci_f2f04563896f,,,164.0,0.004464285714285714
+cf_d1447106a844,벨벳바니,스킨 포에버영,1,False,,ci_260b8737227d,,165.0,,0.0044444444444444444
+cf_e13403b4e3ee,알보우,앰버생귄,1,False,,ci_eb015ec8fb7d,167.0,,,0.004405286343612335
+cf_c6765701573e,에이딕트,에탄올 FREE 버베나 레인,1,False,,ci_27bd716825bd,,167.0,,0.004405286343612335
+cf_f6ed85075361,Calvin Klein,씨케이원,1,False,,ci_8464256d016c,169.0,,,0.004366812227074236
+cf_18c95e64f42b,Dolce&Gabbana,베스트 리뉴얼 라이트블루 뿌르 옴므,1,False,,ci_63034975f070,,170.0,,0.004347826086956522
+cf_9a1d4aa3ac51,Mancera,코스믹 페퍼,1,False,,ci_d315de036a0e,,,170.0,0.004347826086956522
+cf_31fcf1a7a199,부씨,해피벌쓰데이,1,False,,ci_b48623383c0d,171.0,,,0.004329004329004329
+cf_fb71805cd6ed,Montale,데이 드림즈,1,False,,ci_0381d47c8406,,,171.0,0.004329004329004329
+cf_6053689b24d0,SW19,6am,1,False,,ci_497d08e59bab,172.0,,,0.004310344827586207
+cf_50e61e524396,Chloé,나츄렐,1,False,,ci_c565283367da,,172.0,,0.004310344827586207
+cf_ca6bbdb83298,Trussardi,르비드밀라노 비하인드 더 커튼 피아차 라스칼라,1,False,,ci_938c20fbc0d3,,,172.0,0.004310344827586207
+cf_73b28910e608,Adidas,아디다스 바이브 스파크 업,1,False,,ci_9dc4ddf6a982,173.0,,,0.004291845493562232
+cf_126d4e25ea8e,Trussardi,르비드밀라노 아이비콜리 피오리 치아리,1,False,,ci_54dcd14cd0b1,,,173.0,0.004291845493562232
+cf_4ac474fd91e8,플르부아,모닝소일,1,False,,ci_31a28acedf24,174.0,,,0.004273504273504274
+cf_fdb9ce382036,Trussardi,르비드밀라노 워킹인 포르타 베네치아,1,False,,ci_2b2dcf87238b,,,174.0,0.004273504273504274
+cf_8bf512daaaf6,알보우,도쿄 스트라이프,1,False,,ci_81bef84723e6,175.0,,,0.00425531914893617
+cf_36b5d62a96f1,Trussardi,르비드밀라노 디이탈리안 아티스트 비아솔페리노 EDP100ml,1,False,,ci_d7e4b6dd1cf0,,,175.0,0.00425531914893617
+cf_bc0cb6032d46,Coach,우먼,1,False,,ci_4c068584014c,176.0,,,0.00423728813559322
+cf_9dd6be53f5ea,Trussardi,르비드밀라노 비하인더커튼 피아차 라스칼라EDP,1,False,,ci_e2bc8eed511e,,,176.0,0.00423728813559322
+cf_aafbcb08d78e,Versace,맨 오 프레쉬,1,False,,ci_9825f4c137fe,,177.0,,0.004219409282700422
+cf_bdb35a3f1adf,Trussardi,르비드밀라노 아이비콜리 비아 피오리 치아리EDP,1,False,,ci_00a33e55aff9,,,177.0,0.004219409282700422
+cf_a594e12f8f3f,Lush,무민 무민밸리,1,False,,ci_ff5de9a9b99e,178.0,,,0.004201680672268907
+cf_fdbcafebf041,Lanvin,에끌라 드 아르페쥬 화이트 티,1,False,,ci_21e1d1f3e3be,,178.0,,0.004201680672268907
+cf_3a6aab83ce41,Trussardi,르비드밀라노 알바수이 나빌리,1,False,,ci_c59ba142b294,,,178.0,0.004201680672268907
+cf_2a70e16c79a8,Mancera,체리 체리,1,False,,ci_0b77f29fee74,,,179.0,0.0041841004184100415
+cf_032c648f4900,Issey Miyake,뤼미에르 디세이,1,False,,ci_ce3d6cf26038,,180.0,,0.004166666666666667
+cf_16a7259a4110,Mancera,친퀘 테레,1,False,,ci_8fc9d9da835c,,,180.0,0.004166666666666667
+cf_0653fa66fc85,Narciso Rodriguez,포 힘 블루 느와르,1,False,,ci_53cfaa111d0d,181.0,,,0.004149377593360996
+cf_e76b00d444c5,Montblanc,레전드 스피릿,1,False,,ci_601bb9c6684d,,181.0,,0.004149377593360996
+cf_027e9f40148c,Mancera,블랙 골드,1,False,,ci_9d2eaf5bd206,,,181.0,0.004149377593360996
+cf_b77089f53246,Narciso Rodriguez,포 허,1,False,,ci_53ea5c255a06,,182.0,,0.004132231404958678
+cf_22aaea243c46,Mercedes-Benz,맨 프레쉬,1,False,,ci_1ae8327ff37a,,183.0,,0.00411522633744856
+cf_84f7b41e823c,Nishane,아니 엑스트레 드 3종,1,False,,ci_f1a7e056026a,,,183.0,0.00411522633744856
+cf_287df7ccdef3,Clean,클래식 레인,1,False,,ci_0f5b3a1e90a1,184.0,,,0.004098360655737705
+cf_4a117d51e791,Michael Kors,마이클 코어스 고저스,1,False,,ci_58725aaf12a6,,184.0,,0.004098360655737705
+cf_3362b8e71c2d,Philosophy,퓨어 그레이스,1,False,,ci_557fad01877a,,185.0,,0.004081632653061225
+cf_e493f28a1d1f,Nishane,페보니우스 런던엑스트레 드 3종,1,False,,ci_5a2e37211d45,,,186.0,0.0040650406504065045
+cf_24fa553c51bb,Montale,인피니티,1,False,,ci_cc5699938bed,,,187.0,0.004048582995951417
+cf_c4fcdf26efac,Atelier Faye,마이스킨벗베터,1,False,,ci_d0f1ec6b5268,189.0,,,0.004016064257028112
+cf_325139a53019,포스테스,프롬 서울,1,False,,ci_4da5a76aab11,,189.0,,0.004016064257028112
+cf_86151ee716da,Calvin Klein,CK 에브리원,1,False,,ci_c854a702a4f1,,190.0,,0.004
+cf_dc6ee3ba5d1f,에이오지,레이,1,False,,ci_90e038c982e8,191.0,,,0.00398406374501992
+cf_69e65840ad86,알보우,지원 케이스 스터디 앰버 생귄,1,False,,ci_4f8978fe008f,,191.0,,0.00398406374501992
+cf_233f6a6f8e57,Montale,솔레이 드 카프리,1,False,,ci_a07995306f61,,,191.0,0.00398406374501992
+cf_524da9ca314e,시머스,애프터 샤워,1,False,,ci_df87c84ede43,192.0,,,0.003968253968253968
+cf_d5ec209ae57b,Parfums Berdoues,그랑크뤼 과리아 모라다,1,False,,ci_73a08f4ff6ee,,,192.0,0.003968253968253968
+cf_b87f808d6ec9,John Varvatos,XX 아티산 틸,1,False,,ci_f450a6755aed,193.0,,,0.003952569169960474
+cf_d5a59de54f81,Parfums Berdoues,콜렉 션 그랑크뤼 펑라이,1,False,,ci_2741ea11a23d,,,193.0,0.003952569169960474
+cf_ff14c10b3fa7,Lanvin,모던 프린세스,1,False,,ci_41d60a0e2fa1,194.0,,,0.003937007874015748
+cf_e158d45f06b7,리베르,금목서 플라워 소사이어티,1,False,,ci_d32688a3529e,,194.0,,0.003937007874015748
+cf_4f8403d636af,Elizabeth Arden,5번가,1,False,,ci_9e0bd95ecae5,195.0,,,0.00392156862745098
+cf_b0537ca31deb,Atelier des Ors,느와 바이 나이트,1,False,,ci_0c2c64f28c57,,,195.0,0.00392156862745098
+cf_7c7a8e3522b4,Maison Martin Margiela,레플리카 버블 바스,1,False,,ci_ea64a82edfc9,196.0,,,0.00390625
+cf_6e89820e43e4,Versace,베르사체 크리스탈 에메랄드,1,False,,ci_30d2393db880,197.0,,,0.0038910505836575876
+cf_32514f02066c,Jaguar,이어러,1,False,,ci_bd6e43db5574,,,197.0,0.0038910505836575876
+cf_7522ebf58e2b,부씨,아브라카다멈,1,False,,ci_6f14dc6b6a6e,198.0,,,0.003875968992248062
+cf_6e92ca9206b3,홀리바넘,썸머 브레이크,1,False,,ci_d948983677b4,,198.0,,0.003875968992248062
+cf_eb226a7af12e,TUMI,키네틱,1,False,,ci_f53b2c73d710,,,198.0,0.003875968992248062
+cf_549b0838ae00,Nikos,스컬프쳐,2,False,,ci_34346c0a273e|ci_73fd56d19a90,,,199.0,0.003861003861003861
+cf_9159f82c7ada,Ariana Grande,땡큐 넥스트 2 0 중,1,False,,ci_eb2f443e9a0f,,200.0,,0.0038461538461538464
+cf_ed18b9fcae0a,달바,리추얼 탠저린,1,False,,ci_ad76d8d8a14e,201.0,,,0.0038314176245210726
+cf_cf12e64fa539,Demeter Fragrance,리프레싱 오 파퓨메 자킨토스 그리스,1,False,,ci_4366f5321b19,,202.0,,0.003816793893129771
+cf_123ed4a8c4b8,TUMI,컨티넘 12 00,1,False,,ci_c36740a80f2a,,,202.0,0.003816793893129771
+cf_26725cece962,SW19,3pm,1,False,,ci_17c80f7171f7,203.0,,,0.0038022813688212928
+cf_de6bf1476b12,Clean,애플블로썸 30 중,1,False,,ci_6b5af3b2a5b1,,203.0,,0.0038022813688212928
+cf_118df5766325,TUMI,아틀라스 00 00,1,False,,ci_f7f619b38258,,,203.0,0.0038022813688212928
+cf_60e60519a738,Jimmy Choo,우먼,1,False,,ci_53a64fbdd1d7,205.0,,,0.0037735849056603774
+cf_c2bb12d62e62,Philosophy,원지안 프레쉬 웜캐시미어 60ml파우치,1,False,,ci_769eb2e093e9,,206.0,,0.0037593984962406013
+cf_0fb86e5c7dc0,루아페,포근코튼향 코지 머스크,1,False,,ci_7d5de579c0ec,,207.0,,0.003745318352059925
+cf_6c9f07086127,TUMI,언와인드 20 00,1,False,,ci_080f658678f2,,,207.0,0.003745318352059925
+cf_b777cf329c1d,Maison Martin Margiela,레플리카 소울 오브 더 포레스트,1,False,,ci_4f7f153d45a8,208.0,,,0.0037313432835820895
+cf_3c6c93684146,에틀리에,엔믹스해원 플라워 앤 슈가,1,False,,ci_b284833a9f15,,208.0,,0.0037313432835820895
+cf_f167ac372486,Kenneth Cole,블랙 포 허,1,False,,ci_6b6e6390b821,,,208.0,0.0037313432835820895
+cf_090e3c54977f,에틀리에,엔믹스규진 트와일라잇블룸,1,False,,ci_b1e45f9c38b7,,209.0,,0.0037174721189591076
+cf_1b811686ec1d,Kenneth Cole,맨카인드,1,False,,ci_e728228b3ab2,,,209.0,0.0037174721189591076
+cf_f06f34e12cda,에틀리에,엔믹스배이 바닐라앤라벤더,1,False,,ci_9472d243aa2e,,210.0,,0.003703703703703704
+cf_e87b9cb2a7da,로이비,미니 베르가못 앤 화이트로즈,1,False,,ci_9ee5bebf2fa0,,211.0,,0.0036900369003690036
+cf_598edf1a1d58,오브제,베르가못 레인,1,False,,ci_34501be0a36e,212.0,,,0.003676470588235294
+cf_2e857b426ee8,Banana Republic,토바코&통카빈,1,False,,ci_52cf9a832163,,,212.0,0.003676470588235294
+cf_217ff0c5beb8,Lalique,솔레이 비브랑,1,False,,ci_d4d00261f05c,,,213.0,0.003663003663003663
+cf_738039b59e78,SW19,Midnight 오일,1,False,,ci_1524c4e433b8,214.0,,,0.0036496350364963502
+cf_729e2bebea76,Lalique,솔레이,1,False,,ci_647462aaf9a7,,,214.0,0.0036496350364963502
+cf_d9c3d85df446,루아페,다이브 가든 v2,1,False,,ci_e1819ca9b3c1,215.0,,,0.0036363636363636364
+cf_4191efb103d8,The Body Shop,더 샵 화이트 머스크,1,False,,ci_e0cf42b26f03,,215.0,,0.0036363636363636364
+cf_68584bf6e0a6,Maison Martin Margiela,레플리카 프롬 더 가든,1,False,,ci_9a7db233bb7a,216.0,,,0.0036231884057971015
+cf_2bdc12755574,Versace,블루진,1,False,,ci_c4a5a43bd1ec,217.0,,,0.0036101083032490976
+cf_e45a13b3fa6a,Clean,& 로즈올데이,1,False,,ci_a1827c4749b3,,217.0,,0.0036101083032490976
+cf_6ad4c87d485a,Grès,카보틴 로즈,1,False,,ci_436c24e79e33,,,217.0,0.0036101083032490976
+cf_1368a31f17d0,Maison Martin Margiela,레플리카 바이 더 파이어플레이스,1,False,,ci_f05acbcf9804,218.0,,,0.0035971223021582736
+cf_49cf9c2c5d57,벨벳바니,스킨 퍼스트러브,1,False,,ci_0bd67c755b25,,219.0,,0.0035842293906810036
+cf_c8dcf7bda2dc,Grès,카보샤 셰리,1,False,,ci_a08338f33701,,,219.0,0.0035842293906810036
+cf_f11564355bb3,벨벳바니,스킨 마이선샤인,1,False,,ci_30c9dd74e686,,220.0,,0.0035714285714285713
+cf_05deb7345bc8,Grès,카보샤,1,False,,ci_2a8635bc11bf,,,220.0,0.0035714285714285713
+cf_35f42f429245,리베르,풀향 그린 사운즈 Green Sounds,1,False,,ci_51b04b29e3eb,221.0,,,0.0035587188612099642
+cf_97d215a81c46,벨벳바니,스킨 실키모닝,1,False,,ci_f6578684a2bf,,221.0,,0.0035587188612099642
+cf_bdd5577ea266,Montale,파우더 플라워즈,1,False,,ci_79005a235893,,,221.0,0.0035587188612099642
+cf_6e42aa50536e,Lancôme,이돌,1,False,,ci_c54b619695d7,,222.0,,0.0035460992907801418
+cf_8d36fd9d6ba4,Montale,우드&스파이스,1,False,,ci_66cce5ea1377,,,222.0,0.0035460992907801418
+cf_a6f84b957b35,Memo Paris,오데옹,1,False,,ci_1f097a903a19,,223.0,,0.0035335689045936395
+cf_63d3ccc5f0ca,Mancera,로즈 바닐,1,False,,ci_addb5a20b96f,,,223.0,0.0035335689045936395
+cf_38ccb2621b1a,Narciso Rodriguez,포 허 인텐스,1,False,,ci_560e6d97c163,,224.0,,0.0035211267605633804
+cf_dfb862fec92e,Dolce&Gabbana,리뉴얼 라이트블루 뿌르 옴므,1,False,,ci_253bb2170a5c,,225.0,,0.0035087719298245615
+cf_d1d04caa071b,라퐁프,엔 스쉐어,1,False,,ci_711f7e8f5ea3,226.0,,,0.0034965034965034965
+cf_475d13fc757d,Montale,프리티 프루티,1,False,,ci_f24c84468cb7,,,226.0,0.0034965034965034965
+cf_e5e77da92fb3,Narciso Rodriguez,올 오브 미 인텐스,1,False,,ci_4f36549015dc,,227.0,,0.003484320557491289
+cf_5a789b8716ed,휴파슨스,본드스트리트,1,False,,ci_a5e651da90ff,,,227.0,0.003484320557491289
+cf_ad74ca83f399,Lanvin,레 플레르 드 스위트 자스민,1,False,,ci_d726eb9cd3a9,,228.0,,0.003472222222222222
+cf_34ea75e23717,Mancera,레드 토바코,1,False,,ci_8fce3d2bf820,,,228.0,0.003472222222222222
+cf_93e745fe4d02,Philosophy,어메이징 그레이스 발레로즈,1,False,,ci_00beca65a7db,,229.0,,0.0034602076124567475
+cf_fec560ea02bf,유쏘풀,엠포리아코튼 니치,1,False,,ci_b36dd42c8572,230.0,,,0.0034482758620689655
+cf_612501ae872a,Mancera,베티버 센슈얼,1,False,,ci_d949fba63554,,,230.0,0.0034482758620689655
+cf_c271dc4ac636,Montale,머스크 투 머스크,1,False,,ci_b5092ea1a84d,,,231.0,0.003436426116838488
+cf_0acdb5ec2c84,The Body Shop,화이트 머스크 98139,1,False,,ci_a7bda112211a,232.0,,,0.003424657534246575
+cf_a8b790254bce,SW19,8am,1,False,,ci_6ce8b5ca257a,233.0,,,0.0034129692832764505
+cf_65fc225c9be4,포스테스,프롬 맨하튼 2607 리뉴얼,1,False,,ci_59cfc1647b5c,,233.0,,0.0034129692832764505
+cf_52df4f71f9ca,Burberry,브릿 포 힘,1,False,,ci_7a7a4c97f02b,,234.0,,0.003401360544217687
+cf_275f945ea0f2,Montale,로즈 엘릭시르,1,False,,ci_02bfc852a873,,,234.0,0.003401360544217687
+cf_9b0a24edc824,Versace,뿌르 옴므,1,False,,ci_a808a5a9dea4,235.0,,,0.003389830508474576
+cf_2df1dd953dd6,알보우,케이스 스터디 몬순,1,False,,ci_3f5039d94f4d,,235.0,,0.003389830508474576
+cf_a66a040aa267,Montale,크리스탈 플라워즈,1,False,,ci_ba040a294bf0,,,235.0,0.003389830508474576
+cf_7e64a89bfadb,Montale,스위트 피오니,1,False,,ci_d84388df7a7e,,,236.0,0.0033783783783783786
+cf_36407077c3b5,Calvin Klein,CK One 골드,1,False,,ci_77bccd934bf9,,237.0,,0.003367003367003367
+cf_58286317448d,Rance 1795,르와엠페러 포 맨,1,False,,ci_5ae531dd8075,,,237.0,0.003367003367003367
+cf_478fac87d7a1,Forment,페블,1,False,,ci_24cc796dbb5b,238.0,,,0.003355704697986577
+cf_94e69f74bdef,Sabrina Carpenter,스위트 투스 카라멜 드림,1,False,,ci_ddce5bc87547,,238.0,,0.003355704697986577
+cf_92bb9f7ccc4e,Mancera,골드 인센스,1,False,,ci_ae479988a6d6,,,238.0,0.003355704697986577
+cf_f42ef24f9ba1,호텔도슨,미드소마 새벽공기향 디스커버리,1,False,,ci_da65e0151ab7,239.0,,,0.0033444816053511705
+cf_116d079bdfc6,아로,체리 온 탑,1,False,,ci_8bb4b595b483,,239.0,,0.0033444816053511705
+cf_8a7251765e46,휴파슨스,화이트홀,1,False,,ci_e171cbefba6e,,,239.0,0.0033444816053511705
+cf_68a38a8995a8,투데이이즈,인더메모리 오드,1,False,,ci_7bb29fdae112,,241.0,,0.0033222591362126247
+cf_8f3493ed7fd0,Replay,러버즈 포 맨,1,False,,ci_3c99c7084bc3,,,241.0,0.0033222591362126247
+cf_b0418ff2ea3a,Elizabeth Arden,그린티 넥타린 블러썸,1,False,,ci_6e45f24474bd,242.0,,,0.0033112582781456954
+cf_0e5529b62b5a,Philosophy,원지안 퓨어그레이스 60ml,1,False,,ci_1fc55836b760,,242.0,,0.0033112582781456954
+cf_62fcc3d9e0f7,Montale,오드 포레스트,1,False,,ci_2faf29e0440f,,,242.0,0.0033112582781456954
+cf_2e9bae37612e,Jaguar,클래식 블랙,1,False,,ci_10ec36e81e9c,,,243.0,0.0033003300330033004
+cf_655927f2cf6d,Replay,소스 오브 라이프 포 맨,1,False,,ci_cbb9c5fbc6d6,,,244.0,0.003289473684210526
+cf_7372f85c580c,Dolce&Gabbana,라이트 블루 하이드레이팅,1,False,,ci_3588de8ac719,246.0,,,0.0032679738562091504
+cf_d54a8b7df6bb,홀리바넘,라임에이드,1,False,,ci_b877af4fc24d,,246.0,,0.0032679738562091504
+cf_3378e2caf68c,Replay,시그니처 러버즈 포 맨,1,False,,ci_b8783dfdbdea,,,246.0,0.0032679738562091504
+cf_3edcce3c35e6,Ariana Grande,문라이트,1,False,,ci_e6d05eb7a38a,,247.0,,0.003257328990228013
+cf_89916d4ea40f,Clean,클래식 스트로베리 필즈,1,False,,ci_ab5528fe9f89,248.0,,,0.003246753246753247
+cf_75695eea1209,Replay,시그니처 러버즈 포 우먼,1,False,,ci_1561b7dafb62,,,248.0,0.003246753246753247
+cf_77a37ffc54cd,Lalique,라무르,1,False,,ci_4fba2d4ee366,,,249.0,0.003236245954692557
+cf_fa8179cd8d3e,테일러센츠,오브제 페일린넨,1,False,,ci_2861f81458d2,,250.0,,0.0032258064516129032
+cf_c3bb962864f1,마주리,챠밍 튜베로즈,1,False,,ci_a5c10f14e59f,,,250.0,0.0032258064516129032
+cf_62f38763cc55,호텔도슨,미드소마,1,False,,ci_8e7b7692d647,251.0,,,0.003215434083601286
+cf_934c270cacce,Kenzo,로 뿌르 옴므,1,False,,ci_9cc569410f2e,,251.0,,0.003215434083601286
+cf_09592c999b7f,스침,넛츠 바닐라 우유 풍부한 자연의 넛츠 달콤한 바닐라 향,1,False,,ci_06b1aaf49470,252.0,,,0.003205128205128205
+cf_f91512ea677b,Narciso Rodriguez,올 오브 미 센티드,1,False,,ci_abc832e5b5ca,,252.0,,0.003205128205128205
+cf_560f573d8a62,Replay,탱크 플레이트 포 우먼,1,False,,ci_cd663b989366,,,252.0,0.003205128205128205
+cf_2054d5f85d26,스침,토마케일 우유 달콤하고 신선한 토마토 푸른 케일 향,1,False,,ci_7ec2c6569622,253.0,,,0.003194888178913738
+cf_6749afe3f806,마주리,더 원 앤 온리,1,False,,ci_448e593fbf02,,,254.0,0.0031847133757961785
+cf_fbc264dc33e2,John Varvatos,아티산 포레스트,1,False,,ci_9a50df59f0bc,255.0,,,0.0031746031746031746
+cf_98d2e4430ca1,마주리,누르 네롤리,1,False,,ci_b66449e455e2,,,255.0,0.0031746031746031746
+cf_c72b1b3b84f0,마인드오버바디,생화장미 로즈온어플래닛,1,False,,ci_f7ced541c01c,256.0,,,0.0031645569620253164
+cf_05b40d5b2961,에이딕트,잇 더 피치,1,False,,ci_a311c73ea635,,256.0,,0.0031645569620253164
+cf_57eba4d131cb,마주리,보헤미안 티,1,False,,ci_051584ccfe35,,,256.0,0.0031645569620253164
+cf_8586ca21a986,Clean,리저브 블렌드 스킨,1,False,,ci_e57d14822a83,257.0,,,0.0031545741324921135
+cf_7e74023e59f0,헉슬리,블루 메디나 탠저린,1,False,,ci_f7349d89d33c,,257.0,,0.0031545741324921135
+cf_972990854179,Bentley,모멘텀 인텐스,1,False,,ci_12c8169c219a,,,257.0,0.0031545741324921135
+cf_53e42834c1b1,Maison Martin Margiela,레플리카 스프링타임 인 어 파크,1,False,,ci_48a7650c4dbb,258.0,,,0.0031446540880503146
+cf_c8de04d7dd37,헉슬리,로즈 피커,2,False,,ci_893ff4f3f808|ci_731165a107e2,,258.0,,0.0031446540880503146
+cf_f80d465bd623,Adidas,김재원 아디다스 원더포스,1,False,,ci_aa51823e6538,,259.0,,0.003134796238244514
+cf_c5373fe00720,Mancera,미드나이트 골드,1,False,,ci_83b29bbf18ab,,,259.0,0.003134796238244514
+cf_79f2ac6c7e92,킨포크노츠,캡틴스 바,1,False,,ci_1ac810c12f6a,261.0,,,0.003115264797507788
+cf_e72a50af23e7,호텔도슨,살룻투유 시트러스 블렌드향,1,False,,ci_3372e6dd6fbb,,261.0,,0.003115264797507788
+cf_b5c4e0ff038e,Elizabeth Arden,베닝,1,False,,ci_214ae48a4e34,262.0,,,0.003105590062111801
+cf_3523d9615188,호텔도슨,미드소마 새벽공기향,1,False,,ci_dbe21b3bd09b,,262.0,,0.003105590062111801
+cf_2599938c73d6,Mancera,블랙 바닐라,1,False,,ci_c8a9a9b57305,,,262.0,0.003105590062111801
+cf_e877c61ce8ef,에틀리에,엔믹스설윤 코튼파우더,1,False,,ci_17e18d76e28e,,263.0,,0.0030959752321981426
+cf_194a5421c4b3,Atelier Faye,코지파자마,1,False,,ci_ec936f18d36c,,264.0,,0.0030864197530864196
+cf_dc6fcef66b6f,Atelier Faye,프렌치로즈,1,False,,ci_8ef0ec586657,,265.0,,0.003076923076923077
+cf_19c9fac4afcc,바디판타지,파우치 판타지,1,False,,ci_568e2bd50b5b,266.0,,,0.003067484662576687
+cf_c934af463532,Vivienne Westwood,보이넥스트도어 에끌로에,1,False,,ci_1ee9b276cd55,267.0,,,0.0030581039755351682
+cf_62c2bb4252a3,The Body Shop,더 샵 브리티쉬 로즈,1,False,,ci_9410f2c3c9e1,,267.0,,0.0030581039755351682
+cf_dd6628bf3047,Atelier des Ors,포멜로 리비에라,1,False,,ci_39d86a5f4b24,,,267.0,0.0030581039755351682
+cf_22d15c81403f,데이모어센트,20 쉘 Type 업그레이드 엑스트레드 니치,1,False,,ci_25a3e29e48bc,268.0,,,0.003048780487804878
+cf_00ddbb5c1f66,Atelier Faye,블랙 우드,1,False,,ci_d877021d43d8,,268.0,,0.003048780487804878
+cf_24a691d70ca5,Bentley,포맨 아쥬르,1,False,,ci_518171a4f3e2,,,268.0,0.003048780487804878
+cf_5d750132199b,Mancera,자르당 엑스클루시프,1,False,,ci_2f4d77d65b38,,,269.0,0.00303951367781155
+cf_0808fbb8f8c2,Adidas,김재원 아디다스 겟 컴피 30m,1,False,,ci_6591ee6833ed,,270.0,,0.0030303030303030303
+cf_45cfe4ea353d,Adidas,바이브 스무스 페이스,1,False,,ci_5af09bf5d215,271.0,,,0.0030211480362537764
+cf_d3046c96ee74,Atelier Faye,실크 매그놀리아,1,False,,ci_c8263db73b5c,,271.0,,0.0030211480362537764
+cf_405119679040,L'Occitane en Provence,버베나 & 인비고레이팅,1,False,,ci_90198f48e65a,,272.0,,0.0030120481927710845
+cf_d35c4ea565c7,Montale,로즈 머스크,1,False,,ci_9fc3c852d933,,,273.0,0.003003003003003003
+cf_95320e6af7be,시머스,상탈 팬텀,1,False,,ci_75acfa90d705,274.0,,,0.0029940119760479044
+cf_d15da2d8ae42,Montale,퓨어 골드,1,False,,ci_e762cd7a9d4a,,,274.0,0.0029940119760479044
+cf_7919c724003d,Issey Miyake,로디세이 뿌르 옴므,1,False,,ci_16d1dac7e3d3,275.0,,,0.0029850746268656717
+cf_6ef04385cf09,에이딕트,에탄올 FREE,1,False,,ci_4814f96f3a19,,275.0,,0.0029850746268656717
+cf_b507854e5092,로맨띠끄,명품 도손&화이트플로럴향 튜베로즈,1,False,,ci_1a425f8adb57,,276.0,,0.002976190476190476
+cf_362a3098fb4f,Jill Stuart,LIMITED 크리스탈 블룸 썸씽 퓨어 블루 000원 상당,1,False,,ci_03db89ce6119,277.0,,,0.002967359050445104
+cf_7d78a7d866f6,Adidas,김재원 아디다스 에너지 드라이브 30ml,1,False,,ci_2c9beac9d0e8,,277.0,,0.002967359050445104
+cf_6df36174261f,Montale,인텐스 카페,1,False,,ci_b15c2acb2ca9,,,277.0,0.002967359050445104
+cf_c6e1423d3600,Ex Nihilo,러스트 인 파라다이스,1,False,,ci_951ff379ce1b,278.0,,,0.0029585798816568047
+cf_d96dfe80f282,슬로우허밍,플라워너리 릴리프 플레르베일,1,False,,ci_b53be752c6dd,,278.0,,0.0029585798816568047
+cf_8f927ba68e6d,아닐로,패츌리가든 단독,1,False,,ci_ef9d82e1fef1,,279.0,,0.0029498525073746312
+cf_ca46381d50dc,슬로우허밍,프루티너리 터치피치,1,False,,ci_364e46e48e35,,281.0,,0.002932551319648094
+cf_90be27c2ede8,Etat Libre d'Orange,헤르만,1,False,,ci_ec985663d1ef,282.0,,,0.0029239766081871343
+cf_7b51b7bb61a7,슬로우허밍,플라워너리 플라워솝,1,False,,ci_c41a52adbb73,,282.0,,0.0029239766081871343
+cf_43d204d893c8,Kenzo,로 뿌르 팜므,1,False,,ci_10b88a70f281,,284.0,,0.0029069767441860465
+cf_70ace857ec9d,Montale,퓨어 러브,1,False,,ci_ebd53e0f3a15,,,284.0,0.0029069767441860465
+cf_da3e826faecf,Versace,레드진,1,False,,ci_43fb1cd8f909,285.0,,,0.002898550724637681
+cf_2dd2fade6502,Atelier des Ors,누다 베리타스,1,False,,ci_008f1b2b4638,,,285.0,0.002898550724637681
+cf_6ab8f4c1f9f9,다비도프,쿨워터맨 EDT125,1,False,,ci_daeb9fd9cbb7,286.0,,,0.002890173410404624
+cf_920e5a3f7d9f,Atelier des Ors,리비에라 드라이브,1,False,,ci_3bab723fc064,,,286.0,0.002890173410404624
+cf_dbaa297d7596,Maison Martin Margiela,레플리카 체이싱 선셋,1,False,,ci_d4c9681992bb,287.0,,,0.002881844380403458
+cf_1a914e781476,Marc Jacobs,데이지 오 쏘 프레쉬,1,False,,ci_07ca704561a6,,287.0,,0.002881844380403458
+cf_baa9c9b62fda,Versace,에로스 1종,1,False,,ci_0acb93739a8b,,,287.0,0.002881844380403458
+cf_d68d656b646e,Narciso Rodriguez,포 힘 블루 누와르,1,False,,ci_2f24ebaf093c,,288.0,,0.0028735632183908046
+cf_297434d662b1,Ariana Grande,땡큐 넥스트 2 0,1,False,,ci_2fd40db92e1f,289.0,,,0.0028653295128939827
+cf_67e4408e3833,토스,러브미,1,False,,ci_6d1c380aa36c,,289.0,,0.0028653295128939827
+cf_3227a07a9ff1,Rance 1795,헬레네 포 우먼 3종,1,False,,ci_30c87416d5e7,,,289.0,0.0028653295128939827
+cf_9b142e3b1ad4,Rance 1795,유제니 포 우먼 3종,1,False,,ci_39e4827e16fa,,,290.0,0.002857142857142857
+cf_f70ecb184ba0,Rance 1795,조세핀 포 우먼,1,False,,ci_f8922395ef1b,,,291.0,0.002849002849002849
+cf_e06d11a0b371,Lanvin,레 플레르 드 랑방 써니 매그놀리아,1,False,,ci_d5f3d77a3d05,292.0,,,0.002840909090909091
+cf_7f97996c24a9,Memo Paris,마르파,1,False,,ci_86dc614dcc29,,293.0,,0.0028328611898017
+cf_554bdf704cab,Rance 1795,오드 프랑스 3종,1,False,,ci_a7bf43ff1aa6,,,294.0,0.002824858757062147
+cf_54d49be724c7,Moschino,토이 보이,1,False,,ci_282980a7211b,,295.0,,0.0028169014084507044
+cf_e36d05459ec3,Rance 1795,프랑수와 찰스 포 맨 3종,1,False,,ci_4b4029191f03,,,295.0,0.0028169014084507044
+cf_a8e4f4c0e3f0,Marc Jacobs,퍼펙트,1,False,,ci_f4b1990c867f,,296.0,,0.0028089887640449437
+cf_d17a3b47b0d1,센녹,슬리핑로즈,1,False,,ci_721e4b717527,297.0,,,0.0028011204481792717
+cf_dbc799a42d11,Kenzo,옴므,2,False,,ci_92a3f91f742a|ci_a5b7d1b0a828,,297.0,,0.0028011204481792717
+cf_dce059fd8f2d,엔시피,601 앰버&가이악우드 파우치,1,False,,ci_64df1353a842,,299.0,,0.002785515320334262
+cf_17b2a813fda9,Parfums Berdoues,그랑크뤼 바니라 무레아,1,False,,ci_902fcb8dd6cd,,,299.0,0.002785515320334262
+cf_40270d74a652,The Body Shop,화이트 머스크 98110,1,False,,ci_07caf36ee06e,300.0,,,0.002777777777777778
+cf_71578a32a775,포엘리에,옴므 우디&머스크 남자,1,False,,ci_7189a8cff0e0,,300.0,,0.002777777777777778
+cf_1e692c097fa4,헤트라스 뷰티,핸드메이드 더 리본,1,False,,ci_d4a291c33943,301.0,,,0.002770083102493075
+cf_f5464dcc9a3b,닉켈하우스,퓨어 젭퍼,1,False,,ci_a496085fe969,302.0,,,0.0027624309392265192
+cf_83c5956c6842,Memo Paris,케두,1,False,,ci_24680e62d6d7,,302.0,,0.0027624309392265192
+cf_2c99482b3df8,라퐁프,블랑쉬,1,False,,ci_7bd259aa5e84,303.0,,,0.0027548209366391185
+cf_d5b889907a57,Narciso Rodriguez,퓨어 머스크 블랑 포 허 인텐스,1,False,,ci_487d7e45fd66,305.0,,,0.0027397260273972603
+cf_c51501a90af1,Burberry,터치 포 우먼,1,False,,ci_8c8b2a7cfdc2,,305.0,,0.0027397260273972603
+cf_ddaec9ecc10d,Dolce&Gabbana,라이트 블루 뿌르 옴므 리뉴얼,1,False,,ci_c433d1b6a85d,306.0,,,0.00273224043715847
+cf_382bf90075ad,Kenzo,옴므 오 마린,1,False,,ci_bd1391fc2268,,306.0,,0.00273224043715847
+cf_012dbd4d7324,든향,파자마 Pajama,1,False,,ci_f169826e372a,307.0,,,0.0027247956403269754
+cf_31425a640bfc,Ariana Grande,모드 블러쉬,1,False,,ci_5b4183bc4a94,,307.0,,0.0027247956403269754
+cf_abc3901d46fe,라퐁프,블랙베리앤베이,1,False,,ci_2ccc66e293c4,308.0,,,0.002717391304347826
+cf_2c6ad37ba04d,Tommy Hilfiger,타미,1,False,,ci_8628eab03e58,,308.0,,0.002717391304347826
+cf_44f2089b2815,킨포크노츠,가든 샤워,1,False,,ci_452a274f7a94,309.0,,,0.0027100271002710027
+cf_b4f9427521d8,Tommy Hilfiger,타미나우,1,False,,ci_7b2ed46e866e,,309.0,,0.0027100271002710027
+cf_28f7c46281f4,Elizabeth Arden,화이트티,1,False,,ci_8fcc2265df15,310.0,,,0.002702702702702703
+cf_b76946269f68,Coach,러브,1,False,,ci_ddb91a563b5f,,310.0,,0.002702702702702703
+cf_75dd10011089,루에브르,임현주 리베르떼,1,False,,ci_6998ac30750e,,311.0,,0.0026954177897574125
+cf_b73f10fb659d,유쏘풀,히페리온 니치,1,False,,ci_94be7baef38b,312.0,,,0.002688172043010753
+cf_7a022a0a1a47,라피네르,키링굿즈 선물포장 키링 메탈 튤립,1,False,,ci_bd7c4574ee8d,315.0,,,0.0026666666666666666
+cf_81bff4bc5e26,어레이드 오드 퍼퓸,오드 오크모스 머스크,1,False,,ci_17531ea3da3f,316.0,,,0.0026595744680851063
+cf_3eddd291f373,아로,니티 허그,1,False,,ci_aeb4feac7c07,,316.0,,0.0026595744680851063
+cf_7e37c4eac706,로맨띠끄,명품 블루드&우디향 블루 드 옴므,1,False,,ci_89da289a865f,,317.0,,0.002652519893899204
+cf_08e7c868c7ff,Sabrina Carpenter,체리베이비,1,False,,ci_fb136e084ad2,318.0,,,0.0026455026455026454
+cf_37506215b096,로맨띠끄,명품 옴브레레더&살냄새향 오리진 레더,1,False,,ci_aa6e8d3afdf0,,318.0,,0.0026455026455026454
+cf_9c43911e38ab,Clean,리저브 블렌드 레인,1,False,,ci_0c3e36599029,320.0,,,0.002631578947368421
+cf_b65791787e8f,Kenzo,겐조 옴므,1,False,,ci_cbf0d7465305,321.0,,,0.0026246719160104987
+cf_2e818209adc0,Demeter Fragrance,리프레싱 오 파퓨메 블라썸 36,1,False,,ci_ea47bf82b845,,321.0,,0.0026246719160104987
+cf_7827516486da,리베르,코튼 스팀 글로스 Steam Gloss,1,False,,ci_d3d6b5d738a1,322.0,,,0.002617801047120419
+cf_fcf71d339e34,Clean,클래식 소프트 런드리,1,False,,ci_d042ddd14dbc,323.0,,,0.0026109660574412533
+cf_3e675c5caa2d,아로,라이크 라일락,1,False,,ci_0a03eb49c87c,,325.0,,0.0025974025974025974
+cf_5c83ac28d212,Calvin Klein,씨케이원 나이트 에센스 인텐스,1,False,,ci_27332baf1a94,326.0,,,0.0025906735751295338
+cf_7152b3e4a891,부씨,HBD 해피벌쓰데이,1,False,,ci_61d7ff0fcf3d,,327.0,,0.002583979328165375
+cf_9b95a82b7464,Vivienne Westwood,리우 도쿄레이,1,False,,ci_43d322183c78,328.0,,,0.002577319587628866
+cf_ac9bd070243b,Demeter Fragrance,리프레싱 오 파퓨메 베르가못트리 시실리,1,False,,ci_ca7a6821a53b,,328.0,,0.002577319587628866
+cf_c0a88111d45e,로그인 포레스트,더 딥 피그 우디끄,1,False,,ci_f974d3be25a5,329.0,,,0.002570694087403599
+cf_2cc67a37bb17,Lush,더티,1,False,,ci_a2b3cbe832e0,330.0,,,0.002564102564102564
+cf_0caabea9b051,Atelier Faye,위스테리아 위시,1,False,,ci_b9124576388f,,330.0,,0.002564102564102564
+cf_9d234ba74a69,센녹,린넨시트러스,1,False,,ci_01af280a86a7,332.0,,,0.002551020408163265
+cf_7f55897e1f19,아이젠틀맨,남친 콜 유 마인,1,False,,ci_c0996b76357a,,332.0,,0.002551020408163265
+cf_fcba408c0d88,디아르망,여자가 좋아하는 남자 니치 블루마틴,1,False,,ci_1ec0f06d4fe6,333.0,,,0.002544529262086514
+cf_38ccb52cc83b,아이젠틀맨,남친 메이크 미 호니,1,False,,ci_d80c1e1c0e35,,333.0,,0.002544529262086514
+cf_666d4fa61d10,Elizabeth Arden,그린티 코코넛브리즈,1,False,,ci_5793667d500c,334.0,,,0.0025380710659898475
+cf_174ea38bd245,취,사찰,1,False,,ci_fd132e81dcb9,,334.0,,0.0025380710659898475
+cf_5edbf794cff9,Versace,뿌르옴므 딜런블루,1,False,,ci_e1a8a151aae2,335.0,,,0.002531645569620253
+cf_2390de462ee8,에이딕트,네이키드 오크모스 501,1,False,,ci_54cc9845214d,,335.0,,0.002531645569620253
+cf_d23bb7b8cb9e,그라펜,타투 원우드,1,False,,ci_687504aac14b,336.0,,,0.0025252525252525255
+cf_8c177407688a,에이딕트,블랑 드 블룸,1,False,,ci_6778f0cd90ba,,336.0,,0.0025252525252525255
+cf_d6dad2cd9e0e,라피네르,노드아이 오리진 메탈 튤립,1,False,,ci_784a273ea50d,337.0,,,0.0025188916876574307
+cf_d3bf2ff184ea,Dolce&Gabbana,돌체 피오니,1,False,,ci_c2f8eb4a45af,,337.0,,0.0025188916876574307
+cf_16a6bb740c5c,Adidas,아디다스 바이브 스무스 페이스,1,False,,ci_064e3172215c,338.0,,,0.002512562814070352
+cf_e02aafd09d05,Dolce&Gabbana,돌체 바이올렛,1,False,,ci_991648232bc5,,338.0,,0.002512562814070352
+cf_53deb2eaa833,아닐로,엠버528,1,False,,ci_c0d4d974be64,339.0,,,0.002506265664160401
+cf_0e17688f51de,Mercedes-Benz,LSA Sea 중,1,False,,ci_3243eee784b1,,339.0,,0.002506265664160401
+cf_600354050690,라퐁프,모하비고스트,1,False,,ci_86a33bd30fbf,341.0,,,0.0024937655860349127
+cf_9361fbfbe921,누다라,시그니처 틴타슈,1,False,,ci_6a8371b682cf,342.0,,,0.0024875621890547263
+cf_74e56e836635,Memo Paris,셔우드,1,False,,ci_2a1ea63b0803,,342.0,,0.0024875621890547263
+cf_47d48689c1c5,Kenzo,로 겐조 뿌르옴므,1,False,,ci_5521c25e1459,344.0,,,0.0024752475247524753
+cf_0fa0b79016ed,Memo Paris,오드,1,False,,ci_9d076738d9c6,,344.0,,0.0024752475247524753
+cf_f068316a3aac,Memo Paris,프렌치 레더,1,False,,ci_e400d6bf0dce,,345.0,,0.0024691358024691358
+cf_1c70e5cd2d6c,Calvin Klein,씨케이원 에센스 인텐스100ml,1,False,,ci_3431d14236d3,347.0,,,0.002457002457002457
+cf_4c71e6b59b81,알보우,케이스 스터디 상탈 블루,1,False,,ci_56efd786d857,,347.0,,0.002457002457002457
+cf_74e835add973,Montblanc,익스플로러 익스트림,1,False,,ci_a88d01a37159,348.0,,,0.0024509803921568627
+cf_fb85aa14080b,더페이스샵,소울 써니 블라썸,1,False,,ci_347cdf231de3,,348.0,,0.0024509803921568627
+cf_24d908881a94,더페이스샵,소울 릴리 드림,1,False,,ci_684aaefe13d1,,349.0,,0.0024449877750611247
+cf_57b97b1d28e5,더페이스샵,소울 퓨어 허그,1,False,,ci_f4eeb61e5b3e,,350.0,,0.0024390243902439024

@@ -1,0 +1,101 @@
+﻿hwahae_rank,hwahae_source_product_id,hwahae_brand,hwahae_product,hwahae_brand_normalized,hwahae_identity_normalized,hwahae_concentration,overlap_status,matched_purchase_source,matched_purchase_source_rank,matched_purchase_product_id,matched_purchase_product_name,match_basis,previous_overlap_status,overlap_change,matched_candidate_basis
+1,2032770,멈칫,스테이퍼퓸 [밤쉘],멈칫,스테이밤쉘,,NO_MATCH,,,,,related purchase row is a multi-scent listing excluded from confirmed KEEP; no individual Bombshell KEEP row,NO_MATCH,UNCHANGED,
+2,1951691,딥티크,오 드 퍼퓸 오르페옹,딥티크,오르페옹,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+3,2009917,엘리자베스아덴,그린티 센트 스프레이,엘리자베스아덴,그린티센트스프레이,,MATCH_REVIEW,musinsa,109,1284601,그린티 센트 스프레이 EDC 30ml +향수 공병 증정,brand_exact + identity_exact; purchase specifies EDC while Hwahae omits concentration,MATCH_REVIEW,UNCHANGED,prior_confirmed_KEEP
+4,2103479,조말론,우드 세이지 앤 씨 솔트 코롱,조말론,우드세이지앤씨솔트,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+5,2170533,다니엘트루스,시그니처 밤쉘루스,다니엘트루스,시그니처밤쉘루스,,NO_MATCH,,,,,no conservative brand + identity + product-form match among expanded candidates,NOT_IN_PREVIOUS_DENOMINATOR,ADDED_TO_FULL_TOP100_NO_MATCH,
+6,1899775,랑방,에끌라 드 아르페쥬 EDP,랑방,에끌라드아르페쥬,EDP,MATCH,oliveyoung,197,A000000000444,랑방 에끌라 드 아르페쥬 EDP 30ml,brand_exact + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+7,2136042,포맨트,시그니처 퍼퓸 [코튼메모리],포맨트,시그니처코튼메모리,,MATCH,oliveyoung,20,A000000221676,[박지훈 포카증정] 포맨트 시그니처 퍼퓸 코튼메모리 50ml 단품/기획,brand_exact + identity_exact + promotional_copy_removed,MATCH,UNCHANGED,prior_confirmed_KEEP
+8,2134257,르라보,어나더 13 EDP,르라보,어나더13,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+9,2042358,딥티크,오 드 뚜왈렛 오 로즈,딥티크,오로즈,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+10,2098221,바닐라부티크,허그 향수,바닐라부티크,허그,,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+11,1997094,이솝,테싯 오 드 퍼퓸,이솝,테싯,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+12,1858536,메종 마르지엘라,레이지 선데이 모닝 EDT,메종마르지엘라,레이지선데이모닝,EDT,MATCH,musinsa,27,2027859,레플리카 레이지 선데이 모닝 EDT 30ML,brand_alias + replica_collection_label_removed + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+13,2009995,끌로에,시그니처 EDP,끌로에,시그니처,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+14,2075166,바이레도,오 드 퍼퓸 [블랑쉬],바이레도,블랑쉬,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+15,1975958,디올,미스 디올 오 드 퍼퓸,디올,미스,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+16,2004415,디올,미스 디올 블루밍 부케 오 드 뚜왈렛,디올,미스블루밍부케,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+17,2047254,딥티크,오 드 뚜왈렛 필로시코스,딥티크,필로시코스,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+18,2142055,포맨트,헬로키티 에디션 시그니처 퍼퓸 [코튼메모리],포맨트,헬로키티에디션시그니처코튼메모리,,MATCH,oliveyoung,20,A000000221676,[박지훈 포카증정] 포맨트 시그니처 퍼퓸 코튼메모리 50ml 단품/기획,brand_exact + identity_exact + promotional_edition_removed,MATCH,UNCHANGED,prior_confirmed_KEEP
+19,2136035,포맨트,시그니처 퍼퓸 [코튼허그],포맨트,시그니처코튼허그,,MATCH,musinsa,5,4902680,시그니처 퍼퓸  코튼허그 50ml,brand_exact + identity_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+20,2093332,아뜰리에페이,데이 오프,아뜰리에페이,데이오프,,MATCH,oliveyoung,29,A000000267356,[NEW/기획] 아뜰리에페이 퍼퓸 30ml 데이오프,brand_exact + identity_exact + local_product_type_evidence,MATCH,UNCHANGED,prior_confirmed_KEEP
+21,1814936,키엘,오리지널 머스크 향수,키엘,오리지널머스크,,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+22,2015342,바이레도,오 드 퍼퓸 [라튤립],바이레도,라튤립,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+23,2103482,조말론,블랙베리 앤 베이 코롱,조말론,블랙베리앤베이,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+24,1954133,포맨트,시그니처 퍼퓸 [코튼브리즈],포맨트,시그니처코튼브리즈,,MATCH,oliveyoung,96,A000000197779,[리뉴얼출시]포맨트 시그니처 퍼퓸 코튼브리즈 50ml,brand_exact + identity_exact + promotional_copy_removed,MATCH,UNCHANGED,prior_confirmed_KEEP
+25,2136962,비비앙,오 드 퍼퓸 [월넛크릭그린],비비앙,월넛크릭그린,EDP,MATCH,musinsa,21,4442601,[태산 PICK] 월넛크릭그린 오 드 퍼퓸 EDP 10ml,brand_exact + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+26,2031474,바이레도,발 다프리크 오 드 퍼퓸,바이레도,발다프리크,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+27,2169817,제니퍼로페즈,글로우 바이 제이로 EDT,제니퍼로페즈,글로우바이제이로,EDT,MATCH,oliveyoung,76,A000000104639,제니퍼로페즈 글로우 바이제이로 EDT 30ml,brand_exact + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+28,1979487,산타마리아노벨라,피렌체 1221 에디션 오드코롱 [프리지아],산타마리아노벨라,피렌체1221에디션프리지아,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+29,1940005,다슈,아쿠아 다이브 퍼퓸,다슈,아쿠아다이브,,MATCH,musinsa,93,2637311,아쿠아 다이브 퍼퓸 50ml,brand_exact + identity_exact; size_difference_ignored,MATCH,UNCHANGED,prior_confirmed_KEEP
+30,2031885,CK,원 EDT,캘빈클라인,원,EDT,MATCH,oliveyoung,33,A000000128148,캘빈클라인 CK One EDT 단품/기획,brand_alias_CK_CalvinKlein + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+31,1969079,디올,쟈도르 오 드 퍼퓸,디올,쟈도르,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+32,2000075,샤넬,샹스 오 후레쉬 오 드 뚜왈렛,샤넬,샹스오후레쉬,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+33,1886673,아리아나그란데,땡큐 넥스트 EDP,아리아나그란데,땡큐넥스트,EDP,MATCH,oliveyoung,31,A000000137487,아리아나그란데 땡큐 넥스트 EDP 50ml,brand_exact + identity_exact + EDP_exact; 2.0_variant_not_used,MATCH,UNCHANGED,prior_confirmed_KEEP
+34,1756221,샤넬,N°5 오 프르미에르 오 드 빠르펭,샤넬,n5오프르미에르,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+35,2049780,메종 마르지엘라,재즈 클럽 EDT,메종마르지엘라,재즈클럽,EDT,MATCH,musinsa,39,2027861,레플리카 재즈 클럽 EDT 30ML,brand_alias + replica_collection_label_removed + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+36,2042361,딥티크,오 드 퍼퓸 플레르 드 뽀,딥티크,플레르드뽀,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+37,1841124,샤넬,알뤼르 옴므 스포츠 오 드 뚜왈렛,샤넬,알뤼르옴므스포츠,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+38,1880993,아리아나그란데,스위트 라이크 캔디 EDP,아리아나그란데,스위트라이크캔디,EDP,MATCH,musinsa,294,1910154,스위트 라이크 캔디 EDP 30ML,brand_alias_spacing + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+39,1880999,아리아나그란데,아리 EDP,아리아나그란데,아리,EDP,MATCH,oliveyoung,199,A000000136751,아리아나그란데 아리 EDP 30ml 기획(+땡큐넥스트 1.5ml 바이알),brand_exact + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+40,1999654,샤넬,코코 마드모아젤 오 드 빠르펭,샤넬,코코마드모아젤,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+41,1769749,샤넬,샹스 오 비브 오 드 뚜왈렛,샤넬,샹스오비브,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+42,1793593,랑콤,미라클 오 드 퍼퓸,랑콤,미라클,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+43,1822873,톰포드,네롤리 포르토피노 EDP,톰포드,네롤리포르토피노,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+44,1829140,랑방,모던 프린세스 오 센슈얼 EDT,랑방,모던프린세스오센슈얼,EDT,NO_MATCH,,,,,"same-brand purchase rows are Modern Princess EDP, not Eau Sensuelle EDT",NO_MATCH,UNCHANGED,
+45,1888447,에르메스,운 자르뎅 수르닐 오 드 뚜왈렛,에르메스,운자르뎅수르닐,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+46,1855131,입생로랑뷰티,리브르 오 드 빠르펭,입생로랑,리브르,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+47,1818814,조말론,잉글리쉬 오크 앤 헤이즐넛 코롱,조말론,잉글리쉬오크앤헤이즐넛,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+48,2034103,구찌,플로라 오 드 퍼퓸 [골저스가드니아],구찌,플로라골저스가드니아,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+49,2025129,바이레도,모하비 고스트 오 드 퍼퓸,바이레도,모하비고스트,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+50,1899298,샤넬,샹스 오 땅드르 오 드 빠르펭,샤넬,샹스오땅드르,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+51,1994200,샤넬,N°1 드 샤넬 레드 까멜리아 향수,샤넬,n1드레드까멜리아,,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+52,1739435,지미추,블러썸 EDP,지미추,블러썸,EDP,MATCH,oliveyoung,188,A000000012155,지미추 블러썸 EDP 40ml,brand_exact + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+53,1872402,르라보,상탈 33 EDP,르라보,상탈33,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+54,14061,랑방,메리미 EDP,랑방,메리미,EDP,MATCH,oliveyoung,132,A000000000431,랑방 메리미 EDP 30ml,brand_exact + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+55,1879931,이솝,로즈 오 드 퍼퓸,이솝,로즈,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+56,1979676,헉슬리,퍼퓸 [모로칸가드너],헉슬리,모로칸가드너,,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+57,2014190,조말론,잉글리쉬 페어 앤 프리지아 코롱,조말론,잉글리쉬페어앤프리지아,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+58,1744279,살바토레페라가모,인칸토 참 오 드 뚜왈렛,살바토레페라가모,인칸토참,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+59,1734173,랑방,잔느 EDP,랑방,잔느,EDP,MATCH,oliveyoung,44,A000000000438,랑방 잔느 EDP 30ml,brand_exact + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+60,1790172,토스,베이비 토스 오 데 코롱,토스,베이비,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+61,1869268,에스티로더,플레져 오 드 퍼퓸 스프레이,에스티로더,플레져스프레이,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+62,1978596,클린,퓨어솝 EDP,클린,퓨어솝,EDP,MATCH,musinsa,73,2246802,퓨어솝 EDP 30ML,brand_exact + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+63,1825872,베르사체,브라이트 크리스탈 EDT,베르사체,브라이트크리스탈,EDT,MATCH,lotte,148,LE1220677268,[베르사체] 브라이트 크리스탈 EDT 50ml (미니어처1종 랜덤증정),brand_in_purchase_title + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+64,2009872,구찌,블룸 오 드 퍼퓸,구찌,블룸,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+65,1778651,바이레도,집시 워터 오 드 퍼퓸,바이레도,집시워터,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+66,1764633,조말론,와일드 블루벨 코롱,조말론,와일드블루벨,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+67,1941895,입생로랑뷰티,리브르 오 드 뚜왈렛,입생로랑,리브르,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+68,2010720,랑방,레 플레르 드 EDT [워터릴리],랑방,레플레르드워터릴리,EDT,MATCH,oliveyoung,62,A000000183800,랑방 레 플레르 드 랑방 워터 릴리 EDT 50ml,brand_exact + collection_label_normalized + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+69,1765272,입생로랑뷰티,몽 파리 오 드 빠르펭,입생로랑,몽파리,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+70,1979489,산타마리아노벨라,피렌체 1221 에디션 엔젤 디 피렌체 오드코롱,산타마리아노벨라,피렌체1221에디션엔젤디피렌체,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+71,1959643,아쿠아디파르마,피코 디 아말피 오 드 뜨왈렛,아쿠아디파르마,피코디아말피,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+72,1873625,아리아나그란데,클라우드 EDP,아리아나그란데,클라우드,EDP,MATCH,oliveyoung,112,A000000136757,아리아나그란데 클라우드 EDP 50ml,brand_exact + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+73,1825293,바이레도,인플로레센스 오 드 퍼퓸,바이레도,인플로레센스,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+74,1979469,산타마리아노벨라,피렌체 1221 에디션 로사 가데니아 오드코롱,산타마리아노벨라,피렌체1221에디션로사가데니아,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+75,1876698,샤넬,가브리엘 에쌍스 오 드 빠르펭,샤넬,가브리엘에쌍스,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+76,1764636,조말론,레드 로즈 코롱,조말론,레드로즈,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+77,2103476,조말론,라임 바질 앤 만다린 코롱,조말론,라임바질앤만다린,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+78,2076016,센녹,퍼퓸 [애프터배스],센녹,애프터배스,,MATCH,musinsa,45,5115500,퍼퓸 애프터배스 50ml,brand_exact + identity_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+79,1872024,CK,씨케이 올 EDT,캘빈클라인,씨케이올,EDT,MATCH,oliveyoung,41,A000000187659,캘빈클라인 CK 올 EDT 100ml,brand_alias_CK_CalvinKlein + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+80,2010773,코치,EDT,코치,,EDT,MATCH_REVIEW,musinsa,176,2006635,우먼 EDT 30ML,brand_alias + EDT_exact; Hwahae identity is abbreviated while purchase says women,MATCH_REVIEW,UNCHANGED,prior_confirmed_KEEP
+81,2011798,디올,쟈도르 퍼퓸 도,디올,쟈도르도,,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+82,2010590,랑방,레 플레르 드 EDT [블루오키드],랑방,레플레르드블루오키드,EDT,MATCH,musinsa,188,2530216,레 플레르 드 랑방 블루 오키드 EDT 50ML,brand_alias + collection_label_normalized + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+83,1734823,지미추,EDT,지미추,,EDT,MATCH,oliveyoung,72,A000000002291,지미추 EDT 40ml,brand_exact + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+84,1828132,몽블랑,레전드 오 드 뚜왈렛,몽블랑,레전드,EDT,MATCH,oliveyoung,195,A000000002289,몽블랑 레전드 EDT 30ml,brand_exact + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+85,1734821,버버리,마이 버버리 오드퍼퓸,버버리,마이,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+86,1737120,CK,비 오 드 뚜왈렛,캘빈클라인,비,EDT,MATCH,oliveyoung,30,A000000135301,캘빈클라인 CK 비 EDT 3종 택1 (50ml/100ml/200ml),brand_alias_CK_CalvinKlein + identity_exact + EDT_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+87,2079022,탬버린즈,에그 퍼퓸 [펌키니],탬버린즈,에그펌키니,,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+88,1854558,클린,쿨 코튼 오 드 퍼퓸,클린,쿨코튼,EDP,MATCH,musinsa,293,1937365,클래식 쿨 코튼 EDP 60ML,brand_exact + classic_collection_label_removed + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+89,1863215,메블릭퍼퓸,케라 오 드 퍼퓸,메블릭퍼퓸,케라,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+90,1966434,에디션드퍼퓸프레데릭말,포트레이트 오브 어 레이디,프레데릭말,포트레이트오브어레이디,,NO_MATCH,,,,,no conservative brand + identity + product-form match among expanded candidates,NOT_IN_PREVIOUS_DENOMINATOR,ADDED_TO_FULL_TOP100_NO_MATCH,
+91,2011908,조말론,피오니 앤 블러쉬 스웨이드 코롱,조말론,피오니앤블러쉬스웨이드,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+92,2025306,데일리콤마,모스트오드퍼퓸 [텐더파리],데일리콤마,모스트텐더파리,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+93,1765825,디올,옴므 코롱,디올,옴므,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+94,1791851,입생로랑뷰티,몽파리 오 드 뚜왈렛 루미에르,입생로랑,몽파리루미에르,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+95,1969119,디올,소바쥬 오 드 뚜왈렛,디올,소바쥬,EDT,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+96,1764627,조말론,얼 그레이 앤 큐컴버 코롱,조말론,얼그레이앤큐컴버,EDC,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+97,1831130,몽블랑,익스플로러 오 드 퍼퓸,몽블랑,익스플로러,EDP,MATCH,oliveyoung,123,A000000189526,몽블랑 익스플로러 EDP 100ml,brand_alias + identity_exact + EDP_exact,MATCH,UNCHANGED,prior_confirmed_KEEP
+98,1754734,프라다,캔디 EDP,프라다,캔디,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+99,1734175,랑방,루머2 로즈 EDP,랑방,루머2로즈,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,
+100,2017159,딥티크,오 드 퍼퓸 필로시코스,딥티크,필로시코스,EDP,NO_MATCH,,,,,no conservative brand + identity match among confirmed purchase KEEP rows,NO_MATCH,UNCHANGED,

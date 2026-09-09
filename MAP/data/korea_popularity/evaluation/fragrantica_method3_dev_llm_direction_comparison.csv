@@ -1,0 +1,5 @@
+﻿scope,k,baseline_miss,ko_to_latin_only_rescue,latin_to_ko_only_rescue,both_rescue,neither_rescues
+ALL_GOLD_MATCH,5,25,0,0,12,13
+ALL_GOLD_MATCH,10,20,0,1,7,12
+CATALOG_RETRIEVABLE,5,23,0,0,12,11
+CATALOG_RETRIEVABLE,10,18,0,1,7,10

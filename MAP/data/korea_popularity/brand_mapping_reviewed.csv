@@ -1,0 +1,33 @@
+﻿korea_brand,fragrantica_brand,catalog_status,catalog_perfume_count,reviewed_candidate,review_result,first_pass_result,product_row_count,sources,evidence_url,reviewer_note,review_file_sha256
+토스,,AMBIGUOUS_REVIEW_VALUE,0,Toss / TOS,MATCH,미확인,2,hwahae | oliveyoung,,https://www.fragrantica.com/designers/Tous.html,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+킨포크노츠,KINFOLK NOTES,CASE_NORMALIZED,19,Kinfolk Notes,MATCH,미확인,2,musinsa,,https://www.fragrantica.com/designers/KINFOLK-NOTES.html,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+아뜰리에페이,,NOT_IN_CATALOG,0,Atelier Faye,MATCH,MATCH 강함,15,hwahae | musinsa | oliveyoung,https://www.fragrantica.com/designers/Atelier-Faye.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+플르부아,,NOT_IN_CATALOG,0,Pleuvoir,MATCH,MATCH 강함,4,musinsa,https://beta.fragrantica.com/designers/Pleuvoir.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+에이딕트,Addct,USABLE,10,Addct,MATCH,MATCH 강함,10,musinsa | oliveyoung,https://www.fragrantica.com/designers/Addct.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+센녹,Sennok,USABLE,6,Sennok,MATCH,MATCH 강함,8,hwahae | musinsa,https://www.fragrantica.com/designers/Sennok.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+알보우,RboW,USABLE,11,RboW,MATCH,MATCH 강함,8,musinsa | oliveyoung,https://www.fragrantica.com/designers/RboW.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+로이비,LOIVIE,USABLE,10,LOIVIE,MATCH,MATCH 강함,7,musinsa | oliveyoung,https://www.fragrantica.com/designers/LOIVIE.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+에틀리에,Kiss New York,USABLE,15,Kiss New York,MATCH,REVIEW,6,oliveyoung,https://www.fragrantica.com/designers/Kiss-New-York.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+호텔도슨,Hotel Dawson,USABLE,5,Hotel Dawson,MATCH,MATCH 강함,6,musinsa | oliveyoung,https://www.fragrantica.com/designers/Hotel-Dawson.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+아로,Ahro,USABLE,3,Ahro,MATCH,REVIEW,5,musinsa | oliveyoung,https://www.fragrantica.com/designers/Ahro.html,Fragrantica 제품에 원하는 향수가 없음,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+헉슬리,Huxley,USABLE,6,Huxley,MATCH,MATCH 강함,5,hwahae | oliveyoung,https://www.fragrantica.com/designers/Huxley.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+루아페,Luafee,USABLE,5,Luafee,MATCH,MATCH 강함,4,musinsa | oliveyoung,https://www.fragrantica.com/designers/Luafee.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+유쏘풀,Youssoful,USABLE,25,Youssoful,MATCH,MATCH 강함,4,musinsa,https://www.fragrantica.com/designers/Youssoful.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+더페이스샵,The Face Shop,USABLE,10,The Face Shop,MATCH,MATCH(브랜드),3,oliveyoung,https://www.fragrantica.com/designers/The-Face-Shop.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+부씨,Bussi,USABLE,6,Bussi,MATCH,MATCH 강함,3,musinsa | oliveyoung,https://www.fragrantica.com/designers/Bussi.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+포스테스,Postes,USABLE,8,Postes,MATCH,MATCH 강함,3,oliveyoung,https://www.fragrantica.com/designers/Postes.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+다슈,Dashu,USABLE,3,Dashu,MATCH,MATCH 강함,2,hwahae | musinsa,https://www.fragrantica.com/designers/Dashu.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+아닐로,ANILLO,USABLE,8,ANILLO,MATCH,MATCH 강함,2,musinsa | oliveyoung,https://www.fragrantica.com/designers/ANILLO.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+테누이,Tenui,USABLE,6,Tenui,MATCH,MATCH 강함,2,musinsa,https://www.fragrantica.com/designers/Tenui.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+홀리바넘,Holibanum,USABLE,14,Holibanum,MATCH,MATCH 강함,2,oliveyoung,https://www.fragrantica.com/designers/Holibanum.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+다비도프,Davidoff,USABLE,111,Davidoff,MATCH,MATCH 강함,1,musinsa,https://www.fragrantica.com/designer/Davidoff.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+달바,d'Alba,USABLE,1,d'Alba,MATCH,MATCH 강함,1,musinsa,https://www.fragrantica.com/designers/d-Alba.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+멈칫,Mumchit,USABLE,2,Mumchit,MATCH,MATCH(브랜드),1,hwahae,https://www.fragrantica.com/designers/Mumchit.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+바디판타지,Body Fantasies,USABLE,15,Body Fantasies,MATCH,MATCH(브랜드),1,musinsa,https://www.fragrantica.com/designers/Body-Fantasies.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+애프터블로우,After Blow,USABLE,10,After Blow,MATCH,MATCH(브랜드),1,musinsa,https://www.fragrantica.com/designers/After-Blow.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+엔시피,N.C.P. Olfactives,USABLE,16,N.C.P. Olfactives,MATCH,MATCH 강함,1,oliveyoung,https://beta.fragrantica.com/designers/N-C-P-Olfactives.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+유겐,Yugen,USABLE,7,Yugen,MATCH,MATCH 강함,1,musinsa,https://www.fragrantica.com/designers/Yugen.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+취,Chwi 취,USABLE,6,Chwi 취,MATCH,MATCH 강함,1,oliveyoung,https://www.fragrantica.com/designers/Chwi-chwi.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+쿠오카,Kuoca,USABLE,3,Kuoca,MATCH,MATCH 강함,1,musinsa,https://www.fragrantica.com/designers/Kuoca.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+키엘,Kiehl's,USABLE,9,Kiehl's,MATCH,MATCH 강함,1,hwahae,https://www.fragrantica.com/designers/Kiehl-s.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999
+탬버린즈,Tamburins,USABLE,22,Tamburins,MATCH,MATCH 강함,1,hwahae,https://www.fragrantica.com/designers/Tamburins.html,,d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999

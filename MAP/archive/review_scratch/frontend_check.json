@@ -1,0 +1,1881 @@
+{
+  "sizes": [
+    285,
+    201,
+    148,
+    128,
+    122,
+    48,
+    29,
+    24,
+    15
+  ],
+  "moves": [
+    {
+      "id": 66856,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "id": 59292,
+      "from": 2,
+      "to": 1
+    },
+    {
+      "id": 1444,
+      "from": 9,
+      "to": 8
+    },
+    {
+      "id": 69386,
+      "from": 9,
+      "to": 1
+    },
+    {
+      "id": 395,
+      "from": 11,
+      "to": 0
+    },
+    {
+      "id": 88636,
+      "from": 2,
+      "to": 3
+    },
+    {
+      "id": 75421,
+      "from": 2,
+      "to": 0
+    },
+    {
+      "id": 54720,
+      "from": 2,
+      "to": 0
+    },
+    {
+      "id": 55963,
+      "from": 2,
+      "to": 1
+    }
+  ],
+  "labels": [
+    {
+      "cluster": 0,
+      "size": 148,
+      "frequency_strength": [
+        "woody",
+        "warm spicy",
+        "amber"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "leather",
+          "lift": 3.7659843552391217,
+          "coverage": 0.25675675675675674
+        },
+        {
+          "accord": "warm spicy",
+          "lift": 3.001834746631479,
+          "coverage": 0.6148648648648649
+        },
+        {
+          "accord": "amber",
+          "lift": 2.5979745820529656,
+          "coverage": 0.5067567567567568
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "warm spicy",
+          "lift": 3.001834746631479,
+          "coverage": 0.6148648648648649
+        },
+        {
+          "accord": "amber",
+          "lift": 2.5979745820529656,
+          "coverage": 0.5067567567567568
+        },
+        {
+          "accord": "woody",
+          "lift": 1.5101270791710855,
+          "coverage": 0.6554054054054054
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "warm spicy",
+          "lift": 3.001834746631479,
+          "coverage": 0.6148648648648649
+        },
+        {
+          "accord": "amber",
+          "lift": 2.5979745820529656,
+          "coverage": 0.5067567567567568
+        },
+        {
+          "accord": "woody",
+          "lift": 1.5101270791710855,
+          "coverage": 0.6554054054054054
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "cinnamon",
+          "lift": 4.698586361913015,
+          "coverage": 0.20945945945945946
+        },
+        {
+          "accord": "smoky",
+          "lift": 4.670686311311311,
+          "coverage": 0.27702702702702703
+        },
+        {
+          "accord": "leather",
+          "lift": 3.47566651914478,
+          "coverage": 0.32432432432432434
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "leather",
+          "lift": 3.47566651914478,
+          "coverage": 0.32432432432432434
+        },
+        {
+          "accord": "warm spicy",
+          "lift": 2.6837463905104184,
+          "coverage": 0.8513513513513513
+        },
+        {
+          "accord": "amber",
+          "lift": 2.2034569388329834,
+          "coverage": 0.6283783783783784
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "warm spicy",
+          "lift": 2.6837463905104184,
+          "coverage": 0.8513513513513513
+        },
+        {
+          "accord": "amber",
+          "lift": 2.2034569388329834,
+          "coverage": 0.6283783783783784
+        },
+        {
+          "accord": "woody",
+          "lift": 1.3993092972756367,
+          "coverage": 0.8445945945945946
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 285,
+      "frequency_strength": [
+        "aromatic",
+        "woody",
+        "citrus"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "aromatic",
+          "lift": 2.619054971675227,
+          "coverage": 0.7263157894736842
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.4621218837809438,
+          "coverage": 0.5473684210526316
+        },
+        {
+          "accord": "green",
+          "lift": 2.10208464156414,
+          "coverage": 0.25263157894736843
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "aromatic",
+          "lift": 2.619054971675227,
+          "coverage": 0.7263157894736842
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.4621218837809438,
+          "coverage": 0.5473684210526316
+        },
+        {
+          "accord": "citrus",
+          "lift": 2.015613626528657,
+          "coverage": 0.5157894736842106
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "aromatic",
+          "lift": 2.619054971675227,
+          "coverage": 0.7263157894736842
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.4621218837809438,
+          "coverage": 0.5473684210526316
+        },
+        {
+          "accord": "citrus",
+          "lift": 2.015613626528657,
+          "coverage": 0.5157894736842106
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "lavender",
+          "lift": 2.7804407321278855,
+          "coverage": 0.24912280701754386
+        },
+        {
+          "accord": "aromatic",
+          "lift": 2.349905222670492,
+          "coverage": 0.8771929824561403
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.2563704607856607,
+          "coverage": 0.7263157894736842
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "aromatic",
+          "lift": 2.349905222670492,
+          "coverage": 0.8771929824561403
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.2563704607856607,
+          "coverage": 0.7263157894736842
+        },
+        {
+          "accord": "green",
+          "lift": 1.8754761658860912,
+          "coverage": 0.35789473684210527
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "aromatic",
+          "lift": 2.349905222670492,
+          "coverage": 0.8771929824561403
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.2563704607856607,
+          "coverage": 0.7263157894736842
+        },
+        {
+          "accord": "citrus",
+          "lift": 1.838022605033405,
+          "coverage": 0.6631578947368421
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 201,
+      "frequency_strength": [
+        "sweet",
+        "vanilla",
+        "fruity"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "sweet",
+          "lift": 2.61623991661849,
+          "coverage": 0.8208955223880597
+        },
+        {
+          "accord": "vanilla",
+          "lift": 2.516084714287875,
+          "coverage": 0.6119402985074627
+        },
+        {
+          "accord": "fruity",
+          "lift": 2.048813978163615,
+          "coverage": 0.5024875621890548
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "sweet",
+          "lift": 2.61623991661849,
+          "coverage": 0.8208955223880597
+        },
+        {
+          "accord": "vanilla",
+          "lift": 2.516084714287875,
+          "coverage": 0.6119402985074627
+        },
+        {
+          "accord": "fruity",
+          "lift": 2.048813978163615,
+          "coverage": 0.5024875621890548
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "sweet",
+          "lift": 2.61623991661849,
+          "coverage": 0.8208955223880597
+        },
+        {
+          "accord": "vanilla",
+          "lift": 2.516084714287875,
+          "coverage": 0.6119402985074627
+        },
+        {
+          "accord": "fruity",
+          "lift": 2.048813978163615,
+          "coverage": 0.5024875621890548
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "vanilla",
+          "lift": 2.306029714596913,
+          "coverage": 0.746268656716418
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.176798342162768,
+          "coverage": 0.9253731343283582
+        },
+        {
+          "accord": "fruity",
+          "lift": 1.89301138401789,
+          "coverage": 0.6169154228855721
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "vanilla",
+          "lift": 2.306029714596913,
+          "coverage": 0.746268656716418
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.176798342162768,
+          "coverage": 0.9253731343283582
+        },
+        {
+          "accord": "fruity",
+          "lift": 1.89301138401789,
+          "coverage": 0.6169154228855721
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "vanilla",
+          "lift": 2.306029714596913,
+          "coverage": 0.746268656716418
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.176798342162768,
+          "coverage": 0.9253731343283582
+        },
+        {
+          "accord": "fruity",
+          "lift": 1.89301138401789,
+          "coverage": 0.6169154228855721
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 128,
+      "frequency_strength": [
+        "powdery",
+        "woody",
+        "musky"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "iris",
+          "lift": 6.90978287996007,
+          "coverage": 0.375
+        },
+        {
+          "accord": "violet",
+          "lift": 4.935193884523403,
+          "coverage": 0.21875
+        },
+        {
+          "accord": "musky",
+          "lift": 3.879346422422039,
+          "coverage": 0.5078125
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "iris",
+          "lift": 6.90978287996007,
+          "coverage": 0.375
+        },
+        {
+          "accord": "musky",
+          "lift": 3.879346422422039,
+          "coverage": 0.5078125
+        },
+        {
+          "accord": "powdery",
+          "lift": 3.41619708631116,
+          "coverage": 0.7890625
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "musky",
+          "lift": 3.879346422422039,
+          "coverage": 0.5078125
+        },
+        {
+          "accord": "powdery",
+          "lift": 3.41619708631116,
+          "coverage": 0.7890625
+        },
+        {
+          "accord": "woody",
+          "lift": 1.3638184788331116,
+          "coverage": 0.6015625
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "iris",
+          "lift": 6.059199669966997,
+          "coverage": 0.4609375
+        },
+        {
+          "accord": "violet",
+          "lift": 5.070442511346444,
+          "coverage": 0.3671875
+        },
+        {
+          "accord": "musky",
+          "lift": 2.861300770308123,
+          "coverage": 0.59375
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "iris",
+          "lift": 6.059199669966997,
+          "coverage": 0.4609375
+        },
+        {
+          "accord": "violet",
+          "lift": 5.070442511346444,
+          "coverage": 0.3671875
+        },
+        {
+          "accord": "musky",
+          "lift": 2.861300770308123,
+          "coverage": 0.59375
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "iris",
+          "lift": 6.059199669966997,
+          "coverage": 0.4609375
+        },
+        {
+          "accord": "musky",
+          "lift": 2.861300770308123,
+          "coverage": 0.59375
+        },
+        {
+          "accord": "powdery",
+          "lift": 2.689991368487131,
+          "coverage": 0.9296875
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 29,
+      "frequency_strength": [
+        "aquatic",
+        "ozonic",
+        "fresh"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "ozonic",
+          "lift": 21.97017580822623,
+          "coverage": 0.7931034482758621
+        },
+        {
+          "accord": "aquatic",
+          "lift": 16.756681900013845,
+          "coverage": 0.8620689655172413
+        },
+        {
+          "accord": "fresh",
+          "lift": 3.065036096863961,
+          "coverage": 0.3448275862068966
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "ozonic",
+          "lift": 21.97017580822623,
+          "coverage": 0.7931034482758621
+        },
+        {
+          "accord": "aquatic",
+          "lift": 16.756681900013845,
+          "coverage": 0.8620689655172413
+        },
+        {
+          "accord": "fresh",
+          "lift": 3.065036096863961,
+          "coverage": 0.3448275862068966
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "ozonic",
+          "lift": 21.97017580822623,
+          "coverage": 0.7931034482758621
+        },
+        {
+          "accord": "aquatic",
+          "lift": 16.756681900013845,
+          "coverage": 0.8620689655172413
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "ozonic",
+          "lift": 18.40168243953733,
+          "coverage": 0.896551724137931
+        },
+        {
+          "accord": "aquatic",
+          "lift": 14.800257929806245,
+          "coverage": 1.0
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5462931375625995,
+          "coverage": 0.5517241379310345
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "ozonic",
+          "lift": 18.40168243953733,
+          "coverage": 0.896551724137931
+        },
+        {
+          "accord": "aquatic",
+          "lift": 14.800257929806245,
+          "coverage": 1.0
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5462931375625995,
+          "coverage": 0.5517241379310345
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "ozonic",
+          "lift": 18.40168243953733,
+          "coverage": 0.896551724137931
+        },
+        {
+          "accord": "aquatic",
+          "lift": 14.800257929806245,
+          "coverage": 1.0
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5462931375625995,
+          "coverage": 0.5517241379310345
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 15,
+      "frequency_strength": [
+        "soft spicy",
+        "anis",
+        "sweet"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "anis",
+          "lift": 55.73883161512028,
+          "coverage": 0.7333333333333333
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 29.871345029239766,
+          "coverage": 0.9333333333333333
+        },
+        {
+          "accord": "lavender",
+          "lift": 3.7585153864223635,
+          "coverage": 0.2
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "anis",
+          "lift": 55.73883161512028,
+          "coverage": 0.7333333333333333
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 29.871345029239766,
+          "coverage": 0.9333333333333333
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.5910037484381507,
+          "coverage": 0.5333333333333333
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "anis",
+          "lift": 55.73883161512028,
+          "coverage": 0.7333333333333333
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 29.871345029239766,
+          "coverage": 0.9333333333333333
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.5910037484381507,
+          "coverage": 0.5333333333333333
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "anis",
+          "lift": 50.32107413893754,
+          "coverage": 0.8
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 19.989534275248563,
+          "coverage": 1.0
+        },
+        {
+          "accord": "tobacco",
+          "lift": 3.901319563970166,
+          "coverage": 0.2
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "anis",
+          "lift": 50.32107413893754,
+          "coverage": 0.8
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 19.989534275248563,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.6682874122096165,
+          "coverage": 0.8666666666666667
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "anis",
+          "lift": 50.32107413893754,
+          "coverage": 0.8
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 19.989534275248563,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.6682874122096165,
+          "coverage": 0.8666666666666667
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 48,
+      "frequency_strength": [
+        "rose",
+        "floral",
+        "woody"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "rose",
+          "lift": 10.723039215686276,
+          "coverage": 0.9375
+        },
+        {
+          "accord": "floral",
+          "lift": 2.744756034229719,
+          "coverage": 0.625
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5925096985974334,
+          "coverage": 0.3333333333333333
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "rose",
+          "lift": 10.723039215686276,
+          "coverage": 0.9375
+        },
+        {
+          "accord": "floral",
+          "lift": 2.744756034229719,
+          "coverage": 0.625
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5925096985974334,
+          "coverage": 0.3333333333333333
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "rose",
+          "lift": 10.723039215686276,
+          "coverage": 0.9375
+        },
+        {
+          "accord": "floral",
+          "lift": 2.744756034229719,
+          "coverage": 0.625
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "rose",
+          "lift": 9.16231483377705,
+          "coverage": 1.0
+        },
+        {
+          "accord": "floral",
+          "lift": 2.5343026827769815,
+          "coverage": 0.8958333333333334
+        },
+        {
+          "accord": "patchouli",
+          "lift": 2.095723591050694,
+          "coverage": 0.22916666666666666
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "rose",
+          "lift": 9.16231483377705,
+          "coverage": 1.0
+        },
+        {
+          "accord": "floral",
+          "lift": 2.5343026827769815,
+          "coverage": 0.8958333333333334
+        },
+        {
+          "accord": "fresh",
+          "lift": 1.7378973750164886,
+          "coverage": 0.375
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "rose",
+          "lift": 9.16231483377705,
+          "coverage": 1.0
+        },
+        {
+          "accord": "floral",
+          "lift": 2.5343026827769815,
+          "coverage": 0.8958333333333334
+        },
+        {
+          "accord": "musky",
+          "lift": 1.4854426619132501,
+          "coverage": 0.5
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 122,
+      "frequency_strength": [
+        "white floral",
+        "floral",
+        "citrus"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "white floral",
+          "lift": 4.1155515128557445,
+          "coverage": 0.6475409836065574
+        },
+        {
+          "accord": "floral",
+          "lift": 3.325216008563722,
+          "coverage": 0.6229508196721312
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.062022102528729,
+          "coverage": 0.2540983606557377
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "white floral",
+          "lift": 4.1155515128557445,
+          "coverage": 0.6475409836065574
+        },
+        {
+          "accord": "floral",
+          "lift": 3.325216008563722,
+          "coverage": 0.6229508196721312
+        },
+        {
+          "accord": "citrus",
+          "lift": 1.422281712285382,
+          "coverage": 0.4180327868852459
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "white floral",
+          "lift": 4.1155515128557445,
+          "coverage": 0.6475409836065574
+        },
+        {
+          "accord": "floral",
+          "lift": 3.325216008563722,
+          "coverage": 0.6229508196721312
+        },
+        {
+          "accord": "citrus",
+          "lift": 1.422281712285382,
+          "coverage": 0.4180327868852459
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "tuberose",
+          "lift": 6.311628048966633,
+          "coverage": 0.20491803278688525
+        },
+        {
+          "accord": "yellow floral",
+          "lift": 4.361357061453493,
+          "coverage": 0.22950819672131148
+        },
+        {
+          "accord": "white floral",
+          "lift": 3.6945573147758943,
+          "coverage": 0.8032786885245902
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "white floral",
+          "lift": 3.6945573147758943,
+          "coverage": 0.8032786885245902
+        },
+        {
+          "accord": "floral",
+          "lift": 2.7239872021701252,
+          "coverage": 0.7377049180327869
+        },
+        {
+          "accord": "green",
+          "lift": 1.869280442417351,
+          "coverage": 0.4180327868852459
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "white floral",
+          "lift": 3.6945573147758943,
+          "coverage": 0.8032786885245902
+        },
+        {
+          "accord": "floral",
+          "lift": 2.7239872021701252,
+          "coverage": 0.7377049180327869
+        },
+        {
+          "accord": "green",
+          "lift": 1.869280442417351,
+          "coverage": 0.4180327868852459
+        }
+      ]
+    },
+    {
+      "cluster": 10,
+      "size": 24,
+      "frequency_strength": [
+        "lactonic",
+        "coconut",
+        "sweet"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "lactonic",
+          "lift": 31.05803427093437,
+          "coverage": 0.875
+        },
+        {
+          "accord": "coconut",
+          "lift": 22.964432686654913,
+          "coverage": 0.625
+        },
+        {
+          "accord": "tropical",
+          "lift": 4.166666666666667,
+          "coverage": 0.20833333333333334
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "lactonic",
+          "lift": 31.05803427093437,
+          "coverage": 0.875
+        },
+        {
+          "accord": "coconut",
+          "lift": 22.964432686654913,
+          "coverage": 0.625
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.0199916701374425,
+          "coverage": 0.7916666666666666
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "lactonic",
+          "lift": 31.05803427093437,
+          "coverage": 0.875
+        },
+        {
+          "accord": "coconut",
+          "lift": 22.964432686654913,
+          "coverage": 0.625
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.0199916701374425,
+          "coverage": 0.7916666666666666
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "savory",
+          "lift": 30.414908579465543,
+          "coverage": 0.20833333333333334
+        },
+        {
+          "accord": "lactonic",
+          "lift": 25.433728791937746,
+          "coverage": 0.9583333333333334
+        },
+        {
+          "accord": "coconut",
+          "lift": 20.289855072463766,
+          "coverage": 0.6666666666666666
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "lactonic",
+          "lift": 25.433728791937746,
+          "coverage": 0.9583333333333334
+        },
+        {
+          "accord": "coconut",
+          "lift": 20.289855072463766,
+          "coverage": 0.6666666666666666
+        },
+        {
+          "accord": "tropical",
+          "lift": 4.080537670846041,
+          "coverage": 0.375
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "lactonic",
+          "lift": 25.433728791937746,
+          "coverage": 0.9583333333333334
+        },
+        {
+          "accord": "coconut",
+          "lift": 20.289855072463766,
+          "coverage": 0.6666666666666666
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.673419773095624,
+          "coverage": 0.875
+        }
+      ]
+    }
+  ],
+  "timings": {
+    "labels": 0.0040756999514997005,
+    "boundaries": 0.36379080009646714
+  },
+  "seconds": 0.932352100033313,
+  "boundaries": {
+    "h_median_10th_neighbor": 0.038957090253048166,
+    "rows": [
+      {
+        "method": "convex_hull",
+        "point_region_memberships": 3492,
+        "other_memberships": 2492,
+        "contamination": 0.713631156930126,
+        "own_retention": 1.0,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 592,
+            "other": 444,
+            "own_retained": 148
+          },
+          {
+            "cluster": 1,
+            "inside": 757,
+            "other": 472,
+            "own_retained": 285
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 590,
+            "other": 389,
+            "own_retained": 201
+          },
+          {
+            "cluster": 4,
+            "inside": 287,
+            "other": 159,
+            "own_retained": 128
+          },
+          {
+            "cluster": 5,
+            "inside": 169,
+            "other": 140,
+            "own_retained": 29
+          },
+          {
+            "cluster": 6,
+            "inside": 98,
+            "other": 83,
+            "own_retained": 15
+          },
+          {
+            "cluster": 7,
+            "inside": 245,
+            "other": 197,
+            "own_retained": 48
+          },
+          {
+            "cluster": 8,
+            "inside": 318,
+            "other": 196,
+            "own_retained": 122
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 436,
+            "other": 412,
+            "own_retained": 24
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "alpha_circumradius_le_1h",
+        "point_region_memberships": 999,
+        "other_memberships": 68,
+        "contamination": 0.06806806806806807,
+        "own_retention": 0.931,
+        "points_in_any_region": 966,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 154,
+            "other": 16,
+            "own_retained": 138
+          },
+          {
+            "cluster": 1,
+            "inside": 286,
+            "other": 13,
+            "own_retained": 273
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 207,
+            "other": 17,
+            "own_retained": 190
+          },
+          {
+            "cluster": 4,
+            "inside": 132,
+            "other": 10,
+            "own_retained": 122
+          },
+          {
+            "cluster": 5,
+            "inside": 25,
+            "other": 1,
+            "own_retained": 24
+          },
+          {
+            "cluster": 6,
+            "inside": 10,
+            "other": 0,
+            "own_retained": 10
+          },
+          {
+            "cluster": 7,
+            "inside": 45,
+            "other": 3,
+            "own_retained": 42
+          },
+          {
+            "cluster": 8,
+            "inside": 123,
+            "other": 8,
+            "own_retained": 115
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 17,
+            "other": 0,
+            "own_retained": 17
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "alpha_circumradius_le_2h",
+        "point_region_memberships": 1223,
+        "other_memberships": 257,
+        "contamination": 0.21013900245298447,
+        "own_retention": 0.966,
+        "points_in_any_region": 997,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 194,
+            "other": 51,
+            "own_retained": 143
+          },
+          {
+            "cluster": 1,
+            "inside": 312,
+            "other": 34,
+            "own_retained": 278
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 270,
+            "other": 72,
+            "own_retained": 198
+          },
+          {
+            "cluster": 4,
+            "inside": 157,
+            "other": 32,
+            "own_retained": 125
+          },
+          {
+            "cluster": 5,
+            "inside": 35,
+            "other": 8,
+            "own_retained": 27
+          },
+          {
+            "cluster": 6,
+            "inside": 12,
+            "other": 1,
+            "own_retained": 11
+          },
+          {
+            "cluster": 7,
+            "inside": 56,
+            "other": 10,
+            "own_retained": 46
+          },
+          {
+            "cluster": 8,
+            "inside": 169,
+            "other": 49,
+            "own_retained": 120
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 18,
+            "other": 0,
+            "own_retained": 18
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "alpha_circumradius_le_4h",
+        "point_region_memberships": 2056,
+        "other_memberships": 1068,
+        "contamination": 0.519455252918288,
+        "own_retention": 0.988,
+        "points_in_any_region": 999,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 426,
+            "other": 279,
+            "own_retained": 147
+          },
+          {
+            "cluster": 1,
+            "inside": 549,
+            "other": 264,
+            "own_retained": 285
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 415,
+            "other": 215,
+            "own_retained": 200
+          },
+          {
+            "cluster": 4,
+            "inside": 219,
+            "other": 92,
+            "own_retained": 127
+          },
+          {
+            "cluster": 5,
+            "inside": 36,
+            "other": 9,
+            "own_retained": 27
+          },
+          {
+            "cluster": 6,
+            "inside": 55,
+            "other": 41,
+            "own_retained": 14
+          },
+          {
+            "cluster": 7,
+            "inside": 83,
+            "other": 36,
+            "own_retained": 47
+          },
+          {
+            "cluster": 8,
+            "inside": 244,
+            "other": 122,
+            "own_retained": 122
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 29,
+            "other": 10,
+            "own_retained": 19
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h0.5_looFalse",
+        "point_region_memberships": 1000,
+        "other_memberships": 94,
+        "contamination": 0.094,
+        "own_retention": 0.906,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 141,
+            "other": 11,
+            "own_retained": 130
+          },
+          {
+            "cluster": 1,
+            "inside": 288,
+            "other": 18,
+            "own_retained": 270
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 209,
+            "other": 26,
+            "own_retained": 183
+          },
+          {
+            "cluster": 4,
+            "inside": 131,
+            "other": 12,
+            "own_retained": 119
+          },
+          {
+            "cluster": 5,
+            "inside": 31,
+            "other": 6,
+            "own_retained": 25
+          },
+          {
+            "cluster": 6,
+            "inside": 12,
+            "other": 0,
+            "own_retained": 12
+          },
+          {
+            "cluster": 7,
+            "inside": 45,
+            "other": 7,
+            "own_retained": 38
+          },
+          {
+            "cluster": 8,
+            "inside": 123,
+            "other": 12,
+            "own_retained": 111
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 20,
+            "other": 2,
+            "own_retained": 18
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h0.5_looTrue",
+        "point_region_memberships": 1000,
+        "other_memberships": 126,
+        "contamination": 0.126,
+        "own_retention": 0.874,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 136,
+            "other": 11,
+            "own_retained": 125
+          },
+          {
+            "cluster": 1,
+            "inside": 287,
+            "other": 22,
+            "own_retained": 265
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 210,
+            "other": 33,
+            "own_retained": 177
+          },
+          {
+            "cluster": 4,
+            "inside": 134,
+            "other": 21,
+            "own_retained": 113
+          },
+          {
+            "cluster": 5,
+            "inside": 32,
+            "other": 8,
+            "own_retained": 24
+          },
+          {
+            "cluster": 6,
+            "inside": 10,
+            "other": 1,
+            "own_retained": 9
+          },
+          {
+            "cluster": 7,
+            "inside": 49,
+            "other": 13,
+            "own_retained": 36
+          },
+          {
+            "cluster": 8,
+            "inside": 123,
+            "other": 15,
+            "own_retained": 108
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 19,
+            "other": 2,
+            "own_retained": 17
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h1_looFalse",
+        "point_region_memberships": 1000,
+        "other_memberships": 131,
+        "contamination": 0.131,
+        "own_retention": 0.869,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 147,
+            "other": 22,
+            "own_retained": 125
+          },
+          {
+            "cluster": 1,
+            "inside": 293,
+            "other": 28,
+            "own_retained": 265
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 202,
+            "other": 29,
+            "own_retained": 173
+          },
+          {
+            "cluster": 4,
+            "inside": 138,
+            "other": 21,
+            "own_retained": 117
+          },
+          {
+            "cluster": 5,
+            "inside": 29,
+            "other": 5,
+            "own_retained": 24
+          },
+          {
+            "cluster": 6,
+            "inside": 9,
+            "other": 0,
+            "own_retained": 9
+          },
+          {
+            "cluster": 7,
+            "inside": 43,
+            "other": 10,
+            "own_retained": 33
+          },
+          {
+            "cluster": 8,
+            "inside": 121,
+            "other": 15,
+            "own_retained": 106
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 18,
+            "other": 1,
+            "own_retained": 17
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h1_looTrue",
+        "point_region_memberships": 1000,
+        "other_memberships": 144,
+        "contamination": 0.144,
+        "own_retention": 0.856,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 150,
+            "other": 26,
+            "own_retained": 124
+          },
+          {
+            "cluster": 1,
+            "inside": 288,
+            "other": 29,
+            "own_retained": 259
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 204,
+            "other": 33,
+            "own_retained": 171
+          },
+          {
+            "cluster": 4,
+            "inside": 140,
+            "other": 24,
+            "own_retained": 116
+          },
+          {
+            "cluster": 5,
+            "inside": 30,
+            "other": 6,
+            "own_retained": 24
+          },
+          {
+            "cluster": 6,
+            "inside": 9,
+            "other": 0,
+            "own_retained": 9
+          },
+          {
+            "cluster": 7,
+            "inside": 42,
+            "other": 10,
+            "own_retained": 32
+          },
+          {
+            "cluster": 8,
+            "inside": 120,
+            "other": 15,
+            "own_retained": 105
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 17,
+            "other": 1,
+            "own_retained": 16
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h2_looFalse",
+        "point_region_memberships": 1000,
+        "other_memberships": 191,
+        "contamination": 0.191,
+        "own_retention": 0.809,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 155,
+            "other": 28,
+            "own_retained": 127
+          },
+          {
+            "cluster": 1,
+            "inside": 262,
+            "other": 24,
+            "own_retained": 238
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 238,
+            "other": 68,
+            "own_retained": 170
+          },
+          {
+            "cluster": 4,
+            "inside": 145,
+            "other": 28,
+            "own_retained": 117
+          },
+          {
+            "cluster": 5,
+            "inside": 10,
+            "other": 2,
+            "own_retained": 8
+          },
+          {
+            "cluster": 6,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 7,
+            "inside": 40,
+            "other": 8,
+            "own_retained": 32
+          },
+          {
+            "cluster": 8,
+            "inside": 140,
+            "other": 32,
+            "own_retained": 108
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 10,
+            "other": 1,
+            "own_retained": 9
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h2_looTrue",
+        "point_region_memberships": 1000,
+        "other_memberships": 193,
+        "contamination": 0.193,
+        "own_retention": 0.807,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 156,
+            "other": 29,
+            "own_retained": 127
+          },
+          {
+            "cluster": 1,
+            "inside": 260,
+            "other": 24,
+            "own_retained": 236
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 239,
+            "other": 69,
+            "own_retained": 170
+          },
+          {
+            "cluster": 4,
+            "inside": 145,
+            "other": 28,
+            "own_retained": 117
+          },
+          {
+            "cluster": 5,
+            "inside": 10,
+            "other": 2,
+            "own_retained": 8
+          },
+          {
+            "cluster": 6,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 7,
+            "inside": 40,
+            "other": 8,
+            "own_retained": 32
+          },
+          {
+            "cluster": 8,
+            "inside": 140,
+            "other": 32,
+            "own_retained": 108
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 10,
+            "other": 1,
+            "own_retained": 9
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      }
+    ]
+  }
+}

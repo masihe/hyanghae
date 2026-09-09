@@ -1,0 +1,2651 @@
+{
+  "timings": {
+    "prepare": 4.413787700003013,
+    "seeds": 18.074639699887484,
+    "clusters": 0.15818169992417097,
+    "supervised_low": 2.1950062999967486,
+    "selection": 0.110231600003317,
+    "development_overlap": 0.18381489999592304,
+    "labels": 0.006245699943974614,
+    "boundaries": 0.4091324000619352,
+    "metric_expectations": 0.02154270000755787,
+    "raw_cache": 5.359997300198302,
+    "transform": 4.812761000124738,
+    "protected_unchanged": 2.500135451555252e-06
+  },
+  "prepare": {
+    "n": 1000,
+    "edges": 872
+  },
+  "seconds": 49.34692050004378,
+  "seeds": {
+    "rows": [
+      {
+        "nn": 10,
+        "seed": 0,
+        "trust@10": 0.9380124936515998,
+        "trust@20": 0.9161655492521918,
+        "knn_overlap@10": 0.3921,
+        "reminds_pct": 0.16285551606652524,
+        "n_edges": 872
+      },
+      {
+        "nn": 10,
+        "seed": 1,
+        "trust@10": 0.9372444895886236,
+        "trust@20": 0.9184827230531202,
+        "knn_overlap@10": 0.3826,
+        "reminds_pct": 0.16751269618242093,
+        "n_edges": 872
+      },
+      {
+        "nn": 10,
+        "seed": 2,
+        "trust@10": 0.9361429151853733,
+        "trust@20": 0.9174670964414646,
+        "knn_overlap@10": 0.3871,
+        "reminds_pct": 0.17664797825348283,
+        "n_edges": 872
+      },
+      {
+        "nn": 10,
+        "seed": 3,
+        "trust@10": 0.9340682579989843,
+        "trust@20": 0.9164435791645178,
+        "knn_overlap@10": 0.392,
+        "reminds_pct": 0.1605780092018624,
+        "n_edges": 872
+      },
+      {
+        "nn": 10,
+        "seed": 42,
+        "trust@10": 0.9387079735906552,
+        "trust@20": 0.9185974213512119,
+        "knn_overlap@10": 0.38880000000000003,
+        "reminds_pct": 0.17658484172245642,
+        "n_edges": 872
+      },
+      {
+        "nn": 15,
+        "seed": 0,
+        "trust@10": 0.9294627729812087,
+        "trust@20": 0.9152874161939144,
+        "knn_overlap@10": 0.36619999999999997,
+        "reminds_pct": 0.15954945771459533,
+        "n_edges": 872
+      },
+      {
+        "nn": 15,
+        "seed": 1,
+        "trust@10": 0.9290933468765871,
+        "trust@20": 0.9141114492006188,
+        "knn_overlap@10": 0.3625,
+        "reminds_pct": 0.1671442084286121,
+        "n_edges": 872
+      },
+      {
+        "nn": 15,
+        "seed": 2,
+        "trust@10": 0.9333002539360081,
+        "trust@20": 0.9179309437854564,
+        "knn_overlap@10": 0.36819999999999997,
+        "reminds_pct": 0.1654154154154154,
+        "n_edges": 872
+      },
+      {
+        "nn": 15,
+        "seed": 3,
+        "trust@10": 0.9362868461147791,
+        "trust@20": 0.9190447653429603,
+        "knn_overlap@10": 0.37160000000000004,
+        "reminds_pct": 0.16921967839399032,
+        "n_edges": 872
+      },
+      {
+        "nn": 15,
+        "seed": 42,
+        "trust@10": 0.9339547993905536,
+        "trust@20": 0.9192306343476019,
+        "knn_overlap@10": 0.36860000000000004,
+        "reminds_pct": 0.1570079253565492,
+        "n_edges": 872
+      }
+    ],
+    "summary": [
+      {
+        "nn": 10,
+        "trust@10": {
+          "mean": 0.9368352260030474,
+          "sd_sample": 0.0018163180840284408
+        },
+        "knn_overlap@10": {
+          "mean": 0.38852,
+          "sd_sample": 0.003939162347504867
+        },
+        "reminds_pct": {
+          "mean": 0.16883580828534955,
+          "sd_sample": 0.007529662761091824
+        }
+      },
+      {
+        "nn": 15,
+        "trust@10": {
+          "mean": 0.9324196038598274,
+          "sd_sample": 0.0030779362767945086
+        },
+        "knn_overlap@10": {
+          "mean": 0.36741999999999997,
+          "sd_sample": 0.003360357123878375
+        },
+        "reminds_pct": {
+          "mean": 0.16366733706183248,
+          "sd_sample": 0.005178745052593624
+        }
+      }
+    ],
+    "paired_nn10_minus_nn15": {
+      "trust@10": {
+        "mean": 0.004415622143219911,
+        "sd_sample": 0.0044058420783639075,
+        "values": [
+          0.008549720670391059,
+          0.008151142712036541,
+          0.0028426612493651637,
+          -0.002218588115794784,
+          0.004753174200101573
+        ]
+      },
+      "knn_overlap@10": {
+        "mean": 0.021100000000000008,
+        "sd_sample": 0.0027468163389640847,
+        "values": [
+          0.025900000000000034,
+          0.020100000000000007,
+          0.018900000000000028,
+          0.020399999999999974,
+          0.020199999999999996
+        ]
+      },
+      "reminds_pct": {
+        "mean": 0.00516847122351709,
+        "sd_sample": 0.010742496216481568,
+        "values": [
+          0.0033060583519299025,
+          0.0003684877538088216,
+          0.011232562838067423,
+          -0.008641669192127915,
+          0.01957691636590722
+        ]
+      }
+    }
+  },
+  "clusters": {
+    "determinism": [
+      {
+        "seed": 0,
+        "exact_equal": true
+      },
+      {
+        "seed": 1,
+        "exact_equal": true
+      },
+      {
+        "seed": 2,
+        "exact_equal": true
+      },
+      {
+        "seed": 3,
+        "exact_equal": true
+      },
+      {
+        "seed": 42,
+        "exact_equal": true
+      }
+    ],
+    "comparisons": [
+      {
+        "method": "average",
+        "k": 12,
+        "cohesion": 0.7622,
+        "expected": 0.17499800000000001,
+        "cross": 306,
+        "cross_fraction": 0.35091743119266056,
+        "sizes": [
+          281,
+          200,
+          145,
+          128,
+          121,
+          48,
+          29,
+          24,
+          15,
+          6,
+          2,
+          1
+        ],
+        "weak_labels": 3,
+        "per_cluster": {
+          "0": 0.742,
+          "1": 0.832,
+          "2": 0.083,
+          "3": 0.76,
+          "4": 0.811,
+          "5": 0.662,
+          "6": 0.56,
+          "7": 0.606,
+          "8": 0.769,
+          "9": 0.0,
+          "10": 0.608,
+          "11": 0.0
+        }
+      },
+      {
+        "method": "complete",
+        "k": 12,
+        "cohesion": 0.5796,
+        "expected": 0.113346,
+        "cross": 390,
+        "cross_fraction": 0.44724770642201833,
+        "sizes": [
+          224,
+          119,
+          116,
+          87,
+          86,
+          70,
+          64,
+          58,
+          57,
+          49,
+          43,
+          27
+        ],
+        "weak_labels": 1,
+        "per_cluster": {
+          "0": 0.696,
+          "1": 0.507,
+          "2": 0.558,
+          "3": 0.628,
+          "4": 0.55,
+          "5": 0.69,
+          "6": 0.472,
+          "7": 0.754,
+          "8": 0.491,
+          "9": 0.611,
+          "10": 0.266,
+          "11": 0.601
+        }
+      },
+      {
+        "method": "single",
+        "k": 12,
+        "cohesion": 0.9798,
+        "expected": 0.9781320000000001,
+        "cross": 11,
+        "cross_fraction": 0.01261467889908257,
+        "sizes": [
+          989,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "weak_labels": 11,
+        "per_cluster": {
+          "0": 0.991,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 0.0,
+          "11": 0.0
+        }
+      }
+    ]
+  },
+  "supervised_low": [
+    {
+      "trust@10": 0.9515474860335196,
+      "trust@20": 0.930633831872099,
+      "knn_overlap@10": 0.38930000000000003,
+      "reminds_pct": 0.20350396267827464,
+      "n_edges": 872,
+      "also_liked_pct": 0.3938580097619857,
+      "sil2d": 0.733024906886094,
+      "cohesion_all": 0.9856,
+      "cohesion_all_expected": 0.17528000000000002,
+      "cohesion_display": 0.948,
+      "cohesion_display_expected": 0.22399999999999998,
+      "reminds_pct_same": 0.029243023942670584,
+      "n_edges_same": 566,
+      "reminds_pct_cross": 0.5258297513199474,
+      "n_edges_cross": 306,
+      "weight": 0.05,
+      "far_dist": 2.6315789473684212,
+      "cross_graph_multiplier": 0.07196474394172296
+    },
+    {
+      "trust@10": 0.9522589131538852,
+      "trust@20": 0.9300236204228984,
+      "knn_overlap@10": 0.3902,
+      "reminds_pct": 0.19562222773231946,
+      "n_edges": 872,
+      "also_liked_pct": 0.38984215165760555,
+      "sil2d": 0.7647778629510642,
+      "cohesion_all": 0.9896,
+      "cohesion_all_expected": 0.17528000000000002,
+      "cohesion_display": 0.948,
+      "cohesion_display_expected": 0.22399999999999998,
+      "reminds_pct_same": 0.028724837912117065,
+      "n_edges_same": 566,
+      "reminds_pct_cross": 0.5043278572690337,
+      "n_edges_cross": 306,
+      "weight": 0.1,
+      "far_dist": 2.7777777777777777,
+      "cross_graph_multiplier": 0.06217652402211632
+    }
+  ],
+  "selection": [
+    {
+      "method": "popularity",
+      "n": 1000,
+      "accords": 42,
+      "brands": 182,
+      "confident_edges": 915,
+      "top10_brand_share": 0.296,
+      "vote_min": 3309,
+      "vote_median": 5579.0,
+      "group_counts": {
+        "Amber": 374,
+        "Floral": 296,
+        "Woody": 218,
+        "Fresh": 112
+      }
+    },
+    {
+      "method": "adopted",
+      "n": 1000,
+      "accords": 58,
+      "brands": 223,
+      "confident_edges": 872,
+      "top10_brand_share": 0.253,
+      "vote_min": 501,
+      "vote_median": 5266.5,
+      "group_counts": {
+        "Amber": 298,
+        "Floral": 293,
+        "Woody": 235,
+        "Fresh": 174
+      }
+    },
+    {
+      "method": "one_per_accord_then_popularity",
+      "n": 1000,
+      "accords": 58,
+      "brands": 186,
+      "confident_edges": 901,
+      "top10_brand_share": 0.293,
+      "vote_min": 510,
+      "vote_median": 5579.0,
+      "group_counts": {
+        "Amber": 374,
+        "Floral": 298,
+        "Woody": 215,
+        "Fresh": 113
+      }
+    },
+    {
+      "method": "brand_cap20",
+      "n": 1000,
+      "accords": 42,
+      "brands": 202,
+      "confident_edges": 808,
+      "top10_brand_share": 0.2,
+      "vote_min": 3054,
+      "vote_median": 5470.0,
+      "group_counts": {
+        "Amber": 379,
+        "Floral": 293,
+        "Woody": 210,
+        "Fresh": 118
+      }
+    }
+  ],
+  "development_overlap": {
+    "eligible": 3835,
+    "development": 700,
+    "map_directed": 872,
+    "map_unique_unordered": 485,
+    "sets": {
+      "development700": {
+        "queries_on_map": 78,
+        "map_edges_source_query": 120,
+        "map_directed_relevance_overlap": 30,
+        "map_directed_edges_matching_unordered_relevance": 56,
+        "map_unique_unordered_relevance_overlap": 30
+      },
+      "tuning500": {
+        "queries_on_map": 56,
+        "map_edges_source_query": 87,
+        "map_directed_relevance_overlap": 17,
+        "map_directed_edges_matching_unordered_relevance": 35,
+        "map_unique_unordered_relevance_overlap": 19
+      },
+      "validation200": {
+        "queries_on_map": 22,
+        "map_edges_source_query": 33,
+        "map_directed_relevance_overlap": 13,
+        "map_directed_edges_matching_unordered_relevance": 23,
+        "map_unique_unordered_relevance_overlap": 12
+      }
+    }
+  },
+  "labels": [
+    {
+      "cluster": 0,
+      "size": 145,
+      "frequency_strength": [
+        "warm spicy",
+        "woody",
+        "amber"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "leather",
+          "lift": 3.7566485388155146,
+          "coverage": 0.25517241379310346
+        },
+        {
+          "accord": "warm spicy",
+          "lift": 3.02727453623898,
+          "coverage": 0.6206896551724138
+        },
+        {
+          "accord": "amber",
+          "lift": 2.6517257803023373,
+          "coverage": 0.5172413793103449
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "warm spicy",
+          "lift": 3.02727453623898,
+          "coverage": 0.6206896551724138
+        },
+        {
+          "accord": "amber",
+          "lift": 2.6517257803023373,
+          "coverage": 0.5172413793103449
+        },
+        {
+          "accord": "woody",
+          "lift": 1.5174506828528074,
+          "coverage": 0.6551724137931034
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "warm spicy",
+          "lift": 3.02727453623898,
+          "coverage": 0.6206896551724138
+        },
+        {
+          "accord": "amber",
+          "lift": 2.6517257803023373,
+          "coverage": 0.5172413793103449
+        },
+        {
+          "accord": "woody",
+          "lift": 1.5174506828528074,
+          "coverage": 0.6551724137931034
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "cinnamon",
+          "lift": 4.795798493538801,
+          "coverage": 0.21379310344827587
+        },
+        {
+          "accord": "smoky",
+          "lift": 4.581736909323117,
+          "coverage": 0.27586206896551724
+        },
+        {
+          "accord": "leather",
+          "lift": 3.476508498997255,
+          "coverage": 0.32413793103448274
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "leather",
+          "lift": 3.476508498997255,
+          "coverage": 0.32413793103448274
+        },
+        {
+          "accord": "warm spicy",
+          "lift": 2.7121047470115824,
+          "coverage": 0.8620689655172413
+        },
+        {
+          "accord": "amber",
+          "lift": 2.2405077250913386,
+          "coverage": 0.6344827586206897
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "warm spicy",
+          "lift": 2.7121047470115824,
+          "coverage": 0.8620689655172413
+        },
+        {
+          "accord": "amber",
+          "lift": 2.2405077250913386,
+          "coverage": 0.6344827586206897
+        },
+        {
+          "accord": "woody",
+          "lift": 1.4089153579892082,
+          "coverage": 0.8482758620689655
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 281,
+      "frequency_strength": [
+        "aromatic",
+        "woody",
+        "citrus"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "aromatic",
+          "lift": 2.629018349013365,
+          "coverage": 0.7295373665480427
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.4971698821265798,
+          "coverage": 0.5551601423487544
+        },
+        {
+          "accord": "green",
+          "lift": 2.1320075546113166,
+          "coverage": 0.25622775800711745
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "aromatic",
+          "lift": 2.629018349013365,
+          "coverage": 0.7295373665480427
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.4971698821265798,
+          "coverage": 0.5551601423487544
+        },
+        {
+          "accord": "citrus",
+          "lift": 2.031789823664051,
+          "coverage": 0.5195729537366548
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "aromatic",
+          "lift": 2.629018349013365,
+          "coverage": 0.7295373665480427
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.4971698821265798,
+          "coverage": 0.5551601423487544
+        },
+        {
+          "accord": "citrus",
+          "lift": 2.031789823664051,
+          "coverage": 0.5195729537366548
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "lavender",
+          "lift": 2.8200199596314848,
+          "coverage": 0.2526690391459075
+        },
+        {
+          "accord": "aromatic",
+          "lift": 2.347407779075441,
+          "coverage": 0.8754448398576512
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.2812020099938546,
+          "coverage": 0.7330960854092526
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "aromatic",
+          "lift": 2.347407779075441,
+          "coverage": 0.8754448398576512
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.2812020099938546,
+          "coverage": 0.7330960854092526
+        },
+        {
+          "accord": "green",
+          "lift": 1.9021733355072457,
+          "coverage": 0.36298932384341637
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "aromatic",
+          "lift": 2.347407779075441,
+          "coverage": 0.8754448398576512
+        },
+        {
+          "accord": "fresh spicy",
+          "lift": 2.2812020099938546,
+          "coverage": 0.7330960854092526
+        },
+        {
+          "accord": "citrus",
+          "lift": 1.8542621810849431,
+          "coverage": 0.6690391459074733
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 6,
+      "frequency_strength": [
+        "mineral",
+        "woody",
+        "aromatic"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "mineral",
+          "lift": 119.47431302270013,
+          "coverage": 1.0
+        },
+        {
+          "accord": "ozonic",
+          "lift": 8.090065625707172,
+          "coverage": 0.3333333333333333
+        },
+        {
+          "accord": "leather",
+          "lift": 4.332755632582323,
+          "coverage": 0.3333333333333333
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "mineral",
+          "lift": 119.47431302270013,
+          "coverage": 1.0
+        },
+        {
+          "accord": "ozonic",
+          "lift": 8.090065625707172,
+          "coverage": 0.3333333333333333
+        },
+        {
+          "accord": "leather",
+          "lift": 4.332755632582323,
+          "coverage": 0.3333333333333333
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "mineral",
+          "lift": 119.47431302270013,
+          "coverage": 1.0
+        },
+        {
+          "accord": "woody",
+          "lift": 1.7445521455926833,
+          "coverage": 0.8333333333333334
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "mineral",
+          "lift": 113.76564277588169,
+          "coverage": 1.0
+        },
+        {
+          "accord": "metallic",
+          "lift": 19.291161956034095,
+          "coverage": 0.3333333333333333
+        },
+        {
+          "accord": "salty",
+          "lift": 15.96600045945325,
+          "coverage": 0.3333333333333333
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "mineral",
+          "lift": 113.76564277588169,
+          "coverage": 1.0
+        },
+        {
+          "accord": "metallic",
+          "lift": 19.291161956034095,
+          "coverage": 0.3333333333333333
+        },
+        {
+          "accord": "salty",
+          "lift": 15.96600045945325,
+          "coverage": 0.3333333333333333
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "mineral",
+          "lift": 113.76564277588169,
+          "coverage": 1.0
+        },
+        {
+          "accord": "aquatic",
+          "lift": 3.9774413772632826,
+          "coverage": 0.5
+        },
+        {
+          "accord": "woody",
+          "lift": 1.4108729045615442,
+          "coverage": 0.8333333333333334
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 200,
+      "frequency_strength": [
+        "sweet",
+        "vanilla",
+        "fruity"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "sweet",
+          "lift": 2.6293211162015826,
+          "coverage": 0.825
+        },
+        {
+          "accord": "vanilla",
+          "lift": 2.528665137859314,
+          "coverage": 0.615
+        },
+        {
+          "accord": "fruity",
+          "lift": 2.036466085477355,
+          "coverage": 0.5
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "sweet",
+          "lift": 2.6293211162015826,
+          "coverage": 0.825
+        },
+        {
+          "accord": "vanilla",
+          "lift": 2.528665137859314,
+          "coverage": 0.615
+        },
+        {
+          "accord": "fruity",
+          "lift": 2.036466085477355,
+          "coverage": 0.5
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "sweet",
+          "lift": 2.6293211162015826,
+          "coverage": 0.825
+        },
+        {
+          "accord": "vanilla",
+          "lift": 2.528665137859314,
+          "coverage": 0.615
+        },
+        {
+          "accord": "fruity",
+          "lift": 2.036466085477355,
+          "coverage": 0.5
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "vanilla",
+          "lift": 2.3175598631698975,
+          "coverage": 0.75
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.178119935170178,
+          "coverage": 0.925
+        },
+        {
+          "accord": "fruity",
+          "lift": 1.8838483453868067,
+          "coverage": 0.615
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "vanilla",
+          "lift": 2.3175598631698975,
+          "coverage": 0.75
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.178119935170178,
+          "coverage": 0.925
+        },
+        {
+          "accord": "fruity",
+          "lift": 1.8838483453868067,
+          "coverage": 0.615
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "vanilla",
+          "lift": 2.3175598631698975,
+          "coverage": 0.75
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.178119935170178,
+          "coverage": 0.925
+        },
+        {
+          "accord": "fruity",
+          "lift": 1.8838483453868067,
+          "coverage": 0.615
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 128,
+      "frequency_strength": [
+        "powdery",
+        "woody",
+        "musky"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "iris",
+          "lift": 6.90978287996007,
+          "coverage": 0.375
+        },
+        {
+          "accord": "violet",
+          "lift": 4.935193884523403,
+          "coverage": 0.21875
+        },
+        {
+          "accord": "musky",
+          "lift": 3.879346422422039,
+          "coverage": 0.5078125
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "iris",
+          "lift": 6.90978287996007,
+          "coverage": 0.375
+        },
+        {
+          "accord": "musky",
+          "lift": 3.879346422422039,
+          "coverage": 0.5078125
+        },
+        {
+          "accord": "powdery",
+          "lift": 3.41619708631116,
+          "coverage": 0.7890625
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "musky",
+          "lift": 3.879346422422039,
+          "coverage": 0.5078125
+        },
+        {
+          "accord": "powdery",
+          "lift": 3.41619708631116,
+          "coverage": 0.7890625
+        },
+        {
+          "accord": "woody",
+          "lift": 1.3638184788331116,
+          "coverage": 0.6015625
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "iris",
+          "lift": 6.059199669966997,
+          "coverage": 0.4609375
+        },
+        {
+          "accord": "violet",
+          "lift": 5.070442511346444,
+          "coverage": 0.3671875
+        },
+        {
+          "accord": "musky",
+          "lift": 2.861300770308123,
+          "coverage": 0.59375
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "iris",
+          "lift": 6.059199669966997,
+          "coverage": 0.4609375
+        },
+        {
+          "accord": "violet",
+          "lift": 5.070442511346444,
+          "coverage": 0.3671875
+        },
+        {
+          "accord": "musky",
+          "lift": 2.861300770308123,
+          "coverage": 0.59375
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "iris",
+          "lift": 6.059199669966997,
+          "coverage": 0.4609375
+        },
+        {
+          "accord": "musky",
+          "lift": 2.861300770308123,
+          "coverage": 0.59375
+        },
+        {
+          "accord": "powdery",
+          "lift": 2.689991368487131,
+          "coverage": 0.9296875
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 29,
+      "frequency_strength": [
+        "aquatic",
+        "ozonic",
+        "fresh"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "ozonic",
+          "lift": 21.97017580822623,
+          "coverage": 0.7931034482758621
+        },
+        {
+          "accord": "aquatic",
+          "lift": 16.756681900013845,
+          "coverage": 0.8620689655172413
+        },
+        {
+          "accord": "fresh",
+          "lift": 3.065036096863961,
+          "coverage": 0.3448275862068966
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "ozonic",
+          "lift": 21.97017580822623,
+          "coverage": 0.7931034482758621
+        },
+        {
+          "accord": "aquatic",
+          "lift": 16.756681900013845,
+          "coverage": 0.8620689655172413
+        },
+        {
+          "accord": "fresh",
+          "lift": 3.065036096863961,
+          "coverage": 0.3448275862068966
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "ozonic",
+          "lift": 21.97017580822623,
+          "coverage": 0.7931034482758621
+        },
+        {
+          "accord": "aquatic",
+          "lift": 16.756681900013845,
+          "coverage": 0.8620689655172413
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "ozonic",
+          "lift": 18.40168243953733,
+          "coverage": 0.896551724137931
+        },
+        {
+          "accord": "aquatic",
+          "lift": 14.800257929806245,
+          "coverage": 1.0
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5462931375625995,
+          "coverage": 0.5517241379310345
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "ozonic",
+          "lift": 18.40168243953733,
+          "coverage": 0.896551724137931
+        },
+        {
+          "accord": "aquatic",
+          "lift": 14.800257929806245,
+          "coverage": 1.0
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5462931375625995,
+          "coverage": 0.5517241379310345
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "ozonic",
+          "lift": 18.40168243953733,
+          "coverage": 0.896551724137931
+        },
+        {
+          "accord": "aquatic",
+          "lift": 14.800257929806245,
+          "coverage": 1.0
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5462931375625995,
+          "coverage": 0.5517241379310345
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 15,
+      "frequency_strength": [
+        "soft spicy",
+        "anis",
+        "sweet"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "anis",
+          "lift": 55.73883161512028,
+          "coverage": 0.7333333333333333
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 29.871345029239766,
+          "coverage": 0.9333333333333333
+        },
+        {
+          "accord": "lavender",
+          "lift": 3.7585153864223635,
+          "coverage": 0.2
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "anis",
+          "lift": 55.73883161512028,
+          "coverage": 0.7333333333333333
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 29.871345029239766,
+          "coverage": 0.9333333333333333
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.5910037484381507,
+          "coverage": 0.5333333333333333
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "anis",
+          "lift": 55.73883161512028,
+          "coverage": 0.7333333333333333
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 29.871345029239766,
+          "coverage": 0.9333333333333333
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.5910037484381507,
+          "coverage": 0.5333333333333333
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "anis",
+          "lift": 50.32107413893754,
+          "coverage": 0.8
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 19.989534275248563,
+          "coverage": 1.0
+        },
+        {
+          "accord": "tobacco",
+          "lift": 3.901319563970166,
+          "coverage": 0.2
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "anis",
+          "lift": 50.32107413893754,
+          "coverage": 0.8
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 19.989534275248563,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.6682874122096165,
+          "coverage": 0.8666666666666667
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "anis",
+          "lift": 50.32107413893754,
+          "coverage": 0.8
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 19.989534275248563,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.6682874122096165,
+          "coverage": 0.8666666666666667
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 48,
+      "frequency_strength": [
+        "rose",
+        "floral",
+        "woody"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "rose",
+          "lift": 10.723039215686276,
+          "coverage": 0.9375
+        },
+        {
+          "accord": "floral",
+          "lift": 2.744756034229719,
+          "coverage": 0.625
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5925096985974334,
+          "coverage": 0.3333333333333333
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "rose",
+          "lift": 10.723039215686276,
+          "coverage": 0.9375
+        },
+        {
+          "accord": "floral",
+          "lift": 2.744756034229719,
+          "coverage": 0.625
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.5925096985974334,
+          "coverage": 0.3333333333333333
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "rose",
+          "lift": 10.723039215686276,
+          "coverage": 0.9375
+        },
+        {
+          "accord": "floral",
+          "lift": 2.744756034229719,
+          "coverage": 0.625
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "rose",
+          "lift": 9.16231483377705,
+          "coverage": 1.0
+        },
+        {
+          "accord": "floral",
+          "lift": 2.5343026827769815,
+          "coverage": 0.8958333333333334
+        },
+        {
+          "accord": "patchouli",
+          "lift": 2.095723591050694,
+          "coverage": 0.22916666666666666
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "rose",
+          "lift": 9.16231483377705,
+          "coverage": 1.0
+        },
+        {
+          "accord": "floral",
+          "lift": 2.5343026827769815,
+          "coverage": 0.8958333333333334
+        },
+        {
+          "accord": "fresh",
+          "lift": 1.7378973750164886,
+          "coverage": 0.375
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "rose",
+          "lift": 9.16231483377705,
+          "coverage": 1.0
+        },
+        {
+          "accord": "floral",
+          "lift": 2.5343026827769815,
+          "coverage": 0.8958333333333334
+        },
+        {
+          "accord": "musky",
+          "lift": 1.4854426619132501,
+          "coverage": 0.5
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 121,
+      "frequency_strength": [
+        "white floral",
+        "floral",
+        "citrus"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "white floral",
+          "lift": 4.1495643352760405,
+          "coverage": 0.6528925619834711
+        },
+        {
+          "accord": "floral",
+          "lift": 3.306792780476991,
+          "coverage": 0.6198347107438017
+        },
+        {
+          "accord": "fresh",
+          "lift": 2.079063607508305,
+          "coverage": 0.256198347107438
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "white floral",
+          "lift": 4.1495643352760405,
+          "coverage": 0.6528925619834711
+        },
+        {
+          "accord": "floral",
+          "lift": 3.306792780476991,
+          "coverage": 0.6198347107438017
+        },
+        {
+          "accord": "citrus",
+          "lift": 1.43403610660179,
+          "coverage": 0.4214876033057851
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "white floral",
+          "lift": 4.1495643352760405,
+          "coverage": 0.6528925619834711
+        },
+        {
+          "accord": "floral",
+          "lift": 3.306792780476991,
+          "coverage": 0.6198347107438017
+        },
+        {
+          "accord": "citrus",
+          "lift": 1.43403610660179,
+          "coverage": 0.4214876033057851
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "tuberose",
+          "lift": 6.363790264247348,
+          "coverage": 0.2066115702479339
+        },
+        {
+          "accord": "yellow floral",
+          "lift": 4.397401334688646,
+          "coverage": 0.23140495867768596
+        },
+        {
+          "accord": "white floral",
+          "lift": 3.6986021834506686,
+          "coverage": 0.8016528925619835
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "white floral",
+          "lift": 3.6986021834506686,
+          "coverage": 0.8016528925619835
+        },
+        {
+          "accord": "floral",
+          "lift": 2.7118033047696257,
+          "coverage": 0.7355371900826446
+        },
+        {
+          "accord": "green",
+          "lift": 1.8283211386499192,
+          "coverage": 0.4132231404958678
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "white floral",
+          "lift": 3.6986021834506686,
+          "coverage": 0.8016528925619835
+        },
+        {
+          "accord": "floral",
+          "lift": 2.7118033047696257,
+          "coverage": 0.7355371900826446
+        },
+        {
+          "accord": "green",
+          "lift": 1.8283211386499192,
+          "coverage": 0.4132231404958678
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "size": 2,
+      "frequency_strength": [
+        "marine",
+        "aromatic",
+        "fresh"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "marine",
+          "lift": 35.38461538461539,
+          "coverage": 1.0
+        },
+        {
+          "accord": "violet",
+          "lift": 17.08233686368295,
+          "coverage": 0.5
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 16.666666666666668,
+          "coverage": 0.5
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "marine",
+          "lift": 35.38461538461539,
+          "coverage": 1.0
+        },
+        {
+          "accord": "violet",
+          "lift": 17.08233686368295,
+          "coverage": 0.5
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 16.666666666666668,
+          "coverage": 0.5
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "marine",
+          "lift": 35.38461538461539,
+          "coverage": 1.0
+        },
+        {
+          "accord": "violet",
+          "lift": 17.08233686368295,
+          "coverage": 0.5
+        },
+        {
+          "accord": "soft spicy",
+          "lift": 16.666666666666668,
+          "coverage": 0.5
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "marine",
+          "lift": 31.91120360735345,
+          "coverage": 1.0
+        },
+        {
+          "accord": "violet",
+          "lift": 12.607160867372667,
+          "coverage": 0.5
+        },
+        {
+          "accord": "tuberose",
+          "lift": 11.405959031657355,
+          "coverage": 0.5
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "marine",
+          "lift": 31.91120360735345,
+          "coverage": 1.0
+        },
+        {
+          "accord": "violet",
+          "lift": 12.607160867372667,
+          "coverage": 0.5
+        },
+        {
+          "accord": "tuberose",
+          "lift": 11.405959031657355,
+          "coverage": 0.5
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "marine",
+          "lift": 31.91120360735345,
+          "coverage": 1.0
+        },
+        {
+          "accord": "violet",
+          "lift": 12.607160867372667,
+          "coverage": 0.5
+        },
+        {
+          "accord": "tuberose",
+          "lift": 11.405959031657355,
+          "coverage": 0.5
+        }
+      ]
+    },
+    {
+      "cluster": 10,
+      "size": 24,
+      "frequency_strength": [
+        "lactonic",
+        "coconut",
+        "sweet"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "lactonic",
+          "lift": 31.05803427093437,
+          "coverage": 0.875
+        },
+        {
+          "accord": "coconut",
+          "lift": 22.964432686654913,
+          "coverage": 0.625
+        },
+        {
+          "accord": "tropical",
+          "lift": 4.166666666666667,
+          "coverage": 0.20833333333333334
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "lactonic",
+          "lift": 31.05803427093437,
+          "coverage": 0.875
+        },
+        {
+          "accord": "coconut",
+          "lift": 22.964432686654913,
+          "coverage": 0.625
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.0199916701374425,
+          "coverage": 0.7916666666666666
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "lactonic",
+          "lift": 31.05803427093437,
+          "coverage": 0.875
+        },
+        {
+          "accord": "coconut",
+          "lift": 22.964432686654913,
+          "coverage": 0.625
+        },
+        {
+          "accord": "sweet",
+          "lift": 2.0199916701374425,
+          "coverage": 0.7916666666666666
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "savory",
+          "lift": 30.414908579465543,
+          "coverage": 0.20833333333333334
+        },
+        {
+          "accord": "lactonic",
+          "lift": 25.433728791937746,
+          "coverage": 0.9583333333333334
+        },
+        {
+          "accord": "coconut",
+          "lift": 20.289855072463766,
+          "coverage": 0.6666666666666666
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "lactonic",
+          "lift": 25.433728791937746,
+          "coverage": 0.9583333333333334
+        },
+        {
+          "accord": "coconut",
+          "lift": 20.289855072463766,
+          "coverage": 0.6666666666666666
+        },
+        {
+          "accord": "tropical",
+          "lift": 4.080537670846041,
+          "coverage": 0.375
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "lactonic",
+          "lift": 25.433728791937746,
+          "coverage": 0.9583333333333334
+        },
+        {
+          "accord": "coconut",
+          "lift": 20.289855072463766,
+          "coverage": 0.6666666666666666
+        },
+        {
+          "accord": "sweet",
+          "lift": 1.673419773095624,
+          "coverage": 0.875
+        }
+      ]
+    },
+    {
+      "cluster": 11,
+      "size": 1,
+      "frequency_strength": [
+        "metallic",
+        "mineral",
+        "clay"
+      ],
+      "top5_0.2": [
+        {
+          "accord": "clay",
+          "lift": 1000.0000000000001,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sand",
+          "lift": 1000.0,
+          "coverage": 1.0
+        },
+        {
+          "accord": "metallic",
+          "lift": 221.23893805309734,
+          "coverage": 1.0
+        }
+      ],
+      "top5_0.3": [
+        {
+          "accord": "clay",
+          "lift": 1000.0000000000001,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sand",
+          "lift": 1000.0,
+          "coverage": 1.0
+        },
+        {
+          "accord": "metallic",
+          "lift": 221.23893805309734,
+          "coverage": 1.0
+        }
+      ],
+      "top5_0.4": [
+        {
+          "accord": "clay",
+          "lift": 1000.0000000000001,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sand",
+          "lift": 1000.0,
+          "coverage": 1.0
+        },
+        {
+          "accord": "metallic",
+          "lift": 221.23893805309734,
+          "coverage": 1.0
+        }
+      ],
+      "all8_0.2": [
+        {
+          "accord": "clay",
+          "lift": 1000.0000000000001,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sand",
+          "lift": 496.0,
+          "coverage": 1.0
+        },
+        {
+          "accord": "metallic",
+          "lift": 134.58950201884252,
+          "coverage": 1.0
+        }
+      ],
+      "all8_0.3": [
+        {
+          "accord": "clay",
+          "lift": 1000.0000000000001,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sand",
+          "lift": 496.0,
+          "coverage": 1.0
+        },
+        {
+          "accord": "metallic",
+          "lift": 134.58950201884252,
+          "coverage": 1.0
+        }
+      ],
+      "all8_0.4": [
+        {
+          "accord": "clay",
+          "lift": 1000.0000000000001,
+          "coverage": 1.0
+        },
+        {
+          "accord": "sand",
+          "lift": 496.0,
+          "coverage": 1.0
+        },
+        {
+          "accord": "metallic",
+          "lift": 134.58950201884252,
+          "coverage": 1.0
+        }
+      ]
+    }
+  ],
+  "boundaries": {
+    "h_median_10th_neighbor": 0.038957090253048166,
+    "rows": [
+      {
+        "method": "convex_hull",
+        "point_region_memberships": 3541,
+        "other_memberships": 2544,
+        "contamination": 0.7184411183281559,
+        "own_retention": 0.997,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 587,
+            "other": 442,
+            "own_retained": 145
+          },
+          {
+            "cluster": 1,
+            "inside": 755,
+            "other": 474,
+            "own_retained": 281
+          },
+          {
+            "cluster": 2,
+            "inside": 56,
+            "other": 50,
+            "own_retained": 6
+          },
+          {
+            "cluster": 3,
+            "inside": 590,
+            "other": 390,
+            "own_retained": 200
+          },
+          {
+            "cluster": 4,
+            "inside": 287,
+            "other": 159,
+            "own_retained": 128
+          },
+          {
+            "cluster": 5,
+            "inside": 169,
+            "other": 140,
+            "own_retained": 29
+          },
+          {
+            "cluster": 6,
+            "inside": 98,
+            "other": 83,
+            "own_retained": 15
+          },
+          {
+            "cluster": 7,
+            "inside": 245,
+            "other": 197,
+            "own_retained": 48
+          },
+          {
+            "cluster": 8,
+            "inside": 318,
+            "other": 197,
+            "own_retained": 121
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 436,
+            "other": 412,
+            "own_retained": 24
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "alpha_circumradius_le_1h",
+        "point_region_memberships": 995,
+        "other_memberships": 73,
+        "contamination": 0.07336683417085427,
+        "own_retention": 0.922,
+        "points_in_any_region": 962,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 152,
+            "other": 17,
+            "own_retained": 135
+          },
+          {
+            "cluster": 1,
+            "inside": 284,
+            "other": 15,
+            "own_retained": 269
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 207,
+            "other": 18,
+            "own_retained": 189
+          },
+          {
+            "cluster": 4,
+            "inside": 132,
+            "other": 10,
+            "own_retained": 122
+          },
+          {
+            "cluster": 5,
+            "inside": 25,
+            "other": 1,
+            "own_retained": 24
+          },
+          {
+            "cluster": 6,
+            "inside": 10,
+            "other": 0,
+            "own_retained": 10
+          },
+          {
+            "cluster": 7,
+            "inside": 45,
+            "other": 3,
+            "own_retained": 42
+          },
+          {
+            "cluster": 8,
+            "inside": 123,
+            "other": 9,
+            "own_retained": 114
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 17,
+            "other": 0,
+            "own_retained": 17
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "alpha_circumradius_le_2h",
+        "point_region_memberships": 1219,
+        "other_memberships": 262,
+        "contamination": 0.21493027071369974,
+        "own_retention": 0.957,
+        "points_in_any_region": 993,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 192,
+            "other": 52,
+            "own_retained": 140
+          },
+          {
+            "cluster": 1,
+            "inside": 310,
+            "other": 36,
+            "own_retained": 274
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 270,
+            "other": 73,
+            "own_retained": 197
+          },
+          {
+            "cluster": 4,
+            "inside": 157,
+            "other": 32,
+            "own_retained": 125
+          },
+          {
+            "cluster": 5,
+            "inside": 35,
+            "other": 8,
+            "own_retained": 27
+          },
+          {
+            "cluster": 6,
+            "inside": 12,
+            "other": 1,
+            "own_retained": 11
+          },
+          {
+            "cluster": 7,
+            "inside": 56,
+            "other": 10,
+            "own_retained": 46
+          },
+          {
+            "cluster": 8,
+            "inside": 169,
+            "other": 50,
+            "own_retained": 119
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 18,
+            "other": 0,
+            "own_retained": 18
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "alpha_circumradius_le_4h",
+        "point_region_memberships": 2051,
+        "other_memberships": 1069,
+        "contamination": 0.5212091662603608,
+        "own_retention": 0.982,
+        "points_in_any_region": 997,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 420,
+            "other": 276,
+            "own_retained": 144
+          },
+          {
+            "cluster": 1,
+            "inside": 547,
+            "other": 266,
+            "own_retained": 281
+          },
+          {
+            "cluster": 2,
+            "inside": 3,
+            "other": 0,
+            "own_retained": 3
+          },
+          {
+            "cluster": 3,
+            "inside": 415,
+            "other": 216,
+            "own_retained": 199
+          },
+          {
+            "cluster": 4,
+            "inside": 219,
+            "other": 92,
+            "own_retained": 127
+          },
+          {
+            "cluster": 5,
+            "inside": 36,
+            "other": 9,
+            "own_retained": 27
+          },
+          {
+            "cluster": 6,
+            "inside": 55,
+            "other": 41,
+            "own_retained": 14
+          },
+          {
+            "cluster": 7,
+            "inside": 83,
+            "other": 36,
+            "own_retained": 47
+          },
+          {
+            "cluster": 8,
+            "inside": 244,
+            "other": 123,
+            "own_retained": 121
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 29,
+            "other": 10,
+            "own_retained": 19
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h0.5_looFalse",
+        "point_region_memberships": 1000,
+        "other_memberships": 99,
+        "contamination": 0.099,
+        "own_retention": 0.901,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 139,
+            "other": 12,
+            "own_retained": 127
+          },
+          {
+            "cluster": 1,
+            "inside": 286,
+            "other": 20,
+            "own_retained": 266
+          },
+          {
+            "cluster": 2,
+            "inside": 3,
+            "other": 0,
+            "own_retained": 3
+          },
+          {
+            "cluster": 3,
+            "inside": 209,
+            "other": 27,
+            "own_retained": 182
+          },
+          {
+            "cluster": 4,
+            "inside": 131,
+            "other": 12,
+            "own_retained": 119
+          },
+          {
+            "cluster": 5,
+            "inside": 31,
+            "other": 6,
+            "own_retained": 25
+          },
+          {
+            "cluster": 6,
+            "inside": 12,
+            "other": 0,
+            "own_retained": 12
+          },
+          {
+            "cluster": 7,
+            "inside": 45,
+            "other": 7,
+            "own_retained": 38
+          },
+          {
+            "cluster": 8,
+            "inside": 123,
+            "other": 13,
+            "own_retained": 110
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 20,
+            "other": 2,
+            "own_retained": 18
+          },
+          {
+            "cluster": 11,
+            "inside": 1,
+            "other": 0,
+            "own_retained": 1
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h0.5_looTrue",
+        "point_region_memberships": 1000,
+        "other_memberships": 135,
+        "contamination": 0.135,
+        "own_retention": 0.865,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 133,
+            "other": 12,
+            "own_retained": 121
+          },
+          {
+            "cluster": 1,
+            "inside": 284,
+            "other": 24,
+            "own_retained": 260
+          },
+          {
+            "cluster": 2,
+            "inside": 5,
+            "other": 3,
+            "own_retained": 2
+          },
+          {
+            "cluster": 3,
+            "inside": 210,
+            "other": 34,
+            "own_retained": 176
+          },
+          {
+            "cluster": 4,
+            "inside": 134,
+            "other": 21,
+            "own_retained": 113
+          },
+          {
+            "cluster": 5,
+            "inside": 32,
+            "other": 8,
+            "own_retained": 24
+          },
+          {
+            "cluster": 6,
+            "inside": 10,
+            "other": 1,
+            "own_retained": 9
+          },
+          {
+            "cluster": 7,
+            "inside": 49,
+            "other": 13,
+            "own_retained": 36
+          },
+          {
+            "cluster": 8,
+            "inside": 123,
+            "other": 16,
+            "own_retained": 107
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 19,
+            "other": 2,
+            "own_retained": 17
+          },
+          {
+            "cluster": 11,
+            "inside": 1,
+            "other": 1,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h1_looFalse",
+        "point_region_memberships": 1000,
+        "other_memberships": 140,
+        "contamination": 0.14,
+        "own_retention": 0.86,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 147,
+            "other": 25,
+            "own_retained": 122
+          },
+          {
+            "cluster": 1,
+            "inside": 294,
+            "other": 33,
+            "own_retained": 261
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 201,
+            "other": 29,
+            "own_retained": 172
+          },
+          {
+            "cluster": 4,
+            "inside": 138,
+            "other": 21,
+            "own_retained": 117
+          },
+          {
+            "cluster": 5,
+            "inside": 29,
+            "other": 5,
+            "own_retained": 24
+          },
+          {
+            "cluster": 6,
+            "inside": 9,
+            "other": 0,
+            "own_retained": 9
+          },
+          {
+            "cluster": 7,
+            "inside": 43,
+            "other": 10,
+            "own_retained": 33
+          },
+          {
+            "cluster": 8,
+            "inside": 121,
+            "other": 16,
+            "own_retained": 105
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 18,
+            "other": 1,
+            "own_retained": 17
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h1_looTrue",
+        "point_region_memberships": 1000,
+        "other_memberships": 153,
+        "contamination": 0.153,
+        "own_retention": 0.847,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 150,
+            "other": 29,
+            "own_retained": 121
+          },
+          {
+            "cluster": 1,
+            "inside": 289,
+            "other": 34,
+            "own_retained": 255
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 203,
+            "other": 33,
+            "own_retained": 170
+          },
+          {
+            "cluster": 4,
+            "inside": 140,
+            "other": 24,
+            "own_retained": 116
+          },
+          {
+            "cluster": 5,
+            "inside": 30,
+            "other": 6,
+            "own_retained": 24
+          },
+          {
+            "cluster": 6,
+            "inside": 9,
+            "other": 0,
+            "own_retained": 9
+          },
+          {
+            "cluster": 7,
+            "inside": 42,
+            "other": 10,
+            "own_retained": 32
+          },
+          {
+            "cluster": 8,
+            "inside": 120,
+            "other": 16,
+            "own_retained": 104
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 17,
+            "other": 1,
+            "own_retained": 16
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h2_looFalse",
+        "point_region_memberships": 1000,
+        "other_memberships": 199,
+        "contamination": 0.199,
+        "own_retention": 0.801,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 155,
+            "other": 31,
+            "own_retained": 124
+          },
+          {
+            "cluster": 1,
+            "inside": 264,
+            "other": 29,
+            "own_retained": 235
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 236,
+            "other": 67,
+            "own_retained": 169
+          },
+          {
+            "cluster": 4,
+            "inside": 145,
+            "other": 28,
+            "own_retained": 117
+          },
+          {
+            "cluster": 5,
+            "inside": 11,
+            "other": 3,
+            "own_retained": 8
+          },
+          {
+            "cluster": 6,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 7,
+            "inside": 40,
+            "other": 8,
+            "own_retained": 32
+          },
+          {
+            "cluster": 8,
+            "inside": 139,
+            "other": 32,
+            "own_retained": 107
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 10,
+            "other": 1,
+            "own_retained": 9
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      },
+      {
+        "method": "kde_sum_h2_looTrue",
+        "point_region_memberships": 1000,
+        "other_memberships": 203,
+        "contamination": 0.203,
+        "own_retention": 0.797,
+        "points_in_any_region": 1000,
+        "per_cluster": [
+          {
+            "cluster": 0,
+            "inside": 155,
+            "other": 32,
+            "own_retained": 123
+          },
+          {
+            "cluster": 1,
+            "inside": 262,
+            "other": 30,
+            "own_retained": 232
+          },
+          {
+            "cluster": 2,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 3,
+            "inside": 238,
+            "other": 69,
+            "own_retained": 169
+          },
+          {
+            "cluster": 4,
+            "inside": 145,
+            "other": 28,
+            "own_retained": 117
+          },
+          {
+            "cluster": 5,
+            "inside": 11,
+            "other": 3,
+            "own_retained": 8
+          },
+          {
+            "cluster": 6,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 7,
+            "inside": 40,
+            "other": 8,
+            "own_retained": 32
+          },
+          {
+            "cluster": 8,
+            "inside": 139,
+            "other": 32,
+            "own_retained": 107
+          },
+          {
+            "cluster": 9,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          },
+          {
+            "cluster": 10,
+            "inside": 10,
+            "other": 1,
+            "own_retained": 9
+          },
+          {
+            "cluster": 11,
+            "inside": 0,
+            "other": 0,
+            "own_retained": 0
+          }
+        ]
+      }
+    ]
+  },
+  "metric_expectations": {
+    "n": 1000,
+    "reminds_no_tie_null": 0.4994994994994995,
+    "cohesion_code": 0.17499800000000001,
+    "cohesion_without_replacement": 0.17417217217217218,
+    "merged_cohesion_code": 0.17528000000000002,
+    "merged_cohesion_without_replacement": 0.17445445445445446,
+    "mean_preserved_neighbors": 3.8880000000000003
+  },
+  "raw_cache": {
+    "jsonl_records": 131930,
+    "people_mismatch": 0,
+    "reminds_raw_count": 692729,
+    "reminds_cache_equal": true
+  },
+  "transform": {
+    "people_ge500": 7823,
+    "eligible_with_features": 7815,
+    "extra": 6815,
+    "extra_missing_group": 513,
+    "candidate_universe": 7815,
+    "nonfinite_coords": 0,
+    "baseline_training_only": 0.17658484172245642,
+    "rows": [
+      {
+        "cohort": "trained_to_trained",
+        "n_edges": 872,
+        "reminds_pct": 0.17970876197274713,
+        "source_nodes": 432
+      },
+      {
+        "cohort": "extra_to_any",
+        "n_edges": 16791,
+        "reminds_pct": 0.21437446752168673,
+        "source_nodes": 5085
+      },
+      {
+        "cohort": "extra_to_trained",
+        "n_edges": 4076,
+        "reminds_pct": 0.217805294239247,
+        "source_nodes": 2514
+      },
+      {
+        "cohort": "extra_to_extra",
+        "n_edges": 12715,
+        "reminds_pct": 0.2132746602310241,
+        "source_nodes": 4726
+      }
+    ]
+  },
+  "protected_unchanged": true
+}

@@ -1,0 +1,26 @@
+{
+  "methods": [
+    "baseline_lexical",
+    "uroman",
+    "enko_transliteration",
+    "llm_ko_to_latin",
+    "llm_latin_to_ko"
+  ],
+  "method2_reuse": "prepare_rankings/evaluate/measure, including exact brand blocking and original concentration/form filters",
+  "candidate_pool": "exactly the Method 2 full per-identity candidate pool for every method",
+  "llm_ko_to_latin_query": "reconstructed_fragrance_latin; literal UNKNOWN/blank comparison key is empty; reconstructed brand diagnostic only",
+  "llm_ko_to_latin_candidate": "Method 2 structured-normalized candidate Latin core",
+  "llm_ko_to_latin_comparison": "NFKC casefold alphanumeric-only, SequenceMatcher(autojunk=False).ratio()",
+  "llm_latin_to_ko_query": "Method 2 structured-normalized Korean member cores, NFD canonical Hangul jamo",
+  "llm_latin_to_ko_candidate": "fixed korean_transliteration linked by exact Method 2 Latin core; literal UNKNOWN/blank key is empty",
+  "llm_latin_to_ko_comparison": "same Method 2 NFD jamo key and SequenceMatcher ratio as dedicated en-ko channel",
+  "reconstruction_status_in_ranking": false,
+  "reconstructed_brand_in_ranking": false,
+  "ties": "score descending then Fragrantica ID descending (Method 2 rank_channel)",
+  "output_k": 10,
+  "mrr": "full common candidate pool; absent gold rank contributes zero",
+  "fusion": false,
+  "gating": false,
+  "verification": false,
+  "parameter_tuning": false
+}
