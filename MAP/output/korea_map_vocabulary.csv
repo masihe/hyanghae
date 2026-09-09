@@ -1,0 +1,472 @@
+﻿종류,이름,보유 향수,비율,평균 강도,최고 강도,1순위 횟수,IDF,유사도 기여
+accord,citrus,124,0.62,67.7,100,38,,가능
+accord,woody,122,0.61,60.4,100,28,,가능
+accord,powdery,104,0.52,45.9,100,10,,가능
+accord,aromatic,100,0.5,52.5,100,5,,가능
+accord,sweet,96,0.48,53.8,100,13,,가능
+accord,musky,92,0.46,48.4,100,6,,가능
+accord,fruity,89,0.445,56.5,100,15,,가능
+accord,floral,88,0.44,55.5,100,18,,가능
+accord,fresh spicy,85,0.425,48.9,100,7,,가능
+accord,white floral,79,0.395,65.9,100,25,,가능
+accord,fresh,76,0.38,41.4,100,2,,가능
+accord,green,64,0.32,50.0,100,7,,가능
+accord,rose,55,0.275,51.6,100,7,,가능
+accord,vanilla,42,0.21,59.2,100,7,,가능
+accord,amber,36,0.18,45.4,98,0,,가능
+accord,warm spicy,35,0.175,50.9,100,3,,가능
+accord,earthy,29,0.145,36.0,89,0,,가능
+accord,aquatic,21,0.105,51.7,100,1,,가능
+accord,soft spicy,20,0.1,30.7,89,0,,가능
+accord,animalic,18,0.09,28.5,76,0,,가능
+accord,lavender,17,0.085,41.9,78,0,,가능
+accord,ozonic,17,0.085,55.2,100,1,,가능
+accord,herbal,14,0.07,29.8,68,0,,가능
+accord,tropical,13,0.065,41.8,82,0,,가능
+accord,lactonic,12,0.06,30.0,49,0,,가능
+accord,mossy,11,0.055,39.2,77,0,,가능
+accord,patchouli,11,0.055,41.5,64,0,,가능
+accord,aldehydic,9,0.045,72.8,100,1,,가능
+accord,iris,9,0.045,51.3,100,1,,가능
+accord,violet,8,0.04,47.8,80,0,,가능
+accord,yellow floral,8,0.04,37.2,77,0,,가능
+accord,balsamic,7,0.035,33.0,47,0,,가능
+accord,coconut,7,0.035,54.0,90,0,,가능
+accord,leather,7,0.035,46.4,87,0,,가능
+accord,marine,7,0.035,77.6,100,3,,가능
+accord,salty,7,0.035,49.6,100,1,,가능
+accord,nutty,6,0.03,37.2,52,0,,가능
+accord,tuberose,6,0.03,46.0,73,0,,가능
+accord,oud,5,0.025,63.2,90,0,,가능
+accord,almond,4,0.02,42.0,75,0,,가능
+accord,cherry,4,0.02,69.8,95,0,,가능
+accord,beeswax,3,0.015,34.7,51,0,,가능
+accord,caramel,3,0.015,48.7,100,1,,가능
+accord,cinnamon,3,0.015,56.0,70,0,,가능
+accord,honey,3,0.015,30.3,38,0,,가능
+accord,soapy,3,0.015,27.0,37,0,,가능
+accord,camphor,2,0.01,28.0,39,0,,가능
+accord,conifer,2,0.01,11.5,14,0,,가능
+accord,metallic,2,0.01,30.5,35,0,,가능
+accord,sour,2,0.01,9.0,15,0,,가능
+accord,tobacco,2,0.01,56.0,78,0,,가능
+accord,anis,1,0.005,28.0,28,0,,없음 (한 향수에만)
+accord,bitter,1,0.005,5.0,5,0,,없음 (한 향수에만)
+accord,cacao,1,0.005,90.0,90,0,,없음 (한 향수에만)
+accord,chocolate,1,0.005,11.0,11,0,,없음 (한 향수에만)
+accord,coca-cola,1,0.005,73.0,73,0,,없음 (한 향수에만)
+accord,coffee,1,0.005,25.0,25,0,,없음 (한 향수에만)
+accord,mineral,1,0.005,49.0,49,0,,없음 (한 향수에만)
+accord,rum,1,0.005,64.0,64,0,,없음 (한 향수에만)
+accord,smoky,1,0.005,38.0,38,0,,없음 (한 향수에만)
+note,Musk,84,0.42,,,,1.985,가능
+note,Jasmine,79,0.395,,,,2.365,가능
+note,Bergamot,58,0.29,,,,2.289,가능
+note,Rose,54,0.27,,,,2.557,가능
+note,Amber,53,0.265,,,,2.28,가능
+note,Sandalwood,52,0.26,,,,2.347,가능
+note,Cedar,43,0.215,,,,2.777,가능
+note,Patchouli,41,0.205,,,,2.402,가능
+note,White Musk,38,0.19,,,,3.761,가능
+note,Vanilla,35,0.175,,,,2.309,가능
+note,Mandarin Orange,33,0.165,,,,3.427,가능
+note,Vetiver,29,0.145,,,,3.01,가능
+note,Lemon,28,0.14,,,,3.195,가능
+note,Orange Blossom,25,0.125,,,,3.442,가능
+note,Pink Pepper,25,0.125,,,,3.542,가능
+note,Iris,24,0.12,,,,3.636,가능
+note,Grapefruit,22,0.11,,,,3.604,가능
+note,Tonka Bean,22,0.11,,,,3.23,가능
+note,Lavender,21,0.105,,,,3.318,가능
+note,Ginger,20,0.1,,,,3.958,가능
+note,Geranium,19,0.095,,,,3.751,가능
+note,Peach,18,0.09,,,,3.813,가능
+note,Pear,18,0.09,,,,4.068,가능
+note,Freesia,17,0.085,,,,4.145,가능
+note,Oakmoss,17,0.085,,,,3.715,가능
+note,Peony,17,0.085,,,,4.22,가능
+note,Black Currant,16,0.08,,,,4.167,가능
+note,Ylang-Ylang,16,0.08,,,,3.924,가능
+note,Neroli,15,0.075,,,,4.012,가능
+note,Mint,13,0.065,,,,4.355,가능
+note,Cardamom,12,0.06,,,,3.525,가능
+note,Green Notes,12,0.06,,,,4.372,가능
+note,Magnolia,12,0.06,,,,4.351,가능
+note,Benzoin,10,0.05,,,,3.932,가능
+note,Leather,10,0.05,,,,3.519,가능
+note,Lily-of-the-Valley,10,0.05,,,,3.889,가능
+note,Orange,10,0.05,,,,3.778,가능
+note,Violet,10,0.05,,,,3.588,가능
+note,Violet Leaf,10,0.05,,,,4.835,가능
+note,Woody Notes,10,0.05,,,,3.769,가능
+note,Aldehydes,9,0.045,,,,4.777,가능
+note,Basil,9,0.045,,,,4.832,가능
+note,Bitter Orange,9,0.045,,,,5.289,가능
+note,Cedarwood,9,0.045,,,,4.321,가능
+note,Cinnamon,9,0.045,,,,3.798,가능
+note,Melon,9,0.045,,,,5.268,가능
+note,Nutmeg,9,0.045,,,,4.045,가능
+note,Raspberry,9,0.045,,,,4.053,가능
+note,Coconut,8,0.04,,,,4.525,가능
+note,Gardenia,8,0.04,,,,4.495,가능
+note,Pepper,8,0.04,,,,4.42,가능
+note,Tangerine,8,0.04,,,,4.865,가능
+note,Woodsy Notes,8,0.04,,,,4.706,가능
+note,Ambergris,7,0.035,,,,4.018,가능
+note,Amberwood,7,0.035,,,,5.318,가능
+note,Apple,7,0.035,,,,4.137,가능
+note,Citruses,7,0.035,,,,4.276,가능
+note,Clary Sage,7,0.035,,,,4.949,가능
+note,Fig,7,0.035,,,,5.288,가능
+note,Indonesian Patchouli Leaf,7,0.035,,,,6.48,가능
+note,Jasmine Sambac,7,0.035,,,,4.801,가능
+note,Labdanum,7,0.035,,,,3.918,가능
+note,Madagascar Vanilla,7,0.035,,,,5.562,가능
+note,Moss,7,0.035,,,,4.423,가능
+note,Ambrette (Musk Mallow),6,0.03,,,,5.706,가능
+note,Ambroxan,6,0.03,,,,4.766,가능
+note,Green Tea,6,0.03,,,,5.602,가능
+note,Pineapple,6,0.03,,,,4.424,가능
+note,Sea Notes,6,0.03,,,,5.101,가능
+note,Tuberose,6,0.03,,,,4.081,가능
+note,Turkish Rose,6,0.03,,,,5.288,가능
+note,Yuzu,6,0.03,,,,5.681,가능
+note,Agarwood (Oud),5,0.025,,,,4.101,가능
+note,Ambrette,5,0.025,,,,5.821,가능
+note,Blackberry,5,0.025,,,,5.587,가능
+note,Blood Orange,5,0.025,,,,5.628,가능
+note,Bulgarian Rose,5,0.025,,,,5.129,가능
+note,Calabrian bergamot,5,0.025,,,,5.855,가능
+note,Coriander,5,0.025,,,,4.562,가능
+note,Haitian Vetiver,5,0.025,,,,5.688,가능
+note,Incense,5,0.025,,,,3.933,가능
+note,Juniper,5,0.025,,,,5.233,가능
+note,Lily,5,0.025,,,,4.769,가능
+note,Mimosa,5,0.025,,,,5.151,가능
+note,Orris Root,5,0.025,,,,5.122,가능
+note,Passionfruit,5,0.025,,,,5.468,가능
+note,Petitgrain,5,0.025,,,,4.87,가능
+note,Powdery Notes,5,0.025,,,,5.416,가능
+note,Red Berries,5,0.025,,,,5.458,가능
+note,Black Pepper,4,0.02,,,,4.314,가능
+note,Caramel,4,0.02,,,,4.327,가능
+note,Cashmeran,4,0.02,,,,5.012,가능
+note,Cashmere Wood,4,0.02,,,,4.893,가능
+note,Cyclamen,4,0.02,,,,5.375,가능
+note,Egyptian Jasmine,4,0.02,,,,6.271,가능
+note,Galbanum,4,0.02,,,,4.886,가능
+note,Honeysuckle,4,0.02,,,,5.479,가능
+note,Lily of the Valley,4,0.02,,,,4.749,가능
+note,Lime,4,0.02,,,,4.537,가능
+note,Litchi,4,0.02,,,,5.346,가능
+note,Lotus,4,0.02,,,,5.31,가능
+note,Mandarin,4,0.02,,,,4.826,가능
+note,Orchid,4,0.02,,,,4.847,가능
+note,Orris,4,0.02,,,,5.015,가능
+note,Pomegranate,4,0.02,,,,6.008,가능
+note,Sage,4,0.02,,,,4.621,가능
+note,Sicilian Lemon,4,0.02,,,,6.027,가능
+note,Vanilla Orchid,4,0.02,,,,6.581,가능
+note,Whipped Cream,4,0.02,,,,5.997,가능
+note,White Amber,4,0.02,,,,6.167,가능
+note,African Orange Flower,3,0.015,,,,6.006,가능
+note,Akigalawood,3,0.015,,,,6.694,가능
+note,Anise,3,0.015,,,,5.588,가능
+note,Bamboo,3,0.015,,,,6.362,가능
+note,Beeswax,3,0.015,,,,6.292,가능
+note,Carnation,3,0.015,,,,4.931,가능
+note,Cherry,3,0.015,,,,5.412,가능
+note,Clementine,3,0.015,,,,6.466,가능
+note,Clove,3,0.015,,,,5.141,가능
+note,Floral Notes,3,0.015,,,,4.392,가능
+note,Frangipani,3,0.015,,,,5.625,가능
+note,Green Leaves,3,0.015,,,,5.752,가능
+note,Helvetolide,3,0.015,,,,8.6,가능
+note,Juniper Berries,3,0.015,,,,5.607,가능
+note,Lilac,3,0.015,,,,5.533,가능
+note,Mahogany,3,0.015,,,,6.729,가능
+note,Marshmallow,3,0.015,,,,6.118,가능
+note,Myrtle,3,0.015,,,,6.569,가능
+note,Opoponax,3,0.015,,,,5.871,가능
+note,Peach Blossom,3,0.015,,,,6.532,가능
+note,Praline,3,0.015,,,,5.11,가능
+note,Rhubarb,3,0.015,,,,5.554,가능
+note,Rosemary,3,0.015,,,,4.717,가능
+note,Saffron,3,0.015,,,,3.755,가능
+note,Sea Salt,3,0.015,,,,6.219,가능
+note,Shiso,3,0.015,,,,7.877,가능
+note,Strawberry,3,0.015,,,,5.199,가능
+note,Suede,3,0.015,,,,5.332,가능
+note,Sweet Pea,3,0.015,,,,7.192,가능
+note,Thyme,3,0.015,,,,5.425,가능
+note,Tonka,3,0.015,,,,5.504,가능
+note,Vanille,3,0.015,,,,5.172,가능
+note,Vetyver,3,0.015,,,,6.774,가능
+note,Virginia Cedar,3,0.015,,,,4.891,가능
+note,Watermelon,3,0.015,,,,5.975,가능
+note,White Flowers,3,0.015,,,,5.042,가능
+note,Wild Strawberry,3,0.015,,,,7.285,가능
+note,elemi,3,0.015,,,,5.257,가능
+note,Ambrettolide,2,0.01,,,,7.907,가능
+note,Ambrofix™,2,0.01,,,,7.848,가능
+note,Amyl Salicylate,2,0.01,,,,8.858,가능
+note,Angelica,2,0.01,,,,6.006,가능
+note,Angelica Root,2,0.01,,,,8.585,가능
+note,Anthamber™,2,0.01,,,,10.998,가능
+note,Apricot,2,0.01,,,,5.202,가능
+note,Artemisia,2,0.01,,,,5.317,가능
+note,Australian Sandalwood,2,0.01,,,,6.536,가능
+note,Bellflower,2,0.01,,,,8.028,가능
+note,Bourbon Vanilla,2,0.01,,,,5.782,가능
+note,Buchu or Agathosma,2,0.01,,,,8.136,가능
+note,Cacao,2,0.01,,,,5.615,가능
+note,Cambodian Oud,2,0.01,,,,6.706,가능
+note,Caraway,2,0.01,,,,6.177,가능
+note,Carrot,2,0.01,,,,7.05,가능
+note,Cassis,2,0.01,,,,5.166,가능
+note,Cetalox,2,0.01,,,,8.486,가능
+note,Chinese Osmanthus,2,0.01,,,,8.063,가능
+note,Clearwood,2,0.01,,,,8.072,가능
+note,Cloves,2,0.01,,,,5.014,가능
+note,Coconut Milk,2,0.01,,,,6.504,가능
+note,Coumarin,2,0.01,,,,5.992,가능
+note,Cucumber,2,0.01,,,,6.676,가능
+note,Cypress,2,0.01,,,,4.915,가능
+note,Cypriol,2,0.01,,,,6.386,가능
+note,Damask Rose,2,0.01,,,,5.385,가능
+note,Datura,2,0.01,,,,7.938,가능
+note,Dried Fruits,2,0.01,,,,6.45,가능
+note,Earl Grey Tea,2,0.01,,,,8.383,가능
+note,Ebony Wood,2,0.01,,,,8.019,가능
+note,Fig Leaf,2,0.01,,,,6.202,가능
+note,Fig Tree,2,0.01,,,,7.753,가능
+note,Granny Smith apple,2,0.01,,,,7.162,가능
+note,Grapefruit blossom,2,0.01,,,,8.324,가능
+note,Green Apple,2,0.01,,,,5.376,가능
+note,Guaiac Wood,2,0.01,,,,4.5,가능
+note,Hawthorn,2,0.01,,,,6.89,가능
+note,Hazelnut,2,0.01,,,,5.919,가능
+note,Hedione,2,0.01,,,,6.347,가능
+note,Heliotrope,2,0.01,,,,4.452,가능
+note,Herbal Notes,2,0.01,,,,5.884,가능
+note,Italian Mandarin,2,0.01,,,,6.961,가능
+note,Lemon Verbena,2,0.01,,,,6.424,가능
+note,Mango,2,0.01,,,,5.431,가능
+note,Marjoram,2,0.01,,,,7.827,가능
+note,Ozonic notes,2,0.01,,,,5.78,가능
+note,Palisander Rosewood,2,0.01,,,,5.662,가능
+note,Papaya,2,0.01,,,,7.245,가능
+note,Papyrus,2,0.01,,,,6.114,가능
+note,Patchouli Leaf,2,0.01,,,,7.978,가능
+note,Pine Tree,2,0.01,,,,6.569,가능
+note,Pink Freesia,2,0.01,,,,8.616,가능
+note,Quince,2,0.01,,,,6.973,가능
+note,Red Apple,2,0.01,,,,5.823,가능
+note,Rhuburb,2,0.01,,,,8.205,가능
+note,Seaweed,2,0.01,,,,6.274,가능
+note,Sesame,2,0.01,,,,7.654,가능
+note,Sichuan Pepper,2,0.01,,,,6.471,가능
+note,Sicilian Bergamot,2,0.01,,,,6.767,가능
+note,Spices,2,0.01,,,,4.823,가능
+note,Sugar,2,0.01,,,,5.143,가능
+note,Tea,2,0.01,,,,5.424,가능
+note,Texas Cedar,2,0.01,,,,7.429,가능
+note,Tiare Flower,2,0.01,,,,6.211,가능
+note,Tobacco,2,0.01,,,,4.258,가능
+note,Vanila,2,0.01,,,,6.847,가능
+note,Verbena,2,0.01,,,,6.703,가능
+note,Watery Notes,2,0.01,,,,5.877,가능
+note,White Peach,2,0.01,,,,6.685,가능
+note,White Rose,2,0.01,,,,6.401,가능
+note,oak moss,2,0.01,,,,5.861,가능
+note,Acácia,1,0.005,,,,7.592,없음 (한 향수에만)
+note,African Marigold,1,0.005,,,,10.082,없음 (한 향수에만)
+note,Algae,1,0.005,,,,8.099,없음 (한 향수에만)
+note,Almond,1,0.005,,,,4.884,없음 (한 향수에만)
+note,Amalfi Lemon,1,0.005,,,,5.6,없음 (한 향수에만)
+note,Amber Xtreme,1,0.005,,,,8.09,없음 (한 향수에만)
+note,Ambrocenide,1,0.005,,,,8.313,없음 (한 향수에만)
+note,Aperol,1,0.005,,,,11.181,없음 (한 향수에만)
+note,Apple juice,1,0.005,,,,9.957,없음 (한 향수에만)
+note,Atlas Cedar,1,0.005,,,,6.104,없음 (한 향수에만)
+note,Australian Blue Cypress,1,0.005,,,,10.151,없음 (한 향수에만)
+note,Bay Leaf,1,0.005,,,,6.269,없음 (한 향수에만)
+note,Birch,1,0.005,,,,5.574,없음 (한 향수에만)
+note,Bitter Almond,1,0.005,,,,6.349,없음 (한 향수에만)
+note,Black Tea,1,0.005,,,,5.957,없음 (한 향수에만)
+note,Blood Mandarin,1,0.005,,,,7.715,없음 (한 향수에만)
+note,Blue Hyacinth,1,0.005,,,,9.458,없음 (한 향수에만)
+note,Bluebell,1,0.005,,,,9.794,없음 (한 향수에만)
+note,Blueberry,1,0.005,,,,6.473,없음 (한 향수에만)
+note,Bourbon Geranium,1,0.005,,,,7.69,없음 (한 향수에만)
+note,Brazilian Orange,1,0.005,,,,7.66,없음 (한 향수에만)
+note,Brazilian Rosewood,1,0.005,,,,6.154,없음 (한 향수에만)
+note,Brown sugar,1,0.005,,,,6.42,없음 (한 향수에만)
+note,Bulrush,1,0.005,,,,10.487,없음 (한 향수에만)
+note,Cacao Pod,1,0.005,,,,6.811,없음 (한 향수에만)
+note,Calone,1,0.005,,,,7.155,없음 (한 향수에만)
+note,Candied Ginger,1,0.005,,,,9.494,없음 (한 향수에만)
+note,Carambola (Star Fruit),1,0.005,,,,7.643,없음 (한 향수에만)
+note,Carrot Seeds,1,0.005,,,,6.738,없음 (한 향수에만)
+note,Cashmere Musk,1,0.005,,,,7.285,없음 (한 향수에만)
+note,Celery Seeds,1,0.005,,,,8.616,없음 (한 향수에만)
+note,Chamomile,1,0.005,,,,5.864,없음 (한 향수에만)
+note,Chayote,1,0.005,,,,12.097,없음 (한 향수에만)
+note,Cherry Blossom,1,0.005,,,,6.4,없음 (한 향수에만)
+note,Chinese Cedar,1,0.005,,,,9.101,없음 (한 향수에만)
+note,Chinese Jasmine,1,0.005,,,,9.101,없음 (한 향수에만)
+note,Chinotto,1,0.005,,,,9.612,없음 (한 향수에만)
+note,Chocolate,1,0.005,,,,5.787,없음 (한 향수에만)
+note,Citron,1,0.005,,,,6.024,없음 (한 향수에만)
+note,Citrus,1,0.005,,,,5.655,없음 (한 향수에만)
+note,Citrus Blossom,1,0.005,,,,9.076,없음 (한 향수에만)
+note,Civettone,1,0.005,,,,10.225,없음 (한 향수에만)
+note,Clean notes,1,0.005,,,,10.151,없음 (한 향수에만)
+note,Coca-Cola,1,0.005,,,,8.185,없음 (한 향수에만)
+note,Coconut Nectar,1,0.005,,,,8.155,없음 (한 향수에만)
+note,Coffee,1,0.005,,,,4.978,없음 (한 향수에만)
+note,Cotton Candy,1,0.005,,,,6.281,없음 (한 향수에만)
+note,Cotton Flower,1,0.005,,,,6.997,없음 (한 향수에만)
+note,Cranberry,1,0.005,,,,6.946,없음 (한 향수에만)
+note,Cypriol Oil or Nagarmotha,1,0.005,,,,5.702,없음 (한 향수에만)
+note,Davana,1,0.005,,,,5.975,없음 (한 향수에만)
+note,Dew Drop,1,0.005,,,,7.477,없음 (한 향수에만)
+note,Earthy Notes,1,0.005,,,,6.635,없음 (한 향수에만)
+note,Ebony,1,0.005,,,,7.554,없음 (한 향수에만)
+note,Elemi resin,1,0.005,,,,6.74,없음 (한 향수에만)
+note,Eucalyptus,1,0.005,,,,5.961,없음 (한 향수에만)
+note,False Jasmine,1,0.005,,,,9.794,없음 (한 향수에만)
+note,Fennel,1,0.005,,,,6.958,없음 (한 향수에만)
+note,Fern,1,0.005,,,,7.07,없음 (한 향수에만)
+note,Fir Resin,1,0.005,,,,7.429,없음 (한 향수에만)
+note,Floral Fruity Notes,1,0.005,,,,8.383,없음 (한 향수에만)
+note,Flowers,1,0.005,,,,6.138,없음 (한 향수에만)
+note,Frankincense,1,0.005,,,,5.446,없음 (한 향수에만)
+note,Fruits,1,0.005,,,,6.057,없음 (한 향수에만)
+note,Gentiana,1,0.005,,,,8.839,없음 (한 향수에만)
+note,Georgywood,1,0.005,,,,8.542,없음 (한 향수에만)
+note,Gin,1,0.005,,,,7.433,없음 (한 향수에만)
+note,Green Accord,1,0.005,,,,6.958,없음 (한 향수에만)
+note,Green Grass,1,0.005,,,,7.424,없음 (한 향수에만)
+note,Green Lilac,1,0.005,,,,8.878,없음 (한 향수에만)
+note,Green Mango,1,0.005,,,,8.919,없음 (한 향수에만)
+note,Green Plum,1,0.005,,,,10.392,없음 (한 향수에만)
+note,Guatemalan Cardamom,1,0.005,,,,7.517,없음 (한 향수에만)
+note,Gurjan balsam,1,0.005,,,,6.736,없음 (한 향수에만)
+note,Hiacynth,1,0.005,,,,7.69,없음 (한 향수에만)
+note,Ho Wood,1,0.005,,,,8.919,없음 (한 향수에만)
+note,Honey,1,0.005,,,,4.502,없음 (한 향수에만)
+note,Hyacinth,1,0.005,,,,5.626,없음 (한 향수에만)
+note,Ice,1,0.005,,,,7.369,없음 (한 향수에만)
+note,Immortelle,1,0.005,,,,5.995,없음 (한 향수에만)
+note,Indian Jasmine,1,0.005,,,,6.874,없음 (한 향수에만)
+note,Indian Tea,1,0.005,,,,10.998,없음 (한 향수에만)
+note,Indian Tuberose,1,0.005,,,,7.575,없음 (한 향수에만)
+note,Iso E Super,1,0.005,,,,6.395,없음 (한 향수에만)
+note,Italian Lemon,1,0.005,,,,6.618,없음 (한 향수에만)
+note,Ivy,1,0.005,,,,6.75,없음 (한 향수에만)
+note,Jasmine Leaf,1,0.005,,,,9.746,없음 (한 향수에만)
+note,Karo Karounde,1,0.005,,,,9.264,없음 (한 향수에만)
+note,Kephalis,1,0.005,,,,9.746,없음 (한 향수에만)
+note,Lady of the Night Flower,1,0.005,,,,9.264,없음 (한 향수에만)
+note,Lemon Peel,1,0.005,,,,7.813,없음 (한 향수에만)
+note,Lemon Zest,1,0.005,,,,7.047,없음 (한 향수에만)
+note,Licorice,1,0.005,,,,5.946,없음 (한 향수에만)
+note,Linen,1,0.005,,,,8.127,없음 (한 향수에만)
+note,Litsea Cubeba,1,0.005,,,,7.727,없음 (한 향수에만)
+note,Macarons,1,0.005,,,,8.324,없음 (한 향수에만)
+note,Madagascar Pepper,1,0.005,,,,8.878,없음 (한 향수에만)
+note,Mandarin Leaf,1,0.005,,,,8.205,없음 (한 향수에만)
+note,Marshamallow,1,0.005,,,,8.542,없음 (한 향수에만)
+note,Mastic or Lentisque,1,0.005,,,,7.019,없음 (한 향수에만)
+note,Mignonette,1,0.005,,,,8.663,없음 (한 향수에만)
+note,Mineral notes,1,0.005,,,,6.717,없음 (한 향수에만)
+note,Mirabelle,1,0.005,,,,8.459,없음 (한 향수에만)
+note,Moroccan Rose,1,0.005,,,,6.85,없음 (한 향수에만)
+note,Moxalone,1,0.005,,,,12.097,없음 (한 향수에만)
+note,Myrrh,1,0.005,,,,4.885,없음 (한 향수에만)
+note,Mysore Sandalwood,1,0.005,,,,7.044,없음 (한 향수에만)
+note,Narcissus,1,0.005,,,,5.561,없음 (한 향수에만)
+note,Nectarine,1,0.005,,,,6.43,없음 (한 향수에만)
+note,Norlimbanol™,1,0.005,,,,9.746,없음 (한 향수에만)
+note,Oak,1,0.005,,,,5.791,없음 (한 향수에만)
+note,Olibanum,1,0.005,,,,4.715,없음 (한 향수에만)
+note,Oolong tea,1,0.005,,,,8.336,없음 (한 향수에만)
+note,Orange Peel,1,0.005,,,,7.672,없음 (한 향수에만)
+note,Orcanox™,1,0.005,,,,8.117,없음 (한 향수에만)
+note,Osmanthus,1,0.005,,,,4.835,없음 (한 향수에만)
+note,Palmarosa,1,0.005,,,,7.82,없음 (한 향수에만)
+note,Parma Violet,1,0.005,,,,8.801,없음 (한 향수에만)
+note,Pear Blossom,1,0.005,,,,7.592,없음 (한 향수에만)
+note,Peppermint,1,0.005,,,,6.544,없음 (한 향수에만)
+note,Pepperwood™,1,0.005,,,,10.151,없음 (한 향수에만)
+note,Persimmon,1,0.005,,,,8.542,없음 (한 향수에만)
+note,Peru Balsam,1,0.005,,,,5.876,없음 (한 향수에만)
+note,Petitgrain Paraguay,1,0.005,,,,8.279,없음 (한 향수에만)
+note,Pine,1,0.005,,,,5.876,없음 (한 향수에만)
+note,Pine Tree Needles,1,0.005,,,,8.446,없음 (한 향수에만)
+note,Pine needles,1,0.005,,,,7.159,없음 (한 향수에만)
+note,Pink Grapefruit,1,0.005,,,,6.185,없음 (한 향수에만)
+note,Pink Peony,1,0.005,,,,7.374,없음 (한 향수에만)
+note,Pink Rose,1,0.005,,,,8.185,없음 (한 향수에만)
+note,Pistachio,1,0.005,,,,6.417,없음 (한 향수에만)
+note,Pitosporum,1,0.005,,,,8.679,없음 (한 향수에만)
+note,Plum,1,0.005,,,,4.557,없음 (한 향수에만)
+note,Plum Blossom,1,0.005,,,,7.654,없음 (한 향수에만)
+note,Pomarose,1,0.005,,,,9.207,없음 (한 향수에만)
+note,Precious Woods,1,0.005,,,,6.269,없음 (한 향수에만)
+note,Pumpkin,1,0.005,,,,7.806,없음 (한 향수에만)
+note,Rain Notes,1,0.005,,,,7.715,없음 (한 향수에만)
+note,Rangoon Creeper,1,0.005,,,,9.846,없음 (한 향수에만)
+note,Red Amber,1,0.005,,,,9.356,없음 (한 향수에만)
+note,Red Cyclamen,1,0.005,,,,10.998,없음 (한 향수에만)
+note,Red Fruits,1,0.005,,,,5.948,없음 (한 향수에만)
+note,Red Lily,1,0.005,,,,9.612,없음 (한 향수에만)
+note,Red Peony,1,0.005,,,,8.513,없음 (한 향수에만)
+note,Red Pepper,1,0.005,,,,7.76,없음 (한 향수에만)
+note,Red Thyme,1,0.005,,,,8.371,없음 (한 향수에만)
+note,Rose Hip,1,0.005,,,,7.907,없음 (한 향수에만)
+note,Rose de Mai,1,0.005,,,,6.614,없음 (한 향수에만)
+note,Rum,1,0.005,,,,5.203,없음 (한 향수에만)
+note,Saffiano Leather,1,0.005,,,,9.612,없음 (한 향수에만)
+note,Salt,1,0.005,,,,5.944,없음 (한 향수에만)
+note,Sandalowood,1,0.005,,,,6.373,없음 (한 향수에만)
+note,Sapodilla,1,0.005,,,,10.017,없음 (한 향수에만)
+note,Siam Benzoin,1,0.005,,,,6.745,없음 (한 향수에만)
+note,Sicilian Citruses,1,0.005,,,,9.957,없음 (한 향수에만)
+note,Sicilian Mandarin,1,0.005,,,,7.502,없음 (한 향수에만)
+note,Solar Notes,1,0.005,,,,6.443,없음 (한 향수에만)
+note,Sour Cherry,1,0.005,,,,7.261,없음 (한 향수에만)
+note,Star Anise,1,0.005,,,,5.898,없음 (한 향수에만)
+note,Sugar Cane,1,0.005,,,,7.028,없음 (한 향수에만)
+note,Sweet Notes,1,0.005,,,,5.686,없음 (한 향수에만)
+note,Sweet Orange,1,0.005,,,,6.19,없음 (한 향수에만)
+note,Sycamore,1,0.005,,,,9.794,없음 (한 향수에만)
+note,Tamarind,1,0.005,,,,8.146,없음 (한 향수에만)
+note,Tamarisk,1,0.005,,,,11.691,없음 (한 향수에만)
+note,Tarragon,1,0.005,,,,6.272,없음 (한 향수에만)
+note,Teak Wood,1,0.005,,,,6.592,없음 (한 향수에만)
+note,Tiare,1,0.005,,,,8.108,없음 (한 향수에만)
+note,Tincture of Rose,1,0.005,,,,7.482,없음 (한 향수에만)
+note,Toffee,1,0.005,,,,6.863,없음 (한 향수에만)
+note,Tomato,1,0.005,,,,8.679,없음 (한 향수에만)
+note,Tropical Fruits,1,0.005,,,,6.89,없음 (한 향수에만)
+note,Turmeric,1,0.005,,,,7.502,없음 (한 향수에만)
+note,Vanilla Pod,1,0.005,,,,8.215,없음 (한 향수에만)
+note,Vanilla Sugar,1,0.005,,,,8.313,없음 (한 향수에만)
+note,Vetiver Root,1,0.005,,,,8.801,없음 (한 향수에만)
+note,Violet Leaves,1,0.005,,,,6.408,없음 (한 향수에만)
+note,Violet Root,1,0.005,,,,8.571,없음 (한 향수에만)
+note,Virginian Cedar,1,0.005,,,,6.967,없음 (한 향수에만)
+note,Water Fruit,1,0.005,,,,9.152,없음 (한 향수에만)
+note,Water Hyacinth,1,0.005,,,,8.29,없음 (한 향수에만)
+note,Water Notes,1,0.005,,,,5.88,없음 (한 향수에만)
+note,White Honey,1,0.005,,,,7.17,없음 (한 향수에만)
+note,White Lotus,1,0.005,,,,8.146,없음 (한 향수에만)
+note,White Orchid,1,0.005,,,,8.383,없음 (한 향수에만)
+note,White Pepper,1,0.005,,,,6.54,없음 (한 향수에만)
+note,White Sandalwood,1,0.005,,,,7.66,없음 (한 향수에만)
+note,Wisteria,1,0.005,,,,7.214,없음 (한 향수에만)
+note,Ylang Ylang,1,0.005,,,,5.454,없음 (한 향수에만)
+note,ebony tree,1,0.005,,,,8.446,없음 (한 향수에만)
+note,pink tulip,1,0.005,,,,9.324,없음 (한 향수에만)
