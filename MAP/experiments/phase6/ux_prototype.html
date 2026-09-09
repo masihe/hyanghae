@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phase 6 — 향 지도 UX 프로토타입</title>
+<style>
+:root{--bg:#fbfcfc;--card:#fff;--ink:#14262b;--ink2:#33484e;--muted:#5d757c;
+      --hair:#c6d2d1;--sea:#e9eef0;--warn:#9d4238}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1719;--card:#151f22;--ink:#e8eef0;
+      --ink2:#b6c6ca;--muted:#8ba0a5;--hair:#2b3a3e;--sea:#101a1c;--warn:#e08b80}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif}
+.wrap{max-width:1380px;margin:0 auto;padding:22px 20px 48px}
+h1{font-size:20px;font-weight:600;margin:0 0 4px}
+.sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+.bar{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.grp{display:flex;gap:5px;align-items:center}
+.grp>span{font-size:12px;color:var(--muted);margin-right:2px}
+button{font-family:inherit;font-size:13px;padding:6px 11px;border:1px solid var(--hair);
+       background:transparent;color:var(--ink2);border-radius:8px;cursor:pointer}
+button.on{background:var(--card);border-color:var(--ink2);color:var(--ink);font-weight:600}
+.stagewrap{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}
+.frame{position:relative;background:var(--card);border:1px solid var(--hair);
+       border-radius:12px;padding:8px;flex:0 0 auto}
+.frame .cap{font-size:11px;color:var(--muted);margin:0 0 6px 2px}
+.map{position:relative;overflow:hidden;border-radius:8px}
+canvas{display:block;width:100%;height:auto}
+.lab{position:absolute;transform:translate(-50%,-50%);font-size:12px;font-weight:600;
+     white-space:nowrap;padding:2px 7px;border-radius:999px;pointer-events:auto;
+     cursor:pointer;border:1px solid rgba(0,0,0,.12)}
+.lab.dim{opacity:.28}
+.lab.clip{outline:2px dashed var(--warn);outline-offset:1px}
+.side{flex:1 1 300px;min-width:280px}
+.card{background:var(--card);border:1px solid var(--hair);border-radius:12px;
+      padding:12px 14px;margin-bottom:12px}
+.card h2{font-size:14px;font-weight:600;margin:0 0 8px}
+.row{display:flex;justify-content:space-between;gap:10px;font-size:13px;padding:3px 0;
+     border-bottom:1px solid var(--hair)}
+.row:last-child{border-bottom:0}
+.row .r{color:var(--muted);font-variant-numeric:tabular-nums}
+.warn{color:var(--warn)}
+ul.pl{list-style:none;margin:0;padding:0;max-height:300px;overflow:auto}
+ul.pl li{font-size:12.5px;padding:4px 0;border-bottom:1px solid var(--hair);
+         display:flex;justify-content:space-between;gap:8px}
+ul.pl li span.w{color:var(--muted);font-variant-numeric:tabular-nums}
+.legend{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+.chip{display:inline-flex;align-items:center;gap:5px;padding:4px 9px;border-radius:999px;
+      border:1px solid var(--hair);background:transparent;color:var(--ink2);cursor:pointer;
+      font-size:12px}
+.chip.on{border-color:var(--ink2);color:var(--ink)}
+.chip i{width:9px;height:9px;border-radius:2px;display:inline-block}
+.foot{color:var(--muted);font-size:12px;margin-top:16px;line-height:1.7}
+</style></head><body><div class="wrap">
+<h1>향 지도 UX 프로토타입 — 9개 계열 라벨이 읽히는가</h1>
+<p class="sub">v3 초안 데이터를 그대로 렌더한다. 뷰포트와 줌을 바꿔가며 라벨이 겹치는지·잘리는지 확인한다.
+읽히지 않는 라벨은 <b style="color:var(--warn)">주황 점선</b>으로 표시하고 오른쪽에 센다.</p>
+<div class="bar">
+ <div class="grp"><span>뷰포트</span><span id="vp"></span></div>
+ <div class="grp"><span>줌</span><span id="zm"></span></div>
+ <div class="grp"><button id="bd">경계 향수 보기</button><button id="rs">초기화</button></div>
+</div>
+<div class="stagewrap">
+ <div class="frame"><p class="cap" id="cap"></p>
+  <div class="map" id="map"><canvas id="cv"></canvas></div></div>
+ <div class="side">
+  <div class="card"><h2>라벨 진단</h2><div id="diag"></div></div>
+  <div class="card"><h2 id="selh">계열을 누르면 향수가 나옵니다</h2>
+   <ul class="pl" id="plist"></ul></div>
+ </div>
+</div>
+<div class="legend" id="legend"></div>
+<p class="foot">색면 = 계열 Territory · 회색 = 바다 · 점 = 향수 200개.
+라벨은 앵커에 놓은 뒤 가장자리로 나가면 안으로 당기고, 겹치면 밀어낸다. 각 단계를 오른쪽에 센다.<br>
+출처: experiments/phase6/korea_scent_map_v3.json (schema_version 3 · DRAFT)</p>
+</div>
+<script>
+const D={"W":128,"H":108,"bounds":{"x_min":-0.05,"x_max":1.05,"y_min":-0.05,"y_max":0.88056},"grid":"z139f10z116f15z27g5z80i2f16z23g9z78i2f19z19g13z75i3f21g12z3g15z74i3f21g32z72i4f20g34z70i4f21g34z70i4f20g35z69i4f20g37z68i4f20g37z68i3f20g38z67i4f20g39z66i3f21g39z66i3f20g40z66i2f21g38h3z65d2f21g12d1g9z6g8h6z63d4f20g10d5g5z10g5h8z62d5f19g8d8g3z12g3h9z62d7f18g5d10g2z14g1h11z60d9f18g2d13g1z14h12z59d10f19d14z14h14z57d12f17d14z15h14z55d14f16d14z16h14z53d16f16d14z15h15z51d18f15d14z16h15z49d20f14d14z16h16z46d23f13d14z17h16z43d26f12d14z18h15z40d29g1f2z2f7d14z18h16z37e2d30g1f1z4f6d13z19h16z34e7d28g1z5f5d13z20h15z33e10d27z6f5d12z21h14z32e13d26z6f5d10z23h14z31e15d24z6f7d7z25h13z31e16d23z7f8d5z27h11z31e17d22z7f10d3z28h9z32e14d26z7f12z30h6z33e14d26z8f11z69e16d24z8f11z69e17d24z8f10z70e17d24z8f9z71e16d25z7f9z72e16d21a4z6f9z73e16d18a6f3z2f10z25b2h2z45e17d13a10f14z22b7h4z42d2e15d9a14f4a4f5z19b11h5z42a5e12d6a24f5z14b16h6z42a5e10d6a25f4a1z11b19h8z41a3f2e8d5a32z9b21h9z49i3d2a36z7b22h11z49i2a38z6b23h12z48a40z5b24h12z48a40z4b24h14z46a40z4i1b24h9c5z46a39z5i1b23h2c14z44a39z5i2b22c17z44d1a35z8i2b21c18z43d2a26f2a1z14i1c1b20c19z42d2a25z19c2b5c2b12c20z42c2a22z22c3b2c4b11c21z41c3a19z25e1c8b10c22z41c2a14c3a1z27c1e2c6b9c23z40c3a12c5z28c9b7c25z40c3a11c5z29c9b6c26z40c3a10c6z30c8b4c27z41c3a9c6z31c39z40c5a7c6z32c39z40c5a5c7z33c38z41c5a4c8z34c36z43c15z35c36z43c14z36c35z44c13z36c36z45c11z37c35z47c8z38c36z49c3z41c36z92d1c35z92d1c36z92c36z92c37z92c36z92c36z93c35z94c34z94c34z76i7z12c33z75i11z10c32z74i14z9c31z74i16z8c28z76i17z8c26z77i19z7c23z79i20z7c21z80i22z7c17z83i22z7c16z83i23z8c13z85i22c1z9c10z87i21c2z11c6z89i19c4z106i18c5z106i18c5z106i18c4z107i20c2z107i21z109i20z110i18z112i16z115i12z24","items":[{"id":0,"key":"CITRUS","ko":"시트러스","color":"#d9b23a","ax":0.27913,"ay":0.40223,"area":0.1098,"blob":0.9785,"n":23,"contrib":36},{"id":1,"key":"FRUITY","ko":"프루티","color":"#d1553f","ax":0.70354,"ay":0.43702,"area":0.0625,"blob":1.0,"n":8,"contrib":14},{"id":2,"key":"FLORAL","ko":"플로럴","color":"#c56480","ax":0.97205,"ay":0.64574,"area":0.2533,"blob":0.8805,"n":61,"contrib":76},{"id":3,"key":"GREEN","ko":"그린·아로마틱","color":"#5f9a5c","ax":0.15787,"ay":0.24569,"area":0.152,"blob":0.7199,"n":21,"contrib":39},{"id":4,"key":"AQUATIC","ko":"아쿠아틱","color":"#3a9cab","ax":0.01063,"ay":0.32396,"area":0.0491,"blob":0.9889,"n":12,"contrib":13},{"id":5,"key":"WOODY","ko":"우디","color":"#9c7a52","ax":0.18386,"ay":0.05436,"area":0.1267,"blob":0.9943,"n":23,"contrib":32},{"id":6,"key":"AMBER","ko":"앰버·스파이시","color":"#d99a2e","ax":0.30512,"ay":0.04566,"area":0.0968,"blob":0.9925,"n":14,"contrib":24},{"id":7,"key":"GOURMAND","ko":"구르망","color":"#9a7ec4","ax":0.69488,"ay":0.20221,"area":0.0681,"blob":0.75,"n":20,"contrib":32},{"id":8,"key":"MUSK","ko":"머스크·파우더리","color":"#8595ac","ax":0.70354,"ay":0.79359,"area":0.0817,"blob":0.8736,"n":18,"contrib":37}],"points":[["Orphéon Eau de Parfum","Diptyque",0.0916,0.0448,[[8,0.231]],1],["Green Tea","Elizabeth Arden",0.1863,0.315,[[3,0.443],[0,0.295]],2],["Wood Sage & Sea Salt Cologne","Jo Malone London",0.0161,0.3264,[[4,0.368],[3,0.283]],3],["Signature Bombshelluth","Daniel's Truth",0.6705,0.4796,[[2,0.321]],4],["Eclat d'Arpege","Lanvin",0.9551,0.7046,[[2,0.59]],5],["Another 13","Le Labo",0.6368,0.7604,[[8,0.444],[6,0.272]],6],["Eau Rose","Diptyque",0.8419,0.705,[[2,0.41]],7],["Tacit","Aesop",0.21,0.228,[[3,0.354],[6,0.252]],8],["Lazy Sunday Morning","Maison Martin Margiela",0.7778,0.824,[[2,0.56],[8,0.44]],9],["Blanche","Byredo",0.7781,0.8214,[[2,0.598],[8,0.318]],10],["Miss Dior Eau de Parfum (2021)","Dior",0.8585,0.5256,[[2,0.376],[7,0.308]],11],["Miss Dior Blooming Bouquet (2023)","Dior",0.9078,0.7481,[[2,0.59]],12],["Philosykos Eau de Toilette","Diptyque",0.3929,0.2151,[[3,0.315],[5,0.274],[7,0.248]],13],["Cotton Hug","Forment",0.7605,0.8072,[[2,0.536],[8,0.409]],14],["Original Musk","Kiehl's",0.6913,0.7746,[[8,0.419],[2,0.267]],15],["La Tulipe","Byredo",0.9591,0.674,[[2,0.385],[3,0.377]],16],["Blackberry & Bay","Jo Malone London",0.3802,0.2536,[[3,0.224]],17],["Bal d'Afrique","Byredo",0.0828,0.0306,[[5,0.384],[3,0.263],[2,0.245]],18],["Acqua Dive","Dashu",0.0763,0.0442,[[8,0.245]],19],["CK One","Calvin Klein",0.2162,0.3349,[[0,0.305],[3,0.283]],20],["Chance Eau Fraiche","Chanel",0.394,0.4225,[[5,0.324],[0,0.241]],21],["Thank U, Next","Ariana Grande",0.7032,0.2341,[[7,0.731]],22],["Chanel N°5 Eau Premiere","Chanel",0.9503,0.5363,[[2,0.593]],23],["Fleur de Peau","Diptyque",0.7101,0.8227,[[8,0.467],[2,0.352]],24],["Allure Homme Sport","Chanel",0.1992,0.4111,[[0,0.263],[7,0.245]],25],["Sweet Like Candy","Ariana Grande",0.6955,0.2172,[[7,0.561]],26],["Ari","Ariana Grande",0.6994,0.3425,[[7,0.361]],27],["Coco Mademoiselle","Chanel",0.4006,0.3709,[[5,0.328],[0,0.273]],28],["Chance Eau Vive","Chanel",0.369,0.4406,[[0,0.405]],29],["Miracle","Lancôme",0.8672,0.6442,[[2,0.334]],30],["Neroli Portofino","Tom Ford",0.2757,0.512,[[0,0.382],[2,0.286]],31],["Modern Princess Eau Sensuelle","Lanvin",0.6114,0.5204,[[8,0.266],[2,0.242]],32],["Un Jardin Sur Le Nil","Hermès",0.1804,0.3429,[[3,0.266]],33],["Libre","Yves Saint Laurent",0.7323,0.6276,[[3,0.243]],34],["English Oak & Hazelnut","Jo Malone London",0.1801,0.0285,[[5,0.657]],35],["Flora Gorgeous Gardenia","Gucci",0.8824,0.5459,[[2,0.446],[7,0.255]],36],["Mojave Ghost","Byredo",0.711,0.7924,[[2,0.357],[8,0.277]],37],["Chance Eau Tendre Eau de Parfum","Chanel",0.7985,0.6441,[[2,0.389]],38],["Jimmy Choo Blossom","Jimmy Choo",0.6967,0.408,[[1,0.338],[7,0.264]],39],["Santal 33","Le Labo",0.142,0.0119,[[5,0.455]],40],["Marry Me","Lanvin",0.9127,0.6508,[[2,0.549]],41],["Rozu","Aesop",0.113,0.0442,[[5,0.334],[3,0.275]],42],["Moroccan Gardener","Huxley",0.9618,0.6105,[[2,0.51],[8,0.277]],43],["English Pear & Freesia","Jo Malone London",0.748,0.5315,[[2,0.377]],44],["Incanto Charms","Salvatore Ferragamo",0.6989,0.4586,[[1,0.41],[2,0.329]],45],["Jeanne Lanvin","Lanvin",0.7116,0.4368,[[1,0.353],[2,0.29]],46],["Pleasures","Estée Lauder",0.9746,0.6654,[[2,0.644]],47],["Pure Soap","Clean",0.7873,0.8127,[[2,0.396],[8,0.246]],48],["Bright Crystal","Versace",0.9251,0.7004,[[2,0.482]],49],["Gucci Bloom","Gucci",1.0,0.6263,[[2,0.822]],50],["Gypsy Water","Byredo",0.3332,0.0354,[[6,0.291]],51],["Wild Bluebell","Jo Malone London",0.6477,0.6789,[[8,0.414]],52],["Mon Paris","Yves Saint Laurent",0.7284,0.3895,[[1,0.309],[7,0.244]],53],["Angeli di Firenze","Santa Maria Novella",0.6963,0.5144,[[4,0.268],[8,0.262]],54],["Cloud","Ariana Grande",0.7033,0.1915,[[7,0.805]],55],["Inflorescence","Byredo",0.995,0.6553,[[2,0.761]],56],["Gabrielle Essence","Chanel",0.9376,0.5412,[[2,0.482]],57],["Red Roses","Jo Malone London",0.874,0.7254,[[2,0.502]],58],["Lime Basil & Mandarin","Jo Malone London",0.2086,0.2677,[[3,0.411],[0,0.27]],59],["After Bath","Sennok",0.153,0.1662,[[3,0.444]],60],["CK All","Calvin Klein",0.2646,0.4998,[[2,0.318],[0,0.303]],61],["J'adore Parfum d'Eau","Dior",0.9912,0.6488,[[2,0.647]],62],["Legend","Montblanc",0.4135,0.1547,[[3,0.263]],63],["My Burberry","Burberry",0.8607,0.651,[[2,0.375]],64],["CK be","Calvin Klein",0.1402,0.2379,[[3,0.45]],65],["Pumkini","Tamburins",0.4074,0.1286,[[7,0.297],[3,0.281]],66],["Cool Cotton","Clean",0.1615,0.3495,[[8,0.311]],67],["Portrait of a Lady","Frederic Malle",0.4322,0.0041,[[6,0.455],[5,0.305]],68],["Peony & Blush Suede","Jo Malone London",0.9195,0.7263,[[2,0.644]],69],["Dior Homme Cologne 2022","Dior",0.2801,0.4559,[[0,0.358],[8,0.262]],70],["Mon Paris Lumière","Yves Saint Laurent",0.9393,0.6584,[[2,0.571]],71],["Sauvage","Dior",0.2889,0.0606,[[6,0.415],[3,0.245]],72],["Earl Grey & Cucumber","Jo Malone London",0.1021,0.3092,[[4,0.257],[3,0.243]],73],["Explorer","Montblanc",0.3019,0.0528,[[6,0.303],[5,0.268]],74],["Prada Candy","Prada",0.6682,0.1524,[[7,0.483],[8,0.272],[6,0.245]],75],["Rumeur 2 Rose","Lanvin",0.3093,0.5113,[[0,0.405],[2,0.324]],76],["Philosykos Eau de Parfum","Diptyque",0.4173,0.2082,[[7,0.328],[3,0.307]],77],["Artisan","John Varvatos",0.2586,0.4237,[[0,0.309]],78],["Versace Man Eau Fraiche","Versace",0.2959,0.3652,[[0,0.297]],79],["Chocolate Greedy","Montale",0.6558,0.14,[[7,0.639]],80],["Eros Energy","Versace",0.3029,0.3954,[[0,0.518]],81],["Jaguar Classic Electric Sky","Jaguar",0.0973,0.2047,[[6,0.3],[3,0.262]],82],["Soleil Lunar","Lalique",0.7376,0.76,[[2,0.333],[8,0.314]],83],["Aoud Lemon Mint","Mancera",0.3826,0.0795,[[7,0.321]],84],["Azur Riviera","Parfums Berdoues",0.0022,0.3247,[[4,0.521]],85],["Metal Rain","Banana Republic",0.1175,0.2532,[[3,0.316]],86],["Fan Your Flames","Nishane",0.5745,0.0826,[[7,0.512],[6,0.266]],87],["Midnight Hour","Banana Republic",0.4243,0.18,[[6,0.308],[1,0.259]],88],["90 Pure White","Banana Republic",0.1187,0.2934,[[3,0.338],[8,0.246]],89],["Bergamood","BMW Fragrances",0.225,0.3655,[[3,0.351],[0,0.328]],90],["Le Vainqueur","Rance 1795",0.0417,0.2567,[[4,0.309]],91],["Midnight","SW19",0.6773,0.7809,[[8,0.558],[2,0.276]],92],["Saint Moritz","Youssoful",0.6162,0.4471,[[1,0.218]],93],["Apple Blossom","Clean",0.7177,0.5029,[[1,0.283]],94],["Be My Plum","Montale",0.9328,0.5763,[[2,0.303],[8,0.277]],95],["Jasmin Exclusif","Mancera",0.1441,0.007,[[5,0.469]],96],["Josephine","Rance 1795",0.8804,0.6437,[[2,0.356]],97],["Bubble Forever","Montale",0.4099,0.5346,[[0,0.301],[7,0.247],[2,0.241]],98],["Hacivat","Nishane",0.2497,0.1189,[[5,0.472]],99],["Artisan Blu","John Varvatos",0.1712,0.2173,[[3,0.487]],100],["Wulóng Chá","Nishane",0.2926,0.4308,[[0,0.391]],101],["Artisan Black","John Varvatos",0.3104,0.3941,[[0,0.366]],102],["Désirée","Rance 1795",0.3076,0.5343,[[2,0.273],[0,0.265]],103],["Light Blue Eau de Toilette","Dolce&Gabbana",0.4377,0.422,[[0,0.267]],104],["Mathilde","Rance 1795",0.9986,0.6383,[[2,0.668]],105],["Le Sel d’Issey","Issey Miyake",0.0,0.2951,[[4,0.456],[5,0.347]],106],["The Musc","Essential Parfums",0.6453,0.7636,[[8,0.484]],107],["Orange X Santal","Essential Parfums",0.2749,0.1382,[[5,0.332],[0,0.249]],108],["Green Tea Strawberry Basil","Elizabeth Arden",0.4191,0.2012,[[3,0.372],[1,0.244]],109],["Clean Warm Cotton","Clean",0.043,0.3509,[[0,0.27],[4,0.262]],110],["Fig Infusion","Essential Parfums",0.4177,0.2848,[[5,0.256]],111],["Amberness","BMW Fragrances",0.3217,0.0289,[[6,0.459],[3,0.259]],112],["Assam of India","Parfums Berdoues",0.2107,0.3318,[[3,0.369],[0,0.332]],113],["Polo","Ralph Lauren",0.1613,0.0913,[[5,0.475],[3,0.306]],114],["Intense Cedrat Boise","Mancera",0.2291,0.082,[[5,0.347],[8,0.253]],115],["Spark Up","Adidas",0.2658,0.4014,[[0,0.344],[6,0.258]],116],["Dark Cherry & Amber","Banana Republic",0.8114,0.3976,[[7,0.32]],117],["Signature Lovers for Woman","Replay",0.8421,0.4606,[[2,0.369]],118],["Instant Crush","Mancera",0.435,0.0044,[[6,0.323],[8,0.258]],119],["Pure Musc Blanc For Her","Narciso Rodriguez",0.7706,0.8274,[[8,0.43],[2,0.428]],120],["Helene","Rance 1795",0.8763,0.4951,[[2,0.247]],121],["Tonka Cola","Mancera",0.4829,0.0405,[[6,0.429],[1,0.248]],122],["Mankind Rise","Kenneth Cole",0.2512,0.1452,[[5,0.377],[3,0.264]],123],["BMW M 2025","BMW Fragrances",0.3148,0.0358,[[6,0.522],[3,0.304]],124],["Soap Clean Soap","Sennok",0.7716,0.8305,[[8,0.543],[2,0.4]],125],["Fabulous Yuzu","Mancera",0.2554,0.3805,[[0,0.326],[7,0.248]],126],["Amazing Grace","Philosophy",0.8256,0.705,[[2,0.43],[8,0.283]],127],["Coco Vanille","Mancera",0.7113,0.2091,[[7,0.625]],128],["Eros","Versace",0.4135,0.1226,[[3,0.365]],129],["Coach Cherry","Coach",0.8609,0.4326,[[7,0.305],[2,0.276]],130],["Sweet Tooth","Sabrina Carpenter",0.6905,0.1771,[[7,0.743]],131],["Sicily","Mancera",0.4904,0.4253,[[0,0.343]],132],["Roses Greedy","Mancera",0.8234,0.5743,[[2,0.475]],133],["Oh, Love","Luafee",0.2977,0.5265,[[6,0.266]],134],["French Riviera","Mancera",0.0363,0.3371,[[4,0.313]],135],["Polo Blue","Ralph Lauren",0.0416,0.259,[[4,0.441],[3,0.333]],136],["Starwalker","Montblanc",0.2731,0.0847,[[5,0.299]],137],["You Or Someone Like You","Etat Libre d'Orange",0.1621,0.2588,[[3,0.536]],138],["CK One Night Essence","Calvin Klein",0.1036,0.0259,[[8,0.311]],139],["Tokyo Fig","RboW",0.6304,0.434,[[2,0.2]],140],["Sunny Magnolia","Lanvin",0.681,0.4899,[[2,0.295]],141],["Nice Bergamote","Essential Parfums",0.2963,0.5506,[[2,0.329],[0,0.247]],142],["Rue Rance Eau De La Couronne","Rance 1795",0.7692,0.555,[[2,0.457]],143],["Francois Charles","Rance 1795",0.2669,0.0501,[[6,0.25]],144],["I Want Choo","Jimmy Choo",0.9033,0.4886,[[2,0.313],[7,0.293]],145],["Eugenie","Rance 1795",0.8054,0.5793,[[2,0.372]],146],["L'Amour","Lalique",0.9456,0.6225,[[2,0.544]],147],["BMW M  1985","BMW Fragrances",0.296,0.1461,[[5,0.457]],148],["BMW M 1972","BMW Fragrances",0.2306,0.272,[[3,0.273],[0,0.257]],149],["Berry Sexy","Youssoful",0.7078,0.2305,[[7,0.538],[1,0.308]],150],["Neroli Woods","Banana Republic",0.2871,0.5419,[[2,0.361]],151],["Hundred Silent Ways","Nishane",0.9218,0.5077,[[2,0.363]],152],["I Want Choo Forever","Jimmy Choo",0.6965,0.1942,[[7,0.603]],153],["Nanshe","Nishane",0.6695,0.8041,[[8,0.408],[2,0.305]],154],["Slow September","Sennok",0.1555,0.0209,[[5,0.535]],155],["I Want Choo Le Parfum","Jimmy Choo",0.7515,0.3928,[[7,0.296],[5,0.29]],156],["Narciso Rodriguez for Him Bleu Noir","Narciso Rodriguez",0.1687,0.0681,[[5,0.309],[6,0.29]],157],["Weekend for Women","Burberry",0.8398,0.5849,[[2,0.385]],158],["Velvet Iris","Essential Parfums",0.0855,0.0,[[2,0.284],[5,0.263]],159],["Chloé Le Parfum","Chloé",0.8779,0.4625,[[2,0.423],[7,0.37]],160],["Divine Vanille","Essential Parfums",0.496,0.031,[[6,0.563],[7,0.301]],161],["Rose Magnetic","Essential Parfums",0.8435,0.6964,[[2,0.379]],162],["Flower by Kenzo","Kenzo",0.8061,0.605,[[2,0.42],[8,0.288]],163],["Mon Vetiver","Essential Parfums",0.1744,0.169,[[3,0.43],[5,0.358]],164],["Thank U Next 2.0","Ariana Grande",0.6819,0.4071,[[1,0.273]],165],["Touch for Men","Burberry",0.0464,0.2462,[[4,0.274],[8,0.251]],166],["Patchouli Mania","Essential Parfums",0.1749,0.0239,[[5,0.518]],167],["Néroli Botanica","Essential Parfums",0.3221,0.573,[[2,0.448]],168],["Arabians Tonka","Montale",0.5453,0.0575,[[7,0.373],[6,0.284]],169],["Artisan Pure","John Varvatos",0.2661,0.3872,[[0,0.385],[3,0.296]],170],["Inspire","Yugen",0.7165,0.4799,[[4,0.361],[7,0.278],[1,0.269]],171],["Blue Talisman","Ex Nihilo",0.4867,0.4152,[[0,0.236]],172],["29 High Street","Lush",0.6942,0.2417,[[7,0.592]],173],["When the Rain Stops","Maison Martin Margiela",0.0037,0.2745,[[4,0.374],[5,0.31]],174],["Eros Flame","Versace",0.4128,0.0631,[[0,0.25]],175],["God of Fire","Stéphane Humbert Lucas 777",0.594,0.3991,[[1,0.439]],176],["Light Blue","Dolce&Gabbana",0.3868,0.4098,[[0,0.322]],177],["Meant To Be Seen","Nishane",0.6771,0.8306,[[2,0.345],[5,0.332],[8,0.323]],178],["Amazing Grace Ballet Rose","Philosophy",0.8819,0.742,[[2,0.631]],179],["Never-ending Summer","Maison Martin Margiela",0.2452,0.2266,[[5,0.271],[0,0.263],[6,0.255]],180],["Peony & Peppercorn","Banana Republic",0.8824,0.7607,[[2,0.478]],181],["Momentum Unbreakable Eau de Parfum","Bentley",0.1517,0.1457,[[5,0.31],[3,0.29]],182],["Jaguar Era Reloaded","Jaguar",0.4512,0.0416,[[7,0.264],[6,0.249]],183],["Ani","Nishane",0.4291,0.019,[[6,0.384]],184],["Sailing Day","Maison Martin Margiela",0.0082,0.316,[[4,0.47]],185],["Nomade","Chloé",0.4058,0.3151,[[5,0.429]],186],["EGE / ΑΙΓΑΙΟ","Nishane",0.1436,0.2443,[[3,0.47],[6,0.276]],187],["Chloé Rose Tangerine","Chloé",0.8193,0.6862,[[2,0.359]],188],["Velvet Pomegranate","Banana Republic",0.9177,0.5062,[[2,0.358]],189],["Up At Dawn","Maison Martin Margiela",0.7074,0.8293,[[5,0.432],[8,0.287],[2,0.281]],190],["Mercedes Benz Man","Mercedes-Benz",0.2296,0.1107,[[5,0.496]],191],["Replay Signature Secret","Replay",0.8774,0.61,[[2,0.432]],192],["From.Saint-Tropez","Postes",0.6565,0.7328,[[8,0.479]],193],["Musky Garden","Mancera",0.6896,0.4197,[[8,0.286],[1,0.273]],194],["Bright Crystal Absolu","Versace",0.7673,0.5494,[[2,0.365]],195],["Strawberry Fields","Clean",0.6674,0.4536,[[8,0.249]],196],["Port Breathe","Huxley",0.245,0.4754,[[0,0.312],[3,0.297]],197],["Bare","Tenui",0.0737,0.0677,[[8,0.222]],198],["Wild Peach","Kuoca",0.4023,0.2906,[[0,0.222]],199],["Happy Feels","Adidas",0.3295,0.5603,[[2,0.356],[0,0.273]],200]],"viewports":[375,768,1280],"threshold":0.24,"multi":95};
+function decode(s){const a=new Int16Array(D.W*D.H);let i=0,p=0;
+ while(p<s.length){const c=s[p++];const v=(c==='z')?-1:(c.charCodeAt(0)-97);
+  let n='';while(p<s.length&&s[p]>='0'&&s[p]<='9'){n+=s[p++];}
+  const k=+n;a.fill(v,i,i+k);i+=k;}
+ if(i!==D.W*D.H)console.error('RLE 길이 불일치',i,D.W*D.H);return a;}
+const F=decode(D.grid);
+let vw=375, zoom=1, sel=null, showB=false;
+const ZOOM=[{n:'멀리',pt:false,name:false},{n:'중간',pt:true,name:false},{n:'가까이',pt:true,name:true}];
+const cv=document.getElementById('cv'),ctx=cv.getContext('2d');
+const off=document.createElement('canvas');off.width=D.W;off.height=D.H;
+const octx=off.getContext('2d');
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
+function hex(h){return [parseInt(h.slice(1,3),16),parseInt(h.slice(3,5),16),parseInt(h.slice(5,7),16)];}
+// 지도 좌표 [0,1] -> 화면 px. 격자 bounds 가 [-0.05,1.05] 라 여백이 포함돼 있다
+function sx(x,w){return (x-D.bounds.x_min)/(D.bounds.x_max-D.bounds.x_min)*w;}
+function sy(y,h){return h-(y-D.bounds.y_min)/(D.bounds.y_max-D.bounds.y_min)*h;}
+function paint(){
+ const w=vw, h=Math.round(w*D.H/D.W);
+ document.getElementById('map').style.width=w+'px';
+ const img=octx.createImageData(D.W,D.H),dd=img.data,sea=hex(css('--sea')||'#e9eef0');
+ for(let r=0;r<D.H;r++)for(let c=0;c<D.W;c++){
+  const i=r*D.W+c,v=F[i],o=((D.H-1-r)*D.W+c)*4;
+  if(v<0){dd[o]=sea[0];dd[o+1]=sea[1];dd[o+2]=sea[2];dd[o+3]=255;}
+  else{const g=hex(D.items[v].color),dim=(sel!==null&&sel!==v);
+   dd[o]=g[0];dd[o+1]=g[1];dd[o+2]=g[2];dd[o+3]=dim?36:205;}}
+ octx.putImageData(img,0,0);
+ const dpr=Math.min(window.devicePixelRatio||1,2);
+ cv.width=w*dpr;cv.height=h*dpr;cv.style.height=h+'px';
+ ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+ ctx.imageSmoothingEnabled=true;ctx.drawImage(off,0,0,w,h);
+ const Z=ZOOM[zoom];
+ if(Z.pt){D.points.forEach(p=>{
+   const fam=p[4],main=fam[0][0],multi=fam.length>=2;
+   const dim=(sel!==null&&!fam.some(f=>f[0]===sel));
+   if(showB&&!multi&&sel===null)return;
+   const x=sx(p[2],w),y=sy(p[3],h);
+   ctx.beginPath();ctx.arc(x,y,multi&&showB?4:3,0,6.2832);
+   ctx.fillStyle=D.items[main].color;ctx.globalAlpha=dim?.12:1;ctx.fill();
+   ctx.lineWidth=1;ctx.strokeStyle=css('--card')||'#fff';ctx.stroke();ctx.globalAlpha=1;});}
+ if(Z.name){ctx.font='9px sans-serif';ctx.fillStyle=css('--ink2');ctx.globalAlpha=.85;
+  D.points.filter(p=>p[5]<=24).forEach(p=>{
+   const fam=p[4];if(sel!==null&&!fam.some(f=>f[0]===sel))return;
+   ctx.fillText(p[0].slice(0,12),sx(p[2],w)+5,sy(p[3],h)+3);});ctx.globalAlpha=1;}
+ placeLabels(w,h);
+ document.getElementById('cap').textContent=`지도 ${w} x ${h}px · 줌 ${Z.n}`;}
+function placeLabels(w,h){
+ document.querySelectorAll('.lab').forEach(e=>e.remove());
+ const map=document.getElementById('map'),PAD=3,made=[];
+ D.items.forEach(it=>{
+  const e=document.createElement('div');e.className='lab';e.textContent=it.ko;
+  e.style.background=it.color+'e6';e.style.color='#1a1a1a';
+  e.onclick=()=>{sel=(sel===it.id?null:it.id);render();};
+  map.appendChild(e);
+  const bw=e.offsetWidth,bh=e.offsetHeight;
+  let x=sx(it.ax,w),y=sy(it.ay,h),clipped=false;
+  if(x-bw/2<PAD){x=PAD+bw/2;clipped=true;} if(x+bw/2>w-PAD){x=w-PAD-bw/2;clipped=true;}
+  if(y-bh/2<PAD){y=PAD+bh/2;clipped=true;} if(y+bh/2>h-PAD){y=h-PAD-bh/2;clipped=true;}
+  made.push({e,it,x,y,bw,bh,clipped,pushed:false});});
+ // 겹치면 밀어낸다 (작은 계열이 밀린다 — 큰 계열의 라벨 위치가 더 안정적이다)
+ made.sort((a,b)=>b.it.area-a.it.area);
+ for(let i=0;i<made.length;i++)for(let j=i+1;j<made.length;j++){
+  const A=made[i],B=made[j];
+  const ox=(A.bw+B.bw)/2+4-Math.abs(A.x-B.x), oy=(A.bh+B.bh)/2+3-Math.abs(A.y-B.y);
+  if(ox>0&&oy>0){const dir=(B.y>=A.y)?1:-1;B.y+=dir*oy;B.pushed=true;
+   if(B.y-B.bh/2<PAD){B.y=PAD+B.bh/2;B.clipped=true;}
+   if(B.y+B.bh/2>h-PAD){B.y=h-PAD-B.bh/2;B.clipped=true;}}}
+ made.forEach(m=>{m.e.style.left=m.x+'px';m.e.style.top=m.y+'px';
+  if(m.clipped)m.e.classList.add('clip');
+  if(sel!==null&&sel!==m.it.id)m.e.classList.add('dim');});
+ diag(made,w,h);}
+function diag(made,w,h){
+ const cl=made.filter(m=>m.clipped),pu=made.filter(m=>m.pushed);
+ const small=D.items.filter(it=>it.area*w*h<1600);
+ const rows=[
+  ['지도 크기',`${w} x ${h}px`],
+  ['가장자리로 잘려 당겨진 라벨',cl.length?`<span class="warn">${cl.length}개 — ${cl.map(m=>m.it.ko).join(', ')}</span>`:'0개'],
+  ['겹쳐서 밀어낸 라벨',pu.length?`<span class="warn">${pu.length}개 — ${pu.map(m=>m.it.ko).join(', ')}</span>`:'0개'],
+  ['영역이 40x40px 미만인 계열',small.length?`<span class="warn">${small.length}개 — ${small.map(i=>i.ko).join(', ')}</span>`:'0개'],
+  ['2계열 이상 향수',`${D.multi}개 / 200 (임계 ${D.threshold})`]];
+ document.getElementById('diag').innerHTML=rows.map(r=>
+  `<div class="row"><span>${r[0]}</span><span class="r">${r[1]}</span></div>`).join('');}
+function panel(){
+ const h=document.getElementById('selh'),l=document.getElementById('plist');
+ if(sel===null){h.textContent='계열을 누르면 향수가 나옵니다';l.innerHTML='';return;}
+ const it=D.items[sel];
+ const list=D.points.map(p=>({p,f:p[4].find(f=>f[0]===sel)}))
+   .filter(o=>o.f).sort((a,b)=>b.f[1]-a.f[1]);
+ h.innerHTML=`${it.ko} — 기여 향수 ${list.length}개 · 면적 ${(it.area*100).toFixed(1)}% · 한 덩어리 ${(it.blob*100).toFixed(0)}%`;
+ l.innerHTML=list.map(o=>{
+  const other=o.p[4].filter(f=>f[0]!==sel).map(f=>D.items[f[0]].ko).join(', ');
+  return `<li><span>${o.p[0]} <span class="w">· ${o.p[1]}</span>${other?` <span class="w">→ ${other}</span>`:''}</span><span class="w">${o.f[1].toFixed(2)}</span></li>`;}).join('');}
+function btns(id,arr,cur,fn){const c=document.getElementById(id);c.innerHTML='';
+ arr.forEach((t,i)=>{const b=document.createElement('button');b.textContent=t;
+  if(i===cur)b.className='on';b.onclick=()=>fn(i);c.appendChild(b);});}
+function legend(){const c=document.getElementById('legend');c.innerHTML='';
+ D.items.forEach(it=>{const b=document.createElement('button');
+  b.className='chip'+(sel===it.id?' on':'');
+  b.innerHTML=`<i style="background:${it.color}"></i>${it.ko} ${it.n}`;
+  b.onclick=()=>{sel=(sel===it.id?null:it.id);render();};c.appendChild(b);});}
+function render(){
+ btns('vp',D.viewports.map(v=>v+'px'),D.viewports.indexOf(vw),i=>{vw=D.viewports[i];render();});
+ btns('zm',ZOOM.map(z=>z.n),zoom,i=>{zoom=i;render();});
+ document.getElementById('bd').className=showB?'on':'';
+ legend();paint();panel();}
+document.getElementById('bd').onclick=()=>{showB=!showB;render();};
+document.getElementById('rs').onclick=()=>{sel=null;showB=false;zoom=1;vw=375;render();};
+matchMedia('(prefers-color-scheme:dark)').addEventListener('change',render);
+render();
+</script></body></html>

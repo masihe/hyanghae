@@ -1,0 +1,120 @@
+{
+ "from": {
+  "schema_version": 2,
+  "path": "output\\korea_scent_map_v2.json"
+ },
+ "to": {
+  "schema_version": 3,
+  "path": "experiments\\phase6\\korea_scent_map_v3.json"
+ },
+ "changed": {
+  "layout.distance": {
+   "before": "base similarity only",
+   "after": "blend base 0.50 / family 0.35 / perception 0.15"
+  },
+  "points[].x, y": "C8b 좌표로 재계산 (모든 점 이동)",
+  "terrain, contours, regions.grid, regions.items[].polygon": "좌표가 바뀌어 재계산",
+  "layout.metrics": "실측값으로 교체 (v2 는 신뢰 간선 40/44 가 하드코딩)"
+ },
+ "added": {
+  "families": "9계열 Territory 격자 · 폴리곤 · 앵커",
+  "points[].families": "계열 1~3개 + 가중치",
+  "regions.status": "COMPAT — 전환 후 제거 예정",
+  "families.status": "PRIMARY"
+ },
+ "unchanged": {
+  "points[].region": "군집 라벨 (호환 유지)",
+  "points[].neighbors": "Base Similarity 기반 — 좌표와 무관",
+  "points[] 나머지": "brand · name · korea · match · top_accords · seasons · daypart",
+  "similarity": "0.5 accord + 0.5 note IDF"
+ },
+ "verification": [
+  {
+   "check": "향수 200개",
+   "ok": true,
+   "detail": "200개"
+  },
+  {
+   "check": "fragrantica_id 중복 없음",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "v2 와 향수 집합 동일",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "좌표가 [0,1] 안",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "terrain 격자 길이",
+   "ok": true,
+   "detail": "13824 == 13824"
+  },
+  {
+   "check": "regions 격자 길이",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "families 격자 길이",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "terrain 값 범위",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "region 라벨이 v2 와 동일",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "계열 1~3개",
+   "ok": true,
+   "detail": "최소 1 최대 3"
+  },
+  {
+   "check": "가중치 양수·합 <= 1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "argmax 계열이 항상 포함",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "families.items 9개",
+   "ok": true,
+   "detail": "9개"
+  },
+  {
+   "check": "모든 계열이 폴리곤 보유",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "9계열 전부 Territory 판정 통과",
+   "ok": true,
+   "detail": "면적>=3% · 덩어리>=60% · coverage>=0.50"
+  },
+  {
+   "check": "neighbors 가 v2 와 동일",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "v2 파일 불변",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "verification_pass": 17,
+ "verification_total": 17
+}
