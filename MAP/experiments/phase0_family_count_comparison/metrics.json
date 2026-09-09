@@ -1,0 +1,2146 @@
+{
+ "korea200": {
+  "S9": {
+   "system": "S9",
+   "short": "9",
+   "population": "korea200",
+   "n": 200,
+   "family_count": 9,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "GOURMAND",
+    "MUSK"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "구르망",
+    "머스크·파우더리"
+   ],
+   "family_sizes": {
+    "CITRUS": 23,
+    "FRUITY": 8,
+    "FLORAL": 61,
+    "GREEN": 21,
+    "AQUATIC": 12,
+    "WOODY": 23,
+    "AMBER": 14,
+    "GOURMAND": 20,
+    "MUSK": 18
+   },
+   "family_sizes_ko": {
+    "시트러스": 23,
+    "프루티": 8,
+    "플로럴": 61,
+    "그린·아로마틱": 21,
+    "아쿠아틱": 12,
+    "우디": 23,
+    "앰버·스파이시": 14,
+    "구르망": 20,
+    "머스크·파우더리": 18
+   },
+   "size_max": 61,
+   "size_min": 8,
+   "size_max_share": 0.305,
+   "size_cv": 0.6544,
+   "small_families": {
+    "n_lt_10": 1,
+    "n_lt_20": 4
+   },
+   "modifier_accords": [
+    "fresh"
+   ],
+   "modifier_count": 1,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 0,
+    "ratio_lt_0.3": 0,
+    "ratio_lt_0.5": 0
+   },
+   "family_mass_ratio": {
+    "p10": 0.8754,
+    "median": 1.0,
+    "p90": 1.0,
+    "min": 0.7769,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 0.1246,
+    "min": 0.0,
+    "max": 0.2231
+   },
+   "top_accord_is_modifier": 2,
+   "top_accord_in_assigned_family": 0.715,
+   "observed_cohesion": 0.518,
+   "random_expected_cohesion": 0.1587,
+   "cohesion_ratio": 3.264,
+   "per_family_cohesion": {
+    "AMBER": 0.393,
+    "AQUATIC": 0.283,
+    "CITRUS": 0.561,
+    "FLORAL": 0.744,
+    "FRUITY": 0.287,
+    "GOURMAND": 0.43,
+    "GREEN": 0.386,
+    "MUSK": 0.367,
+    "WOODY": 0.47
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.655,
+    "own_is_local_majority": 0.635,
+    "share_ge_0.5": 160,
+    "share_ge_0.6": 130,
+    "share_ge_0.7": 94
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.2661,
+     "median": 0.3738,
+     "p90": 0.5639,
+     "min": 0.2,
+     "max": 0.8224
+    },
+    "margin": {
+     "p10": 0.0179,
+     "median": 0.1179,
+     "p90": 0.3578,
+     "min": 0.0022,
+     "max": 0.729
+    },
+    "margin_lt_0.02": 28,
+    "margin_lt_0.05": 49,
+    "margin_lt_0.1": 92
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "same_family": 19,
+    "cross_family": 25,
+    "cross_family_share": 0.5682,
+    "cross_family_proximity": 0.2402,
+    "same_family_proximity": 0.0915
+   },
+   "region_purity": {
+    "on_own_region": 0.805,
+    "counted": 200,
+    "families_with_region": 9,
+    "grid": "128x78",
+    "params": "bandwidth scott x0.5 (D12), 해수면 미적용"
+   }
+  },
+  "S8A": {
+   "system": "S8A",
+   "short": "8A",
+   "population": "korea200",
+   "n": 200,
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "GOURMAND"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "구르망"
+   ],
+   "family_sizes": {
+    "CITRUS": 23,
+    "FRUITY": 10,
+    "FLORAL": 68,
+    "GREEN": 25,
+    "AQUATIC": 12,
+    "WOODY": 25,
+    "AMBER": 16,
+    "GOURMAND": 21
+   },
+   "family_sizes_ko": {
+    "시트러스": 23,
+    "프루티": 10,
+    "플로럴": 68,
+    "그린·아로마틱": 25,
+    "아쿠아틱": 12,
+    "우디": 25,
+    "앰버·스파이시": 16,
+    "구르망": 21
+   },
+   "size_max": 68,
+   "size_min": 10,
+   "size_max_share": 0.34,
+   "size_cv": 0.6847,
+   "small_families": {
+    "n_lt_10": 0,
+    "n_lt_20": 3
+   },
+   "modifier_accords": [
+    "animalic",
+    "fresh",
+    "metallic",
+    "musky",
+    "powdery",
+    "soapy"
+   ],
+   "modifier_count": 6,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 0,
+    "ratio_lt_0.3": 0,
+    "ratio_lt_0.5": 5
+   },
+   "family_mass_ratio": {
+    "p10": 0.6857,
+    "median": 0.8779,
+    "p90": 1.0,
+    "min": 0.3883,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.1221,
+    "p90": 0.3143,
+    "min": 0.0,
+    "max": 0.6117
+   },
+   "top_accord_is_modifier": 18,
+   "top_accord_in_assigned_family": 0.685,
+   "observed_cohesion": 0.5605,
+   "random_expected_cohesion": 0.1836,
+   "cohesion_ratio": 3.053,
+   "per_family_cohesion": {
+    "AMBER": 0.356,
+    "AQUATIC": 0.283,
+    "CITRUS": 0.561,
+    "FLORAL": 0.776,
+    "FRUITY": 0.46,
+    "GOURMAND": 0.419,
+    "GREEN": 0.396,
+    "WOODY": 0.56
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.6835,
+    "own_is_local_majority": 0.67,
+    "share_ge_0.5": 166,
+    "share_ge_0.6": 134,
+    "share_ge_0.7": 104
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.296,
+     "median": 0.4156,
+     "p90": 0.6687,
+     "min": 0.2217,
+     "max": 1.0
+    },
+    "margin": {
+     "p10": 0.0198,
+     "median": 0.1544,
+     "p90": 0.4751,
+     "min": 0.0022,
+     "max": 1.0
+    },
+    "margin_lt_0.02": 22,
+    "margin_lt_0.05": 43,
+    "margin_lt_0.1": 76
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "same_family": 19,
+    "cross_family": 25,
+    "cross_family_share": 0.5682,
+    "cross_family_proximity": 0.2402,
+    "same_family_proximity": 0.0915
+   },
+   "region_purity": {
+    "on_own_region": 0.855,
+    "counted": 200,
+    "families_with_region": 8,
+    "grid": "128x78",
+    "params": "bandwidth scott x0.5 (D12), 해수면 미적용"
+   }
+  },
+  "S8B": {
+   "system": "S8B",
+   "short": "8B",
+   "population": "korea200",
+   "n": 200,
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "MUSK"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "머스크·파우더리"
+   ],
+   "family_sizes": {
+    "CITRUS": 23,
+    "FRUITY": 15,
+    "FLORAL": 63,
+    "GREEN": 23,
+    "AQUATIC": 12,
+    "WOODY": 25,
+    "AMBER": 18,
+    "MUSK": 21
+   },
+   "family_sizes_ko": {
+    "시트러스": 23,
+    "프루티": 15,
+    "플로럴": 63,
+    "그린·아로마틱": 23,
+    "아쿠아틱": 12,
+    "우디": 25,
+    "앰버·스파이시": 18,
+    "머스크·파우더리": 21
+   },
+   "size_max": 63,
+   "size_min": 12,
+   "size_max_share": 0.315,
+   "size_cv": 0.5977,
+   "small_families": {
+    "n_lt_10": 0,
+    "n_lt_20": 3
+   },
+   "modifier_accords": [
+    "alcohol",
+    "almond",
+    "bacon",
+    "bbq",
+    "cacao",
+    "caramel",
+    "chocolate",
+    "coconut",
+    "coffee",
+    "fresh",
+    "gourmand",
+    "honey",
+    "lactonic",
+    "meat",
+    "milky",
+    "nutty",
+    "oily",
+    "sake",
+    "sweet",
+    "vanilla",
+    "vodka"
+   ],
+   "modifier_count": 21,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 1,
+    "ratio_lt_0.3": 3,
+    "ratio_lt_0.5": 10
+   },
+   "family_mass_ratio": {
+    "p10": 0.6676,
+    "median": 0.8963,
+    "p90": 1.0,
+    "min": 0.1954,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.1037,
+    "p90": 0.3324,
+    "min": 0.0,
+    "max": 0.8046
+   },
+   "top_accord_is_modifier": 23,
+   "top_accord_in_assigned_family": 0.65,
+   "observed_cohesion": 0.531,
+   "random_expected_cohesion": 0.1697,
+   "cohesion_ratio": 3.13,
+   "per_family_cohesion": {
+    "AMBER": 0.444,
+    "AQUATIC": 0.283,
+    "CITRUS": 0.561,
+    "FLORAL": 0.743,
+    "FRUITY": 0.507,
+    "GREEN": 0.37,
+    "MUSK": 0.39,
+    "WOODY": 0.432
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.665,
+    "own_is_local_majority": 0.635,
+    "share_ge_0.5": 169,
+    "share_ge_0.6": 139,
+    "share_ge_0.7": 92
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.2966,
+     "median": 0.4241,
+     "p90": 0.5728,
+     "min": 0.2268,
+     "max": 0.845
+    },
+    "margin": {
+     "p10": 0.0199,
+     "median": 0.1459,
+     "p90": 0.3937,
+     "min": 0.0024,
+     "max": 0.7442
+    },
+    "margin_lt_0.02": 21,
+    "margin_lt_0.05": 39,
+    "margin_lt_0.1": 78
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "same_family": 21,
+    "cross_family": 23,
+    "cross_family_share": 0.5227,
+    "cross_family_proximity": 0.2611,
+    "same_family_proximity": 0.0828
+   },
+   "region_purity": {
+    "on_own_region": 0.805,
+    "counted": 200,
+    "families_with_region": 8,
+    "grid": "128x78",
+    "params": "bandwidth scott x0.5 (D12), 해수면 미적용"
+   }
+  },
+  "S7": {
+   "system": "S7",
+   "short": "7",
+   "population": "korea200",
+   "n": 200,
+   "family_count": 7,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시"
+   ],
+   "family_sizes": {
+    "CITRUS": 24,
+    "FRUITY": 17,
+    "FLORAL": 70,
+    "GREEN": 28,
+    "AQUATIC": 12,
+    "WOODY": 27,
+    "AMBER": 22
+   },
+   "family_sizes_ko": {
+    "시트러스": 24,
+    "프루티": 17,
+    "플로럴": 70,
+    "그린·아로마틱": 28,
+    "아쿠아틱": 12,
+    "우디": 27,
+    "앰버·스파이시": 22
+   },
+   "size_max": 70,
+   "size_min": 12,
+   "size_max_share": 0.35,
+   "size_cv": 0.6193,
+   "small_families": {
+    "n_lt_10": 0,
+    "n_lt_20": 2
+   },
+   "modifier_accords": [
+    "alcohol",
+    "almond",
+    "animalic",
+    "bacon",
+    "bbq",
+    "cacao",
+    "caramel",
+    "chocolate",
+    "coconut",
+    "coffee",
+    "fresh",
+    "gourmand",
+    "honey",
+    "lactonic",
+    "meat",
+    "metallic",
+    "milky",
+    "musky",
+    "nutty",
+    "oily",
+    "powdery",
+    "sake",
+    "soapy",
+    "sweet",
+    "vanilla",
+    "vodka"
+   ],
+   "modifier_count": 26,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 2,
+    "ratio_lt_0.3": 5,
+    "ratio_lt_0.5": 22
+   },
+   "family_mass_ratio": {
+    "p10": 0.487,
+    "median": 0.7626,
+    "p90": 0.9358,
+    "min": 0.0629,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0642,
+    "median": 0.2374,
+    "p90": 0.513,
+    "min": 0.0,
+    "max": 0.9371
+   },
+   "top_accord_is_modifier": 39,
+   "top_accord_in_assigned_family": 0.62,
+   "observed_cohesion": 0.5695,
+   "random_expected_cohesion": 0.1976,
+   "cohesion_ratio": 2.881,
+   "per_family_cohesion": {
+    "AMBER": 0.4,
+    "AQUATIC": 0.283,
+    "CITRUS": 0.537,
+    "FLORAL": 0.777,
+    "FRUITY": 0.588,
+    "GREEN": 0.371,
+    "WOODY": 0.519
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.695,
+    "own_is_local_majority": 0.65,
+    "share_ge_0.5": 175,
+    "share_ge_0.6": 143,
+    "share_ge_0.7": 104
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.3326,
+     "median": 0.4614,
+     "p90": 0.7405,
+     "min": 0.2427,
+     "max": 1.0
+    },
+    "margin": {
+     "p10": 0.0244,
+     "median": 0.1763,
+     "p90": 0.5456,
+     "min": 0.0024,
+     "max": 1.0
+    },
+    "margin_lt_0.02": 18,
+    "margin_lt_0.05": 32,
+    "margin_lt_0.1": 57
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "same_family": 21,
+    "cross_family": 23,
+    "cross_family_share": 0.5227,
+    "cross_family_proximity": 0.2611,
+    "same_family_proximity": 0.0828
+   },
+   "region_purity": {
+    "on_own_region": 0.845,
+    "counted": 200,
+    "families_with_region": 7,
+    "grid": "128x78",
+    "params": "bandwidth scott x0.5 (D12), 해수면 미적용"
+   }
+  },
+  "S8A_A": {
+   "system": "S8A_A",
+   "short": "8A-A",
+   "population": "korea200",
+   "n": 200,
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "GOURMAND"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "구르망"
+   ],
+   "family_sizes": {
+    "CITRUS": 23,
+    "FRUITY": 10,
+    "FLORAL": 66,
+    "GREEN": 23,
+    "AQUATIC": 11,
+    "WOODY": 23,
+    "AMBER": 24,
+    "GOURMAND": 20
+   },
+   "family_sizes_ko": {
+    "시트러스": 23,
+    "프루티": 10,
+    "플로럴": 66,
+    "그린·아로마틱": 23,
+    "아쿠아틱": 11,
+    "우디": 23,
+    "앰버·스파이시": 24,
+    "구르망": 20
+   },
+   "size_max": 66,
+   "size_min": 10,
+   "size_max_share": 0.33,
+   "size_cv": 0.6542,
+   "small_families": {
+    "n_lt_10": 0,
+    "n_lt_20": 2
+   },
+   "modifier_accords": [
+    "fresh",
+    "metallic",
+    "powdery",
+    "soapy"
+   ],
+   "modifier_count": 4,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 0,
+    "ratio_lt_0.3": 0,
+    "ratio_lt_0.5": 0
+   },
+   "family_mass_ratio": {
+    "p10": 0.7849,
+    "median": 0.9143,
+    "p90": 1.0,
+    "min": 0.5903,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.0857,
+    "p90": 0.2151,
+    "min": 0.0,
+    "max": 0.4097
+   },
+   "top_accord_is_modifier": 12,
+   "top_accord_in_assigned_family": 0.695,
+   "observed_cohesion": 0.5325,
+   "random_expected_cohesion": 0.1785,
+   "cohesion_ratio": 2.983,
+   "per_family_cohesion": {
+    "AMBER": 0.321,
+    "AQUATIC": 0.255,
+    "CITRUS": 0.561,
+    "FLORAL": 0.748,
+    "FRUITY": 0.46,
+    "GOURMAND": 0.43,
+    "GREEN": 0.422,
+    "WOODY": 0.47
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.6695,
+    "own_is_local_majority": 0.65,
+    "share_ge_0.5": 170,
+    "share_ge_0.6": 134,
+    "share_ge_0.7": 96
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.2851,
+     "median": 0.3997,
+     "p90": 0.6029,
+     "min": 0.2188,
+     "max": 0.8506
+    },
+    "margin": {
+     "p10": 0.0165,
+     "median": 0.1375,
+     "p90": 0.4023,
+     "min": 0.0022,
+     "max": 0.7657
+    },
+    "margin_lt_0.02": 25,
+    "margin_lt_0.05": 48,
+    "margin_lt_0.1": 85
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "same_family": 19,
+    "cross_family": 25,
+    "cross_family_share": 0.5682,
+    "cross_family_proximity": 0.2402,
+    "same_family_proximity": 0.0915
+   },
+   "region_purity": {
+    "on_own_region": 0.845,
+    "counted": 200,
+    "families_with_region": 8,
+    "grid": "128x78",
+    "params": "bandwidth scott x0.5 (D12), 해수면 미적용"
+   }
+  },
+  "S8B_A": {
+   "system": "S8B_A",
+   "short": "8B-A",
+   "population": "korea200",
+   "n": 200,
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "MUSK"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "머스크·파우더리"
+   ],
+   "family_sizes": {
+    "CITRUS": 20,
+    "FRUITY": 8,
+    "FLORAL": 58,
+    "GREEN": 18,
+    "AQUATIC": 12,
+    "WOODY": 23,
+    "AMBER": 44,
+    "MUSK": 17
+   },
+   "family_sizes_ko": {
+    "시트러스": 20,
+    "프루티": 8,
+    "플로럴": 58,
+    "그린·아로마틱": 18,
+    "아쿠아틱": 12,
+    "우디": 23,
+    "앰버·스파이시": 44,
+    "머스크·파우더리": 17
+   },
+   "size_max": 58,
+   "size_min": 8,
+   "size_max_share": 0.29,
+   "size_cv": 0.6403,
+   "small_families": {
+    "n_lt_10": 1,
+    "n_lt_20": 4
+   },
+   "modifier_accords": [
+    "fresh"
+   ],
+   "modifier_count": 1,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 0,
+    "ratio_lt_0.3": 0,
+    "ratio_lt_0.5": 0
+   },
+   "family_mass_ratio": {
+    "p10": 0.8754,
+    "median": 1.0,
+    "p90": 1.0,
+    "min": 0.7769,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 0.1246,
+    "min": 0.0,
+    "max": 0.2231
+   },
+   "top_accord_is_modifier": 2,
+   "top_accord_in_assigned_family": 0.72,
+   "observed_cohesion": 0.5095,
+   "random_expected_cohesion": 0.1762,
+   "cohesion_ratio": 2.891,
+   "per_family_cohesion": {
+    "AMBER": 0.47,
+    "AQUATIC": 0.283,
+    "CITRUS": 0.48,
+    "FLORAL": 0.729,
+    "FRUITY": 0.287,
+    "GREEN": 0.356,
+    "MUSK": 0.376,
+    "WOODY": 0.47
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.647,
+    "own_is_local_majority": 0.63,
+    "share_ge_0.5": 159,
+    "share_ge_0.6": 129,
+    "share_ge_0.7": 94
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.2723,
+     "median": 0.385,
+     "p90": 0.5934,
+     "min": 0.2,
+     "max": 0.8645
+    },
+    "margin": {
+     "p10": 0.0189,
+     "median": 0.1276,
+     "p90": 0.4067,
+     "min": 0.0022,
+     "max": 0.7944
+    },
+    "margin_lt_0.02": 23,
+    "margin_lt_0.05": 44,
+    "margin_lt_0.1": 84
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "same_family": 23,
+    "cross_family": 21,
+    "cross_family_share": 0.4773,
+    "cross_family_proximity": 0.2123,
+    "same_family_proximity": 0.1429
+   },
+   "region_purity": {
+    "on_own_region": 0.8,
+    "counted": 200,
+    "families_with_region": 8,
+    "grid": "128x78",
+    "params": "bandwidth scott x0.5 (D12), 해수면 미적용"
+   }
+  },
+  "S7_A": {
+   "system": "S7_A",
+   "short": "7-A",
+   "population": "korea200",
+   "n": 200,
+   "family_count": 7,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시"
+   ],
+   "family_sizes": {
+    "CITRUS": 18,
+    "FRUITY": 7,
+    "FLORAL": 62,
+    "GREEN": 19,
+    "AQUATIC": 11,
+    "WOODY": 22,
+    "AMBER": 61
+   },
+   "family_sizes_ko": {
+    "시트러스": 18,
+    "프루티": 7,
+    "플로럴": 62,
+    "그린·아로마틱": 19,
+    "아쿠아틱": 11,
+    "우디": 22,
+    "앰버·스파이시": 61
+   },
+   "size_max": 62,
+   "size_min": 7,
+   "size_max_share": 0.31,
+   "size_cv": 0.7471,
+   "small_families": {
+    "n_lt_10": 1,
+    "n_lt_20": 4
+   },
+   "modifier_accords": [
+    "fresh",
+    "metallic",
+    "powdery",
+    "soapy"
+   ],
+   "modifier_count": 4,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 0,
+    "ratio_lt_0.3": 0,
+    "ratio_lt_0.5": 0
+   },
+   "family_mass_ratio": {
+    "p10": 0.7849,
+    "median": 0.9143,
+    "p90": 1.0,
+    "min": 0.5903,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.0857,
+    "p90": 0.2151,
+    "min": 0.0,
+    "max": 0.4097
+   },
+   "top_accord_is_modifier": 12,
+   "top_accord_in_assigned_family": 0.67,
+   "observed_cohesion": 0.5125,
+   "random_expected_cohesion": 0.2226,
+   "cohesion_ratio": 2.302,
+   "per_family_cohesion": {
+    "AMBER": 0.452,
+    "AQUATIC": 0.255,
+    "CITRUS": 0.489,
+    "FLORAL": 0.711,
+    "FRUITY": 0.257,
+    "GREEN": 0.416,
+    "WOODY": 0.432
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.6505,
+    "own_is_local_majority": 0.615,
+    "share_ge_0.5": 164,
+    "share_ge_0.6": 127,
+    "share_ge_0.7": 93
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.2983,
+     "median": 0.4219,
+     "p90": 0.6677,
+     "min": 0.2188,
+     "max": 1.0
+    },
+    "margin": {
+     "p10": 0.0213,
+     "median": 0.1407,
+     "p90": 0.4539,
+     "min": 0.0022,
+     "max": 1.0
+    },
+    "margin_lt_0.02": 20,
+    "margin_lt_0.05": 45,
+    "margin_lt_0.1": 81
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "same_family": 21,
+    "cross_family": 23,
+    "cross_family_share": 0.5227,
+    "cross_family_proximity": 0.203,
+    "same_family_proximity": 0.1464
+   },
+   "region_purity": {
+    "on_own_region": 0.83,
+    "counted": 200,
+    "families_with_region": 7,
+    "grid": "128x78",
+    "params": "bandwidth scott x0.5 (D12), 해수면 미적용"
+   }
+  }
+ },
+ "global1000": {
+  "S9": {
+   "system": "S9",
+   "short": "9",
+   "population": "global1000",
+   "n": 1000,
+   "family_count": 9,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "GOURMAND",
+    "MUSK"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "구르망",
+    "머스크·파우더리"
+   ],
+   "family_sizes": {
+    "CITRUS": 35,
+    "FRUITY": 38,
+    "FLORAL": 199,
+    "GREEN": 99,
+    "AQUATIC": 52,
+    "WOODY": 146,
+    "AMBER": 178,
+    "GOURMAND": 190,
+    "MUSK": 63
+   },
+   "family_sizes_ko": {
+    "시트러스": 35,
+    "프루티": 38,
+    "플로럴": 199,
+    "그린·아로마틱": 99,
+    "아쿠아틱": 52,
+    "우디": 146,
+    "앰버·스파이시": 178,
+    "구르망": 190,
+    "머스크·파우더리": 63
+   },
+   "size_max": 199,
+   "size_min": 35,
+   "size_max_share": 0.199,
+   "size_cv": 0.575,
+   "small_families": {
+    "n_lt_50": 2,
+    "n_lt_100": 5
+   },
+   "modifier_accords": [
+    "fresh"
+   ],
+   "modifier_count": 1,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 0,
+    "ratio_lt_0.3": 0,
+    "ratio_lt_0.5": 0
+   },
+   "family_mass_ratio": {
+    "p10": 0.892,
+    "median": 1.0,
+    "p90": 1.0,
+    "min": 0.6589,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 0.1055,
+    "min": 0.0,
+    "max": 0.2433
+   },
+   "top_accord_is_modifier": 12,
+   "top_accord_in_assigned_family": 0.681,
+   "observed_cohesion": 0.619,
+   "random_expected_cohesion": 0.1478,
+   "cohesion_ratio": 4.187,
+   "per_family_cohesion": {
+    "AMBER": 0.603,
+    "AQUATIC": 0.692,
+    "CITRUS": 0.5,
+    "FLORAL": 0.726,
+    "FRUITY": 0.595,
+    "GOURMAND": 0.717,
+    "GREEN": 0.452,
+    "MUSK": 0.457,
+    "WOODY": 0.558
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.7477,
+    "own_is_local_majority": 0.739,
+    "share_ge_0.5": 927,
+    "share_ge_0.6": 817,
+    "share_ge_0.7": 694
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.2843,
+     "median": 0.4005,
+     "p90": 0.5664,
+     "min": 0.2041,
+     "max": 0.9429
+    },
+    "margin": {
+     "p10": 0.023,
+     "median": 0.1335,
+     "p90": 0.3549,
+     "min": 0.0,
+     "max": 0.8857
+    },
+    "margin_lt_0.02": 85,
+    "margin_lt_0.05": 217,
+    "margin_lt_0.1": 402
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "same_family": 460,
+    "cross_family": 412,
+    "cross_family_share": 0.4725,
+    "cross_family_proximity": 0.2615,
+    "same_family_proximity": 0.1005
+   }
+  },
+  "S8A": {
+   "system": "S8A",
+   "short": "8A",
+   "population": "global1000",
+   "n": 1000,
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "GOURMAND"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "구르망"
+   ],
+   "family_sizes": {
+    "CITRUS": 36,
+    "FRUITY": 39,
+    "FLORAL": 225,
+    "GREEN": 102,
+    "AQUATIC": 56,
+    "WOODY": 155,
+    "AMBER": 189,
+    "GOURMAND": 198
+   },
+   "family_sizes_ko": {
+    "시트러스": 36,
+    "프루티": 39,
+    "플로럴": 225,
+    "그린·아로마틱": 102,
+    "아쿠아틱": 56,
+    "우디": 155,
+    "앰버·스파이시": 189,
+    "구르망": 198
+   },
+   "size_max": 225,
+   "size_min": 36,
+   "size_max_share": 0.225,
+   "size_cv": 0.5722,
+   "small_families": {
+    "n_lt_50": 2,
+    "n_lt_100": 3
+   },
+   "modifier_accords": [
+    "animalic",
+    "fresh",
+    "metallic",
+    "musky",
+    "powdery",
+    "soapy"
+   ],
+   "modifier_count": 6,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 1,
+    "ratio_lt_0.3": 2,
+    "ratio_lt_0.5": 12
+   },
+   "family_mass_ratio": {
+    "p10": 0.6977,
+    "median": 0.8968,
+    "p90": 1.0,
+    "min": 0.0571,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.1029,
+    "p90": 0.2973,
+    "min": 0.0,
+    "max": 0.9429
+   },
+   "top_accord_is_modifier": 89,
+   "top_accord_in_assigned_family": 0.655,
+   "observed_cohesion": 0.6381,
+   "random_expected_cohesion": 0.1659,
+   "cohesion_ratio": 3.846,
+   "per_family_cohesion": {
+    "AMBER": 0.611,
+    "AQUATIC": 0.734,
+    "CITRUS": 0.486,
+    "FLORAL": 0.76,
+    "FRUITY": 0.579,
+    "GOURMAND": 0.707,
+    "GREEN": 0.468,
+    "WOODY": 0.535
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.7597,
+    "own_is_local_majority": 0.752,
+    "share_ge_0.5": 924,
+    "share_ge_0.6": 822,
+    "share_ge_0.7": 701
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.3096,
+     "median": 0.4407,
+     "p90": 0.6241,
+     "min": 0.2161,
+     "max": 1.0
+    },
+    "margin": {
+     "p10": 0.0283,
+     "median": 0.16,
+     "p90": 0.4269,
+     "min": 0.0,
+     "max": 1.0
+    },
+    "margin_lt_0.02": 68,
+    "margin_lt_0.05": 179,
+    "margin_lt_0.1": 352
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "same_family": 474,
+    "cross_family": 398,
+    "cross_family_share": 0.4564,
+    "cross_family_proximity": 0.2588,
+    "same_family_proximity": 0.1076
+   }
+  },
+  "S8B": {
+   "system": "S8B",
+   "short": "8B",
+   "population": "global1000",
+   "n": 1000,
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "MUSK"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "머스크·파우더리"
+   ],
+   "family_sizes": {
+    "CITRUS": 43,
+    "FRUITY": 77,
+    "FLORAL": 234,
+    "GREEN": 120,
+    "AQUATIC": 54,
+    "WOODY": 159,
+    "AMBER": 222,
+    "MUSK": 91
+   },
+   "family_sizes_ko": {
+    "시트러스": 43,
+    "프루티": 77,
+    "플로럴": 234,
+    "그린·아로마틱": 120,
+    "아쿠아틱": 54,
+    "우디": 159,
+    "앰버·스파이시": 222,
+    "머스크·파우더리": 91
+   },
+   "size_max": 234,
+   "size_min": 43,
+   "size_max_share": 0.234,
+   "size_cv": 0.5492,
+   "small_families": {
+    "n_lt_50": 1,
+    "n_lt_100": 4
+   },
+   "modifier_accords": [
+    "alcohol",
+    "almond",
+    "bacon",
+    "bbq",
+    "cacao",
+    "caramel",
+    "chocolate",
+    "coconut",
+    "coffee",
+    "fresh",
+    "gourmand",
+    "honey",
+    "lactonic",
+    "meat",
+    "milky",
+    "nutty",
+    "oily",
+    "sake",
+    "sweet",
+    "vanilla",
+    "vodka"
+   ],
+   "modifier_count": 21,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 9,
+    "ratio_lt_0.3": 15,
+    "ratio_lt_0.5": 80
+   },
+   "family_mass_ratio": {
+    "p10": 0.5352,
+    "median": 0.863,
+    "p90": 1.0,
+    "min": 0.1124,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.1358,
+    "p90": 0.4618,
+    "min": 0.0,
+    "max": 0.8876
+   },
+   "top_accord_is_modifier": 174,
+   "top_accord_in_assigned_family": 0.583,
+   "observed_cohesion": 0.599,
+   "random_expected_cohesion": 0.1627,
+   "cohesion_ratio": 3.682,
+   "per_family_cohesion": {
+    "AMBER": 0.65,
+    "AQUATIC": 0.667,
+    "CITRUS": 0.451,
+    "FLORAL": 0.712,
+    "FRUITY": 0.657,
+    "GREEN": 0.495,
+    "MUSK": 0.397,
+    "WOODY": 0.545
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.7284,
+    "own_is_local_majority": 0.708,
+    "share_ge_0.5": 877,
+    "share_ge_0.6": 782,
+    "share_ge_0.7": 667
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.3062,
+     "median": 0.4289,
+     "p90": 0.6251,
+     "min": 0.2105,
+     "max": 1.0
+    },
+    "margin": {
+     "p10": 0.029,
+     "median": 0.149,
+     "p90": 0.4215,
+     "min": 0.0,
+     "max": 1.0
+    },
+    "margin_lt_0.02": 64,
+    "margin_lt_0.05": 176,
+    "margin_lt_0.1": 363
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "same_family": 458,
+    "cross_family": 414,
+    "cross_family_share": 0.4748,
+    "cross_family_proximity": 0.2544,
+    "same_family_proximity": 0.1063
+   }
+  },
+  "S7": {
+   "system": "S7",
+   "short": "7",
+   "population": "global1000",
+   "n": 1000,
+   "family_count": 7,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시"
+   ],
+   "family_sizes": {
+    "CITRUS": 46,
+    "FRUITY": 84,
+    "FLORAL": 269,
+    "GREEN": 128,
+    "AQUATIC": 58,
+    "WOODY": 171,
+    "AMBER": 243
+   },
+   "family_sizes_ko": {
+    "시트러스": 46,
+    "프루티": 84,
+    "플로럴": 269,
+    "그린·아로마틱": 128,
+    "아쿠아틱": 58,
+    "우디": 171,
+    "앰버·스파이시": 243
+   },
+   "size_max": 269,
+   "size_min": 46,
+   "size_max_share": 0.2693,
+   "size_cv": 0.5742,
+   "small_families": {
+    "n_lt_50": 1,
+    "n_lt_100": 3
+   },
+   "modifier_accords": [
+    "alcohol",
+    "almond",
+    "animalic",
+    "bacon",
+    "bbq",
+    "cacao",
+    "caramel",
+    "chocolate",
+    "coconut",
+    "coffee",
+    "fresh",
+    "gourmand",
+    "honey",
+    "lactonic",
+    "meat",
+    "metallic",
+    "milky",
+    "musky",
+    "nutty",
+    "oily",
+    "powdery",
+    "sake",
+    "soapy",
+    "sweet",
+    "vanilla",
+    "vodka"
+   ],
+   "modifier_count": 26,
+   "no_family_signal": 1,
+   "coverage": 0.999,
+   "low_family_mass": {
+    "ratio_lt_0.2": 16,
+    "ratio_lt_0.3": 38,
+    "ratio_lt_0.5": 162
+   },
+   "family_mass_ratio": {
+    "p10": 0.4282,
+    "median": 0.7331,
+    "p90": 0.9346,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0654,
+    "median": 0.2657,
+    "p90": 0.5718,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "top_accord_is_modifier": 251,
+   "top_accord_in_assigned_family": 0.555,
+   "observed_cohesion": 0.6271,
+   "random_expected_cohesion": 0.19,
+   "cohesion_ratio": 3.302,
+   "per_family_cohesion": {
+    "AMBER": 0.652,
+    "AQUATIC": 0.709,
+    "CITRUS": 0.422,
+    "FLORAL": 0.746,
+    "FRUITY": 0.64,
+    "GREEN": 0.502,
+    "WOODY": 0.52
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.7468,
+    "own_is_local_majority": 0.7397,
+    "share_ge_0.5": 890,
+    "share_ge_0.6": 803,
+    "share_ge_0.7": 681
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.3385,
+     "median": 0.4776,
+     "p90": 0.723,
+     "min": 0.2317,
+     "max": 1.0
+    },
+    "margin": {
+     "p10": 0.0378,
+     "median": 0.1833,
+     "p90": 0.5175,
+     "min": 0.0,
+     "max": 1.0
+    },
+    "margin_lt_0.02": 48,
+    "margin_lt_0.05": 133,
+    "margin_lt_0.1": 291
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "same_family": 484,
+    "cross_family": 388,
+    "cross_family_share": 0.445,
+    "cross_family_proximity": 0.2553,
+    "same_family_proximity": 0.1135
+   }
+  },
+  "S8A_A": {
+   "system": "S8A_A",
+   "short": "8A-A",
+   "population": "global1000",
+   "n": 1000,
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "GOURMAND"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "구르망"
+   ],
+   "family_sizes": {
+    "CITRUS": 31,
+    "FRUITY": 36,
+    "FLORAL": 205,
+    "GREEN": 97,
+    "AQUATIC": 51,
+    "WOODY": 140,
+    "AMBER": 248,
+    "GOURMAND": 192
+   },
+   "family_sizes_ko": {
+    "시트러스": 31,
+    "프루티": 36,
+    "플로럴": 205,
+    "그린·아로마틱": 97,
+    "아쿠아틱": 51,
+    "우디": 140,
+    "앰버·스파이시": 248,
+    "구르망": 192
+   },
+   "size_max": 248,
+   "size_min": 31,
+   "size_max_share": 0.248,
+   "size_cv": 0.6278,
+   "small_families": {
+    "n_lt_50": 2,
+    "n_lt_100": 4
+   },
+   "modifier_accords": [
+    "fresh",
+    "metallic",
+    "powdery",
+    "soapy"
+   ],
+   "modifier_count": 4,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 0,
+    "ratio_lt_0.3": 0,
+    "ratio_lt_0.5": 0
+   },
+   "family_mass_ratio": {
+    "p10": 0.7992,
+    "median": 0.9195,
+    "p90": 1.0,
+    "min": 0.5748,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.0801,
+    "p90": 0.1983,
+    "min": 0.0,
+    "max": 0.4252
+   },
+   "top_accord_is_modifier": 53,
+   "top_accord_in_assigned_family": 0.666,
+   "observed_cohesion": 0.6326,
+   "random_expected_cohesion": 0.1743,
+   "cohesion_ratio": 3.63,
+   "per_family_cohesion": {
+    "AMBER": 0.621,
+    "AQUATIC": 0.71,
+    "CITRUS": 0.523,
+    "FLORAL": 0.737,
+    "FRUITY": 0.6,
+    "GOURMAND": 0.716,
+    "GREEN": 0.457,
+    "WOODY": 0.511
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.7536,
+    "own_is_local_majority": 0.746,
+    "share_ge_0.5": 932,
+    "share_ge_0.6": 826,
+    "share_ge_0.7": 686
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.3043,
+     "median": 0.4291,
+     "p90": 0.6127,
+     "min": 0.1992,
+     "max": 1.0
+    },
+    "margin": {
+     "p10": 0.0256,
+     "median": 0.1519,
+     "p90": 0.3959,
+     "min": 0.0,
+     "max": 1.0
+    },
+    "margin_lt_0.02": 77,
+    "margin_lt_0.05": 192,
+    "margin_lt_0.1": 364
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "same_family": 464,
+    "cross_family": 408,
+    "cross_family_share": 0.4679,
+    "cross_family_proximity": 0.2438,
+    "same_family_proximity": 0.1175
+   }
+  },
+  "S8B_A": {
+   "system": "S8B_A",
+   "short": "8B-A",
+   "population": "global1000",
+   "n": 1000,
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "MUSK"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "머스크·파우더리"
+   ],
+   "family_sizes": {
+    "CITRUS": 31,
+    "FRUITY": 30,
+    "FLORAL": 183,
+    "GREEN": 78,
+    "AQUATIC": 51,
+    "WOODY": 127,
+    "AMBER": 443,
+    "MUSK": 57
+   },
+   "family_sizes_ko": {
+    "시트러스": 31,
+    "프루티": 30,
+    "플로럴": 183,
+    "그린·아로마틱": 78,
+    "아쿠아틱": 51,
+    "우디": 127,
+    "앰버·스파이시": 443,
+    "머스크·파우더리": 57
+   },
+   "size_max": 443,
+   "size_min": 30,
+   "size_max_share": 0.443,
+   "size_cv": 1.0379,
+   "small_families": {
+    "n_lt_50": 2,
+    "n_lt_100": 5
+   },
+   "modifier_accords": [
+    "fresh"
+   ],
+   "modifier_count": 1,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 0,
+    "ratio_lt_0.3": 0,
+    "ratio_lt_0.5": 0
+   },
+   "family_mass_ratio": {
+    "p10": 0.892,
+    "median": 1.0,
+    "p90": 1.0,
+    "min": 0.6589,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 0.1055,
+    "min": 0.0,
+    "max": 0.2433
+   },
+   "top_accord_is_modifier": 12,
+   "top_accord_in_assigned_family": 0.669,
+   "observed_cohesion": 0.6518,
+   "random_expected_cohesion": 0.2597,
+   "cohesion_ratio": 2.51,
+   "per_family_cohesion": {
+    "AMBER": 0.756,
+    "AQUATIC": 0.669,
+    "CITRUS": 0.516,
+    "FLORAL": 0.71,
+    "FRUITY": 0.453,
+    "GREEN": 0.379,
+    "MUSK": 0.418,
+    "WOODY": 0.55
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.7636,
+    "own_is_local_majority": 0.75,
+    "share_ge_0.5": 942,
+    "share_ge_0.6": 825,
+    "share_ge_0.7": 679
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.3024,
+     "median": 0.4357,
+     "p90": 0.6772,
+     "min": 0.2127,
+     "max": 0.9429
+    },
+    "margin": {
+     "p10": 0.0308,
+     "median": 0.1663,
+     "p90": 0.5001,
+     "min": 0.0,
+     "max": 0.9061
+    },
+    "margin_lt_0.02": 65,
+    "margin_lt_0.05": 169,
+    "margin_lt_0.1": 338
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "same_family": 520,
+    "cross_family": 352,
+    "cross_family_share": 0.4037,
+    "cross_family_proximity": 0.247,
+    "same_family_proximity": 0.1289
+   }
+  },
+  "S7_A": {
+   "system": "S7_A",
+   "short": "7-A",
+   "population": "global1000",
+   "n": 1000,
+   "family_count": 7,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시"
+   ],
+   "family_sizes": {
+    "CITRUS": 26,
+    "FRUITY": 26,
+    "FLORAL": 179,
+    "GREEN": 73,
+    "AQUATIC": 49,
+    "WOODY": 117,
+    "AMBER": 530
+   },
+   "family_sizes_ko": {
+    "시트러스": 26,
+    "프루티": 26,
+    "플로럴": 179,
+    "그린·아로마틱": 73,
+    "아쿠아틱": 49,
+    "우디": 117,
+    "앰버·스파이시": 530
+   },
+   "size_max": 530,
+   "size_min": 26,
+   "size_max_share": 0.53,
+   "size_cv": 1.1619,
+   "small_families": {
+    "n_lt_50": 3,
+    "n_lt_100": 4
+   },
+   "modifier_accords": [
+    "fresh",
+    "metallic",
+    "powdery",
+    "soapy"
+   ],
+   "modifier_count": 4,
+   "no_family_signal": 0,
+   "coverage": 1.0,
+   "low_family_mass": {
+    "ratio_lt_0.2": 0,
+    "ratio_lt_0.3": 0,
+    "ratio_lt_0.5": 0
+   },
+   "family_mass_ratio": {
+    "p10": 0.7992,
+    "median": 0.9195,
+    "p90": 1.0,
+    "min": 0.5748,
+    "max": 1.0
+   },
+   "modifier_mass_ratio": {
+    "p10": 0.0,
+    "median": 0.0801,
+    "p90": 0.1983,
+    "min": 0.0,
+    "max": 0.4252
+   },
+   "top_accord_is_modifier": 53,
+   "top_accord_in_assigned_family": 0.647,
+   "observed_cohesion": 0.6752,
+   "random_expected_cohesion": 0.3357,
+   "cohesion_ratio": 2.011,
+   "per_family_cohesion": {
+    "AMBER": 0.765,
+    "AQUATIC": 0.665,
+    "CITRUS": 0.558,
+    "FLORAL": 0.697,
+    "FRUITY": 0.446,
+    "GREEN": 0.389,
+    "WOODY": 0.494
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.7777,
+    "own_is_local_majority": 0.766,
+    "share_ge_0.5": 951,
+    "share_ge_0.6": 839,
+    "share_ge_0.7": 705
+   },
+   "margin": {
+    "top1": {
+     "p10": 0.328,
+     "median": 0.4802,
+     "p90": 0.7476,
+     "min": 0.1992,
+     "max": 1.0
+    },
+    "margin": {
+     "p10": 0.0358,
+     "median": 0.1876,
+     "p90": 0.5809,
+     "min": 0.0,
+     "max": 1.0
+    },
+    "margin_lt_0.02": 58,
+    "margin_lt_0.05": 146,
+    "margin_lt_0.1": 297
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "same_family": 518,
+    "cross_family": 354,
+    "cross_family_share": 0.406,
+    "cross_family_proximity": 0.2199,
+    "same_family_proximity": 0.147
+   }
+  }
+ },
+ "seed_stability_korea200": {
+  "S9": {
+   "mean": 3.205,
+   "std": 0.043,
+   "min": 3.154,
+   "max": 3.264,
+   "seed42": 3.264
+  },
+  "S8A": {
+   "mean": 2.997,
+   "std": 0.033,
+   "min": 2.968,
+   "max": 3.053,
+   "seed42": 3.053
+  },
+  "S8B": {
+   "mean": 3.013,
+   "std": 0.07,
+   "min": 2.941,
+   "max": 3.13,
+   "seed42": 3.13
+  },
+  "S7": {
+   "mean": 2.788,
+   "std": 0.058,
+   "min": 2.732,
+   "max": 2.881,
+   "seed42": 2.881
+  },
+  "S8A_A": {
+   "mean": 2.959,
+   "std": 0.03,
+   "min": 2.913,
+   "max": 2.997,
+   "seed42": 2.983
+  },
+  "S8B_A": {
+   "mean": 2.844,
+   "std": 0.051,
+   "min": 2.772,
+   "max": 2.911,
+   "seed42": 2.891
+  },
+  "S7_A": {
+   "mean": 2.336,
+   "std": 0.044,
+   "min": 2.278,
+   "max": 2.403,
+   "seed42": 2.302
+  }
+ },
+ "assignment_change": {
+  "korea200": {
+   "9": {
+    "9": 0,
+    "8A": 18,
+    "8B": 20,
+    "7": 38,
+    "8A-A": 21,
+    "8B-A": 30,
+    "7-A": 56
+   },
+   "8A": {
+    "9": 18,
+    "8A": 0,
+    "8B": 38,
+    "7": 21,
+    "8A-A": 8,
+    "8B-A": 47,
+    "7-A": 45
+   },
+   "8B": {
+    "9": 20,
+    "8A": 38,
+    "8B": 0,
+    "7": 21,
+    "8A-A": 41,
+    "8B-A": 26,
+    "7-A": 52
+   },
+   "7": {
+    "9": 38,
+    "8A": 21,
+    "8B": 21,
+    "7": 0,
+    "8A-A": 28,
+    "8B-A": 41,
+    "7-A": 39
+   },
+   "8A-A": {
+    "9": 21,
+    "8A": 8,
+    "8B": 41,
+    "7": 28,
+    "8A-A": 0,
+    "8B-A": 49,
+    "7-A": 37
+   },
+   "8B-A": {
+    "9": 30,
+    "8A": 47,
+    "8B": 26,
+    "7": 41,
+    "8A-A": 49,
+    "8B-A": 0,
+    "7-A": 26
+   },
+   "7-A": {
+    "9": 56,
+    "8A": 45,
+    "8B": 52,
+    "7": 39,
+    "8A-A": 37,
+    "8B-A": 26,
+    "7-A": 0
+   }
+  },
+  "global1000": {
+   "9": {
+    "9": 0,
+    "8A": 63,
+    "8B": 190,
+    "7": 253,
+    "8A-A": 93,
+    "8B-A": 265,
+    "7-A": 363
+   },
+   "8A": {
+    "9": 63,
+    "8A": 0,
+    "8B": 253,
+    "7": 198,
+    "8A-A": 59,
+    "8B-A": 319,
+    "7-A": 341
+   },
+   "8B": {
+    "9": 190,
+    "8A": 253,
+    "8B": 0,
+    "7": 91,
+    "8A-A": 279,
+    "8B-A": 221,
+    "7-A": 319
+   },
+   "7": {
+    "9": 253,
+    "8A": 198,
+    "8B": 91,
+    "7": 0,
+    "8A-A": 249,
+    "8B-A": 265,
+    "7-A": 287
+   },
+   "8A-A": {
+    "9": 93,
+    "8A": 59,
+    "8B": 279,
+    "7": 249,
+    "8A-A": 0,
+    "8B-A": 333,
+    "7-A": 282
+   },
+   "8B-A": {
+    "9": 265,
+    "8A": 319,
+    "8B": 221,
+    "7": 265,
+    "8A-A": 333,
+    "8B-A": 0,
+    "7-A": 98
+   },
+   "7-A": {
+    "9": 363,
+    "8A": 341,
+    "8B": 319,
+    "7": 287,
+    "8A-A": 282,
+    "8B-A": 98,
+    "7-A": 0
+   }
+  }
+ }
+}

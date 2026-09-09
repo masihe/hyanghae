@@ -1,0 +1,77 @@
+{
+ "experiment_id": "phase0",
+ "phase": 0,
+ "status": "NEW",
+ "hypothesis": "해당 없음 — 실험 기반 고정 단계",
+ "user_meaning": "모든 실험이 같은 데이터를 썼다는 것을 해시로 보장한다",
+ "changed_variable": "없음",
+ "population": [
+  "dev700",
+  "global1000",
+  "korea200"
+ ],
+ "snapshot_hash": {
+  "perfumes_csv": "cec1ea0b498853032bcf44d33ad52ac83e2ed2896b67d5a2765d90a0345cc055",
+  "note_dictionary": "72de5566687add52bf5997bb4a34da36cecf04a0ff30c0816b297d7d06de8388",
+  "reminds_edges": "f622ad5eb0299c172bac26e777c96c093f1fa3560002b20f83cd34ced380e1e4",
+  "also_liked_edges": "02ce9e4abd81e75f4e155264ce0eec2bcab7e0c6e8ed734bad59f3a92e71ec0a",
+  "people": "b63cf6ccf1c6f444737dfaf962a79fea32d7309337f4d848eee0324dfc636da8",
+  "korea_top200_csv": "3a94acac8134e166f138abf14ecbfefb04e3f1e7f655f9df30a6838bf8563cb5"
+ },
+ "family_mapping_version": "draft-1",
+ "family_mapping_sha256": "16bf809cdf29627963185ef560157946c389ad229220df9a904accf208dac251",
+ "family_mapping_status": "PROVISIONAL",
+ "family_score_version": "FS1",
+ "projection": "umap n_neighbors=10 min_dist=0.1 metric=precomputed",
+ "seeds": [
+  42,
+  1,
+  2,
+  3,
+  4
+ ],
+ "baseline_reference": {
+  "korea200_n": 200,
+  "korea200_trusted_edges": 44,
+  "korea200_trusted_nodes": 46,
+  "global1000_n": 1000,
+  "global1000_trusted_edges": 872,
+  "global1000_cross_family_edges": 435,
+  "dev700_n": 700,
+  "korea200_trust10_seed42": 0.9191,
+  "korea200_overlap10_seed42": 0.4875,
+  "korea200_trust10_seed_mean": 0.9213,
+  "korea200_reminds_seed_mean": 0.1672,
+  "global1000_trust10_seed42": 0.9387,
+  "global1000_overlap10_seed42": 0.3888,
+  "global1000_top10_hit": 0.4464,
+  "global1000_top10_hit_note_cosine": 0.4501,
+  "dev700_ndcg10": 0.2709
+ },
+ "reproduction_gate_result": {
+  "script": "src/matching/evaluate_brand_mapping_dev.py",
+  "pre_phase0": "PASS — 5개 방법 4자리 재현 일치, 보호 산출물 8개 SHA-256 불변",
+  "post_phase0": "TODO — Phase 0 종료 시 재실행"
+ },
+ "production_followup": {
+  "issue": "output/korea_scent_map_v2.json 의 검증 밀도 메타데이터가 현재 구성과 다르다",
+  "shipped": {
+   "trusted_reminds_edges_in_set": 40,
+   "perfumes_with_trusted_reminds_edge": 44
+  },
+  "measured": {
+   "trusted_edges": 44,
+   "trusted_nodes": 46
+  },
+  "cause": "build_korea_scent_map_v2.py 의 하드코딩 상수 (잠정 200개 시점 값)",
+  "action": "실험 범위 밖. 프로덕션 재생성 시 별도 처리"
+ },
+ "output_files": [
+  "dev700.csv",
+  "global1000.csv",
+  "korea200.csv",
+  "korea200_layout_seeds.csv"
+ ],
+ "reproduction_ok": true,
+ "elapsed_sec": 24.7
+}

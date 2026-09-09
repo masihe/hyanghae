@@ -1,0 +1,282 @@
+{
+ "_meta": {
+  "coordinate_source": "output/korea_scent_map_v2.json (Phase 0 baseline, 읽기 전용)",
+  "phase3a_note": "Phase 3a 의 기준 좌표는 Phase 1 유사도 + Phase 2 투영으로 다시 만든다",
+  "cohesion_rule": "비교는 observed / random_expected 비율로 한다. 절대값 비교 금지",
+  "family_mapping_version": "draft-1",
+  "family_score_version": "FS1",
+  "reproduction_ok": true,
+  "reproduction_checks": [
+   {
+    "name": "korea200 setA observed",
+    "measured": 0.4783,
+    "expected": 0.4783,
+    "tolerance": 0.005,
+    "ok": true
+   },
+   {
+    "name": "korea200 setA random",
+    "measured": 0.2954,
+    "expected": 0.2954,
+    "tolerance": 0.005,
+    "ok": true
+   },
+   {
+    "name": "korea200 setB observed",
+    "measured": 0.5195,
+    "expected": 0.519,
+    "tolerance": 0.005,
+    "ok": true
+   },
+   {
+    "name": "korea200 setB random",
+    "measured": 0.1557,
+    "expected": 0.156,
+    "tolerance": 0.005,
+    "ok": true
+   },
+   {
+    "name": "global1000 setA observed",
+    "measured": 0.3867,
+    "expected": 0.387,
+    "tolerance": 0.005,
+    "ok": true
+   },
+   {
+    "name": "global1000 setA random",
+    "measured": 0.2602,
+    "expected": 0.256,
+    "tolerance": 0.005,
+    "ok": true
+   },
+   {
+    "name": "setC average silhouette",
+    "measured": 0.0761,
+    "expected": 0.0761,
+    "tolerance": 0.002,
+    "ok": true
+   },
+   {
+    "name": "setC complete silhouette",
+    "measured": 0.0801,
+    "expected": 0.0801,
+    "tolerance": 0.002,
+    "ok": true
+   }
+  ]
+ },
+ "setA": {
+  "korea200": {
+   "coverage": 0.92,
+   "n_classified": 184,
+   "family_count": 4,
+   "observed_cohesion": 0.4783,
+   "random_expected_cohesion": 0.2954,
+   "cohesion_ratio": 1.619,
+   "per_family_cohesion": {
+    "Amber": 0.286,
+    "Floral": 0.595,
+    "Fresh": 0.461,
+    "Woody": 0.392
+   },
+   "sizes": {
+    "Floral": 79,
+    "Fresh": 41,
+    "Woody": 36,
+    "Amber": 28
+   },
+   "basis": "Fragrantica 설명문의 계열 표기 7종을 Fragrance Wheel 4대 그룹으로 묶음",
+   "unclassified": 16,
+   "unclassified_ids": [
+    68919,
+    131717,
+    37603,
+    82586,
+    35456,
+    8339,
+    73092,
+    109565,
+    123059,
+    37602,
+    84224,
+    39761,
+    89712,
+    47891,
+    124051,
+    114281
+   ]
+  },
+  "global1000": {
+   "coverage": 1.0,
+   "n_classified": 1000,
+   "family_count": 4,
+   "observed_cohesion": 0.3867,
+   "random_expected_cohesion": 0.2602,
+   "cohesion_ratio": 1.486,
+   "per_family_cohesion": {
+    "Amber": 0.405,
+    "Floral": 0.467,
+    "Fresh": 0.317,
+    "Woody": 0.316
+   },
+   "sizes": {
+    "Amber": 298,
+    "Floral": 293,
+    "Woody": 235,
+    "Fresh": 174
+   },
+   "trusted_edges": 872,
+   "cross_family": 437,
+   "cross_family_share": 0.5011
+  }
+ },
+ "setB": {
+  "korea200": {
+   "coverage": 1.0,
+   "n_classified": 200,
+   "family_count": 9,
+   "observed_cohesion": 0.5195,
+   "random_expected_cohesion": 0.1557,
+   "cohesion_ratio": 3.337,
+   "per_family_cohesion": {
+    "AMBER": 0.393,
+    "AQUATIC": 0.309,
+    "CITRUS": 0.481,
+    "FLORAL": 0.746,
+    "FRUITY": 0.3,
+    "GOURMAND": 0.43,
+    "GREEN": 0.316,
+    "MUSK": 0.515,
+    "WOODY": 0.495
+   },
+   "sizes": {
+    "FLORAL": 57,
+    "CITRUS": 32,
+    "WOODY": 21,
+    "MUSK": 20,
+    "GOURMAND": 20,
+    "GREEN": 19,
+    "AMBER": 14,
+    "AQUATIC": 11,
+    "FRUITY": 6
+   },
+   "basis": "accord -> 계열 매핑 draft-1 + Family Score FS1 의 argmax. 7계열은 Fragrance Wheel, 2계열(Gourmand/Musk)은 IFRA",
+   "unclassified": 0
+  },
+  "global1000": {
+   "coverage": 1.0,
+   "n_classified": 1000,
+   "family_count": 9,
+   "observed_cohesion": 0.6115,
+   "random_expected_cohesion": 0.1416,
+   "cohesion_ratio": 4.318,
+   "per_family_cohesion": {
+    "AMBER": 0.601,
+    "AQUATIC": 0.706,
+    "CITRUS": 0.418,
+    "FLORAL": 0.705,
+    "FRUITY": 0.6,
+    "GOURMAND": 0.724,
+    "GREEN": 0.416,
+    "MUSK": 0.551,
+    "WOODY": 0.564
+   },
+   "sizes": {
+    "GOURMAND": 188,
+    "FLORAL": 182,
+    "AMBER": 176,
+    "WOODY": 144,
+    "GREEN": 95,
+    "MUSK": 76,
+    "CITRUS": 55,
+    "AQUATIC": 48,
+    "FRUITY": 36
+   },
+   "trusted_edges": 872,
+   "cross_family": 435,
+   "cross_family_share": 0.4989
+  }
+ },
+ "setC": {
+  "status": "EXISTING_RESULT",
+  "recomputed": {
+   "average": {
+    "k": 7,
+    "silhouette": 0.0761,
+    "sizes": [
+     70,
+     61,
+     27,
+     18,
+     15,
+     5,
+     4
+    ]
+   },
+   "complete": {
+    "k": 8,
+    "silhouette": 0.0801,
+    "sizes": [
+     51,
+     31,
+     30,
+     26,
+     19,
+     19,
+     14,
+     10
+    ]
+   }
+  },
+  "recorded_reference": {
+   "average_k7_silhouette": 0.0761,
+   "average_k7_sizes": [
+    70,
+    61,
+    27,
+    18,
+    15,
+    5,
+    4
+   ],
+   "complete_k8_silhouette": 0.0801,
+   "complete_k8_sizes": [
+    51,
+    31,
+    30,
+    26,
+    19,
+    19,
+    14,
+    10
+   ]
+  },
+  "note": "현재 유사도에서는 자연 계열로 주장하기 어렵다 (silhouette 0.08 수준). Phase 1 에서 새 feature 가 채택된 경우에만 그 위에서 다시 실행한다.",
+  "korea200_average": {
+   "coverage": 1.0,
+   "n_classified": 200,
+   "family_count": 7,
+   "observed_cohesion": 0.743,
+   "random_expected_cohesion": 0.2485,
+   "cohesion_ratio": 2.99,
+   "per_family_cohesion": {
+    "c0": 0.667,
+    "c1": 0.744,
+    "c2": 0.847,
+    "c3": 0.4,
+    "c4": 0.3,
+    "c5": 0.513,
+    "c6": 0.778
+   },
+   "sizes": {
+    "c2": 70,
+    "c1": 61,
+    "c6": 27,
+    "c0": 18,
+    "c5": 15,
+    "c3": 5,
+    "c4": 4
+   }
+  }
+ }
+}

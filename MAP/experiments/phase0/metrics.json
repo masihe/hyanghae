@@ -1,0 +1,183 @@
+{
+ "korea200": {
+  "n": 200,
+  "trusted_edges": 44,
+  "trusted_nodes": 46,
+  "layout_seeds": {
+   "trust@10": {
+    "mean": 0.9213,
+    "std": 0.0013,
+    "min": 0.9191,
+    "max": 0.9232,
+    "seed42": 0.9191
+   },
+   "trust@20": {
+    "mean": 0.9024,
+    "std": 0.0039,
+    "min": 0.8983,
+    "max": 0.9085,
+    "seed42": 0.8987
+   },
+   "knn_overlap@10": {
+    "mean": 0.4846,
+    "std": 0.0032,
+    "min": 0.479,
+    "max": 0.4875,
+    "seed42": 0.4875
+   },
+   "reminds_pct": {
+    "mean": 0.1672,
+    "std": 0.0118,
+    "min": 0.1477,
+    "max": 0.1823,
+    "seed42": 0.1759
+   }
+  }
+ },
+ "global1000": {
+  "n": 1000,
+  "trusted_edges": 872,
+  "cross_family_trusted_edges": 435,
+  "also_liked_edges": 18662,
+  "layout_seed42": {
+   "trust@10": {
+    "mean": 0.9387,
+    "std": 0.0,
+    "min": 0.9387,
+    "max": 0.9387,
+    "seed42": 0.9387
+   },
+   "trust@20": {
+    "mean": 0.9186,
+    "std": 0.0,
+    "min": 0.9186,
+    "max": 0.9186,
+    "seed42": 0.9186
+   },
+   "knn_overlap@10": {
+    "mean": 0.3888,
+    "std": 0.0,
+    "min": 0.3888,
+    "max": 0.3888,
+    "seed42": 0.3888
+   },
+   "reminds_pct": {
+    "mean": 0.1766,
+    "std": 0.0,
+    "min": 0.1766,
+    "max": 0.1766,
+    "seed42": 0.1766
+   }
+  },
+  "top10_hit_baseline": 0.4464,
+  "top10_hit_note_cosine_control": 0.4501,
+  "top10_hit_queries": 467
+ },
+ "dev700": {
+  "n": 700,
+  "recall": 0.301,
+  "hit_rate": 0.5657,
+  "mrr": 0.3813,
+  "ndcg": 0.2709
+ },
+ "reproduction_checks": [
+  {
+   "name": "korea200 신뢰 간선",
+   "measured": 44.0,
+   "expected": 44,
+   "tolerance": 0,
+   "ok": true
+  },
+  {
+   "name": "korea200 보유 향수",
+   "measured": 46.0,
+   "expected": 46,
+   "tolerance": 0,
+   "ok": true
+  },
+  {
+   "name": "global1000 신뢰 간선",
+   "measured": 872.0,
+   "expected": 872,
+   "tolerance": 0,
+   "ok": true
+  },
+  {
+   "name": "global1000 cross-family 간선",
+   "measured": 435.0,
+   "expected": 435,
+   "tolerance": 0,
+   "ok": true
+  },
+  {
+   "name": "dev700 질의 수",
+   "measured": 700.0,
+   "expected": 700,
+   "tolerance": 0,
+   "ok": true
+  },
+  {
+   "name": "korea200 trust@10 seed42",
+   "measured": 0.9191,
+   "expected": 0.9191,
+   "tolerance": 0.0015,
+   "ok": true
+  },
+  {
+   "name": "korea200 overlap@10 seed42",
+   "measured": 0.4875,
+   "expected": 0.4875,
+   "tolerance": 0.0015,
+   "ok": true
+  },
+  {
+   "name": "korea200 trust@10 5시드 평균",
+   "measured": 0.9213,
+   "expected": 0.9213,
+   "tolerance": 0.0015,
+   "ok": true
+  },
+  {
+   "name": "korea200 trusted-edge 5시드 평균",
+   "measured": 0.1672,
+   "expected": 0.1672,
+   "tolerance": 0.003,
+   "ok": true
+  },
+  {
+   "name": "global1000 trust@10 seed42",
+   "measured": 0.9387,
+   "expected": 0.9387,
+   "tolerance": 0.0015,
+   "ok": true
+  },
+  {
+   "name": "global1000 overlap@10 seed42",
+   "measured": 0.3888,
+   "expected": 0.3888,
+   "tolerance": 0.0015,
+   "ok": true
+  },
+  {
+   "name": "global1000 top10 포함률",
+   "measured": 0.4464,
+   "expected": 0.4464,
+   "tolerance": 0.0015,
+   "ok": true
+  },
+  {
+   "name": "global1000 top10 (note cosine)",
+   "measured": 0.4501,
+   "expected": 0.4501,
+   "tolerance": 0.0015,
+   "ok": true
+  },
+  {
+   "name": "dev700 ndcg@10",
+   "measured": 0.2709,
+   "expected": 0.2709,
+   "tolerance": 0.0015,
+   "ok": true
+  }
+ ]
+}

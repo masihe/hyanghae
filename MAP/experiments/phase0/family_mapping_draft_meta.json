@@ -1,0 +1,58 @@
+{
+ "mapping_version": "draft-1",
+ "status": "PROVISIONAL",
+ "mapping_sha256": "16bf809cdf29627963185ef560157946c389ad229220df9a904accf208dac251",
+ "family_count": 9,
+ "families": {
+  "CITRUS": {
+   "ko": "시트러스",
+   "basis": "WHEEL",
+   "source": "Fragrance Wheel: Citrus"
+  },
+  "FRUITY": {
+   "ko": "프루티",
+   "basis": "WHEEL",
+   "source": "Fragrance Wheel: Fruity"
+  },
+  "FLORAL": {
+   "ko": "플로럴",
+   "basis": "WHEEL",
+   "source": "Fragrance Wheel: Floral / Soft Floral"
+  },
+  "GREEN": {
+   "ko": "그린·아로마틱",
+   "basis": "WHEEL",
+   "source": "Fragrance Wheel: Green / Aromatic Fougere"
+  },
+  "AQUATIC": {
+   "ko": "아쿠아틱",
+   "basis": "WHEEL",
+   "source": "Fragrance Wheel: Water"
+  },
+  "WOODY": {
+   "ko": "우디",
+   "basis": "WHEEL",
+   "source": "Fragrance Wheel: Woods / Mossy Woods / Dry Woods"
+  },
+  "AMBER": {
+   "ko": "앰버·스파이시",
+   "basis": "WHEEL",
+   "source": "Fragrance Wheel: Amber / Soft Amber / Woody Amber"
+  },
+  "GOURMAND": {
+   "ko": "구르망",
+   "basis": "IFRA",
+   "source": "휠에 없음. IFRA primary descriptor Gourmand (113건)"
+  },
+  "MUSK": {
+   "ko": "머스크·파우더리",
+   "basis": "IFRA",
+   "source": "휠에 없음. IFRA primary Musk Like(62) / Powdery(32)"
+  }
+ },
+ "accord_total": 92,
+ "review_required": 9,
+ "unmapped": 11,
+ "unmapped_share_sum": 0.0014,
+ "note": "Gourmand 와 Musk 는 Fragrance Wheel 에 독립 계열이 없고 IFRA primary descriptor 에 근거해 추가했다. 계열 수 7/8/9 는 팀 결정 사항이다."
+}

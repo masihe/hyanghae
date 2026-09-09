@@ -1,0 +1,152 @@
+{
+ "coordinate_source": "output/korea_scent_map_v2.json (읽기 전용)",
+ "rotation_deg": 171,
+ "axis_definition": {
+  "warmth": "((winter+autumn)-(summer+spring)) / 계절 투표 합",
+  "nightness": "(night-day) / 낮밤 투표 합",
+  "masculine": "((male+0.5*male_leaning)-(female+0.5*female_leaning)) / 성별 투표 합",
+  "min_votes": 20
+ },
+ "vote_availability": {
+  "warmth": 185,
+  "nightness": 181,
+  "masculine": 179
+ },
+ "axis_correlation_before": {
+  "warmth": {
+   "x_rho": -0.035,
+   "x_p": 0.6362840823716437,
+   "y_rho": 0.3983,
+   "y_p": 1.9726282901604254e-08,
+   "n": 185
+  },
+  "nightness": {
+   "x_rho": 0.0836,
+   "x_p": 0.2629928115619644,
+   "y_rho": 0.393,
+   "y_p": 4.4356618439447676e-08,
+   "n": 181
+  },
+  "masculine": {
+   "x_rho": 0.7355,
+   "x_p": 9.517992611546325e-32,
+   "y_rho": 0.1576,
+   "y_p": 0.035123048530318425,
+   "n": 179
+  }
+ },
+ "axis_correlation_after": {
+  "warmth": {
+   "x_rho": -0.0071,
+   "x_p": 0.9231614323739379,
+   "y_rho": 0.4162,
+   "y_p": 3.798757777317241e-09,
+   "n": 185
+  },
+  "nightness": {
+   "x_rho": -0.1209,
+   "x_p": 0.10501777350721711,
+   "y_rho": 0.3757,
+   "y_p": 1.8648714013040064e-07,
+   "n": 181
+  },
+  "masculine": {
+   "x_rho": -0.7528,
+   "x_p": 5.63801336977622e-34,
+   "y_rho": -0.0548,
+   "y_p": 0.4664267289495319,
+   "n": 179
+  }
+ },
+ "metric_invariance": [
+  {
+   "metric": "trust@10",
+   "before": 0.9191382113821138,
+   "after": 0.9191382113821138,
+   "abs_diff": 0.0
+  },
+  {
+   "metric": "trust@20",
+   "before": 0.8987182890855457,
+   "after": 0.8987182890855457,
+   "abs_diff": 0.0
+  },
+  {
+   "metric": "knn_overlap@10",
+   "before": 0.4875,
+   "after": 0.4875,
+   "abs_diff": 0.0
+  },
+  {
+   "metric": "reminds_pct",
+   "before": 0.1759936043855642,
+   "after": 0.1759936043855642,
+   "abs_diff": 0.0
+  },
+  {
+   "metric": "n_edges",
+   "before": 44.0,
+   "after": 44.0,
+   "abs_diff": 0.0
+  }
+ ],
+ "metric_invariant": true,
+ "seed_reproducibility": [
+  {
+   "seed": 42,
+   "rotation_deg": 171,
+   "y_warmth_rho": 0.4162,
+   "x_masculine_rho": 0.7528
+  },
+  {
+   "seed": 1,
+   "rotation_deg": 156,
+   "y_warmth_rho": 0.3941,
+   "x_masculine_rho": 0.7076
+  },
+  {
+   "seed": 2,
+   "rotation_deg": 135,
+   "y_warmth_rho": 0.3277,
+   "x_masculine_rho": 0.6931
+  },
+  {
+   "seed": 3,
+   "rotation_deg": 164,
+   "y_warmth_rho": 0.3168,
+   "x_masculine_rho": 0.6701
+  },
+  {
+   "seed": 4,
+   "rotation_deg": 155,
+   "y_warmth_rho": 0.2325,
+   "x_masculine_rho": 0.7024
+  }
+ ],
+ "reproduction_checks": [
+  {
+   "name": "rotation_deg",
+   "measured": 171.0,
+   "expected": 171,
+   "tolerance": 2,
+   "ok": true
+  },
+  {
+   "name": "y_warmth_rho",
+   "measured": 0.4162,
+   "expected": 0.4162,
+   "tolerance": 0.005,
+   "ok": true
+  },
+  {
+   "name": "x_masculine_rho",
+   "measured": 0.7528,
+   "expected": 0.7528,
+   "tolerance": 0.005,
+   "ok": true
+  }
+ ],
+ "reproduction_ok": true,
+ "limitation": "상관 0.4~0.75 는 경향이며 개별 향수 보장이 아니다. UI 는 '대체로' 로 표현해야 하고, exceptions.csv 가 반례 목록이다.",
+ "not_the_same_as": "Perception Axis Blend(C8)는 거리 계산에 인식 축을 섞는 별개 실험이다. 이 실험은 회전만 하고 거리를 바꾸지 않는다."
+}

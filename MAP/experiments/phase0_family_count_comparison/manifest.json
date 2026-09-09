@@ -1,0 +1,52 @@
+{
+ "experiment_id": "phase0_family_count_comparison",
+ "phase": 0,
+ "status": "NEW",
+ "hypothesis": "계열 개수(7/8A/8B/9)는 응집도만으로 고를 수 없다. 각 체계가 무엇을 얻고 무엇을 잃는지 같은 조건에서 재면 팀이 선택할 수 있다",
+ "user_meaning": "사용자가 '여기가 어느 향 구역인가' 를 읽을 수 있으려면 계열이 몇 개여야 하고, 계열을 줄일 때 어떤 향수가 엉뚱한 구역으로 가는가",
+ "changed_variable": "Family 체계 (계열 수와 해체 정책). 좌표·유사도·스냅샷은 고정",
+ "population": [
+  "korea200",
+  "global1000"
+ ],
+ "snapshot_hash": {
+  "perfumes_csv": "cec1ea0b498853032bcf44d33ad52ac83e2ed2896b67d5a2765d90a0345cc055",
+  "korea_top200_csv": "3a94acac8134e166f138abf14ecbfefb04e3f1e7f655f9df30a6838bf8563cb5",
+  "phase0_manifest": "fa3a2439758beb721d69eb0a1d67c3e0344f68e8b1fd6251becac71589bb4019"
+ },
+ "family_mapping_version": "reviewed-1",
+ "base_mapping_version": "draft-1",
+ "base_mapping_sha256": "16bf809cdf29627963185ef560157946c389ad229220df9a904accf208dac251",
+ "family_score_version": "FS1",
+ "projection": "umap n_neighbors=10 min_dist=0.1 (Korea 200 은 출하 좌표 = seed 42)",
+ "seeds": [
+  42,
+  1,
+  2,
+  3,
+  4
+ ],
+ "coordinate_note": "7개 체계가 같은 좌표를 공유한다 (재라벨링). Procrustes 정렬은 no-op 이므로 적용하지 않았다",
+ "primary_metrics": [
+  "cohesion_ratio",
+  "coverage",
+  "cross_family_proximity",
+  "top_accord_in_assigned_family"
+ ],
+ "guardrail_metrics": [
+  "cross_family_proximity"
+ ],
+ "baseline_reference": {
+  "draft_1_global_cross_family_edges": 435,
+  "draft_1_korea200_setB_cohesion_ratio": 3.337,
+  "note": "Phase 0 은 draft-1 기준이다. reviewed-1 값은 이 실험에서 새로 측정한다"
+ },
+ "region_purity_params": "build_korea_terrain 격자 (D12: bandwidth scott x0.5), 해수면 미적용",
+ "limitations": [
+  "Korea 200 의 cross-family 신뢰 간선은 체계마다 20~30쌍뿐이다. 보호 지표 판정은 Global 1,000 에서 한다",
+  "계열 수가 다르면 응집도 절대값을 비교할 수 없다. cohesion_ratio 를 쓴다",
+  "sweet 만 modifier 로 두는 절충안은 이번에 실행하지 않았다 (팀 결정)"
+ ],
+ "recommendation": "summary.html 의 마지막 절 참조. 최종 선택은 팀",
+ "elapsed_sec": 21.1
+}

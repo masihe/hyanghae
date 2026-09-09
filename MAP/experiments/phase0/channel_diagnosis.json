@@ -1,0 +1,91 @@
+{
+ "korea200": {
+  "n": 200,
+  "pairs": 19900,
+  "accord_note_pearson": 0.3074,
+  "accord_note_spearman": 0.3004,
+  "channels": {
+   "accord_cosine": {
+    "median": 0.3092,
+    "p10": 0.0698,
+    "p90": 0.6423,
+    "mean": 0.3351,
+    "zero_pair_share": 0.0311
+   },
+   "note_idf_jaccard": {
+    "median": 0.0287,
+    "p10": 0.0,
+    "p90": 0.0988,
+    "mean": 0.0388,
+    "zero_pair_share": 0.3872
+   },
+   "blended": {
+    "median": 0.1739,
+    "p10": 0.0435,
+    "p90": 0.3507,
+    "mean": 0.1869,
+    "zero_pair_share": 0.021
+   }
+  },
+  "accord_sim_of_top10pct_note_pairs": 0.4685,
+  "note_predicts_accord": {
+   "r2_mean": -0.1323,
+   "r2_folds": [
+    -0.0996,
+    0.0328,
+    0.111,
+    0.0176,
+    -0.7231
+   ],
+   "caveat": "note 차원이 표본보다 커서 과적합 구간. 중복 여부의 근거로는 상관계수를 쓴다"
+  }
+ },
+ "global1000": {
+  "n": 1000,
+  "pairs": 499500,
+  "accord_note_pearson": 0.3207,
+  "accord_note_spearman": 0.3076,
+  "channels": {
+   "accord_cosine": {
+    "median": 0.248,
+    "p10": 0.0568,
+    "p90": 0.5271,
+    "mean": 0.2729,
+    "zero_pair_share": 0.0483
+   },
+   "note_idf_jaccard": {
+    "median": 0.0312,
+    "p10": 0.0,
+    "p90": 0.1028,
+    "mean": 0.0413,
+    "zero_pair_share": 0.3609
+   },
+   "blended": {
+    "median": 0.1432,
+    "p10": 0.0374,
+    "p90": 0.2967,
+    "mean": 0.1571,
+    "zero_pair_share": 0.0293
+   }
+  },
+  "accord_sim_of_top10pct_note_pairs": 0.3911
+ },
+ "corpus_accord_prevalence_top10": {
+  "woody": 0.6172,
+  "powdery": 0.4767,
+  "sweet": 0.4595,
+  "citrus": 0.4546,
+  "aromatic": 0.4139,
+  "fresh spicy": 0.3583,
+  "floral": 0.3531,
+  "amber": 0.3447,
+  "warm spicy": 0.3435,
+  "fruity": 0.3276
+ },
+ "_meta": {
+  "conclusion": "두 채널은 중복이 아니다 (Korea 200 pearson 0.30). 실험 질문은 중복 제거가 아니라 각 채널이 어떤 유사성을 담는지다.",
+  "implication_for_a1_a3": "A1(accord only) / A3(raw note) 의 동기를 '중복 제거' 에서 '채널 특성 확인' 으로 바꾼다. 기존 결과는 인용만 한다 — A1 ndcg 0.1688, A3 는 IDF 대비 열세.",
+  "implication_for_note_weight": "note 비중을 올리는 방향은 근거가 없다. 실측: note 단독은 이웃 유사도 0.364 -> 0.264, 공통 상위3 accord 없는 이웃 8.2% -> 38.2%.",
+  "reproduction_ok": true
+ }
+}

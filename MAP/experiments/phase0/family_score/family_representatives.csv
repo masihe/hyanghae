@@ -1,0 +1,91 @@
+﻿population,family,family_ko,fragrantica_id,brand,name,top1,margin
+korea200,CITRUS,시트러스,92647,Versace,Eros Energy,0.5181,0.3523
+korea200,CITRUS,시트러스,30796,Chanel,Chance Eau Vive,0.4453,0.2717
+korea200,CITRUS,시트러스,31436,Parfums Berdoues,Assam of India,0.4417,0.1333
+korea200,CITRUS,시트러스,12192,Tom Ford,Neroli Portofino,0.4173,0.1475
+korea200,CITRUS,시트러스,485,Dolce&Gabbana,Light Blue,0.4106,0.2318
+korea200,FRUITY,프루티,72381,Stéphane Humbert Lucas 777,God of Fire,0.3982,0.1947
+korea200,FRUITY,프루티,653,Salvatore Ferragamo,Incanto Charms,0.3689,0.0725
+korea200,FRUITY,프루티,3779,Lanvin,Jeanne Lanvin,0.3215,0.0579
+korea200,FRUITY,프루티,29165,Jimmy Choo,Jimmy Choo Blossom,0.3067,0.0675
+korea200,FRUITY,프루티,38914,Yves Saint Laurent,Mon Paris,0.2809,0.059
+korea200,FLORAL,플로럴,44894,Gucci,Gucci Bloom,0.8,0.7091
+korea200,FLORAL,플로럴,17798,Byredo,Inflorescence,0.6459,0.4459
+korea200,FLORAL,플로럴,75642,Dior,J'adore Parfum d'Eau,0.6201,0.4545
+korea200,FLORAL,플로럴,72606,Yves Saint Laurent,Mon Paris Lumière,0.5708,0.4009
+korea200,FLORAL,플로럴,87956,Rance 1795,Mathilde,0.5682,0.3409
+korea200,GREEN,그린·아로마틱,43531,Etat Libre d'Orange,You Or Someone Like You,0.5358,0.3515
+korea200,GREEN,그린·아로마틱,64092,Nishane,EGE / ΑΙΓΑΙΟ,0.4703,0.1948
+korea200,GREEN,그린·아로마틱,35456,John Varvatos,Artisan Blu,0.4524,0.2283
+korea200,GREEN,그린·아로마틱,275,Calvin Klein,CK be,0.4496,0.2345
+korea200,GREEN,그린·아로마틱,109563,Sennok,After Bath,0.4442,0.2191
+korea200,AQUATIC,아쿠아틱,53671,Parfums Berdoues,Azur Riviera,0.5215,0.2853
+korea200,AQUATIC,아쿠아틱,95642,Issey Miyake,Le Sel d’Issey,0.4555,0.1081
+korea200,AQUATIC,아쿠아틱,47891,Maison Martin Margiela,Sailing Day,0.4286,0.2256
+korea200,AQUATIC,아쿠아틱,1198,Ralph Lauren,Polo Blue,0.4123,0.1009
+korea200,AQUATIC,아쿠아틱,70985,Maison Martin Margiela,When the Rain Stops,0.3743,0.0642
+korea200,WOODY,우디,46187,Jo Malone London,English Oak & Hazelnut,0.6566,0.4337
+korea200,WOODY,우디,109564,Sennok,Slow September,0.5351,0.2982
+korea200,WOODY,우디,85144,Essential Parfums,Patchouli Mania,0.5176,0.304
+korea200,WOODY,우디,32523,Mercedes-Benz,Mercedes Benz Man,0.4962,0.3753
+korea200,WOODY,우디,890,Ralph Lauren,Polo,0.4751,0.1692
+korea200,AMBER,앰버·스파이시,57088,Essential Parfums,Divine Vanille,0.5631,0.2617
+korea200,AMBER,앰버·스파이시,115749,BMW Fragrances,BMW M 2025,0.5225,0.218
+korea200,AMBER,앰버·스파이시,106299,BMW Fragrances,Amberness,0.4585,0.1995
+korea200,AMBER,앰버·스파이시,10464,Frederic Malle,Portrait of a Lady,0.4553,0.1504
+korea200,AMBER,앰버·스파이시,76893,Mancera,Tonka Cola,0.4295,0.1811
+korea200,GOURMAND,구르망,50384,Ariana Grande,Cloud,0.8046,0.6722
+korea200,GOURMAND,구르망,76824,Sabrina Carpenter,Sweet Tooth,0.7428,0.5507
+korea200,GOURMAND,구르망,56741,Ariana Grande,"Thank U, Next",0.7306,0.5926
+korea200,GOURMAND,구르망,2186,Montale,Chocolate Greedy,0.6387,0.4592
+korea200,GOURMAND,구르망,42782,Mancera,Coco Vanille,0.6245,0.3906
+korea200,MUSK,머스크·파우더리,109565,Sennok,Soap Clean Soap,0.7039,0.5534
+korea200,MUSK,머스크·파우더리,131717,Diptyque,Fleur de Peau,0.5436,0.3378
+korea200,MUSK,머스크·파우더리,93865,SW19,Midnight,0.5097,0.2581
+korea200,MUSK,머스크·파우더리,20542,Maison Martin Margiela,Lazy Sunday Morning,0.5056,0.1685
+korea200,MUSK,머스크·파우더리,122211,Narciso Rodriguez,Pure Musc Blanc For Her,0.4846,0.2654
+global1000,CITRUS,시트러스,728,Moschino,Cheap & Chic I Love Love,0.5417,0.4213
+global1000,CITRUS,시트러스,3256,4711,4711 Original Eau de Cologne,0.5388,0.335
+global1000,CITRUS,시트러스,67370,Louis Vuitton,Imagination,0.5285,0.2967
+global1000,CITRUS,시트러스,92647,Versace,Eros Energy,0.5181,0.3523
+global1000,CITRUS,시트러스,1215,Moschino,Moschino Funny!,0.4662,0.3543
+global1000,FRUITY,프루티,17145,The Body Shop,Mango,0.6207,0.4138
+global1000,FRUITY,프루티,46098,Xerjoff,Cruz del Sur II,0.5183,0.25
+global1000,FRUITY,프루티,66098,Moschino,Toy 2 Bubble Gum,0.4088,0.1824
+global1000,FRUITY,프루티,1835,Lalique,Amethyst,0.3968,0.2103
+global1000,FRUITY,프루티,105520,French Avenue,Vulcan Feu,0.396,0.194
+global1000,FLORAL,플로럴,44894,Gucci,Gucci Bloom,0.8,0.7091
+global1000,FLORAL,플로럴,15924,By Kilian,Good Girl Gone Bad,0.6848,0.5157
+global1000,FLORAL,플로럴,27997,Juliette Has A Gun,Moon Dance,0.6582,0.4218
+global1000,FLORAL,플로럴,808,Avon,Today,0.6507,0.5042
+global1000,FLORAL,플로럴,94,Yves Saint Laurent,Paris,0.6299,0.443
+global1000,GREEN,그린·아로마틱,7344,O Boticário,Thaty,0.5815,0.4486
+global1000,GREEN,그린·아로마틱,8315,O Boticário,Ma Chérie,0.5396,0.2256
+global1000,GREEN,그린·아로마틱,614,Chanel,Egoiste Platinum,0.5394,0.2727
+global1000,GREEN,그린·아로마틱,43531,Etat Libre d'Orange,You Or Someone Like You,0.5358,0.3515
+global1000,GREEN,그린·아로마틱,70424,Xerjoff,Torino21,0.5331,0.3228
+global1000,AQUATIC,아쿠아틱,55963,Valentino,Valentino Uomo Born in Roma,0.5397,0.3272
+global1000,AQUATIC,아쿠아틱,47255,Escada,Sorbetto Rosso,0.5058,0.3216
+global1000,AQUATIC,아쿠아틱,96740,Diptyque,Lilyphéa,0.4929,0.2946
+global1000,AQUATIC,아쿠아틱,42747,Hermès,Eau des Merveilles Bleue,0.4928,0.1971
+global1000,AQUATIC,아쿠아틱,95642,Issey Miyake,Le Sel d’Issey,0.4555,0.1081
+global1000,WOODY,우디,12863,Bottega Veneta,Bottega Veneta,0.7531,0.6607
+global1000,WOODY,우디,43040,Gucci,Gucci Guilty Absolute,0.7317,0.6067
+global1000,WOODY,우디,616,Chanel,Antaeus,0.6595,0.4902
+global1000,WOODY,우디,12792,Новая Заря (The New Dawn),Mystere,0.6281,0.4421
+global1000,WOODY,우디,6332,Le Labo,Patchouli 24,0.6243,0.3579
+global1000,AMBER,앰버·스파이시,75064,Amouage,Opus XIV – Royal Tobacco,0.761,0.6265
+global1000,AMBER,앰버·스파이시,42260,Initio Parfums Prives,Side Effect,0.7472,0.6287
+global1000,AMBER,앰버·스파이시,15294,Amouage,Interlude Man,0.6707,0.3415
+global1000,AMBER,앰버·스파이시,13857,Viktor&Rolf,Spicebomb,0.6537,0.5585
+global1000,AMBER,앰버·스파이시,3606,Escentric Molecules,Molecule 02,0.625,0.25
+global1000,GOURMAND,구르망,30551,Chabaud Maison de Parfum,Lait Concentré,0.8876,0.8101
+global1000,GOURMAND,구르망,7955,Yves Rocher,Noix de Coco de Malaisie,0.8824,0.7647
+global1000,GOURMAND,구르망,17140,The Body Shop,Coconut,0.8824,0.7647
+global1000,GOURMAND,구르망,93628,Lattafa Perfumes,Eclaire,0.8631,0.7611
+global1000,GOURMAND,구르망,43572,Le Monde Gourmand,Lait de Coco,0.843,0.7705
+global1000,MUSK,머스크·파우더리,4295,Nasomatto,Silver Musk,0.9429,0.8857
+global1000,MUSK,머스크·파우더리,60665,ZARKOPERFUME,The Muse,0.7008,0.5709
+global1000,MUSK,머스크·파우더리,53441,Narciso Rodriguez,Pure Musc For Her,0.6772,0.5354
+global1000,MUSK,머스크·파우더리,48681,Diptyque,Fleur de Peau Eau de Parfum,0.5633,0.3648
+global1000,MUSK,머스크·파우더리,22964,Serge Lutens,Laine de Verre,0.5617,0.2213

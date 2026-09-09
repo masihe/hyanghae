@@ -1,0 +1,229 @@
+{
+ "experiment_id": "phase0",
+ "step": "Phase 0-10 dependency check",
+ "purpose": "Phase 2 투영 후보를 확정하기 전에 설치·import·실제 데이터 구동을 확인한다. 여기의 지표는 smoke test 값이며 Phase 2 판정에 쓰지 않는다.",
+ "population": "korea200",
+ "snapshot": "experiments/phase0/snapshots/korea200.csv",
+ "n_perfumes": 200,
+ "seed": 42,
+ "install_attempts": [
+  {
+   "package": "pacmap",
+   "command": "venv/Scripts/python.exe -m pip install pacmap",
+   "result": "성공",
+   "installed": {
+    "pacmap": "0.9.1",
+    "faiss-cpu": "1.15.0"
+   },
+   "note": "faiss-cpu 1.15.0 이 kNN 백엔드로 함께 설치됐다. 기존 패키지 변경 없음."
+  },
+  {
+   "package": "trimap",
+   "command": "venv/Scripts/python.exe -m pip install trimap",
+   "result": "실패 (의존성 annoy 빌드 불가)",
+   "failure_log_key_lines": [
+    "Building wheel for annoy (pyproject.toml): finished with status 'error'",
+    "building 'annoy.annoylib' extension",
+    "error: Microsoft Visual C++ 14.0 or greater is required.",
+    "ERROR: Failed building wheel for annoy"
+   ],
+   "cause": "annoy 는 PyPI 에 sdist 만 있고 (--only-binary=:all: 로 확인: wheel 0개) C++ 확장을 컴파일해야 한다. 이 Windows 환경에는 MSVC 빌드 도구가 없다.",
+   "not_done": "MSVC 빌드 도구 설치(시스템 변경)와 서드파티 annoy 포크 git 설치는 하지 않았다."
+  },
+  {
+   "package": "trimap (재시도)",
+   "command": "venv/Scripts/python.exe -m pip install --no-deps trimap",
+   "result": "성공",
+   "installed": {
+    "trimap": "1.2.0"
+   },
+   "rationale": "trimap 1.2.0 의 __init__.py 는 TorchTRIMAP 만 즉시 import 하고 annoy 를 쓰는 legacy TRIMAP 은 __getattr__ 로 지연 로딩한다. 즉 annoy 는 legacy 경로 전용 의존성이다. annoy 외의 의존성(numpy/scikit-learn/numba/torch)은 --dry-run 에서 이미 충족 확인됐으므로 --no-deps 로 빠지는 것은 annoy 뿐이다.",
+   "side_effect": "pip check 가 'trimap 1.2.0 requires annoy, which is not installed' 를 보고한다. legacy TRIMAP 경로만 못 쓰고 TorchTRIMAP 은 정상 동작한다."
+  }
+ ],
+ "imports": {
+  "pacmap": {
+   "ok": true,
+   "version": "0.9.1"
+  },
+  "trimap": {
+   "ok": true,
+   "version": "1.2.0"
+  }
+ },
+ "precomputed_support": {
+  "PaCMAP": {
+   "supported": false,
+   "error": "NotImplementedError: `distance` must be one of euclidean, dot, angular, manhattan, hamming",
+   "allowed_metrics": [
+    "angular",
+    "dot",
+    "euclidean",
+    "hamming",
+    "manhattan"
+   ],
+   "allowed_metrics_source": "pacmap/pacmap.py:1162 VALID_METRICS",
+   "fallback": "accord+note 특징행렬 (build_map.py main() 과 동일)"
+  },
+  "TriMap": {
+   "supported": true,
+   "how": "TorchTRIMAP(use_dist_matrix=True) — torch 구현이라 annoy 불필요",
+   "legacy_TRIMAP_annoy": {
+    "available": false,
+    "error": "ModuleNotFoundError: No module named 'annoy'"
+   }
+  }
+ },
+ "pacmap_precomputed_partial_route": {
+  "note": "PaCMAP 은 distance='precomputed' 를 받지 않지만 pair_neighbors 를 외부에서 만들어 넣을 수 있다 (shape (n*n_neighbors, 2)). 우리 거리행렬로 이웃쌍을 만들어 주입하는 경로다.",
+  "limitation": "그래도 MN/FP 쌍은 PaCMAP 이 X 와 self.distance 로 다시 만든다. 따라서 완전한 precomputed 가 아니다. Phase 2 에서 이 경로를 쓰려면 '유사도 정의가 부분만 반영된다' 를 한계로 적어야 한다.",
+  "verified": false
+ },
+ "runs": [
+  {
+   "name": "UMAP(precomputed)",
+   "ok": true,
+   "elapsed_sec": 9.37,
+   "shape": [
+    200,
+    2
+   ],
+   "coord_spread": 1.643832,
+   "n_unique_points": 200,
+   "smoke_metrics_seed42_only": {
+    "trust@10": 0.9191,
+    "trust@20": 0.8987,
+    "knn_overlap@10": 0.4875,
+    "reminds_pct": 0.1759,
+    "n_edges": 44
+   }
+  },
+  {
+   "name": "PaCMAP(features)",
+   "ok": true,
+   "elapsed_sec": 0.3,
+   "shape": [
+    200,
+    2
+   ],
+   "coord_spread": 2.68609,
+   "n_unique_points": 200,
+   "smoke_metrics_seed42_only": {
+    "trust@10": 0.9038,
+    "trust@20": 0.8909,
+    "knn_overlap@10": 0.437,
+    "reminds_pct": 0.1662,
+    "n_edges": 44
+   }
+  },
+  {
+   "name": "TorchTRIMAP(dist_matrix)",
+   "ok": true,
+   "elapsed_sec": 0.78,
+   "shape": [
+    200,
+    2
+   ],
+   "coord_spread": 17.975451,
+   "n_unique_points": 200,
+   "smoke_metrics_seed42_only": {
+    "trust@10": 0.9307,
+    "trust@20": 0.909,
+    "knn_overlap@10": 0.4765,
+    "reminds_pct": 0.1811,
+    "n_edges": 44
+   }
+  },
+  {
+   "name": "TorchTRIMAP(features)",
+   "ok": true,
+   "elapsed_sec": 0.76,
+   "shape": [
+    200,
+    2
+   ],
+   "coord_spread": 16.648312,
+   "n_unique_points": 200,
+   "smoke_metrics_seed42_only": {
+    "trust@10": 0.9151,
+    "trust@20": 0.8956,
+    "knn_overlap@10": 0.4545,
+    "reminds_pct": 0.209,
+    "n_edges": 44
+   }
+  }
+ ],
+ "smoke_metric_caveat": "runs[].smoke_metrics_seed42_only 는 시드 1개 값이고 파라미터도 조정하지 않았다. 출력이 정상 좌표인지 확인하는 용도이며 Phase 2 알고리즘 비교나 게이트 판정에 인용하면 안 된다.",
+ "versions": {
+  "map_venv_before": {
+   "numpy": "2.4.6",
+   "pandas": "3.0.5",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "numba": "0.67.0",
+   "umap-learn": "0.5.12",
+   "llvmlite": "0.49.0",
+   "torch": "2.14.0+cpu",
+   "pacmap": null,
+   "trimap": null,
+   "annoy": null,
+   "faiss-cpu": null
+  },
+  "map_venv_after": {
+   "numpy": "2.4.6",
+   "pandas": "3.0.5",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "numba": "0.67.0",
+   "umap-learn": "0.5.12",
+   "llvmlite": "0.49.0",
+   "torch": "2.14.0+cpu",
+   "pacmap": "0.9.1",
+   "trimap": "1.2.0",
+   "annoy": null,
+   "faiss-cpu": "1.15.0"
+  },
+  "eda_venv_before": {
+   "numpy": "2.4.6",
+   "pandas": "3.0.5",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "numba": null,
+   "umap-learn": null,
+   "llvmlite": null,
+   "torch": null,
+   "pacmap": null,
+   "trimap": null,
+   "annoy": null,
+   "faiss-cpu": null
+  },
+  "eda_venv_after": {
+   "numpy": "2.4.6",
+   "pandas": "3.0.5",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "numba": null,
+   "umap-learn": null,
+   "llvmlite": null,
+   "torch": null,
+   "pacmap": null,
+   "trimap": null,
+   "annoy": null,
+   "faiss-cpu": null
+  },
+  "map_existing_package_changes": [],
+  "map_existing_packages_intact": true,
+  "eda_venv_changes": [],
+  "eda_venv_unchanged": true,
+  "eda_venv_isolation": "두 venv 는 include-system-site-packages=false 이고 site-packages 가 분리돼 있다. EDA venv 에는 어떤 pip 명령도 실행하지 않았다 (버전 읽기만 했다)."
+ },
+ "phase2_candidates": [
+  "UMAP",
+  "t-SNE",
+  "PaCMAP",
+  "TriMap",
+  "kNN graph"
+ ],
+ "phase2_excluded": [],
+ "phase2_input_note": "UMAP·t-SNE·kNN graph 는 precomputed 거리행렬을 받으므로 지금 유사도 정의를 그대로 쓴다. TriMap 은 TorchTRIMAP use_dist_matrix=True 로 같은 거리행렬을 쓴다. PaCMAP 만 특징행렬 입력이라 '입력 표현이 다르다' 를 대조 조건으로 manifest 에 적어야 한다 — PaCMAP 의 차이가 투영 방식 때문인지 입력 표현 때문인지 구분되지 않는다."
+}

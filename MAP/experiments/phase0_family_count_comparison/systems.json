@@ -1,0 +1,472 @@
+{
+ "mapping_version": "reviewed-1",
+ "base_mapping_version": "draft-1",
+ "reviewed_overrides": {
+  "aldehydic": {
+   "family": "FLORAL",
+   "reason": "팀 결정 — 알데하이드는 플로럴 축으로 본다 (draft-1 은 MUSK)"
+  },
+  "fresh": {
+   "family": "MODIFIER",
+   "reason": "팀 결정 — 어느 축의 신선함인지 데이터가 구분하지 않으므로 특정 계열에 강제 배정하지 않고 cross-family modifier 로 둔다 (draft-1 은 CITRUS)"
+  }
+ },
+ "musk_to_amber": [
+  "musky",
+  "animalic"
+ ],
+ "systems": {
+  "S9": {
+   "key": "S9",
+   "label": "9계열",
+   "short": "9",
+   "group": "base",
+   "note": "Phase 0 PROVISIONAL 초안. 휠 7계열 + IFRA 근거 2계열",
+   "musk_policy": "keep",
+   "gourmand_policy": "keep",
+   "family_count": 9,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "GOURMAND",
+    "MUSK"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "구르망",
+    "머스크·파우더리"
+   ],
+   "accords_per_family": {
+    "CITRUS": 4,
+    "FRUITY": 7,
+    "FLORAL": 8,
+    "GREEN": 9,
+    "AQUATIC": 6,
+    "WOODY": 10,
+    "AMBER": 11,
+    "GOURMAND": 20,
+    "MUSK": 5
+   },
+   "modifier_accords": [
+    "fresh"
+   ],
+   "modifier_count": 1,
+   "unmapped_accords": [
+    "asphault",
+    "brown scotch tape",
+    "gasoline",
+    "hot iron",
+    "industrial glue",
+    "plastic",
+    "rubber",
+    "tennis ball",
+    "varnish",
+    "vinyl",
+    "wet plaster"
+   ]
+  },
+  "S8A": {
+   "key": "S8A",
+   "label": "8A — 7계열 + Gourmand",
+   "short": "8A",
+   "group": "base",
+   "note": "Musk/Powdery 를 독립 영역에서 뺀다. 해당 accord 는 modifier",
+   "musk_policy": "modifier",
+   "gourmand_policy": "keep",
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "GOURMAND"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "구르망"
+   ],
+   "accords_per_family": {
+    "CITRUS": 4,
+    "FRUITY": 7,
+    "FLORAL": 8,
+    "GREEN": 9,
+    "AQUATIC": 6,
+    "WOODY": 10,
+    "AMBER": 11,
+    "GOURMAND": 20
+   },
+   "modifier_accords": [
+    "animalic",
+    "fresh",
+    "metallic",
+    "musky",
+    "powdery",
+    "soapy"
+   ],
+   "modifier_count": 6,
+   "unmapped_accords": [
+    "asphault",
+    "brown scotch tape",
+    "gasoline",
+    "hot iron",
+    "industrial glue",
+    "plastic",
+    "rubber",
+    "tennis ball",
+    "varnish",
+    "vinyl",
+    "wet plaster"
+   ]
+  },
+  "S8B": {
+   "key": "S8B",
+   "label": "8B — 7계열 + Musk/Powdery",
+   "short": "8B",
+   "group": "base",
+   "note": "Gourmand 를 독립 영역에서 뺀다. 해당 accord 20종은 modifier",
+   "musk_policy": "keep",
+   "gourmand_policy": "modifier",
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "MUSK"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "머스크·파우더리"
+   ],
+   "accords_per_family": {
+    "CITRUS": 4,
+    "FRUITY": 7,
+    "FLORAL": 8,
+    "GREEN": 9,
+    "AQUATIC": 6,
+    "WOODY": 10,
+    "AMBER": 11,
+    "MUSK": 5
+   },
+   "modifier_accords": [
+    "alcohol",
+    "almond",
+    "bacon",
+    "bbq",
+    "cacao",
+    "caramel",
+    "chocolate",
+    "coconut",
+    "coffee",
+    "fresh",
+    "gourmand",
+    "honey",
+    "lactonic",
+    "meat",
+    "milky",
+    "nutty",
+    "oily",
+    "sake",
+    "sweet",
+    "vanilla",
+    "vodka"
+   ],
+   "modifier_count": 21,
+   "unmapped_accords": [
+    "asphault",
+    "brown scotch tape",
+    "gasoline",
+    "hot iron",
+    "industrial glue",
+    "plastic",
+    "rubber",
+    "tennis ball",
+    "varnish",
+    "vinyl",
+    "wet plaster"
+   ]
+  },
+  "S7": {
+   "key": "S7",
+   "label": "7계열 — 휠 기반만",
+   "short": "7",
+   "group": "base",
+   "note": "Fragrance Wheel 에 대응이 있는 7계열만. 두 계열 모두 modifier 로 해체",
+   "musk_policy": "modifier",
+   "gourmand_policy": "modifier",
+   "family_count": 7,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시"
+   ],
+   "accords_per_family": {
+    "CITRUS": 4,
+    "FRUITY": 7,
+    "FLORAL": 8,
+    "GREEN": 9,
+    "AQUATIC": 6,
+    "WOODY": 10,
+    "AMBER": 11
+   },
+   "modifier_accords": [
+    "alcohol",
+    "almond",
+    "animalic",
+    "bacon",
+    "bbq",
+    "cacao",
+    "caramel",
+    "chocolate",
+    "coconut",
+    "coffee",
+    "fresh",
+    "gourmand",
+    "honey",
+    "lactonic",
+    "meat",
+    "metallic",
+    "milky",
+    "musky",
+    "nutty",
+    "oily",
+    "powdery",
+    "sake",
+    "soapy",
+    "sweet",
+    "vanilla",
+    "vodka"
+   ],
+   "modifier_count": 26,
+   "unmapped_accords": [
+    "asphault",
+    "brown scotch tape",
+    "gasoline",
+    "hot iron",
+    "industrial glue",
+    "plastic",
+    "rubber",
+    "tennis ball",
+    "varnish",
+    "vinyl",
+    "wet plaster"
+   ]
+  },
+  "S8A_A": {
+   "key": "S8A_A",
+   "label": "8A-A — 8A + musky·animalic→Amber",
+   "short": "8A-A",
+   "group": "sensitivity",
+   "note": "민감도. musky·animalic 을 Amber 로 병합, powdery·soapy·metallic 은 modifier",
+   "musk_policy": "amber",
+   "gourmand_policy": "keep",
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "GOURMAND"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "구르망"
+   ],
+   "accords_per_family": {
+    "CITRUS": 4,
+    "FRUITY": 7,
+    "FLORAL": 8,
+    "GREEN": 9,
+    "AQUATIC": 6,
+    "WOODY": 10,
+    "AMBER": 13,
+    "GOURMAND": 20
+   },
+   "modifier_accords": [
+    "fresh",
+    "metallic",
+    "powdery",
+    "soapy"
+   ],
+   "modifier_count": 4,
+   "unmapped_accords": [
+    "asphault",
+    "brown scotch tape",
+    "gasoline",
+    "hot iron",
+    "industrial glue",
+    "plastic",
+    "rubber",
+    "tennis ball",
+    "varnish",
+    "vinyl",
+    "wet plaster"
+   ]
+  },
+  "S8B_A": {
+   "key": "S8B_A",
+   "label": "8B-A — 8B + Gourmand→Amber",
+   "short": "8B-A",
+   "group": "sensitivity",
+   "note": "민감도. Gourmand accord 20종을 Amber 로 병합",
+   "musk_policy": "keep",
+   "gourmand_policy": "amber",
+   "family_count": 8,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER",
+    "MUSK"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시",
+    "머스크·파우더리"
+   ],
+   "accords_per_family": {
+    "CITRUS": 4,
+    "FRUITY": 7,
+    "FLORAL": 8,
+    "GREEN": 9,
+    "AQUATIC": 6,
+    "WOODY": 10,
+    "AMBER": 31,
+    "MUSK": 5
+   },
+   "modifier_accords": [
+    "fresh"
+   ],
+   "modifier_count": 1,
+   "unmapped_accords": [
+    "asphault",
+    "brown scotch tape",
+    "gasoline",
+    "hot iron",
+    "industrial glue",
+    "plastic",
+    "rubber",
+    "tennis ball",
+    "varnish",
+    "vinyl",
+    "wet plaster"
+   ]
+  },
+  "S7_A": {
+   "key": "S7_A",
+   "label": "7-A — 7 + 둘 다 Amber",
+   "short": "7-A",
+   "group": "sensitivity",
+   "note": "민감도. musky·animalic 과 Gourmand 20종을 모두 Amber 로 병합",
+   "musk_policy": "amber",
+   "gourmand_policy": "amber",
+   "family_count": 7,
+   "families": [
+    "CITRUS",
+    "FRUITY",
+    "FLORAL",
+    "GREEN",
+    "AQUATIC",
+    "WOODY",
+    "AMBER"
+   ],
+   "families_ko": [
+    "시트러스",
+    "프루티",
+    "플로럴",
+    "그린·아로마틱",
+    "아쿠아틱",
+    "우디",
+    "앰버·스파이시"
+   ],
+   "accords_per_family": {
+    "CITRUS": 4,
+    "FRUITY": 7,
+    "FLORAL": 8,
+    "GREEN": 9,
+    "AQUATIC": 6,
+    "WOODY": 10,
+    "AMBER": 33
+   },
+   "modifier_accords": [
+    "fresh",
+    "metallic",
+    "powdery",
+    "soapy"
+   ],
+   "modifier_count": 4,
+   "unmapped_accords": [
+    "asphault",
+    "brown scotch tape",
+    "gasoline",
+    "hot iron",
+    "industrial glue",
+    "plastic",
+    "rubber",
+    "tennis ball",
+    "varnish",
+    "vinyl",
+    "wet plaster"
+   ]
+  }
+ }
+}
