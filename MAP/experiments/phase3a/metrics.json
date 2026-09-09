@@ -1,0 +1,380 @@
+{
+ "korea200": {
+  "SetA": {
+   "ok": true,
+   "coverage": 0.92,
+   "n_classified": 184,
+   "n_total": 200,
+   "family_count": 4,
+   "observed_cohesion": 0.4783,
+   "random_expected_cohesion": 0.2954,
+   "cohesion_ratio": 1.619,
+   "size_max": 79,
+   "size_min": 28,
+   "size_max_share": 0.4293,
+   "per_family_cohesion": {
+    "Amber": 0.286,
+    "Floral": 0.595,
+    "Fresh": 0.461,
+    "Woody": 0.392
+   },
+   "sizes": {
+    "Floral": 79,
+    "Fresh": 41,
+    "Woody": 36,
+    "Amber": 28
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.6473,
+    "own_is_local_majority": 0.6196,
+    "share_ge_0.6": 128,
+    "share_ge_0.7": 100
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "skipped_unclassified": 4,
+    "same_family": 26,
+    "cross_family": 14,
+    "cross_family_proximity": 0.1601,
+    "same_family_proximity": 0.2022
+   },
+   "seed_check": {
+    "seeds": [
+     42,
+     1,
+     2,
+     3,
+     4
+    ],
+    "ratios": [
+     1.619,
+     1.595,
+     1.589,
+     1.569,
+     1.624
+    ],
+    "mean": 1.599,
+    "std": 0.02,
+    "min": 1.569,
+    "collapsed": false
+   }
+  },
+  "SetB": {
+   "ok": true,
+   "coverage": 1.0,
+   "n_classified": 200,
+   "n_total": 200,
+   "family_count": 9,
+   "observed_cohesion": 0.518,
+   "random_expected_cohesion": 0.1587,
+   "cohesion_ratio": 3.264,
+   "size_max": 61,
+   "size_min": 8,
+   "size_max_share": 0.305,
+   "per_family_cohesion": {
+    "AMBER": 0.393,
+    "AQUATIC": 0.283,
+    "CITRUS": 0.561,
+    "FLORAL": 0.744,
+    "FRUITY": 0.287,
+    "GOURMAND": 0.43,
+    "GREEN": 0.386,
+    "MUSK": 0.367,
+    "WOODY": 0.47
+   },
+   "sizes": {
+    "FLORAL": 61,
+    "WOODY": 23,
+    "CITRUS": 23,
+    "GREEN": 21,
+    "GOURMAND": 20,
+    "MUSK": 18,
+    "AMBER": 14,
+    "AQUATIC": 12,
+    "FRUITY": 8
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.655,
+    "own_is_local_majority": 0.635,
+    "share_ge_0.6": 130,
+    "share_ge_0.7": 94
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "skipped_unclassified": 0,
+    "same_family": 19,
+    "cross_family": 25,
+    "cross_family_proximity": 0.2402,
+    "same_family_proximity": 0.0915
+   },
+   "seed_check": {
+    "seeds": [
+     42,
+     1,
+     2,
+     3,
+     4
+    ],
+    "ratios": [
+     3.264,
+     3.16,
+     3.21,
+     3.236,
+     3.154
+    ],
+    "mean": 3.205,
+    "std": 0.043,
+    "min": 3.154,
+    "collapsed": false
+   }
+  },
+  "SetC": {
+   "ok": true,
+   "coverage": 1.0,
+   "n_classified": 200,
+   "n_total": 200,
+   "family_count": 7,
+   "observed_cohesion": 0.743,
+   "random_expected_cohesion": 0.2485,
+   "cohesion_ratio": 2.99,
+   "size_max": 70,
+   "size_min": 4,
+   "size_max_share": 0.35,
+   "per_family_cohesion": {
+    "c0": 0.667,
+    "c1": 0.744,
+    "c2": 0.847,
+    "c3": 0.4,
+    "c4": 0.3,
+    "c5": 0.513,
+    "c6": 0.778
+   },
+   "sizes": {
+    "c2": 70,
+    "c1": 61,
+    "c6": 27,
+    "c0": 18,
+    "c5": 15,
+    "c3": 5,
+    "c4": 4
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.8,
+    "own_is_local_majority": 0.85,
+    "share_ge_0.6": 170,
+    "share_ge_0.7": 150
+   },
+   "cross_family": {
+    "trusted_edges": 44,
+    "skipped_unclassified": 0,
+    "same_family": 34,
+    "cross_family": 10,
+    "cross_family_proximity": 0.3749,
+    "same_family_proximity": 0.1175
+   },
+   "seed_check": {
+    "seeds": [
+     42,
+     1,
+     2,
+     3,
+     4
+    ],
+    "ratios": [
+     2.99,
+     3.048,
+     3.117,
+     3.054,
+     3.032
+    ],
+    "mean": 3.048,
+    "std": 0.041,
+    "min": 2.99,
+    "collapsed": false
+   }
+  }
+ },
+ "global1000": {
+  "SetA": {
+   "ok": true,
+   "coverage": 1.0,
+   "n_classified": 1000,
+   "n_total": 1000,
+   "family_count": 4,
+   "observed_cohesion": 0.3867,
+   "random_expected_cohesion": 0.2602,
+   "cohesion_ratio": 1.486,
+   "size_max": 298,
+   "size_min": 174,
+   "size_max_share": 0.298,
+   "per_family_cohesion": {
+    "Amber": 0.405,
+    "Floral": 0.467,
+    "Fresh": 0.317,
+    "Woody": 0.316
+   },
+   "sizes": {
+    "Amber": 298,
+    "Floral": 293,
+    "Woody": 235,
+    "Fresh": 174
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.5529,
+    "own_is_local_majority": 0.467,
+    "share_ge_0.6": 440,
+    "share_ge_0.7": 246
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "skipped_unclassified": 0,
+    "same_family": 435,
+    "cross_family": 437,
+    "cross_family_proximity": 0.1858,
+    "same_family_proximity": 0.1673
+   }
+  },
+  "SetB": {
+   "ok": true,
+   "coverage": 1.0,
+   "n_classified": 1000,
+   "n_total": 1000,
+   "family_count": 9,
+   "observed_cohesion": 0.619,
+   "random_expected_cohesion": 0.1478,
+   "cohesion_ratio": 4.187,
+   "size_max": 199,
+   "size_min": 35,
+   "size_max_share": 0.199,
+   "per_family_cohesion": {
+    "AMBER": 0.603,
+    "AQUATIC": 0.692,
+    "CITRUS": 0.5,
+    "FLORAL": 0.726,
+    "FRUITY": 0.595,
+    "GOURMAND": 0.717,
+    "GREEN": 0.452,
+    "MUSK": 0.457,
+    "WOODY": 0.558
+   },
+   "sizes": {
+    "FLORAL": 199,
+    "GOURMAND": 190,
+    "AMBER": 178,
+    "WOODY": 146,
+    "GREEN": 99,
+    "MUSK": 63,
+    "AQUATIC": 52,
+    "FRUITY": 38,
+    "CITRUS": 35
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.7477,
+    "own_is_local_majority": 0.739,
+    "share_ge_0.6": 817,
+    "share_ge_0.7": 694
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "skipped_unclassified": 0,
+    "same_family": 460,
+    "cross_family": 412,
+    "cross_family_proximity": 0.2615,
+    "same_family_proximity": 0.1005
+   }
+  },
+  "SetC": {
+   "ok": true,
+   "coverage": 1.0,
+   "n_classified": 1000,
+   "n_total": 1000,
+   "family_count": 9,
+   "observed_cohesion": 0.7703,
+   "random_expected_cohesion": 0.1851,
+   "cohesion_ratio": 4.162,
+   "size_max": 281,
+   "size_min": 7,
+   "size_max_share": 0.281,
+   "per_family_cohesion": {
+    "c0": 0.772,
+    "c1": 0.771,
+    "c2": 0.742,
+    "c3": 0.1,
+    "c4": 0.811,
+    "c5": 0.662,
+    "c6": 0.56,
+    "c7": 0.606,
+    "c8": 0.832
+   },
+   "sizes": {
+    "c8": 281,
+    "c1": 224,
+    "c2": 145,
+    "c4": 128,
+    "c0": 123,
+    "c7": 48,
+    "c5": 29,
+    "c6": 15,
+    "c3": 7
+   },
+   "neighborhood_purity": {
+    "mean_top_family_share": 0.8561,
+    "own_is_local_majority": 0.863,
+    "share_ge_0.6": 945,
+    "share_ge_0.7": 880
+   },
+   "cross_family": {
+    "trusted_edges": 872,
+    "skipped_unclassified": 0,
+    "same_family": 572,
+    "cross_family": 300,
+    "cross_family_proximity": 0.3668,
+    "same_family_proximity": 0.0768
+   }
+  }
+ },
+ "_meta": {
+  "projection": "umap n_neighbors=10 min_dist=0.1 metric=precomputed seed=42",
+  "projection_decision": "팀 결정 — UMAP 이 모든 지표에서 최고이기 때문이 아니라 국소/전역 균형과 안정성, 기존 파이프라인 연결 때문이다. TriMap-dist 는 최종 후보 지도에서 재검증한다",
+  "coordinate_source": {
+   "korea200": "output\\korea_scent_map_v2.json (읽기 전용)",
+   "global1000": "UMAP seed 42 재계산"
+  },
+  "mapping_version": "reviewed-1",
+  "base_mapping_sha256": "16bf809cdf29627963185ef560157946c389ad229220df9a904accf208dac251",
+  "cohesion_rule": "비교는 observed / random_expected 비율. 절대값 비교 금지",
+  "stability_policy": "팀 결정 — 안정성은 Hard Gate 가 아니라 기록/검토 지표다. 시드 5개에서 구조가 크게 무너지지 않는지만 확인한다",
+  "set_b_family_count_reference": {
+   "9": {
+    "cohesion_ratio_korea": 3.264,
+    "cohesion_ratio_global": 4.187
+   },
+   "8A": {
+    "cohesion_ratio_korea": 3.053,
+    "cohesion_ratio_global": 3.846
+   },
+   "8B": {
+    "cohesion_ratio_korea": 3.13,
+    "cohesion_ratio_global": 3.682
+   },
+   "7": {
+    "cohesion_ratio_korea": 2.881,
+    "cohesion_ratio_global": 3.302
+   },
+   "8A-A": {
+    "cohesion_ratio_korea": 2.983,
+    "cohesion_ratio_global": 3.63
+   },
+   "8B-A": {
+    "cohesion_ratio_korea": 2.891,
+    "cohesion_ratio_global": 2.51
+   },
+   "7-A": {
+    "cohesion_ratio_korea": 2.302,
+    "cohesion_ratio_global": 2.011
+   }
+  },
+  "recommended_definition": "SetB",
+  "set_c_status": "EXISTING_RESULT — 현재 유사도에서 자연 계열로 주장하기 어렵다"
+ }
+}

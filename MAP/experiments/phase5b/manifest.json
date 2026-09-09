@@ -1,0 +1,41 @@
+{
+ "experiment": "P5B_THRESHOLD",
+ "phase": "5b",
+ "title": "soft Territory 임계 미세 조정 — 0.20 ~ 0.30",
+ "hypothesis": "0.22~0.28 에 9계열을 유지하면서 프루티 면적이 더 넓은 지점이 있다",
+ "user_meaning": "작은 계열의 탐색 구역을 얼마나 넓힐 수 있는가",
+ "changed_variable": "임계값 (좌표·구성·계열 체계 불변)",
+ "population": [
+  "korea200"
+ ],
+ "family_mapping_version": "reviewed-1",
+ "primary_metrics": [
+  "families_with_territory",
+  "fruity_area"
+ ],
+ "guardrail_metrics": [
+  "P5-A",
+  "P5-B",
+  "P5-C"
+ ],
+ "inputs": {
+  "top200": {
+   "path": "data\\korea_popularity\\korea_representative_perfumes_top200.csv",
+   "sha256": "3a94acac8134e166f138abf14ecbfefb04e3f1e7f655f9df30a6838bf8563cb5"
+  },
+  "phase5_metrics": {
+   "path": "experiments\\phase5\\metrics.json",
+   "sha256": "85f5f9ca31f1307240c83254f387a82160dba1b2c2db899ebd1678f9c6ef4f85"
+  }
+ },
+ "holdout_untouched": "data/korea_popularity/evaluation/gold_set_test.csv — 열지 않았다",
+ "writes": [
+  "experiments/phase5b/metrics.json",
+  "experiments/phase5b/manifest.json",
+  "experiments/phase5b/per_seed.csv",
+  "experiments/phase5b/territory.csv",
+  "experiments/phase5b/conditions.csv",
+  "experiments/phase5b/field_seed42.npz"
+ ],
+ "elapsed_sec": 46.1
+}

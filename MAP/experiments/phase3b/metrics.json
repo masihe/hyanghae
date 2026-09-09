@@ -1,0 +1,1343 @@
+{
+ "projection": "umap n_neighbors=10 min_dist=0.1 seed=42 (팀 결정)",
+ "family_definition": "Set B — reviewed-1 accord 기반 9계열",
+ "families": [
+  "CITRUS",
+  "FRUITY",
+  "FLORAL",
+  "GREEN",
+  "AQUATIC",
+  "WOODY",
+  "AMBER",
+  "GOURMAND",
+  "MUSK"
+ ],
+ "families_ko": [
+  "시트러스",
+  "프루티",
+  "플로럴",
+  "그린·아로마틱",
+  "아쿠아틱",
+  "우디",
+  "앰버·스파이시",
+  "구르망",
+  "머스크·파우더리"
+ ],
+ "c3_rule": "RuleB — margin >= 0.1",
+ "gate_a": {
+  "baseline_cross_family_proximity": 0.2615,
+  "margin": 0.05,
+  "pass_line": 0.3115,
+  "population": "global1000",
+  "cross_pairs": 412
+ },
+ "korea200": {
+  "C1 post-hoc": {
+   "description": "좌표 유지 + 계열 밀도 영역",
+   "readability_seed42": {
+    "observed_cohesion": 0.518,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 3.264,
+    "neighborhood_top_family_share": 0.655,
+    "purity_ge_0.7": 94,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.393,
+     "AQUATIC": 0.283,
+     "CITRUS": 0.561,
+     "FLORAL": 0.744,
+     "FRUITY": 0.287,
+     "GOURMAND": 0.43,
+     "GREEN": 0.386,
+     "MUSK": 0.367,
+     "WOODY": 0.47
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.805,
+    "families_with_region": 9,
+    "fragments_total": 24,
+    "fragments_max": 4,
+    "grid": "128x78"
+   },
+   "layout": {
+    "trust@10": 0.9191,
+    "trust@20": 0.8987,
+    "knn_overlap@10": 0.4875,
+    "reminds_pct": 0.176,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.2402,
+    "same_family_proximity": 0.0915
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.4555,
+    "center_ratio_clear": 0.3454,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     3.264,
+     3.264,
+     3.264,
+     3.264,
+     3.264
+    ],
+    "mean": 3.264,
+    "std": 0.0,
+    "min": 3.264,
+    "collapsed": false
+   }
+  },
+  "C7 gradient": {
+   "description": "좌표 유지 + 전이 지대 렌더링",
+   "readability_seed42": {
+    "observed_cohesion": 0.518,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 3.264,
+    "neighborhood_top_family_share": 0.655,
+    "purity_ge_0.7": 94,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.393,
+     "AQUATIC": 0.283,
+     "CITRUS": 0.561,
+     "FLORAL": 0.744,
+     "FRUITY": 0.287,
+     "GOURMAND": 0.43,
+     "GREEN": 0.386,
+     "MUSK": 0.367,
+     "WOODY": 0.47
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.805,
+    "families_with_region": 9,
+    "fragments_total": 24,
+    "fragments_max": 4,
+    "grid": "128x78"
+   },
+   "layout": {
+    "trust@10": 0.9191,
+    "trust@20": 0.8987,
+    "knn_overlap@10": 0.4875,
+    "reminds_pct": 0.176,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.2402,
+    "same_family_proximity": 0.0915
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.4555,
+    "center_ratio_clear": 0.3454,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     3.264,
+     3.264,
+     3.264,
+     3.264,
+     3.264
+    ],
+    "mean": 3.264,
+    "std": 0.0,
+    "min": 3.264,
+    "collapsed": false
+   },
+   "transition": {
+    "zone_share_margin_lt_0.05": 0.2953,
+    "zone_share_margin_lt_0.1": 0.4202,
+    "zone_share_margin_lt_0.2": 0.584,
+    "perfume_share_margin_lt_0.10": 0.46,
+    "reading": "격자 margin 이 작은 구역이 전이 지대다. 이게 지도 대부분이면 사용자가 '여기가 어느 지역인가' 를 읽을 수 없다"
+   }
+  },
+  "C2 supervised w=0.2": {
+   "description": "계열 라벨을 UMAP target 으로",
+   "readability_seed42": {
+    "observed_cohesion": 0.9395,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 5.92,
+    "neighborhood_top_family_share": 0.9685,
+    "purity_ge_0.7": 200,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.929,
+     "AQUATIC": 0.767,
+     "CITRUS": 0.991,
+     "FLORAL": 0.987,
+     "FRUITY": 0.7,
+     "GOURMAND": 0.86,
+     "GREEN": 0.919,
+     "MUSK": 0.978,
+     "WOODY": 1.0
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.99,
+    "families_with_region": 9,
+    "fragments_total": 15,
+    "fragments_max": 3,
+    "grid": "128x98"
+   },
+   "layout": {
+    "trust@10": 0.8985,
+    "trust@20": 0.8584,
+    "knn_overlap@10": 0.424,
+    "reminds_pct": 0.2699,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.4352,
+    "same_family_proximity": 0.0524
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.1429,
+    "center_ratio_clear": 0.0932,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     5.92,
+     5.926,
+     5.866,
+     5.863,
+     5.866
+    ],
+    "mean": 5.888,
+    "std": 0.028,
+    "min": 5.863,
+    "collapsed": false
+   }
+  },
+  "C2 supervised w=0.35": {
+   "description": "계열 라벨을 UMAP target 으로",
+   "readability_seed42": {
+    "observed_cohesion": 0.956,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 6.024,
+    "neighborhood_top_family_share": 0.974,
+    "purity_ge_0.7": 198,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.929,
+     "AQUATIC": 1.0,
+     "CITRUS": 0.983,
+     "FLORAL": 0.98,
+     "FRUITY": 0.7,
+     "GOURMAND": 0.86,
+     "GREEN": 0.952,
+     "MUSK": 1.0,
+     "WOODY": 1.0
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.99,
+    "families_with_region": 9,
+    "fragments_total": 14,
+    "fragments_max": 3,
+    "grid": "128x101"
+   },
+   "layout": {
+    "trust@10": 0.8981,
+    "trust@20": 0.8599,
+    "knn_overlap@10": 0.4255,
+    "reminds_pct": 0.3191,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.5116,
+    "same_family_proximity": 0.0659
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.0999,
+    "center_ratio_clear": 0.0776,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     6.024,
+     5.986,
+     6.046,
+     6.002,
+     5.936
+    ],
+    "mean": 5.999,
+    "std": 0.037,
+    "min": 5.936,
+    "collapsed": false
+   }
+  },
+  "C2 supervised w=0.5": {
+   "description": "계열 라벨을 UMAP target 으로",
+   "readability_seed42": {
+    "observed_cohesion": 0.9685,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 6.103,
+    "neighborhood_top_family_share": 0.9825,
+    "purity_ge_0.7": 200,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.929,
+     "AQUATIC": 1.0,
+     "CITRUS": 0.991,
+     "FLORAL": 0.989,
+     "FRUITY": 0.7,
+     "GOURMAND": 0.95,
+     "GREEN": 0.952,
+     "MUSK": 1.0,
+     "WOODY": 1.0
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.965,
+    "families_with_region": 9,
+    "fragments_total": 14,
+    "fragments_max": 3,
+    "grid": "128x214"
+   },
+   "layout": {
+    "trust@10": 0.8882,
+    "trust@20": 0.8332,
+    "knn_overlap@10": 0.418,
+    "reminds_pct": 0.3246,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.5331,
+    "same_family_proximity": 0.0503
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.0769,
+    "center_ratio_clear": 0.0501,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     6.103,
+     6.084,
+     6.087,
+     6.09,
+     6.084
+    ],
+    "mean": 6.09,
+    "std": 0.007,
+    "min": 6.084,
+    "collapsed": false
+   }
+  },
+  "C2 supervised w=0.7": {
+   "description": "계열 라벨을 UMAP target 으로",
+   "readability_seed42": {
+    "observed_cohesion": 0.965,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 6.081,
+    "neighborhood_top_family_share": 0.979,
+    "purity_ge_0.7": 200,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.929,
+     "AQUATIC": 1.0,
+     "CITRUS": 0.983,
+     "FLORAL": 0.987,
+     "FRUITY": 0.7,
+     "GOURMAND": 0.95,
+     "GREEN": 0.933,
+     "MUSK": 1.0,
+     "WOODY": 1.0
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.995,
+    "families_with_region": 9,
+    "fragments_total": 15,
+    "fragments_max": 6,
+    "grid": "128x122"
+   },
+   "layout": {
+    "trust@10": 0.8963,
+    "trust@20": 0.8419,
+    "knn_overlap@10": 0.4225,
+    "reminds_pct": 0.3142,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.5061,
+    "same_family_proximity": 0.0616
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.0715,
+    "center_ratio_clear": 0.0526,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     6.081,
+     6.093,
+     6.096,
+     6.093,
+     6.078
+    ],
+    "mean": 6.088,
+    "std": 0.007,
+    "min": 6.078,
+    "collapsed": false
+   }
+  },
+  "C3 semi w=0.35": {
+   "description": "margin>=0.1 인 향수만 라벨",
+   "readability_seed42": {
+    "observed_cohesion": 0.5655,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 3.563,
+    "neighborhood_top_family_share": 0.685,
+    "purity_ge_0.7": 109,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.407,
+     "AQUATIC": 0.283,
+     "CITRUS": 0.609,
+     "FLORAL": 0.764,
+     "FRUITY": 0.438,
+     "GOURMAND": 0.615,
+     "GREEN": 0.448,
+     "MUSK": 0.428,
+     "WOODY": 0.457
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.82,
+    "families_with_region": 9,
+    "fragments_total": 24,
+    "fragments_max": 4,
+    "grid": "128x158"
+   },
+   "layout": {
+    "trust@10": 0.9217,
+    "trust@20": 0.9013,
+    "knn_overlap@10": 0.483,
+    "reminds_pct": 0.1623,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.2107,
+    "same_family_proximity": 0.0987
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.4631,
+    "center_ratio_clear": 0.2948,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     3.563,
+     3.633,
+     3.463,
+     3.532,
+     3.576
+    ],
+    "mean": 3.553,
+    "std": 0.056,
+    "min": 3.463,
+    "collapsed": false
+   }
+  },
+  "C3 semi w=0.5": {
+   "description": "margin>=0.1 인 향수만 라벨",
+   "readability_seed42": {
+    "observed_cohesion": 0.5765,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 3.633,
+    "neighborhood_top_family_share": 0.7085,
+    "purity_ge_0.7": 117,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.586,
+     "AQUATIC": 0.267,
+     "CITRUS": 0.609,
+     "FLORAL": 0.774,
+     "FRUITY": 0.412,
+     "GOURMAND": 0.58,
+     "GREEN": 0.395,
+     "MUSK": 0.422,
+     "WOODY": 0.517
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.86,
+    "families_with_region": 9,
+    "fragments_total": 22,
+    "fragments_max": 4,
+    "grid": "128x118"
+   },
+   "layout": {
+    "trust@10": 0.9144,
+    "trust@20": 0.8903,
+    "knn_overlap@10": 0.477,
+    "reminds_pct": 0.1637,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.2227,
+    "same_family_proximity": 0.086
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.4427,
+    "center_ratio_clear": 0.2738,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     3.633,
+     3.576,
+     3.57,
+     3.56,
+     3.544
+    ],
+    "mean": 3.577,
+    "std": 0.03,
+    "min": 3.544,
+    "collapsed": false
+   }
+  },
+  "C4 fixed+local": {
+   "description": "해역 고정 + 해역 내 국소 UMAP",
+   "readability_seed42": {
+    "observed_cohesion": 0.985,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 6.207,
+    "neighborhood_top_family_share": 0.985,
+    "purity_ge_0.7": 200,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.979,
+     "AQUATIC": 1.0,
+     "CITRUS": 1.0,
+     "FLORAL": 1.0,
+     "FRUITY": 0.7,
+     "GOURMAND": 0.995,
+     "GREEN": 0.995,
+     "MUSK": 0.994,
+     "WOODY": 1.0
+    }
+   },
+   "region_field": {
+    "on_own_region": 1.0,
+    "families_with_region": 9,
+    "fragments_total": 9,
+    "fragments_max": 1,
+    "grid": "128x134"
+   },
+   "layout": {
+    "trust@10": 0.8852,
+    "trust@20": 0.8179,
+    "knn_overlap@10": 0.408,
+    "reminds_pct": 0.2515,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.4265,
+    "same_family_proximity": 0.0212
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.1472,
+    "center_ratio_clear": 0.1464,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     6.207,
+     6.065,
+     6.166,
+     6.137,
+     6.002
+    ],
+    "mean": 6.115,
+    "std": 0.073,
+    "min": 6.002,
+    "collapsed": false
+   }
+  },
+  "C5 wheel anchor": {
+   "description": "계열 앵커 원배치 + Family Score",
+   "readability_seed42": {
+    "observed_cohesion": 0.368,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 2.319,
+    "neighborhood_top_family_share": 0.5275,
+    "purity_ge_0.7": 53,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.186,
+     "AQUATIC": 0.233,
+     "CITRUS": 0.222,
+     "FLORAL": 0.62,
+     "FRUITY": 0.062,
+     "GOURMAND": 0.37,
+     "GREEN": 0.31,
+     "MUSK": 0.178,
+     "WOODY": 0.335
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.77,
+    "families_with_region": 9,
+    "fragments_total": 25,
+    "fragments_max": 5,
+    "grid": "128x151"
+   },
+   "layout": {
+    "trust@10": 0.7172,
+    "trust@20": 0.7227,
+    "knn_overlap@10": 0.1795,
+    "reminds_pct": 0.3095,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.4038,
+    "same_family_proximity": 0.1854
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.4589,
+    "center_ratio_clear": 0.321,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     2.319,
+     2.319,
+     2.319,
+     2.319,
+     2.319
+    ],
+    "mean": 2.319,
+    "std": 0.0,
+    "min": 2.319,
+    "collapsed": false
+   }
+  },
+  "C6 anchor+local": {
+   "description": "앵커 셀 + 셀 내 국소 유사도",
+   "readability_seed42": {
+    "observed_cohesion": 0.953,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 6.005,
+    "neighborhood_top_family_share": 0.959,
+    "purity_ge_0.7": 197,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.921,
+     "AQUATIC": 0.883,
+     "CITRUS": 0.991,
+     "FLORAL": 1.0,
+     "FRUITY": 0.525,
+     "GOURMAND": 0.93,
+     "GREEN": 0.976,
+     "MUSK": 0.961,
+     "WOODY": 0.987
+    }
+   },
+   "region_field": {
+    "on_own_region": 1.0,
+    "families_with_region": 9,
+    "fragments_total": 9,
+    "fragments_max": 1,
+    "grid": "128x128"
+   },
+   "layout": {
+    "trust@10": 0.8824,
+    "trust@20": 0.8264,
+    "knn_overlap@10": 0.4045,
+    "reminds_pct": 0.3731,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.6406,
+    "same_family_proximity": 0.0212
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.1302,
+    "center_ratio_clear": 0.1158,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     6.005,
+     5.819,
+     5.961,
+     5.923,
+     5.914
+    ],
+    "mean": 5.924,
+    "std": 0.062,
+    "min": 5.819,
+    "collapsed": false
+   }
+  },
+  "C8a perception b=0.15": {
+   "description": "인식 축만 거리에 섞음 (계열 무관)",
+   "readability_seed42": {
+    "observed_cohesion": 0.487,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 3.069,
+    "neighborhood_top_family_share": 0.6195,
+    "purity_ge_0.7": 75,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.286,
+     "AQUATIC": 0.283,
+     "CITRUS": 0.517,
+     "FLORAL": 0.725,
+     "FRUITY": 0.275,
+     "GOURMAND": 0.495,
+     "GREEN": 0.376,
+     "MUSK": 0.294,
+     "WOODY": 0.374
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.765,
+    "families_with_region": 9,
+    "fragments_total": 17,
+    "fragments_max": 3,
+    "grid": "128x83"
+   },
+   "layout": {
+    "trust@10": 0.9116,
+    "trust@20": 0.8817,
+    "knn_overlap@10": 0.45,
+    "reminds_pct": 0.1318,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.1773,
+    "same_family_proximity": 0.0719
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.4769,
+    "center_ratio_clear": 0.3527,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     3.069,
+     3.094,
+     3.103,
+     3.173,
+     3.059
+    ],
+    "mean": 3.1,
+    "std": 0.04,
+    "min": 3.059,
+    "collapsed": false
+   }
+  },
+  "C8b family .35 + perc .15": {
+   "description": "계열 + 인식 축을 함께 섞음",
+   "readability_seed42": {
+    "observed_cohesion": 0.621,
+    "random_expected_cohesion": 0.1587,
+    "cohesion_ratio": 3.913,
+    "neighborhood_top_family_share": 0.7085,
+    "purity_ge_0.7": 107,
+    "size_max_share": 0.305,
+    "per_family_cohesion": {
+     "AMBER": 0.421,
+     "AQUATIC": 0.683,
+     "CITRUS": 0.609,
+     "FLORAL": 0.793,
+     "FRUITY": 0.362,
+     "GOURMAND": 0.64,
+     "GREEN": 0.576,
+     "MUSK": 0.383,
+     "WOODY": 0.565
+    }
+   },
+   "region_field": {
+    "on_own_region": 0.86,
+    "families_with_region": 9,
+    "fragments_total": 15,
+    "fragments_max": 2,
+    "grid": "128x107"
+   },
+   "layout": {
+    "trust@10": 0.9099,
+    "trust@20": 0.8871,
+    "knn_overlap@10": 0.431,
+    "reminds_pct": 0.147,
+    "n_edges": 44.0
+   },
+   "guardrail_korea": {
+    "cross_pairs": 25,
+    "same_pairs": 19,
+    "cross_family_proximity": 0.2082,
+    "same_family_proximity": 0.0664
+   },
+   "boundary": {
+    "boundary_perfumes": 92,
+    "boundary_share": 0.46,
+    "center_ratio_boundary": 0.4336,
+    "center_ratio_clear": 0.2786,
+    "reading": "경계 향수의 중심거리비가 0.5 에 가까우면 실제로 두 영역 사이에 있다. 명확한 향수보다 0.5 에 가까워야 정상"
+   },
+   "seed_check": {
+    "ratios": [
+     3.913,
+     3.885,
+     3.878,
+     3.992,
+     3.935
+    ],
+    "mean": 3.921,
+    "std": 0.041,
+    "min": 3.878,
+    "collapsed": false
+   }
+  }
+ },
+ "global1000": {
+  "C1 post-hoc": {
+   "description": "좌표 유지 + 계열 밀도 영역",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.2615,
+    "same_family_proximity": 0.1005
+   },
+   "layout": {
+    "trust@10": 0.9387,
+    "trust@20": 0.9186,
+    "knn_overlap@10": 0.3888,
+    "reminds_pct": 0.1766,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.619,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 4.187,
+    "neighborhood_top_family_share": 0.7477,
+    "purity_ge_0.7": 694,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.603,
+     "AQUATIC": 0.692,
+     "CITRUS": 0.5,
+     "FLORAL": 0.726,
+     "FRUITY": 0.595,
+     "GOURMAND": 0.717,
+     "GREEN": 0.452,
+     "MUSK": 0.457,
+     "WOODY": 0.558
+    }
+   },
+   "gate_a_delta": 0.0,
+   "gate_a": "PASS"
+  },
+  "C7 gradient": {
+   "description": "좌표 유지 + 전이 지대 렌더링",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.2615,
+    "same_family_proximity": 0.1005
+   },
+   "layout": {
+    "trust@10": 0.9387,
+    "trust@20": 0.9186,
+    "knn_overlap@10": 0.3888,
+    "reminds_pct": 0.1766,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.619,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 4.187,
+    "neighborhood_top_family_share": 0.7477,
+    "purity_ge_0.7": 694,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.603,
+     "AQUATIC": 0.692,
+     "CITRUS": 0.5,
+     "FLORAL": 0.726,
+     "FRUITY": 0.595,
+     "GOURMAND": 0.717,
+     "GREEN": 0.452,
+     "MUSK": 0.457,
+     "WOODY": 0.558
+    }
+   },
+   "gate_a_delta": 0.0,
+   "gate_a": "PASS"
+  },
+  "C2 supervised w=0.2": {
+   "description": "계열 라벨을 UMAP target 으로",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.4495,
+    "same_family_proximity": 0.0221
+   },
+   "layout": {
+    "trust@10": 0.9429,
+    "trust@20": 0.9257,
+    "knn_overlap@10": 0.3711,
+    "reminds_pct": 0.224,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.9821,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 6.643,
+    "neighborhood_top_family_share": 0.9925,
+    "purity_ge_0.7": 999,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.986,
+     "AQUATIC": 0.94,
+     "CITRUS": 1.0,
+     "FLORAL": 0.979,
+     "FRUITY": 1.0,
+     "GOURMAND": 0.988,
+     "GREEN": 0.965,
+     "MUSK": 0.984,
+     "WOODY": 0.99
+    }
+   },
+   "gate_a_delta": 0.188,
+   "gate_a": "DROP"
+  },
+  "C2 supervised w=0.35": {
+   "description": "계열 라벨을 UMAP target 으로",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.4669,
+    "same_family_proximity": 0.023
+   },
+   "layout": {
+    "trust@10": 0.942,
+    "trust@20": 0.9242,
+    "knn_overlap@10": 0.3664,
+    "reminds_pct": 0.2327,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.9884,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 6.685,
+    "neighborhood_top_family_share": 0.9952,
+    "purity_ge_0.7": 1000,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.989,
+     "AQUATIC": 0.938,
+     "CITRUS": 1.0,
+     "FLORAL": 0.991,
+     "FRUITY": 1.0,
+     "GOURMAND": 0.995,
+     "GREEN": 0.974,
+     "MUSK": 1.0,
+     "WOODY": 0.992
+    }
+   },
+   "gate_a_delta": 0.2054,
+   "gate_a": "DROP"
+  },
+  "C2 supervised w=0.5": {
+   "description": "계열 라벨을 UMAP target 으로",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.482,
+    "same_family_proximity": 0.0218
+   },
+   "layout": {
+    "trust@10": 0.9423,
+    "trust@20": 0.9237,
+    "knn_overlap@10": 0.3644,
+    "reminds_pct": 0.2392,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.9878,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 6.681,
+    "neighborhood_top_family_share": 0.9946,
+    "purity_ge_0.7": 1000,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.989,
+     "AQUATIC": 0.929,
+     "CITRUS": 1.0,
+     "FLORAL": 0.992,
+     "FRUITY": 1.0,
+     "GOURMAND": 0.995,
+     "GREEN": 0.969,
+     "MUSK": 1.0,
+     "WOODY": 0.994
+    }
+   },
+   "gate_a_delta": 0.2205,
+   "gate_a": "DROP"
+  },
+  "C2 supervised w=0.7": {
+   "description": "계열 라벨을 UMAP target 으로",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.5748,
+    "same_family_proximity": 0.0218
+   },
+   "layout": {
+    "trust@10": 0.9415,
+    "trust@20": 0.9235,
+    "knn_overlap@10": 0.3667,
+    "reminds_pct": 0.2831,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.9887,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 6.687,
+    "neighborhood_top_family_share": 0.9955,
+    "purity_ge_0.7": 1000,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.989,
+     "AQUATIC": 0.942,
+     "CITRUS": 1.0,
+     "FLORAL": 0.987,
+     "FRUITY": 1.0,
+     "GOURMAND": 0.995,
+     "GREEN": 0.973,
+     "MUSK": 1.0,
+     "WOODY": 1.0
+    }
+   },
+   "gate_a_delta": 0.3133,
+   "gate_a": "DROP"
+  },
+  "C3 semi w=0.35": {
+   "description": "margin>=0.1 인 향수만 라벨",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.2767,
+    "same_family_proximity": 0.0812
+   },
+   "layout": {
+    "trust@10": 0.9424,
+    "trust@20": 0.9261,
+    "knn_overlap@10": 0.3887,
+    "reminds_pct": 0.1736,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.7108,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 4.808,
+    "neighborhood_top_family_share": 0.8073,
+    "purity_ge_0.7": 762,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.683,
+     "AQUATIC": 0.804,
+     "CITRUS": 0.691,
+     "FLORAL": 0.815,
+     "FRUITY": 0.647,
+     "GOURMAND": 0.787,
+     "GREEN": 0.554,
+     "MUSK": 0.56,
+     "WOODY": 0.664
+    }
+   },
+   "gate_a_delta": 0.0152,
+   "gate_a": "PASS"
+  },
+  "C3 semi w=0.5": {
+   "description": "margin>=0.1 인 향수만 라벨",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.2772,
+    "same_family_proximity": 0.0867
+   },
+   "layout": {
+    "trust@10": 0.9451,
+    "trust@20": 0.9283,
+    "knn_overlap@10": 0.3883,
+    "reminds_pct": 0.1767,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.6991,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 4.729,
+    "neighborhood_top_family_share": 0.798,
+    "purity_ge_0.7": 751,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.681,
+     "AQUATIC": 0.813,
+     "CITRUS": 0.663,
+     "FLORAL": 0.771,
+     "FRUITY": 0.645,
+     "GOURMAND": 0.802,
+     "GREEN": 0.546,
+     "MUSK": 0.541,
+     "WOODY": 0.642
+    }
+   },
+   "gate_a_delta": 0.0157,
+   "gate_a": "PASS"
+  },
+  "C4 fixed+local": {
+   "description": "해역 고정 + 해역 내 국소 UMAP",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.5392,
+    "same_family_proximity": 0.0254
+   },
+   "layout": {
+    "trust@10": 0.9528,
+    "trust@20": 0.9297,
+    "knn_overlap@10": 0.3914,
+    "reminds_pct": 0.2682,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 1.0,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 6.764,
+    "neighborhood_top_family_share": 1.0,
+    "purity_ge_0.7": 1000,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 1.0,
+     "AQUATIC": 1.0,
+     "CITRUS": 1.0,
+     "FLORAL": 1.0,
+     "FRUITY": 1.0,
+     "GOURMAND": 1.0,
+     "GREEN": 1.0,
+     "MUSK": 1.0,
+     "WOODY": 1.0
+    }
+   },
+   "gate_a_delta": 0.2777,
+   "gate_a": "DROP"
+  },
+  "C5 wheel anchor": {
+   "description": "계열 앵커 원배치 + Family Score",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.3018,
+    "same_family_proximity": 0.1455
+   },
+   "layout": {
+    "trust@10": 0.7068,
+    "trust@20": 0.7061,
+    "knn_overlap@10": 0.0705,
+    "reminds_pct": 0.2193,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.424,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 2.868,
+    "neighborhood_top_family_share": 0.5848,
+    "purity_ge_0.7": 342,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.493,
+     "AQUATIC": 0.252,
+     "CITRUS": 0.057,
+     "FLORAL": 0.575,
+     "FRUITY": 0.108,
+     "GOURMAND": 0.607,
+     "GREEN": 0.259,
+     "MUSK": 0.178,
+     "WOODY": 0.345
+    }
+   },
+   "gate_a_delta": 0.0403,
+   "gate_a": "PASS"
+  },
+  "C6 anchor+local": {
+   "description": "앵커 셀 + 셀 내 국소 유사도",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.5755,
+    "same_family_proximity": 0.0231
+   },
+   "layout": {
+    "trust@10": 0.9522,
+    "trust@20": 0.9281,
+    "knn_overlap@10": 0.3912,
+    "reminds_pct": 0.2841,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.9988,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 6.756,
+    "neighborhood_top_family_share": 0.9988,
+    "purity_ge_0.7": 999,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 1.0,
+     "AQUATIC": 1.0,
+     "CITRUS": 0.969,
+     "FLORAL": 1.0,
+     "FRUITY": 0.997,
+     "GOURMAND": 1.0,
+     "GREEN": 1.0,
+     "MUSK": 1.0,
+     "WOODY": 1.0
+    }
+   },
+   "gate_a_delta": 0.314,
+   "gate_a": "DROP"
+  },
+  "C8a perception b=0.15": {
+   "description": "인식 축만 거리에 섞음 (계열 무관)",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.1864,
+    "same_family_proximity": 0.083
+   },
+   "layout": {
+    "trust@10": 0.9193,
+    "trust@20": 0.8964,
+    "knn_overlap@10": 0.3426,
+    "reminds_pct": 0.1319,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.5982,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 4.046,
+    "neighborhood_top_family_share": 0.7261,
+    "purity_ge_0.7": 633,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.546,
+     "AQUATIC": 0.612,
+     "CITRUS": 0.594,
+     "FLORAL": 0.688,
+     "FRUITY": 0.434,
+     "GOURMAND": 0.716,
+     "GREEN": 0.487,
+     "MUSK": 0.468,
+     "WOODY": 0.555
+    }
+   },
+   "gate_a_delta": -0.0751,
+   "gate_a": "PASS"
+  },
+  "C8b family .35 + perc .15": {
+   "description": "계열 + 인식 축을 함께 섞음",
+   "guardrail": {
+    "cross_pairs": 412,
+    "same_pairs": 460,
+    "cross_family_proximity": 0.2273,
+    "same_family_proximity": 0.0668
+   },
+   "layout": {
+    "trust@10": 0.9191,
+    "trust@20": 0.8994,
+    "knn_overlap@10": 0.3146,
+    "reminds_pct": 0.1427,
+    "n_edges": 872.0
+   },
+   "readability": {
+    "observed_cohesion": 0.7482,
+    "random_expected_cohesion": 0.1478,
+    "cohesion_ratio": 5.061,
+    "neighborhood_top_family_share": 0.8435,
+    "purity_ge_0.7": 832,
+    "size_max_share": 0.199,
+    "per_family_cohesion": {
+     "AMBER": 0.711,
+     "AQUATIC": 0.863,
+     "CITRUS": 0.766,
+     "FLORAL": 0.808,
+     "FRUITY": 0.676,
+     "GOURMAND": 0.822,
+     "GREEN": 0.721,
+     "MUSK": 0.544,
+     "WOODY": 0.697
+    }
+   },
+   "gate_a_delta": -0.0342,
+   "gate_a": "PASS"
+  }
+ },
+ "gate_a_passed": [
+  "C1 post-hoc",
+  "C7 gradient",
+  "C3 semi w=0.35",
+  "C3 semi w=0.5",
+  "C5 wheel anchor",
+  "C8a perception b=0.15",
+  "C8b family .35 + perc .15"
+ ],
+ "stability_policy": "팀 결정 — Hard Gate 아님. 구조 붕괴 여부만 기록",
+ "population_roles": "영역 가독성은 Korea 200, 유사 향수 훼손 보호는 Global 1,000 (Korea 는 계열 횡단 쌍이 25쌍뿐이라 판정에 쓰지 않는다)"
+}

@@ -48,6 +48,10 @@ CLUSTER_K_RANGE = range(2, 13)
 CLUSTER_MIN_SIZE = 3      # 이보다 작은 군집이 있으면 탈락
 CLUSTER_MAX_SHARE = 0.5   # 한 군집이 이 비중을 넘으면 탈락
 EXPECTED_CLUSTER_K = 7    # 규칙이 고른 값. 달라지면 조용히 넘기지 않고 보고한다.
+
+# 군집 간 거리를 무엇으로 재는가. 값을 갈아끼워 실험할 수 있게 상수로 둔다.
+# average = 평균, complete = 최댓값. 어느 쪽이 나은지는 아직 결정되지 않았다.
+CLUSTER_LINKAGE = "average"
 LABEL_MIN_COVERAGE = 0.30
 LABEL_TOP_N = 3
 SEA_REGION_ID = 255
@@ -84,7 +88,7 @@ def choose_clusters(distance):
     rows, best = [], None
     for k in CLUSTER_K_RANGE:
         labels = AgglomerativeClustering(n_clusters=k, metric="precomputed",
-                                         linkage="average").fit_predict(distance)
+                                         linkage=CLUSTER_LINKAGE).fit_predict(distance)
         sil = float(silhouette_score(distance, labels, metric="precomputed"))
         sizes = np.bincount(labels, minlength=k)
         passes = sizes.min() >= CLUSTER_MIN_SIZE and sizes.max() / len(labels) <= CLUSTER_MAX_SHARE
@@ -254,7 +258,7 @@ def main():
         "seed_stability": SEED_STABILITY,
     }
     doc["regions"] = {
-        "cluster_method": "agglomerative average linkage on precomputed base-similarity distance",
+        "cluster_method": f"agglomerative {CLUSTER_LINKAGE} linkage on precomputed base-similarity distance",
         "cluster_count": cluster_k,
         "silhouette": round(sil, 4),
         "label_rule": f"클러스터 내 coverage >= {LABEL_MIN_COVERAGE} 인 accord 중 "

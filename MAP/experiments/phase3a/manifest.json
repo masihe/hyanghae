@@ -1,0 +1,35 @@
+{
+ "experiment_id": "phase3a",
+ "phase": 3,
+ "status": "NEW",
+ "hypothesis": "Family 정의에 따라 지도에서 영역이 읽히는 정도가 달라진다",
+ "user_meaning": "사용자가 '여기가 어느 향 구역인가' 를 읽을 수 있는가",
+ "changed_variable": "Family 정의 (좌표·유사도·스냅샷 고정)",
+ "population": [
+  "korea200",
+  "global1000"
+ ],
+ "snapshot_hash": {
+  "perfumes_csv": "cec1ea0b498853032bcf44d33ad52ac83e2ed2896b67d5a2765d90a0345cc055",
+  "korea_top200_csv": "3a94acac8134e166f138abf14ecbfefb04e3f1e7f655f9df30a6838bf8563cb5"
+ },
+ "projection": "umap n_neighbors=10 min_dist=0.1 metric=precomputed seed=42",
+ "family_mapping_version": "reviewed-1",
+ "seeds": [
+  42,
+  1,
+  2,
+  3,
+  4
+ ],
+ "primary_metrics": [
+  "cohesion_ratio",
+  "coverage",
+  "neighborhood_purity"
+ ],
+ "guardrail_metrics": [
+  "cross_family_proximity (Global 1,000)"
+ ],
+ "recommendation": "SetB",
+ "elapsed_sec": 20.0
+}

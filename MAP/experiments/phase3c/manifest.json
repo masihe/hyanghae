@@ -1,0 +1,65 @@
+{
+ "experiment": "P3C_BLEND_SWEEP",
+ "phase": "3c",
+ "title": "C8b 혼합 가중 스윕 + TriMap-dist 재검증",
+ "family_system": "Set B — reviewed-1 9계열 (팀 결정 ③)",
+ "families": [
+  "CITRUS",
+  "FRUITY",
+  "FLORAL",
+  "GREEN",
+  "AQUATIC",
+  "WOODY",
+  "AMBER",
+  "GOURMAND",
+  "MUSK"
+ ],
+ "populations": {
+  "korea200": 200,
+  "global1000": 1000
+ },
+ "confident_edges": {
+  "korea200": 44,
+  "global1000": 872
+ },
+ "inputs": {
+  "top200": {
+   "path": "data\\korea_popularity\\korea_representative_perfumes_top200.csv",
+   "sha256": "3a94acac8134e166f138abf14ecbfefb04e3f1e7f655f9df30a6838bf8563cb5"
+  },
+  "v2_json_readonly": {
+   "path": "output\\korea_scent_map_v2.json",
+   "sha256": "9dee6b6b5794e2ae97ba917d094312e91a5d6075a19755da40e00c7953e54cdb"
+  },
+  "phase3b_metrics": {
+   "path": "experiments\\phase3b\\metrics.json",
+   "sha256": "f0971cead6525c777f908461dfeb00adcfe87f49b43df82d6bee05d60d707b9b"
+  },
+  "accord_dictionary": {
+   "path": "..\\EDA\\analysis_outputs\\10_accord_dictionary.csv",
+   "sha256": "567e91370e575731d11970f89a03120a8c581db5e73df1c16daf37110e79046c"
+  }
+ },
+ "projection": {
+  "umap": "n_neighbors=10 min_dist=0.1 metric=precomputed",
+  "trimap": "TorchTRIMAP n_inliers=10 n_outliers=5 n_random=5 use_dist_matrix=True apply_pca=False"
+ },
+ "grid_points": 24,
+ "trimap_runs": 10,
+ "holdout_untouched": "data/korea_popularity/evaluation/gold_set_test.csv — 열지 않았다",
+ "writes": [
+  "experiments/phase3c/metrics.json",
+  "experiments/phase3c/manifest.json",
+  "experiments/phase3c/sweep.csv",
+  "experiments/phase3c/trimap.csv",
+  "experiments/phase3c/coordinates_korea200.csv"
+ ],
+ "coordinates_saved": [
+  "wf=0 wp=0",
+  "wf=0.1 wp=0",
+  "wf=0.2 wp=0",
+  "wf=0 wp=0.15",
+  "wf=0.35 wp=0.15"
+ ],
+ "elapsed_sec": 94.3
+}

@@ -1,0 +1,45 @@
+{
+ "experiment_id": "phase3b",
+ "phase": 3,
+ "status": "NEW",
+ "hypothesis": "영역 표현 방식에 따라 '여기가 어느 구역인가' 를 읽는 정도와 사람이 닮았다고 한 향수의 배치가 달라진다",
+ "user_meaning": "영역이 읽히면서도 닮았다고 한 향수가 갈라지지 않는 표현이 있는가",
+ "changed_variable": "Territory 표현 방식 (유사도·투영·계열 정의 고정)",
+ "population": [
+  "korea200",
+  "global1000"
+ ],
+ "snapshot_hash": {
+  "perfumes_csv": "cec1ea0b498853032bcf44d33ad52ac83e2ed2896b67d5a2765d90a0345cc055",
+  "korea_top200_csv": "3a94acac8134e166f138abf14ecbfefb04e3f1e7f655f9df30a6838bf8563cb5"
+ },
+ "projection": "umap n_neighbors=10 min_dist=0.1 seed=42",
+ "family_mapping_version": "reviewed-1",
+ "family_score_version": "FS1",
+ "seeds": [
+  42,
+  1,
+  2,
+  3,
+  4
+ ],
+ "primary_metrics": [
+  "cohesion_ratio",
+  "neighborhood_purity",
+  "on_own_region"
+ ],
+ "guardrail_metrics": [
+  "cross_family_proximity <= 0.3115 (Global 1,000)"
+ ],
+ "gate_a_passed": [
+  "C1 post-hoc",
+  "C7 gradient",
+  "C3 semi w=0.35",
+  "C3 semi w=0.5",
+  "C5 wheel anchor",
+  "C8a perception b=0.15",
+  "C8b family .35 + perc .15"
+ ],
+ "region_field_params": "build_korea_terrain 격자 (D12: bandwidth scott x0.5)",
+ "elapsed_sec": 43.5
+}

@@ -1,0 +1,1622 @@
+{
+ "question": "Family Score 를 얼마나 soft 하게 쓰면 향수 구성을 바꾸지 않고도 Fruity 가 탐색 가능한 Territory 를 갖는가",
+ "fixed": {
+  "composition": "D0 (현재 출하 200개)",
+  "n": 200,
+  "projection": "C8b — Family 0.35 + Perception 0.15",
+  "family_system": "Set B reviewed-1",
+  "seeds": [
+   42,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "design": {
+  "no_renormalization": "팀 결정 — threshold 이후 재정규화하지 않고 Family Score 의 원래 강도를 유지한다. 임계는 향수 안 비중에 건다",
+  "argmax_always_kept": "argmax 계열은 어떤 조건에서도 유지된다 — 그래야 T0w ⊆ T1 ⊆ T2 ⊆ T3 ⊆ T6 로 hard→soft 가 단조 구간이 된다",
+  "t0w_rationale": "T0w 는 argmax 만 쓰되 원래 강도로 가중한다. T0→T1 의 차이에서 '가중' 효과와 '다계열' 효과를 분리하기 위한 통제 조건이다",
+  "weighted_coverage": "coverage[f] = Σ W[i,f]·1{i 가 선 칸을 f 가 차지} / Σ W[i,f]. one-hot 이면 Phase 4 on_own 과 정확히 일치한다 (실측 확인)"
+ },
+ "conditions": [
+  {
+   "condition": "T0",
+   "mode": "argmax_hard",
+   "param": null,
+   "description": "argmax 만 · 가중 없음 (Phase 4 방식 · 대조군)",
+   "mean_active_families": 1.0,
+   "median_active_families": 1,
+   "max_active_families": 1,
+   "share_le3_families": 1.0,
+   "gate_c_ok": true,
+   "total_signal": 200.0,
+   "family_signal": {
+    "CITRUS": 23.0,
+    "FRUITY": 8.0,
+    "FLORAL": 61.0,
+    "GREEN": 21.0,
+    "AQUATIC": 12.0,
+    "WOODY": 23.0,
+    "AMBER": 14.0,
+    "GOURMAND": 20.0,
+    "MUSK": 18.0
+   },
+   "family_contributors": {
+    "CITRUS": 23,
+    "FRUITY": 8,
+    "FLORAL": 61,
+    "GREEN": 21,
+    "AQUATIC": 12,
+    "WOODY": 23,
+    "AMBER": 14,
+    "GOURMAND": 20,
+    "MUSK": 18
+   }
+  },
+  {
+   "condition": "T0w",
+   "mode": "argmax_weighted",
+   "param": null,
+   "description": "argmax 만 · 원래 강도 가중 (가중 효과 분리)",
+   "mean_active_families": 1.0,
+   "median_active_families": 1,
+   "max_active_families": 1,
+   "share_le3_families": 1.0,
+   "gate_c_ok": true,
+   "total_signal": 80.2,
+   "family_signal": {
+    "CITRUS": 7.57,
+    "FRUITY": 2.62,
+    "FLORAL": 26.92,
+    "GREEN": 7.72,
+    "AQUATIC": 4.41,
+    "WOODY": 9.27,
+    "AMBER": 5.27,
+    "GOURMAND": 9.7,
+    "MUSK": 6.77
+   },
+   "family_contributors": {
+    "CITRUS": 23,
+    "FRUITY": 8,
+    "FLORAL": 61,
+    "GREEN": 21,
+    "AQUATIC": 12,
+    "WOODY": 23,
+    "AMBER": 14,
+    "GOURMAND": 20,
+    "MUSK": 18
+   }
+  },
+  {
+   "condition": "T1",
+   "mode": "threshold",
+   "param": 0.3,
+   "description": "비중 >= 0.30 + argmax",
+   "mean_active_families": 1.14,
+   "median_active_families": 1,
+   "max_active_families": 3,
+   "share_le3_families": 1.0,
+   "gate_c_ok": true,
+   "total_signal": 89.7,
+   "family_signal": {
+    "CITRUS": 8.54,
+    "FRUITY": 2.93,
+    "FLORAL": 29.06,
+    "GREEN": 9.34,
+    "AQUATIC": 4.41,
+    "WOODY": 10.92,
+    "AMBER": 5.27,
+    "GOURMAND": 10.68,
+    "MUSK": 8.57
+   },
+   "family_contributors": {
+    "CITRUS": 26,
+    "FRUITY": 9,
+    "FLORAL": 67,
+    "GREEN": 26,
+    "AQUATIC": 12,
+    "WOODY": 28,
+    "AMBER": 14,
+    "GOURMAND": 23,
+    "MUSK": 23
+   }
+  },
+  {
+   "condition": "T2",
+   "mode": "threshold",
+   "param": 0.2,
+   "description": "비중 >= 0.20 + argmax",
+   "mean_active_families": 2.01,
+   "median_active_families": 2,
+   "max_active_families": 4,
+   "share_le3_families": 0.99,
+   "gate_c_ok": false,
+   "total_signal": 131.1,
+   "family_signal": {
+    "CITRUS": 12.91,
+    "FRUITY": 7.31,
+    "FLORAL": 33.43,
+    "GREEN": 15.5,
+    "AQUATIC": 4.9,
+    "WOODY": 14.59,
+    "AMBER": 11.33,
+    "GOURMAND": 15.81,
+    "MUSK": 15.35
+   },
+   "family_contributors": {
+    "CITRUS": 44,
+    "FRUITY": 28,
+    "FLORAL": 85,
+    "GREEN": 51,
+    "AQUATIC": 14,
+    "WOODY": 44,
+    "AMBER": 40,
+    "GOURMAND": 45,
+    "MUSK": 51
+   }
+  },
+  {
+   "condition": "T3",
+   "mode": "threshold",
+   "param": 0.15,
+   "description": "비중 >= 0.15 + argmax",
+   "mean_active_families": 2.695,
+   "median_active_families": 3,
+   "max_active_families": 5,
+   "share_le3_families": 0.84,
+   "gate_c_ok": false,
+   "total_signal": 155.0,
+   "family_signal": {
+    "CITRUS": 16.26,
+    "FRUITY": 10.12,
+    "FLORAL": 35.29,
+    "GREEN": 19.28,
+    "AQUATIC": 5.76,
+    "WOODY": 18.27,
+    "AMBER": 14.31,
+    "GOURMAND": 17.72,
+    "MUSK": 18.02
+   },
+   "family_contributors": {
+    "CITRUS": 63,
+    "FRUITY": 44,
+    "FLORAL": 96,
+    "GREEN": 73,
+    "AQUATIC": 19,
+    "WOODY": 65,
+    "AMBER": 57,
+    "GOURMAND": 56,
+    "MUSK": 66
+   }
+  },
+  {
+   "condition": "T4",
+   "mode": "topk",
+   "param": 2,
+   "description": "상위 2계열",
+   "mean_active_families": 2.0,
+   "median_active_families": 2,
+   "max_active_families": 2,
+   "share_le3_families": 1.0,
+   "gate_c_ok": true,
+   "total_signal": 128.1,
+   "family_signal": {
+    "CITRUS": 13.28,
+    "FRUITY": 8.45,
+    "FLORAL": 31.97,
+    "GREEN": 15.53,
+    "AQUATIC": 5.09,
+    "WOODY": 13.64,
+    "AMBER": 9.41,
+    "GOURMAND": 15.55,
+    "MUSK": 15.23
+   },
+   "family_contributors": {
+    "CITRUS": 47,
+    "FRUITY": 36,
+    "FLORAL": 79,
+    "GREEN": 53,
+    "AQUATIC": 15,
+    "WOODY": 40,
+    "AMBER": 32,
+    "GOURMAND": 45,
+    "MUSK": 53
+   }
+  },
+  {
+   "condition": "T5",
+   "mode": "topk",
+   "param": 3,
+   "description": "상위 3계열",
+   "mean_active_families": 3.0,
+   "median_active_families": 3,
+   "max_active_families": 3,
+   "share_le3_families": 1.0,
+   "gate_c_ok": false,
+   "total_signal": 160.1,
+   "family_signal": {
+    "CITRUS": 17.65,
+    "FRUITY": 11.45,
+    "FLORAL": 35.28,
+    "GREEN": 20.33,
+    "AQUATIC": 5.61,
+    "WOODY": 18.9,
+    "AMBER": 14.09,
+    "GOURMAND": 18.31,
+    "MUSK": 18.49
+   },
+   "family_contributors": {
+    "CITRUS": 76,
+    "FRUITY": 54,
+    "FLORAL": 97,
+    "GREEN": 87,
+    "AQUATIC": 18,
+    "WOODY": 73,
+    "AMBER": 60,
+    "GOURMAND": 62,
+    "MUSK": 72
+   }
+  },
+  {
+   "condition": "T6",
+   "mode": "all",
+   "param": null,
+   "description": "전 계열 (D26 ⑤ 문자 그대로)",
+   "mean_active_families": 5.08,
+   "median_active_families": 5,
+   "max_active_families": 8,
+   "share_le3_families": 0.07,
+   "gate_c_ok": false,
+   "total_signal": 200.0,
+   "family_signal": {
+    "CITRUS": 22.65,
+    "FRUITY": 14.88,
+    "FLORAL": 39.28,
+    "GREEN": 24.32,
+    "AQUATIC": 6.94,
+    "WOODY": 24.41,
+    "AMBER": 20.73,
+    "GOURMAND": 22.67,
+    "MUSK": 24.12
+   },
+   "family_contributors": {
+    "CITRUS": 126,
+    "FRUITY": 92,
+    "FLORAL": 138,
+    "GREEN": 124,
+    "AQUATIC": 33,
+    "WOODY": 129,
+    "AMBER": 127,
+    "GOURMAND": 108,
+    "MUSK": 139
+   }
+  }
+ ],
+ "gates": {
+  "declared_before_run": true,
+  "P5-A": {
+   "metric": "Territory 보유 계열 수 >= T0",
+   "t0_value": 7.4
+  },
+  "P5-B": {
+   "metric": "프루티 Territory 보유",
+   "threshold": "시드 3/5 이상"
+  },
+  "P5-C": {
+   "metric": "향수당 평균 active Family",
+   "threshold": 2.0,
+   "note": "통계적으로 유도한 값이 아니라 한 향수가 지나치게 많은 Territory 에 영향을 주는 것을 막는 UX 제약 (팀 결정 ③)"
+  },
+  "territory_rule": {
+   "area_share": 0.03,
+   "largest_blob_share": 0.6,
+   "weighted_coverage": 0.5,
+   "seeds": "3/5"
+  }
+ },
+ "reproduction_checks": [
+  {
+   "metric": "families_with_territory",
+   "got": 7.4,
+   "expected": 7.4,
+   "ok": true
+  },
+  {
+   "metric": "시트러스·area_share",
+   "got": 0.0992,
+   "expected": 0.0992,
+   "ok": true
+  },
+  {
+   "metric": "시트러스·largest_blob_share",
+   "got": 0.9688,
+   "expected": 0.9688,
+   "ok": true
+  },
+  {
+   "metric": "시트러스·coverage/on_own",
+   "got": 0.7826,
+   "expected": 0.7826,
+   "ok": true
+  },
+  {
+   "metric": "프루티·area_share",
+   "got": 0.0266,
+   "expected": 0.0266,
+   "ok": true
+  },
+  {
+   "metric": "프루티·largest_blob_share",
+   "got": 0.7143,
+   "expected": 0.7143,
+   "ok": true
+  },
+  {
+   "metric": "프루티·coverage/on_own",
+   "got": 1.0,
+   "expected": 1.0,
+   "ok": true
+  },
+  {
+   "metric": "플로럴·area_share",
+   "got": 0.2943,
+   "expected": 0.2943,
+   "ok": true
+  },
+  {
+   "metric": "플로럴·largest_blob_share",
+   "got": 0.8622,
+   "expected": 0.8622,
+   "ok": true
+  },
+  {
+   "metric": "플로럴·coverage/on_own",
+   "got": 0.8787,
+   "expected": 0.8787,
+   "ok": true
+  },
+  {
+   "metric": "그린·아로마틱·area_share",
+   "got": 0.1474,
+   "expected": 0.1474,
+   "ok": true
+  },
+  {
+   "metric": "그린·아로마틱·largest_blob_share",
+   "got": 0.7655,
+   "expected": 0.7655,
+   "ok": true
+  },
+  {
+   "metric": "그린·아로마틱·coverage/on_own",
+   "got": 0.9238,
+   "expected": 0.9238,
+   "ok": true
+  },
+  {
+   "metric": "아쿠아틱·area_share",
+   "got": 0.0635,
+   "expected": 0.0635,
+   "ok": true
+  },
+  {
+   "metric": "아쿠아틱·largest_blob_share",
+   "got": 0.8547,
+   "expected": 0.8547,
+   "ok": true
+  },
+  {
+   "metric": "아쿠아틱·coverage/on_own",
+   "got": 0.9167,
+   "expected": 0.9167,
+   "ok": true
+  },
+  {
+   "metric": "우디·area_share",
+   "got": 0.1155,
+   "expected": 0.1155,
+   "ok": true
+  },
+  {
+   "metric": "우디·largest_blob_share",
+   "got": 0.9184,
+   "expected": 0.9184,
+   "ok": true
+  },
+  {
+   "metric": "우디·coverage/on_own",
+   "got": 0.8,
+   "expected": 0.8,
+   "ok": true
+  },
+  {
+   "metric": "앰버·스파이시·area_share",
+   "got": 0.077,
+   "expected": 0.077,
+   "ok": true
+  },
+  {
+   "metric": "앰버·스파이시·largest_blob_share",
+   "got": 0.9905,
+   "expected": 0.9905,
+   "ok": true
+  },
+  {
+   "metric": "앰버·스파이시·coverage/on_own",
+   "got": 0.8,
+   "expected": 0.8,
+   "ok": true
+  },
+  {
+   "metric": "구르망·area_share",
+   "got": 0.0736,
+   "expected": 0.0736,
+   "ok": true
+  },
+  {
+   "metric": "구르망·largest_blob_share",
+   "got": 0.7885,
+   "expected": 0.7885,
+   "ok": true
+  },
+  {
+   "metric": "구르망·coverage/on_own",
+   "got": 0.79,
+   "expected": 0.79,
+   "ok": true
+  },
+  {
+   "metric": "머스크·파우더리·area_share",
+   "got": 0.1028,
+   "expected": 0.1028,
+   "ok": true
+  },
+  {
+   "metric": "머스크·파우더리·largest_blob_share",
+   "got": 0.5493,
+   "expected": 0.5493,
+   "ok": true
+  },
+  {
+   "metric": "머스크·파우더리·coverage/on_own",
+   "got": 0.7889,
+   "expected": 0.7889,
+   "ok": true
+  }
+ ],
+ "reproduction_pass": 28,
+ "reproduction_total": 28,
+ "verdicts": {
+  "T0": {
+   "gate_a_territory": true,
+   "territory_families": 7.4,
+   "gate_b_fruity": false,
+   "fruity_seeds": 1,
+   "gate_c_active": true,
+   "mean_active_families": 1.0,
+   "passes_all": false
+  },
+  "T0w": {
+   "gate_a_territory": true,
+   "territory_families": 8.6,
+   "gate_b_fruity": true,
+   "fruity_seeds": 4,
+   "gate_c_active": true,
+   "mean_active_families": 1.0,
+   "passes_all": true
+  },
+  "T1": {
+   "gate_a_territory": true,
+   "territory_families": 9.0,
+   "gate_b_fruity": true,
+   "fruity_seeds": 5,
+   "gate_c_active": true,
+   "mean_active_families": 1.14,
+   "passes_all": true
+  },
+  "T2": {
+   "gate_a_territory": false,
+   "territory_families": 6.4,
+   "gate_b_fruity": true,
+   "fruity_seeds": 5,
+   "gate_c_active": false,
+   "mean_active_families": 2.01,
+   "passes_all": false
+  },
+  "T3": {
+   "gate_a_territory": false,
+   "territory_families": 3.8,
+   "gate_b_fruity": false,
+   "fruity_seeds": 2,
+   "gate_c_active": false,
+   "mean_active_families": 2.695,
+   "passes_all": false
+  },
+  "T4": {
+   "gate_a_territory": false,
+   "territory_families": 6.4,
+   "gate_b_fruity": false,
+   "fruity_seeds": 2,
+   "gate_c_active": true,
+   "mean_active_families": 2.0,
+   "passes_all": false
+  },
+  "T5": {
+   "gate_a_territory": false,
+   "territory_families": 2.8,
+   "gate_b_fruity": false,
+   "fruity_seeds": 1,
+   "gate_c_active": false,
+   "mean_active_families": 3.0,
+   "passes_all": false
+  },
+  "T6": {
+   "gate_a_territory": false,
+   "territory_families": 1.6,
+   "gate_b_fruity": false,
+   "fruity_seeds": 0,
+   "gate_c_active": false,
+   "mean_active_families": 5.08,
+   "passes_all": false
+  }
+ },
+ "passed": [
+  "T0w",
+  "T1"
+ ],
+ "territory_per_family": {
+  "T0": {
+   "CITRUS": {
+    "signal": 23.0,
+    "contributors": 23,
+    "area_share": 0.0992,
+    "largest_blob_share": 0.9688,
+    "weighted_coverage": 0.7826,
+    "spread": 0.292,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "FRUITY": {
+    "signal": 8.0,
+    "contributors": 8,
+    "area_share": 0.0266,
+    "largest_blob_share": 0.7143,
+    "weighted_coverage": 1.0,
+    "spread": 0.136,
+    "has_territory_seeds": 1,
+    "has_territory": false
+   },
+   "FLORAL": {
+    "signal": 61.0,
+    "contributors": 61,
+    "area_share": 0.2943,
+    "largest_blob_share": 0.8622,
+    "weighted_coverage": 0.8787,
+    "spread": 0.543,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GREEN": {
+    "signal": 21.0,
+    "contributors": 21,
+    "area_share": 0.1474,
+    "largest_blob_share": 0.7655,
+    "weighted_coverage": 0.9238,
+    "spread": 0.386,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "AQUATIC": {
+    "signal": 12.0,
+    "contributors": 12,
+    "area_share": 0.0635,
+    "largest_blob_share": 0.8547,
+    "weighted_coverage": 0.9167,
+    "spread": 0.585,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "WOODY": {
+    "signal": 23.0,
+    "contributors": 23,
+    "area_share": 0.1155,
+    "largest_blob_share": 0.9184,
+    "weighted_coverage": 0.8,
+    "spread": 0.416,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "AMBER": {
+    "signal": 14.0,
+    "contributors": 14,
+    "area_share": 0.077,
+    "largest_blob_share": 0.9905,
+    "weighted_coverage": 0.8,
+    "spread": 0.36,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GOURMAND": {
+    "signal": 20.0,
+    "contributors": 20,
+    "area_share": 0.0736,
+    "largest_blob_share": 0.7885,
+    "weighted_coverage": 0.79,
+    "spread": 0.369,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "MUSK": {
+    "signal": 18.0,
+    "contributors": 18,
+    "area_share": 0.1028,
+    "largest_blob_share": 0.5493,
+    "weighted_coverage": 0.7889,
+    "spread": 1.01,
+    "has_territory_seeds": 1,
+    "has_territory": false
+   }
+  },
+  "T0w": {
+   "CITRUS": {
+    "signal": 7.57,
+    "contributors": 23,
+    "area_share": 0.1067,
+    "largest_blob_share": 0.9744,
+    "weighted_coverage": 0.8651,
+    "spread": 0.263,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "FRUITY": {
+    "signal": 2.62,
+    "contributors": 8,
+    "area_share": 0.0318,
+    "largest_blob_share": 0.7812,
+    "weighted_coverage": 1.0,
+    "spread": 0.136,
+    "has_territory_seeds": 4,
+    "has_territory": true
+   },
+   "FLORAL": {
+    "signal": 26.92,
+    "contributors": 61,
+    "area_share": 0.2839,
+    "largest_blob_share": 0.8764,
+    "weighted_coverage": 0.8832,
+    "spread": 0.484,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GREEN": {
+    "signal": 7.72,
+    "contributors": 21,
+    "area_share": 0.1471,
+    "largest_blob_share": 0.7719,
+    "weighted_coverage": 0.9309,
+    "spread": 0.335,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "AQUATIC": {
+    "signal": 4.41,
+    "contributors": 12,
+    "area_share": 0.0677,
+    "largest_blob_share": 0.7993,
+    "weighted_coverage": 0.9184,
+    "spread": 0.523,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "WOODY": {
+    "signal": 9.27,
+    "contributors": 23,
+    "area_share": 0.1218,
+    "largest_blob_share": 0.952,
+    "weighted_coverage": 0.8466,
+    "spread": 0.412,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "AMBER": {
+    "signal": 5.27,
+    "contributors": 14,
+    "area_share": 0.0807,
+    "largest_blob_share": 0.9847,
+    "weighted_coverage": 0.8598,
+    "spread": 0.324,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GOURMAND": {
+    "signal": 9.7,
+    "contributors": 20,
+    "area_share": 0.0675,
+    "largest_blob_share": 0.8339,
+    "weighted_coverage": 0.8494,
+    "spread": 0.282,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "MUSK": {
+    "signal": 6.77,
+    "contributors": 18,
+    "area_share": 0.0928,
+    "largest_blob_share": 0.6147,
+    "weighted_coverage": 0.7788,
+    "spread": 0.839,
+    "has_territory_seeds": 4,
+    "has_territory": true
+   }
+  },
+  "T1": {
+   "CITRUS": {
+    "signal": 8.54,
+    "contributors": 26,
+    "area_share": 0.1048,
+    "largest_blob_share": 0.9932,
+    "weighted_coverage": 0.8505,
+    "spread": 0.26,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "FRUITY": {
+    "signal": 2.93,
+    "contributors": 9,
+    "area_share": 0.0405,
+    "largest_blob_share": 0.8086,
+    "weighted_coverage": 0.895,
+    "spread": 0.166,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "FLORAL": {
+    "signal": 29.06,
+    "contributors": 67,
+    "area_share": 0.2824,
+    "largest_blob_share": 0.8913,
+    "weighted_coverage": 0.7925,
+    "spread": 0.51,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GREEN": {
+    "signal": 9.34,
+    "contributors": 26,
+    "area_share": 0.153,
+    "largest_blob_share": 0.7682,
+    "weighted_coverage": 0.7624,
+    "spread": 0.463,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "AQUATIC": {
+    "signal": 4.41,
+    "contributors": 12,
+    "area_share": 0.055,
+    "largest_blob_share": 0.8196,
+    "weighted_coverage": 0.8199,
+    "spread": 0.523,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "WOODY": {
+    "signal": 10.92,
+    "contributors": 28,
+    "area_share": 0.1417,
+    "largest_blob_share": 0.9434,
+    "weighted_coverage": 0.7315,
+    "spread": 0.505,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "AMBER": {
+    "signal": 5.27,
+    "contributors": 14,
+    "area_share": 0.0746,
+    "largest_blob_share": 0.9966,
+    "weighted_coverage": 0.8269,
+    "spread": 0.324,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GOURMAND": {
+    "signal": 10.68,
+    "contributors": 23,
+    "area_share": 0.0701,
+    "largest_blob_share": 0.8263,
+    "weighted_coverage": 0.7722,
+    "spread": 0.326,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "MUSK": {
+    "signal": 8.57,
+    "contributors": 23,
+    "area_share": 0.0779,
+    "largest_blob_share": 0.8053,
+    "weighted_coverage": 0.8212,
+    "spread": 0.731,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   }
+  },
+  "T2": {
+   "CITRUS": {
+    "signal": 12.91,
+    "contributors": 44,
+    "area_share": 0.1305,
+    "largest_blob_share": 0.9997,
+    "weighted_coverage": 0.6664,
+    "spread": 0.396,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "FRUITY": {
+    "signal": 7.31,
+    "contributors": 28,
+    "area_share": 0.0715,
+    "largest_blob_share": 1.0,
+    "weighted_coverage": 0.5713,
+    "spread": 0.404,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "FLORAL": {
+    "signal": 33.43,
+    "contributors": 85,
+    "area_share": 0.2501,
+    "largest_blob_share": 0.9462,
+    "weighted_coverage": 0.6429,
+    "spread": 0.6,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GREEN": {
+    "signal": 15.5,
+    "contributors": 51,
+    "area_share": 0.1506,
+    "largest_blob_share": 0.8436,
+    "weighted_coverage": 0.5489,
+    "spread": 0.488,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "AQUATIC": {
+    "signal": 4.9,
+    "contributors": 14,
+    "area_share": 0.0369,
+    "largest_blob_share": 0.9351,
+    "weighted_coverage": 0.6888,
+    "spread": 0.632,
+    "has_territory_seeds": 4,
+    "has_territory": true
+   },
+   "WOODY": {
+    "signal": 14.59,
+    "contributors": 44,
+    "area_share": 0.119,
+    "largest_blob_share": 0.8841,
+    "weighted_coverage": 0.562,
+    "spread": 0.534,
+    "has_territory_seeds": 4,
+    "has_territory": true
+   },
+   "AMBER": {
+    "signal": 11.33,
+    "contributors": 40,
+    "area_share": 0.1154,
+    "largest_blob_share": 0.993,
+    "weighted_coverage": 0.5156,
+    "spread": 0.621,
+    "has_territory_seeds": 4,
+    "has_territory": true
+   },
+   "GOURMAND": {
+    "signal": 15.81,
+    "contributors": 45,
+    "area_share": 0.0585,
+    "largest_blob_share": 0.8636,
+    "weighted_coverage": 0.449,
+    "spread": 0.523,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "MUSK": {
+    "signal": 15.35,
+    "contributors": 51,
+    "area_share": 0.0674,
+    "largest_blob_share": 0.9579,
+    "weighted_coverage": 0.466,
+    "spread": 0.964,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   }
+  },
+  "T3": {
+   "CITRUS": {
+    "signal": 16.26,
+    "contributors": 63,
+    "area_share": 0.1427,
+    "largest_blob_share": 0.9991,
+    "weighted_coverage": 0.5641,
+    "spread": 0.529,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "FRUITY": {
+    "signal": 10.12,
+    "contributors": 44,
+    "area_share": 0.0852,
+    "largest_blob_share": 0.9889,
+    "weighted_coverage": 0.4948,
+    "spread": 0.526,
+    "has_territory_seeds": 2,
+    "has_territory": false
+   },
+   "FLORAL": {
+    "signal": 35.29,
+    "contributors": 96,
+    "area_share": 0.2331,
+    "largest_blob_share": 0.9923,
+    "weighted_coverage": 0.5892,
+    "spread": 0.67,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GREEN": {
+    "signal": 19.28,
+    "contributors": 73,
+    "area_share": 0.1401,
+    "largest_blob_share": 0.8766,
+    "weighted_coverage": 0.4174,
+    "spread": 0.635,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "AQUATIC": {
+    "signal": 5.76,
+    "contributors": 19,
+    "area_share": 0.0403,
+    "largest_blob_share": 0.9786,
+    "weighted_coverage": 0.5883,
+    "spread": 0.726,
+    "has_territory_seeds": 4,
+    "has_territory": true
+   },
+   "WOODY": {
+    "signal": 18.27,
+    "contributors": 65,
+    "area_share": 0.1261,
+    "largest_blob_share": 1.0,
+    "weighted_coverage": 0.4835,
+    "spread": 0.667,
+    "has_territory_seeds": 3,
+    "has_territory": true
+   },
+   "AMBER": {
+    "signal": 14.31,
+    "contributors": 57,
+    "area_share": 0.1125,
+    "largest_blob_share": 0.9856,
+    "weighted_coverage": 0.4068,
+    "spread": 0.653,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "GOURMAND": {
+    "signal": 17.72,
+    "contributors": 56,
+    "area_share": 0.0546,
+    "largest_blob_share": 0.9137,
+    "weighted_coverage": 0.3903,
+    "spread": 0.55,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "MUSK": {
+    "signal": 18.02,
+    "contributors": 66,
+    "area_share": 0.0655,
+    "largest_blob_share": 0.9891,
+    "weighted_coverage": 0.4024,
+    "spread": 0.99,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   }
+  },
+  "T4": {
+   "CITRUS": {
+    "signal": 13.28,
+    "contributors": 47,
+    "area_share": 0.1366,
+    "largest_blob_share": 0.9966,
+    "weighted_coverage": 0.6593,
+    "spread": 0.456,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "FRUITY": {
+    "signal": 8.45,
+    "contributors": 36,
+    "area_share": 0.0853,
+    "largest_blob_share": 0.9901,
+    "weighted_coverage": 0.5158,
+    "spread": 0.512,
+    "has_territory_seeds": 2,
+    "has_territory": false
+   },
+   "FLORAL": {
+    "signal": 31.97,
+    "contributors": 79,
+    "area_share": 0.2291,
+    "largest_blob_share": 0.9569,
+    "weighted_coverage": 0.6534,
+    "spread": 0.585,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GREEN": {
+    "signal": 15.53,
+    "contributors": 53,
+    "area_share": 0.1652,
+    "largest_blob_share": 0.8182,
+    "weighted_coverage": 0.5517,
+    "spread": 0.654,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "AQUATIC": {
+    "signal": 5.09,
+    "contributors": 15,
+    "area_share": 0.035,
+    "largest_blob_share": 0.8744,
+    "weighted_coverage": 0.6513,
+    "spread": 0.709,
+    "has_territory_seeds": 3,
+    "has_territory": true
+   },
+   "WOODY": {
+    "signal": 13.64,
+    "contributors": 40,
+    "area_share": 0.1222,
+    "largest_blob_share": 1.0,
+    "weighted_coverage": 0.59,
+    "spread": 0.555,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "AMBER": {
+    "signal": 9.41,
+    "contributors": 32,
+    "area_share": 0.0942,
+    "largest_blob_share": 0.9992,
+    "weighted_coverage": 0.5534,
+    "spread": 0.559,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GOURMAND": {
+    "signal": 15.55,
+    "contributors": 45,
+    "area_share": 0.0656,
+    "largest_blob_share": 0.7837,
+    "weighted_coverage": 0.4708,
+    "spread": 0.523,
+    "has_territory_seeds": 1,
+    "has_territory": false
+   },
+   "MUSK": {
+    "signal": 15.23,
+    "contributors": 53,
+    "area_share": 0.0668,
+    "largest_blob_share": 0.9768,
+    "weighted_coverage": 0.4645,
+    "spread": 0.968,
+    "has_territory_seeds": 1,
+    "has_territory": false
+   }
+  },
+  "T5": {
+   "CITRUS": {
+    "signal": 17.65,
+    "contributors": 76,
+    "area_share": 0.1428,
+    "largest_blob_share": 1.0,
+    "weighted_coverage": 0.5125,
+    "spread": 0.622,
+    "has_territory_seeds": 4,
+    "has_territory": true
+   },
+   "FRUITY": {
+    "signal": 11.45,
+    "contributors": 54,
+    "area_share": 0.0896,
+    "largest_blob_share": 0.9714,
+    "weighted_coverage": 0.4616,
+    "spread": 0.566,
+    "has_territory_seeds": 1,
+    "has_territory": false
+   },
+   "FLORAL": {
+    "signal": 35.28,
+    "contributors": 97,
+    "area_share": 0.2292,
+    "largest_blob_share": 0.9962,
+    "weighted_coverage": 0.5773,
+    "spread": 0.676,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GREEN": {
+    "signal": 20.33,
+    "contributors": 87,
+    "area_share": 0.1483,
+    "largest_blob_share": 0.8717,
+    "weighted_coverage": 0.3955,
+    "spread": 0.713,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "AQUATIC": {
+    "signal": 5.61,
+    "contributors": 18,
+    "area_share": 0.0363,
+    "largest_blob_share": 0.9387,
+    "weighted_coverage": 0.5951,
+    "spread": 0.741,
+    "has_territory_seeds": 4,
+    "has_territory": true
+   },
+   "WOODY": {
+    "signal": 18.9,
+    "contributors": 73,
+    "area_share": 0.1214,
+    "largest_blob_share": 1.0,
+    "weighted_coverage": 0.4559,
+    "spread": 0.735,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "AMBER": {
+    "signal": 14.09,
+    "contributors": 60,
+    "area_share": 0.1132,
+    "largest_blob_share": 0.982,
+    "weighted_coverage": 0.418,
+    "spread": 0.696,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "GOURMAND": {
+    "signal": 18.31,
+    "contributors": 62,
+    "area_share": 0.0536,
+    "largest_blob_share": 0.904,
+    "weighted_coverage": 0.3789,
+    "spread": 0.569,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "MUSK": {
+    "signal": 18.49,
+    "contributors": 72,
+    "area_share": 0.0656,
+    "largest_blob_share": 0.9906,
+    "weighted_coverage": 0.3921,
+    "spread": 0.976,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   }
+  },
+  "T6": {
+   "CITRUS": {
+    "signal": 22.65,
+    "contributors": 126,
+    "area_share": 0.1445,
+    "largest_blob_share": 1.0,
+    "weighted_coverage": 0.3971,
+    "spread": 0.782,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "FRUITY": {
+    "signal": 14.88,
+    "contributors": 92,
+    "area_share": 0.0945,
+    "largest_blob_share": 0.9809,
+    "weighted_coverage": 0.3527,
+    "spread": 0.663,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "FLORAL": {
+    "signal": 39.28,
+    "contributors": 138,
+    "area_share": 0.2261,
+    "largest_blob_share": 0.9953,
+    "weighted_coverage": 0.5214,
+    "spread": 0.786,
+    "has_territory_seeds": 5,
+    "has_territory": true
+   },
+   "GREEN": {
+    "signal": 24.32,
+    "contributors": 124,
+    "area_share": 0.1318,
+    "largest_blob_share": 0.8921,
+    "weighted_coverage": 0.332,
+    "spread": 0.742,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "AQUATIC": {
+    "signal": 6.94,
+    "contributors": 33,
+    "area_share": 0.04,
+    "largest_blob_share": 0.9803,
+    "weighted_coverage": 0.4991,
+    "spread": 0.883,
+    "has_territory_seeds": 3,
+    "has_territory": true
+   },
+   "WOODY": {
+    "signal": 24.41,
+    "contributors": 129,
+    "area_share": 0.1219,
+    "largest_blob_share": 0.997,
+    "weighted_coverage": 0.3701,
+    "spread": 0.833,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "AMBER": {
+    "signal": 20.73,
+    "contributors": 127,
+    "area_share": 0.1241,
+    "largest_blob_share": 0.955,
+    "weighted_coverage": 0.2999,
+    "spread": 0.799,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "GOURMAND": {
+    "signal": 22.67,
+    "contributors": 108,
+    "area_share": 0.0511,
+    "largest_blob_share": 0.9453,
+    "weighted_coverage": 0.2892,
+    "spread": 0.662,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   },
+   "MUSK": {
+    "signal": 24.12,
+    "contributors": 139,
+    "area_share": 0.0659,
+    "largest_blob_share": 0.9845,
+    "weighted_coverage": 0.305,
+    "spread": 1.022,
+    "has_territory_seeds": 0,
+    "has_territory": false
+   }
+  }
+ },
+ "seed_aggregates": {
+  "T0": {
+   "families_with_territory": {
+    "mean": 7.4,
+    "std": 0.4899,
+    "min": 7.0,
+    "max": 8.0
+   },
+   "fragments_total": {
+    "mean": 22.0,
+    "std": 1.6733,
+    "min": 20.0,
+    "max": 25.0
+   },
+   "mean_coverage": {
+    "mean": 0.8534,
+    "std": 0.0149,
+    "min": 0.8344,
+    "max": 0.8752
+   },
+   "fruity_area": {
+    "mean": 0.0266,
+    "std": 0.007,
+    "min": 0.0131,
+    "max": 0.0334
+   },
+   "fruity_blob": {
+    "mean": 0.7143,
+    "std": 0.0916,
+    "min": 0.6175,
+    "max": 0.8737
+   },
+   "fruity_coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "min": 1.0,
+    "max": 1.0
+   }
+  },
+  "T0w": {
+   "families_with_territory": {
+    "mean": 8.6,
+    "std": 0.4899,
+    "min": 8.0,
+    "max": 9.0
+   },
+   "fragments_total": {
+    "mean": 22.4,
+    "std": 1.4967,
+    "min": 21.0,
+    "max": 25.0
+   },
+   "mean_coverage": {
+    "mean": 0.8814,
+    "std": 0.011,
+    "min": 0.8694,
+    "max": 0.8977
+   },
+   "fruity_area": {
+    "mean": 0.0318,
+    "std": 0.0093,
+    "min": 0.0159,
+    "max": 0.0449
+   },
+   "fruity_blob": {
+    "mean": 0.7812,
+    "std": 0.1206,
+    "min": 0.6377,
+    "max": 0.9603
+   },
+   "fruity_coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "min": 1.0,
+    "max": 1.0
+   }
+  },
+  "T1": {
+   "families_with_territory": {
+    "mean": 9.0,
+    "std": 0.0,
+    "min": 9.0,
+    "max": 9.0
+   },
+   "fragments_total": {
+    "mean": 19.4,
+    "std": 1.6248,
+    "min": 17.0,
+    "max": 22.0
+   },
+   "mean_coverage": {
+    "mean": 0.808,
+    "std": 0.0067,
+    "min": 0.7983,
+    "max": 0.8146
+   },
+   "fruity_area": {
+    "mean": 0.0405,
+    "std": 0.0074,
+    "min": 0.0301,
+    "max": 0.0529
+   },
+   "fruity_blob": {
+    "mean": 0.8086,
+    "std": 0.1257,
+    "min": 0.6897,
+    "max": 1.0
+   },
+   "fruity_coverage": {
+    "mean": 0.895,
+    "std": 0.0,
+    "min": 0.895,
+    "max": 0.895
+   }
+  },
+  "T2": {
+   "families_with_territory": {
+    "mean": 6.4,
+    "std": 0.8,
+    "min": 5.0,
+    "max": 7.0
+   },
+   "fragments_total": {
+    "mean": 15.0,
+    "std": 1.6733,
+    "min": 13.0,
+    "max": 18.0
+   },
+   "mean_coverage": {
+    "mean": 0.5679,
+    "std": 0.013,
+    "min": 0.5434,
+    "max": 0.5806
+   },
+   "fruity_area": {
+    "mean": 0.0715,
+    "std": 0.0108,
+    "min": 0.0564,
+    "max": 0.0883
+   },
+   "fruity_blob": {
+    "mean": 1.0,
+    "std": 0.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "fruity_coverage": {
+    "mean": 0.5713,
+    "std": 0.0148,
+    "min": 0.5516,
+    "max": 0.5834
+   }
+  },
+  "T3": {
+   "families_with_territory": {
+    "mean": 3.8,
+    "std": 0.4,
+    "min": 3.0,
+    "max": 4.0
+   },
+   "fragments_total": {
+    "mean": 12.8,
+    "std": 1.7205,
+    "min": 11.0,
+    "max": 16.0
+   },
+   "mean_coverage": {
+    "mean": 0.4819,
+    "std": 0.0094,
+    "min": 0.466,
+    "max": 0.4926
+   },
+   "fruity_area": {
+    "mean": 0.0852,
+    "std": 0.0144,
+    "min": 0.0661,
+    "max": 0.1079
+   },
+   "fruity_blob": {
+    "mean": 0.9889,
+    "std": 0.0199,
+    "min": 0.9492,
+    "max": 1.0
+   },
+   "fruity_coverage": {
+    "mean": 0.4948,
+    "std": 0.041,
+    "min": 0.4559,
+    "max": 0.5717
+   }
+  },
+  "T4": {
+   "families_with_territory": {
+    "mean": 6.4,
+    "std": 0.8,
+    "min": 5.0,
+    "max": 7.0
+   },
+   "fragments_total": {
+    "mean": 13.8,
+    "std": 1.4697,
+    "min": 12.0,
+    "max": 16.0
+   },
+   "mean_coverage": {
+    "mean": 0.5678,
+    "std": 0.011,
+    "min": 0.548,
+    "max": 0.5799
+   },
+   "fruity_area": {
+    "mean": 0.0853,
+    "std": 0.0099,
+    "min": 0.0728,
+    "max": 0.1018
+   },
+   "fruity_blob": {
+    "mean": 0.9901,
+    "std": 0.0108,
+    "min": 0.9695,
+    "max": 1.0
+   },
+   "fruity_coverage": {
+    "mean": 0.5158,
+    "std": 0.0361,
+    "min": 0.4886,
+    "max": 0.5786
+   }
+  },
+  "T5": {
+   "families_with_territory": {
+    "mean": 2.8,
+    "std": 0.9798,
+    "min": 1.0,
+    "max": 4.0
+   },
+   "fragments_total": {
+    "mean": 13.2,
+    "std": 1.3266,
+    "min": 11.0,
+    "max": 15.0
+   },
+   "mean_coverage": {
+    "mean": 0.4652,
+    "std": 0.0096,
+    "min": 0.4479,
+    "max": 0.4765
+   },
+   "fruity_area": {
+    "mean": 0.0896,
+    "std": 0.0177,
+    "min": 0.0686,
+    "max": 0.1183
+   },
+   "fruity_blob": {
+    "mean": 0.9714,
+    "std": 0.0382,
+    "min": 0.9043,
+    "max": 1.0
+   },
+   "fruity_coverage": {
+    "mean": 0.4616,
+    "std": 0.0411,
+    "min": 0.4175,
+    "max": 0.5367
+   }
+  },
+  "T6": {
+   "families_with_territory": {
+    "mean": 1.6,
+    "std": 0.4899,
+    "min": 1.0,
+    "max": 2.0
+   },
+   "fragments_total": {
+    "mean": 12.6,
+    "std": 1.7436,
+    "min": 11.0,
+    "max": 16.0
+   },
+   "mean_coverage": {
+    "mean": 0.374,
+    "std": 0.0059,
+    "min": 0.3644,
+    "max": 0.3804
+   },
+   "fruity_area": {
+    "mean": 0.0945,
+    "std": 0.0159,
+    "min": 0.0739,
+    "max": 0.1192
+   },
+   "fruity_blob": {
+    "mean": 0.9809,
+    "std": 0.0328,
+    "min": 0.9158,
+    "max": 1.0
+   },
+   "fruity_coverage": {
+    "mean": 0.3527,
+    "std": 0.0299,
+    "min": 0.3242,
+    "max": 0.4038
+   }
+  }
+ },
+ "focus_families": [
+  "FRUITY",
+  "AQUATIC",
+  "MUSK"
+ ],
+ "notes": {
+  "no_map_change": "향수 200개와 좌표는 바뀌지 않는다. Territory 계산 방식만 바뀐다",
+  "prior_measurement": "실행 전 실측 — Family Score 전체를 쓰면 프루티 퍼짐이 0.147 → 0.653 으로 4.4배 나빠진다 (D26 Trade-off ②)",
+  "terrain_params": "D12 고정값 — bandwidth scott×0.5 · sea 60 백분위"
+ }
+}

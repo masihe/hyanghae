@@ -1,0 +1,921 @@
+{
+ "question": "Family 0.50 + Perception 0.075 가 5개 seed 에서도 Gate A / Gate B 를 안정적으로 지키면서 C8b 보다 더 명확한 향 계열 Territory 를 만드는가",
+ "scope_note": "팀 결정 — 추가적인 대규모 가중치 탐색은 하지 않는다. 후보 4개만 비교",
+ "blend_definition": "D_blend = (1-wf-wp)·D + wf·Df + wp·Dp",
+ "candidates": [
+  {
+   "name": "C1",
+   "family_w": 0.0,
+   "perception_w": 0.0,
+   "base_w": 1.0,
+   "role": "baseline"
+  },
+  {
+   "name": "Family 0.20",
+   "family_w": 0.2,
+   "perception_w": 0.0,
+   "base_w": 0.8,
+   "role": "안전 대안"
+  },
+  {
+   "name": "C8b",
+   "family_w": 0.35,
+   "perception_w": 0.15,
+   "base_w": 0.5,
+   "role": "메인"
+  },
+  {
+   "name": "Challenger F0.50+P0.075",
+   "family_w": 0.5,
+   "perception_w": 0.075,
+   "base_w": 0.425,
+   "role": "최종 challenger"
+  }
+ ],
+ "seeds": [
+  42,
+  1,
+  2,
+  3,
+  4
+ ],
+ "gates": {
+  "gate_a": {
+   "metric": "계열 횡단 신뢰 쌍 2D 근접도",
+   "pass_line": 0.3115,
+   "baseline": 0.2615,
+   "population": "global1000",
+   "cross_pairs": 412
+  },
+  "gate_b": {
+   "metric": "trustworthiness@10",
+   "threshold": 0.9,
+   "population": "global1000"
+  },
+  "declared_before_run": true,
+  "seed_rule": "시드마다 따로 적용 — 전무 DROP · 일부 통과 REVIEW · 전부 통과이고 최악값 여유 >= 0.01 일 때만 PASS",
+  "review_band": 0.01
+ },
+ "team_metrics": [
+  "gate_a",
+  "gate_b",
+  "korea_cohesion_ratio",
+  "korea_on_own_region",
+  "korea_fragments_total",
+  "boundary_gap",
+  "korea_knn_overlap10",
+  "global_cross_family_proximity"
+ ],
+ "record_metrics": [
+  "shared_rare_accord_ge1",
+  "nearest_neighbor_unexplained",
+  "y_warmth_rho",
+  "x_masculine_rho"
+ ],
+ "reproduction_checks": [
+  {
+   "point": "C1",
+   "metric": "korea_cohesion_ratio",
+   "got": 3.264,
+   "expected": 3.264,
+   "ok": true
+  },
+  {
+   "point": "C1",
+   "metric": "korea_knn_overlap10",
+   "got": 0.4875,
+   "expected": 0.4875,
+   "ok": true
+  },
+  {
+   "point": "Family 0.20",
+   "metric": "korea_cohesion_ratio",
+   "got": 3.793,
+   "expected": 3.793,
+   "ok": true
+  },
+  {
+   "point": "Family 0.20",
+   "metric": "korea_knn_overlap10",
+   "got": 0.487,
+   "expected": 0.48700000000000004,
+   "ok": true
+  },
+  {
+   "point": "C8b",
+   "metric": "korea_cohesion_ratio",
+   "got": 3.913,
+   "expected": 3.913,
+   "ok": true
+  },
+  {
+   "point": "C8b",
+   "metric": "korea_knn_overlap10",
+   "got": 0.431,
+   "expected": 0.431,
+   "ok": true
+  },
+  {
+   "point": "Challenger F0.50+P0.075",
+   "metric": "korea_cohesion_ratio",
+   "got": 4.162,
+   "expected": 4.162,
+   "ok": true
+  },
+  {
+   "point": "Challenger F0.50+P0.075",
+   "metric": "korea_knn_overlap10",
+   "got": 0.434,
+   "expected": 0.434,
+   "ok": true
+  }
+ ],
+ "reproduction_pass": 8,
+ "reproduction_total": 8,
+ "results": [
+  {
+   "candidate": "C1",
+   "role": "baseline",
+   "base_w": 1.0,
+   "family_w": 0.0,
+   "perception_w": 0.0,
+   "gate_a_pass_seeds": 5,
+   "gate_a_verdict": "PASS",
+   "gate_b_pass_seeds": 5,
+   "gate_b_verdict": "PASS",
+   "gate_b_headroom_worst": 0.0341,
+   "global_cross_family_proximity": {
+    "mean": 0.2492,
+    "std": 0.0093,
+    "min": 0.2347,
+    "max": 0.2615
+   },
+   "gate_a_delta_mean": -0.0123,
+   "gate_a_headroom_worst": 0.05,
+   "global_trust10": {
+    "mean": 0.9366,
+    "std": 0.0015,
+    "min": 0.9341,
+    "max": 0.9387
+   },
+   "global_knn_overlap10": {
+    "mean": 0.3878,
+    "std": 0.003,
+    "min": 0.3826,
+    "max": 0.392
+   },
+   "global_cohesion_ratio": {
+    "mean": 4.234,
+    "std": 0.045,
+    "min": 4.187,
+    "max": 4.313
+   },
+   "global_reminds_pct": {
+    "mean": 0.1689,
+    "std": 0.0067,
+    "min": 0.1606,
+    "max": 0.1766
+   },
+   "korea_cohesion_ratio": {
+    "mean": 3.205,
+    "std": 0.043,
+    "min": 3.154,
+    "max": 3.264
+   },
+   "korea_on_own_region": {
+    "mean": 0.802,
+    "std": 0.0136,
+    "min": 0.79,
+    "max": 0.825
+   },
+   "korea_fragments_total": {
+    "mean": 24.2,
+    "std": 2.3,
+    "min": 20.0,
+    "max": 27.0
+   },
+   "korea_fragments_max": {
+    "mean": 4.2,
+    "std": 0.4,
+    "min": 4.0,
+    "max": 5.0
+   },
+   "korea_knn_overlap10": {
+    "mean": 0.4846,
+    "std": 0.0032,
+    "min": 0.479,
+    "max": 0.4875
+   },
+   "korea_trust10": {
+    "mean": 0.9213,
+    "std": 0.0013,
+    "min": 0.9191,
+    "max": 0.9232
+   },
+   "korea_reminds_pct": {
+    "mean": 0.1672,
+    "std": 0.0118,
+    "min": 0.1477,
+    "max": 0.1823
+   },
+   "korea_cross_family_proximity": {
+    "mean": 0.2129,
+    "std": 0.0206,
+    "min": 0.1783,
+    "max": 0.2402
+   },
+   "boundary_center_ratio": {
+    "mean": 0.4616,
+    "std": 0.0036,
+    "min": 0.4555,
+    "max": 0.4665
+   },
+   "clear_center_ratio": {
+    "mean": 0.3583,
+    "std": 0.0084,
+    "min": 0.3454,
+    "max": 0.3691
+   },
+   "boundary_gap": {
+    "mean": 0.1033,
+    "std": 0.0052,
+    "min": 0.0969,
+    "max": 0.1101
+   },
+   "record_shared_rare_accord_ge1": {
+    "mean": 0.7029,
+    "std": 0.0094,
+    "min": 0.6845,
+    "max": 0.711
+   },
+   "record_nearest_unexplained": {
+    "mean": 9.6,
+    "std": 2.9,
+    "min": 7.0,
+    "max": 15.0
+   },
+   "record_y_warmth_rho": {
+    "mean": 0.3375,
+    "std": 0.0647,
+    "min": 0.2325,
+    "max": 0.4162
+   },
+   "record_x_masculine_rho": {
+    "mean": 0.7052,
+    "std": 0.027,
+    "min": 0.6701,
+    "max": 0.7528
+   }
+  },
+  {
+   "candidate": "Family 0.20",
+   "role": "안전 대안",
+   "base_w": 0.8,
+   "family_w": 0.2,
+   "perception_w": 0.0,
+   "gate_a_pass_seeds": 5,
+   "gate_a_verdict": "PASS",
+   "gate_b_pass_seeds": 5,
+   "gate_b_verdict": "PASS",
+   "gate_b_headroom_worst": 0.0368,
+   "global_cross_family_proximity": {
+    "mean": 0.2477,
+    "std": 0.0082,
+    "min": 0.2401,
+    "max": 0.2633
+   },
+   "gate_a_delta_mean": -0.0138,
+   "gate_a_headroom_worst": 0.0482,
+   "global_trust10": {
+    "mean": 0.9376,
+    "std": 0.0012,
+    "min": 0.9368,
+    "max": 0.9399
+   },
+   "global_knn_overlap10": {
+    "mean": 0.3749,
+    "std": 0.0014,
+    "min": 0.3734,
+    "max": 0.3766
+   },
+   "global_cohesion_ratio": {
+    "mean": 4.733,
+    "std": 0.014,
+    "min": 4.714,
+    "max": 4.751
+   },
+   "global_reminds_pct": {
+    "mean": 0.1642,
+    "std": 0.0046,
+    "min": 0.1608,
+    "max": 0.173
+   },
+   "korea_cohesion_ratio": {
+    "mean": 3.69,
+    "std": 0.071,
+    "min": 3.598,
+    "max": 3.793
+   },
+   "korea_on_own_region": {
+    "mean": 0.832,
+    "std": 0.0211,
+    "min": 0.795,
+    "max": 0.855
+   },
+   "korea_fragments_total": {
+    "mean": 20.0,
+    "std": 1.4,
+    "min": 18.0,
+    "max": 22.0
+   },
+   "korea_fragments_max": {
+    "mean": 4.0,
+    "std": 0.6,
+    "min": 3.0,
+    "max": 5.0
+   },
+   "korea_knn_overlap10": {
+    "mean": 0.4839,
+    "std": 0.0041,
+    "min": 0.479,
+    "max": 0.4895
+   },
+   "korea_trust10": {
+    "mean": 0.9266,
+    "std": 0.0017,
+    "min": 0.9243,
+    "max": 0.9293
+   },
+   "korea_reminds_pct": {
+    "mean": 0.1498,
+    "std": 0.017,
+    "min": 0.1324,
+    "max": 0.1795
+   },
+   "korea_cross_family_proximity": {
+    "mean": 0.2149,
+    "std": 0.0257,
+    "min": 0.1849,
+    "max": 0.2589
+   },
+   "boundary_center_ratio": {
+    "mean": 0.4347,
+    "std": 0.0061,
+    "min": 0.4283,
+    "max": 0.4449
+   },
+   "clear_center_ratio": {
+    "mean": 0.3103,
+    "std": 0.0089,
+    "min": 0.2952,
+    "max": 0.3213
+   },
+   "boundary_gap": {
+    "mean": 0.1245,
+    "std": 0.0052,
+    "min": 0.1186,
+    "max": 0.1336
+   },
+   "record_shared_rare_accord_ge1": {
+    "mean": 0.7334,
+    "std": 0.0111,
+    "min": 0.7155,
+    "max": 0.744
+   },
+   "record_nearest_unexplained": {
+    "mean": 10.8,
+    "std": 2.0,
+    "min": 7.0,
+    "max": 13.0
+   },
+   "record_y_warmth_rho": {
+    "mean": 0.3086,
+    "std": 0.1166,
+    "min": 0.126,
+    "max": 0.4217
+   },
+   "record_x_masculine_rho": {
+    "mean": 0.7154,
+    "std": 0.03,
+    "min": 0.6632,
+    "max": 0.7417
+   }
+  },
+  {
+   "candidate": "C8b",
+   "role": "메인",
+   "base_w": 0.5,
+   "family_w": 0.35,
+   "perception_w": 0.15,
+   "gate_a_pass_seeds": 5,
+   "gate_a_verdict": "PASS",
+   "gate_b_pass_seeds": 5,
+   "gate_b_verdict": "PASS",
+   "gate_b_headroom_worst": 0.0138,
+   "global_cross_family_proximity": {
+    "mean": 0.2315,
+    "std": 0.0085,
+    "min": 0.221,
+    "max": 0.2416
+   },
+   "gate_a_delta_mean": -0.03,
+   "gate_a_headroom_worst": 0.0699,
+   "global_trust10": {
+    "mean": 0.9187,
+    "std": 0.0028,
+    "min": 0.9138,
+    "max": 0.9218
+   },
+   "global_knn_overlap10": {
+    "mean": 0.3136,
+    "std": 0.0034,
+    "min": 0.3083,
+    "max": 0.3179
+   },
+   "global_cohesion_ratio": {
+    "mean": 5.021,
+    "std": 0.049,
+    "min": 4.939,
+    "max": 5.075
+   },
+   "global_reminds_pct": {
+    "mean": 0.1418,
+    "std": 0.0036,
+    "min": 0.1372,
+    "max": 0.1467
+   },
+   "korea_cohesion_ratio": {
+    "mean": 3.921,
+    "std": 0.041,
+    "min": 3.878,
+    "max": 3.992
+   },
+   "korea_on_own_region": {
+    "mean": 0.848,
+    "std": 0.0129,
+    "min": 0.83,
+    "max": 0.865
+   },
+   "korea_fragments_total": {
+    "mean": 16.4,
+    "std": 2.7,
+    "min": 13.0,
+    "max": 21.0
+   },
+   "korea_fragments_max": {
+    "mean": 3.4,
+    "std": 1.0,
+    "min": 2.0,
+    "max": 5.0
+   },
+   "korea_knn_overlap10": {
+    "mean": 0.4417,
+    "std": 0.0078,
+    "min": 0.431,
+    "max": 0.45
+   },
+   "korea_trust10": {
+    "mean": 0.913,
+    "std": 0.0032,
+    "min": 0.9088,
+    "max": 0.9165
+   },
+   "korea_reminds_pct": {
+    "mean": 0.1469,
+    "std": 0.0056,
+    "min": 0.1409,
+    "max": 0.1574
+   },
+   "korea_cross_family_proximity": {
+    "mean": 0.2131,
+    "std": 0.0071,
+    "min": 0.207,
+    "max": 0.2269
+   },
+   "boundary_center_ratio": {
+    "mean": 0.4317,
+    "std": 0.0046,
+    "min": 0.4248,
+    "max": 0.4378
+   },
+   "clear_center_ratio": {
+    "mean": 0.2843,
+    "std": 0.0031,
+    "min": 0.2786,
+    "max": 0.2878
+   },
+   "boundary_gap": {
+    "mean": 0.1474,
+    "std": 0.0058,
+    "min": 0.1403,
+    "max": 0.155
+   },
+   "record_shared_rare_accord_ge1": {
+    "mean": 0.7326,
+    "std": 0.003,
+    "min": 0.729,
+    "max": 0.737
+   },
+   "record_nearest_unexplained": {
+    "mean": 12.6,
+    "std": 2.4,
+    "min": 9.0,
+    "max": 16.0
+   },
+   "record_y_warmth_rho": {
+    "mean": 0.5967,
+    "std": 0.0998,
+    "min": 0.4508,
+    "max": 0.7159
+   },
+   "record_x_masculine_rho": {
+    "mean": 0.7271,
+    "std": 0.0238,
+    "min": 0.6972,
+    "max": 0.7558
+   }
+  },
+  {
+   "candidate": "Challenger F0.50+P0.075",
+   "role": "최종 challenger",
+   "base_w": 0.425,
+   "family_w": 0.5,
+   "perception_w": 0.075,
+   "gate_a_pass_seeds": 5,
+   "gate_a_verdict": "REVIEW",
+   "gate_b_pass_seeds": 5,
+   "gate_b_verdict": "PASS",
+   "gate_b_headroom_worst": 0.0201,
+   "global_cross_family_proximity": {
+    "mean": 0.2945,
+    "std": 0.0058,
+    "min": 0.2884,
+    "max": 0.3028
+   },
+   "gate_a_delta_mean": 0.033,
+   "gate_a_headroom_worst": 0.0087,
+   "global_trust10": {
+    "mean": 0.9215,
+    "std": 0.0011,
+    "min": 0.9201,
+    "max": 0.9231
+   },
+   "global_knn_overlap10": {
+    "mean": 0.3133,
+    "std": 0.0021,
+    "min": 0.3114,
+    "max": 0.3172
+   },
+   "global_cohesion_ratio": {
+    "mean": 5.2,
+    "std": 0.013,
+    "min": 5.182,
+    "max": 5.219
+   },
+   "global_reminds_pct": {
+    "mean": 0.1734,
+    "std": 0.0027,
+    "min": 0.1708,
+    "max": 0.1777
+   },
+   "korea_cohesion_ratio": {
+    "mean": 4.125,
+    "std": 0.023,
+    "min": 4.102,
+    "max": 4.162
+   },
+   "korea_on_own_region": {
+    "mean": 0.864,
+    "std": 0.0185,
+    "min": 0.83,
+    "max": 0.885
+   },
+   "korea_fragments_total": {
+    "mean": 21.0,
+    "std": 3.7,
+    "min": 14.0,
+    "max": 24.0
+   },
+   "korea_fragments_max": {
+    "mean": 3.8,
+    "std": 0.4,
+    "min": 3.0,
+    "max": 4.0
+   },
+   "korea_knn_overlap10": {
+    "mean": 0.4373,
+    "std": 0.0032,
+    "min": 0.434,
+    "max": 0.4425
+   },
+   "korea_trust10": {
+    "mean": 0.9109,
+    "std": 0.0025,
+    "min": 0.907,
+    "max": 0.9144
+   },
+   "korea_reminds_pct": {
+    "mean": 0.1493,
+    "std": 0.0139,
+    "min": 0.1352,
+    "max": 0.1754
+   },
+   "korea_cross_family_proximity": {
+    "mean": 0.2174,
+    "std": 0.0226,
+    "min": 0.1899,
+    "max": 0.2533
+   },
+   "boundary_center_ratio": {
+    "mean": 0.4137,
+    "std": 0.0112,
+    "min": 0.3934,
+    "max": 0.4239
+   },
+   "clear_center_ratio": {
+    "mean": 0.277,
+    "std": 0.0134,
+    "min": 0.2654,
+    "max": 0.2968
+   },
+   "boundary_gap": {
+    "mean": 0.1367,
+    "std": 0.0094,
+    "min": 0.1268,
+    "max": 0.1499
+   },
+   "record_shared_rare_accord_ge1": {
+    "mean": 0.7282,
+    "std": 0.007,
+    "min": 0.717,
+    "max": 0.7375
+   },
+   "record_nearest_unexplained": {
+    "mean": 14.4,
+    "std": 3.0,
+    "min": 11.0,
+    "max": 18.0
+   },
+   "record_y_warmth_rho": {
+    "mean": 0.4357,
+    "std": 0.1015,
+    "min": 0.2416,
+    "max": 0.5163
+   },
+   "record_x_masculine_rho": {
+    "mean": 0.7185,
+    "std": 0.0258,
+    "min": 0.6879,
+    "max": 0.7485
+   }
+  }
+ ],
+ "challenger_vs_main": {
+  "main": "C8b",
+  "challenger": "Challenger F0.50+P0.075",
+  "paired": [
+   {
+    "metric": "korea_cohesion_ratio",
+    "label": "Korea 영역 ratio",
+    "c8b_mean": 3.921,
+    "challenger_mean": 4.125,
+    "diff_mean": 0.2042,
+    "diff_std": 0.0496,
+    "significant": true,
+    "challenger_better_seeds": 5,
+    "higher_is_better": true,
+    "reading": "challenger 우세"
+   },
+   {
+    "metric": "korea_on_own_region",
+    "label": "자기 계열 영역 위",
+    "c8b_mean": 0.848,
+    "challenger_mean": 0.864,
+    "diff_mean": 0.016,
+    "diff_std": 0.02615,
+    "significant": false,
+    "challenger_better_seeds": 4,
+    "higher_is_better": true,
+    "reading": "challenger 우세"
+   },
+   {
+    "metric": "korea_fragments_total",
+    "label": "영역 조각 수",
+    "c8b_mean": 16.4,
+    "challenger_mean": 21.0,
+    "diff_mean": 4.6,
+    "diff_std": 2.65,
+    "significant": false,
+    "challenger_better_seeds": 0,
+    "higher_is_better": false,
+    "reading": "C8b 우세"
+   },
+   {
+    "metric": "boundary_gap",
+    "label": "경계 향수 분리도",
+    "c8b_mean": 0.1474,
+    "challenger_mean": 0.1367,
+    "diff_mean": -0.0107,
+    "diff_std": 0.00566,
+    "significant": false,
+    "challenger_better_seeds": 0,
+    "higher_is_better": true,
+    "reading": "C8b 우세"
+   },
+   {
+    "metric": "korea_knn_overlap10",
+    "label": "Korea overlap@10",
+    "c8b_mean": 0.4417,
+    "challenger_mean": 0.4373,
+    "diff_mean": -0.0044,
+    "diff_std": 0.00601,
+    "significant": false,
+    "challenger_better_seeds": 1,
+    "higher_is_better": true,
+    "reading": "C8b 우세"
+   },
+   {
+    "metric": "global_cross_family_proximity",
+    "label": "Global 계열 횡단 근접도",
+    "c8b_mean": 0.2315,
+    "challenger_mean": 0.2945,
+    "diff_mean": 0.063,
+    "diff_std": 0.01078,
+    "significant": true,
+    "challenger_better_seeds": 0,
+    "higher_is_better": false,
+    "reading": "C8b 우세"
+   },
+   {
+    "metric": "global_trust10",
+    "label": "Global trust@10",
+    "c8b_mean": 0.9187,
+    "challenger_mean": 0.9215,
+    "diff_mean": 0.00278,
+    "diff_std": 0.00275,
+    "significant": false,
+    "challenger_better_seeds": 4,
+    "higher_is_better": true,
+    "reading": "challenger 우세"
+   },
+   {
+    "metric": "global_knn_overlap10",
+    "label": "Global overlap@10",
+    "c8b_mean": 0.3136,
+    "challenger_mean": 0.3133,
+    "diff_mean": -0.00026,
+    "diff_std": 0.00261,
+    "significant": false,
+    "challenger_better_seeds": 2,
+    "higher_is_better": true,
+    "reading": "C8b 우세"
+   },
+   {
+    "metric": "global_cohesion_ratio",
+    "label": "Global 영역 ratio",
+    "c8b_mean": 5.021,
+    "challenger_mean": 5.2,
+    "diff_mean": 0.1794,
+    "diff_std": 0.0428,
+    "significant": true,
+    "challenger_better_seeds": 5,
+    "higher_is_better": true,
+    "reading": "challenger 우세"
+   }
+  ],
+  "challenger_gates_pass_5seed": false,
+  "territory_wins_of_4": 3
+ },
+ "gate_a_extended": {
+  "review_band": 0.01,
+  "seeds": [
+   42,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "candidates": {
+   "C8b": {
+    "seeds": [
+     42,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "per_seed_cross_family": [
+     0.2273,
+     0.2262,
+     0.2416,
+     0.2415,
+     0.221,
+     0.2204,
+     0.2363,
+     0.2204,
+     0.239,
+     0.2443,
+     0.2319,
+     0.2512,
+     0.254,
+     0.2487,
+     0.2326
+    ],
+    "cross_family_proximity": {
+     "mean": 0.2358,
+     "std": 0.0109,
+     "min": 0.2204,
+     "max": 0.254
+    },
+    "worst": 0.254,
+    "headroom_worst": 0.0575,
+    "gate_a_pass_seeds": 15,
+    "gate_a_verdict_with_review_band": "PASS",
+    "trust_worst": 0.9138,
+    "gate_b_pass_seeds": 15
+   },
+   "Challenger F0.50+P0.075": {
+    "seeds": [
+     42,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "per_seed_cross_family": [
+     0.2884,
+     0.2909,
+     0.2904,
+     0.3001,
+     0.3028,
+     0.29,
+     0.2827,
+     0.2918,
+     0.2889,
+     0.2946,
+     0.2957,
+     0.2912,
+     0.2747,
+     0.3039,
+     0.2989
+    ],
+    "cross_family_proximity": {
+     "mean": 0.2923,
+     "std": 0.0073,
+     "min": 0.2747,
+     "max": 0.3039
+    },
+    "worst": 0.3039,
+    "headroom_worst": 0.0076,
+    "gate_a_pass_seeds": 15,
+    "gate_a_verdict_with_review_band": "REVIEW",
+    "trust_worst": 0.918,
+    "gate_b_pass_seeds": 15
+   }
+  },
+  "paired": {
+   "diff_mean": 0.0566,
+   "diff_std": 0.0143,
+   "challenger_worse_seeds": 15,
+   "n_seeds": 15,
+   "significant": true
+  },
+  "rule": "experiments/README.md — 최악값이 게이트에서 0.01 이내면 자동 판정 금지 → REVIEW"
+ },
+ "notes": {
+  "korea_gate_use": "Korea 200 의 계열 횡단 신뢰 쌍은 25쌍뿐이라 판정에 쓰지 않는다. 게이트 판정은 Global 1,000 에서만 한다",
+  "boundary_gap": "경계 향수(계열 점수 margin < 0.10)의 중심거리비 − 명확한 향수의 중심거리비. 클수록 경계 향수가 두 영역 사이에 놓인다",
+  "explainability": "고정 시험지 — 원본 note 문자열과 원본 accord(보유율<0.30). 방식이 무엇이든 기준을 바꾸지 않는다",
+  "axis_meaning": "회전 정렬 후 상관. 회전은 등거리 변환이라 다른 지표에 영향이 없다"
+ }
+}

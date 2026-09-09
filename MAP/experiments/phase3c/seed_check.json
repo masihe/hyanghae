@@ -1,0 +1,876 @@
+{
+ "question": "스윕의 Global 지표는 seed 42 한 번이었다. 최종 후보만 시드 5개에서 다시 재고, 게이트를 시드마다 적용해 통과 개수를 본다",
+ "gates": {
+  "gate_a_pass_line": 0.3115,
+  "gate_a_baseline": 0.2615,
+  "gate_b_threshold": 0.9,
+  "population": "global1000",
+  "seed_rule": "experiments/README.md — 5개 시드. 전부 통과 PASS · 일부만 통과 REVIEW · 전부 실패 DROP"
+ },
+ "selection_note": "후보는 스윕 결과를 보고 골랐다 (사후 선택). 게이트 기준선은 Phase 3b 에서 실행 전에 확정한 값을 그대로 쓴다",
+ "seeds": [
+  42,
+  1,
+  2,
+  3,
+  4
+ ],
+ "candidates": [
+  {
+   "candidate": "wf=0 wp=0",
+   "note": "baseline (C1 재계산)",
+   "post_hoc_selection": true,
+   "supervised": false,
+   "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+   ],
+   "per_seed": [
+    {
+     "seed": 42,
+     "cross_family_proximity": 0.2615,
+     "same_family_proximity": 0.1005,
+     "trust@10": 0.9387,
+     "knn_overlap@10": 0.3888,
+     "reminds_pct": 0.1766,
+     "cohesion_ratio": 4.187
+    },
+    {
+     "seed": 1,
+     "cross_family_proximity": 0.2476,
+     "same_family_proximity": 0.0958,
+     "trust@10": 0.9372,
+     "knn_overlap@10": 0.3826,
+     "reminds_pct": 0.1675,
+     "cohesion_ratio": 4.196
+    },
+    {
+     "seed": 2,
+     "cross_family_proximity": 0.2566,
+     "same_family_proximity": 0.1051,
+     "trust@10": 0.9361,
+     "knn_overlap@10": 0.3871,
+     "reminds_pct": 0.1766,
+     "cohesion_ratio": 4.244
+    },
+    {
+     "seed": 3,
+     "cross_family_proximity": 0.2458,
+     "same_family_proximity": 0.0843,
+     "trust@10": 0.9341,
+     "knn_overlap@10": 0.392,
+     "reminds_pct": 0.1606,
+     "cohesion_ratio": 4.313
+    },
+    {
+     "seed": 4,
+     "cross_family_proximity": 0.2347,
+     "same_family_proximity": 0.0988,
+     "trust@10": 0.9369,
+     "knn_overlap@10": 0.3883,
+     "reminds_pct": 0.163,
+     "cohesion_ratio": 4.231
+    }
+   ],
+   "cross_family_proximity": {
+    "mean": 0.2492,
+    "std": 0.0093,
+    "min": 0.2347,
+    "max": 0.2615
+   },
+   "gate_a_delta_mean": -0.0123,
+   "gate_a_pass_seeds": 5,
+   "trust@10": {
+    "mean": 0.9366,
+    "std": 0.0015,
+    "min": 0.9341,
+    "max": 0.9387
+   },
+   "gate_b_pass_seeds": 5,
+   "knn_overlap@10": {
+    "mean": 0.3878,
+    "std": 0.003,
+    "min": 0.3826,
+    "max": 0.392
+   },
+   "reminds_pct": {
+    "mean": 0.1689,
+    "std": 0.0067,
+    "min": 0.1606,
+    "max": 0.1766
+   },
+   "cohesion_ratio": {
+    "mean": 4.2342,
+    "std": 0.0447,
+    "min": 4.187,
+    "max": 4.313
+   },
+   "gate_a_verdict": "PASS",
+   "gate_b_verdict": "PASS"
+  },
+  {
+   "candidate": "wf=0.1 wp=0",
+   "note": "계열 0.10 — 손실 거의 없음",
+   "post_hoc_selection": true,
+   "supervised": false,
+   "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+   ],
+   "per_seed": [
+    {
+     "seed": 42,
+     "cross_family_proximity": 0.2331,
+     "same_family_proximity": 0.0799,
+     "trust@10": 0.9357,
+     "knn_overlap@10": 0.3845,
+     "reminds_pct": 0.1523,
+     "cohesion_ratio": 4.494
+    },
+    {
+     "seed": 1,
+     "cross_family_proximity": 0.2452,
+     "same_family_proximity": 0.0869,
+     "trust@10": 0.9432,
+     "knn_overlap@10": 0.3813,
+     "reminds_pct": 0.1617,
+     "cohesion_ratio": 4.533
+    },
+    {
+     "seed": 2,
+     "cross_family_proximity": 0.2324,
+     "same_family_proximity": 0.0849,
+     "trust@10": 0.9381,
+     "knn_overlap@10": 0.3788,
+     "reminds_pct": 0.1546,
+     "cohesion_ratio": 4.559
+    },
+    {
+     "seed": 3,
+     "cross_family_proximity": 0.248,
+     "same_family_proximity": 0.083,
+     "trust@10": 0.9425,
+     "knn_overlap@10": 0.3904,
+     "reminds_pct": 0.161,
+     "cohesion_ratio": 4.532
+    },
+    {
+     "seed": 4,
+     "cross_family_proximity": 0.2368,
+     "same_family_proximity": 0.0962,
+     "trust@10": 0.9369,
+     "knn_overlap@10": 0.3849,
+     "reminds_pct": 0.1627,
+     "cohesion_ratio": 4.497
+    }
+   ],
+   "cross_family_proximity": {
+    "mean": 0.2391,
+    "std": 0.0064,
+    "min": 0.2324,
+    "max": 0.248
+   },
+   "gate_a_delta_mean": -0.0224,
+   "gate_a_pass_seeds": 5,
+   "trust@10": {
+    "mean": 0.9393,
+    "std": 0.003,
+    "min": 0.9357,
+    "max": 0.9432
+   },
+   "gate_b_pass_seeds": 5,
+   "knn_overlap@10": {
+    "mean": 0.384,
+    "std": 0.0039,
+    "min": 0.3788,
+    "max": 0.3904
+   },
+   "reminds_pct": {
+    "mean": 0.1585,
+    "std": 0.0042,
+    "min": 0.1523,
+    "max": 0.1627
+   },
+   "cohesion_ratio": {
+    "mean": 4.523,
+    "std": 0.0245,
+    "min": 4.494,
+    "max": 4.559
+   },
+   "gate_a_verdict": "PASS",
+   "gate_b_verdict": "PASS"
+  },
+  {
+   "candidate": "wf=0.2 wp=0",
+   "note": "계열 0.20 — 손실 <= 0.02 중 최고 가독성",
+   "post_hoc_selection": true,
+   "supervised": false,
+   "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+   ],
+   "per_seed": [
+    {
+     "seed": 42,
+     "cross_family_proximity": 0.2633,
+     "same_family_proximity": 0.0922,
+     "trust@10": 0.9368,
+     "knn_overlap@10": 0.3741,
+     "reminds_pct": 0.173,
+     "cohesion_ratio": 4.741
+    },
+    {
+     "seed": 1,
+     "cross_family_proximity": 0.2443,
+     "same_family_proximity": 0.0861,
+     "trust@10": 0.9375,
+     "knn_overlap@10": 0.3737,
+     "reminds_pct": 0.1608,
+     "cohesion_ratio": 4.751
+    },
+    {
+     "seed": 2,
+     "cross_family_proximity": 0.2478,
+     "same_family_proximity": 0.085,
+     "trust@10": 0.9399,
+     "knn_overlap@10": 0.3765,
+     "reminds_pct": 0.1619,
+     "cohesion_ratio": 4.718
+    },
+    {
+     "seed": 3,
+     "cross_family_proximity": 0.2401,
+     "same_family_proximity": 0.0898,
+     "trust@10": 0.937,
+     "knn_overlap@10": 0.3766,
+     "reminds_pct": 0.1608,
+     "cohesion_ratio": 4.714
+    },
+    {
+     "seed": 4,
+     "cross_family_proximity": 0.2428,
+     "same_family_proximity": 0.0948,
+     "trust@10": 0.9369,
+     "knn_overlap@10": 0.3734,
+     "reminds_pct": 0.1647,
+     "cohesion_ratio": 4.74
+    }
+   ],
+   "cross_family_proximity": {
+    "mean": 0.2477,
+    "std": 0.0082,
+    "min": 0.2401,
+    "max": 0.2633
+   },
+   "gate_a_delta_mean": -0.0138,
+   "gate_a_pass_seeds": 5,
+   "trust@10": {
+    "mean": 0.9376,
+    "std": 0.0012,
+    "min": 0.9368,
+    "max": 0.9399
+   },
+   "gate_b_pass_seeds": 5,
+   "knn_overlap@10": {
+    "mean": 0.3749,
+    "std": 0.0014,
+    "min": 0.3734,
+    "max": 0.3766
+   },
+   "reminds_pct": {
+    "mean": 0.1642,
+    "std": 0.0046,
+    "min": 0.1608,
+    "max": 0.173
+   },
+   "cohesion_ratio": {
+    "mean": 4.7328,
+    "std": 0.0143,
+    "min": 4.714,
+    "max": 4.751
+   },
+   "gate_a_verdict": "PASS",
+   "gate_b_verdict": "PASS"
+  },
+  {
+   "candidate": "wf=0.35 wp=0",
+   "note": "계열 0.35 — 손실 <= 0.04 중 최고 가독성",
+   "post_hoc_selection": true,
+   "supervised": false,
+   "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+   ],
+   "per_seed": [
+    {
+     "seed": 42,
+     "cross_family_proximity": 0.292,
+     "same_family_proximity": 0.0796,
+     "trust@10": 0.9377,
+     "knn_overlap@10": 0.3633,
+     "reminds_pct": 0.18,
+     "cohesion_ratio": 5.088
+    },
+    {
+     "seed": 1,
+     "cross_family_proximity": 0.3147,
+     "same_family_proximity": 0.0713,
+     "trust@10": 0.9323,
+     "knn_overlap@10": 0.3508,
+     "reminds_pct": 0.1863,
+     "cohesion_ratio": 5.013
+    },
+    {
+     "seed": 2,
+     "cross_family_proximity": 0.3103,
+     "same_family_proximity": 0.069,
+     "trust@10": 0.9343,
+     "knn_overlap@10": 0.3574,
+     "reminds_pct": 0.183,
+     "cohesion_ratio": 5.051
+    },
+    {
+     "seed": 3,
+     "cross_family_proximity": 0.3124,
+     "same_family_proximity": 0.0645,
+     "trust@10": 0.9348,
+     "knn_overlap@10": 0.3613,
+     "reminds_pct": 0.1816,
+     "cohesion_ratio": 5.052
+    },
+    {
+     "seed": 4,
+     "cross_family_proximity": 0.2985,
+     "same_family_proximity": 0.0751,
+     "trust@10": 0.933,
+     "knn_overlap@10": 0.3589,
+     "reminds_pct": 0.1806,
+     "cohesion_ratio": 5.038
+    }
+   ],
+   "cross_family_proximity": {
+    "mean": 0.3056,
+    "std": 0.0088,
+    "min": 0.292,
+    "max": 0.3147
+   },
+   "gate_a_delta_mean": 0.0441,
+   "gate_a_pass_seeds": 3,
+   "trust@10": {
+    "mean": 0.9344,
+    "std": 0.0019,
+    "min": 0.9323,
+    "max": 0.9377
+   },
+   "gate_b_pass_seeds": 5,
+   "knn_overlap@10": {
+    "mean": 0.3583,
+    "std": 0.0043,
+    "min": 0.3508,
+    "max": 0.3633
+   },
+   "reminds_pct": {
+    "mean": 0.1823,
+    "std": 0.0022,
+    "min": 0.18,
+    "max": 0.1863
+   },
+   "cohesion_ratio": {
+    "mean": 5.0484,
+    "std": 0.0243,
+    "min": 5.013,
+    "max": 5.088
+   },
+   "gate_a_verdict": "REVIEW",
+   "gate_b_verdict": "PASS"
+  },
+  {
+   "candidate": "wf=0 wp=0.15",
+   "note": "C8a — 인식 축만",
+   "post_hoc_selection": true,
+   "supervised": false,
+   "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+   ],
+   "per_seed": [
+    {
+     "seed": 42,
+     "cross_family_proximity": 0.1864,
+     "same_family_proximity": 0.083,
+     "trust@10": 0.9193,
+     "knn_overlap@10": 0.3426,
+     "reminds_pct": 0.1319,
+     "cohesion_ratio": 4.046
+    },
+    {
+     "seed": 1,
+     "cross_family_proximity": 0.1909,
+     "same_family_proximity": 0.0816,
+     "trust@10": 0.92,
+     "knn_overlap@10": 0.3402,
+     "reminds_pct": 0.1333,
+     "cohesion_ratio": 3.985
+    },
+    {
+     "seed": 2,
+     "cross_family_proximity": 0.1942,
+     "same_family_proximity": 0.0824,
+     "trust@10": 0.9159,
+     "knn_overlap@10": 0.3338,
+     "reminds_pct": 0.1352,
+     "cohesion_ratio": 3.966
+    },
+    {
+     "seed": 3,
+     "cross_family_proximity": 0.1902,
+     "same_family_proximity": 0.0883,
+     "trust@10": 0.9237,
+     "knn_overlap@10": 0.3431,
+     "reminds_pct": 0.1364,
+     "cohesion_ratio": 3.96
+    },
+    {
+     "seed": 4,
+     "cross_family_proximity": 0.1855,
+     "same_family_proximity": 0.0733,
+     "trust@10": 0.9209,
+     "knn_overlap@10": 0.3466,
+     "reminds_pct": 0.1263,
+     "cohesion_ratio": 4.007
+    }
+   ],
+   "cross_family_proximity": {
+    "mean": 0.1894,
+    "std": 0.0032,
+    "min": 0.1855,
+    "max": 0.1942
+   },
+   "gate_a_delta_mean": -0.0721,
+   "gate_a_pass_seeds": 5,
+   "trust@10": {
+    "mean": 0.92,
+    "std": 0.0025,
+    "min": 0.9159,
+    "max": 0.9237
+   },
+   "gate_b_pass_seeds": 5,
+   "knn_overlap@10": {
+    "mean": 0.3413,
+    "std": 0.0043,
+    "min": 0.3338,
+    "max": 0.3466
+   },
+   "reminds_pct": {
+    "mean": 0.1326,
+    "std": 0.0035,
+    "min": 0.1263,
+    "max": 0.1364
+   },
+   "cohesion_ratio": {
+    "mean": 3.9928,
+    "std": 0.0313,
+    "min": 3.96,
+    "max": 4.046
+   },
+   "gate_a_verdict": "PASS",
+   "gate_b_verdict": "PASS"
+  },
+  {
+   "candidate": "wf=0.1 wp=0.15",
+   "note": "계열 0.10 + 인식 0.15",
+   "post_hoc_selection": true,
+   "supervised": false,
+   "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+   ],
+   "per_seed": [
+    {
+     "seed": 42,
+     "cross_family_proximity": 0.2034,
+     "same_family_proximity": 0.0755,
+     "trust@10": 0.9221,
+     "knn_overlap@10": 0.3524,
+     "reminds_pct": 0.1359,
+     "cohesion_ratio": 4.374
+    },
+    {
+     "seed": 1,
+     "cross_family_proximity": 0.192,
+     "same_family_proximity": 0.0796,
+     "trust@10": 0.9243,
+     "knn_overlap@10": 0.3446,
+     "reminds_pct": 0.1327,
+     "cohesion_ratio": 4.315
+    },
+    {
+     "seed": 2,
+     "cross_family_proximity": 0.2028,
+     "same_family_proximity": 0.0841,
+     "trust@10": 0.9266,
+     "knn_overlap@10": 0.3442,
+     "reminds_pct": 0.1402,
+     "cohesion_ratio": 4.338
+    },
+    {
+     "seed": 3,
+     "cross_family_proximity": 0.1992,
+     "same_family_proximity": 0.0837,
+     "trust@10": 0.9248,
+     "knn_overlap@10": 0.3476,
+     "reminds_pct": 0.1383,
+     "cohesion_ratio": 4.364
+    },
+    {
+     "seed": 4,
+     "cross_family_proximity": 0.1958,
+     "same_family_proximity": 0.0822,
+     "trust@10": 0.9224,
+     "knn_overlap@10": 0.3453,
+     "reminds_pct": 0.1359,
+     "cohesion_ratio": 4.399
+    }
+   ],
+   "cross_family_proximity": {
+    "mean": 0.1986,
+    "std": 0.0043,
+    "min": 0.192,
+    "max": 0.2034
+   },
+   "gate_a_delta_mean": -0.0629,
+   "gate_a_pass_seeds": 5,
+   "trust@10": {
+    "mean": 0.924,
+    "std": 0.0017,
+    "min": 0.9221,
+    "max": 0.9266
+   },
+   "gate_b_pass_seeds": 5,
+   "knn_overlap@10": {
+    "mean": 0.3468,
+    "std": 0.003,
+    "min": 0.3442,
+    "max": 0.3524
+   },
+   "reminds_pct": {
+    "mean": 0.1366,
+    "std": 0.0025,
+    "min": 0.1327,
+    "max": 0.1402
+   },
+   "cohesion_ratio": {
+    "mean": 4.358,
+    "std": 0.0291,
+    "min": 4.315,
+    "max": 4.399
+   },
+   "gate_a_verdict": "PASS",
+   "gate_b_verdict": "PASS"
+  },
+  {
+   "candidate": "wf=0.2 wp=0.15",
+   "note": "계열 0.20 + 인식 0.15",
+   "post_hoc_selection": true,
+   "supervised": false,
+   "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+   ],
+   "per_seed": [
+    {
+     "seed": 42,
+     "cross_family_proximity": 0.2207,
+     "same_family_proximity": 0.0543,
+     "trust@10": 0.9245,
+     "knn_overlap@10": 0.3394,
+     "reminds_pct": 0.1329,
+     "cohesion_ratio": 4.708
+    },
+    {
+     "seed": 1,
+     "cross_family_proximity": 0.221,
+     "same_family_proximity": 0.0684,
+     "trust@10": 0.9251,
+     "knn_overlap@10": 0.3451,
+     "reminds_pct": 0.1405,
+     "cohesion_ratio": 4.639
+    },
+    {
+     "seed": 2,
+     "cross_family_proximity": 0.2163,
+     "same_family_proximity": 0.0755,
+     "trust@10": 0.9266,
+     "knn_overlap@10": 0.3426,
+     "reminds_pct": 0.142,
+     "cohesion_ratio": 4.694
+    },
+    {
+     "seed": 3,
+     "cross_family_proximity": 0.221,
+     "same_family_proximity": 0.0649,
+     "trust@10": 0.9219,
+     "knn_overlap@10": 0.3403,
+     "reminds_pct": 0.1386,
+     "cohesion_ratio": 4.644
+    },
+    {
+     "seed": 4,
+     "cross_family_proximity": 0.2061,
+     "same_family_proximity": 0.0693,
+     "trust@10": 0.93,
+     "knn_overlap@10": 0.3454,
+     "reminds_pct": 0.1339,
+     "cohesion_ratio": 4.689
+    }
+   ],
+   "cross_family_proximity": {
+    "mean": 0.217,
+    "std": 0.0057,
+    "min": 0.2061,
+    "max": 0.221
+   },
+   "gate_a_delta_mean": -0.0445,
+   "gate_a_pass_seeds": 5,
+   "trust@10": {
+    "mean": 0.9256,
+    "std": 0.0027,
+    "min": 0.9219,
+    "max": 0.93
+   },
+   "gate_b_pass_seeds": 5,
+   "knn_overlap@10": {
+    "mean": 0.3426,
+    "std": 0.0024,
+    "min": 0.3394,
+    "max": 0.3454
+   },
+   "reminds_pct": {
+    "mean": 0.1376,
+    "std": 0.0036,
+    "min": 0.1329,
+    "max": 0.142
+   },
+   "cohesion_ratio": {
+    "mean": 4.6748,
+    "std": 0.0279,
+    "min": 4.639,
+    "max": 4.708
+   },
+   "gate_a_verdict": "PASS",
+   "gate_b_verdict": "PASS"
+  },
+  {
+   "candidate": "wf=0.35 wp=0.15",
+   "note": "C8b (Phase 3b 채택안)",
+   "post_hoc_selection": true,
+   "supervised": false,
+   "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+   ],
+   "per_seed": [
+    {
+     "seed": 42,
+     "cross_family_proximity": 0.2273,
+     "same_family_proximity": 0.0668,
+     "trust@10": 0.9191,
+     "knn_overlap@10": 0.3146,
+     "reminds_pct": 0.1427,
+     "cohesion_ratio": 5.061
+    },
+    {
+     "seed": 1,
+     "cross_family_proximity": 0.2262,
+     "same_family_proximity": 0.0574,
+     "trust@10": 0.9181,
+     "knn_overlap@10": 0.3112,
+     "reminds_pct": 0.1372,
+     "cohesion_ratio": 5.075
+    },
+    {
+     "seed": 2,
+     "cross_family_proximity": 0.2416,
+     "same_family_proximity": 0.057,
+     "trust@10": 0.9218,
+     "knn_overlap@10": 0.316,
+     "reminds_pct": 0.1442,
+     "cohesion_ratio": 5.031
+    },
+    {
+     "seed": 3,
+     "cross_family_proximity": 0.2415,
+     "same_family_proximity": 0.0618,
+     "trust@10": 0.9207,
+     "knn_overlap@10": 0.3179,
+     "reminds_pct": 0.1467,
+     "cohesion_ratio": 4.999
+    },
+    {
+     "seed": 4,
+     "cross_family_proximity": 0.221,
+     "same_family_proximity": 0.0636,
+     "trust@10": 0.9138,
+     "knn_overlap@10": 0.3083,
+     "reminds_pct": 0.138,
+     "cohesion_ratio": 4.939
+    }
+   ],
+   "cross_family_proximity": {
+    "mean": 0.2315,
+    "std": 0.0085,
+    "min": 0.221,
+    "max": 0.2416
+   },
+   "gate_a_delta_mean": -0.03,
+   "gate_a_pass_seeds": 5,
+   "trust@10": {
+    "mean": 0.9187,
+    "std": 0.0028,
+    "min": 0.9138,
+    "max": 0.9218
+   },
+   "gate_b_pass_seeds": 5,
+   "knn_overlap@10": {
+    "mean": 0.3136,
+    "std": 0.0034,
+    "min": 0.3083,
+    "max": 0.3179
+   },
+   "reminds_pct": {
+    "mean": 0.1418,
+    "std": 0.0036,
+    "min": 0.1372,
+    "max": 0.1467
+   },
+   "cohesion_ratio": {
+    "mean": 5.021,
+    "std": 0.0486,
+    "min": 4.939,
+    "max": 5.075
+   },
+   "gate_a_verdict": "PASS",
+   "gate_b_verdict": "PASS"
+  },
+  {
+   "candidate": "C3 semi w=0.35",
+   "note": "안전 대안 (팀 결정 ④)",
+   "post_hoc_selection": true,
+   "supervised": true,
+   "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+   ],
+   "per_seed": [
+    {
+     "seed": 42,
+     "cross_family_proximity": 0.2767,
+     "same_family_proximity": 0.0812,
+     "trust@10": 0.9424,
+     "knn_overlap@10": 0.3887,
+     "reminds_pct": 0.1736,
+     "cohesion_ratio": 4.808
+    },
+    {
+     "seed": 1,
+     "cross_family_proximity": 0.2797,
+     "same_family_proximity": 0.087,
+     "trust@10": 0.9441,
+     "knn_overlap@10": 0.3892,
+     "reminds_pct": 0.178,
+     "cohesion_ratio": 4.798
+    },
+    {
+     "seed": 2,
+     "cross_family_proximity": 0.273,
+     "same_family_proximity": 0.0896,
+     "trust@10": 0.9415,
+     "knn_overlap@10": 0.3866,
+     "reminds_pct": 0.1763,
+     "cohesion_ratio": 4.726
+    },
+    {
+     "seed": 3,
+     "cross_family_proximity": 0.2742,
+     "same_family_proximity": 0.0843,
+     "trust@10": 0.9437,
+     "knn_overlap@10": 0.3844,
+     "reminds_pct": 0.174,
+     "cohesion_ratio": 4.651
+    },
+    {
+     "seed": 4,
+     "cross_family_proximity": 0.2765,
+     "same_family_proximity": 0.0806,
+     "trust@10": 0.9437,
+     "knn_overlap@10": 0.3873,
+     "reminds_pct": 0.1731,
+     "cohesion_ratio": 4.744
+    }
+   ],
+   "cross_family_proximity": {
+    "mean": 0.276,
+    "std": 0.0023,
+    "min": 0.273,
+    "max": 0.2797
+   },
+   "gate_a_delta_mean": 0.0145,
+   "gate_a_pass_seeds": 5,
+   "trust@10": {
+    "mean": 0.9431,
+    "std": 0.001,
+    "min": 0.9415,
+    "max": 0.9441
+   },
+   "gate_b_pass_seeds": 5,
+   "knn_overlap@10": {
+    "mean": 0.3872,
+    "std": 0.0017,
+    "min": 0.3844,
+    "max": 0.3892
+   },
+   "reminds_pct": {
+    "mean": 0.175,
+    "std": 0.0019,
+    "min": 0.1731,
+    "max": 0.178
+   },
+   "cohesion_ratio": {
+    "mean": 4.7454,
+    "std": 0.0565,
+    "min": 4.651,
+    "max": 4.808
+   },
+   "gate_a_verdict": "PASS",
+   "gate_b_verdict": "PASS"
+  }
+ ],
+ "max_seed_std_cross_family": 0.0093
+}

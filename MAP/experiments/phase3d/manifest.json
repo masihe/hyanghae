@@ -1,0 +1,79 @@
+{
+ "experiment": "P3D_CHALLENGER",
+ "phase": "3d",
+ "title": "최종 challenger 검증 — Family 0.50 + Perception 0.075 vs C8b",
+ "family_system": "Set B — reviewed-1 9계열",
+ "families": [
+  "CITRUS",
+  "FRUITY",
+  "FLORAL",
+  "GREEN",
+  "AQUATIC",
+  "WOODY",
+  "AMBER",
+  "GOURMAND",
+  "MUSK"
+ ],
+ "populations": {
+  "korea200": 200,
+  "global1000": 1000
+ },
+ "confident_edges": {
+  "korea200": 44,
+  "global1000": 872
+ },
+ "seeds": [
+  42,
+  1,
+  2,
+  3,
+  4
+ ],
+ "candidates": 4,
+ "inputs": {
+  "top200": {
+   "path": "data\\korea_popularity\\korea_representative_perfumes_top200.csv",
+   "sha256": "3a94acac8134e166f138abf14ecbfefb04e3f1e7f655f9df30a6838bf8563cb5"
+  },
+  "phase3b_metrics": {
+   "path": "experiments\\phase3b\\metrics.json",
+   "sha256": "f0971cead6525c777f908461dfeb00adcfe87f49b43df82d6bee05d60d707b9b"
+  },
+  "phase3c_metrics": {
+   "path": "experiments\\phase3c\\metrics.json",
+   "sha256": "197f9b112a89953f74d53ccf957a0f6efc801a618fc5d4e15845bf80384e8636"
+  },
+  "accord_dictionary": {
+   "path": "..\\EDA\\analysis_outputs\\10_accord_dictionary.csv",
+   "sha256": "567e91370e575731d11970f89a03120a8c581db5e73df1c16daf37110e79046c"
+  }
+ },
+ "projection": {
+  "umap": "n_neighbors=10 min_dist=0.1 metric=precomputed"
+ },
+ "holdout_untouched": "data/korea_popularity/evaluation/gold_set_test.csv — 열지 않았다",
+ "seeds_extended_gate_a": [
+  42,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "writes": [
+  "experiments/phase3d/metrics.json",
+  "experiments/phase3d/manifest.json",
+  "experiments/phase3d/candidates.csv",
+  "experiments/phase3d/per_seed.csv"
+ ],
+ "elapsed_sec": 69.4
+}

@@ -1,0 +1,36 @@
+{
+ "phase": 3,
+ "projection": "umap n_neighbors=10 min_dist=0.1 seed=42 (팀 결정)",
+ "family_definition": "Set B — reviewed-1 accord 기반 9계열",
+ "phase3a_recommendation": "SetB",
+ "gate_a": {
+  "pass_line": 0.3115,
+  "population": "global1000",
+  "baseline": 0.2615
+ },
+ "gate_b": {
+  "threshold": 0.9,
+  "metric": "trustworthiness@10",
+  "population": "global1000"
+ },
+ "survivors": [
+  "C1 post-hoc",
+  "C3 semi w=0.35",
+  "C3 semi w=0.5",
+  "C8a perception b=0.15",
+  "C8b family .35 + perc .15"
+ ],
+ "pareto_front": [
+  "C8a perception b=0.15",
+  "C8b family .35 + perc .15"
+ ],
+ "recommendation": "C8b family .35 + perc .15",
+ "recommendation_basis": "비교축 3개 모두에서 앞서고 Gate A(보호 지표)까지 개선한다. 잃는 것은 국소 보존 한 곳(trust@10 -0.0196, Gate B 통과)",
+ "d9_reconfirmed": "계열을 좌표로 강제 분리하는 방식은 영역 가독성을 얻고 사람 판단을 잃는다. C2 supervised 는 가중 0.2 에서도 Gate A 를 +0.188 초과",
+ "next": [
+  "C8b 혼합 가중 스윕",
+  "TriMap-dist 로 후보 재검증(팀 결정 ②)",
+  "Phase 4 균형",
+  "Phase 5 UX 프로토타입"
+ ]
+}

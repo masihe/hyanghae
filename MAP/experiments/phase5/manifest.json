@@ -1,0 +1,42 @@
+{
+ "experiment": "P5_SOFT_TERRITORY",
+ "phase": "5",
+ "title": "soft / multi-family Territory — hard(T0) → soft(T6) 스윕",
+ "hypothesis": "Family Score 전체를 쓰면 향수 구성을 바꾸지 않고도 Fruity 가 Territory 를 갖는다 (D26 결정 ⑤)",
+ "user_meaning": "구성을 바꾸지 않고 작은 계열의 탐색 구역을 만들 수 있는가",
+ "changed_variable": "Territory 계산 시 계열 기여 방식 (좌표·구성 불변)",
+ "population": [
+  "korea200"
+ ],
+ "family_mapping_version": "reviewed-1",
+ "primary_metrics": [
+  "families_with_territory",
+  "fruity area/blob/coverage"
+ ],
+ "guardrail_metrics": [
+  "P5-A Territory >= T0",
+  "P5-B 프루티 보유",
+  "P5-C 평균 active <= 2.0"
+ ],
+ "inputs": {
+  "top200": {
+   "path": "data\\korea_popularity\\korea_representative_perfumes_top200.csv",
+   "sha256": "3a94acac8134e166f138abf14ecbfefb04e3f1e7f655f9df30a6838bf8563cb5"
+  },
+  "phase4_metrics": {
+   "path": "experiments\\phase4\\metrics.json",
+   "sha256": "279be8638fa1095d2247c6b6de35e478656a939216e1c7bcab0d907631a913d7"
+  }
+ },
+ "holdout_untouched": "data/korea_popularity/evaluation/gold_set_test.csv — 열지 않았다",
+ "writes": [
+  "experiments/phase5/metrics.json",
+  "experiments/phase5/manifest.json",
+  "experiments/phase5/per_seed.csv",
+  "experiments/phase5/territory.csv",
+  "experiments/phase5/conditions.csv",
+  "experiments/phase5/family_scores.csv",
+  "experiments/phase5/field_seed42.npz"
+ ],
+ "elapsed_sec": 46.3
+}

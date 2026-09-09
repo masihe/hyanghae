@@ -1,0 +1,9 @@
+﻿condition,mode,param,mean_active_families,perfumes_multi_family,share_le3_families,total_signal,gate_c_ok
+T0 (1위만),argmax_hard,,1.0,0,1.0,200.0,True
+T0w (1위·가중),argmax_weighted,,1.0,0,1.0,80.2,True
+0.30 (T1),threshold,0.3,1.14,27,1.0,89.7,True
+0.28,threshold,0.28,1.225,43,1.0,94.6,True
+0.26,threshold,0.26,1.37,71,1.0,102.4,True
+0.24,threshold,0.24,1.515,95,1.0,109.7,True
+0.22,threshold,0.22,1.69,123,1.0,117.7,True
+0.20 (T2),threshold,0.2,2.01,154,0.99,131.1,False

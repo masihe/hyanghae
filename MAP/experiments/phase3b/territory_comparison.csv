@@ -1,0 +1,14 @@
+﻿method,description,korea_cohesion_ratio,korea_neighborhood_purity,korea_on_own_region,korea_fragments,korea_reminds_pct,korea_trust10,korea_seed_std,korea_collapsed,global_cross_proximity,global_gate_a_delta,global_gate_a,global_trust10,global_overlap10,global_cohesion_ratio
+C1 post-hoc,좌표 유지 + 계열 밀도 영역,3.264,0.655,0.805,24,0.176,0.9191,0.0,False,0.2615,0.0,PASS,0.9387,0.3888,4.187
+C7 gradient,좌표 유지 + 전이 지대 렌더링,3.264,0.655,0.805,24,0.176,0.9191,0.0,False,0.2615,0.0,PASS,0.9387,0.3888,4.187
+C2 supervised w=0.2,계열 라벨을 UMAP target 으로,5.92,0.9685,0.99,15,0.2699,0.8985,0.028,False,0.4495,0.188,DROP,0.9429,0.3711,6.643
+C2 supervised w=0.35,계열 라벨을 UMAP target 으로,6.024,0.974,0.99,14,0.3191,0.8981,0.037,False,0.4669,0.2054,DROP,0.942,0.3664,6.685
+C2 supervised w=0.5,계열 라벨을 UMAP target 으로,6.103,0.9825,0.965,14,0.3246,0.8882,0.007,False,0.482,0.2205,DROP,0.9423,0.3644,6.681
+C2 supervised w=0.7,계열 라벨을 UMAP target 으로,6.081,0.979,0.995,15,0.3142,0.8963,0.007,False,0.5748,0.3133,DROP,0.9415,0.3667,6.687
+C3 semi w=0.35,margin>=0.1 인 향수만 라벨,3.563,0.685,0.82,24,0.1623,0.9217,0.056,False,0.2767,0.0152,PASS,0.9424,0.3887,4.808
+C3 semi w=0.5,margin>=0.1 인 향수만 라벨,3.633,0.7085,0.86,22,0.1637,0.9144,0.03,False,0.2772,0.0157,PASS,0.9451,0.3883,4.729
+C4 fixed+local,해역 고정 + 해역 내 국소 UMAP,6.207,0.985,1.0,9,0.2515,0.8852,0.073,False,0.5392,0.2777,DROP,0.9528,0.3914,6.764
+C5 wheel anchor,계열 앵커 원배치 + Family Score,2.319,0.5275,0.77,25,0.3095,0.7172,0.0,False,0.3018,0.0403,PASS,0.7068,0.0705,2.868
+C6 anchor+local,앵커 셀 + 셀 내 국소 유사도,6.005,0.959,1.0,9,0.3731,0.8824,0.062,False,0.5755,0.314,DROP,0.9522,0.3912,6.756
+C8a perception b=0.15,인식 축만 거리에 섞음 (계열 무관),3.069,0.6195,0.765,17,0.1318,0.9116,0.04,False,0.1864,-0.0751,PASS,0.9193,0.3426,4.046
+C8b family .35 + perc .15,계열 + 인식 축을 함께 섞음,3.913,0.7085,0.86,15,0.147,0.9099,0.041,False,0.2273,-0.0342,PASS,0.9191,0.3146,5.061

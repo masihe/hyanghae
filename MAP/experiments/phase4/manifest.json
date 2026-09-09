@@ -1,0 +1,54 @@
+{
+ "experiment": "P4_BALANCE",
+ "phase": "4",
+ "title": "대표 향수 200개의 계열 균형 — D0 / D1 cap30 / D2 최대균형",
+ "hypothesis": "계열별 향수 수를 고르게 만들면 작은 계열도 탐색 가능한 Territory 가 된다",
+ "user_meaning": "사용자가 계열 영역을 보고 탐색 방향을 정할 수 있는가",
+ "changed_variable": "대표 향수 200개의 구성 (좌표 방식은 C8b 고정)",
+ "population": [
+  "korea200"
+ ],
+ "projection": "C8b — Base 0.500 + Family 0.35 + Perception 0.15, UMAP n_neighbors=10 min_dist=0.1 precomputed",
+ "family_mapping_version": "reviewed-1",
+ "primary_metrics": [
+  "families_with_territory",
+  "observed_cohesion",
+  "per-family area_share / largest_blob_share / spread"
+ ],
+ "guardrail_metrics": [
+  "TOP50 = 50",
+  "accord >= 60",
+  "Territory 계열 수 >= D0",
+  "관측 응집도 >= D0"
+ ],
+ "inputs": {
+  "pool": {
+   "path": "data\\korea_popularity\\korea_map_identities.csv",
+   "sha256": "81a32ca08dd7af5f2e4c217166ec2121fa2d2e8c147698f1590a23d669e7db91"
+  },
+  "top200": {
+   "path": "data\\korea_popularity\\korea_representative_perfumes_top200.csv",
+   "sha256": "3a94acac8134e166f138abf14ecbfefb04e3f1e7f655f9df30a6838bf8563cb5"
+  },
+  "phase3d_metrics": {
+   "path": "experiments\\phase3d\\metrics.json",
+   "sha256": "5b3a9da531709ca4c6e60e29efa52b5d443239893b0fbcdc889064f8c1abe81c"
+  },
+  "accord_dictionary": {
+   "path": "..\\EDA\\analysis_outputs\\10_accord_dictionary.csv",
+   "sha256": "567e91370e575731d11970f89a03120a8c581db5e73df1c16daf37110e79046c"
+  }
+ },
+ "holdout_untouched": "data/korea_popularity/evaluation/gold_set_test.csv — 열지 않았다",
+ "writes": [
+  "experiments/phase4/metrics.json",
+  "experiments/phase4/manifest.json",
+  "experiments/phase4/per_seed.csv",
+  "experiments/phase4/territory.csv",
+  "experiments/phase4/swaps.csv",
+  "experiments/phase4/coordinates_korea200.csv",
+  "experiments/phase4/compositions.csv",
+  "experiments/phase4/distribution.csv"
+ ],
+ "elapsed_sec": 31.3
+}

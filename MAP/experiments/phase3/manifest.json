@@ -1,0 +1,28 @@
+{
+ "experiment_id": "phase3",
+ "phase": 3,
+ "status": "NEW",
+ "hypothesis": "해당 없음 — Phase 요약",
+ "user_meaning": "영역이 읽히면서도 닮았다고 한 향수가 갈라지지 않는 표현이 있는가",
+ "changed_variable": "없음 (3a·3b 결과 종합)",
+ "population": [
+  "korea200",
+  "global1000"
+ ],
+ "projection": "umap n_neighbors=10 min_dist=0.1 seed=42 (팀 결정)",
+ "family_mapping_version": "reviewed-1",
+ "sub_experiments": [
+  "phase3a",
+  "phase3b"
+ ],
+ "primary_metrics": [
+  "cohesion_ratio",
+  "explainability(fixed)",
+  "axis correlation"
+ ],
+ "guardrail_metrics": [
+  "Gate A <= 0.3115",
+  "Gate B trust@10 >= 0.9"
+ ],
+ "recommendation": "C8b family .35 + perc .15"
+}

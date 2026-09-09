@@ -1,0 +1,287 @@
+﻿fragrantica_id,brand,name,korea_rank,pool_status,family,family_ko,family_top1,in_D0 현재,in_D1 cap30,in_D2 최대균형
+65738,Diptyque,Orphéon Eau de Parfum,1,TOP200,MUSK,머스크·파우더리,0.231,True,True,True
+83,Elizabeth Arden,Green Tea,2,TOP200,GREEN,그린·아로마틱,0.442,True,True,True
+74041,Jo Malone London,Wood Sage & Sea Salt Cologne,3,TOP200,AQUATIC,아쿠아틱,0.368,True,True,True
+132132,Daniel's Truth,Signature Bombshelluth,4,TOP200,FLORAL,플로럴,0.321,True,True,True
+9110,Lanvin,Eclat d'Arpege,5,TOP200,FLORAL,플로럴,0.59,True,True,True
+10131,Le Labo,Another 13,6,TOP200,MUSK,머스크·파우더리,0.444,True,True,True
+14214,Diptyque,Eau Rose,7,TOP200,FLORAL,플로럴,0.41,True,True,True
+32134,Aesop,Tacit,8,TOP200,GREEN,그린·아로마틱,0.354,True,True,True
+20542,Maison Martin Margiela,Lazy Sunday Morning,9,TOP200,FLORAL,플로럴,0.56,True,True,True
+6686,Byredo,Blanche,10,TOP200,FLORAL,플로럴,0.598,True,True,True
+68905,Dior,Miss Dior Eau de Parfum (2021),11,TOP200,FLORAL,플로럴,0.376,True,True,True
+78945,Dior,Miss Dior Blooming Bouquet (2023),12,TOP200,FLORAL,플로럴,0.59,True,True,True
+72040,Diptyque,Philosykos Eau de Toilette,13,TOP200,GREEN,그린·아로마틱,0.314,True,True,True
+75979,Forment,Cotton Hug,14,TOP200,FLORAL,플로럴,0.536,True,True,True
+6188,Kiehl's,Original Musk,15,TOP200,MUSK,머스크·파우더리,0.419,True,True,True
+8441,Byredo,La Tulipe,16,TOP200,FLORAL,플로럴,0.385,True,True,True
+15134,Jo Malone London,Blackberry & Bay,17,TOP200,GREEN,그린·아로마틱,0.224,True,True,True
+6458,Byredo,Bal d'Afrique,18,TOP200,WOODY,우디,0.384,True,True,True
+68919,Dashu,Acqua Dive,19,TOP200,MUSK,머스크·파우더리,0.245,True,True,True
+276,Calvin Klein,CK One,20,TOP200,CITRUS,시트러스,0.305,True,True,True
+1483,Chanel,Chance Eau Fraiche,21,TOP200,WOODY,우디,0.324,True,True,True
+56741,Ariana Grande,"Thank U, Next",22,TOP200,GOURMAND,구르망,0.731,True,True,True
+1360,Chanel,Chanel N°5 Eau Premiere,23,TOP200,FLORAL,플로럴,0.593,True,True,True
+131717,Diptyque,Fleur de Peau,24,TOP200,MUSK,머스크·파우더리,0.467,True,True,True
+607,Chanel,Allure Homme Sport,25,TOP200,CITRUS,시트러스,0.263,True,True,True
+39970,Ariana Grande,Sweet Like Candy,26,TOP200,GOURMAND,구르망,0.561,True,True,True
+31661,Ariana Grande,Ari,27,TOP200,GOURMAND,구르망,0.361,True,True,True
+611,Chanel,Coco Mademoiselle,28,TOP200,WOODY,우디,0.328,True,True,True
+30796,Chanel,Chance Eau Vive,29,TOP200,CITRUS,시트러스,0.405,True,True,True
+184,Lancôme,Miracle,30,TOP200,FLORAL,플로럴,0.334,True,True,True
+12192,Tom Ford,Neroli Portofino,31,TOP200,CITRUS,시트러스,0.382,True,True,True
+48478,Lanvin,Modern Princess Eau Sensuelle,32,TOP200,MUSK,머스크·파우더리,0.266,True,True,True
+18,Hermès,Un Jardin Sur Le Nil,33,TOP200,GREEN,그린·아로마틱,0.266,True,True,True
+56077,Yves Saint Laurent,Libre,34,TOP200,GREEN,그린·아로마틱,0.243,True,True,True
+46187,Jo Malone London,English Oak & Hazelnut,35,TOP200,WOODY,우디,0.657,True,True,True
+68578,Gucci,Flora Gorgeous Gardenia,36,TOP200,FLORAL,플로럴,0.446,True,True,True
+27040,Byredo,Mojave Ghost,37,TOP200,FLORAL,플로럴,0.357,True,True,True
+52359,Chanel,Chance Eau Tendre Eau de Parfum,38,TOP200,FLORAL,플로럴,0.389,True,True,True
+29165,Jimmy Choo,Jimmy Choo Blossom,39,TOP200,FRUITY,프루티,0.338,True,True,True
+12201,Le Labo,Santal 33,40,TOP200,WOODY,우디,0.455,True,True,True
+9405,Lanvin,Marry Me,41,TOP200,FLORAL,플로럴,0.549,True,True,True
+64167,Aesop,Rozu,42,TOP200,WOODY,우디,0.334,True,True,True
+131985,Huxley,Moroccan Gardener,43,TOP200,FLORAL,플로럴,0.51,True,True,True
+10314,Jo Malone London,English Pear & Freesia,44,TOP200,FLORAL,플로럴,0.377,True,True,True
+653,Salvatore Ferragamo,Incanto Charms,45,TOP200,FRUITY,프루티,0.41,True,True,True
+3779,Lanvin,Jeanne Lanvin,46,TOP200,FRUITY,프루티,0.353,True,True,True
+536,Estée Lauder,Pleasures,47,TOP200,FLORAL,플로럴,0.644,True,True,True
+68416,Clean,Pure Soap,48,TOP200,FLORAL,플로럴,0.396,True,True,True
+632,Versace,Bright Crystal,49,TOP200,FLORAL,플로럴,0.482,True,True,True
+44894,Gucci,Gucci Bloom,50,TOP200,FLORAL,플로럴,0.822,True,True,True
+3575,Byredo,Gypsy Water,51,TOP200,AMBER,앰버·스파이시,0.291,True,True,True
+12310,Jo Malone London,Wild Bluebell,52,TOP200,MUSK,머스크·파우더리,0.414,True,True,True
+38914,Yves Saint Laurent,Mon Paris,53,TOP200,FRUITY,프루티,0.309,True,True,True
+73661,Santa Maria Novella,Angeli di Firenze,54,TOP200,AQUATIC,아쿠아틱,0.268,True,True,True
+50384,Ariana Grande,Cloud,55,TOP200,GOURMAND,구르망,0.805,True,True,True
+17798,Byredo,Inflorescence,56,TOP200,FLORAL,플로럴,0.761,True,True,True
+56076,Chanel,Gabrielle Essence,57,TOP200,FLORAL,플로럴,0.483,True,True,True
+5484,Jo Malone London,Red Roses,58,TOP200,FLORAL,플로럴,0.502,True,True,True
+5585,Jo Malone London,Lime Basil & Mandarin,59,TOP200,GREEN,그린·아로마틱,0.411,True,True,True
+109563,Sennok,After Bath,60,TOP200,GREEN,그린·아로마틱,0.444,True,True,True
+42944,Calvin Klein,CK All,61,TOP200,FLORAL,플로럴,0.318,True,True,False
+75642,Dior,J'adore Parfum d'Eau,62,TOP200,FLORAL,플로럴,0.647,True,True,False
+11784,Montblanc,Legend,63,TOP200,GREEN,그린·아로마틱,0.263,True,True,True
+25836,Burberry,My Burberry,64,TOP200,FLORAL,플로럴,0.375,True,True,False
+275,Calvin Klein,CK be,65,TOP200,GREEN,그린·아로마틱,0.45,True,True,True
+108962,Tamburins,Pumkini,66,TOP200,GOURMAND,구르망,0.297,True,True,True
+23032,Clean,Cool Cotton,67,TOP200,MUSK,머스크·파우더리,0.311,True,True,True
+10464,Frederic Malle,Portrait of a Lady,68,TOP200,AMBER,앰버·스파이시,0.455,True,True,True
+18767,Jo Malone London,Peony & Blush Suede,69,TOP200,FLORAL,플로럴,0.644,True,True,False
+72062,Dior,Dior Homme Cologne 2022,70,TOP200,CITRUS,시트러스,0.358,True,True,True
+72606,Yves Saint Laurent,Mon Paris Lumière,71,TOP200,FLORAL,플로럴,0.571,True,True,False
+31861,Dior,Sauvage,72,TOP200,AMBER,앰버·스파이시,0.415,True,True,True
+79437,Jo Malone London,Earl Grey & Cucumber,73,TOP200,AQUATIC,아쿠아틱,0.257,True,True,True
+52002,Montblanc,Explorer,74,TOP200,AMBER,앰버·스파이시,0.303,True,True,True
+12426,Prada,Prada Candy,75,TOP200,GOURMAND,구르망,0.483,True,True,True
+2271,Lanvin,Rumeur 2 Rose,76,TOP200,CITRUS,시트러스,0.405,True,True,True
+3865,Diptyque,Philosykos Eau de Parfum,77,TOP200,GOURMAND,구르망,0.328,True,True,True
+5534,John Varvatos,Artisan,78,TOP200,CITRUS,시트러스,0.309,True,True,True
+644,Versace,Versace Man Eau Fraiche,79,TOP200,CITRUS,시트러스,0.297,True,True,True
+2186,Montale,Chocolate Greedy,80,TOP200,GOURMAND,구르망,0.639,True,True,True
+92647,Versace,Eros Energy,81,TOP200,CITRUS,시트러스,0.518,True,True,True
+65792,Jaguar,Jaguar Classic Electric Sky,82,TOP200,AMBER,앰버·스파이시,0.3,True,True,True
+96192,Lalique,Soleil Lunar,83,TOP200,FLORAL,플로럴,0.333,True,True,False
+39181,Mancera,Aoud Lemon Mint,84,TOP200,GOURMAND,구르망,0.321,True,True,True
+53671,Parfums Berdoues,Azur Riviera,85,TOP200,AQUATIC,아쿠아틱,0.521,True,True,True
+64022,Banana Republic,Metal Rain,86,TOP200,GREEN,그린·아로마틱,0.316,True,True,True
+37603,Nishane,Fan Your Flames,87,TOP200,GOURMAND,구르망,0.512,True,True,True
+74740,Banana Republic,Midnight Hour,88,TOP200,AMBER,앰버·스파이시,0.308,True,True,True
+45029,Banana Republic,90 Pure White,89,TOP200,GREEN,그린·아로마틱,0.338,True,True,True
+106298,BMW Fragrances,Bergamood,90,TOP200,GREEN,그린·아로마틱,0.351,True,True,True
+1923,Rance 1795,Le Vainqueur,91,TOP200,AQUATIC,아쿠아틱,0.309,True,True,True
+93865,SW19,Midnight,92,TOP200,MUSK,머스크·파우더리,0.558,True,True,True
+95034,Youssoful,Saint Moritz,93,TOP200,FRUITY,프루티,0.218,True,True,True
+82586,Clean,Apple Blossom,94,TOP200,FRUITY,프루티,0.283,True,True,True
+116396,Montale,Be My Plum,95,TOP200,FLORAL,플로럴,0.303,True,False,False
+74107,Mancera,Jasmin Exclusif,96,TOP200,WOODY,우디,0.469,True,True,True
+1929,Rance 1795,Josephine,97,TOP200,FLORAL,플로럴,0.356,True,False,False
+90739,Montale,Bubble Forever,98,TOP200,CITRUS,시트러스,0.301,True,True,True
+44174,Nishane,Hacivat,99,TOP200,WOODY,우디,0.472,True,True,True
+35456,John Varvatos,Artisan Blu,100,TOP200,GREEN,그린·아로마틱,0.487,True,True,True
+30567,Nishane,Wulóng Chá,101,TOP200,CITRUS,시트러스,0.391,True,True,True
+8339,John Varvatos,Artisan Black,102,TOP200,CITRUS,시트러스,0.366,True,True,True
+54976,Rance 1795,Désirée,103,TOP200,FLORAL,플로럴,0.273,True,False,False
+104985,Dolce&Gabbana,Light Blue Eau de Toilette,104,TOP200,CITRUS,시트러스,0.267,True,True,True
+87956,Rance 1795,Mathilde,105,TOP200,FLORAL,플로럴,0.668,True,False,False
+95642,Issey Miyake,Le Sel d’Issey,106,TOP200,AQUATIC,아쿠아틱,0.456,True,True,True
+50790,Essential Parfums,The Musc,107,TOP200,MUSK,머스크·파우더리,0.484,True,True,True
+50786,Essential Parfums,Orange X Santal,108,TOP200,WOODY,우디,0.332,True,True,True
+121230,Elizabeth Arden,Green Tea Strawberry Basil,109,TOP200,GREEN,그린·아로마틱,0.372,True,True,True
+3024,Clean,Clean Warm Cotton,110,TOP200,CITRUS,시트러스,0.27,True,True,True
+73092,Essential Parfums,Fig Infusion,111,TOP200,WOODY,우디,0.256,True,True,True
+106299,BMW Fragrances,Amberness,112,TOP200,AMBER,앰버·스파이시,0.459,True,True,True
+31436,Parfums Berdoues,Assam of India,113,TOP200,GREEN,그린·아로마틱,0.369,True,True,True
+890,Ralph Lauren,Polo,114,TOP200,WOODY,우디,0.475,True,True,True
+72796,Mancera,Intense Cedrat Boise,115,TOP200,WOODY,우디,0.348,True,True,True
+98468,Adidas,Spark Up,116,TOP200,CITRUS,시트러스,0.344,True,True,True
+59392,Banana Republic,Dark Cherry & Amber,117,TOP200,GOURMAND,구르망,0.32,True,True,True
+60320,Replay,Signature Lovers for Woman,118,TOP200,FLORAL,플로럴,0.369,True,False,False
+54885,Mancera,Instant Crush,119,TOP200,AMBER,앰버·스파이시,0.323,True,True,True
+122211,Narciso Rodriguez,Pure Musc Blanc For Her,120,TOP200,MUSK,머스크·파우더리,0.43,True,True,True
+10728,Rance 1795,Helene,121,TOP200,FLORAL,플로럴,0.247,True,False,False
+76893,Mancera,Tonka Cola,122,TOP200,AMBER,앰버·스파이시,0.429,True,True,True
+94718,Kenneth Cole,Mankind Rise,123,TOP200,WOODY,우디,0.377,True,True,True
+115749,BMW Fragrances,BMW M 2025,124,TOP200,AMBER,앰버·스파이시,0.522,True,True,True
+109565,Sennok,Soap Clean Soap,125,TOP200,MUSK,머스크·파우더리,0.543,True,True,True
+75731,Mancera,Fabulous Yuzu,126,TOP200,CITRUS,시트러스,0.326,True,True,True
+4849,Philosophy,Amazing Grace,127,TOP200,FLORAL,플로럴,0.43,True,False,False
+42782,Mancera,Coco Vanille,128,TOP200,GOURMAND,구르망,0.624,True,True,True
+16657,Versace,Eros,129,TOP200,GREEN,그린·아로마틱,0.365,True,True,True
+122669,Coach,Coach Cherry,130,TOP200,GOURMAND,구르망,0.305,True,True,True
+76824,Sabrina Carpenter,Sweet Tooth,131,TOP200,GOURMAND,구르망,0.743,True,True,True
+42670,Mancera,Sicily,132,TOP200,CITRUS,시트러스,0.342,True,True,True
+18042,Mancera,Roses Greedy,133,TOP200,FLORAL,플로럴,0.475,True,False,False
+99134,Luafee,"Oh, Love",134,TOP200,AMBER,앰버·스파이시,0.266,True,True,True
+74636,Mancera,French Riviera,135,TOP200,AQUATIC,아쿠아틱,0.313,True,True,True
+1198,Ralph Lauren,Polo Blue,136,TOP200,AQUATIC,아쿠아틱,0.441,True,True,True
+4023,Montblanc,Starwalker,137,TOP200,WOODY,우디,0.299,True,True,True
+43531,Etat Libre d'Orange,You Or Someone Like You,138,TOP200,GREEN,그린·아로마틱,0.536,True,True,True
+129391,Calvin Klein,CK One Night Essence,139,TOP200,MUSK,머스크·파우더리,0.311,True,True,True
+123059,RboW,Tokyo Fig,140,TOP200,FLORAL,플로럴,0.2,True,False,False
+69742,Lanvin,Sunny Magnolia,141,TOP200,FLORAL,플로럴,0.295,True,False,False
+50789,Essential Parfums,Nice Bergamote,142,TOP200,FLORAL,플로럴,0.329,True,False,False
+6420,Rance 1795,Rue Rance Eau De La Couronne,143,TOP200,FLORAL,플로럴,0.457,True,False,False
+3172,Rance 1795,Francois Charles,144,TOP200,AMBER,앰버·스파이시,0.25,True,True,True
+64015,Jimmy Choo,I Want Choo,145,TOP200,FLORAL,플로럴,0.313,True,False,False
+1924,Rance 1795,Eugenie,146,TOP200,FLORAL,플로럴,0.372,True,False,False
+16931,Lalique,L'Amour,147,TOP200,FLORAL,플로럴,0.544,True,False,False
+115747,BMW Fragrances,BMW M  1985,148,TOP200,WOODY,우디,0.457,True,True,True
+115746,BMW Fragrances,BMW M 1972,149,TOP200,GREEN,그린·아로마틱,0.273,True,True,True
+95035,Youssoful,Berry Sexy,150,TOP200,GOURMAND,구르망,0.538,True,True,True
+50225,Banana Republic,Neroli Woods,151,TOP200,FLORAL,플로럴,0.361,True,False,False
+37602,Nishane,Hundred Silent Ways,152,TOP200,FLORAL,플로럴,0.363,True,False,False
+75969,Jimmy Choo,I Want Choo Forever,153,TOP200,GOURMAND,구르망,0.603,True,True,True
+64093,Nishane,Nanshe,154,TOP200,MUSK,머스크·파우더리,0.408,True,True,True
+109564,Sennok,Slow September,155,TOP200,WOODY,우디,0.535,True,True,True
+95156,Jimmy Choo,I Want Choo Le Parfum,156,TOP200,GOURMAND,구르망,0.296,True,True,True
+31247,Narciso Rodriguez,Narciso Rodriguez for Him Bleu Noir,157,TOP200,WOODY,우디,0.309,True,True,True
+1000,Burberry,Weekend for Women,158,TOP200,FLORAL,플로럴,0.385,True,False,False
+103276,Essential Parfums,Velvet Iris,159,TOP200,FLORAL,플로럴,0.284,True,False,False
+111273,Chloé,Chloé Le Parfum,160,TOP200,FLORAL,플로럴,0.423,True,False,False
+57088,Essential Parfums,Divine Vanille,161,TOP200,AMBER,앰버·스파이시,0.563,True,True,True
+50787,Essential Parfums,Rose Magnetic,162,TOP200,FLORAL,플로럴,0.379,True,False,False
+72,Kenzo,Flower by Kenzo,163,TOP200,FLORAL,플로럴,0.42,True,False,False
+50788,Essential Parfums,Mon Vetiver,164,TOP200,GREEN,그린·아로마틱,0.43,True,True,True
+68367,Ariana Grande,Thank U Next 2.0,165,TOP200,FRUITY,프루티,0.272,True,True,True
+815,Burberry,Touch for Men,166,TOP200,AQUATIC,아쿠아틱,0.274,True,True,True
+85144,Essential Parfums,Patchouli Mania,167,TOP200,WOODY,우디,0.518,True,True,True
+90834,Essential Parfums,Néroli Botanica,168,TOP200,FLORAL,플로럴,0.448,True,False,False
+57384,Montale,Arabians Tonka,169,TOP200,GOURMAND,구르망,0.373,True,True,True
+46623,John Varvatos,Artisan Pure,170,TOP200,CITRUS,시트러스,0.385,True,True,True
+108587,Yugen,Inspire,171,TOP200,AQUATIC,아쿠아틱,0.361,True,True,True
+84224,Ex Nihilo,Blue Talisman,172,TOP200,CITRUS,시트러스,0.236,True,True,True
+39761,Lush,29 High Street,173,TOP200,GOURMAND,구르망,0.592,True,True,True
+70985,Maison Martin Margiela,When the Rain Stops,174,TOP200,AQUATIC,아쿠아틱,0.374,True,True,True
+52180,Versace,Eros Flame,175,TOP200,CITRUS,시트러스,0.25,True,True,True
+72381,Stéphane Humbert Lucas 777,God of Fire,176,TOP200,FRUITY,프루티,0.439,True,True,True
+485,Dolce&Gabbana,Light Blue,177,TOP200,CITRUS,시트러스,0.322,True,True,True
+116224,Nishane,Meant To Be Seen,178,TOP200,FLORAL,플로럴,0.345,True,False,False
+45711,Philosophy,Amazing Grace Ballet Rose,179,TOP200,FLORAL,플로럴,0.631,True,False,False
+103564,Maison Martin Margiela,Never-ending Summer,180,TOP200,WOODY,우디,0.271,True,True,True
+63829,Banana Republic,Peony & Peppercorn,181,TOP200,FLORAL,플로럴,0.478,True,False,False
+69281,Bentley,Momentum Unbreakable Eau de Parfum,182,TOP200,WOODY,우디,0.31,True,True,True
+89712,Jaguar,Jaguar Era Reloaded,183,TOP200,GOURMAND,구르망,0.264,True,True,True
+54785,Nishane,Ani,184,TOP200,AMBER,앰버·스파이시,0.384,True,True,True
+47891,Maison Martin Margiela,Sailing Day,185,TOP200,AQUATIC,아쿠아틱,0.47,True,True,True
+48434,Chloé,Nomade,186,TOP200,WOODY,우디,0.429,True,True,True
+64092,Nishane,EGE / ΑΙΓΑΙΟ,187,TOP200,GREEN,그린·아로마틱,0.47,True,True,True
+62372,Chloé,Chloé Rose Tangerine,188,TOP200,FLORAL,플로럴,0.359,True,False,False
+74739,Banana Republic,Velvet Pomegranate,189,TOP200,FLORAL,플로럴,0.358,True,False,False
+120743,Maison Martin Margiela,Up At Dawn,190,TOP200,WOODY,우디,0.432,True,True,True
+32523,Mercedes-Benz,Mercedes Benz Man,191,TOP200,WOODY,우디,0.496,True,True,True
+49827,Replay,Replay Signature Secret,192,TOP200,FLORAL,플로럴,0.432,True,False,False
+124051,Postes,From.Saint-Tropez,193,TOP200,MUSK,머스크·파우더리,0.479,True,True,True
+46300,Mancera,Musky Garden,194,TOP200,MUSK,머스크·파우더리,0.286,True,True,True
+21547,Versace,Bright Crystal Absolu,195,TOP200,FLORAL,플로럴,0.365,True,False,False
+104123,Clean,Strawberry Fields,196,TOP200,MUSK,머스크·파우더리,0.249,True,True,True
+132011,Huxley,Port Breathe,197,TOP200,CITRUS,시트러스,0.312,True,True,True
+114281,Tenui,Bare,198,TOP200,MUSK,머스크·파우더리,0.222,True,True,True
+114188,Kuoca,Wild Peach,199,TOP200,CITRUS,시트러스,0.222,True,True,True
+98469,Adidas,Happy Feels,200,TOP200,FLORAL,플로럴,0.356,True,False,False
+50767,Replay,#Tank Plate for Him,201,RESERVE,WOODY,우디,0.695,False,True,True
+62766,TUMI,Awaken,202,RESERVE,GREEN,그린·아로마틱,0.305,False,True,True
+88050,Replay,Source of Life Woman,203,RESERVE,CITRUS,시트러스,0.4,False,True,True
+73547,Trussardi,The Italian Artists of Via Solferino,204,RESERVE,FLORAL,플로럴,0.455,False,False,False
+80039,Trussardi,District of Nolo,205,RESERVE,MUSK,머스크·파우더리,0.28,False,True,True
+4064,Montale,Vanille Absolu,206,RESERVE,GOURMAND,구르망,0.432,False,True,True
+133967,SW19,5pm,207,RESERVE,FLORAL,플로럴,0.424,False,False,False
+114286,Tenui,Feather,208,RESERVE,AMBER,앰버·스파이시,0.231,False,True,True
+131211,Addct,Void Wood,209,RESERVE,WOODY,우디,0.561,False,True,False
+57879,Mancera,Amber Fever,210,RESERVE,AMBER,앰버·스파이시,0.321,False,True,True
+1068,Dolce&Gabbana,Light Blue pour Homme,211,RESERVE,AMBER,앰버·스파이시,0.342,False,True,True
+45055,Montale,Day Dreams,212,RESERVE,FLORAL,플로럴,0.337,False,False,False
+93864,SW19,6am,213,RESERVE,GREEN,그린·아로마틱,0.422,False,True,True
+59828,Trussardi,Behind The Curtain Piazza Alla Scala,214,RESERVE,WOODY,우디,0.58,False,True,False
+59830,Trussardi,I Vicoli Via Fiori Chiari,215,RESERVE,AMBER,앰버·스파이시,0.516,False,True,True
+73546,Trussardi,Walking in Porta Venezia,216,RESERVE,GREEN,그린·아로마틱,0.458,False,True,True
+131298,Lanvin,Éclat d’Arpège White Tea,217,RESERVE,FLORAL,플로럴,0.303,False,False,False
+125424,Issey Miyake,Lumière d’Issey,218,RESERVE,FLORAL,플로럴,0.365,False,False,False
+33443,Montblanc,Legend Spirit,219,RESERVE,CITRUS,시트러스,0.24,False,True,False
+209,Narciso Rodriguez,Narciso Rodriguez For Her,220,RESERVE,MUSK,머스크·파우더리,0.376,False,True,True
+123200,Mercedes-Benz,Mercedes-Benz Man Fresh,221,NOT_SELECTED,GREEN,그린·아로마틱,0.462,False,True,False
+81773,Montale,Infinity,222,NOT_SELECTED,AMBER,앰버·스파이시,0.353,False,True,True
+71607,Calvin Klein,CK Everyone Eau de Parfum,223,NOT_SELECTED,GREEN,그린·아로마틱,0.329,False,True,False
+59840,Parfums Berdoues,Guaria Morada,224,NOT_SELECTED,WOODY,우디,0.418,False,True,False
+73336,John Varvatos,XX Artisan Teal,225,NOT_SELECTED,AQUATIC,아쿠아틱,0.313,False,True,True
+38890,Lanvin,Modern Princess,226,NOT_SELECTED,FRUITY,프루티,0.327,False,True,True
+115545,Versace,Crystal Emerald,227,NOT_SELECTED,MUSK,머스크·파우더리,0.349,False,True,True
+110365,Holibanum,Summer Break,228,NOT_SELECTED,CITRUS,시트러스,0.392,False,True,False
+76413,TUMI,Kinetic [--:-- GMT],229,NOT_SELECTED,AMBER,앰버·스파이시,0.438,False,True,True
+70278,TUMI,Continuum,230,NOT_SELECTED,AMBER,앰버·스파이시,0.449,False,True,True
+93863,SW19,3pm,231,NOT_SELECTED,FLORAL,플로럴,0.283,False,False,False
+14109,Jimmy Choo,Jimmy Choo Eau de Toilette,232,NOT_SELECTED,FLORAL,플로럴,0.229,False,False,False
+62770,TUMI,Unwind,233,NOT_SELECTED,GREEN,그린·아로마틱,0.355,False,True,False
+877,Kenneth Cole,Black,234,NOT_SELECTED,FLORAL,플로럴,0.651,False,False,False
+72448,Lalique,Soleil Vibrant,235,NOT_SELECTED,GOURMAND,구르망,0.343,False,True,True
+637,Versace,Blue Jeans,236,NOT_SELECTED,GREEN,그린·아로마틱,0.297,False,True,False
+4859,Grès,Cabotine Rose,237,NOT_SELECTED,FLORAL,플로럴,0.669,False,False,False
+55532,Grès,Cabochard Chérie,238,NOT_SELECTED,WOODY,우디,0.4,False,True,False
+62839,Memo Paris,Odéon,239,NOT_SELECTED,AMBER,앰버·스파이시,0.248,False,True,True
+15210,Mancera,Roses Vanille,240,NOT_SELECTED,FLORAL,플로럴,0.332,False,False,False
+101595,Narciso Rodriguez,Narciso Rodriguez For Her Intense,241,NOT_SELECTED,MUSK,머스크·파우더리,0.367,False,True,True
+12301,Montale,Pretty Fruity,242,NOT_SELECTED,FRUITY,프루티,0.43,False,False,True
+96021,Narciso Rodriguez,All Of Me Intense,243,NOT_SELECTED,FLORAL,플로럴,0.456,False,False,False
+83028,Lanvin,Sweet Jasmine,244,NOT_SELECTED,FLORAL,플로럴,0.5,False,False,False
+118435,Youssoful,Emporia Cotton,245,NOT_SELECTED,GREEN,그린·아로마틱,0.407,False,False,False
+61046,Mancera,Vetiver Sensuel,246,NOT_SELECTED,CITRUS,시트러스,0.29,False,False,False
+95620,LOIVIE,Bergamot & White Rose,247,NOT_SELECTED,FLORAL,플로럴,0.311,False,False,False
+12299,Montale,Musk to Musk,248,NOT_SELECTED,MUSK,머스크·파우더리,0.44,False,False,True
+2432,The Body Shop,White Musk,249,NOT_SELECTED,MUSK,머스크·파우더리,0.545,False,False,True
+125266,SW19,8am,250,NOT_SELECTED,WOODY,우디,0.367,False,False,False
+9222,Montale,Roses Elixir,251,NOT_SELECTED,FLORAL,플로럴,0.362,False,False,False
+2318,Versace,Versace Pour Homme,252,NOT_SELECTED,CITRUS,시트러스,0.341,False,False,False
+3772,Montale,Crystal Flowers,253,NOT_SELECTED,FLORAL,플로럴,0.555,False,False,False
+11896,Rance 1795,Le Roi Empereur,254,NOT_SELECTED,AMBER,앰버·스파이시,0.401,False,False,True
+35971,Elizabeth Arden,Green Tea Nectarine Blossom,255,NOT_SELECTED,FRUITY,프루티,0.333,False,False,True
+9559,Montale,Aoud Forest,256,NOT_SELECTED,GREEN,그린·아로마틱,0.225,False,False,False
+60321,Replay,Signature Lovers For Man,257,NOT_SELECTED,AMBER,앰버·스파이시,0.266,False,False,True
+46410,Ariana Grande,Moonlight,258,NOT_SELECTED,GOURMAND,구르망,0.337,False,False,True
+94832,Hotel Dawson,Midsommar,259,NOT_SELECTED,WOODY,우디,0.563,False,False,False
+113867,John Varvatos,Artisan Forest,260,NOT_SELECTED,GREEN,그린·아로마틱,0.393,False,False,False
+55927,Maison Martin Margiela,Springtime in a Park,261,NOT_SELECTED,FLORAL,플로럴,0.26,False,False,False
+95618,LOIVIE,Peony & White Musk,262,NOT_SELECTED,FLORAL,플로럴,0.467,False,False,False
+123290,KINFOLK NOTES,Captain's Bar,263,NOT_SELECTED,MUSK,머스크·파우더리,0.343,False,False,True
+21856,Bentley,Bentley For Men Azure,264,NOT_SELECTED,AQUATIC,아쿠아틱,0.261,False,False,True
+1148,Montale,Roses Musk,265,NOT_SELECTED,FLORAL,플로럴,0.513,False,False,False
+45086,Jill Stuart,Crystal Bloom Something Pure Blue,266,NOT_SELECTED,FLORAL,플로럴,0.552,False,False,False
+18021,Montale,Intense Cafe,267,NOT_SELECTED,FLORAL,플로럴,0.348,False,False,False
+53588,Ex Nihilo,Lust in Paradise,268,NOT_SELECTED,FLORAL,플로럴,0.484,False,False,False
+638,Versace,Red Jeans,269,NOT_SELECTED,FLORAL,플로럴,0.418,False,False,False
+124286,Maison Martin Margiela,Chasing Sunsets,270,NOT_SELECTED,FRUITY,프루티,0.388,False,False,True
+10858,Marc Jacobs,Daisy Eau So Fresh,271,NOT_SELECTED,FRUITY,프루티,0.303,False,False,True
+62021,Marc Jacobs,Perfect,272,NOT_SELECTED,GOURMAND,구르망,0.328,False,False,True
+123063,Sennok,Sleeping Rose,273,NOT_SELECTED,FLORAL,플로럴,0.523,False,False,False
+38167,Parfums Berdoues,Vanira Moorea,274,NOT_SELECTED,GOURMAND,구르망,0.331,False,False,True
+24644,Memo Paris,Kedu,275,NOT_SELECTED,CITRUS,시트러스,0.467,False,False,False
+53224,Chloé,Nomade Eau de Toilette,276,NOT_SELECTED,WOODY,우디,0.462,False,False,False
+80042,Kenzo,Kenzo Homme Marine,277,NOT_SELECTED,AQUATIC,아쿠아틱,0.26,False,False,True
+76395,Elizabeth Arden,White Tea Eau de Parfum,278,NOT_SELECTED,GREEN,그린·아로마틱,0.455,False,False,False
+95861,Sabrina Carpenter,Sweet Tooth Cherry Baby,279,NOT_SELECTED,FRUITY,프루티,0.371,False,False,True
+75629,Clean,Soft Laundry,280,NOT_SELECTED,MUSK,머스크·파우더리,0.315,False,False,False
+91712,Elizabeth Arden,Green Tea Coconut Breeze,281,NOT_SELECTED,CITRUS,시트러스,0.195,False,False,False
+104354,Chwi 취,Sachal 사찰,282,NOT_SELECTED,AMBER,앰버·스파이시,0.51,False,False,True
+40031,Versace,Versace Pour Homme Dylan Blue,283,NOT_SELECTED,AMBER,앰버·스파이시,0.473,False,False,False
+121752,ANILLO,Amber 528,284,NOT_SELECTED,CITRUS,시트러스,0.318,False,False,False
+77998,Memo Paris,Sherwood,285,NOT_SELECTED,MUSK,머스크·파우더리,0.346,False,False,False
+106403,Montblanc,Explorer Extreme,286,NOT_SELECTED,WOODY,우디,0.521,False,False,False
