@@ -1,0 +1,9 @@
+﻿variant,svd_dim,note_weighting,negative,recall,hit_rate,mrr,ndcg,top10_hit,queries,explain_shared_note_ge1,explain_shared_rare_accord_ge1,explain_mean_shared_note
+A8 k=64 idf clip0,64,idf,clip0,0.229,0.46,0.3262,0.217,0.4175,467,0.9289,0.8868,2.769
+A8 k=64 idf raw,64,idf,raw,0.229,0.46,0.3262,0.217,0.4175,467,0.9289,0.8868,2.769
+A8 k=64 plain clip0,64,plain,clip0,0.2275,0.4557,0.3199,0.2134,0.4216,467,0.9309,0.8917,2.767
+A8 k=64 plain raw,64,plain,raw,0.2275,0.4557,0.3199,0.2134,0.4216,467,0.9309,0.8917,2.767
+A8 k=128 idf clip0,128,idf,clip0,0.2335,0.47,0.3334,0.2224,0.4166,467,0.9367,0.887,2.847
+A8 k=128 idf raw,128,idf,raw,0.2335,0.47,0.3334,0.2224,0.4166,467,0.9367,0.887,2.847
+A8 k=128 plain clip0,128,plain,clip0,0.2356,0.4714,0.33,0.2211,0.4202,467,0.9381,0.891,2.835
+A8 k=128 plain raw,128,plain,raw,0.2356,0.4714,0.33,0.2211,0.4202,467,0.9381,0.891,2.835

@@ -1,0 +1,64 @@
+{
+ "experiment_id": "phase2",
+ "phase": 2,
+ "status": "NEW",
+ "hypothesis": "고정된 유사도를 2D 로 옮기는 방식에 따라 이웃 보존과 전역 구조가 달라진다",
+ "user_meaning": "옆에 있는 향수가 실제로 비슷한가, 그리고 멀리 있는 지역이 실제로 더 다른가",
+ "changed_variable": "2D 투영 방법 (유사도·스냅샷·모집단은 고정)",
+ "population": [
+  "global1000",
+  "korea200"
+ ],
+ "snapshot_hash": {
+  "perfumes_csv": "cec1ea0b498853032bcf44d33ad52ac83e2ed2896b67d5a2765d90a0345cc055",
+  "phase0_manifest": "fa3a2439758beb721d69eb0a1d67c3e0344f68e8b1fd6251becac71589bb4019"
+ },
+ "feature_version": "baseline (Phase 1 결과)",
+ "seeds": [
+  42,
+  1,
+  2,
+  3,
+  4
+ ],
+ "parameters": {
+  "umap": "n_neighbors=10 min_dist=0.1 metric=precomputed",
+  "tsne": "perplexity=30 init=random metric=precomputed",
+  "pacmap": "n_neighbors=10, 특징행렬 입력 (precomputed 미지원)",
+  "trimap": "TorchTRIMAP n_inliers=10 n_outliers=5 n_random=5",
+  "knn_force": "k=10 상호 kNN 그래프 + spring_layout(iterations=60)",
+  "k_levels": [
+   5,
+   10,
+   20
+  ]
+ },
+ "primary_metrics": [
+  "knn_overlap@5/10/20",
+  "trustworthiness@5/10/20",
+  "continuity@5/10/20",
+  "distance_rank_corr"
+ ],
+ "guardrail_metrics": [
+  "reminds_pct (사람 투표 신뢰 간선의 2D 근접도)"
+ ],
+ "baseline_reference": {
+  "global1000": {
+   "trust@10": 0.9387,
+   "knn_overlap@10": 0.3888
+  },
+  "korea200": {
+   "trust@10": 0.9191,
+   "knn_overlap@10": 0.4875
+  }
+ },
+ "no_absolute_cutoff": "overlap>=0.30 은 D2 의 UMAP 스윕 최저값이다. 다른 알고리즘의 자동 탈락선으로 쓰지 않고 baseline 대비 상대 + Pareto 로 본다",
+ "pareto_front_global1000": [
+  "UMAP",
+  "t-SNE",
+  "TriMap-dist",
+  "kNN graph + force",
+  "PCA"
+ ],
+ "elapsed_sec": 88.6
+}

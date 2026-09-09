@@ -1,0 +1,31 @@
+{
+ "phase": 1,
+ "question": "어떤 feature 가 사람들이 비슷하다고 평가한 향수를 가장 잘 찾는가",
+ "keep_criteria": {
+  "dev700_ndcg_gt": 0.2709,
+  "global_top10_hit_ge": 0.4464
+ },
+ "results": {
+  "A8": {
+   "verdict": "DROP",
+   "best_ndcg": 0.2224,
+   "best_top10": 0.4216,
+   "variants": 8
+  },
+  "A7": {
+   "verdict": "EXISTING_KNOWLEDGE",
+   "best_ndcg": 0.2724,
+   "best_top10": 0.443,
+   "points": 8
+  },
+  "A2": {
+   "verdict": "DROP",
+   "best_ndcg": 0.266,
+   "best_top10": 0.4343,
+   "variants": 7
+  }
+ },
+ "phase2_input": "baseline 유사도 하나. 0.5 x accord 코사인(raw strength, L2) + 0.5 x note IDF 가중 Jaccard. 신규 후보 0개",
+ "d21_reconfirmed": "D21 은 가중치 스윕과 동의어 통일만 봤고 이번에는 공동출현 임베딩 · 세밀도 집계 · 강도 표현 세 방향을 봤다. 셋 다 음의 결과다",
+ "holdout": "Holdout 300 미사용. 채택된 변경이 없으므로 지금 쓸 이유가 없다"
+}

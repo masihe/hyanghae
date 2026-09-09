@@ -1,0 +1,44 @@
+{
+ "experiment_id": "P1_A7_NOTE_GRANULARITY",
+ "phase": 1,
+ "status": "NEW",
+ "hypothesis": "note 를 중간 세밀도(100~300 그룹)로 묶으면 표층 문자열의 한계를 넘으면서 향수 구분력은 유지할 수 있다",
+ "user_meaning": "정확히 같은 재료가 아니어도 같은 향 계열의 재료를 쓴 향수가 옆에 놓인다",
+ "changed_variable": "note 어휘의 집계 세밀도 (입력 2종 x 그룹 수 4종)",
+ "population": [
+  "dev700",
+  "global1000"
+ ],
+ "snapshot_hash": {
+  "perfumes_csv": "cec1ea0b498853032bcf44d33ad52ac83e2ed2896b67d5a2765d90a0345cc055",
+  "phase0_manifest": "fa3a2439758beb721d69eb0a1d67c3e0344f68e8b1fd6251becac71589bb4019"
+ },
+ "feature_version": "A7 note aggregation",
+ "parameters": {
+  "granularities": [
+   100,
+   200,
+   300,
+   600
+  ],
+  "inputs": [
+   "accord",
+   "cooc"
+  ],
+  "seed": 42,
+  "idf": "합친 뒤 전체 코퍼스에서 문서빈도 재계산"
+ },
+ "primary_metrics": [
+  "dev700 ndcg@10",
+  "global1000 top10_hit"
+ ],
+ "explainability_fixed_criteria": "원본 note 문자열과 원본 accord(보유율<0.30)로만 잰다. 합친 그룹으로 재정의하지 않는다",
+ "verdict_scheme": [
+  "KEEP",
+  "EXISTING_KNOWLEDGE",
+  "DROP"
+ ],
+ "verdict": "EXISTING_KNOWLEDGE",
+ "holdout": "Dev 700 만 사용. Holdout 300 은 건드리지 않았다",
+ "elapsed_sec": 55.8
+}

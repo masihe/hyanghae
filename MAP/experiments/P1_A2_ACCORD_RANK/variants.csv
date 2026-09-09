@@ -1,0 +1,9 @@
+﻿variant,description,recall,hit_rate,mrr,ndcg,top10_hit,explain_shared_note_ge1,explain_shared_rare_accord_ge1
+baseline_strength,raw strength (현재 프로덕션),0.301,0.5657,0.3813,0.2709,0.4464,0.9681,0.9038
+sqrt_strength,sqrt(strength) — 상위 우세를 누른다,0.2851,0.5443,0.3713,0.2607,0.4238,0.9717,0.9273
+sq_strength,strength^2 — 상위를 더 강조,0.283,0.5471,0.3756,0.2603,0.4165,0.9493,0.8462
+rank_linear,"순위만 사용: 8,7,...,1",0.2911,0.5557,0.3787,0.266,0.4343,0.9613,0.9021
+rank_recip,순위 역수: 1/(rank+1),0.2743,0.5329,0.3591,0.2497,0.37,0.9386,0.8502
+binary,보유 여부만 (강도 무시),0.2697,0.5229,0.3539,0.2483,0.3739,0.9652,0.9371
+top3_strength,상위 3개만 raw strength,0.2414,0.4829,0.3333,0.2247,0.3416,0.9323,0.8091
+top5_strength,상위 5개만 raw strength,0.2795,0.55,0.3679,0.2556,0.4133,0.9523,0.8563

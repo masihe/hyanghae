@@ -1,0 +1,52 @@
+{
+ "experiment_id": "P1_A8_NOTE_COOCCURRENCE",
+ "phase": 1,
+ "status": "NEW",
+ "hypothesis": "note 문자열을 합치지 않고 note 사이 관계를 더하면, 이름이 달라도 향 구조상 가까운 향수를 더 잘 찾는다",
+ "user_meaning": "좋아하는 향수와 흔한 Musk/Amber 만 공유하는 향수가 아니라, 재료 이름이 달라도 실제로 비슷한 향수를 옆에 놓는다",
+ "changed_variable": "note 채널을 IDF-Jaccard 에서 PPMI+SVD 임베딩 코사인으로 교체",
+ "population": [
+  "dev700",
+  "global1000"
+ ],
+ "snapshot_hash": {
+  "perfumes_csv": "cec1ea0b498853032bcf44d33ad52ac83e2ed2896b67d5a2765d90a0345cc055",
+  "phase0_manifest": "fa3a2439758beb721d69eb0a1d67c3e0344f68e8b1fd6251becac71589bb4019"
+ },
+ "feature_version": "A8 PPMI+SVD",
+ "projection": "해당 없음 (Phase 1 은 좌표를 만들지 않는다)",
+ "parameters": {
+  "svd_dims": [
+   64,
+   128
+  ],
+  "note_weighting": [
+   "idf",
+   "plain"
+  ],
+  "negative_handling": [
+   "clip0",
+   "raw"
+  ],
+  "seed": 42,
+  "accord_weight": 0.5,
+  "cooccurrence": "X^T X, 대각선(문서빈도) 0 처리",
+  "ppmi": "log(p_ij/(p_i p_j)), 음수 0 절단"
+ },
+ "primary_metrics": [
+  "dev700 ndcg@10",
+  "global1000 top10_hit"
+ ],
+ "guardrail_metrics": [
+  "control_note_cosine_no_ppmi top10_hit = 0.4501"
+ ],
+ "baseline_reference": {
+  "dev700_ndcg": 0.2709,
+  "dev700_recall": 0.301,
+  "global_top10_hit": 0.4464,
+  "control_note_cosine_top10_hit": 0.4501
+ },
+ "explainability_fixed_criteria": "원본 note 문자열 공통 개수, 원본 accord 중 보유율 < 0.3 인 것의 공통 개수. feature 가 무엇이든 이 기준은 바꾸지 않는다",
+ "holdout": "Dev 700 만 사용. Holdout 300 은 건드리지 않았다",
+ "elapsed_sec": 53.4
+}

@@ -1,0 +1,110 @@
+{
+ "baseline_reference": {
+  "dev700_ndcg": 0.2709,
+  "dev700_recall": 0.301,
+  "global_top10_hit": 0.4464
+ },
+ "variants": [
+  {
+   "variant": "baseline_strength",
+   "description": "raw strength (현재 프로덕션)",
+   "recall": 0.301,
+   "hit_rate": 0.5657,
+   "mrr": 0.3813,
+   "ndcg": 0.2709,
+   "top10_hit": 0.4464,
+   "explain_shared_note_ge1": 0.9681,
+   "explain_shared_rare_accord_ge1": 0.9038
+  },
+  {
+   "variant": "sqrt_strength",
+   "description": "sqrt(strength) — 상위 우세를 누른다",
+   "recall": 0.2851,
+   "hit_rate": 0.5443,
+   "mrr": 0.3713,
+   "ndcg": 0.2607,
+   "top10_hit": 0.4238,
+   "explain_shared_note_ge1": 0.9717,
+   "explain_shared_rare_accord_ge1": 0.9273
+  },
+  {
+   "variant": "sq_strength",
+   "description": "strength^2 — 상위를 더 강조",
+   "recall": 0.283,
+   "hit_rate": 0.5471,
+   "mrr": 0.3756,
+   "ndcg": 0.2603,
+   "top10_hit": 0.4165,
+   "explain_shared_note_ge1": 0.9493,
+   "explain_shared_rare_accord_ge1": 0.8462
+  },
+  {
+   "variant": "rank_linear",
+   "description": "순위만 사용: 8,7,...,1",
+   "recall": 0.2911,
+   "hit_rate": 0.5557,
+   "mrr": 0.3787,
+   "ndcg": 0.266,
+   "top10_hit": 0.4343,
+   "explain_shared_note_ge1": 0.9613,
+   "explain_shared_rare_accord_ge1": 0.9021
+  },
+  {
+   "variant": "rank_recip",
+   "description": "순위 역수: 1/(rank+1)",
+   "recall": 0.2743,
+   "hit_rate": 0.5329,
+   "mrr": 0.3591,
+   "ndcg": 0.2497,
+   "top10_hit": 0.37,
+   "explain_shared_note_ge1": 0.9386,
+   "explain_shared_rare_accord_ge1": 0.8502
+  },
+  {
+   "variant": "binary",
+   "description": "보유 여부만 (강도 무시)",
+   "recall": 0.2697,
+   "hit_rate": 0.5229,
+   "mrr": 0.3539,
+   "ndcg": 0.2483,
+   "top10_hit": 0.3739,
+   "explain_shared_note_ge1": 0.9652,
+   "explain_shared_rare_accord_ge1": 0.9371
+  },
+  {
+   "variant": "top3_strength",
+   "description": "상위 3개만 raw strength",
+   "recall": 0.2414,
+   "hit_rate": 0.4829,
+   "mrr": 0.3333,
+   "ndcg": 0.2247,
+   "top10_hit": 0.3416,
+   "explain_shared_note_ge1": 0.9323,
+   "explain_shared_rare_accord_ge1": 0.8091
+  },
+  {
+   "variant": "top5_strength",
+   "description": "상위 5개만 raw strength",
+   "recall": 0.2795,
+   "hit_rate": 0.55,
+   "mrr": 0.3679,
+   "ndcg": 0.2556,
+   "top10_hit": 0.4133,
+   "explain_shared_note_ge1": 0.9523,
+   "explain_shared_rare_accord_ge1": 0.8563
+  }
+ ],
+ "verdicts": {
+  "baseline_strength": "baseline",
+  "rank_linear": "DROP",
+  "sqrt_strength": "DROP",
+  "sq_strength": "DROP",
+  "top5_strength": "DROP",
+  "rank_recip": "DROP",
+  "binary": "DROP",
+  "top3_strength": "DROP"
+ },
+ "best_non_baseline": "rank_linear",
+ "overall_verdict": "DROP",
+ "note": "EDA 05 가 기각한 accord IDF 와 다른 실험이다. 여기서 바꾼 것은 강도 표현이고 note 채널은 baseline 고정이다"
+}

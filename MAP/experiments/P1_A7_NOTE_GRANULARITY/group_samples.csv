@@ -1,0 +1,17 @@
+﻿input_label,group_size,total_perfumes,members_top8
+accord k=200,16,130044,Bergamot | Sandalwood | Cedar | Lemon | Grapefruit | Cedarwood | Virginia Cedar | Amalfi Lemon
+accord k=200,48,72076,Lavender | Cardamom | Geranium | Nutmeg | Pepper | Coriander | Sage | Rosemary
+accord k=200,6,58379,Musk | White Musk | Cashmere Musk | Skin | Velvet | Ambrox Super
+accord k=200,23,48890,Vanilla | Caramel | Vanille | Madagascar Vanilla | Bourbon Vanilla | Vanilla Absolute | Brown sugar | Vanila
+accord k=200,36,45453,Peach | Raspberry | Pear | Plum | Osmanthus | Orchid | Fruity Notes | Apricot
+accord k=200,4,37628,Jasmine | Lily | Egyptian Jasmine | White Lily
+accord k=200,14,36563,Rose | Bulgarian Rose | Turkish Rose | Damask Rose | May Rose | White Rose | Rose de Mai | Taif Rose
+accord k=200,35,33992,Labdanum | Black Pepper | Guaiac Wood | Olibanum | Clove | elemi | Artemisia | Frankincense
+cooc k=200,34,236065,Cedar | Vetiver | Lemon | Tonka Bean | Lavender | Leather | Cardamom | Pink Pepper
+cooc k=200,36,230122,Musk | Sandalwood | Mandarin Orange | Orange Blossom | Violet | White Musk | Orange | Peach
+cooc k=200,499,167941,Amber | Bergamot | Jasmine | Patchouli | Rose | Kulfi | Fruity and Spicy Notes | Chinese Grapefruit
+cooc k=200,16,56887,Vanilla | Caramel | Honey | Almond | Praline | Strawberry | Tonka | Red Fruits
+cooc k=200,27,54820,Labdanum | Incense | Agarwood (Oud) | Black Pepper | Guaiac Wood | Olibanum | Myrrh | Orris
+cooc k=200,17,43276,Woody Notes | Citruses | Green Notes | Floral Notes | Woodsy Notes | Spices | Fruity Notes | White Flowers
+cooc k=200,13,33082,Tuberose | Magnolia | Gardenia | Jasmine Sambac | Osmanthus | Orchid | Mimosa | Apricot
+cooc k=200,19,18701,Peony | Litchi | Red Berries | Blackberry | Red Apple | Watermelon | Pomegranate | Pink Grapefruit

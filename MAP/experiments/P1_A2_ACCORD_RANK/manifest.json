@@ -1,0 +1,41 @@
+{
+ "experiment_id": "P1_A2_ACCORD_RANK",
+ "phase": 1,
+ "status": "NEW",
+ "hypothesis": "상위 accord 를 더 강하게 반영하거나 순위만 쓰면 사람 유사성이 개선된다",
+ "user_meaning": "그 향수에서 가장 강하게 느껴지는 인상이 비슷한 향수가 가깝다",
+ "changed_variable": "accord 채널의 강도 표현 (note 채널은 baseline 고정)",
+ "population": [
+  "dev700",
+  "global1000"
+ ],
+ "snapshot_hash": {
+  "perfumes_csv": "cec1ea0b498853032bcf44d33ad52ac83e2ed2896b67d5a2765d90a0345cc055",
+  "phase0_manifest": "fa3a2439758beb721d69eb0a1d67c3e0344f68e8b1fd6251becac71589bb4019"
+ },
+ "parameters": {
+  "variants": [
+   "baseline_strength",
+   "sqrt_strength",
+   "sq_strength",
+   "rank_linear",
+   "rank_recip",
+   "binary",
+   "top3_strength",
+   "top5_strength"
+  ],
+  "accord_weight": 0.5
+ },
+ "primary_metrics": [
+  "dev700 ndcg@10",
+  "global1000 top10_hit"
+ ],
+ "baseline_reference": {
+  "dev700_ndcg": 0.2709,
+  "dev700_recall": 0.301,
+  "global_top10_hit": 0.4464
+ },
+ "verdict": "DROP",
+ "holdout": "Dev 700 만 사용. Holdout 300 은 건드리지 않았다",
+ "elapsed_sec": 33.8
+}

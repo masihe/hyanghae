@@ -1,0 +1,96 @@
+﻿case_type,query_id,partner_id,query,partner,shared_notes,shared_note_list
+regression,12424,1795,Chanel Chanel No 19 Poudre,Prada Infusion d'Iris,5,Galbanum|Iris|Mandarin Orange|Neroli|Vetiver
+regression,103,3166,Guerlain Jicky,Caron Pour Un Homme de Caron,8,Amber|Bergamot|Brazilian Rosewood|Lavender|Lemon|Rosemary
+rescue,4758,86,Новая Заря (The New Dawn) Красная Москва (Red Moscow),Elizabeth Arden Red Door,5,Carnation|Jasmine|Orange Blossom|Rose|Ylang-Ylang
+regression,93,7399,Yves Saint Laurent Opium (1977),Yves Saint Laurent Opium Eau de Parfum 2009,7,Amber|Bergamot|Jasmine|Lily-of-the-Valley|Mandarin Orange|Opoponax
+rescue,3166,57035,Caron Pour Un Homme de Caron,Lush Twilight Body Spray,2,Lavender|Tonka Bean
+rescue,7916,307,Hermès Voyage d'Hermes,Cartier Declaration,2,Cedar|Tea
+regression,16067,154,Santa Maria Novella Tabacco Toscano,Bvlgari Black,7,Amber|Bergamot|Cedar|Leather|Musk|Sandalwood
+regression,213,11588,Dior Miss Dior Cherie,Dior Miss Dior Cherie Eau de Parfum,6,Amber|Jasmine|Mandarin Orange|Patchouli|Rose|Strawberry
+regression,11588,213,Dior Miss Dior Cherie Eau de Parfum,Dior Miss Dior Cherie,6,Amber|Jasmine|Mandarin Orange|Patchouli|Rose|Strawberry
+regression,788,276,Azzaro Chrome,Calvin Klein CK One,9,Bergamot|Cardamom|Cedar|Jasmine|Lemon|Musk
+regression,64105,472,Armaf Club de Nuit Sillage,Creed Silver Mountain Water,4,Bergamot|Black Currant|Musk|Sandalwood
+rescue,375,16602,Clinique Clinique Happy Heart 2003,Clean Clean Rain,0,
+rescue,16602,375,Clean Clean Rain,Clinique Clinique Happy Heart 2003,0,
+regression,59532,410,Giorgio Armani Acqua di Giò Profondo,Giorgio Armani Acqua di Gio,5,Amber|Bergamot|Patchouli|Rosemary|Sea Notes
+regression,14825,2736,Giorgio Armani Acqua di Gio Essenza,Hermès Un Jardin Apres la Mousson,4,Floral Notes|Pepper|Vetiver|Water Notes
+regression,34761,48965,Giorgio Armani Armani Code Profumo,Natura Homem Sagaz,4,Amber|Green Mandarin|Nutmeg|Tonka Bean
+regression,9075,9502,Cuba Paris Cuba Gold,Jean Paul Gaultier Le Male Terrible,4,Amber|Grapefruit|Lavender|Pink Pepper
+regression,61856,430,Jean Paul Gaultier Le Male Le Parfum,Jean Paul Gaultier Le Male,3,Cardamom|Lavender|Vanilla
+regression,473,4193,Creed Original Santal,Montblanc Individuel,10,Bergamot|Coriander|Geranium|Juniper Berries|Lavender|Musk
+regression,4193,473,Montblanc Individuel,Creed Original Santal,10,Bergamot|Coriander|Geranium|Juniper Berries|Lavender|Musk
+regression,485,644,Dolce&Gabbana Light Blue,Versace Versace Man Eau Fraiche,3,Amber|Cedar|Musk
+rescue,728,485,Moschino Cheap & Chic I Love Love,Dolce&Gabbana Light Blue,2,Cedar|Musk
+regression,44034,728,Dolce&Gabbana Light Blue Eau Intense,Moschino Cheap & Chic I Love Love,2,Lemon|Musk
+rescue,498,913,Donna Karan DKNY Be Delicious,Nautica Nautica Voyage,1,Amber
+rescue,913,498,Nautica Nautica Voyage,Donna Karan DKNY Be Delicious,1,Amber
+regression,508,9797,Davidoff Cool Water,Oriflame Midsummer Woman,9,Jasmine|Lemon|Lily-of-the-Valley|Melon|Musk|Raspberry
+rescue,610,1499,Chanel Chance Eau de Toilette,Shiseido Zen,4,Musk|Patchouli|Pineapple|Rose
+rescue,612,17796,Chanel Coco Mademoiselle Eau de Toilette,Dior Miss Dior (2012),2,Patchouli|Rose
+rescue,611,1499,Chanel Coco Mademoiselle,Shiseido Zen,3,Bergamot|Orange|Patchouli
+rescue,36416,704,Mugler Angel Muse,Mugler Angel,1,Patchouli
+regression,1068,44035,Dolce&Gabbana Light Blue pour Homme,Dolce&Gabbana Light Blue Eau Intense Pour Homme,3,Grapefruit|Juniper|Musk
+regression,44035,1068,Dolce&Gabbana Light Blue Eau Intense Pour Homme,Dolce&Gabbana Light Blue pour Homme,3,Grapefruit|Juniper|Musk
+regression,18021,1148,Montale Intense Cafe,Montale Roses Musk,1,Rose
+regression,55001,15210,Montale Ristretto Intense Café,Mancera Roses Vanille,2,Vanilla|White Musk
+regression,17189,52359,Zara Applejuice,Chanel Chance Eau Tendre Eau de Parfum,3,Grapefruit|Jasmine|Rose
+regression,52359,17189,Chanel Chance Eau Tendre Eau de Parfum,Zara Applejuice,3,Grapefruit|Jasmine|Rose
+rescue,1426,3907,Rochas Rochas Man,Givenchy Givenchy Play Intense,2,Bergamot|Patchouli
+regression,1426,705,Rochas Rochas Man,Mugler A*Men,7,Amber|Bergamot|Jasmine|Lavender|Lily-of-the-Valley|Patchouli
+rescue,13041,18702,Yves Rocher Moment de Bonheur,Chloé Chloé Roses de Chloé,0,
+regression,1771,13015,Dior Dior Homme Intense 2007,Dior Dior Homme,3,Amber|Iris|Vetiver
+regression,1771,13016,Dior Dior Homme Intense 2007,Dior Dior Homme Intense 2011,2,Iris|Vetiver
+regression,13016,1771,Dior Dior Homme Intense 2011,Dior Dior Homme Intense 2007,2,Iris|Vetiver
+regression,13016,69010,Dior Dior Homme Intense 2011,Dior Dior Homme Original,1,Vetiver
+regression,13016,101596,Dior Dior Homme Intense 2011,Dior Dior Homme Intense 2025,1,Virginia Cedar
+rescue,13015,38254,Dior Dior Homme,Valentino Valentino Uomo Intense ,2,Iris|Leather
+regression,13015,27417,Dior Dior Homme,Dior Dior Homme Parfum,1,Leather
+regression,13015,69010,Dior Dior Homme,Dior Dior Homme Original,1,Vetiver
+regression,27417,13015,Dior Dior Homme Parfum,Dior Dior Homme,1,Leather
+regression,27656,1822,Armaf Club de Nuit Intense,Tom Ford Noir de Noir,4,Agarwood (Oud)|Patchouli|Saffron|Vanilla
+regression,42254,18283,MAC Velvet Teddy,Phaedon Tabac Rouge,3,Ginger|Honey|Musk
+regression,18283,42254,Phaedon Tabac Rouge,MAC Velvet Teddy,3,Ginger|Honey|Musk
+rescue,50239,11771,Tom Ford Ombré Leather (2018),Parfums de Marly Godolphin,2,Amber|Leather
+rescue,9224,11771,Montale Aoud Leather,Parfums de Marly Godolphin,2,Leather|Saffron
+rescue,9224,19668,Montale Aoud Leather,Rasasi La Yuqawam Homme,2,Leather|Saffron
+rescue,79942,9224,Maison Alhambra Toscano Leather,Montale Aoud Leather,2,Leather|Saffron
+rescue,10856,1360,Chanel Chanel No 5 Eau de Toilette,Chanel Chanel N°5 Eau Premiere,6,Aldehydes|Jasmine|Neroli|Sandalwood|Vanille|Ylang-Ylang
+regression,10856,31172,Chanel Chanel No 5 Eau de Toilette,Chanel Chanel No 5 Eau Premiere (2015),7,Aldehydes|Jasmine|Neroli|Rose|Sandalwood|Vetiver
+rescue,57035,3166,Lush Twilight Body Spray,Caron Pour Un Homme de Caron,2,Lavender|Tonka Bean
+rescue,51037,15754,Parfums de Marly Percival,Prada Luna Rossa,2,Ambroxan|Lavender
+regression,3606,10296,Escentric Molecules Molecule 02,Juliette Has A Gun Not A Perfume,0,
+rescue,68578,4410,Gucci Flora Gorgeous Gardenia,Juicy Couture Viva la Juicy,2,Gardenia|Jasmine
+rescue,10206,5521,Yves Saint Laurent La Nuit de L'Homme Le Parfum,Yves Saint Laurent La Nuit de l'Homme,2,Bergamot|Lavender
+regression,25967,78611,Chanel Bleu de Chanel Eau de Parfum,Afnan 9am Dive,9,Cedar|Ginger|Incense|Jasmine|Lemon|Mint
+regression,68271,34696,Afnan Supremacy Not Only Intense,Armaf Club de Nuit Intense Man,6,Ambergris|Apple|Bergamot|Black Currant|Musk|Patchouli
+regression,40069,1360,Chanel Chanel No 5 Eau de Parfum,Chanel Chanel N°5 Eau Premiere,5,Aldehydes|Jasmine|Neroli|Sandalwood|Ylang-Ylang
+regression,1360,28711,Chanel Chanel N°5 Eau Premiere,Chanel Chanel No 5 Parfum,5,Aldehydes|Jasmine|Neroli|Sandalwood|Ylang-Ylang
+regression,1360,38543,Chanel Chanel N°5 Eau Premiere,Chanel Chanel No 5 L'Eau,4,Aldehydes|Jasmine|Neroli|Ylang-Ylang
+rescue,31172,38543,Chanel Chanel No 5 Eau Premiere (2015),Chanel Chanel No 5 L'Eau,4,Aldehydes|Jasmine|Neroli|Ylang-Ylang
+regression,11721,61519,Lancôme Trésor Midnight Rose,Mugler Angel Nova,1,Raspberry
+regression,1795,31040,Prada Infusion d'Iris,Prada Infusion d'Iris (2015),2,Benzoin|Iris
+regression,1795,46400,Prada Infusion d'Iris,Prada Prada L'Homme L'Eau,2,Iris|Neroli
+regression,69010,13015,Dior Dior Homme Original,Dior Dior Homme,1,Vetiver
+rescue,13857,26358,Viktor&Rolf Spicebomb,Bvlgari Bvlgari Man In Black,2,Leather|Tobacco
+regression,13857,30499,Viktor&Rolf Spicebomb,Viktor&Rolf Spicebomb Extreme,3,Cinnamon|Saffron|Tobacco
+regression,30499,13857,Viktor&Rolf Spicebomb Extreme,Viktor&Rolf Spicebomb,3,Cinnamon|Saffron|Tobacco
+rescue,15261,82595,Maison Martin Margiela Beach Walk,Sol de Janeiro Rio Radiance,1,Coconut Milk
+regression,62762,52180,Versace Eros Eau de Parfum,Versace Eros Flame,6,Geranium|Lemon|Mandarin Orange|Patchouli|Sandalwood|Vanilla
+regression,70090,62762,Versace Eros Parfum,Versace Eros Eau de Parfum,5,Geranium|Lemon|Mint|Patchouli|Vanilla
+regression,70465,45956,Lattafa Perfumes Fakhar Black,Yves Saint Laurent Yves Saint Laurent Y,7,Apple|Bergamot|Cedar|Geranium|Ginger|Sage
+regression,80482,62615,Une Nuit Nomade Sugar Leather,By Kilian Angels' Share,1,Cinnamon
+rescue,66826,52802,Azzaro The Most Wanted,Giorgio Armani Emporio Armani Stronger With You Intensely ,1,Toffee
+regression,78611,25967,Afnan 9am Dive,Chanel Bleu de Chanel Eau de Parfum,9,Cedar|Ginger|Incense|Jasmine|Lemon|Mint
+rescue,11444,30529,Mugler A*Men Pure Havane,Xerjoff XJ 1861 Naxos,0,
+regression,31861,43402,Dior Sauvage,Prada Luna Rossa Carbon Eau de Toilette,4,Ambroxan|Lavender|Patchouli|Pepper
+regression,48100,43402,Dior Sauvage Eau de Parfum,Prada Luna Rossa Carbon Eau de Toilette,3,Ambroxan|Bergamot|Lavender
+regression,33519,54885,Maison Francis Kurkdjian Baccarat Rouge 540,Mancera Instant Crush,3,Amberwood|Oakmoss|Saffron
+regression,46066,53742,Maison Francis Kurkdjian Baccarat Rouge 540 Extrait de Parfum,Thomas Kosmala Après l’Amour,2,Musk|Woody Notes
+regression,54885,33519,Mancera Instant Crush,Maison Francis Kurkdjian Baccarat Rouge 540,3,Amberwood|Oakmoss|Saffron
+regression,39029,45396,Prada Prada L'Homme,Prada Prada L'Homme Intense,4,Amber|Iris|Patchouli|Sandalwood
+regression,45396,39029,Prada Prada L'Homme Intense,Prada Prada L'Homme,4,Amber|Iris|Patchouli|Sandalwood
+regression,51488,68404,Givenchy L'Interdit Eau de Parfum,Givenchy L'Interdit Eau de Parfum Rouge,3,Patchouli|Tuberose|Vetiver
+regression,55785,72158,Jean Paul Gaultier Le Beau,Jean Paul Gaultier Le Beau Le Parfum,2,Coconut|Tonka Bean
+regression,72158,55785,Jean Paul Gaultier Le Beau Le Parfum,Jean Paul Gaultier Le Beau,2,Coconut|Tonka Bean
+regression,56077,83296,Yves Saint Laurent Libre,Yves Saint Laurent Libre L'Absolu Platine,3,Lavender|Mandarin Orange|Orange Blossom
+rescue,79171,25529,Fine'ry. Before The Rainbow,Jo Malone London Wood Sage & Sea Salt,0,

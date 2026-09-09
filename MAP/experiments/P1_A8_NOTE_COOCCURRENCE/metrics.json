@@ -1,0 +1,234 @@
+{
+ "baseline": {
+  "dev700": {
+   "recall": 0.301,
+   "hit_rate": 0.5657,
+   "mrr": 0.3813,
+   "ndcg": 0.2709
+  },
+  "global1000": {
+   "top10_hit": 0.4464,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9681,
+   "explain_shared_rare_accord_ge1": 0.9038,
+   "explain_mean_shared_note": 3.268
+  }
+ },
+ "control_note_cosine_no_ppmi": {
+  "dev700": {
+   "recall": 0.2814,
+   "hit_rate": 0.5386,
+   "mrr": 0.3717,
+   "ndcg": 0.2574
+  }
+ },
+ "a8_variants": [
+  {
+   "variant": "A8 k=64 idf clip0",
+   "svd_dim": 64,
+   "note_weighting": "idf",
+   "negative": "clip0",
+   "recall": 0.229,
+   "hit_rate": 0.46,
+   "mrr": 0.3262,
+   "ndcg": 0.217,
+   "top10_hit": 0.4175,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9289,
+   "explain_shared_rare_accord_ge1": 0.8868,
+   "explain_mean_shared_note": 2.769
+  },
+  {
+   "variant": "A8 k=64 idf raw",
+   "svd_dim": 64,
+   "note_weighting": "idf",
+   "negative": "raw",
+   "recall": 0.229,
+   "hit_rate": 0.46,
+   "mrr": 0.3262,
+   "ndcg": 0.217,
+   "top10_hit": 0.4175,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9289,
+   "explain_shared_rare_accord_ge1": 0.8868,
+   "explain_mean_shared_note": 2.769
+  },
+  {
+   "variant": "A8 k=64 plain clip0",
+   "svd_dim": 64,
+   "note_weighting": "plain",
+   "negative": "clip0",
+   "recall": 0.2275,
+   "hit_rate": 0.4557,
+   "mrr": 0.3199,
+   "ndcg": 0.2134,
+   "top10_hit": 0.4216,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9309,
+   "explain_shared_rare_accord_ge1": 0.8917,
+   "explain_mean_shared_note": 2.767
+  },
+  {
+   "variant": "A8 k=64 plain raw",
+   "svd_dim": 64,
+   "note_weighting": "plain",
+   "negative": "raw",
+   "recall": 0.2275,
+   "hit_rate": 0.4557,
+   "mrr": 0.3199,
+   "ndcg": 0.2134,
+   "top10_hit": 0.4216,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9309,
+   "explain_shared_rare_accord_ge1": 0.8917,
+   "explain_mean_shared_note": 2.767
+  },
+  {
+   "variant": "A8 k=128 idf clip0",
+   "svd_dim": 128,
+   "note_weighting": "idf",
+   "negative": "clip0",
+   "recall": 0.2335,
+   "hit_rate": 0.47,
+   "mrr": 0.3334,
+   "ndcg": 0.2224,
+   "top10_hit": 0.4166,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9367,
+   "explain_shared_rare_accord_ge1": 0.887,
+   "explain_mean_shared_note": 2.847
+  },
+  {
+   "variant": "A8 k=128 idf raw",
+   "svd_dim": 128,
+   "note_weighting": "idf",
+   "negative": "raw",
+   "recall": 0.2335,
+   "hit_rate": 0.47,
+   "mrr": 0.3334,
+   "ndcg": 0.2224,
+   "top10_hit": 0.4166,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9367,
+   "explain_shared_rare_accord_ge1": 0.887,
+   "explain_mean_shared_note": 2.847
+  },
+  {
+   "variant": "A8 k=128 plain clip0",
+   "svd_dim": 128,
+   "note_weighting": "plain",
+   "negative": "clip0",
+   "recall": 0.2356,
+   "hit_rate": 0.4714,
+   "mrr": 0.33,
+   "ndcg": 0.2211,
+   "top10_hit": 0.4202,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9381,
+   "explain_shared_rare_accord_ge1": 0.891,
+   "explain_mean_shared_note": 2.835
+  },
+  {
+   "variant": "A8 k=128 plain raw",
+   "svd_dim": 128,
+   "note_weighting": "plain",
+   "negative": "raw",
+   "recall": 0.2356,
+   "hit_rate": 0.4714,
+   "mrr": 0.33,
+   "ndcg": 0.2211,
+   "top10_hit": 0.4202,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9381,
+   "explain_shared_rare_accord_ge1": 0.891,
+   "explain_mean_shared_note": 2.835
+  }
+ ],
+ "diagnostic_count_only": {
+  "dev700": {
+   "recall": 0.1939,
+   "hit_rate": 0.4171,
+   "mrr": 0.272,
+   "ndcg": 0.1778
+  },
+  "global1000": {
+   "top10_hit": 0.385,
+   "queries": 467,
+   "explain_shared_note_ge1": 0.9009,
+   "explain_shared_rare_accord_ge1": 0.8985,
+   "explain_mean_shared_note": 2.435
+  },
+  "explained_variance": 0.9115,
+  "note": "PPMI 없이 log1p(count). v4 16.3 대로 최종 평가 경로로 쓰지 않는다"
+ },
+ "weight_sweep": [
+  {
+   "accord_weight": 0.3,
+   "recall": 0.2408,
+   "hit_rate": 0.49,
+   "mrr": 0.3363,
+   "ndcg": 0.2255
+  },
+  {
+   "accord_weight": 0.4,
+   "recall": 0.238,
+   "hit_rate": 0.4786,
+   "mrr": 0.3321,
+   "ndcg": 0.2239
+  },
+  {
+   "accord_weight": 0.5,
+   "recall": 0.2335,
+   "hit_rate": 0.47,
+   "mrr": 0.3334,
+   "ndcg": 0.2224
+  },
+  {
+   "accord_weight": 0.6,
+   "recall": 0.2317,
+   "hit_rate": 0.4629,
+   "mrr": 0.329,
+   "ndcg": 0.2202
+  },
+  {
+   "accord_weight": 0.7,
+   "recall": 0.2266,
+   "hit_rate": 0.4557,
+   "mrr": 0.316,
+   "ndcg": 0.2118
+  }
+ ],
+ "verdicts": {
+  "A8 k=128 idf clip0": "DROP",
+  "A8 k=128 idf raw": "DROP",
+  "A8 k=128 plain clip0": "DROP",
+  "A8 k=128 plain raw": "DROP",
+  "A8 k=64 idf clip0": "DROP",
+  "A8 k=64 idf raw": "DROP",
+  "A8 k=64 plain clip0": "DROP",
+  "A8 k=64 plain raw": "DROP"
+ },
+ "best_variant": "A8 k=128 idf clip0",
+ "rescue_count": 30,
+ "regression_count": 65,
+ "cooccurrence": {
+  "vocab": 2523,
+  "nonzero_cells": 502710,
+  "ppmi_nonzero_cells": 344972,
+  "ppmi_max": 13.397
+ },
+ "diagnosis": {
+  "verdict": "DROP — 8개 변형 전부 KEEP 기준 미달",
+  "cause_1_cooccurrence_measures_the_wrong_thing": "공동출현은 대체 가능성(substitutability)이 아니라 함께 쓰임(complementarity)을 잰다. Oud(3,780개)와 Agarwood (Oud)(5,939개)는 같은 재료의 다른 이름이므로 한 향수가 둘 중 하나만 쓴다 — 동시출현 6회, PPMI 0.000. 동의어일수록 공동출현이 낮다. 실험 동기(이름이 달라도 같은 것을 잡자)와 방법이 정반대 방향이다.",
+  "cause_2_ppmi_amplifies_rare_noise": "PPMI 상위 12쌍이 전부 문서빈도 1, 동시출현 1회다 (Red Lantern~Tanghulu 13.397). 2,523종 중 대부분이 희귀 note 라 임베딩 공간이 이 잡음에 지배된다. 설명 분산도 k=128 에서 0.343 뿐이다.",
+  "cause_3_averaging_dilutes": "향수 벡터를 note 임베딩의 평균으로 만들면 드문 note 의 개성이 씻긴다. IDF 가중이 약간 낫지만(0.2224 vs 0.2211) 충분하지 않다.",
+  "motivating_pairs": {
+   "Cedar~Sandalwood": "동시출현 7,584 · PPMI 0.095 (둘 다 흔해서 깎인다)",
+   "Oud~Agarwood (Oud)": "동시출현 6 · PPMI 0.000 (동의어라 같이 안 나온다)",
+   "Bergamot~Lemon": "동시출현 6,963 · PPMI 0.343"
+  },
+  "two_external_criteria_disagreed": "Jaccard -> 코사인 단독 변경(대조군)은 Global top10 을 0.4464 -> 0.4501 로 올리지만 Dev 700 ndcg 는 0.2709 -> 0.2574 로 내린다. 외부 기준 두 개가 같은 변경에 반대 방향을 가리킨다 — v4 가 두 지표를 모두 요구한 이유다.",
+  "explainability_also_worse": "공통 note>=1 96.8% -> 93.7%, 공통 드문 accord>=1 90.4% -> 88.7%",
+  "consequence_for_a7": "A7 은 A8 임베딩으로 note 를 100~300 그룹으로 묶기로 했는데, 그 임베딩이 함께 쓰이는 것을 묶으므로 A7 의 전제(Lemon/Bergamot/Lime 처럼 대체 가능한 재료 묶기)와 맞지 않는다. 대체 가능성 신호로 note->accord 프로파일(10_note_accord_bridge.csv)을 함께 써야 한다."
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "experiment_id": "phase1",
+ "phase": 1,
+ "status": "NEW",
+ "hypothesis": "해당 없음 — Phase 요약",
+ "user_meaning": "마음에 드는 향수 주변에 실제로 비슷한 향수가 있는가",
+ "changed_variable": "없음 (A8/A7/A2 결과 종합)",
+ "population": [
+  "dev700",
+  "global1000"
+ ],
+ "primary_metrics": [
+  "dev700 ndcg@10",
+  "global1000 top10_hit"
+ ],
+ "baseline_reference": {
+  "dev700_ndcg": 0.2709,
+  "global_top10_hit": 0.4464,
+  "control_note_cosine_top10": 0.4501
+ },
+ "sub_experiments": [
+  "P1_A8_NOTE_COOCCURRENCE",
+  "P1_A7_NOTE_GRANULARITY",
+  "P1_A2_ACCORD_RANK"
+ ],
+ "recommendation": "Phase 2 를 baseline 유사도 하나로 진행한다"
+}
