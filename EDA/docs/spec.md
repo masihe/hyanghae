@@ -690,6 +690,7 @@ REC-13이 "자연어 입력 결과를 기반으로" 추천한다고 정의돼 �
 
 - `docs/DECISIONS.md` — 자연어 추천 의사결정 기록 (N1 방언·은어 후순위)
 - `docs/nlr_engineering_notes.md` — 측정 기록 7건
+- `docs/WORKING_NOTES.md` — **실행 환경과 함정.** 노트북을 돌리기 전에 읽는다
 - `analysis_outputs/16_golden_set_errata_report.md` — Golden Set 라벨 문제와 가이드 개정안
 - `25_stage1_rescoring_rule_v2.ipynb` — 채점 규칙 재정의
 - `26_variant_expression_llm_baseline.ipynb` — 변형어 LLM baseline
