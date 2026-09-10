@@ -170,6 +170,49 @@ def build_terrain(d):
 # --------------------------------------------------------------------------
 # 2. DB 적재용 CSV 6개
 # --------------------------------------------------------------------------
+def korea_brand_names():
+    """국내 표기를 아는 브랜드만 돌려준다.
+
+    브랜드 매핑(D13)은 "국내 표기 -> Fragrantica 표기" 방향의 정규화였다. 정규화가
+    끝난 데이터에는 Fragrantica 표기만 남으므로, 한글 원문은 사람 검토가 필요했던
+    32건에만 흔적이 있다. 그래서 지도 브랜드 대부분은 한글명을 채울 수 없다.
+    """
+    path = os.path.join("data", "korea_popularity", "brand_mapping_reviewed.csv")
+    if not os.path.exists(path):
+        return {}
+    with io.open(path, encoding="utf-8-sig", newline="") as f:
+        return {r["fragrantica_brand"].strip(): r["korea_brand"].strip()
+                for r in csv.DictReader(f) if r["fragrantica_brand"].strip()}
+
+
+def build_brands(d, path):
+    """지도에 올라간 향수들의 브랜드 목록.
+
+    브랜드는 이 데이터에서 마스터가 없는 유일한 식별자다 (accord 는 마스터가 있다).
+    향수 행에 문자열로 박혀 있을 뿐이라 여기서 목록으로 뽑아 둔다.
+    """
+    ko = korea_brand_names()
+    fam_ko = {it["key"]: it["name_ko"] for it in d["families"]["items"]}
+    by_brand = {}
+    for p in d["points"]:
+        b = by_brand.setdefault(p["brand"], {"names": [], "ranks": [], "fams": []})
+        b["names"].append(p["name"])
+        b["ranks"].append(p["korea"]["selection_rank"])
+        b["fams"].append(p["families"][0]["key"])
+
+    rows = []
+    for brand, v in by_brand.items():
+        # 대표 계열 = 그 브랜드 향수들의 1순위 계열 중 최빈값. 동수면 순위가 앞선 쪽.
+        top = max(set(v["fams"]), key=lambda k: (v["fams"].count(k),
+                                                 -v["ranks"][v["fams"].index(k)]))
+        rows.append([brand, ko.get(brand, ""), len(v["names"]), min(v["ranks"]),
+                     fam_ko[top], " · ".join(v["names"])])
+    # 향수 수 많은 순 -> 국내 순위 앞선 순
+    rows.sort(key=lambda r: (-r[2], r[3]))
+    return write_csv(path, ["brand", "korea_brand", "perfume_count", "best_korea_rank",
+                            "main_family", "perfume_names"], rows)
+
+
 def build_seed(d, seed_dir):
     pts, fam = d["points"], d["families"]["items"]
     counts = {}
@@ -830,6 +873,10 @@ def main() -> None:
     print(f"  scent_map.json                   {b_fe / 1024:>6.0f} KB   향수 200 + 계열 9")
     print(f"  scent_map_terrain.json           {ter / 1024:>6.0f} KB   격자 2장 + 해안선")
     print(f"  scent-map.d.ts                   {ts / 1024:>6.0f} KB   타입 정의")
+    print()
+
+    nb = build_brands(d, os.path.join(OUT, "map_brands.csv"))
+    print(f"  map_brands.csv                   {nb:>6} 행   지도에 올라간 브랜드 목록")
     print()
 
     write_text(os.path.join(DB_DIR, "README.md"), fill(DB_NOTE, counts))

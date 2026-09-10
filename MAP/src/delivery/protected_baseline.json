@@ -44,7 +44,7 @@
  "data\\korea_popularity\\evaluation\\fragrantica_method3_dev_metrics.csv": "3ea681094f14357206da3ba73b9be6b008711cb39fdb398aef8275e134490669",
  "data\\korea_popularity\\evaluation\\fragrantica_method3_dev_report.md": "fe0e216a025b8fe4300f67c21cda639963cf2adfe16f600bb45e18a01d228e29",
  "data\\korea_popularity\\evaluation\\fragrantica_method3_dev_results.csv": "3b6789cba137f0e8c39e2b4f631f4cc0212d38d9446981d4e8b7677cf32a021e",
- "data\\korea_popularity\\evaluation\\fragrantica_method3_dev_settings.json": "14db3e6ee6e92a8945bac9b0f4aa025f04a5805397d4fdea2f33c730de1e884a",
+ "data\\korea_popularity\\evaluation\\fragrantica_method3_dev_settings.json": "03f4a97f4e23eee18113d73d33b39562ee47e5572ad0231914c90428848ccab1",
  "data\\korea_popularity\\evaluation\\fragrantica_unresolved_brand_review.xlsx": "d3f0dc6f1c77fa3284750a2ded7387c0ba804f51b445005f9c39b7090ebce999",
  "data\\korea_popularity\\evaluation\\gold_set_dev.csv": "41d5b84b30289dd24d3822c552cc100890d009600aa8a310234b2160ec37ad2f",
  "data\\korea_popularity\\evaluation\\gold_set_final.csv": "1ea92d99c808506d152689920191cdafc3abdf7f50ed82f34b90894c0cf0ec83",
