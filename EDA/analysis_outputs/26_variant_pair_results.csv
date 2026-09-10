@@ -1,0 +1,22 @@
+﻿표준형,변형형,유형,출처,판정,표준형 accords,변형형 accords,교집합,표준형 1순위,변형형 1순위,1순위 일치,목록 밖
+달콤한,달큰한,철자 변형,19-D 방언,부분 일치,"gourmand, sweet","caramel, sweet",sweet,sweet,sweet,True,
+달콤한,달달한,철자 변형,19-D 방언,부분 일치,"gourmand, sweet","sweet, vanilla",sweet,sweet,sweet,True,
+쿰쿰한,쓸쿰한,방언·의태어,20-B A [S27],부분 일치,"earthy, musky","musky, soapy",musky,earthy,soapy,False,
+쿰쿰한,퀴퀴한,방언·의태어,20-B A,부분 일치,"earthy, musky","earthy, mossy",earthy,earthy,mossy,False,
+쿰쿰한,쾨쾨한,방언·의태어,20-B A,불일치,"earthy, musky",alcohol,-,earthy,alcohol,False,sharp
+상큼한,상콤한,철자 변형,20-B A 구어 변형,완전 일치,"citrus, fresh","citrus, fresh","citrus, fresh",fresh,citrus,False,
+뽀송한,보송한,철자 변형,20-B A,부분 일치,"powdery, soapy",powdery,powdery,powdery,powdery,True,dry
+폭닥한,폭신한,방언·의태어,20-B A,불일치,"soft spicy, warm spicy","aldehydic, powdery",-,warm spicy,aldehydic,False,
+매캐한,매쾌한,방언·의태어,20-B A [S48],불일치,"aldehydic, camphor","citrus, herbal",-,aldehydic,citrus,False,
+우디,우디한,외래어 파생,19-B A 정착 외래어,부분 일치,woody,"mossy, woody",woody,woody,woody,True,
+파우더리,파우더리한,외래어 파생,19-B A 정착 외래어,부분 일치,powdery,"floral, powdery",powdery,powdery,powdery,True,
+그린 노트,그리너리한,외래어 파생,20-B B 축약어 [S04],부분 일치,"fresh, green","green, herbal",green,green,green,True,
+바닐라,바닐라리한,외래어 파생,20-B B 축약어 [S19],완전 일치,"sweet, vanilla","sweet, vanilla","sweet, vanilla",vanilla,vanilla,True,
+화이트 플로럴,화플,커뮤니티 은어,20-B B 축약어 [S52],불일치,white floral,"soapy, sour",-,white floral,sour,False,
+인센스,절간 냄새,문화적 비유,20-B D 비유,불일치,"balsamic, smoky","fruity, soapy",-,balsamic,fruity,False,
+인센스,향 피운 방,문화적 비유,20-B D 비유,부분 일치,"balsamic, smoky","smoky, woody",smoky,balsamic,smoky,False,
+남성 스킨,쾌남 스킨,문화적 비유,20-B D 비유,불일치,"musky, woody",fresh,-,woody,fresh,False,
+남성 스킨,바버샵,문화적 비유,20-B D 비유,불일치,"musky, woody","lavender, leather",-,woody,leather,False,
+인공 시트러스,에프킬라,문화적 비유,20-B D 비유,불일치,"citrus, ozonic","alcohol, oily",-,citrus,alcohol,False,
+오크모스,비 온 뒤 숲,문화적 비유,20-B D 비유,불일치,"mossy, woody",earthy,-,mossy,earthy,False,rain
+오크모스,젖은 흙,문화적 비유,20-B D 비유,불일치,"mossy, woody","aquatic, earthy",-,mossy,earthy,False,

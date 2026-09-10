@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "model": "gpt-5.4-nano",
+  "gateway": "SSAFY GMS",
+  "prompt_version": "variant_accord_v1",
+  "prompt_sha256": "243c87037e96591035e1bd5cf48aacbb01bb97b683ecd311c710799bb4e08939",
+  "selection_seed": 42,
+  "run_date": "2026-09-10",
+  "note": "API 키는 기록하지 않는다. 원본 응답을 보존해 재호출 없이 재채점한다."
+ },
+ "system_prompt": "당신은 한국어 향 표현을 Fragrantica accord로 변환합니다.\n아래 허용 목록에 있는 accord 이름만 사용하세요. 목록에 없는 이름을 만들지 마세요.\n표현 하나당 최대 3개까지 고르고, 판단할 수 없으면 빈 배열로 두세요.\n설명, 주석, Markdown 없이 JSON object 하나만 반환하세요.\n\n허용 accord (92개): Champagne, Pear, alcohol, aldehydic, almond, amber, animalic, anis, aquatic, aromatic, asphault, bacon, balsamic, bbq, beeswax, bitter, brown scotch tape, cacao, camphor, cannabis, caramel, cherry, chocolate, cinnamon, citrus, clay, coca-cola, coconut, coffee, conifer, earthy, floral, foresty, fresh, fresh spicy, fruity, gasoline, gourmand, green, herbal, honey, hot iron, industrial glue, iris, lactonic, lavender, leather, marine, meat, metallic, milky, mineral, mossy, musky, nutty, oily, oud, ozonic, paper, patchouli, plastic, powdery, rose, rubber, rum, sake, salty, sand, savory, smoky, soapy, soft spicy, sour, spice, sweet, tennis ball, terpenic, tobacco, tropical, tuberose, vanilla, varnish, vinyl, violet, vodka, warm spicy, wet plaster, whiskey, white floral, wine, woody, yellow floral\n\n출력 형식: {\"results\": [{\"expression\": \"표현\", \"accords\": [\"accord1\", \"accord2\"]}]}",
+ "requests": {
+  "standard": {
+   "user_prompt": "다음 표현을 각각 변환하세요.\n- 오크모스\n- 상큼한\n- 인센스\n- 쿰쿰한\n- 우디\n- 화이트 플로럴\n- 인공 시트러스\n- 뽀송한\n- 바닐라\n- 남성 스킨\n- 파우더리\n- 달콤한\n- 그린 노트\n- 폭닥한\n- 매캐한",
+   "content": "{\"results\":[{\"expression\":\"오크모스\",\"accords\":[\"mossy\",\"woody\"]},{\"expression\":\"상큼한\",\"accords\":[\"fresh\",\"citrus\"]},{\"expression\":\"인센스\",\"accords\":[\"balsamic\",\"smoky\"]},{\"expression\":\"쿰쿰한\",\"accords\":[\"earthy\",\"musky\"]},{\"expression\":\"우디\",\"accords\":[\"woody\"]},{\"expression\":\"화이트 플로럴\",\"accords\":[\"white floral\"]},{\"expression\":\"인공 시트러스\",\"accords\":[\"citrus\",\"ozonic\"]},{\"expression\":\"뽀송한\",\"accords\":[\"powdery\",\"soapy\"]},{\"expression\":\"바닐라\",\"accords\":[\"vanilla\",\"sweet\"]},{\"expression\":\"남성 스킨\",\"accords\":[\"woody\",\"musky\"]},{\"expression\":\"파우더리\",\"accords\":[\"powdery\"]},{\"expression\":\"달콤한\",\"accords\":[\"sweet\",\"gourmand\"]},{\"expression\":\"그린 노트\",\"accords\":[\"green\",\"fresh\"]},{\"expression\":\"폭닥한\",\"accords\":[\"warm spicy\",\"soft spicy\"]},{\"expression\":\"매캐한\",\"accords\":[\"aldehydic\",\"camphor\"]}]}",
+   "usage": {
+    "prompt_tokens": 444,
+    "completion_tokens": 256,
+    "total_tokens": 700,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "accepted_prediction_tokens": 0,
+     "rejected_prediction_tokens": 0
+    }
+   },
+   "model_reported": "gpt-5.4-nano-2026-03-17"
+  },
+  "variant": {
+   "user_prompt": "다음 표현을 각각 변환하세요.\n- 쾌남 스킨\n- 매쾌한\n- 퀴퀴한\n- 그리너리한\n- 파우더리한\n- 향 피운 방\n- 달달한\n- 에프킬라\n- 상콤한\n- 비 온 뒤 숲\n- 쓸쿰한\n- 달큰한\n- 바닐라리한\n- 쾨쾨한\n- 우디한\n- 절간 냄새\n- 폭신한\n- 화플\n- 젖은 흙\n- 보송한\n- 바버샵",
+   "content": "{\"results\":[{\"expression\":\"쾌남 스킨\",\"accords\":[\"fresh\"]},{\"expression\":\"매쾌한\",\"accords\":[\"citrus\",\"herbal\"]},{\"expression\":\"퀴퀴한\",\"accords\":[\"mossy\",\"earthy\"]},{\"expression\":\"그리너리한\",\"accords\":[\"green\",\"herbal\"]},{\"expression\":\"파우더리한\",\"accords\":[\"powdery\",\"floral\"]},{\"expression\":\"향 피운 방\",\"accords\":[\"smoky\",\"woody\"]},{\"expression\":\"달달한\",\"accords\":[\"sweet\",\"vanilla\"]},{\"expression\":\"에프킬라\",\"accords\":[\"alcohol\",\"oily\"]},{\"expression\":\"상콤한\",\"accords\":[\"citrus\",\"fresh\"]},{\"expression\":\"비 온 뒤 숲\",\"accords\":[\"rain\",\"earthy\"]},{\"expression\":\"쓸쿰한\",\"accords\":[\"soapy\",\"musky\"]},{\"expression\":\"달큰한\",\"accords\":[\"sweet\",\"caramel\"]},{\"expression\":\"바닐라리한\",\"accords\":[\"vanilla\",\"sweet\"]},{\"expression\":\"쾨쾨한\",\"accords\":[\"alcohol\",\"sharp\"]},{\"expression\":\"우디한\",\"accords\":[\"woody\",\"mossy\"]},{\"expression\":\"절간 냄새\",\"accords\":[\"fruity\",\"soapy\"]},{\"expression\":\"폭신한\",\"accords\":[\"aldehydic\",\"powdery\"]},{\"expression\":\"화플\",\"accords\":[\"sour\",\"soapy\"]},{\"expression\":\"젖은 흙\",\"accords\":[\"earthy\",\"aquatic\"]},{\"expression\":\"보송한\",\"accords\":[\"powdery\",\"dry\"]},{\"expression\":\"바버샵\",\"accords\":[\"leather\",\"lavender\"]}]}",
+   "usage": {
+    "prompt_tokens": 489,
+    "completion_tokens": 369,
+    "total_tokens": 858,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "accepted_prediction_tokens": 0,
+     "rejected_prediction_tokens": 0
+    }
+   },
+   "model_reported": "gpt-5.4-nano-2026-03-17"
+  }
+ }
+}
