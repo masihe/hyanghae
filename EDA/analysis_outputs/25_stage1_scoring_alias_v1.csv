@@ -1,0 +1,41 @@
+﻿entry_id,expression,aliases,canonical_key,expression_type,target_field,evidence_tier,evidence,scope_note,status
+kr.lex11.autumn,가을,가을,autumn,CONTEXT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,LEVEL_A_DIRECT / SEASON,active
+kr.lex11.winter,겨울,겨울,winter,CONTEXT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,LEVEL_A_DIRECT / SEASON,active
+kr.lex11.day,낮,낮,day,CONTEXT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,LEVEL_A_DIRECT / DAYPART,active
+kr.lex11.vanilla,바닐라,바닐라,vanilla,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex11.night,밤,밤,night,CONTEXT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,LEVEL_A_DIRECT / DAYPART,active
+kr.lex11.spring,봄,봄,spring,CONTEXT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,LEVEL_A_DIRECT / SEASON,active
+kr.lex11.sweet,스위트,스위트,sweet,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex11.citrus,시트러스,시트러스,citrus,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex11.aromatic,아로마틱,아로마틱,aromatic,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex11.amber,앰버,앰버,amber,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex11.summer,여름,여름,summer,CONTEXT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,LEVEL_A_DIRECT / SEASON,active
+kr.lex11.woody,우디,우디,woody,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex11.powdery,파우더리,파우더리,powdery,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex11.fresh,프레시,프레시,fresh,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex11.fruity,프루티,프루티,fruity,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex11.floral,플로럴,플로럴,floral,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_11,analysis_outputs/11_rule_lexicon.csv,KOREAN_TRANSLITERATION / ACCORD,active
+kr.lex14.vanilla,바닐라,바닐라,vanilla,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_14,14_stage1_extended_rule_evaluation.ipynb DIRECT_SCENT_RULES,Note 직접 언급,active
+kr.lex14.rose,장미,장미,rose,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_14,14_stage1_extended_rule_evaluation.ipynb DIRECT_SCENT_RULES,Note 직접 언급,active
+kr.lex14.mint,민트,민트,mint,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_14,14_stage1_extended_rule_evaluation.ipynb DIRECT_SCENT_RULES,Note 직접 언급,active
+kr.lex14.lemon,레몬,레몬,lemon,DIRECT_SCENT,STAGE1_DIRECT,LEXICON_14,14_stage1_extended_rule_evaluation.ipynb DIRECT_SCENT_RULES,Note 직접 언급,active
+kr.loan.musk,머스크,머스크|머스키,musk,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.loan.patchouli,패출리,패출리|파출리,patchouli,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.loan.incense,인센스,인센스,incense,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.loan.chocolate,초코,초코|초콜릿,chocolate,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.loan.basil,바질,바질,basil,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.loan.cherry,체리,체리,cherry,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.loan.coconut,코코넛,코코넛,coconut,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.loan.lavender,라벤더,라벤더,lavender,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.loan.bergamot,베르가못,베르가못|버가못,bergamot,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.loan.sandalwood,샌달우드,샌달우드|샌들우드,sandalwood,DIRECT_SCENT,STAGE1_DIRECT,LOANWORD,한국어 음차 표기,외래어 표기 변형,active
+kr.trans.peach,복숭아,복숭아,peach,DIRECT_SCENT,STAGE1_DIRECT,TRANSLATION,고유어 명사 대응,향료 이름 번역,active
+kr.trans.rose,장미,장미,rose,DIRECT_SCENT,STAGE1_DIRECT,TRANSLATION,고유어 명사 대응,향료 이름 번역,active
+kr.trans.lemon,레몬,레몬,lemon,DIRECT_SCENT,STAGE1_DIRECT,TRANSLATION,고유어 명사 대응,향료 이름 번역,active
+kr.trans.grapefruit,자몽,자몽,grapefruit,DIRECT_SCENT,STAGE1_DIRECT,TRANSLATION,고유어 명사 대응,향료 이름 번역,active
+kr.trans.sandalwood,백단,백단,sandalwood,DIRECT_SCENT,STAGE1_DIRECT,TRANSLATION,고유어 명사 대응,향료 이름 번역,active
+kr.sens.sweet,달콤한,달콤한|달달한|달달|단|달콤,sweet,SENSORY,STAGE1_DIRECT,SENSORY,감각 형용사 대응 (외부 어휘 검증 불가),형용사 tier,active
+kr.sens.heavy,무거운,무거운|무겁거나|무거움|묵직한,heavy,SENSORY,STAGE1_DIRECT,SENSORY,감각 형용사 대응 (외부 어휘 검증 불가),형용사 tier,active
+kr.sens.light,가벼운,가벼운|가볍고|가벼움,light,SENSORY,STAGE1_DIRECT,SENSORY,감각 형용사 대응 (외부 어휘 검증 불가),형용사 tier,active
+kr.sens.fresh,시원한,시원한|시원하고|청량한,fresh,SENSORY,STAGE1_DIRECT,SENSORY,감각 형용사 대응 (외부 어휘 검증 불가),형용사 tier,active
+kr.sens.strong,강한,강한|진한|센,strong,SENSORY,STAGE1_DIRECT,SENSORY,감각 형용사 대응 (외부 어휘 검증 불가),형용사 tier,active

@@ -1,0 +1,1326 @@
+﻿query_id,system,field,outcome,gold_item,pred_item,gold_key,pred_key,match_tier,excess_tokens,resolution_status
+UQ0001,rule,additional,FN,비가 온 뒤,,비가 온 뒤,,,,EMPTY_PREDICTION
+UQ0001,rule,additional,FN,숲,,숲,,,,EMPTY_PREDICTION
+UQ0002,rule,additional,FN,깔끔한,,깔끔한,,,,EMPTY_PREDICTION
+UQ0002,rule,scent,TP,Citrus,citrus,citrus,citrus,EXACT,0.0,
+UQ0003,rule,additional,FN,가격 적당,,가격 적당,,,,EMPTY_PREDICTION
+UQ0003,rule,additional,FN,구색 갖추려고,,구색 갖추려고,,,,EMPTY_PREDICTION
+UQ0004,rule,avoid,FN,달콤한,,sweet,,,,EMPTY_PREDICTION
+UQ0005,rule,avoid,FN,너무 단,,너무 단,,,,EMPTY_PREDICTION
+UQ0005,rule,scent,TP,Vanilla,vanilla,vanilla,vanilla,EXACT,0.0,
+UQ0006,rule,scent,FN,Sea Notes,,sea notes,,,,EMPTY_PREDICTION
+UQ0007,rule,additional,FN,30대 초반,,30대 초반,,,,EMPTY_PREDICTION
+UQ0008,rule,scent,FN,Lemon Peel,,lemon peel,,,,EMPTY_PREDICTION
+UQ0008,rule,scent,FN,Lemon Zest,,lemon zest,,,,EMPTY_PREDICTION
+UQ0010,rule,avoid,FN,너무 느끼,,너무 느끼,,,,EMPTY_PREDICTION
+UQ0010,rule,additional,FN,공주,,공주,,,,EMPTY_PREDICTION
+UQ0010,rule,scent,FN,Cake,,cake,,,,EMPTY_PREDICTION
+UQ0011,rule,avoid,FN,절 냄새,,절 냄새,,,,EMPTY_PREDICTION
+UQ0011,rule,scent,FN,Trees,,trees,,,,EMPTY_PREDICTION
+UQ0012,rule,additional,FN,깨끗한 냄새,,깨끗한,,,,EMPTY_PREDICTION
+UQ0013,rule,additional,FN,머리 너무 안 아팠으면,,머리 너무 안 아팠으면,,,,EMPTY_PREDICTION
+UQ0013,rule,scent,FN,Coconut,,coconut,,,,EMPTY_PREDICTION
+UQ0014,rule,additional,FN,잘 모르는데 혹시 추천,,잘 모르는데 혹시 추천,,,,EMPTY_PREDICTION
+UQ0016,rule,avoid,FN,향기 너무 많이 나면,,향기 너무 많이 나면,,,,EMPTY_PREDICTION
+UQ0017,rule,additional,FN,어른스러운 느낌,,어른스러운,,,,EMPTY_PREDICTION
+UQ0017,rule,additional,FN,34살,,34살,,,,EMPTY_PREDICTION
+UQ0017,rule,additional,FN,금융맨,,금융맨,,,,EMPTY_PREDICTION
+UQ0018,rule,additional,FN,여친한테 점수 딸만한,,여친한테 점수 딸만한,,,,EMPTY_PREDICTION
+UQ0019,rule,additional,FN,옷에 향수,,옷에,,,,EMPTY_PREDICTION
+UQ0019,rule,additional,FN,아무거나 추천,,아무거나 추천,,,,EMPTY_PREDICTION
+UQ0020,rule,avoid,FN,입자가 너무 작은 건,,입자가 너무 작은,,,,EMPTY_PREDICTION
+UQ0020,rule,additional,FN,분사 적당히 되는 거,,분사 적당히 되는,,,,EMPTY_PREDICTION
+UQ0021,rule,additional,FN,이솝 테싯 퍼퓸,,이솝 테싯 퍼퓸,,,,EMPTY_PREDICTION
+UQ0021,rule,additional,FN,체향에 잘 맞는,,체향에 잘 맞는,,,,EMPTY_PREDICTION
+UQ0022,rule,avoid,FN,조말론 블랙베리,,조말론 블랙베리,,,,EMPTY_PREDICTION
+UQ0023,rule,additional,FN,깔끔한,,깔끔한,,,,EMPTY_PREDICTION
+UQ0024,rule,additional,FN,25살,,25살,,,,EMPTY_PREDICTION
+UQ0024,rule,additional,FN,회사 취직,,회사 취직,,,,EMPTY_PREDICTION
+UQ0024,rule,additional,FN,나한테 선물,,나한테 선물,,,,EMPTY_PREDICTION
+UQ0025,rule,avoid,FN,부담,,부담,,,,EMPTY_PREDICTION
+UQ0025,rule,additional,FN,소개팅,,소개팅,,,,EMPTY_PREDICTION
+UQ0025,rule,additional,FN,좋은 인상,,좋은 인상,,,,EMPTY_PREDICTION
+UQ0026,rule,additional,FN,조용,,조용,,,,EMPTY_PREDICTION
+UQ0026,rule,additional,FN,차분한,,차분한,,,,EMPTY_PREDICTION
+UQ0027,rule,additional,FN,지나갈 때 은은,,지나갈 때 은은,,,,EMPTY_PREDICTION
+UQ0027,rule,additional,FN,좋은 냄새,,좋은,,,,EMPTY_PREDICTION
+UQ0028,rule,additional,FN,회사,,회사,,,,EMPTY_PREDICTION
+UQ0028,rule,additional,FN,매일 사용,,매일 사용,,,,EMPTY_PREDICTION
+UQ0028,rule,additional,FN,부담 없는,,부담 없는,,,,EMPTY_PREDICTION
+UQ0028,rule,additional,FN,깔끔한,,깔끔한,,,,EMPTY_PREDICTION
+UQ0029,rule,additional,FN,처음 향수를 사는,,처음 향수를 사는,,,,EMPTY_PREDICTION
+UQ0029,rule,additional,FN,무난하게 사용,,무난하게 사용,,,,EMPTY_PREDICTION
+UQ0030,rule,avoid,FN,강하게,,강하게,,,,EMPTY_PREDICTION
+UQ0030,rule,additional,FN,사람 많은 곳,,사람 많은 곳,,,,EMPTY_PREDICTION
+UQ0030,rule,additional,FN,은은한,,은은한,,,,EMPTY_PREDICTION
+UQ0031,rule,additional,FN,좋은 냄새,,좋은,,,,EMPTY_PREDICTION
+UQ0032,rule,avoid,FN,강하면,,강하면,,,,EMPTY_PREDICTION
+UQ0032,rule,additional,FN,부드럽,,부드럽,,,,EMPTY_PREDICTION
+UQ0032,rule,additional,FN,편안한 향,,편안한,,,,EMPTY_PREDICTION
+UQ0033,rule,avoid,FN,어려 보이지,,어려 보이지,,,,EMPTY_PREDICTION
+UQ0033,rule,additional,FN, 20대 후반,,20대 후반,,,,EMPTY_PREDICTION
+UQ0033,rule,additional,FN,세련된 향수,,세련된,,,,EMPTY_PREDICTION
+UQ0034,rule,additional,FN,향수 뿌린 티 안나는,,향수 뿌린 티 안나는,,,,EMPTY_PREDICTION
+UQ0035,rule,additional,FN,그냥 골라줘,,그냥 골라줘,,,,EMPTY_PREDICTION
+UQ0036,rule,additional,FN,면접,,면접,,,,EMPTY_PREDICTION
+UQ0037,rule,additional,FN,남자친구,,남자친구,,,,EMPTY_PREDICTION
+UQ0038,rule,additional,FN,사계절,,사계절,,,,EMPTY_PREDICTION
+UQ0039,rule,additional,FN,출근할때,,출근할때,,,,EMPTY_PREDICTION
+UQ0039,rule,additional,FN,매일,,매일,,,,EMPTY_PREDICTION
+UQ0039,rule,additional,FN,막 뿌릴,,막 뿌릴,,,,EMPTY_PREDICTION
+UQ0040,rule,additional,FN,담배냄새랑 섞여도 이상하지 않은,,담배냄새랑 섞여도 이상하지 않은,,,,EMPTY_PREDICTION
+UQ0041,rule,additional,FN,여자 향수,,여자,,,,EMPTY_PREDICTION
+UQ0042,rule,additional,FN,땀냄새랑 섞여서 이상해지지 않는,,땀냄새랑 섞여서 이상해지지 않는,,,,EMPTY_PREDICTION
+UQ0043,rule,additional,FN,향수 입문자,,향수 입문자,,,,EMPTY_PREDICTION
+UQ0043,rule,additional,FN,괜찮은 향수,,괜찮은,,,,EMPTY_PREDICTION
+UQ0044,rule,additional,FN,면세점에서 사기 좋은,,면세점에서 사기 좋은,,,,EMPTY_PREDICTION
+UQ0045,rule,additional,FN,헬스장,,헬스장,,,,EMPTY_PREDICTION
+UQ0045,rule,additional,FN,반응 좋은,,반응 좋은,,,,EMPTY_PREDICTION
+UQ0046,rule,additional,FN,오늘,,오늘,,,,EMPTY_PREDICTION
+UQ0046,rule,additional,FN,뿌리기 좋은,,뿌리기 좋은,,,,EMPTY_PREDICTION
+UQ0047,rule,additional,FN,엄청 섹시한 느낌,,엄청 섹시한,,,,EMPTY_PREDICTION
+UQ0048,rule,additional,FN,섬유유연제 향,,섬유유연제,,,,EMPTY_PREDICTION
+UQ0048,rule,scent,FN,Soap,,soap,,,,EMPTY_PREDICTION
+UQ0049,rule,additional,FN,나한테 맞는,,나한테 맞는,,,,EMPTY_PREDICTION
+UQ0050,rule,additional,FN,향수 입문자,,향수 입문자,,,,EMPTY_PREDICTION
+UQ0050,rule,additional,FN,괜찮은 향수,,괜찮은,,,,EMPTY_PREDICTION
+UQ0051,rule,additional,FN,향수 입문용,,향수 입문용,,,,EMPTY_PREDICTION
+UQ0051,rule,additional,FN,조말론,,조말론,,,,EMPTY_PREDICTION
+UQ0051,rule,additional,FN,메종 마르지엘라,,메종 마르지엘라,,,,EMPTY_PREDICTION
+UQ0052,rule,avoid,FN,달콤한 향기,,sweet,,,,EMPTY_PREDICTION
+UQ0052,rule,additional,FN,화한거,,화한,,,,EMPTY_PREDICTION
+UQ0053,rule,additional,FN,맑고 산뜻,,맑고 산뜻,,,,EMPTY_PREDICTION
+UQ0054,rule,avoid,FN,너무 음식같은 느낌,,너무 음식같은,,,,EMPTY_PREDICTION
+UQ0054,rule,additional,FN,홍차향,,홍차,,,,EMPTY_PREDICTION
+UQ0055,rule,additional,FN,플로럴 계열,,floral,,,,EMPTY_PREDICTION
+UQ0055,rule,additional,FN,톡 쏘는 거,,톡 쏘는,,,,EMPTY_PREDICTION
+UQ0055,rule,scent,TP,floral,floral,floral,floral,EXACT,0.0,
+UQ0056,rule,avoid,FN,너무 진한 향,,너무 진한,,,,EMPTY_PREDICTION
+UQ0056,rule,additional,FN,아로마 계열,,아로마,,,,EMPTY_PREDICTION
+UQ0056,rule,scent,FN,aromatic,,aromatic,,,,EMPTY_PREDICTION
+UQ0057,rule,additional,FN,대학교 들어가는데,,대학교 들어가는데,,,,EMPTY_PREDICTION
+UQ0057,rule,additional,FN,어른스러운,,어른스러운,,,,EMPTY_PREDICTION
+UQ0058,rule,additional,FN,겨울 느낌,,winter,,,,EMPTY_PREDICTION
+UQ0058,rule,additional,FN,서늘한 여자,,서늘한 여자,,,,EMPTY_PREDICTION
+UQ0059,rule,additional,FN,무조건 달콤한 향,,무조건 달콤한,,,,EMPTY_PREDICTION
+UQ0059,rule,additional,FN,약간 민트계열,,약간 민트,,,,EMPTY_PREDICTION
+UQ0059,rule,scent,FN,Mint,,mint,,,,EMPTY_PREDICTION
+UQ0060,rule,additional,FN,살같에서 날 것 같은,,살같에서 날 것 같은,,,,EMPTY_PREDICTION
+UQ0060,rule,additional,FN,베이비 파우더,,베이비 파우더,,,,EMPTY_PREDICTION
+UQ0061,rule,additional,FN,흰 꽃에서만 나는 맑은 향,,흰 꽃에서만 나는 맑은,,,,EMPTY_PREDICTION
+UQ0061,rule,scent,TP,Citrus,citrus,citrus,citrus,EXACT,0.0,
+UQ0062,rule,additional,FN,풍성한 복숭아,,풍성한 복숭아,,,,EMPTY_PREDICTION
+UQ0062,rule,additional,FN,폭닥,,폭닥,,,,EMPTY_PREDICTION
+UQ0062,rule,scent,FN,Peach,,peach,,,,EMPTY_PREDICTION
+UQ0063,rule,additional,FN,쨍한 허브 비누향,,쨍한 허브 비누,,,,EMPTY_PREDICTION
+UQ0063,rule,additional,FN,세제 잔뜩,,세제 잔뜩,,,,EMPTY_PREDICTION
+UQ0063,rule,scent,FN,herbal,,herbal,,,,EMPTY_PREDICTION
+UQ0063,rule,scent,FN,Soap,,soap,,,,EMPTY_PREDICTION
+UQ0064,rule,additional,FN,차가운데,,차가운데,,,,EMPTY_PREDICTION
+UQ0064,rule,additional,FN,쨍한,,쨍한,,,,EMPTY_PREDICTION
+UQ0065,rule,additional,FN,잔향 좋은 거,,잔향 좋은,,,,EMPTY_PREDICTION
+UQ0065,rule,additional,FN,선호 없음,,선호 없음,,,,EMPTY_PREDICTION
+UQ0066,rule,additional,FN,자연스러운,,자연스러운,,,,EMPTY_PREDICTION
+UQ0066,rule,additional,FN,은은한 살냄새,,은은한 살,,,,EMPTY_PREDICTION
+UQ0067,rule,additional,FN,담백,,담백,,,,EMPTY_PREDICTION
+UQ0067,rule,additional,FN,부드러운,,부드러운,,,,EMPTY_PREDICTION
+UQ0067,rule,additional,FN,엣지있는,,엣지있는,,,,EMPTY_PREDICTION
+UQ0068,rule,additional,FN,장마철,,장마철,,,,EMPTY_PREDICTION
+UQ0068,rule,additional,FN,호수에 떠있는 연꽃,,호수에 떠있는 연꽃,,,,EMPTY_PREDICTION
+UQ0069,rule,additional,FN,땀 냄새랑 섞여도 안 이상한 거,,땀 냄새랑 섞여도 안 이상한,,,,EMPTY_PREDICTION
+UQ0069,rule,additional,FN,바디스프레이,,바디스프레이,,,,EMPTY_PREDICTION
+UQ0070,rule,additional,FN,10만원 이내,,10만원 이내,,,,EMPTY_PREDICTION
+UQ0070,rule,additional,FN,저렴한,,저렴한,,,,EMPTY_PREDICTION
+UQ0070,rule,additional,FN,시원한,,fresh,,,,EMPTY_PREDICTION
+UQ0071,rule,additional,FN,20만원 이내,,20만원 이내,,,,EMPTY_PREDICTION
+UQ0071,rule,additional,FN,조합 괜찮은,,조합 괜찮은,,,,EMPTY_PREDICTION
+UQ0071,rule,additional,FN,향수 2개,,향수 2개,,,,EMPTY_PREDICTION
+UQ0072,rule,additional,FN,이슬을 머금은 장미,,이슬을 머금은 장미,,,,EMPTY_PREDICTION
+UQ0072,rule,scent,FN,Rose,,rose,,,,EMPTY_PREDICTION
+UQ0073,rule,additional,FN,첫 인상이 포근,,첫 인상이 포근,,,,EMPTY_PREDICTION
+UQ0073,rule,additional,FN,릴랙싱,,릴랙싱,,,,EMPTY_PREDICTION
+UQ0074,rule,additional,FN,비 오는 날,,비 오는 날,,,,EMPTY_PREDICTION
+UQ0074,rule,additional,FN,30대,,30대,,,,EMPTY_PREDICTION
+UQ0075,rule,additional,FN,회사,,회사,,,,EMPTY_PREDICTION
+UQ0075,rule,additional,FN,중요한 공식석상,,중요한 공식석상,,,,EMPTY_PREDICTION
+UQ0076,rule,additional,FN,산뜻,,산뜻,,,,EMPTY_PREDICTION
+UQ0076,rule,additional,FN,과일냄새,,과일,,,,EMPTY_PREDICTION
+UQ0077,rule,additional,FN,템버린즈 볼드 시트러스랑 비슷한 향수,,템버린즈 볼드 시트러스랑 비슷한,,,,EMPTY_PREDICTION
+UQ0077,rule,scent,FP,,citrus,,citrus,,,
+UQ0078,rule,additional,FN,가볍고,,light,,,,EMPTY_PREDICTION
+UQ0078,rule,additional,FN,부드러운,,부드러운,,,,EMPTY_PREDICTION
+UQ0079,rule,additional,FN,물 대신 과즙을 마시고 자란 꽃,,물 대신 과즙을 마시고 자란 꽃,,,,EMPTY_PREDICTION
+UQ0080,rule,additional,FN,바다에 누워서,,바다에 누워서,,,,EMPTY_PREDICTION
+UQ0080,rule,additional,FN,하늘을 올려다보고있는 듯,,하늘을 올려다보고있는 듯,,,,EMPTY_PREDICTION
+UQ0080,rule,scent,FN,Sea Notes,,sea notes,,,,EMPTY_PREDICTION
+UQ0081,rule,additional,FN,휴양지에 놀러갔을 때,,휴양지에 놀러갔을 때,,,,EMPTY_PREDICTION
+UQ0082,rule,additional,FN,슥 지나갔을 때,,슥 지나갔을 때,,,,EMPTY_PREDICTION
+UQ0082,rule,additional,FN,향이 너무 좋아서 사람들이 다 돌아볼 것 같은,,향이 너무 좋아서 사람들이 다 돌아볼 것 같은,,,,EMPTY_PREDICTION
+UQ0083,rule,additional,FN,귀엽고,,귀엽고,,,,EMPTY_PREDICTION
+UQ0083,rule,additional,FN,산뜻한,,산뜻한,,,,EMPTY_PREDICTION
+UQ0083,rule,additional,FN,20대,,20대,,,,EMPTY_PREDICTION
+UQ0084,rule,additional,FN,40대,,40대,,,,EMPTY_PREDICTION
+UQ0084,rule,additional,FN,데일리 향수,,데일리,,,,EMPTY_PREDICTION
+UQ0085,rule,additional,FN,시원한 향수,,fresh,,,,EMPTY_PREDICTION
+UQ0086,rule,additional,FN,데일리로 쓰기 좋은,,데일리로 쓰기 좋은,,,,EMPTY_PREDICTION
+UQ0087,rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0088,rule,additional,FN,출근,,출근,,,,EMPTY_PREDICTION
+UQ0088,rule,additional,FN,부담 없이,,부담 없이,,,,EMPTY_PREDICTION
+UQ0089,rule,additional,FN,소개팅,,소개팅,,,,EMPTY_PREDICTION
+UQ0090,rule,additional,FN,데이트,,데이트,,,,EMPTY_PREDICTION
+UQ0090,rule,additional,FN,반응 좋은,,반응 좋은,,,,EMPTY_PREDICTION
+UQ0091,rule,additional,FN,회사,,회사,,,,EMPTY_PREDICTION
+UQ0091,rule,additional,FN,은은한,,은은한,,,,EMPTY_PREDICTION
+UQ0092,rule,avoid,FN,향이 너무 세,,향이 너무 세,,,,EMPTY_PREDICTION
+UQ0093,rule,additional,FN,인기많은 남자,,인기많은 남자,,,,EMPTY_PREDICTION
+UQ0094,rule,additional,FN,흔하지 않으면서,,흔하지 않으면서,,,,EMPTY_PREDICTION
+UQ0094,rule,additional,FN,섹시한,,섹시한,,,,EMPTY_PREDICTION
+UQ0095,rule,additional,FN,햇살 내리쬐는 일본 여름,,햇살 내리쬐는 일본 여름,,,,EMPTY_PREDICTION
+UQ0096,rule,additional,FN,꿀 향,,꿀 향,,,,EMPTY_PREDICTION
+UQ0097,rule,additional,FN,마사지숍,,마사지숍,,,,EMPTY_PREDICTION
+UQ0098,rule,additional,FN,양키캔들 핑크 샌즈,,양키캔들 핑크 샌즈,,,,EMPTY_PREDICTION
+UQ0099,rule,additional,FN,갓 세탁한 포근한 이불,,갓 세탁한 포근한 이불,,,,EMPTY_PREDICTION
+UQ0100,rule,additional,FN,샤넬 no5랑 믹스해서 사용하기 좋은,,샤넬 no5랑 믹스해서 사용하기 좋은,,,,EMPTY_PREDICTION
+UQ0101,rule,additional,FN,달달한 꽃,,달달한 꽃,,,,EMPTY_PREDICTION
+UQ0102,rule,additional,FN,아빠 선물용,,아빠 선물용,,,,EMPTY_PREDICTION
+UQ0102,rule,additional,FN,실패 확률 낮은,,실패 확률 낮은,,,,EMPTY_PREDICTION
+UQ0103,rule,additional,FN,스트릿룩이랑 어울리는,,스트릿룩이랑 어울리는,,,,EMPTY_PREDICTION
+UQ0104,rule,additional,FN,사계절용,,사계절용,,,,EMPTY_PREDICTION
+UQ0105,rule,additional,FN,시향 없이,,시향 없이,,,,EMPTY_PREDICTION
+UQ0105,rule,additional,FN,블라인드 구매,,블라인드 구매,,,,EMPTY_PREDICTION
+UQ0107,rule,additional,FN,잔향이 좋은,,잔향이 좋은,,,,EMPTY_PREDICTION
+UQ0108,rule,additional,FN,호불호 적은,,호불호 적은,,,,EMPTY_PREDICTION
+UQ0109,rule,additional,FN,여자들이 좋아할 만한,,여자들이 좋아할 만한,,,,EMPTY_PREDICTION
+UQ0110,rule,scent,FN,Musk,,musk,,,,EMPTY_PREDICTION
+UQ0111,rule,scent,TP,powdery,powdery,powdery,powdery,EXACT,0.0,
+UQ0112,rule,additional,FN,깨끗하고,,깨끗하고,,,,EMPTY_PREDICTION
+UQ0112,rule,additional,FN,포근한,,포근한,,,,EMPTY_PREDICTION
+UQ0113,rule,additional,FN,샤워하고 나온 것 같은,,샤워하고 나온 것 같은,,,,EMPTY_PREDICTION
+UQ0114,rule,additional,FN,부드러운,,부드러운,,,,EMPTY_PREDICTION
+UQ0114,rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0115,rule,additional,FN,호텔 로비 같은,,호텔 로비 같은,,,,EMPTY_PREDICTION
+UQ0115,rule,additional,FN,고급스러운,,고급스러운,,,,EMPTY_PREDICTION
+UQ0116,rule,avoid,FN,느끼,,느끼,,,,EMPTY_PREDICTION
+UQ0116,rule,additional,FN,달달하지만,,달달하지만,,,,EMPTY_PREDICTION
+UQ0117,rule,scent,TP,Citrus,citrus,citrus,citrus,EXACT,0.0,
+UQ0118,rule,additional,FN,니치 향수 입문용,,니치 향수 입문용,,,,EMPTY_PREDICTION
+UQ0119,rule,additional,FN,10만 원대,,10만 원대,,,,EMPTY_PREDICTION
+UQ0120,rule,additional,FN,20만 원 이하,,20만 원 이하,,,,EMPTY_PREDICTION
+UQ0120,rule,additional,FN,가성비,,가성비,,,,EMPTY_PREDICTION
+UQ0121,rule,additional,FN,20대 후반,,20대 후반,,,,EMPTY_PREDICTION
+UQ0122,rule,additional,FN,결혼하는 사람,,결혼하는 사람,,,,EMPTY_PREDICTION
+UQ0122,rule,additional,FN,선물,,선물,,,,EMPTY_PREDICTION
+UQ0123,rule,additional,FN,운동하고 뿌리면 좋을,,운동하고 뿌리면 좋을,,,,EMPTY_PREDICTION
+UQ0124,rule,additional,FN,올리브영이나 백화점,,올리브영이나 백화점,,,,EMPTY_PREDICTION
+UQ0124,rule,additional,FN,가장 핫,,가장 핫,,,,EMPTY_PREDICTION
+UQ0124,rule,additional,FN,인기 많은,,인기 많은,,,,EMPTY_PREDICTION
+UQ0125,rule,additional,FN,호불호 안 갈리고,,호불호 안 갈리고,,,,EMPTY_PREDICTION
+UQ0125,rule,additional,FN,누구나 맡았을 때 '좋다'고,,누구나 맡았을 때 좋다 고,,,,EMPTY_PREDICTION
+UQ0126,rule,additional,FN,향수 초보,,향수 초보,,,,EMPTY_PREDICTION
+UQ0126,rule,additional,FN,실패 확률 제일 적고,,실패 확률 제일 적고,,,,EMPTY_PREDICTION
+UQ0126,rule,additional,FN,다들 좋다고,,다들 좋다고,,,,EMPTY_PREDICTION
+UQ0127,rule,additional,FN,제일 잘 나가냐,,제일 잘 나가냐,,,,EMPTY_PREDICTION
+UQ0128,rule,additional,FN,호불호 안 갈리는,,호불호 안 갈리는,,,,EMPTY_PREDICTION
+UQ0128,rule,additional,FN,여자친구 선물,,여자친구 선물,,,,EMPTY_PREDICTION
+UQ0129,rule,additional,FN,비누 향,,비누,,,,EMPTY_PREDICTION
+UQ0129,rule,additional,FN,세탁 건조기처럼 포근,,세탁 건조기처럼 포근,,,,EMPTY_PREDICTION
+UQ0129,rule,additional,FN,깨끗한,,깨끗한,,,,EMPTY_PREDICTION
+UQ0130,rule,additional,FN,향수병 디자인이 독특하거나 예술적인,,향수병 디자인이 독특하거나 예술적인,,,,EMPTY_PREDICTION
+UQ0131,rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0132,rule,additional,FN,바다가 떠오르는,,바다가 떠오르는,,,,EMPTY_PREDICTION
+UQ0132,rule,scent,FN,Sea Notes,,sea notes,,,,EMPTY_PREDICTION
+UQ0133,rule,additional,FN,디자인이 엄청 고급스럽고 화려해서 선물용으로 소장 가치 있는 향수 병,,디자인이 엄청 고급스럽고 화려해서 선물용으로 소장 가치 있는 향수 병,,,,EMPTY_PREDICTION
+UQ0134,rule,additional,FN,어떤 향수,,어떤,,,,EMPTY_PREDICTION
+UQ0134,rule,additional,FN,인기가 많냐,,인기가 많냐,,,,EMPTY_PREDICTION
+UQ0135,rule,additional,FN,SNS에서 인기 많은,,sns에서 인기 많은,,,,EMPTY_PREDICTION
+UQ0136,rule,additional,FN,남들이 잘 안쓰는 독특한,,남들이 잘 안쓰는 독특한,,,,EMPTY_PREDICTION
+UQ0137,rule,scent,FN,green,,green,,,,EMPTY_PREDICTION
+UQ0137,rule,scent,FN,herbal,,herbal,,,,EMPTY_PREDICTION
+UQ0139,rule,additional,FN,시크한,,시크한,,,,EMPTY_PREDICTION
+UQ0139,rule,scent,FN,smoky,,smoky,,,,EMPTY_PREDICTION
+UQ0139,rule,scent,FN,Leather,,leather,,,,EMPTY_PREDICTION
+UQ0141,rule,additional,FN,남친한테 향수 선물,,남친한테 향수 선물,,,,EMPTY_PREDICTION
+UQ0141,rule,additional,FN,제일 유명한,,제일 유명한,,,,EMPTY_PREDICTION
+UQ0141,rule,additional,FN,5개,,5개,,,,EMPTY_PREDICTION
+UQ0142,rule,additional,FN,밀폐된 공간,,밀폐된 공간,,,,EMPTY_PREDICTION
+UQ0142,rule,additional,FN,안 어지러울만한 거,,안 어지러울만한,,,,EMPTY_PREDICTION
+UQ0143,rule,additional,FN,카리스마,,카리스마,,,,EMPTY_PREDICTION
+UQ0143,rule,additional,FN,딱딱한,,딱딱한,,,,EMPTY_PREDICTION
+UQ0144,rule,additional,FN,5만원 이내,,5만원 이내,,,,EMPTY_PREDICTION
+UQ0144,rule,additional,FN,백화점 향수,,백화점,,,,EMPTY_PREDICTION
+UQ0145,rule,additional,FN,천연 향신료,,천연 향신료,,,,EMPTY_PREDICTION
+UQ0145,rule,additional,FN,성분 좋은,,성분 좋은,,,,EMPTY_PREDICTION
+UQ0146,rule,additional,FN,가격 상관 없음,,가격 상관 없음,,,,EMPTY_PREDICTION
+UQ0146,rule,additional,FN,리한나가 쓰는 향수,,리한나가 쓰는,,,,EMPTY_PREDICTION
+UQ0148,rule,avoid,FN,바닐라,,vanilla,,,,EMPTY_PREDICTION
+UQ0148,rule,additional,FN,달콤한 향,,sweet,,,,EMPTY_PREDICTION
+UQ0148,rule,scent,FP,,vanilla,,vanilla,,,
+UQ0149,rule,avoid,FN,남자 스킨 냄새,,남자 스킨,,,,EMPTY_PREDICTION
+UQ0149,rule,additional,FN,시원한 향,,fresh,,,,EMPTY_PREDICTION
+UQ0150,rule,avoid,FN,무겁거나,,heavy,,,,EMPTY_PREDICTION
+UQ0150,rule,avoid,FN,중후한,,중후한,,,,EMPTY_PREDICTION
+UQ0150,rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0151,rule,avoid,FN,화장품 냄새,,화장품,,,,EMPTY_PREDICTION
+UQ0151,rule,additional,FN,꽃향,,꽃향,,,,EMPTY_PREDICTION
+UQ0152,rule,avoid,FN,패출리,,patchouli,,,,EMPTY_PREDICTION
+UQ0153,rule,avoid,FN,인센스,,incense,,,,EMPTY_PREDICTION
+UQ0153,rule,avoid,FN,절 냄새,,절 냄새,,,,EMPTY_PREDICTION
+UQ0153,rule,additional,FN,다양한 종류로 추천,,다양한 종류로 추천,,,,EMPTY_PREDICTION
+UQ0154,rule,avoid,FN,복숭아,,peach,,,,EMPTY_PREDICTION
+UQ0154,rule,avoid,FN,체리,,cherry,,,,EMPTY_PREDICTION
+UQ0154,rule,additional,FN,과일 향수,,과일,,,,EMPTY_PREDICTION
+UQ0155,rule,additional,FN,딥티크 탐다오랑 오르페옹 중에 출근용,,딥티크 탐다오랑 오르페옹 중에 출근용,,,,EMPTY_PREDICTION
+UQ0156,rule,additional,FN,블루 드 샤넬보다 덜 흔한 느낌,,블루 드 샤넬보다 덜 흔한,,,,EMPTY_PREDICTION
+UQ0157,rule,additional,FN,조말론인데 조금 더 성숙한 느낌으로 바꾸고 싶어.,,조말론인데 조금 더 성숙한 느낌으로 바꾸고 싶어,,,,EMPTY_PREDICTION
+UQ0158,rule,additional,FN,새벽 바닷가,,새벽 바닷가,,,,EMPTY_PREDICTION
+UQ0158,rule,additional,FN,소금 냄새가 너무 강하진 않았으면,,소금 냄새가 너무 강하진 않았으면,,,,EMPTY_PREDICTION
+UQ0159,rule,additional,FN,비 오는 숲,,비 오는 숲,,,,EMPTY_PREDICTION
+UQ0159,rule,additional,FN,흙냄새보다는 젖은 나무 냄새,,흙냄새보다는 젖은 나무,,,,EMPTY_PREDICTION
+UQ0160,rule,additional,FN,차가운 금속같은 이미지,,차가운 금속같은 이미지,,,,EMPTY_PREDICTION
+UQ0160,rule,additional,FN,너무 날카롭지 않았으면,,너무 날카롭지 않았으면,,,,EMPTY_PREDICTION
+UQ0161,rule,avoid,FN,시트러스,,citrus,,,,EMPTY_PREDICTION
+UQ0161,rule,additional,FN,햇빛 받은 흰 셔츠,,햇빛 받은 흰 셔츠,,,,EMPTY_PREDICTION
+UQ0161,rule,scent,FP,,citrus,,citrus,,,
+UQ0162,rule,avoid,FN,세제 냄새,,세제,,,,EMPTY_PREDICTION
+UQ0162,rule,additional,FN,호텔 침구,,호텔 침구,,,,EMPTY_PREDICTION
+UQ0162,rule,additional,FN,깨끗함,,깨끗함,,,,EMPTY_PREDICTION
+UQ0163,rule,additional,FN,꿀 같은 향,,꿀 같은,,,,EMPTY_PREDICTION
+UQ0164,rule,avoid,FN,인위적인,,인위적인,,,,EMPTY_PREDICTION
+UQ0164,rule,additional,FN,장미 꽃 향기,,장미 꽃,,,,EMPTY_PREDICTION
+UQ0165,rule,scent,FN,Rose,,rose,,,,EMPTY_PREDICTION
+UQ0165,rule,scent,FN,Jasmine,,jasmine,,,,EMPTY_PREDICTION
+UQ0166,rule,avoid,FN,초코 향,,chocolate,,,,EMPTY_PREDICTION
+UQ0166,rule,scent,FN,Caramel,,caramel,,,,EMPTY_PREDICTION
+UQ0167,rule,avoid,FN,머스크,,musk,,,,EMPTY_PREDICTION
+UQ0167,rule,scent,FN,White Musk,,white musk,,,,EMPTY_PREDICTION
+UQ0168,rule,avoid,FN,바질 냄새 ,,basil,,,,EMPTY_PREDICTION
+UQ0168,rule,additional,FN,그린 계열,,그린,,,,EMPTY_PREDICTION
+UQ0168,rule,scent,FN,green,,green,,,,EMPTY_PREDICTION
+UQ0169,rule,avoid,FN,달달한 거,,sweet,,,,EMPTY_PREDICTION
+UQ0169,rule,additional,FN,싱싱한 딸기 향기,,싱싱한 딸기,,,,EMPTY_PREDICTION
+UQ0169,rule,scent,FN,Strawberry,,strawberry,,,,EMPTY_PREDICTION
+UQ0170,rule,avoid,FN,남자 향수 냄새,,남자,,,,EMPTY_PREDICTION
+UQ0170,rule,additional,FN,청량,,청량,,,,EMPTY_PREDICTION
+UQ0171,rule,additional,FN,처음에는 상쾌,,처음에는 상쾌,,,,EMPTY_PREDICTION
+UQ0171,rule,additional,FN,시간이 지나면 포근,,시간이 지나면 포근,,,,EMPTY_PREDICTION
+UQ0172,rule,additional,FN,오래된 목조 도서관,,오래된 목조 도서관,,,,EMPTY_PREDICTION
+UQ0173,rule,additional,FN,평소에는 조용한데,,평소에는 조용한데,,,,EMPTY_PREDICTION
+UQ0173,rule,additional,FN,은근히 개성 있어 보이는 사람,,은근히 개성 있어 보이는 사람,,,,EMPTY_PREDICTION
+UQ0174,rule,additional,FN,상대방 취향을 전혀 모르는데,,상대방 취향을 전혀 모르는데,,,,EMPTY_PREDICTION
+UQ0174,rule,additional,FN,선물하기 실패 확률 낮은 향수,,선물하기 실패 확률 낮은,,,,EMPTY_PREDICTION
+UQ0175,rule,additional,FN,미니멀하게 옷 입는 사람,,미니멀하게 옷 입는 사람,,,,EMPTY_PREDICTION
+UQ0175,rule,additional,FN,담백한 향수,,담백한,,,,EMPTY_PREDICTION
+UQ0176,rule,additional,FN,실내에서만 있는 직업,,실내에서만 있는 직업,,,,EMPTY_PREDICTION
+UQ0176,rule,additional,FN,답답하지 않은 향,,답답하지 않은,,,,EMPTY_PREDICTION
+UQ0177,rule,additional,FN,옛날 향수,,옛날,,,,EMPTY_PREDICTION
+UQ0177,rule,scent,TP,powdery,powdery,powdery,powdery,EXACT,0.0,
+UQ0177,rule,scent,FN,Rose,,rose,,,,ONE_TO_ONE_CAP
+UQ0178,rule,additional,FN,30대,,30대,,,,EMPTY_PREDICTION
+UQ0178,rule,additional,FN,정장차림,,정장차림,,,,EMPTY_PREDICTION
+UQ0179,rule,additional,FN,이솝 휠이랑 레이어링,,이솝 휠이랑 레이어링,,,,EMPTY_PREDICTION
+UQ0180,rule,avoid,FN,파우더리,,powdery,,,,EMPTY_PREDICTION
+UQ0180,rule,scent,TP,floral,floral,floral,floral,EXACT,0.0,
+UQ0180,rule,scent,FP,,powdery,,powdery,,,
+UQ0181,rule,scent,FN,Coffee,,coffee,,,,EMPTY_PREDICTION
+UQ0182,rule,additional,FN,무거운 향,,heavy,,,,EMPTY_PREDICTION
+UQ0182,rule,additional,FN,사무실,,사무실,,,,EMPTY_PREDICTION
+UQ0182,rule,additional,FN,부담없이 사용,,부담없이 사용,,,,EMPTY_PREDICTION
+UQ0183,rule,additional,FN,갓 깎은 잔디밭에 누워 있는,,갓 깎은 잔디밭에 누워 있는,,,,EMPTY_PREDICTION
+UQ0184,rule,additional,FN,시프레 계열,,시프레,,,,EMPTY_PREDICTION
+UQ0184,rule,additional,FN,대표적인 거 몇 개,,대표적인 거 몇 개,,,,EMPTY_PREDICTION
+UQ0185,rule,avoid,FN,올드,,올드,,,,EMPTY_PREDICTION
+UQ0185,rule,additional,FN,산타마리아노벨라 시향했는데 너무 올드,,산타마리아노벨라 시향했는데 너무 올드,,,,EMPTY_PREDICTION
+UQ0185,rule,additional,FN,젊은 느낌,,젊은,,,,EMPTY_PREDICTION
+UQ0186,rule,additional,FN,오래된 헌책방 냄새,,오래된 헌책방,,,,EMPTY_PREDICTION
+UQ0187,rule,additional,FN,아이리스,,아이리스,,,,EMPTY_PREDICTION
+UQ0187,rule,additional,FN,입문용,,입문용,,,,EMPTY_PREDICTION
+UQ0188,rule,additional,FN,크리드 실버마운틴워터,,크리드 실버마운틴워터,,,,EMPTY_PREDICTION
+UQ0188,rule,additional,FN,더 저렴한거,,더 저렴한,,,,EMPTY_PREDICTION
+UQ0189,rule,additional,FN,제일 유명,,제일 유명,,,,EMPTY_PREDICTION
+UQ0189,rule,scent,FN,Fig,,fig,,,,EMPTY_PREDICTION
+UQ0190,rule,additional,FN,단종된 향수랑 비슷한 걸,,단종된 향수랑 비슷한 걸,,,,EMPTY_PREDICTION
+UQ0190,rule,scent,TP,powdery,powdery,powdery,powdery,EXACT,0.0,
+UQ0190,rule,scent,FN,Soap,,soap,,,,ONE_TO_ONE_CAP
+UQ0191,rule,scent,FN,Vetiver,,vetiver,,,,EMPTY_PREDICTION
+UQ0192,rule,avoid,FN,우디,,woody,,,,EMPTY_PREDICTION
+UQ0192,rule,additional,FN,완전히 다른 계열,,완전히 다른,,,,EMPTY_PREDICTION
+UQ0192,rule,scent,FP,,woody,,woody,,,
+UQ0193,rule,additional,FN,깨끗하고,,깨끗하고,,,,EMPTY_PREDICTION
+UQ0193,rule,additional,FN,세련된,,세련된,,,,EMPTY_PREDICTION
+UQ0194,rule,avoid,FN,달달,,sweet,,,,EMPTY_PREDICTION
+UQ0194,rule,additional,FN,포근한 니트,,포근한 니트,,,,EMPTY_PREDICTION
+UQ0195,rule,additional,FN,따뜻한 차 한 잔,,따뜻한 차 한 잔,,,,EMPTY_PREDICTION
+UQ0195,rule,additional,FN,창밖에 비 오는 걸 보는,,창밖에 비 오는 걸 보는,,,,EMPTY_PREDICTION
+UQ0196,rule,avoid,FN,너무 무겁거나,,너무 무겁거나,,,,EMPTY_PREDICTION
+UQ0196,rule,avoid,FN,아저씨 같은 느낌,,아저씨 같은,,,,EMPTY_PREDICTION
+UQ0196,rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0197,rule,additional,FN,강의실,,강의실,,,,EMPTY_PREDICTION
+UQ0197,rule,additional,FN,가벼운,,light,,,,EMPTY_PREDICTION
+UQ0198,rule,additional,FN,헬스장용,,헬스장용,,,,EMPTY_PREDICTION
+UQ0198,rule,additional,FN,땀이랑 안 겹치고,,땀이랑 안 겹치고,,,,EMPTY_PREDICTION
+UQ0198,rule,additional,FN,저렴한,,저렴한,,,,EMPTY_PREDICTION
+UQ0199,rule,scent,FN,Orange Blossom,,orange blossom,,,,EMPTY_PREDICTION
+UQ0200,rule,additional,FN,탬버린즈 계열,,탬버린즈,,,,EMPTY_PREDICTION
+UQ0200,rule,additional,FN,다른 국내 브랜드,,다른 국내 브랜드,,,,EMPTY_PREDICTION
+UQ0001,extended_rule,additional,FN,비가 온 뒤,,비가 온 뒤,,,,EMPTY_PREDICTION
+UQ0001,extended_rule,additional,FN,숲,,숲,,,,EMPTY_PREDICTION
+UQ0002,extended_rule,additional,FN,깔끔한,,깔끔한,,,,EMPTY_PREDICTION
+UQ0002,extended_rule,scent,TP,Citrus,citrus,citrus,citrus,EXACT,0.0,
+UQ0003,extended_rule,additional,FN,가격 적당,,가격 적당,,,,EMPTY_PREDICTION
+UQ0003,extended_rule,additional,FN,구색 갖추려고,,구색 갖추려고,,,,EMPTY_PREDICTION
+UQ0004,extended_rule,avoid,FN,달콤한,,sweet,,,,PARAPHRASE_MISMATCH
+UQ0004,extended_rule,avoid,FP,,너무 달콤한,,너무 달콤한,,,
+UQ0005,extended_rule,avoid,TP,너무 단,너무 단,너무 단,너무 단,EXACT,0.0,
+UQ0005,extended_rule,scent,TP,Vanilla,Vanilla,vanilla,vanilla,EXACT,0.0,
+UQ0006,extended_rule,scent,FN,Sea Notes,,sea notes,,,,EMPTY_PREDICTION
+UQ0007,extended_rule,additional,FN,30대 초반,,30대 초반,,,,EMPTY_PREDICTION
+UQ0008,extended_rule,avoid,FP,,Lemon,,lemon,,,
+UQ0008,extended_rule,scent,FN,Lemon Peel,,lemon peel,,,,EMPTY_PREDICTION
+UQ0008,extended_rule,scent,FN,Lemon Zest,,lemon zest,,,,EMPTY_PREDICTION
+UQ0010,extended_rule,avoid,FN,너무 느끼,,너무 느끼,,,,EMPTY_PREDICTION
+UQ0010,extended_rule,additional,FN,공주,,공주,,,,EMPTY_PREDICTION
+UQ0010,extended_rule,scent,FN,Cake,,cake,,,,EMPTY_PREDICTION
+UQ0011,extended_rule,avoid,FN,절 냄새,,절 냄새,,,,EMPTY_PREDICTION
+UQ0011,extended_rule,scent,FN,Trees,,trees,,,,EMPTY_PREDICTION
+UQ0012,extended_rule,additional,FN,깨끗한 냄새,,깨끗한,,,,EMPTY_PREDICTION
+UQ0013,extended_rule,additional,FN,머리 너무 안 아팠으면,,머리 너무 안 아팠으면,,,,EMPTY_PREDICTION
+UQ0013,extended_rule,scent,FN,Coconut,,coconut,,,,EMPTY_PREDICTION
+UQ0014,extended_rule,additional,FN,잘 모르는데 혹시 추천,,잘 모르는데 혹시 추천,,,,EMPTY_PREDICTION
+UQ0016,extended_rule,avoid,FN,향기 너무 많이 나면,,향기 너무 많이 나면,,,,EMPTY_PREDICTION
+UQ0017,extended_rule,additional,FN,어른스러운 느낌,,어른스러운,,,,EMPTY_PREDICTION
+UQ0017,extended_rule,additional,FN,34살,,34살,,,,EMPTY_PREDICTION
+UQ0017,extended_rule,additional,FN,금융맨,,금융맨,,,,EMPTY_PREDICTION
+UQ0018,extended_rule,additional,FN,여친한테 점수 딸만한,,여친한테 점수 딸만한,,,,EMPTY_PREDICTION
+UQ0019,extended_rule,additional,FN,옷에 향수,,옷에,,,,EMPTY_PREDICTION
+UQ0019,extended_rule,additional,FN,아무거나 추천,,아무거나 추천,,,,EMPTY_PREDICTION
+UQ0020,extended_rule,avoid,TP,입자가 너무 작은 건,입자가 너무 작은,입자가 너무 작은,입자가 너무 작은,EXACT,0.0,
+UQ0020,extended_rule,additional,FN,분사 적당히 되는 거,,분사 적당히 되는,,,,EMPTY_PREDICTION
+UQ0021,extended_rule,additional,FN,이솝 테싯 퍼퓸,,이솝 테싯 퍼퓸,,,,EMPTY_PREDICTION
+UQ0021,extended_rule,additional,FN,체향에 잘 맞는,,체향에 잘 맞는,,,,EMPTY_PREDICTION
+UQ0022,extended_rule,avoid,TP,조말론 블랙베리,나 조말론 블랙베리,조말론 블랙베리,나 조말론 블랙베리,CONTAIN,1.0,
+UQ0023,extended_rule,additional,FN,깔끔한,,깔끔한,,,,EMPTY_PREDICTION
+UQ0024,extended_rule,additional,FN,25살,,25살,,,,EMPTY_PREDICTION
+UQ0024,extended_rule,additional,FN,회사 취직,,회사 취직,,,,EMPTY_PREDICTION
+UQ0024,extended_rule,additional,FN,나한테 선물,,나한테 선물,,,,EMPTY_PREDICTION
+UQ0025,extended_rule,avoid,FN,부담,,부담,,,,EMPTY_PREDICTION
+UQ0025,extended_rule,additional,FN,소개팅,,소개팅,,,,EMPTY_PREDICTION
+UQ0025,extended_rule,additional,FN,좋은 인상,,좋은 인상,,,,EMPTY_PREDICTION
+UQ0026,extended_rule,additional,FN,조용,,조용,,,,EMPTY_PREDICTION
+UQ0026,extended_rule,additional,FN,차분한,,차분한,,,,EMPTY_PREDICTION
+UQ0027,extended_rule,additional,FN,지나갈 때 은은,,지나갈 때 은은,,,,EMPTY_PREDICTION
+UQ0027,extended_rule,additional,FN,좋은 냄새,,좋은,,,,EMPTY_PREDICTION
+UQ0028,extended_rule,additional,FN,회사,,회사,,,,EMPTY_PREDICTION
+UQ0028,extended_rule,additional,FN,매일 사용,,매일 사용,,,,EMPTY_PREDICTION
+UQ0028,extended_rule,additional,FN,부담 없는,,부담 없는,,,,EMPTY_PREDICTION
+UQ0028,extended_rule,additional,FN,깔끔한,,깔끔한,,,,EMPTY_PREDICTION
+UQ0029,extended_rule,additional,FN,처음 향수를 사는,,처음 향수를 사는,,,,EMPTY_PREDICTION
+UQ0029,extended_rule,additional,FN,무난하게 사용,,무난하게 사용,,,,EMPTY_PREDICTION
+UQ0030,extended_rule,avoid,FN,강하게,,강하게,,,,EMPTY_PREDICTION
+UQ0030,extended_rule,additional,FN,사람 많은 곳,,사람 많은 곳,,,,EMPTY_PREDICTION
+UQ0030,extended_rule,additional,FN,은은한,,은은한,,,,EMPTY_PREDICTION
+UQ0031,extended_rule,additional,FN,좋은 냄새,,좋은,,,,EMPTY_PREDICTION
+UQ0032,extended_rule,avoid,FN,강하면,,강하면,,,,EMPTY_PREDICTION
+UQ0032,extended_rule,additional,FN,부드럽,,부드럽,,,,EMPTY_PREDICTION
+UQ0032,extended_rule,additional,FN,편안한 향,,편안한,,,,EMPTY_PREDICTION
+UQ0033,extended_rule,avoid,FN,어려 보이지,,어려 보이지,,,,EMPTY_PREDICTION
+UQ0033,extended_rule,additional,FN, 20대 후반,,20대 후반,,,,EMPTY_PREDICTION
+UQ0033,extended_rule,additional,FN,세련된 향수,,세련된,,,,EMPTY_PREDICTION
+UQ0034,extended_rule,additional,FN,향수 뿌린 티 안나는,,향수 뿌린 티 안나는,,,,EMPTY_PREDICTION
+UQ0035,extended_rule,additional,FN,그냥 골라줘,,그냥 골라줘,,,,EMPTY_PREDICTION
+UQ0036,extended_rule,additional,FN,면접,,면접,,,,EMPTY_PREDICTION
+UQ0037,extended_rule,additional,FN,남자친구,,남자친구,,,,EMPTY_PREDICTION
+UQ0038,extended_rule,additional,FN,사계절,,사계절,,,,EMPTY_PREDICTION
+UQ0039,extended_rule,additional,FN,출근할때,,출근할때,,,,EMPTY_PREDICTION
+UQ0039,extended_rule,additional,FN,매일,,매일,,,,EMPTY_PREDICTION
+UQ0039,extended_rule,additional,FN,막 뿌릴,,막 뿌릴,,,,EMPTY_PREDICTION
+UQ0040,extended_rule,avoid,FP,,담배 피우는데 담배냄새랑 섞여도 이상,,담배 피우는데 담배냄새랑 섞여도 이상,,,
+UQ0040,extended_rule,additional,FN,담배냄새랑 섞여도 이상하지 않은,,담배냄새랑 섞여도 이상하지 않은,,,,EMPTY_PREDICTION
+UQ0041,extended_rule,additional,FN,여자 향수,,여자,,,,EMPTY_PREDICTION
+UQ0042,extended_rule,additional,FN,땀냄새랑 섞여서 이상해지지 않는,,땀냄새랑 섞여서 이상해지지 않는,,,,EMPTY_PREDICTION
+UQ0043,extended_rule,additional,FN,향수 입문자,,향수 입문자,,,,EMPTY_PREDICTION
+UQ0043,extended_rule,additional,FN,괜찮은 향수,,괜찮은,,,,EMPTY_PREDICTION
+UQ0044,extended_rule,additional,FN,면세점에서 사기 좋은,,면세점에서 사기 좋은,,,,EMPTY_PREDICTION
+UQ0045,extended_rule,additional,FN,헬스장,,헬스장,,,,EMPTY_PREDICTION
+UQ0045,extended_rule,additional,FN,반응 좋은,,반응 좋은,,,,EMPTY_PREDICTION
+UQ0046,extended_rule,additional,FN,오늘,,오늘,,,,EMPTY_PREDICTION
+UQ0046,extended_rule,additional,FN,뿌리기 좋은,,뿌리기 좋은,,,,EMPTY_PREDICTION
+UQ0047,extended_rule,additional,FN,엄청 섹시한 느낌,,엄청 섹시한,,,,EMPTY_PREDICTION
+UQ0048,extended_rule,additional,FN,섬유유연제 향,,섬유유연제,,,,EMPTY_PREDICTION
+UQ0048,extended_rule,scent,FN,Soap,,soap,,,,EMPTY_PREDICTION
+UQ0049,extended_rule,additional,FN,나한테 맞는,,나한테 맞는,,,,EMPTY_PREDICTION
+UQ0050,extended_rule,additional,FN,향수 입문자,,향수 입문자,,,,EMPTY_PREDICTION
+UQ0050,extended_rule,additional,FN,괜찮은 향수,,괜찮은,,,,EMPTY_PREDICTION
+UQ0051,extended_rule,additional,FN,향수 입문용,,향수 입문용,,,,EMPTY_PREDICTION
+UQ0051,extended_rule,additional,FN,조말론,,조말론,,,,EMPTY_PREDICTION
+UQ0051,extended_rule,additional,FN,메종 마르지엘라,,메종 마르지엘라,,,,EMPTY_PREDICTION
+UQ0052,extended_rule,avoid,FN,달콤한 향기,,sweet,,,,PARAPHRASE_MISMATCH
+UQ0052,extended_rule,avoid,FP,,향수 사보려고 하는데 난 달콤한 향기,,향수 사보려고 하는데 난 달콤한,,,
+UQ0052,extended_rule,additional,FN,화한거,,화한,,,,EMPTY_PREDICTION
+UQ0053,extended_rule,additional,FN,맑고 산뜻,,맑고 산뜻,,,,EMPTY_PREDICTION
+UQ0054,extended_rule,avoid,FN,너무 음식같은 느낌,,너무 음식같은,,,,EMPTY_PREDICTION
+UQ0054,extended_rule,additional,FN,홍차향,,홍차,,,,EMPTY_PREDICTION
+UQ0055,extended_rule,additional,FN,플로럴 계열,,floral,,,,EMPTY_PREDICTION
+UQ0055,extended_rule,additional,FN,톡 쏘는 거,,톡 쏘는,,,,EMPTY_PREDICTION
+UQ0055,extended_rule,scent,TP,floral,floral,floral,floral,EXACT,0.0,
+UQ0056,extended_rule,avoid,FN,너무 진한 향,,너무 진한,,,,EMPTY_PREDICTION
+UQ0056,extended_rule,additional,FN,아로마 계열,,아로마,,,,EMPTY_PREDICTION
+UQ0056,extended_rule,scent,FN,aromatic,,aromatic,,,,EMPTY_PREDICTION
+UQ0057,extended_rule,additional,FN,대학교 들어가는데,,대학교 들어가는데,,,,EMPTY_PREDICTION
+UQ0057,extended_rule,additional,FN,어른스러운,,어른스러운,,,,EMPTY_PREDICTION
+UQ0058,extended_rule,additional,FN,겨울 느낌,,winter,,,,EMPTY_PREDICTION
+UQ0058,extended_rule,additional,FN,서늘한 여자,,서늘한 여자,,,,EMPTY_PREDICTION
+UQ0059,extended_rule,additional,FN,무조건 달콤한 향,,무조건 달콤한,,,,EMPTY_PREDICTION
+UQ0059,extended_rule,additional,FN,약간 민트계열,,약간 민트,,,,EMPTY_PREDICTION
+UQ0059,extended_rule,scent,TP,Mint,Mint,mint,mint,EXACT,0.0,
+UQ0060,extended_rule,additional,FN,살같에서 날 것 같은,,살같에서 날 것 같은,,,,EMPTY_PREDICTION
+UQ0060,extended_rule,additional,FN,베이비 파우더,,베이비 파우더,,,,EMPTY_PREDICTION
+UQ0061,extended_rule,additional,FN,흰 꽃에서만 나는 맑은 향,,흰 꽃에서만 나는 맑은,,,,EMPTY_PREDICTION
+UQ0061,extended_rule,scent,TP,Citrus,citrus,citrus,citrus,EXACT,0.0,
+UQ0062,extended_rule,additional,FN,풍성한 복숭아,,풍성한 복숭아,,,,EMPTY_PREDICTION
+UQ0062,extended_rule,additional,FN,폭닥,,폭닥,,,,EMPTY_PREDICTION
+UQ0062,extended_rule,scent,FN,Peach,,peach,,,,EMPTY_PREDICTION
+UQ0063,extended_rule,additional,FN,쨍한 허브 비누향,,쨍한 허브 비누,,,,EMPTY_PREDICTION
+UQ0063,extended_rule,additional,FN,세제 잔뜩,,세제 잔뜩,,,,EMPTY_PREDICTION
+UQ0063,extended_rule,scent,FN,herbal,,herbal,,,,EMPTY_PREDICTION
+UQ0063,extended_rule,scent,FN,Soap,,soap,,,,EMPTY_PREDICTION
+UQ0064,extended_rule,additional,FN,차가운데,,차가운데,,,,EMPTY_PREDICTION
+UQ0064,extended_rule,additional,FN,쨍한,,쨍한,,,,EMPTY_PREDICTION
+UQ0065,extended_rule,additional,FN,잔향 좋은 거,,잔향 좋은,,,,EMPTY_PREDICTION
+UQ0065,extended_rule,additional,FN,선호 없음,,선호 없음,,,,EMPTY_PREDICTION
+UQ0066,extended_rule,additional,FN,자연스러운,,자연스러운,,,,EMPTY_PREDICTION
+UQ0066,extended_rule,additional,FN,은은한 살냄새,,은은한 살,,,,EMPTY_PREDICTION
+UQ0067,extended_rule,additional,FN,담백,,담백,,,,EMPTY_PREDICTION
+UQ0067,extended_rule,additional,FN,부드러운,,부드러운,,,,EMPTY_PREDICTION
+UQ0067,extended_rule,additional,FN,엣지있는,,엣지있는,,,,EMPTY_PREDICTION
+UQ0068,extended_rule,additional,FN,장마철,,장마철,,,,EMPTY_PREDICTION
+UQ0068,extended_rule,additional,FN,호수에 떠있는 연꽃,,호수에 떠있는 연꽃,,,,EMPTY_PREDICTION
+UQ0069,extended_rule,additional,FN,땀 냄새랑 섞여도 안 이상한 거,,땀 냄새랑 섞여도 안 이상한,,,,EMPTY_PREDICTION
+UQ0069,extended_rule,additional,FN,바디스프레이,,바디스프레이,,,,EMPTY_PREDICTION
+UQ0070,extended_rule,additional,FN,10만원 이내,,10만원 이내,,,,EMPTY_PREDICTION
+UQ0070,extended_rule,additional,FN,저렴한,,저렴한,,,,EMPTY_PREDICTION
+UQ0070,extended_rule,additional,FN,시원한,,fresh,,,,EMPTY_PREDICTION
+UQ0071,extended_rule,additional,FN,20만원 이내,,20만원 이내,,,,EMPTY_PREDICTION
+UQ0071,extended_rule,additional,FN,조합 괜찮은,,조합 괜찮은,,,,EMPTY_PREDICTION
+UQ0071,extended_rule,additional,FN,향수 2개,,향수 2개,,,,EMPTY_PREDICTION
+UQ0072,extended_rule,additional,FN,이슬을 머금은 장미,,이슬을 머금은 장미,,,,EMPTY_PREDICTION
+UQ0072,extended_rule,scent,TP,Rose,Rose,rose,rose,EXACT,0.0,
+UQ0073,extended_rule,additional,FN,첫 인상이 포근,,첫 인상이 포근,,,,EMPTY_PREDICTION
+UQ0073,extended_rule,additional,FN,릴랙싱,,릴랙싱,,,,EMPTY_PREDICTION
+UQ0074,extended_rule,additional,FN,비 오는 날,,비 오는 날,,,,EMPTY_PREDICTION
+UQ0074,extended_rule,additional,FN,30대,,30대,,,,EMPTY_PREDICTION
+UQ0075,extended_rule,additional,FN,회사,,회사,,,,EMPTY_PREDICTION
+UQ0075,extended_rule,additional,FN,중요한 공식석상,,중요한 공식석상,,,,EMPTY_PREDICTION
+UQ0076,extended_rule,additional,FN,산뜻,,산뜻,,,,EMPTY_PREDICTION
+UQ0076,extended_rule,additional,FN,과일냄새,,과일,,,,EMPTY_PREDICTION
+UQ0077,extended_rule,additional,FN,템버린즈 볼드 시트러스랑 비슷한 향수,,템버린즈 볼드 시트러스랑 비슷한,,,,EMPTY_PREDICTION
+UQ0077,extended_rule,scent,FP,,citrus,,citrus,,,
+UQ0078,extended_rule,additional,FN,가볍고,,light,,,,EMPTY_PREDICTION
+UQ0078,extended_rule,additional,FN,부드러운,,부드러운,,,,EMPTY_PREDICTION
+UQ0079,extended_rule,additional,FN,물 대신 과즙을 마시고 자란 꽃,,물 대신 과즙을 마시고 자란 꽃,,,,EMPTY_PREDICTION
+UQ0080,extended_rule,additional,FN,바다에 누워서,,바다에 누워서,,,,EMPTY_PREDICTION
+UQ0080,extended_rule,additional,FN,하늘을 올려다보고있는 듯,,하늘을 올려다보고있는 듯,,,,EMPTY_PREDICTION
+UQ0080,extended_rule,scent,FN,Sea Notes,,sea notes,,,,EMPTY_PREDICTION
+UQ0081,extended_rule,additional,FN,휴양지에 놀러갔을 때,,휴양지에 놀러갔을 때,,,,EMPTY_PREDICTION
+UQ0082,extended_rule,additional,FN,슥 지나갔을 때,,슥 지나갔을 때,,,,EMPTY_PREDICTION
+UQ0082,extended_rule,additional,FN,향이 너무 좋아서 사람들이 다 돌아볼 것 같은,,향이 너무 좋아서 사람들이 다 돌아볼 것 같은,,,,EMPTY_PREDICTION
+UQ0083,extended_rule,additional,FN,귀엽고,,귀엽고,,,,EMPTY_PREDICTION
+UQ0083,extended_rule,additional,FN,산뜻한,,산뜻한,,,,EMPTY_PREDICTION
+UQ0083,extended_rule,additional,FN,20대,,20대,,,,EMPTY_PREDICTION
+UQ0084,extended_rule,additional,FN,40대,,40대,,,,EMPTY_PREDICTION
+UQ0084,extended_rule,additional,FN,데일리 향수,,데일리,,,,EMPTY_PREDICTION
+UQ0085,extended_rule,additional,FN,시원한 향수,,fresh,,,,EMPTY_PREDICTION
+UQ0086,extended_rule,additional,FN,데일리로 쓰기 좋은,,데일리로 쓰기 좋은,,,,EMPTY_PREDICTION
+UQ0087,extended_rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0088,extended_rule,additional,FN,출근,,출근,,,,EMPTY_PREDICTION
+UQ0088,extended_rule,additional,FN,부담 없이,,부담 없이,,,,EMPTY_PREDICTION
+UQ0089,extended_rule,additional,FN,소개팅,,소개팅,,,,EMPTY_PREDICTION
+UQ0090,extended_rule,additional,FN,데이트,,데이트,,,,EMPTY_PREDICTION
+UQ0090,extended_rule,additional,FN,반응 좋은,,반응 좋은,,,,EMPTY_PREDICTION
+UQ0091,extended_rule,additional,FN,회사,,회사,,,,EMPTY_PREDICTION
+UQ0091,extended_rule,additional,FN,은은한,,은은한,,,,EMPTY_PREDICTION
+UQ0092,extended_rule,avoid,FN,향이 너무 세,,향이 너무 세,,,,EMPTY_PREDICTION
+UQ0093,extended_rule,additional,FN,인기많은 남자,,인기많은 남자,,,,EMPTY_PREDICTION
+UQ0094,extended_rule,additional,FN,흔하지 않으면서,,흔하지 않으면서,,,,EMPTY_PREDICTION
+UQ0094,extended_rule,additional,FN,섹시한,,섹시한,,,,EMPTY_PREDICTION
+UQ0095,extended_rule,additional,FN,햇살 내리쬐는 일본 여름,,햇살 내리쬐는 일본 여름,,,,EMPTY_PREDICTION
+UQ0096,extended_rule,additional,FN,꿀 향,,꿀 향,,,,EMPTY_PREDICTION
+UQ0097,extended_rule,additional,FN,마사지숍,,마사지숍,,,,EMPTY_PREDICTION
+UQ0098,extended_rule,additional,FN,양키캔들 핑크 샌즈,,양키캔들 핑크 샌즈,,,,EMPTY_PREDICTION
+UQ0099,extended_rule,additional,FN,갓 세탁한 포근한 이불,,갓 세탁한 포근한 이불,,,,EMPTY_PREDICTION
+UQ0100,extended_rule,additional,FN,샤넬 no5랑 믹스해서 사용하기 좋은,,샤넬 no5랑 믹스해서 사용하기 좋은,,,,EMPTY_PREDICTION
+UQ0101,extended_rule,additional,FN,달달한 꽃,,달달한 꽃,,,,EMPTY_PREDICTION
+UQ0102,extended_rule,additional,FN,아빠 선물용,,아빠 선물용,,,,EMPTY_PREDICTION
+UQ0102,extended_rule,additional,FN,실패 확률 낮은,,실패 확률 낮은,,,,EMPTY_PREDICTION
+UQ0103,extended_rule,additional,FN,스트릿룩이랑 어울리는,,스트릿룩이랑 어울리는,,,,EMPTY_PREDICTION
+UQ0104,extended_rule,additional,FN,사계절용,,사계절용,,,,EMPTY_PREDICTION
+UQ0105,extended_rule,additional,FN,시향 없이,,시향 없이,,,,EMPTY_PREDICTION
+UQ0105,extended_rule,additional,FN,블라인드 구매,,블라인드 구매,,,,EMPTY_PREDICTION
+UQ0107,extended_rule,additional,FN,잔향이 좋은,,잔향이 좋은,,,,EMPTY_PREDICTION
+UQ0108,extended_rule,additional,FN,호불호 적은,,호불호 적은,,,,EMPTY_PREDICTION
+UQ0109,extended_rule,additional,FN,여자들이 좋아할 만한,,여자들이 좋아할 만한,,,,EMPTY_PREDICTION
+UQ0110,extended_rule,scent,FN,Musk,,musk,,,,EMPTY_PREDICTION
+UQ0111,extended_rule,scent,TP,powdery,powdery,powdery,powdery,EXACT,0.0,
+UQ0112,extended_rule,additional,FN,깨끗하고,,깨끗하고,,,,EMPTY_PREDICTION
+UQ0112,extended_rule,additional,FN,포근한,,포근한,,,,EMPTY_PREDICTION
+UQ0113,extended_rule,additional,FN,샤워하고 나온 것 같은,,샤워하고 나온 것 같은,,,,EMPTY_PREDICTION
+UQ0114,extended_rule,additional,FN,부드러운,,부드러운,,,,EMPTY_PREDICTION
+UQ0114,extended_rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0115,extended_rule,additional,FN,호텔 로비 같은,,호텔 로비 같은,,,,EMPTY_PREDICTION
+UQ0115,extended_rule,additional,FN,고급스러운,,고급스러운,,,,EMPTY_PREDICTION
+UQ0116,extended_rule,avoid,TP,느끼,너무 느끼,느끼,너무 느끼,CONTAIN,1.0,
+UQ0116,extended_rule,additional,FN,달달하지만,,달달하지만,,,,EMPTY_PREDICTION
+UQ0117,extended_rule,scent,TP,Citrus,citrus,citrus,citrus,EXACT,0.0,
+UQ0118,extended_rule,additional,FN,니치 향수 입문용,,니치 향수 입문용,,,,EMPTY_PREDICTION
+UQ0119,extended_rule,additional,FN,10만 원대,,10만 원대,,,,EMPTY_PREDICTION
+UQ0120,extended_rule,additional,FN,20만 원 이하,,20만 원 이하,,,,EMPTY_PREDICTION
+UQ0120,extended_rule,additional,FN,가성비,,가성비,,,,EMPTY_PREDICTION
+UQ0121,extended_rule,additional,FN,20대 후반,,20대 후반,,,,EMPTY_PREDICTION
+UQ0122,extended_rule,additional,FN,결혼하는 사람,,결혼하는 사람,,,,EMPTY_PREDICTION
+UQ0122,extended_rule,additional,FN,선물,,선물,,,,EMPTY_PREDICTION
+UQ0123,extended_rule,additional,FN,운동하고 뿌리면 좋을,,운동하고 뿌리면 좋을,,,,EMPTY_PREDICTION
+UQ0124,extended_rule,additional,FN,올리브영이나 백화점,,올리브영이나 백화점,,,,EMPTY_PREDICTION
+UQ0124,extended_rule,additional,FN,가장 핫,,가장 핫,,,,EMPTY_PREDICTION
+UQ0124,extended_rule,additional,FN,인기 많은,,인기 많은,,,,EMPTY_PREDICTION
+UQ0125,extended_rule,additional,FN,호불호 안 갈리고,,호불호 안 갈리고,,,,EMPTY_PREDICTION
+UQ0125,extended_rule,additional,FN,누구나 맡았을 때 '좋다'고,,누구나 맡았을 때 좋다 고,,,,EMPTY_PREDICTION
+UQ0126,extended_rule,additional,FN,향수 초보,,향수 초보,,,,EMPTY_PREDICTION
+UQ0126,extended_rule,additional,FN,실패 확률 제일 적고,,실패 확률 제일 적고,,,,EMPTY_PREDICTION
+UQ0126,extended_rule,additional,FN,다들 좋다고,,다들 좋다고,,,,EMPTY_PREDICTION
+UQ0127,extended_rule,additional,FN,제일 잘 나가냐,,제일 잘 나가냐,,,,EMPTY_PREDICTION
+UQ0128,extended_rule,additional,FN,호불호 안 갈리는,,호불호 안 갈리는,,,,EMPTY_PREDICTION
+UQ0128,extended_rule,additional,FN,여자친구 선물,,여자친구 선물,,,,EMPTY_PREDICTION
+UQ0129,extended_rule,additional,FN,비누 향,,비누,,,,EMPTY_PREDICTION
+UQ0129,extended_rule,additional,FN,세탁 건조기처럼 포근,,세탁 건조기처럼 포근,,,,EMPTY_PREDICTION
+UQ0129,extended_rule,additional,FN,깨끗한,,깨끗한,,,,EMPTY_PREDICTION
+UQ0130,extended_rule,additional,FN,향수병 디자인이 독특하거나 예술적인,,향수병 디자인이 독특하거나 예술적인,,,,EMPTY_PREDICTION
+UQ0131,extended_rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0132,extended_rule,additional,FN,바다가 떠오르는,,바다가 떠오르는,,,,EMPTY_PREDICTION
+UQ0132,extended_rule,scent,FN,Sea Notes,,sea notes,,,,EMPTY_PREDICTION
+UQ0133,extended_rule,additional,FN,디자인이 엄청 고급스럽고 화려해서 선물용으로 소장 가치 있는 향수 병,,디자인이 엄청 고급스럽고 화려해서 선물용으로 소장 가치 있는 향수 병,,,,EMPTY_PREDICTION
+UQ0134,extended_rule,additional,FN,어떤 향수,,어떤,,,,EMPTY_PREDICTION
+UQ0134,extended_rule,additional,FN,인기가 많냐,,인기가 많냐,,,,EMPTY_PREDICTION
+UQ0135,extended_rule,additional,FN,SNS에서 인기 많은,,sns에서 인기 많은,,,,EMPTY_PREDICTION
+UQ0136,extended_rule,additional,FN,남들이 잘 안쓰는 독특한,,남들이 잘 안쓰는 독특한,,,,EMPTY_PREDICTION
+UQ0137,extended_rule,scent,FN,green,,green,,,,EMPTY_PREDICTION
+UQ0137,extended_rule,scent,FN,herbal,,herbal,,,,EMPTY_PREDICTION
+UQ0139,extended_rule,additional,FN,시크한,,시크한,,,,EMPTY_PREDICTION
+UQ0139,extended_rule,scent,FN,smoky,,smoky,,,,EMPTY_PREDICTION
+UQ0139,extended_rule,scent,FN,Leather,,leather,,,,EMPTY_PREDICTION
+UQ0141,extended_rule,additional,FN,남친한테 향수 선물,,남친한테 향수 선물,,,,EMPTY_PREDICTION
+UQ0141,extended_rule,additional,FN,제일 유명한,,제일 유명한,,,,EMPTY_PREDICTION
+UQ0141,extended_rule,additional,FN,5개,,5개,,,,EMPTY_PREDICTION
+UQ0142,extended_rule,additional,FN,밀폐된 공간,,밀폐된 공간,,,,EMPTY_PREDICTION
+UQ0142,extended_rule,additional,FN,안 어지러울만한 거,,안 어지러울만한,,,,EMPTY_PREDICTION
+UQ0143,extended_rule,additional,FN,카리스마,,카리스마,,,,EMPTY_PREDICTION
+UQ0143,extended_rule,additional,FN,딱딱한,,딱딱한,,,,EMPTY_PREDICTION
+UQ0144,extended_rule,additional,FN,5만원 이내,,5만원 이내,,,,EMPTY_PREDICTION
+UQ0144,extended_rule,additional,FN,백화점 향수,,백화점,,,,EMPTY_PREDICTION
+UQ0145,extended_rule,additional,FN,천연 향신료,,천연 향신료,,,,EMPTY_PREDICTION
+UQ0145,extended_rule,additional,FN,성분 좋은,,성분 좋은,,,,EMPTY_PREDICTION
+UQ0146,extended_rule,additional,FN,가격 상관 없음,,가격 상관 없음,,,,EMPTY_PREDICTION
+UQ0146,extended_rule,additional,FN,리한나가 쓰는 향수,,리한나가 쓰는,,,,EMPTY_PREDICTION
+UQ0147,extended_rule,avoid,FP,,지속력은 길었으면 좋겠는데 향이 멀리까지 퍼지는,,지속력은 길었으면 좋겠는데 향이 멀리까지 퍼지는,,,
+UQ0148,extended_rule,avoid,TP,바닐라,vanilla,vanilla,vanilla,EXACT,0.0,
+UQ0148,extended_rule,additional,FN,달콤한 향,,sweet,,,,EMPTY_PREDICTION
+UQ0149,extended_rule,avoid,FN,남자 스킨 냄새,,남자 스킨,,,,EMPTY_PREDICTION
+UQ0149,extended_rule,additional,FN,시원한 향,,fresh,,,,EMPTY_PREDICTION
+UQ0150,extended_rule,avoid,FN,무겁거나,,heavy,,,,PARAPHRASE_MISMATCH
+UQ0150,extended_rule,avoid,FN,중후한,,중후한,,,,PARAPHRASE_MISMATCH
+UQ0150,extended_rule,avoid,FP,,우디 향 좋아하는데 무겁거나 중후한,,우디 향 좋아하는데 무겁거나 중후한,,,
+UQ0150,extended_rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0151,extended_rule,avoid,FN,화장품 냄새,,화장품,,,,PARAPHRASE_MISMATCH
+UQ0151,extended_rule,avoid,FP,,화장품 냄새 같은 꽃향,,화장품 냄새 같은 꽃,,,
+UQ0151,extended_rule,additional,FN,꽃향,,꽃향,,,,EMPTY_PREDICTION
+UQ0152,extended_rule,avoid,FN,패출리,,patchouli,,,,PARAPHRASE_MISMATCH
+UQ0152,extended_rule,avoid,FP,,패출리 들어간 향,,패출리 들어간,,,
+UQ0153,extended_rule,avoid,FN,인센스,,incense,,,,PARAPHRASE_MISMATCH
+UQ0153,extended_rule,avoid,FN,절 냄새,,절 냄새,,,,PARAPHRASE_MISMATCH
+UQ0153,extended_rule,avoid,FP,,인센스나 절 냄새 나는 향수 개극혐이니까 그거,,인센스나 절 냄새 나는 향수 개극혐이니까 그,,,
+UQ0153,extended_rule,additional,FN,다양한 종류로 추천,,다양한 종류로 추천,,,,EMPTY_PREDICTION
+UQ0154,extended_rule,avoid,TP,체리,체리,cherry,cherry,EXACT,0.0,
+UQ0154,extended_rule,avoid,FN,복숭아,,peach,,,,ONE_TO_ONE_CAP
+UQ0154,extended_rule,additional,FN,과일 향수,,과일,,,,EMPTY_PREDICTION
+UQ0155,extended_rule,additional,FN,딥티크 탐다오랑 오르페옹 중에 출근용,,딥티크 탐다오랑 오르페옹 중에 출근용,,,,EMPTY_PREDICTION
+UQ0156,extended_rule,additional,FN,블루 드 샤넬보다 덜 흔한 느낌,,블루 드 샤넬보다 덜 흔한,,,,EMPTY_PREDICTION
+UQ0157,extended_rule,additional,FN,조말론인데 조금 더 성숙한 느낌으로 바꾸고 싶어.,,조말론인데 조금 더 성숙한 느낌으로 바꾸고 싶어,,,,EMPTY_PREDICTION
+UQ0158,extended_rule,additional,FN,새벽 바닷가,,새벽 바닷가,,,,EMPTY_PREDICTION
+UQ0158,extended_rule,additional,FN,소금 냄새가 너무 강하진 않았으면,,소금 냄새가 너무 강하진 않았으면,,,,EMPTY_PREDICTION
+UQ0159,extended_rule,additional,FN,비 오는 숲,,비 오는 숲,,,,EMPTY_PREDICTION
+UQ0159,extended_rule,additional,FN,흙냄새보다는 젖은 나무 냄새,,흙냄새보다는 젖은 나무,,,,EMPTY_PREDICTION
+UQ0160,extended_rule,additional,FN,차가운 금속같은 이미지,,차가운 금속같은 이미지,,,,EMPTY_PREDICTION
+UQ0160,extended_rule,additional,FN,너무 날카롭지 않았으면,,너무 날카롭지 않았으면,,,,EMPTY_PREDICTION
+UQ0161,extended_rule,avoid,TP,시트러스,citrus,citrus,citrus,EXACT,0.0,
+UQ0161,extended_rule,avoid,FP,,햇빛 받은 흰 셔츠 같은 느낌하고 싶은데 시트러스,,햇빛 받은 흰 셔츠 같은 느낌하고 싶은데 시트러스,,,
+UQ0161,extended_rule,additional,FN,햇빛 받은 흰 셔츠,,햇빛 받은 흰 셔츠,,,,EMPTY_PREDICTION
+UQ0162,extended_rule,avoid,FN,세제 냄새,,세제,,,,EMPTY_PREDICTION
+UQ0162,extended_rule,additional,FN,호텔 침구,,호텔 침구,,,,EMPTY_PREDICTION
+UQ0162,extended_rule,additional,FN,깨끗함,,깨끗함,,,,EMPTY_PREDICTION
+UQ0163,extended_rule,additional,FN,꿀 같은 향,,꿀 같은,,,,EMPTY_PREDICTION
+UQ0164,extended_rule,avoid,FN,인위적인,,인위적인,,,,EMPTY_PREDICTION
+UQ0164,extended_rule,additional,FN,장미 꽃 향기,,장미 꽃,,,,EMPTY_PREDICTION
+UQ0164,extended_rule,scent,FP,,Rose,,rose,,,
+UQ0165,extended_rule,scent,FN,Rose,,rose,,,,EMPTY_PREDICTION
+UQ0165,extended_rule,scent,FN,Jasmine,,jasmine,,,,EMPTY_PREDICTION
+UQ0166,extended_rule,avoid,FN,초코 향,,chocolate,,,,EMPTY_PREDICTION
+UQ0166,extended_rule,scent,FN,Caramel,,caramel,,,,EMPTY_PREDICTION
+UQ0167,extended_rule,avoid,TP,머스크,머스크,musk,musk,EXACT,0.0,
+UQ0167,extended_rule,scent,FN,White Musk,,white musk,,,,EMPTY_PREDICTION
+UQ0168,extended_rule,avoid,FN,바질 냄새 ,,basil,,,,EMPTY_PREDICTION
+UQ0168,extended_rule,additional,FN,그린 계열,,그린,,,,EMPTY_PREDICTION
+UQ0168,extended_rule,scent,FN,green,,green,,,,EMPTY_PREDICTION
+UQ0169,extended_rule,avoid,TP,달달한 거,달달한 거,sweet,sweet,EXACT,0.0,
+UQ0169,extended_rule,additional,FN,싱싱한 딸기 향기,,싱싱한 딸기,,,,EMPTY_PREDICTION
+UQ0169,extended_rule,scent,FN,Strawberry,,strawberry,,,,EMPTY_PREDICTION
+UQ0170,extended_rule,avoid,FN,남자 향수 냄새,,남자,,,,EMPTY_PREDICTION
+UQ0170,extended_rule,additional,FN,청량,,청량,,,,EMPTY_PREDICTION
+UQ0171,extended_rule,additional,FN,처음에는 상쾌,,처음에는 상쾌,,,,EMPTY_PREDICTION
+UQ0171,extended_rule,additional,FN,시간이 지나면 포근,,시간이 지나면 포근,,,,EMPTY_PREDICTION
+UQ0172,extended_rule,additional,FN,오래된 목조 도서관,,오래된 목조 도서관,,,,EMPTY_PREDICTION
+UQ0173,extended_rule,additional,FN,평소에는 조용한데,,평소에는 조용한데,,,,EMPTY_PREDICTION
+UQ0173,extended_rule,additional,FN,은근히 개성 있어 보이는 사람,,은근히 개성 있어 보이는 사람,,,,EMPTY_PREDICTION
+UQ0174,extended_rule,additional,FN,상대방 취향을 전혀 모르는데,,상대방 취향을 전혀 모르는데,,,,EMPTY_PREDICTION
+UQ0174,extended_rule,additional,FN,선물하기 실패 확률 낮은 향수,,선물하기 실패 확률 낮은,,,,EMPTY_PREDICTION
+UQ0175,extended_rule,additional,FN,미니멀하게 옷 입는 사람,,미니멀하게 옷 입는 사람,,,,EMPTY_PREDICTION
+UQ0175,extended_rule,additional,FN,담백한 향수,,담백한,,,,EMPTY_PREDICTION
+UQ0176,extended_rule,avoid,FP,,실내에서만 있는 직업인데 답답,,실내에서만 있는 직업인데 답답,,,
+UQ0176,extended_rule,additional,FN,실내에서만 있는 직업,,실내에서만 있는 직업,,,,EMPTY_PREDICTION
+UQ0176,extended_rule,additional,FN,답답하지 않은 향,,답답하지 않은,,,,EMPTY_PREDICTION
+UQ0177,extended_rule,additional,FN,옛날 향수,,옛날,,,,EMPTY_PREDICTION
+UQ0177,extended_rule,scent,TP,powdery,powdery,powdery,powdery,EXACT,0.0,
+UQ0177,extended_rule,scent,TP,Rose,Rose,rose,rose,EXACT,0.0,
+UQ0178,extended_rule,additional,FN,30대,,30대,,,,EMPTY_PREDICTION
+UQ0178,extended_rule,additional,FN,정장차림,,정장차림,,,,EMPTY_PREDICTION
+UQ0179,extended_rule,additional,FN,이솝 휠이랑 레이어링,,이솝 휠이랑 레이어링,,,,EMPTY_PREDICTION
+UQ0180,extended_rule,avoid,FN,파우더리,,powdery,,,,EMPTY_PREDICTION
+UQ0180,extended_rule,scent,TP,floral,floral,floral,floral,EXACT,0.0,
+UQ0180,extended_rule,scent,FP,,powdery,,powdery,,,
+UQ0181,extended_rule,scent,FN,Coffee,,coffee,,,,EMPTY_PREDICTION
+UQ0182,extended_rule,additional,FN,무거운 향,,heavy,,,,EMPTY_PREDICTION
+UQ0182,extended_rule,additional,FN,사무실,,사무실,,,,EMPTY_PREDICTION
+UQ0182,extended_rule,additional,FN,부담없이 사용,,부담없이 사용,,,,EMPTY_PREDICTION
+UQ0183,extended_rule,additional,FN,갓 깎은 잔디밭에 누워 있는,,갓 깎은 잔디밭에 누워 있는,,,,EMPTY_PREDICTION
+UQ0184,extended_rule,additional,FN,시프레 계열,,시프레,,,,EMPTY_PREDICTION
+UQ0184,extended_rule,additional,FN,대표적인 거 몇 개,,대표적인 거 몇 개,,,,EMPTY_PREDICTION
+UQ0185,extended_rule,avoid,FN,올드,,올드,,,,EMPTY_PREDICTION
+UQ0185,extended_rule,additional,FN,산타마리아노벨라 시향했는데 너무 올드,,산타마리아노벨라 시향했는데 너무 올드,,,,EMPTY_PREDICTION
+UQ0185,extended_rule,additional,FN,젊은 느낌,,젊은,,,,EMPTY_PREDICTION
+UQ0186,extended_rule,additional,FN,오래된 헌책방 냄새,,오래된 헌책방,,,,EMPTY_PREDICTION
+UQ0187,extended_rule,additional,FN,아이리스,,아이리스,,,,EMPTY_PREDICTION
+UQ0187,extended_rule,additional,FN,입문용,,입문용,,,,EMPTY_PREDICTION
+UQ0188,extended_rule,additional,FN,크리드 실버마운틴워터,,크리드 실버마운틴워터,,,,EMPTY_PREDICTION
+UQ0188,extended_rule,additional,FN,더 저렴한거,,더 저렴한,,,,EMPTY_PREDICTION
+UQ0189,extended_rule,additional,FN,제일 유명,,제일 유명,,,,EMPTY_PREDICTION
+UQ0189,extended_rule,scent,FN,Fig,,fig,,,,EMPTY_PREDICTION
+UQ0190,extended_rule,additional,FN,단종된 향수랑 비슷한 걸,,단종된 향수랑 비슷한 걸,,,,EMPTY_PREDICTION
+UQ0190,extended_rule,scent,TP,powdery,powdery,powdery,powdery,EXACT,0.0,
+UQ0190,extended_rule,scent,FN,Soap,,soap,,,,ONE_TO_ONE_CAP
+UQ0191,extended_rule,scent,FN,Vetiver,,vetiver,,,,EMPTY_PREDICTION
+UQ0192,extended_rule,avoid,FN,우디,,woody,,,,EMPTY_PREDICTION
+UQ0192,extended_rule,additional,FN,완전히 다른 계열,,완전히 다른,,,,EMPTY_PREDICTION
+UQ0192,extended_rule,scent,FP,,woody,,woody,,,
+UQ0193,extended_rule,additional,FN,깨끗하고,,깨끗하고,,,,EMPTY_PREDICTION
+UQ0193,extended_rule,additional,FN,세련된,,세련된,,,,EMPTY_PREDICTION
+UQ0194,extended_rule,avoid,FN,달달,,sweet,,,,PARAPHRASE_MISMATCH
+UQ0194,extended_rule,avoid,FP,,포근한 니트 같은 느낌인데 달달,,포근한 니트 같은 느낌인데 달달,,,
+UQ0194,extended_rule,additional,FN,포근한 니트,,포근한 니트,,,,EMPTY_PREDICTION
+UQ0195,extended_rule,additional,FN,따뜻한 차 한 잔,,따뜻한 차 한 잔,,,,EMPTY_PREDICTION
+UQ0195,extended_rule,additional,FN,창밖에 비 오는 걸 보는,,창밖에 비 오는 걸 보는,,,,EMPTY_PREDICTION
+UQ0196,extended_rule,avoid,FN,너무 무겁거나,,너무 무겁거나,,,,PARAPHRASE_MISMATCH
+UQ0196,extended_rule,avoid,FN,아저씨 같은 느낌,,아저씨 같은,,,,PARAPHRASE_MISMATCH
+UQ0196,extended_rule,avoid,FP,,우디 향 좋아하는데 너무 무겁거나 아저씨 같은 느낌,,우디 향 좋아하는데 너무 무겁거나 아저씨 같은,,,
+UQ0196,extended_rule,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0197,extended_rule,additional,FN,강의실,,강의실,,,,EMPTY_PREDICTION
+UQ0197,extended_rule,additional,FN,가벼운,,light,,,,EMPTY_PREDICTION
+UQ0198,extended_rule,additional,FN,헬스장용,,헬스장용,,,,EMPTY_PREDICTION
+UQ0198,extended_rule,additional,FN,땀이랑 안 겹치고,,땀이랑 안 겹치고,,,,EMPTY_PREDICTION
+UQ0198,extended_rule,additional,FN,저렴한,,저렴한,,,,EMPTY_PREDICTION
+UQ0199,extended_rule,scent,FN,Orange Blossom,,orange blossom,,,,EMPTY_PREDICTION
+UQ0200,extended_rule,additional,FN,탬버린즈 계열,,탬버린즈,,,,EMPTY_PREDICTION
+UQ0200,extended_rule,additional,FN,다른 국내 브랜드,,다른 국내 브랜드,,,,EMPTY_PREDICTION
+UQ0001,llm,additional,TP,비가 온 뒤,비가 온 뒤의 숲같은 향,비가 온 뒤,비가 온 뒤의 숲같은,CONTAIN,1.0,
+UQ0001,llm,additional,FN,숲,,숲,,,,ONE_TO_ONE_CAP
+UQ0002,llm,additional,TP,깔끔한,깔끔한 향,깔끔한,깔끔한,EXACT,0.0,
+UQ0002,llm,scent,TP,Citrus,citrus,citrus,citrus,EXACT,0.0,
+UQ0003,llm,additional,TP,가격 적당,가격 적당한 제품,가격 적당,가격 적당한 제품,CONTAIN,1.0,
+UQ0003,llm,additional,FN,구색 갖추려고,,구색 갖추려고,,,,PARAPHRASE_MISMATCH
+UQ0003,llm,additional,FP,,그냥 구색 갖추려고 사는 목적,,그냥 구색 갖추려고 사는 목적,,,
+UQ0004,llm,avoid,TP,달콤한,too sweet,sweet,too sweet,CONTAIN,1.0,
+UQ0004,llm,additional,FP,,여성스러운 향,,여성스러운,,,
+UQ0004,llm,additional,FP,,너무 달콤한 건 싫어,,너무 달콤한 건 싫어,,,
+UQ0005,llm,avoid,FN,너무 단,,너무 단,,,,CROSS_LINGUAL
+UQ0005,llm,avoid,FP,,Too sweet,,too sweet,,,
+UQ0005,llm,scent,TP,Vanilla,Vanilla,vanilla,vanilla,EXACT,0.0,
+UQ0006,llm,additional,FP,,바다 냄새 나는 향수 가능 여부 문의,,바다 냄새 나는 향수 가능 여부 문의,,,
+UQ0006,llm,scent,FN,Sea Notes,,sea notes,,,,EMPTY_PREDICTION
+UQ0007,llm,additional,FN,30대 초반,,30대 초반,,,,PARAPHRASE_MISMATCH
+UQ0007,llm,additional,FP,,30대 초반 남자가 쓰기 좋은 향수,,30대 초반 남자가 쓰기 좋은,,,
+UQ0008,llm,avoid,FP,,lemon,,lemon,,,
+UQ0008,llm,additional,FP,,lemon peel scent,,lemon peel scent,,,
+UQ0008,llm,scent,FN,Lemon Peel,,lemon peel,,,,EMPTY_PREDICTION
+UQ0008,llm,scent,FN,Lemon Zest,,lemon zest,,,,EMPTY_PREDICTION
+UQ0009,llm,additional,FP,,"너무 여성스럽지 않되, 너무 남자 향수도 아니었으면 좋겠다",,너무 여성스럽지 않되 너무 남자 향수도 아니었으면 좋겠다,,,
+UQ0010,llm,avoid,FN,너무 느끼,,너무 느끼,,,,EMPTY_PREDICTION
+UQ0010,llm,additional,FN,공주,,공주,,,,PARAPHRASE_MISMATCH
+UQ0010,llm,additional,FP,,케이크 같은 향,,케이크 같은,,,
+UQ0010,llm,additional,FP,,너무 느끼하지 않은 느낌,,너무 느끼하지 않은,,,
+UQ0010,llm,additional,FP,,딱 맡았을 때 공주처럼 느껴지는 향,,딱 맡았을 때 공주처럼 느껴지는,,,
+UQ0010,llm,scent,FN,Cake,,cake,,,,EMPTY_PREDICTION
+UQ0011,llm,avoid,FN,절 냄새,,절 냄새,,,,CROSS_LINGUAL
+UQ0011,llm,avoid,FP,,too strong only religious/temple-like scent,,too strong only religious temple like scent,,,
+UQ0011,llm,additional,FP,,나무 냄새가 나야 함,,나무 냄새가 나야 함,,,
+UQ0011,llm,additional,FP,,절(사찰) 냄새처럼 너무 한쪽으로만 강하게 나면 안 됨,,절 사찰 냄새처럼 너무 한쪽으로만 강하게 나면 안 됨,,,
+UQ0011,llm,scent,FN,Trees,,trees,,,,PARAPHRASE_MISMATCH
+UQ0011,llm,scent,FP,,woody,,woody,,,
+UQ0012,llm,additional,TP,깨끗한 냄새,깨끗한 냄새,깨끗한,깨끗한,EXACT,0.0,
+UQ0013,llm,additional,FN,머리 너무 안 아팠으면,,머리 너무 안 아팠으면,,,,PARAPHRASE_MISMATCH
+UQ0013,llm,additional,FP,,머리 안 아프게(두통이 없었으면 좋겠음),,머리 안 아프게 두통이 없었으면 좋겠음,,,
+UQ0013,llm,scent,TP,Coconut,Coconut,coconut,coconut,EXACT,0.0,
+UQ0014,llm,additional,FN,잘 모르는데 혹시 추천,,잘 모르는데 혹시 추천,,,,PARAPHRASE_MISMATCH
+UQ0014,llm,additional,FP,,향수를 잘 모름,,향수를 잘 모름,,,
+UQ0014,llm,additional,FP,,추천 요청,,추천 요청,,,
+UQ0015,llm,additional,FP,,여름에 뿌릴 향수 추천 요청,,여름에 뿌릴 향수 추천 요청,,,
+UQ0016,llm,avoid,FN,향기 너무 많이 나면,,향기 너무 많이 나면,,,,EMPTY_PREDICTION
+UQ0016,llm,additional,FP,,여름에 사용할 향수,,여름에 사용할,,,
+UQ0016,llm,additional,FP,,향기가 너무 많이 나면 코가 아픔,,향기가 너무 많이 나면 코가 아픔,,,
+UQ0016,llm,additional,FP,,그렇지 않은 향수 추천 가능 여부,,그렇지 않은 향수 추천 가능 여부,,,
+UQ0017,llm,additional,TP,34살,34살,34살,34살,EXACT,0.0,
+UQ0017,llm,additional,TP,금융맨,금융맨,금융맨,금융맨,EXACT,0.0,
+UQ0017,llm,additional,TP,어른스러운 느낌,어른스러운 느낌,어른스러운,어른스러운,EXACT,0.0,
+UQ0018,llm,additional,FN,여친한테 점수 딸만한,,여친한테 점수 딸만한,,,,PARAPHRASE_MISMATCH
+UQ0018,llm,additional,FP,,여자친구에게 점수 딸만한 향기(호감 목적),,여자친구에게 점수 딸만한 향기 호감 목적,,,
+UQ0019,llm,additional,TP,아무거나 추천,아무거나 추천해달라는 요청,아무거나 추천,아무거나 추천해달라는 요청,CONTAIN,1.0,
+UQ0019,llm,additional,FN,옷에 향수,,옷에,,,,PARAPHRASE_MISMATCH
+UQ0019,llm,additional,FP,,옷에 향수 뿌리고 싶음,,옷에 향수 뿌리고 싶음,,,
+UQ0020,llm,avoid,FN,입자가 너무 작은 건,,입자가 너무 작은,,,,EMPTY_PREDICTION
+UQ0020,llm,additional,FN,분사 적당히 되는 거,,분사 적당히 되는,,,,PARAPHRASE_MISMATCH
+UQ0020,llm,additional,FP,,향수 분사량이 적당한 것,,향수 분사량이 적당한,,,
+UQ0020,llm,additional,FP,,입자가 너무 작은 건 싫음,,입자가 너무 작은 건 싫음,,,
+UQ0021,llm,additional,FN,이솝 테싯 퍼퓸,,이솝 테싯 퍼퓸,,,,PARAPHRASE_MISMATCH
+UQ0021,llm,additional,FN,체향에 잘 맞는,,체향에 잘 맞는,,,,PARAPHRASE_MISMATCH
+UQ0021,llm,additional,FP,,Aesop Tetsit perfume를 자주 사용하며 체향에 잘 맞는 것 같음,,aesop tetsit perfume를 자주 사용하며 체향에 잘 맞는 것 같음,,,
+UQ0021,llm,additional,FP,,비슷한데 다른 향(대체/유사 향수) 추천 요청,,비슷한데 다른 향 대체 유사 향수 추천 요청,,,
+UQ0022,llm,avoid,FN,조말론 블랙베리,,조말론 블랙베리,,,,CROSS_LINGUAL
+UQ0022,llm,avoid,FP,,Blackberry (Jo Malone BlackBerry 계열),,blackberry jo malone blackberry,,,
+UQ0022,llm,additional,FP,,Jo Malone Blackberry가 별로였던 사람에게 맞는 향수 추천,,jo malone blackberry가 별로였던 사람에게 맞는 향수 추천,,,
+UQ0023,llm,additional,TP,깔끔한,깔끔한 향수,깔끔한,깔끔한,EXACT,0.0,
+UQ0024,llm,additional,TP,25살,25살,25살,25살,EXACT,0.0,
+UQ0024,llm,additional,TP,회사 취직,회사 취직 선물,회사 취직,회사 취직 선물,CONTAIN,1.0,
+UQ0024,llm,additional,FN,나한테 선물,,나한테 선물,,,,PARAPHRASE_MISMATCH
+UQ0024,llm,additional,FP,,본인에게 선물로 구매,,본인에게 선물로 구매,,,
+UQ0025,llm,avoid,FN,부담,,부담,,,,EMPTY_PREDICTION
+UQ0025,llm,additional,TP,소개팅,소개팅,소개팅,소개팅,EXACT,0.0,
+UQ0025,llm,additional,TP,좋은 인상,좋은 인상,좋은 인상,좋은 인상,EXACT,0.0,
+UQ0025,llm,additional,FP,,부담스럽지 않게,,부담스럽지 않게,,,
+UQ0026,llm,additional,FN,조용,,조용,,,,PARAPHRASE_MISMATCH
+UQ0026,llm,additional,FN,차분한,,차분한,,,,PARAPHRASE_MISMATCH
+UQ0026,llm,additional,FP,,조용하고 차분한 사람에게 잘 어울리는 향,,조용하고 차분한 사람에게 잘 어울리는,,,
+UQ0027,llm,additional,FN,지나갈 때 은은,,지나갈 때 은은,,,,PARAPHRASE_MISMATCH
+UQ0027,llm,additional,FN,좋은 냄새,,좋은,,,,PARAPHRASE_MISMATCH
+UQ0027,llm,additional,FP,,지나갈 때 은은하게 좋은 냄새가 나는 정도,,지나갈 때 은은하게 좋은 냄새가 나는 정도,,,
+UQ0028,llm,additional,TP,매일 사용,회사에서 매일 사용하기,매일 사용,회사에서 매일 사용하기,CONTAIN,1.0,
+UQ0028,llm,additional,TP,부담 없는,부담 없는 깔끔한 향,부담 없는,부담 없는 깔끔한,CONTAIN,1.0,
+UQ0028,llm,additional,FN,회사,,회사,,,,ONE_TO_ONE_CAP
+UQ0028,llm,additional,FN,깔끔한,,깔끔한,,,,ONE_TO_ONE_CAP
+UQ0029,llm,additional,FN,처음 향수를 사는,,처음 향수를 사는,,,,PARAPHRASE_MISMATCH
+UQ0029,llm,additional,FN,무난하게 사용,,무난하게 사용,,,,PARAPHRASE_MISMATCH
+UQ0029,llm,additional,FP,,처음 향수를 사는 사람도 무난하게 사용할 수 있는 향수,,처음 향수를 사는 사람도 무난하게 사용할 수 있는,,,
+UQ0030,llm,avoid,FN,강하게,,강하게,,,,EMPTY_PREDICTION
+UQ0030,llm,additional,FN,사람 많은 곳,,사람 많은 곳,,,,PARAPHRASE_MISMATCH
+UQ0030,llm,additional,FN,은은한,,은은한,,,,PARAPHRASE_MISMATCH
+UQ0030,llm,additional,FP,,사람 많은 곳에서도 너무 강하게 느껴지지 않는 향,,사람 많은 곳에서도 너무 강하게 느껴지지 않는,,,
+UQ0031,llm,additional,FN,좋은 냄새,,좋은,,,,PARAPHRASE_MISMATCH
+UQ0031,llm,additional,FP,,사람들이 맡았을 때 그냥 ‘좋은 냄새 난다’고 느낄 만한 향,,사람들이 맡았을 때 그냥 좋은 냄새 난다 고 느낄 만한,,,
+UQ0032,llm,avoid,FN,강하면,,강하면,,,,EMPTY_PREDICTION
+UQ0032,llm,additional,FN,부드럽,,부드럽,,,,PARAPHRASE_MISMATCH
+UQ0032,llm,additional,FN,편안한 향,,편안한,,,,PARAPHRASE_MISMATCH
+UQ0032,llm,additional,FP,,향이 강하면 머리가 아픔,,향이 강하면 머리가 아픔,,,
+UQ0032,llm,additional,FP,,최대한 부드럽고 편안한 향,,최대한 부드럽고 편안한,,,
+UQ0033,llm,avoid,FN,어려 보이지,,어려 보이지,,,,EMPTY_PREDICTION
+UQ0033,llm,additional,TP, 20대 후반,20대 후반,20대 후반,20대 후반,EXACT,0.0,
+UQ0033,llm,additional,TP,세련된 향수,세련된 향수,세련된,세련된,EXACT,0.0,
+UQ0033,llm,additional,FP,,너무 어려 보이지 않게,,너무 어려 보이지 않게,,,
+UQ0034,llm,additional,TP,향수 뿌린 티 안나는,너무 향수 뿌린 티 안나는 것,향수 뿌린 티 안나는,너무 향수 뿌린 티 안나는,CONTAIN,1.0,
+UQ0035,llm,additional,FN,그냥 골라줘,,그냥 골라줘,,,,PARAPHRASE_MISMATCH
+UQ0035,llm,additional,FP,,나한테 어울리는 향을 모름,,나한테 어울리는 향을 모름,,,
+UQ0035,llm,additional,FP,,그냥 골라달라고 요청,,그냥 골라달라고 요청,,,
+UQ0036,llm,additional,FN,면접,,면접,,,,PARAPHRASE_MISMATCH
+UQ0036,llm,additional,FP,,면접 갈 때 향수 사용 가능 여부,,면접 갈 때 향수 사용 가능 여부,,,
+UQ0036,llm,additional,FP,,뿌린다면 어떤 향 추천,,뿌린다면 어떤 향 추천,,,
+UQ0037,llm,additional,FN,남자친구,,남자친구,,,,PARAPHRASE_MISMATCH
+UQ0037,llm,additional,FP,,남자친구에게서 났으면 하는 향,,남자친구에게서 났으면 하는,,,
+UQ0038,llm,additional,FN,사계절,,사계절,,,,PARAPHRASE_MISMATCH
+UQ0038,llm,additional,FP,,사계절 내내 사용할 수 있는 향수,,사계절 내내 사용할 수 있는,,,
+UQ0039,llm,additional,FN,출근할때,,출근할때,,,,PARAPHRASE_MISMATCH
+UQ0039,llm,additional,FN,매일,,매일,,,,PARAPHRASE_MISMATCH
+UQ0039,llm,additional,FN,막 뿌릴,,막 뿌릴,,,,PARAPHRASE_MISMATCH
+UQ0039,llm,additional,FP,,출근할 때 매일 매일 뿌릴 수 있는,,출근할 때 매일 매일 뿌릴 수 있는,,,
+UQ0040,llm,additional,FN,담배냄새랑 섞여도 이상하지 않은,,담배냄새랑 섞여도 이상하지 않은,,,,PARAPHRASE_MISMATCH
+UQ0040,llm,additional,FP,,담배 냄새와 섞여도 이상하지 않은 향수,,담배 냄새와 섞여도 이상하지 않은,,,
+UQ0041,llm,additional,FN,여자 향수,,여자,,,,PARAPHRASE_MISMATCH
+UQ0041,llm,additional,FP,,여자 향수인데 남자가 써도 안 이상한 것 추천,,여자 향수인데 남자가 써도 안 이상한 것 추천,,,
+UQ0042,llm,additional,FN,땀냄새랑 섞여서 이상해지지 않는,,땀냄새랑 섞여서 이상해지지 않는,,,,PARAPHRASE_MISMATCH
+UQ0042,llm,additional,FP,,땀 많이 나는 여름 상황에서도 땀냄새와 섞여 이상해지지 않기,,땀 많이 나는 여름 상황에서도 땀냄새와 섞여 이상해지지 않기,,,
+UQ0043,llm,additional,TP,향수 입문자,향수 입문자,향수 입문자,향수 입문자,EXACT,0.0,
+UQ0043,llm,additional,FN,괜찮은 향수,,괜찮은,,,,ONE_TO_ONE_CAP
+UQ0044,llm,additional,FN,면세점에서 사기 좋은,,면세점에서 사기 좋은,,,,PARAPHRASE_MISMATCH
+UQ0044,llm,additional,FP,,duty-free(면세점)에서 구매하기 좋은 향수 추천,,duty free 면세점 에서 구매하기 좋은 향수 추천,,,
+UQ0045,llm,additional,FN,헬스장,,헬스장,,,,PARAPHRASE_MISMATCH
+UQ0045,llm,additional,FN,반응 좋은,,반응 좋은,,,,PARAPHRASE_MISMATCH
+UQ0045,llm,additional,FP,,헬스장에서 반응 좋은 향수 추천,,헬스장에서 반응 좋은 향수 추천,,,
+UQ0046,llm,additional,TP,뿌리기 좋은,오늘 뿌리기 좋은 향수,뿌리기 좋은,오늘 뿌리기 좋은,CONTAIN,1.0,
+UQ0046,llm,additional,FN,오늘,,오늘,,,,ONE_TO_ONE_CAP
+UQ0047,llm,additional,TP,엄청 섹시한 느낌,엄청 섹시한 느낌,엄청 섹시한,엄청 섹시한,EXACT,0.0,
+UQ0048,llm,additional,FN,섬유유연제 향,,섬유유연제,,,,PARAPHRASE_MISMATCH
+UQ0048,llm,additional,FP,,비누향이 강하게 나는 향수,,비누향이 강하게 나는,,,
+UQ0048,llm,additional,FP,,섬유유연제 향이 강하게 나는 향수,,섬유유연제 향이 강하게 나는,,,
+UQ0048,llm,scent,FN,Soap,,soap,,,,EMPTY_PREDICTION
+UQ0049,llm,additional,FN,나한테 맞는,,나한테 맞는,,,,PARAPHRASE_MISMATCH
+UQ0049,llm,additional,FP,,나한테 맞는 향수 추천,,나한테 맞는 향수 추천,,,
+UQ0050,llm,additional,FN,향수 입문자,,향수 입문자,,,,PARAPHRASE_MISMATCH
+UQ0050,llm,additional,FN,괜찮은 향수,,괜찮은,,,,PARAPHRASE_MISMATCH
+UQ0050,llm,additional,FP,,향수 입문자에게 괜찮은 향수 추천,,향수 입문자에게 괜찮은 향수 추천,,,
+UQ0051,llm,additional,TP,메종 마르지엘라,메종 마르지엘라,메종 마르지엘라,메종 마르지엘라,EXACT,0.0,
+UQ0051,llm,additional,TP,조말론,조말론,조말론,조말론,EXACT,0.0,
+UQ0051,llm,additional,TP,향수 입문용,향수 입문용,향수 입문용,향수 입문용,EXACT,0.0,
+UQ0052,llm,avoid,TP,달콤한 향기,sweet (달콤한),sweet,sweet 달콤한,CONTAIN,1.0,
+UQ0052,llm,additional,FN,화한거,,화한,,,,PARAPHRASE_MISMATCH
+UQ0052,llm,additional,FP,,좀 화한 향기(화한 느낌) 선호,,좀 화한 향기 화한 느낌 선호,,,
+UQ0053,llm,additional,TP,맑고 산뜻,맑고 산뜻한 느낌,맑고 산뜻,맑고 산뜻한,CONTAIN,0.0,
+UQ0054,llm,avoid,FN,너무 음식같은 느낌,,너무 음식같은,,,,CROSS_LINGUAL
+UQ0054,llm,avoid,FP,,too food-like,,too food like,,,
+UQ0054,llm,additional,FN,홍차향,,홍차,,,,PARAPHRASE_MISMATCH
+UQ0054,llm,additional,FP,,홍차향 같은 향수 찾아보기,,홍차향 같은 향수 찾아보기,,,
+UQ0054,llm,scent,FP,,black tea,,black tea,,,
+UQ0055,llm,additional,TP,톡 쏘는 거,톡 쏘는 느낌,톡 쏘는,톡 쏘는,EXACT,0.0,
+UQ0055,llm,additional,FN,플로럴 계열,,floral,,,,ONE_TO_ONE_CAP
+UQ0055,llm,scent,TP,floral,floral,floral,floral,EXACT,0.0,
+UQ0055,llm,scent,FP,,citrus,,citrus,,,
+UQ0056,llm,avoid,FN,너무 진한 향,,너무 진한,,,,EMPTY_PREDICTION
+UQ0056,llm,additional,FN,아로마 계열,,아로마,,,,PARAPHRASE_MISMATCH
+UQ0056,llm,additional,FP,,아로마 계열을 선호,,아로마 계열을 선호,,,
+UQ0056,llm,additional,FP,,너무 진한 향은 싫고 은은한 향을 원함,,너무 진한 향은 싫고 은은한 향을 원함,,,
+UQ0056,llm,scent,FN,aromatic,,aromatic,,,,EMPTY_PREDICTION
+UQ0057,llm,additional,TP,어른스러운,어른스러운 느낌,어른스러운,어른스러운,EXACT,0.0,
+UQ0057,llm,additional,FN,대학교 들어가는데,,대학교 들어가는데,,,,PARAPHRASE_MISMATCH
+UQ0057,llm,additional,FP,,대학교 입학,,대학교 입학,,,
+UQ0058,llm,additional,TP,겨울 느낌,winter 느낌,winter,winter,EXACT,0.0,
+UQ0058,llm,additional,TP,서늘한 여자,서늘한 여자임,서늘한 여자,서늘한 여자임,CONTAIN,0.0,
+UQ0059,llm,additional,TP,무조건 달콤한 향,무조건 달콤한 향,무조건 달콤한,무조건 달콤한,EXACT,0.0,
+UQ0059,llm,additional,FN,약간 민트계열,,약간 민트,,,,PARAPHRASE_MISMATCH
+UQ0059,llm,additional,FP,,달콤한데 약간 민트계열도 있으면 좋겠어,,달콤한데 약간 민트계열도 있으면 좋겠어,,,
+UQ0059,llm,scent,TP,Mint,Mint,mint,mint,EXACT,0.0,
+UQ0059,llm,scent,FP,,Sweet,,sweet,,,
+UQ0060,llm,additional,FN,살같에서 날 것 같은,,살같에서 날 것 같은,,,,PARAPHRASE_MISMATCH
+UQ0060,llm,additional,FN,베이비 파우더,,베이비 파우더,,,,PARAPHRASE_MISMATCH
+UQ0060,llm,additional,FP,,살갗에서 날 것 같은 느낌,,살갗에서 날 것 같은,,,
+UQ0060,llm,scent,FP,,Baby Powder,,baby powder,,,
+UQ0061,llm,additional,TP,흰 꽃에서만 나는 맑은 향,흰 꽃에서만 나는 향,흰 꽃에서만 나는 맑은,흰 꽃에서만 나는,CONTAIN,1.0,
+UQ0061,llm,additional,FP,,맑은 향,,맑은,,,
+UQ0061,llm,additional,FP,,시트러스 향이 섞인 것,,시트러스 향이 섞인,,,
+UQ0061,llm,scent,TP,Citrus,citrus,citrus,citrus,EXACT,0.0,
+UQ0062,llm,additional,TP,폭닥,폭닥한 느낌,폭닥,폭닥한,CONTAIN,0.0,
+UQ0062,llm,additional,FN,풍성한 복숭아,,풍성한 복숭아,,,,PARAPHRASE_MISMATCH
+UQ0062,llm,additional,FP,,peach 향이 풍성한,,peach 향이 풍성한,,,
+UQ0062,llm,scent,TP,Peach,Peach,peach,peach,EXACT,0.0,
+UQ0063,llm,additional,FN,쨍한 허브 비누향,,쨍한 허브 비누,,,,PARAPHRASE_MISMATCH
+UQ0063,llm,additional,FN,세제 잔뜩,,세제 잔뜩,,,,PARAPHRASE_MISMATCH
+UQ0063,llm,additional,FP,,세제를 잔뜩 쓴 것 같은 향,,세제를 잔뜩 쓴 것 같은,,,
+UQ0063,llm,scent,TP,Soap,clean soap,soap,clean soap,CONTAIN,1.0,
+UQ0063,llm,scent,FN,herbal,,herbal,,,,PARAPHRASE_MISMATCH
+UQ0063,llm,scent,FP,,Fresh herb,,fresh herb,,,
+UQ0064,llm,additional,TP,쨍한,차가운데 쨍한 향,쨍한,차가운데 쨍한,CONTAIN,1.0,
+UQ0064,llm,additional,FN,차가운데,,차가운데,,,,ONE_TO_ONE_CAP
+UQ0065,llm,additional,TP,잔향 좋은 거,은은하게 잔향 좋은 거,잔향 좋은,은은하게 잔향 좋은,CONTAIN,1.0,
+UQ0065,llm,additional,FN,선호 없음,,선호 없음,,,,PARAPHRASE_MISMATCH
+UQ0065,llm,additional,FP,,향은 딱히 선호 없음/모름,,향은 딱히 선호 없음 모름,,,
+UQ0066,llm,additional,TP,자연스러운,자연스러운 향,자연스러운,자연스러운,EXACT,0.0,
+UQ0066,llm,additional,TP,은은한 살냄새,은은한 살냄새 같은 느낌,은은한 살,은은한 살냄새 같은,CONTAIN,1.0,
+UQ0066,llm,scent,FP,,Skin scent,,skin scent,,,
+UQ0067,llm,additional,FN,담백,,담백,,,,PARAPHRASE_MISMATCH
+UQ0067,llm,additional,FN,부드러운,,부드러운,,,,PARAPHRASE_MISMATCH
+UQ0067,llm,additional,FN,엣지있는,,엣지있는,,,,PARAPHRASE_MISMATCH
+UQ0067,llm,additional,FP,,약간 담백하고 부드러운데 엣지 있는 느낌,,약간 담백하고 부드러운데 엣지 있는,,,
+UQ0068,llm,additional,FN,장마철,,장마철,,,,PARAPHRASE_MISMATCH
+UQ0068,llm,additional,FN,호수에 떠있는 연꽃,,호수에 떠있는 연꽃,,,,PARAPHRASE_MISMATCH
+UQ0068,llm,additional,FP,,"장마철, 호수 위에 떠있는 연꽃 같은 느낌",,장마철 호수 위에 떠있는 연꽃 같은,,,
+UQ0069,llm,additional,FN,땀 냄새랑 섞여도 안 이상한 거,,땀 냄새랑 섞여도 안 이상한,,,,PARAPHRASE_MISMATCH
+UQ0069,llm,additional,FN,바디스프레이,,바디스프레이,,,,PARAPHRASE_MISMATCH
+UQ0069,llm,additional,FP,,땀 냄새랑 섞여도 이상하지 않음,,땀 냄새랑 섞여도 이상하지 않음,,,
+UQ0069,llm,additional,FP,,바디스프레이처럼 가볍게/편하게 사용 가능,,바디스프레이처럼 가볍게 편하게 사용 가능,,,
+UQ0070,llm,additional,TP,10만원 이내,10만원 이내,10만원 이내,10만원 이내,EXACT,0.0,
+UQ0070,llm,additional,TP,시원한,시원한 향기,fresh,fresh,EXACT,0.0,
+UQ0070,llm,additional,TP,저렴한,저렴한,저렴한,저렴한,EXACT,0.0,
+UQ0071,llm,additional,TP,20만원 이내,20만원 이내,20만원 이내,20만원 이내,EXACT,0.0,
+UQ0071,llm,additional,FN,조합 괜찮은,,조합 괜찮은,,,,PARAPHRASE_MISMATCH
+UQ0071,llm,additional,FN,향수 2개,,향수 2개,,,,PARAPHRASE_MISMATCH
+UQ0071,llm,additional,FP,,조합 괜찮은 향수 2개,,조합 괜찮은 향수 2개,,,
+UQ0071,llm,additional,FP,,중성적인 느낌,,중성적인,,,
+UQ0072,llm,additional,TP,이슬을 머금은 장미,이슬을 머금은 장미 같은 향,이슬을 머금은 장미,이슬을 머금은 장미 같은,CONTAIN,1.0,
+UQ0072,llm,scent,TP,Rose,Rose,rose,rose,EXACT,0.0,
+UQ0073,llm,additional,TP,첫 인상이 포근,첫 인상이 포근하고 릴랙싱한 향,첫 인상이 포근,첫 인상이 포근하고 릴랙싱한,CONTAIN,1.0,
+UQ0073,llm,additional,FN,릴랙싱,,릴랙싱,,,,ONE_TO_ONE_CAP
+UQ0074,llm,additional,FN,비 오는 날,,비 오는 날,,,,EMPTY_PREDICTION
+UQ0074,llm,additional,FN,30대,,30대,,,,EMPTY_PREDICTION
+UQ0075,llm,additional,FN,회사,,회사,,,,PARAPHRASE_MISMATCH
+UQ0075,llm,additional,FN,중요한 공식석상,,중요한 공식석상,,,,PARAPHRASE_MISMATCH
+UQ0075,llm,additional,FP,,회사나 중요한 공식석상에서 뿌리기 적합,,회사나 중요한 공식석상에서 뿌리기 적합,,,
+UQ0076,llm,additional,FN,산뜻,,산뜻,,,,PARAPHRASE_MISMATCH
+UQ0076,llm,additional,FN,과일냄새,,과일,,,,PARAPHRASE_MISMATCH
+UQ0076,llm,additional,FP,,산뜻하면서 과일냄새 나는 향수,,산뜻하면서 과일냄새 나는,,,
+UQ0076,llm,scent,FP,,citrus,,citrus,,,
+UQ0076,llm,scent,FP,,fruity,,fruity,,,
+UQ0077,llm,additional,FN,템버린즈 볼드 시트러스랑 비슷한 향수,,템버린즈 볼드 시트러스랑 비슷한,,,,PARAPHRASE_MISMATCH
+UQ0077,llm,additional,FP,,지금 단종된 템버린즈 볼드 시트러스와 비슷한 향,,지금 단종된 템버린즈 볼드 시트러스와 비슷한,,,
+UQ0077,llm,scent,FP,,citrus,,citrus,,,
+UQ0078,llm,additional,TP,부드러운,가볍고 부드러운 느낌,부드러운,가볍고 부드러운,CONTAIN,1.0,
+UQ0078,llm,additional,FN,가볍고,,light,,,,ONE_TO_ONE_CAP
+UQ0079,llm,additional,FN,물 대신 과즙을 마시고 자란 꽃,,물 대신 과즙을 마시고 자란 꽃,,,,PARAPHRASE_MISMATCH
+UQ0079,llm,additional,FP,,물 대신 과즙을 마신 듯한 느낌,,물 대신 과즙을 마신 듯한,,,
+UQ0079,llm,additional,FP,,자란 꽃 같은 느낌,,자란 꽃 같은,,,
+UQ0079,llm,additional,FP,,가능한 한 최대한 비슷한 느낌의 향수,,가능한 한 최대한 비슷한 느낌의,,,
+UQ0080,llm,additional,FN,바다에 누워서,,바다에 누워서,,,,PARAPHRASE_MISMATCH
+UQ0080,llm,additional,FN,하늘을 올려다보고있는 듯,,하늘을 올려다보고있는 듯,,,,PARAPHRASE_MISMATCH
+UQ0080,llm,additional,FP,,바다에 누워서 가만히 하늘을 올려다보고 있는 듯한 느낌,,바다에 누워서 가만히 하늘을 올려다보고 있는 듯한,,,
+UQ0080,llm,scent,FN,Sea Notes,,sea notes,,,,EMPTY_PREDICTION
+UQ0081,llm,additional,FN,휴양지에 놀러갔을 때,,휴양지에 놀러갔을 때,,,,PARAPHRASE_MISMATCH
+UQ0081,llm,additional,FP,,휴양지에서 어울릴만한 향수 추천,,휴양지에서 어울릴만한 향수 추천,,,
+UQ0082,llm,additional,FN,슥 지나갔을 때,,슥 지나갔을 때,,,,PARAPHRASE_MISMATCH
+UQ0082,llm,additional,FN,향이 너무 좋아서 사람들이 다 돌아볼 것 같은,,향이 너무 좋아서 사람들이 다 돌아볼 것 같은,,,,PARAPHRASE_MISMATCH
+UQ0082,llm,additional,FP,,뿌리고 슥 지나갔을 때 향이 좋을 것,,뿌리고 슥 지나갔을 때 향이 좋을,,,
+UQ0082,llm,additional,FP,,사람들이 돌아볼 것 같은 향,,사람들이 돌아볼 것 같은,,,
+UQ0083,llm,additional,TP,20대,20대 여성,20대,20대 여성,CONTAIN,1.0,
+UQ0083,llm,additional,TP,귀엽고,귀엽고 산뜻한,귀엽고,귀엽고 산뜻한,CONTAIN,1.0,
+UQ0083,llm,additional,FN,산뜻한,,산뜻한,,,,ONE_TO_ONE_CAP
+UQ0084,llm,additional,TP,40대,40대,40대,40대,EXACT,0.0,
+UQ0084,llm,additional,FN,데일리 향수,,데일리,,,,CROSS_LINGUAL
+UQ0084,llm,additional,FP,,daily,,daily,,,
+UQ0085,llm,additional,FN,시원한 향수,,fresh,,,,PARAPHRASE_MISMATCH
+UQ0085,llm,additional,FP,,여름에 남자가 쓰기 좋은 시원한 향수,,여름에 남자가 쓰기 좋은 시원한,,,
+UQ0086,llm,additional,FN,데일리로 쓰기 좋은,,데일리로 쓰기 좋은,,,,CROSS_LINGUAL
+UQ0086,llm,additional,FP,,daily use,,daily use,,,
+UQ0087,llm,additional,FP,,가을에 잘 어울리는 우디 향수 추천해줘,,가을에 잘 어울리는 우디 향수 추천해줘,,,
+UQ0087,llm,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0088,llm,additional,FN,출근,,출근,,,,PARAPHRASE_MISMATCH
+UQ0088,llm,additional,FN,부담 없이,,부담 없이,,,,PARAPHRASE_MISMATCH
+UQ0088,llm,additional,FP,,출근할 때 부담 없이 뿌릴 수 있는 향수 추천,,출근할 때 부담 없이 뿌릴 수 있는 향수 추천,,,
+UQ0089,llm,additional,TP,소개팅,소개팅할 때,소개팅,소개팅할 때,CONTAIN,1.0,
+UQ0089,llm,additional,FP,,남자 향수,,남자,,,
+UQ0090,llm,additional,FN,데이트,,데이트,,,,PARAPHRASE_MISMATCH
+UQ0090,llm,additional,FN,반응 좋은,,반응 좋은,,,,PARAPHRASE_MISMATCH
+UQ0090,llm,additional,FP,,데이트할 때 반응 좋은 향수 추천,,데이트할 때 반응 좋은 향수 추천,,,
+UQ0091,llm,additional,TP,은은한,은은한 향수,은은한,은은한,EXACT,0.0,
+UQ0091,llm,additional,FN,회사,,회사,,,,PARAPHRASE_MISMATCH
+UQ0091,llm,additional,FP,,회사에서 쓰기 좋은,,회사에서 쓰기 좋은,,,
+UQ0092,llm,avoid,FN,향이 너무 세,,향이 너무 세,,,,EMPTY_PREDICTION
+UQ0093,llm,additional,TP,인기많은 남자,인기 많은 남자 향수,인기많은 남자,인기 많은 남자,CONTAIN,1.0,
+UQ0094,llm,additional,TP,섹시한,섹시한 느낌,섹시한,섹시한,EXACT,0.0,
+UQ0094,llm,additional,FN,흔하지 않으면서,,흔하지 않으면서,,,,PARAPHRASE_MISMATCH
+UQ0094,llm,additional,FP,,너무 흔하지 않음,,너무 흔하지 않음,,,
+UQ0095,llm,additional,TP,햇살 내리쬐는 일본 여름,햇살 내리쬐는 일본 여름 같은 향,햇살 내리쬐는 일본 여름,햇살 내리쬐는 일본 여름 같은,CONTAIN,1.0,
+UQ0096,llm,additional,FN,꿀 향,,꿀 향,,,,PARAPHRASE_MISMATCH
+UQ0096,llm,additional,FP,,중성적,,중성적,,,
+UQ0096,llm,scent,FP,,Honey,,honey,,,
+UQ0097,llm,additional,FN,마사지숍,,마사지숍,,,,PARAPHRASE_MISMATCH
+UQ0097,llm,additional,FP,,마사지숍에서 날 것 같은 향,,마사지숍에서 날 것 같은,,,
+UQ0098,llm,additional,FN,양키캔들 핑크 샌즈,,양키캔들 핑크 샌즈,,,,PARAPHRASE_MISMATCH
+UQ0098,llm,additional,FP,,양키캔들 핑크 샌즈와 비슷한 향을 원함,,양키캔들 핑크 샌즈와 비슷한 향을 원함,,,
+UQ0098,llm,additional,FP,,현재 사용 중인 '핑크 샌즈' 향이 너무 마음에 듦,,현재 사용 중인 핑크 샌즈 향이 너무 마음에 듦,,,
+UQ0099,llm,additional,TP,갓 세탁한 포근한 이불,갓 세탁한 포근한 이불 같은 느낌,갓 세탁한 포근한 이불,갓 세탁한 포근한 이불 같은,CONTAIN,1.0,
+UQ0100,llm,additional,FN,샤넬 no5랑 믹스해서 사용하기 좋은,,샤넬 no5랑 믹스해서 사용하기 좋은,,,,PARAPHRASE_MISMATCH
+UQ0100,llm,additional,FP,,샤넬 No.5와 믹스해서 사용하기 좋은 향수 추천,,샤넬 no 5와 믹스해서 사용하기 좋은 향수 추천,,,
+UQ0100,llm,additional,FP,,No.5와 함께 레이어링 용도,,no 5와 함께 레이어링 용도,,,
+UQ0101,llm,additional,FN,달달한 꽃,,달달한 꽃,,,,CROSS_LINGUAL
+UQ0101,llm,additional,FP,,sweet,,sweet,,,
+UQ0101,llm,additional,FP,,floral,,floral,,,
+UQ0102,llm,additional,TP,아빠 선물용,아빠 선물용,아빠 선물용,아빠 선물용,EXACT,0.0,
+UQ0102,llm,additional,FN,실패 확률 낮은,,실패 확률 낮은,,,,PARAPHRASE_MISMATCH
+UQ0102,llm,additional,FP,,실패 확률 낮은 향수 추천,,실패 확률 낮은 향수 추천,,,
+UQ0103,llm,additional,FN,스트릿룩이랑 어울리는,,스트릿룩이랑 어울리는,,,,PARAPHRASE_MISMATCH
+UQ0103,llm,additional,FP,,스트릿룩과 어울리는 향수 추천,,스트릿룩과 어울리는 향수 추천,,,
+UQ0104,llm,additional,TP,사계절용,사계절용,사계절용,사계절용,EXACT,0.0,
+UQ0104,llm,additional,FP,,하나만 추천,,하나만 추천,,,
+UQ0105,llm,additional,FN,시향 없이,,시향 없이,,,,PARAPHRASE_MISMATCH
+UQ0105,llm,additional,FN,블라인드 구매,,블라인드 구매,,,,PARAPHRASE_MISMATCH
+UQ0105,llm,additional,FP,,시향 없이 블라인드 구매해도 괜찮은 향수 추천,,시향 없이 블라인드 구매해도 괜찮은 향수 추천,,,
+UQ0107,llm,additional,FN,잔향이 좋은,,잔향이 좋은,,,,PARAPHRASE_MISMATCH
+UQ0107,llm,additional,FP,,잔향이 좋은 향수 추천,,잔향이 좋은 향수 추천,,,
+UQ0108,llm,additional,FN,호불호 적은,,호불호 적은,,,,PARAPHRASE_MISMATCH
+UQ0108,llm,additional,FP,,처음 맡았을 때 호불호가 적은 향수 추천,,처음 맡았을 때 호불호가 적은 향수 추천,,,
+UQ0109,llm,additional,FN,여자들이 좋아할 만한,,여자들이 좋아할 만한,,,,PARAPHRASE_MISMATCH
+UQ0109,llm,additional,FP,,여자들이 좋아할 만한 남자 향수 추천,,여자들이 좋아할 만한 남자 향수 추천,,,
+UQ0110,llm,additional,FP,,남자가 쓰기 좋은 머스크 향수 추천해줘,,남자가 쓰기 좋은 머스크 향수 추천해줘,,,
+UQ0110,llm,scent,FN,Musk,,musk,,,,EMPTY_PREDICTION
+UQ0111,llm,additional,FP,,파우더리 향수,,powdery,,,
+UQ0111,llm,additional,FP,,남자가 쓰기 좋은 향수 추천,,남자가 쓰기 좋은 향수 추천,,,
+UQ0111,llm,scent,FN,powdery,,powdery,,,,EMPTY_PREDICTION
+UQ0112,llm,additional,TP,포근한,포근한 느낌,포근한,포근한,EXACT,0.0,
+UQ0112,llm,additional,FN,깨끗하고,,깨끗하고,,,,PARAPHRASE_MISMATCH
+UQ0112,llm,additional,FP,,깨끗한 느낌,,깨끗한,,,
+UQ0113,llm,additional,TP,샤워하고 나온 것 같은,샤워하고 나온 것 같은 향,샤워하고 나온 것 같은,샤워하고 나온 것 같은,EXACT,0.0,
+UQ0114,llm,additional,FN,부드러운,,부드러운,,,,PARAPHRASE_MISMATCH
+UQ0114,llm,additional,FP,,부드러운 우디 향수 추천,,부드러운 우디 향수 추천,,,
+UQ0114,llm,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0115,llm,additional,TP,호텔 로비 같은,호텔 로비 같은 고급스러운 향,호텔 로비 같은,호텔 로비 같은 고급스러운,CONTAIN,1.0,
+UQ0115,llm,additional,FN,고급스러운,,고급스러운,,,,ONE_TO_ONE_CAP
+UQ0116,llm,avoid,FN,느끼,,느끼,,,,EMPTY_PREDICTION
+UQ0116,llm,additional,FN,달달하지만,,달달하지만,,,,CROSS_LINGUAL
+UQ0116,llm,additional,FP,,달달한 향,,sweet,,,
+UQ0116,llm,additional,FP,,너무 느끼하지 않은 향,,너무 느끼하지 않은,,,
+UQ0117,llm,scent,TP,Citrus,citrus,citrus,citrus,EXACT,0.0,
+UQ0118,llm,additional,TP,니치 향수 입문용,니치 향수 입문용 추천,니치 향수 입문용,니치 향수 입문용 추천,CONTAIN,1.0,
+UQ0119,llm,additional,TP,10만 원대,10만 원대 예산,10만 원대,10만 원대 예산,CONTAIN,1.0,
+UQ0120,llm,additional,TP,20만 원 이하,가격 20만 원 이하,20만 원 이하,가격 20만 원 이하,CONTAIN,1.0,
+UQ0120,llm,additional,FN,가성비,,가성비,,,,PARAPHRASE_MISMATCH
+UQ0120,llm,additional,FP,,가성비 좋은 향수 추천,,가성비 좋은 향수 추천,,,
+UQ0121,llm,additional,FN,20대 후반,,20대 후반,,,,PARAPHRASE_MISMATCH
+UQ0121,llm,additional,FP,,20대 후반 남자에게 어울리는 향수,,20대 후반 남자에게 어울리는,,,
+UQ0122,llm,additional,TP,결혼하는 사람,결혼하는 사람에게 선물할 향수,결혼하는 사람,결혼하는 사람에게 선물할,CONTAIN,1.0,
+UQ0122,llm,additional,FN,선물,,선물,,,,ONE_TO_ONE_CAP
+UQ0123,llm,additional,FN,운동하고 뿌리면 좋을,,운동하고 뿌리면 좋을,,,,PARAPHRASE_MISMATCH
+UQ0123,llm,additional,FP,,운동하고 뿌리기 좋음,,운동하고 뿌리기 좋음,,,
+UQ0124,llm,additional,FN,올리브영이나 백화점,,올리브영이나 백화점,,,,PARAPHRASE_MISMATCH
+UQ0124,llm,additional,FN,가장 핫,,가장 핫,,,,PARAPHRASE_MISMATCH
+UQ0124,llm,additional,FN,인기 많은,,인기 많은,,,,PARAPHRASE_MISMATCH
+UQ0124,llm,additional,FP,,올리브영에서 핫하고 인기 많은 여자 향수,,올리브영에서 핫하고 인기 많은 여자,,,
+UQ0124,llm,additional,FP,,백화점에서 핫하고 인기 많은 여자 향수,,백화점에서 핫하고 인기 많은 여자,,,
+UQ0125,llm,additional,FN,호불호 안 갈리고,,호불호 안 갈리고,,,,PARAPHRASE_MISMATCH
+UQ0125,llm,additional,FN,누구나 맡았을 때 '좋다'고,,누구나 맡았을 때 좋다 고,,,,PARAPHRASE_MISMATCH
+UQ0125,llm,additional,FP,,호불호 안 갈리고 누구나 맡았을 때 '좋다'고 느낄 만한 향수 추천,,호불호 안 갈리고 누구나 맡았을 때 좋다 고 느낄 만한 향수 추천,,,
+UQ0126,llm,additional,TP,향수 초보,향수 초보,향수 초보,향수 초보,EXACT,0.0,
+UQ0126,llm,additional,FN,실패 확률 제일 적고,,실패 확률 제일 적고,,,,PARAPHRASE_MISMATCH
+UQ0126,llm,additional,FN,다들 좋다고,,다들 좋다고,,,,PARAPHRASE_MISMATCH
+UQ0126,llm,additional,FP,,실패 확률이 가장 낮은 남자 향수,,실패 확률이 가장 낮은 남자,,,
+UQ0126,llm,additional,FP,,주변 사람들이 대체로 좋다고 하는 향,,주변 사람들이 대체로 좋다고 하는,,,
+UQ0127,llm,additional,FN,제일 잘 나가냐,,제일 잘 나가냐,,,,PARAPHRASE_MISMATCH
+UQ0127,llm,additional,FP,,남자 향수 중 요즘 가장 잘 나가는 제품 추천 요청,,남자 향수 중 요즘 가장 잘 나가는 제품 추천 요청,,,
+UQ0127,llm,additional,FP,,향수는 하나만 구매하려는 상황,,향수는 하나만 구매하려는 상황,,,
+UQ0128,llm,additional,FN,호불호 안 갈리는,,호불호 안 갈리는,,,,PARAPHRASE_MISMATCH
+UQ0128,llm,additional,FN,여자친구 선물,,여자친구 선물,,,,PARAPHRASE_MISMATCH
+UQ0128,llm,additional,FP,,호불호 안 가는 여자친구 선물용,,호불호 안 가는 여자친구 선물용,,,
+UQ0129,llm,additional,TP,비누 향,비누 향,비누,비누,EXACT,0.0,
+UQ0129,llm,additional,TP,세탁 건조기처럼 포근,세탁 건조기처럼 포근하고 깨끗한 향,세탁 건조기처럼 포근,세탁 건조기처럼 포근하고 깨끗한,CONTAIN,1.0,
+UQ0129,llm,additional,FN,깨끗한,,깨끗한,,,,ONE_TO_ONE_CAP
+UQ0130,llm,additional,FN,향수병 디자인이 독특하거나 예술적인,,향수병 디자인이 독특하거나 예술적인,,,,PARAPHRASE_MISMATCH
+UQ0130,llm,additional,FP,,향수병 디자인이 독특한,,향수병 디자인이 독특한,,,
+UQ0130,llm,additional,FP,,예술적인 향수,,예술적인,,,
+UQ0131,llm,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0132,llm,additional,FN,바다가 떠오르는,,바다가 떠오르는,,,,PARAPHRASE_MISMATCH
+UQ0132,llm,additional,FP,,바다가 떠오르는 여름용 남자 향수,,바다가 떠오르는 여름용 남자,,,
+UQ0132,llm,scent,FN,Sea Notes,,sea notes,,,,EMPTY_PREDICTION
+UQ0133,llm,additional,FN,디자인이 엄청 고급스럽고 화려해서 선물용으로 소장 가치 있는 향수 병,,디자인이 엄청 고급스럽고 화려해서 선물용으로 소장 가치 있는 향수 병,,,,PARAPHRASE_MISMATCH
+UQ0133,llm,additional,FP,,병 디자인이 엄청 고급스럽고 화려함,,병 디자인이 엄청 고급스럽고 화려함,,,
+UQ0133,llm,additional,FP,,선물용,,선물용,,,
+UQ0133,llm,additional,FP,,소장 가치 있는 향수 병 디자인 추천,,소장 가치 있는 향수 병 디자인 추천,,,
+UQ0134,llm,additional,FN,어떤 향수,,어떤,,,,PARAPHRASE_MISMATCH
+UQ0134,llm,additional,FN,인기가 많냐,,인기가 많냐,,,,PARAPHRASE_MISMATCH
+UQ0134,llm,additional,FP,,요즘 인기 있는 향수 추천,,요즘 인기 있는 향수 추천,,,
+UQ0135,llm,additional,FN,SNS에서 인기 많은,,sns에서 인기 많은,,,,PARAPHRASE_MISMATCH
+UQ0135,llm,additional,FP,,SNS에서 인기 많은 남자 향수 추천,,sns에서 인기 많은 남자 향수 추천,,,
+UQ0136,llm,additional,FN,남들이 잘 안쓰는 독특한,,남들이 잘 안쓰는 독특한,,,,PARAPHRASE_MISMATCH
+UQ0136,llm,additional,FP,,남들이 잘 안쓰는 독특한 향을 원함,,남들이 잘 안쓰는 독특한 향을 원함,,,
+UQ0136,llm,additional,FP,,겨울용 남자 향수 필요,,겨울용 남자 향수 필요,,,
+UQ0137,llm,scent,TP,herbal,herbal,herbal,herbal,EXACT,0.0,
+UQ0137,llm,scent,TP,green,green notes,green,green notes,CONTAIN,1.0,
+UQ0139,llm,additional,TP,시크한,시크한 느낌,시크한,시크한,EXACT,0.0,
+UQ0139,llm,additional,FP,,은은한 스모키함,,은은한 스모키함,,,
+UQ0139,llm,additional,FP,,가죽 향이 감도는,,가죽 향이 감도는,,,
+UQ0139,llm,additional,FP,,남자 향수,,남자,,,
+UQ0139,llm,scent,FN,smoky,,smoky,,,,EMPTY_PREDICTION
+UQ0139,llm,scent,FN,Leather,,leather,,,,EMPTY_PREDICTION
+UQ0140,llm,additional,FP,,중성적인 향수 추천,,중성적인 향수 추천,,,
+UQ0141,llm,additional,TP,제일 유명한,제일 유명한 남자 향수,제일 유명한,제일 유명한 남자,CONTAIN,1.0,
+UQ0141,llm,additional,FN,남친한테 향수 선물,,남친한테 향수 선물,,,,PARAPHRASE_MISMATCH
+UQ0141,llm,additional,FN,5개,,5개,,,,PARAPHRASE_MISMATCH
+UQ0141,llm,additional,FP,,남자 향수 선물,,남자 향수 선물,,,
+UQ0141,llm,additional,FP,,5개 정도 추천,,5개 정도 추천,,,
+UQ0142,llm,additional,FN,밀폐된 공간,,밀폐된 공간,,,,PARAPHRASE_MISMATCH
+UQ0142,llm,additional,FN,안 어지러울만한 거,,안 어지러울만한,,,,PARAPHRASE_MISMATCH
+UQ0142,llm,additional,FP,,밀폐된 공간에서 사용해도 어지럽지 않을 만한 향을 원함,,밀폐된 공간에서 사용해도 어지럽지 않을 만한 향을 원함,,,
+UQ0143,llm,additional,TP,딱딱한,딱딱한 느낌,딱딱한,딱딱한,EXACT,0.0,
+UQ0143,llm,additional,TP,카리스마,카리스마 있어보이는,카리스마,카리스마 있어보이는,CONTAIN,1.0,
+UQ0144,llm,additional,TP,5만원 이내,5만원 이내,5만원 이내,5만원 이내,EXACT,0.0,
+UQ0144,llm,additional,TP,백화점 향수,백화점 향수 느낌,백화점,백화점,EXACT,0.0,
+UQ0145,llm,additional,FN,천연 향신료,,천연 향신료,,,,PARAPHRASE_MISMATCH
+UQ0145,llm,additional,FN,성분 좋은,,성분 좋은,,,,PARAPHRASE_MISMATCH
+UQ0145,llm,additional,FP,,천연 향신료를 사용하는 성분 좋은 향수 추천,,천연 향신료를 사용하는 성분 좋은 향수 추천,,,
+UQ0146,llm,additional,TP,가격 상관 없음,가격 상관 없음,가격 상관 없음,가격 상관 없음,EXACT,0.0,
+UQ0146,llm,additional,TP,리한나가 쓰는 향수,리한나가 쓰는 향수,리한나가 쓰는,리한나가 쓰는,EXACT,0.0,
+UQ0147,llm,additional,FP,,향이 멀리까지 퍼지는 것(확산/향의 강한 퍼짐)은 싫음,,향이 멀리까지 퍼지는 것 확산 향의 강한 퍼짐 은 싫음,,,
+UQ0148,llm,avoid,TP,바닐라,Vanilla,vanilla,vanilla,EXACT,0.0,
+UQ0148,llm,additional,FN,달콤한 향,,sweet,,,,EMPTY_PREDICTION
+UQ0148,llm,scent,FP,,sweet,,sweet,,,
+UQ0149,llm,avoid,FN,남자 스킨 냄새,,남자 스킨,,,,CROSS_LINGUAL
+UQ0149,llm,avoid,FP,,male skin scent,,male skin scent,,,
+UQ0149,llm,additional,FN,시원한 향,,fresh,,,,PARAPHRASE_MISMATCH
+UQ0149,llm,additional,FP,,시원한 향을 선호,,시원한 향을 선호,,,
+UQ0149,llm,additional,FP,,남자 스킨 냄새는 피하고 싶음,,남자 스킨 냄새는 피하고 싶음,,,
+UQ0149,llm,additional,FP,,안 그런(남자 스킨 냄새가 아닌) 향이 있는지 문의,,안 그런 남자 스킨 냄새가 아닌 향이 있는지 문의,,,
+UQ0150,llm,avoid,TP,무겁거나,heavy,heavy,heavy,EXACT,0.0,
+UQ0150,llm,avoid,FN,중후한,,중후한,,,,CROSS_LINGUAL
+UQ0150,llm,avoid,FP,,heavy and mature,,heavy and mature,,,
+UQ0150,llm,additional,FP,,우디 향 선호,,우디 향 선호,,,
+UQ0150,llm,additional,FP,,무겁거나 중후한 느낌은 싫음,,무겁거나 중후한 느낌은 싫음,,,
+UQ0150,llm,additional,FP,,추천 요청,,추천 요청,,,
+UQ0150,llm,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0151,llm,avoid,FN,화장품 냄새,,화장품,,,,CROSS_LINGUAL
+UQ0151,llm,avoid,FP,,cosmetic-smelling floral,,cosmetic smelling floral,,,
+UQ0151,llm,additional,FN,꽃향,,꽃향,,,,CROSS_LINGUAL
+UQ0151,llm,additional,FP,,"floral is okay, but not the kind that smells like cosmetics",,floral is okay but not the kind that smells like cosmetics,,,
+UQ0152,llm,avoid,TP,패출리,Patchouli,patchouli,patchouli,EXACT,0.0,
+UQ0152,llm,additional,FP,,패출리 들어간 향은 싫음,,패출리 들어간 향은 싫음,,,
+UQ0153,llm,avoid,TP,인센스,incense,incense,incense,EXACT,0.0,
+UQ0153,llm,avoid,FN,절 냄새,,절 냄새,,,,PARAPHRASE_MISMATCH
+UQ0153,llm,avoid,FP,,incense/절 냄새,,incense 절,,,
+UQ0153,llm,additional,TP,다양한 종류로 추천,다양한 종류로 추천 요청,다양한 종류로 추천,다양한 종류로 추천 요청,CONTAIN,1.0,
+UQ0154,llm,avoid,TP,체리,Cherry,cherry,cherry,EXACT,0.0,
+UQ0154,llm,avoid,TP,복숭아,Peach,peach,peach,EXACT,0.0,
+UQ0154,llm,additional,FN,과일 향수,,과일,,,,CROSS_LINGUAL
+UQ0154,llm,additional,FP,,Fruity perfume preference,,fruity perfume preference,,,
+UQ0154,llm,additional,FP,,Recommend fruity scents but exclude peach and cherry,,recommend fruity scents but exclude peach and cherry,,,
+UQ0155,llm,additional,FN,딥티크 탐다오랑 오르페옹 중에 출근용,,딥티크 탐다오랑 오르페옹 중에 출근용,,,,PARAPHRASE_MISMATCH
+UQ0155,llm,additional,FP,,딥티크 탐다오 vs 딥티크 오르페옹 중 출근용으로 더 나은 것 문의,,딥티크 탐다오 vs 딥티크 오르페옹 중 출근용으로 더 나은 것 문의,,,
+UQ0156,llm,additional,TP,블루 드 샤넬보다 덜 흔한 느낌,블루 드 샤넬보다 덜 흔한 느낌,블루 드 샤넬보다 덜 흔한,블루 드 샤넬보다 덜 흔한,EXACT,0.0,
+UQ0157,llm,additional,FN,조말론인데 조금 더 성숙한 느낌으로 바꾸고 싶어.,,조말론인데 조금 더 성숙한 느낌으로 바꾸고 싶어,,,,PARAPHRASE_MISMATCH
+UQ0157,llm,additional,FP,,현재 사용하는 향수: 조말론,,현재 사용하는 향수 조말론,,,
+UQ0157,llm,additional,FP,,더 성숙한 느낌으로 바꾸고 싶음,,더 성숙한 느낌으로 바꾸고 싶음,,,
+UQ0158,llm,additional,TP,새벽 바닷가,새벽 바닷가 같은 느낌,새벽 바닷가,새벽 바닷가 같은,CONTAIN,1.0,
+UQ0158,llm,additional,FN,소금 냄새가 너무 강하진 않았으면,,소금 냄새가 너무 강하진 않았으면,,,,PARAPHRASE_MISMATCH
+UQ0158,llm,additional,FP,,소금 냄새가 너무 강하지 않았으면 좋겠음,,소금 냄새가 너무 강하지 않았으면 좋겠음,,,
+UQ0159,llm,avoid,FP,,earthy smell,,earthy smell,,,
+UQ0159,llm,additional,FN,비 오는 숲,,비 오는 숲,,,,CROSS_LINGUAL
+UQ0159,llm,additional,FN,흙냄새보다는 젖은 나무 냄새,,흙냄새보다는 젖은 나무,,,,CROSS_LINGUAL
+UQ0159,llm,additional,FP,,wet wood smell more than earthy smell,,wet wood smell more than earthy smell,,,
+UQ0159,llm,additional,FP,,rainy forest-like atmosphere,,rainy forest like atmosphere,,,
+UQ0160,llm,additional,TP,차가운 금속같은 이미지,차가운 금속같은 이미지,차가운 금속같은 이미지,차가운 금속같은 이미지,EXACT,0.0,
+UQ0160,llm,additional,FN,너무 날카롭지 않았으면,,너무 날카롭지 않았으면,,,,PARAPHRASE_MISMATCH
+UQ0160,llm,additional,FP,,향 자체는 너무 날카롭지 않았으면 좋겠음,,향 자체는 너무 날카롭지 않았으면 좋겠음,,,
+UQ0161,llm,avoid,TP,시트러스,citrus,citrus,citrus,EXACT,0.0,
+UQ0161,llm,additional,TP,햇빛 받은 흰 셔츠,햇빛 받은 흰 셔츠 같은 느낌,햇빛 받은 흰 셔츠,햇빛 받은 흰 셔츠 같은,CONTAIN,1.0,
+UQ0162,llm,avoid,FN,세제 냄새,,세제,,,,PARAPHRASE_MISMATCH
+UQ0162,llm,avoid,FP,,soapy/detergent-like 인위적인 냄새,,soapy detergent like 인위적인,,,
+UQ0162,llm,additional,FN,호텔 침구,,호텔 침구,,,,PARAPHRASE_MISMATCH
+UQ0162,llm,additional,FN,깨끗함,,깨끗함,,,,PARAPHRASE_MISMATCH
+UQ0162,llm,additional,FP,,호텔 침구 같은 깨끗한 느낌,,호텔 침구 같은 깨끗한,,,
+UQ0163,llm,additional,FN,꿀 같은 향,,꿀 같은,,,,EMPTY_PREDICTION
+UQ0163,llm,scent,FP,,Honey,,honey,,,
+UQ0164,llm,avoid,TP,인위적인,인위적인 향,인위적인,인위적인,EXACT,0.0,
+UQ0164,llm,additional,FN,장미 꽃 향기,,장미 꽃,,,,PARAPHRASE_MISMATCH
+UQ0164,llm,additional,FP,,장미 꽃 향기는 좋지만 인위적인 향처럼 느껴지지 않았으면 좋겠음,,장미 꽃 향기는 좋지만 인위적인 향처럼 느껴지지 않았으면 좋겠음,,,
+UQ0164,llm,scent,FP,,Rose,,rose,,,
+UQ0165,llm,scent,TP,Jasmine,Jasmine,jasmine,jasmine,EXACT,0.0,
+UQ0165,llm,scent,FN,Rose,,rose,,,,PARAPHRASE_MISMATCH
+UQ0165,llm,scent,FP,,Apple,,apple,,,
+UQ0166,llm,avoid,TP,초코 향,Chocolate,chocolate,chocolate,EXACT,0.0,
+UQ0166,llm,scent,TP,Caramel,Caramel,caramel,caramel,EXACT,0.0,
+UQ0166,llm,scent,FP,,Sweet,,sweet,,,
+UQ0167,llm,avoid,TP,머스크,musk,musk,musk,EXACT,0.0,
+UQ0167,llm,additional,FP,,화이트 머스크 향이 나는 향수로 추천,,화이트 머스크 향이 나는 향수로 추천,,,
+UQ0167,llm,scent,FN,White Musk,,white musk,,,,EMPTY_PREDICTION
+UQ0168,llm,avoid,TP,바질 냄새 ,Basil,basil,basil,EXACT,0.0,
+UQ0168,llm,additional,FN,그린 계열,,그린,,,,PARAPHRASE_MISMATCH
+UQ0168,llm,additional,FP,,바질 냄새 안 나는 그린 계열 향수 추천,,바질 냄새 안 나는 그린 계열 향수 추천,,,
+UQ0168,llm,scent,FN,green,,green,,,,EMPTY_PREDICTION
+UQ0169,llm,avoid,TP,달달한 거,sweet,sweet,sweet,EXACT,0.0,
+UQ0169,llm,additional,TP,싱싱한 딸기 향기,진짜 싱싱한 딸기 향기,싱싱한 딸기,진짜 싱싱한 딸기,CONTAIN,1.0,
+UQ0169,llm,additional,FP,,달달한 것보다는 싱싱한 쪽을 원함,,달달한 것보다는 싱싱한 쪽을 원함,,,
+UQ0169,llm,scent,TP,Strawberry,Strawberry,strawberry,strawberry,EXACT,0.0,
+UQ0170,llm,avoid,FN,남자 향수 냄새,,남자,,,,EMPTY_PREDICTION
+UQ0170,llm,additional,FN,청량,,청량,,,,PARAPHRASE_MISMATCH
+UQ0170,llm,additional,FP,,청량한 느낌을 원함,,청량한 느낌을 원함,,,
+UQ0170,llm,additional,FP,,남자 향수 냄새는 안났으면 좋겠음,,남자 향수 냄새는 안났으면 좋겠음,,,
+UQ0171,llm,additional,FN,처음에는 상쾌,,처음에는 상쾌,,,,PARAPHRASE_MISMATCH
+UQ0171,llm,additional,FN,시간이 지나면 포근,,시간이 지나면 포근,,,,PARAPHRASE_MISMATCH
+UQ0171,llm,additional,FP,,처음에는 상쾌한데 시간이 지나면 포근하게 남는 향,,처음에는 상쾌한데 시간이 지나면 포근하게 남는,,,
+UQ0172,llm,additional,FN,오래된 목조 도서관,,오래된 목조 도서관,,,,PARAPHRASE_MISMATCH
+UQ0172,llm,additional,FP,,오래된 목조 도서관에 들어갔을 때 나는 냄새 같은 향수를 찾고 싶음,,오래된 목조 도서관에 들어갔을 때 나는 냄새 같은 향수를 찾고 싶음,,,
+UQ0173,llm,additional,FN,평소에는 조용한데,,평소에는 조용한데,,,,PARAPHRASE_MISMATCH
+UQ0173,llm,additional,FN,은근히 개성 있어 보이는 사람,,은근히 개성 있어 보이는 사람,,,,PARAPHRASE_MISMATCH
+UQ0173,llm,additional,FP,,평소에는 조용한데 은근히 개성 있어 보이는 사람이 쓸 것 같은 향수,,평소에는 조용한데 은근히 개성 있어 보이는 사람이 쓸 것 같은,,,
+UQ0174,llm,additional,FN,상대방 취향을 전혀 모르는데,,상대방 취향을 전혀 모르는데,,,,PARAPHRASE_MISMATCH
+UQ0174,llm,additional,FN,선물하기 실패 확률 낮은 향수,,선물하기 실패 확률 낮은,,,,PARAPHRASE_MISMATCH
+UQ0174,llm,additional,FP,,상대방 취향을 전혀 모름,,상대방 취향을 전혀 모름,,,
+UQ0174,llm,additional,FP,,선물하기 실패 확률 낮은 향수 추천,,선물하기 실패 확률 낮은 향수 추천,,,
+UQ0175,llm,additional,TP,담백한 향수,담백한 향수,담백한,담백한,EXACT,0.0,
+UQ0175,llm,additional,TP,미니멀하게 옷 입는 사람,미니멀하게 옷 입는 사람에게 어울리는,미니멀하게 옷 입는 사람,미니멀하게 옷 입는 사람에게 어울리는,CONTAIN,1.0,
+UQ0176,llm,additional,TP,답답하지 않은 향,답답하지 않은 향,답답하지 않은,답답하지 않은,EXACT,0.0,
+UQ0176,llm,additional,TP,실내에서만 있는 직업,실내에서만 있는 직업,실내에서만 있는 직업,실내에서만 있는 직업,EXACT,0.0,
+UQ0177,llm,additional,TP,옛날 향수,옛날 향수 느낌,옛날,옛날,EXACT,0.0,
+UQ0177,llm,scent,TP,powdery,Powdery,powdery,powdery,EXACT,0.0,
+UQ0177,llm,scent,TP,Rose,Rose,rose,rose,EXACT,0.0,
+UQ0178,llm,additional,TP,30대,30대 남성,30대,30대 남성,CONTAIN,1.0,
+UQ0178,llm,additional,TP,정장차림,정장차림에 어울리는 향수,정장차림,정장차림에 어울리는,CONTAIN,1.0,
+UQ0178,llm,additional,FP,,지속력 좋은 향수 추천,,지속력 좋은 향수 추천,,,
+UQ0179,llm,additional,FN,이솝 휠이랑 레이어링,,이솝 휠이랑 레이어링,,,,PARAPHRASE_MISMATCH
+UQ0179,llm,additional,FP,,Aesop Wh i l e(이솝 휠)과 레이어링해서 잘 어울리는 향수 추천 요청,,aesop wh i l e 이솝 휠 과 레이어링해서 잘 어울리는 향수 추천 요청,,,
+UQ0180,llm,avoid,TP,파우더리,powdery,powdery,powdery,EXACT,0.0,
+UQ0180,llm,scent,TP,floral,floral,floral,floral,EXACT,0.0,
+UQ0181,llm,scent,TP,Coffee,Coffee,coffee,coffee,EXACT,0.0,
+UQ0182,llm,additional,FN,무거운 향,,heavy,,,,PARAPHRASE_MISMATCH
+UQ0182,llm,additional,FN,사무실,,사무실,,,,PARAPHRASE_MISMATCH
+UQ0182,llm,additional,FN,부담없이 사용,,부담없이 사용,,,,PARAPHRASE_MISMATCH
+UQ0182,llm,additional,FP,,winter용 무거운 향,,winter용 무거운,,,
+UQ0182,llm,additional,FP,,사무실에서도 부담없이 사용할 수 있는 향수,,사무실에서도 부담없이 사용할 수 있는,,,
+UQ0183,llm,additional,FN,갓 깎은 잔디밭에 누워 있는,,갓 깎은 잔디밭에 누워 있는,,,,PARAPHRASE_MISMATCH
+UQ0183,llm,additional,FP,,갓 깎은 잔디밭에 누워 있는 느낌이 날 수 있는 향수,,갓 깎은 잔디밭에 누워 있는 느낌이 날 수 있는,,,
+UQ0184,llm,additional,FN,시프레 계열,,시프레,,,,PARAPHRASE_MISMATCH
+UQ0184,llm,additional,FN,대표적인 거 몇 개,,대표적인 거 몇 개,,,,PARAPHRASE_MISMATCH
+UQ0184,llm,additional,FP,,시프레 계열이 무엇인지 모르겠음,,시프레 계열이 무엇인지 모르겠음,,,
+UQ0184,llm,additional,FP,,대표적인(몇 개만) 예시를 알려달라는 요청,,대표적인 몇 개만 예시를 알려달라는 요청,,,
+UQ0185,llm,avoid,FN,올드,,올드,,,,CROSS_LINGUAL
+UQ0185,llm,avoid,FP,,too old-fashioned,,too old fashioned,,,
+UQ0185,llm,additional,FN,산타마리아노벨라 시향했는데 너무 올드,,산타마리아노벨라 시향했는데 너무 올드,,,,PARAPHRASE_MISMATCH
+UQ0185,llm,additional,FN,젊은 느낌,,젊은,,,,PARAPHRASE_MISMATCH
+UQ0185,llm,additional,FP,,Santamaría Novella에서 시향한 향이 너무 올드하다고 느낌,,santamar a novella에서 시향한 향이 너무 올드하다고,,,
+UQ0185,llm,additional,FP,,젊은 느낌으로 추천,,젊은 느낌으로 추천,,,
+UQ0186,llm,additional,FN,오래된 헌책방 냄새,,오래된 헌책방,,,,PARAPHRASE_MISMATCH
+UQ0186,llm,additional,FP,,오래된 헌책방 냄새 같은 향수,,오래된 헌책방 냄새 같은,,,
+UQ0187,llm,additional,TP,입문용,입문용,입문용,입문용,EXACT,0.0,
+UQ0187,llm,additional,FN,아이리스,,아이리스,,,,PARAPHRASE_MISMATCH
+UQ0187,llm,additional,FP,,아이리스가 세련됐다고 들은 것,,아이리스가 세련됐다고 들은,,,
+UQ0188,llm,additional,FN,크리드 실버마운틴워터,,크리드 실버마운틴워터,,,,PARAPHRASE_MISMATCH
+UQ0188,llm,additional,FN,더 저렴한거,,더 저렴한,,,,PARAPHRASE_MISMATCH
+UQ0188,llm,additional,FP,,Creed Silver Mountain Water와 비슷한 향을 더 저렴한 가격대에서 추천 요청,,creed silver mountain water와 비슷한 향을 더 저렴한 가격대에서 추천 요청,,,
+UQ0188,llm,additional,FP,,현재 가격이 너무 비쌈,,현재 가격이 너무 비쌈,,,
+UQ0189,llm,additional,FN,제일 유명,,제일 유명,,,,PARAPHRASE_MISMATCH
+UQ0189,llm,additional,FP,,무화과 노트를 좋아함,,무화과 노트를 좋아함,,,
+UQ0189,llm,additional,FP,,그중에서 가장 유명한 향수(제품)를 알고 싶음,,그중에서 가장 유명한 향수 제품 를 알고 싶음,,,
+UQ0189,llm,scent,TP,Fig,Fig,fig,fig,EXACT,0.0,
+UQ0190,llm,additional,FN,단종된 향수랑 비슷한 걸,,단종된 향수랑 비슷한 걸,,,,PARAPHRASE_MISMATCH
+UQ0190,llm,additional,FP,,단종된 향수와 비슷한 것을 찾고 싶음,,단종된 향수와 비슷한 것을 찾고 싶음,,,
+UQ0190,llm,scent,TP,powdery,powdery,powdery,powdery,EXACT,0.0,
+UQ0190,llm,scent,TP,Soap,soapy,soap,soapy,CONTAIN,0.0,
+UQ0191,llm,additional,FP,,베티버가 뭔지 궁금함,,베티버가 뭔지 궁금함,,,
+UQ0191,llm,additional,FP,,베티버가 들어간 향수 추천,,베티버가 들어간 향수 추천,,,
+UQ0191,llm,scent,TP,Vetiver,Vetiver,vetiver,vetiver,EXACT,0.0,
+UQ0192,llm,avoid,TP,우디,woody,woody,woody,EXACT,0.0,
+UQ0192,llm,additional,FN,완전히 다른 계열,,완전히 다른,,,,PARAPHRASE_MISMATCH
+UQ0192,llm,additional,FP,,우디 향수는 제외하고 완전히 다른 계열 한 가지 구입하고 싶음,,우디 향수는 제외하고 완전히 다른 계열 한 가지 구입하고 싶음,,,
+UQ0193,llm,additional,TP,깨끗하고,깨끗하고 세련된 느낌,깨끗하고,깨끗하고 세련된,CONTAIN,1.0,
+UQ0193,llm,additional,FN,세련된,,세련된,,,,ONE_TO_ONE_CAP
+UQ0194,llm,avoid,TP,달달,sweet,sweet,sweet,EXACT,0.0,
+UQ0194,llm,additional,FN,포근한 니트,,포근한 니트,,,,CROSS_LINGUAL
+UQ0194,llm,additional,FP,,cozy knit-like feeling,,cozy knit like feeling,,,
+UQ0194,llm,additional,FP,,not overly sweet,,not overly sweet,,,
+UQ0195,llm,additional,TP,창밖에 비 오는 걸 보는,창밖에 비 오는 걸 보는 느낌,창밖에 비 오는 걸 보는,창밖에 비 오는 걸 보는,EXACT,0.0,
+UQ0195,llm,additional,TP,따뜻한 차 한 잔,따뜻한 차 한 잔을 마시며,따뜻한 차 한 잔,따뜻한 차 한 잔을 마시며,CONTAIN,1.0,
+UQ0196,llm,avoid,FN,너무 무겁거나,,너무 무겁거나,,,,CROSS_LINGUAL
+UQ0196,llm,avoid,FN,아저씨 같은 느낌,,아저씨 같은,,,,CROSS_LINGUAL
+UQ0196,llm,avoid,FP,,too heavy,,too heavy,,,
+UQ0196,llm,avoid,FP,,old-fashioned/uncle-like feeling,,old fashioned uncle like feeling,,,
+UQ0196,llm,scent,TP,woody,woody,woody,woody,EXACT,0.0,
+UQ0197,llm,additional,FN,강의실,,강의실,,,,PARAPHRASE_MISMATCH
+UQ0197,llm,additional,FN,가벼운,,light,,,,PARAPHRASE_MISMATCH
+UQ0197,llm,additional,FP,,강의실에서 뿌려도 민폐 아닌 강도,,강의실에서 뿌려도 민폐 아닌 강도,,,
+UQ0197,llm,additional,FP,,가벼운 향수 추천,,가벼운 향수 추천,,,
+UQ0198,llm,additional,TP,헬스장용,헬스장용,헬스장용,헬스장용,EXACT,0.0,
+UQ0198,llm,additional,FN,땀이랑 안 겹치고,,땀이랑 안 겹치고,,,,PARAPHRASE_MISMATCH
+UQ0198,llm,additional,FN,저렴한,,저렴한,,,,PARAPHRASE_MISMATCH
+UQ0198,llm,additional,FP,,땀이랑 겹치지 않기,,땀이랑 겹치지 않기,,,
+UQ0198,llm,additional,FP,,저렴한 향수 추천,,저렴한 향수 추천,,,
+UQ0199,llm,additional,FP,,오렌지 블로썸 위주 향수 추천 요청,,오렌지 블로썸 위주 향수 추천 요청,,,
+UQ0199,llm,scent,TP,Orange Blossom,orange blossom,orange blossom,orange blossom,EXACT,0.0,
+UQ0200,llm,additional,FN,탬버린즈 계열,,탬버린즈,,,,PARAPHRASE_MISMATCH
+UQ0200,llm,additional,FN,다른 국내 브랜드,,다른 국내 브랜드,,,,PARAPHRASE_MISMATCH
+UQ0200,llm,additional,FP,,국내 브랜드 추천,,국내 브랜드 추천,,,
+UQ0200,llm,additional,FP,,탬버린즈 계열 선호,,탬버린즈 계열 선호,,,
+UQ0200,llm,scent,FP,,tuberose,,tuberose,,,
