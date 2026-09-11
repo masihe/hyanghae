@@ -1,0 +1,13 @@
+﻿query_id,구분,표현,v2 상태,bridge accord,direct accord,미적용 note 조건,bridge 후보,bridge 5위 동점,전체 후보,전체 5위 동점,동점 구간,판정
+SQ0061,PURE,비 온 뒤의 숲의 냄새,MAPPED,foresty+earthy,,,0,0,0,0,후보 부족,검색 불가
+SQ0032,PURE,숲 속에 온 듯한 향,MAPPED,foresty,,,1,1,1,1,후보 부족,검색 불가
+SQ0136,PURE,빨래향 같이 자연스러운 향,MAPPED,fresh+soapy,,,1049,6,1049,6,실용 범위,검색 가능
+SQ0105,PURE,따뜻한 햇살을 받으며 침대 위에 누워있는 듯한 느낌의 향수,ABSTAIN,,,,,,,,,번역 없음
+SQ0012,PURE,샤워하고 나온듯한 따뜻하고 포근한 느낌의 향기,MAPPED,soapy+warm spicy,,,114,5,114,5,완전 변별,검색 가능
+SQ0058,PURE,바다가 생각나는 시원한 향,MAPPED,aquatic+fresh,,,4963,14,4963,14,실용 범위,검색 가능
+SQ0002,MIXED,시원하고 깔끔한 향,MAPPED,fresh,citrus,,33478,830,18826,25,실용 범위,검색 가능
+SQ0047,MIXED,가벼우면서 시원한 느낌,MAPPED,fresh+citrus,soapy+musky+woody,,18826,25,13,5,완전 변별,검색 가능
+SQ0051,MIXED,톡 쏘는 듯한 청량함과 방금 막 세탁된 코튼 향처럼 깨끗한 공기향,MAPPED,fresh+soapy,,Peach,1049,6,1049,6,실용 범위,검색 가능
+SQ0071,MIXED,겨울 아침에 딱~ 일어나서 창문을 열었는데 느껴지는 차갑고 상쾌한 향,MAPPED,fresh+citrus,musky+woody,,18826,25,2540,5,완전 변별,검색 가능
+SQ0073,MIXED,"깨끗하고 시원한 향을 좋아하고, 편백나무, 산내음처럼 자연스러운 향",MAPPED,fresh+foresty,woody+floral,,0,0,0,0,후보 부족,검색 불가
+SQ0132,MIXED,포근한 느낌,ABSTAIN,,musky,,,,41154,4010,순위 임의성 큼,번역 없음

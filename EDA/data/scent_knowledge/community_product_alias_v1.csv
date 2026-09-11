@@ -1,0 +1,29 @@
+﻿entry_id,slang,canonical_ko,perfume_id,brand_en,name_en,match_status,match_note,source_url,collected_at
+kr.slang.01,제뿌무,제라늄 뿌르 무슈,5911,Frederic Malle,Geranium Pour Monsieur,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.02,문인헤,문라이트 인 헤븐,35973,By Kilian,Moonlight in Heaven,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.03,휘강보종,휘그 인 퓨전,73092,Essential Parfums,Fig Infusion,CONFIRMED,Essential Parfums Fig Infusion. 은어 '휘강보종'의 유래는 미상,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.04,부왕패렬,브와 임페리얼,64338,Essential Parfums,Bois Impérial,CONFIRMED,Extrait 등 파생 제품이 따로 있다,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.05,누보지드,누보몽드,49753,Louis Vuitton,Nouveau Monde,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.06,야티야디야,베티베디베,,,,AMBIGUOUS,Vetyver 계열 후보가 여럿이라 특정 못 함,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.07,망타라,망고 타이 라임,16436,Jo Loves,Mango Thai Lime,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.08,화자,화이트 자고라,18596,The Different Company,White Zagora,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.09,도쿄불륜,도쿄 블룸,14838,The Different Company,Tokyo Bloom,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.10,애미나이,애프터미드나잇,14840,The Different Company,After Midnight,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.11,쉬블럼발뽀뽀|발뽀뽀,서브라임 발키스,4223,The Different Company,Sublime Balkiss,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.12,디옴인,디옴 옴므 인텐스,1771,Dior,Dior Homme Intense 2007,CONFIRMED,Dior Homme Intense 2007. 연도 변형이 여럿 있다,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.13,디옴코,디올 옴므 코롱,1770,Dior,Dior Homme Cologne,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.14,발바쥬|밟아줘,발라드 소바쥬,,,,NOT_FOUND,Dior Ballade Sauvage 로 추정되나 코퍼스에 없다,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.15,디비자라,디올리비에라,81847,Dior,Dioriviera,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.16,봐달장|달짱,브아 다르장,1377,Dior,Bois d'Argent,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.17,박아라|바카라,바카라 루쥬 540,33519,Maison Francis Kurkdjian,Baccarat Rouge 540,CONFIRMED,MFK 본품. Extrait·Hair Mist 등 파생이 5종 더 있다,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.18,아셀포,아쿠아 셀레스티아 포르테,49217,Maison Francis Kurkdjian,Aqua Celestia Forte,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.19,아셀코포,아쿠아 셀레스티아 코롱 포르테,66993,Maison Francis Kurkdjian,Aqua Celestia Cologne Forte,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.20,아유코포,아쿠아 유니버셜 코롱 포르테,66996,Maison Francis Kurkdjian,Aqua Universalis Cologne Forte,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.21,아미코포,아쿠아 미디어 코롱 포르테,82030,Maison Francis Kurkdjian,Aqua Media Cologne Forte,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.22,롬라로즈,롬므 아라로즈,,,,NOT_FOUND,Frederic Malle L'Homme a la Rose 로 추정되나 코퍼스에 없다,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.23,로체,로스트 체리,51411,Tom Ford,Lost Cherry,CONFIRMED,,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.24,섹섹네,섹스 온 더 시 네롤리,,,,AMBIGUOUS,Demeter Sex on the Beach 계열 후보가 있으나 '네롤리'와 안 맞는다,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.25,마넘파,마태우 NO5,,,,AMBIGUOUS,은어 '마넘파'는 '마 넘버 파이브'로 읽히나 브랜드를 특정 못 함,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.26,파란포션|파포,망트 라 졸리,,,,AMBIGUOUS,은어 '파란포션'이 색을 가리키나 제품을 특정 못 함,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.27,아가단또|베캣|단또,베이비캣,63448,Yves Saint Laurent,Black Opium Baby Cat Collector,CONFIRMED,YSL Black Opium Baby Cat Collector,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11
+kr.slang.28,엔젤스 쉐어|엔쉐|엔셰,엔젤스 셰어,62615,By Kilian,Angels' Share,CONFIRMED,By Kilian. 파생 제품이 3종 더 있다,https://masiondior.github.io/perfume_finder/mapping.json,2026-09-11

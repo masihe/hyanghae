@@ -1,0 +1,45 @@
+﻿entry_id,expression,aliases,expression_type,target_field,candidate_type,candidate_name,rank,required,match_condition,rationale,evidence_tier,corpus_support,standardness,status,source_query_ids
+kr.term.top_note,탑노트,탑노트|탑|톱노트|탑 노트,PERFORMANCE,STAGE1_DIRECT,FIELD,notes.tiered.top,1,core,,탑노트는 향수를 뿌린 직후 먼저 올라오는 향이다. Fragrantica 스키마의 notes.tiered.top 에 직접 대응한다.,VERIFIED,,loanword,active,
+kr.term.middle_note,미들노트,미들노트|미들|미들 노트|하트노트|미드노트,PERFORMANCE,STAGE1_DIRECT,FIELD,notes.tiered.middle,1,core,,미들노트는 탑노트가 날아간 뒤 중심이 되는 향이다. Fragrantica 스키마의 notes.tiered.middle 에 직접 대응한다.,VERIFIED,,loanword,active,
+kr.term.base_note,베이스노트,베이스노트|베이스|베이스 노트|라스트노트,PERFORMANCE,STAGE1_DIRECT,FIELD,notes.tiered.base,1,core,,베이스노트는 가장 오래 남는 향이다. Fragrantica 스키마의 notes.tiered.base 에 직접 대응한다.,VERIFIED,,loanword,active,
+kr.term.note,노트,노트|향조,PERFORMANCE,STAGE1_DIRECT,FIELD,notes,1,core,,노트는 향수에 들어간 향료를 뜻한다. 어느 단계인지 말하지 않았으므로 탑·미들·베이스를 구분하지 않고 전체를 가리킨다.,VERIFIED,,loanword,active,
+kr.term.longevity,지속력,지속력|지속|지속성|지속 시간,PERFORMANCE,STAGE1_DIRECT,FIELD,longevity,1,core,,"지속력은 향이 얼마나 오래 남는지다. Fragrantica 스키마의 longevity (1~5, 1이 약함)에 대응한다. ⚠ 현재 ERD 에는 이 값을 담을 컬럼이 확인되지 않았다.",VERIFIED,,standard,active,
+kr.term.sillage,발향,발향|확산력|실라지|실라주|퍼짐,PERFORMANCE,STAGE1_DIRECT,FIELD,sillage,1,core,,"발향은 향이 주변으로 얼마나 퍼지는지다. Fragrantica 스키마의 sillage (1~4, 1이 밀착)에 대응한다. ⚠ 현재 ERD 에는 이 값을 담을 컬럼이 확인되지 않았다.",VERIFIED,,standard,active,
+kr.term.residual,잔향,잔향|잔향이|남는 향|끝향,PERFORMANCE,STAGE1_DIRECT,FIELD,longevity,1,core,"query_contains:오래,길게,긴,남는,좋은,강한",잔향을 '오래 남는다'는 뜻으로 쓸 때는 지속력을 말한다. Fragrantica 스키마의 longevity 에 대응한다.,VERIFIED,,standard,active,
+kr.term.residual,잔향,잔향|잔향이|남는 향|끝향,PERFORMANCE,STAGE1_DIRECT,FIELD,notes.tiered.base,2,core,,잔향을 '어떤 향이 남는가'로 쓸 때는 베이스노트를 말한다. 기본 갈래로 둔다.,VERIFIED,,standard,active,
+kr.term.concentration,부향률,부향률|오드퍼퓸|오드뚜왈렛|EDP|EDT,PERFORMANCE,NO_MAPPING,,,1,,,부향률은 향료 농도다. SCHEMA.md 를 확인한 결과 dump 에 concentration 필드가 없어 검색 조건으로 쓸 수 없다. spec.md §6 의 미확인 항목과 같은 내용이다.,VERIFIED,,standard,active,
+kr.term.linear,리니어,리니어|리니어한|선형,PERFORMANCE,NO_MAPPING,,,1,,,리니어는 시간이 지나도 향이 거의 바뀌지 않는 전개 방식을 뜻한다. dump 에 향 전개를 담은 필드가 없어 검색 조건으로 쓸 수 없다.,VERIFIED,,loanword,active,
+kr.drift.musk,머스크,머스크|머스키|머스크향|화이트머스크|화이트 머스크,DIRECT_SCENT,STAGE2_BRIDGE,ACCORD,musky,1,core,,"한국어 '머스크'는 대개 화이트머스크, 즉 비누·세탁 느낌을 가리킨다. Fragrantica 의 musky 는 애니멀릭까지 포괄하므로 범위가 다르다. musky 를 단독으로 쓰면 코퍼스의 31.2% 가 걸리고 순위가 나오지 않으므로 반드시 soapy 와 함께 쓴다.",VERIFIED,41154,loanword,candidate,UQ0167
+kr.drift.musk,머스크,머스크|머스키|머스크향|화이트머스크|화이트 머스크,DIRECT_SCENT,STAGE2_BRIDGE,ACCORD,soapy,2,core,,팀 문서의 청결감 축이 '비누 같은 / 세탁한 듯한 / 스킨 같은' 을 한 묶음으로 정리하고 있다. 한국어 화자가 머스크로 뜻하는 쪽이 이 묶음이다.,TEAM,1720,loanword,candidate,UQ0167
+kr.drift.musk,머스크,머스크|머스키|머스크향|화이트머스크|화이트 머스크,DIRECT_SCENT,STAGE2_BRIDGE,ACCORD,fresh,3,optional,,비누·세탁 인상을 더 좁히기 위한 보조 후보다. 출처 없이 고른 것이므로 사람 검토가 필요하다.,LLM,33478,loanword,candidate,UQ0167
+kr.ctx.clean,깨끗한,깨끗한|깨끗하고|깨끗함|깔끔한|정갈한|단정한,SENSORY,STAGE2_BRIDGE,ACCORD,soapy,1,core,"query_contains:비누,세탁,빨래,샤워,침구,이불,스킨,뽀송",팀 문서의 청결감 축이 '깨끗한' 을 '비누 같은 / 세탁한 듯한 / 샤워한 듯한' 과 같은 묶음에 두고 있다. 쿼리에 비누·세탁 문맥이 있으면 이 갈래다.,TEAM,1720,standard,candidate,UQ0002|UQ0023|UQ0028|UQ0112|UQ0129|UQ0162|UQ0193
+kr.ctx.clean,깨끗한,깨끗한|깨끗하고|깨끗함|깔끔한|정갈한|단정한,SENSORY,STAGE2_BRIDGE,ACCORD,fresh,2,core,"query_contains:비누,세탁,빨래,샤워,침구,이불,스킨,뽀송",soapy 를 단독으로 쓸 수 없으므로 짝이 되는 후보다. 출처 없이 고른 것이다.,LLM,33478,standard,candidate,UQ0002|UQ0023|UQ0028|UQ0112|UQ0129|UQ0162|UQ0193
+kr.ctx.clean,깨끗한,깨끗한|깨끗하고|깨끗함|깔끔한|정갈한|단정한,SENSORY,STAGE2_BRIDGE,ACCORD,aquatic,1,core,"query_contains:물,바다,여름,공기,수영,워터,시원",팀 문서의 Water 계열에 '깨끗한 워터 계열' 절이 따로 있다. 쿼리에 물·바다·여름 문맥이 있으면 이 갈래다.,TEAM,8872,standard,candidate,UQ0002|UQ0023|UQ0028|UQ0112|UQ0129|UQ0162|UQ0193
+kr.ctx.clean,깨끗한,깨끗한|깨끗하고|깨끗함|깔끔한|정갈한|단정한,SENSORY,STAGE2_BRIDGE,ACCORD,fresh,2,core,"query_contains:물,바다,여름,공기,수영,워터,시원",같은 절이 맑고 시원한 물 인상을 함께 묶고 있다.,TEAM,33478,standard,candidate,UQ0002|UQ0023|UQ0028|UQ0112|UQ0129|UQ0162|UQ0193
+kr.scene.laundry,빨래,빨래|빨래향|세탁|세탁한|햇빛에 말린|갓 세탁한,SOURCE,STAGE2_BRIDGE,ACCORD,soapy,1,core,,팀 문서의 생활 비유에 '햇빛에 바싹 말린 빨래' 가 있고 청결감 축에 '세탁한 듯한' 이 있다. 비누 계열이 이 인상의 중심이다.,TEAM,1720,standard,candidate,
+kr.scene.laundry,빨래,빨래|빨래향|세탁|세탁한|햇빛에 말린|갓 세탁한,SOURCE,STAGE2_BRIDGE,ACCORD,fresh,2,core,,같은 축이 '뽀송한' 을 함께 두고 있다. 마른 빨래의 가볍고 개운한 쪽이다.,TEAM,33478,standard,candidate,
+kr.sens.cozy,포근한,포근한|포근하고|포근함|폭닥한|폭신한|보드라운,SENSORY,STAGE2_BRIDGE,ACCORD,powdery,1,core,,"포근하다는 촉감 형용사가 후각으로 전이된 표현이다. 팀 문서의 질감 축이 '파우더리한 / 폭닥한' 을 같은 묶음에 두고 있고, 파우더리한 질감이 그 인상을 만든다.",TEAM,62885,standard,candidate,UQ0112
+kr.sens.cozy,포근한,포근한|포근하고|포근함|폭닥한|폭신한|보드라운,SENSORY,STAGE2_BRIDGE,ACCORD,musky,2,core,,팀 문서가 근거로 든 기사 [S29] 가 '머스크를 머금은 폭닥한 향수' 를 다룬다. 머스크가 파우더리한 인상을 감싸는 쪽이다.,TEAM,41154,standard,candidate,UQ0112
+kr.sens.cozy,포근한,포근한|포근하고|포근함|폭닥한|폭신한|보드라운,SENSORY,STAGE2_BRIDGE,ACCORD,vanilla,3,optional,,"팀 문서의 온도 축이 '따뜻한 / 포근한' 을 함께 둔다. 바닐라의 단맛이 따뜻한 쪽을 만든다. powdery + musky 만으로 순위를 매기면 5위 동점이 87개가 되는데, 바닐라를 점수에 더하면 9개로 줄어든다. 그래서 필수가 아니라 보조로 둔다.",TEAM,34562,standard,candidate,UQ0112
+kr.scene.bedding,이불,이불|침구|이불 냄새|코튼 이불|침대,SOURCE,STAGE2_BRIDGE,ACCORD,powdery,1,core,,팀 문서의 생활 비유에 '코튼 이불' 과 '깨끗한 침구' 가 있다. 보드라운 천의 인상이 파우더리한 질감으로 나타난다.,TEAM,62885,standard,candidate,
+kr.scene.bedding,이불,이불|침구|이불 냄새|코튼 이불|침대,SOURCE,STAGE2_BRIDGE,ACCORD,soapy,2,core,,'깨끗한 침구' 는 세탁된 상태를 말하므로 청결감 축의 비누 계열이 함께 걸린다.,TEAM,1720,standard,candidate,
+kr.scene.bedding,이불,이불|침구|이불 냄새|코튼 이불|침대,SOURCE,STAGE2_BRIDGE,ACCORD,musky,3,optional,,감싸는 인상을 더하기 위한 보조 후보다. 출처 없이 고른 것이다.,LLM,41154,standard,candidate,
+kr.scene.rainy_forest,비 오는 숲,비 오는 숲|비 온 뒤 숲|비 온 뒤의 숲|젖은 숲|숲 냄새|숲 속,SCENE,STAGE2_BRIDGE,ACCORD,mossy,1,core,,팀 문서의 Mossy Woods 계열에 '숲 이미지 표현' 절이 있고 생활 비유에 '비 온 뒤 숲' 이 있다. 이끼가 젖은 숲 인상의 중심이다.,TEAM,6173,standard,candidate,UQ0159
+kr.scene.rainy_forest,비 오는 숲,비 오는 숲|비 온 뒤 숲|비 온 뒤의 숲|젖은 숲|숲 냄새|숲 속,SCENE,STAGE2_BRIDGE,ACCORD,earthy,2,core,,같은 계열의 습도 표현이 젖은 흙 쪽을 함께 둔다. 비 온 뒤의 땅 냄새다.,TEAM,19049,standard,candidate,UQ0159
+kr.scene.rainy_forest,비 오는 숲,비 오는 숲|비 온 뒤 숲|비 온 뒤의 숲|젖은 숲|숲 냄새|숲 속,SCENE,STAGE2_BRIDGE,ACCORD,green,3,optional,,잎과 풀의 초록 쪽을 더하는 보조 후보다. 출처 없이 고른 것이다.,LLM,29755,standard,candidate,UQ0159
+kr.sens.cold,차가운,차가운|차갑고|차가움|서늘한|쨍한,SENSORY,STAGE2_BRIDGE,ACCORD,ozonic,1,core,,"팀 문서의 온도 축이 '차가운 / 서늘한' 을 같은 묶음에 두고, Water 계열에 '오존/메탈릭 워터' 절이 따로 있다. 찬 공기 인상이 오조닉이다.",TEAM,5777,standard,candidate,UQ0064
+kr.sens.cold,차가운,차가운|차갑고|차가움|서늘한|쨍한,SENSORY,STAGE2_BRIDGE,ACCORD,fresh,2,core,,같은 절이 맑고 시원한 쪽을 함께 묶는다.,TEAM,33478,standard,candidate,UQ0064
+kr.sens.dewy,촉촉한,촉촉한|촉촉하고|촉촉함|물기 어린|물기,SENSORY,STAGE2_BRIDGE,ACCORD,aquatic,1,core,,팀 문서의 습도 축이 '촉촉한 / 물기 어린' 을 같은 묶음에 둔다. 물기가 있는 인상이 아쿠아틱이다.,TEAM,8872,standard,candidate,
+kr.sens.dewy,촉촉한,촉촉한|촉촉하고|촉촉함|물기 어린|물기,SENSORY,STAGE2_BRIDGE,ACCORD,green,2,core,,같은 문서의 Green 계열에 '오이/워터리 그린' 절이 있다. 촉촉한 초록 쪽이다.,TEAM,29755,standard,candidate,
+kr.scene.resort,휴양지,휴양지|리조트|해변|바닷가|여행지|남태평양,SCENE,STAGE2_BRIDGE,ACCORD,tropical,1,core,,팀 문서의 생활 비유에 '휴양지의 저녁' 이 있다. 열대 과일과 꽃의 인상이 트로피컬이다.,TEAM,6512,standard,candidate,
+kr.scene.resort,휴양지,휴양지|리조트|해변|바닷가|여행지|남태평양,SCENE,STAGE2_BRIDGE,ACCORD,coconut,2,core,,선탠오일과 코코넛의 휴양지 연상을 담은 보조 후보다. 출처 없이 고른 것이므로 사람 검토가 필요하다.,LLM,3269,standard,candidate,
+kr.scene.hotel,호텔,호텔|호텔 어메니티|호텔 냄새|로비|어메니티,SCENE,STAGE2_BRIDGE,ACCORD,soapy,1,core,,팀 문서의 생활 비유에 '호텔 어메니티' 가 있다. 비누와 샴푸의 인상이 중심이다.,TEAM,1720,standard,candidate,
+kr.scene.hotel,호텔,호텔|호텔 어메니티|호텔 냄새|로비|어메니티,SCENE,STAGE2_BRIDGE,ACCORD,white floral,2,core,,호텔 어메니티에 흔한 흰 꽃 계열을 담은 보조 후보다. 출처 없이 고른 것이다.,LLM,39497,standard,candidate,
+kr.dial.sweet,달달,달달|달달한|달큰한|달콤한|달콤하고,SENSORY,STAGE2_BRIDGE,ACCORD,sweet,1,core,,달달하다는 미각 형용사가 후각으로 전이된 표현이며 sweet accord 이름과 뜻이 같다. 다만 sweet 단독으로는 코퍼스가 너무 넓어 순위가 나오지 않는다.,VERIFIED,60625,dialect,candidate,UQ0004|UQ0194
+kr.dial.sweet,달달,달달|달달한|달큰한|달콤한|달콤하고,SENSORY,STAGE2_BRIDGE,ACCORD,caramel,2,core,,단맛을 좁히기 위한 짝이다. vanilla 를 쓰면 결과가 너무 넓어 caramel 을 골랐다. 출처 없이 고른 것이므로 사람 검토가 필요하다.,LLM,4008,dialect,candidate,UQ0004|UQ0194
+kr.nomap.fragrant,향긋한,향긋한|향긋하고|향긋함|향긋,SENSORY,NO_MAPPING,,,1,,,표준국어대사전 정의가 '은근히 향기로운 느낌이 있다' 로 묘사 내용이 없는 순수 평가어다. 어떤 향인지 지정하지 않으므로 accord 를 붙이지 않는다. DECISIONS.md N1 의 결정과 같다.,VERIFIED,,standard,active,
+kr.nomap.plain,무난한,무난한|무난하고|데일리한|부담없는|튀지 않는,OTHER,NO_MAPPING,,,1,,,팀 문서가 이 표현에 대해 '14개 패밀리 어디에도 없던 표현인데 질문 글 최빈어' 이며 '(매핑 근거 미확보)' 라고 직접 적어두었다. 문서의 판단을 그대로 따른다.,VERIFIED,,standard,active,
+kr.nomap.luxurious,고급스러운,고급스러운|고급진|우아한|세련된,IMAGE,NO_MAPPING,,,1,,,팀 문서에 7번 나오는데 Soft Floral·Amber 등 서로 다른 계열에 흩어져 있다. 특정 향 방향을 지정하지 않는 이미지어이므로 accord 를 붙이지 않는다.,TEAM,,standard,active,UQ0115|UQ0193
+kr.nomap.urban,도시적인,도시적인|도시적|모던한,IMAGE,NO_MAPPING,,,1,,,팀 문서의 성숙도·이미지 축에 속한 표현이다. 향의 내용이 아니라 인상을 말하므로 accord 를 붙이지 않는다.,TEAM,,standard,active,
+kr.nomap.sexy,섹시한,섹시한|관능적인|퇴폐적인,IMAGE,NO_MAPPING,,,1,,,"팀 문서에서 Amber·Woody Amber 계열 형용사로 나오지만, 파일럿 계획 §11 이 결과가 stereotype 으로 수렴하는 것을 중단 기준으로 두고 있다. 사람 판정을 받기 전에는 매핑하지 않는다.",TEAM,,standard,active,UQ0094
+kr.nomap.natural,자연스러운,자연스러운|자연스럽게|내추럴한,SENSORY,NO_MAPPING,,,1,,,"팀 문서에서 두 역할로 쓰인다. 자연성 축에서는 '인공적인' 의 반대말이고, Woods 계열에서는 목재 형용사다. 두 역할이 달라 단일 방향을 지정할 수 없다. 문맥 분기 규칙을 정한 뒤 재검토한다.",TEAM,,standard,active,UQ0066
