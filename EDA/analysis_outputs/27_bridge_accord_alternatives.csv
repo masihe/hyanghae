@@ -1,0 +1,15 @@
+﻿query_id,표현,구분,accord 조합,후보,5위 점수,5위 동점,동점 구간,검색 가능
+SQ0061,비 온 뒤의 숲의 냄새,v2 원본,foresty+earthy,0,,0,후보 부족,아니오
+SQ0061,비 온 뒤의 숲의 냄새,대안,mossy+earthy,4715,200,8,실용 범위,예
+SQ0061,비 온 뒤의 숲의 냄새,대안,mossy+earthy+green,1254,286,5,완전 변별,예
+SQ0032,숲 속에 온 듯한 향,v2 원본,foresty,1,44,1,후보 부족,아니오
+SQ0032,숲 속에 온 듯한 향,대안,mossy+green,1702,200,20,실용 범위,예
+SQ0032,숲 속에 온 듯한 향,대안,woody+green,17714,200,121,순위 임의성 큼,예
+SQ0073,편백나무·산내음 (+direct),v2 원본,woody+floral+fresh+foresty,0,,0,후보 부족,아니오
+SQ0073,편백나무·산내음 (+direct),대안,woody+conifer+green,720,235,5,완전 변별,예
+SQ0073,편백나무·산내음 (+direct),대안,woody+conifer+fresh,459,240,5,완전 변별,예
+SQ0132,포근한 느낌 (+direct),v2 ABSTAIN → direct만,musky,41154,100,4010,순위 임의성 큼,예
+SQ0132,포근한 느낌 (+direct),spec §3 예시,musky+powdery+vanilla,8007,300,9,실용 범위,예
+SQ0132,포근한 느낌 (+direct),spec §3 예시 bridge만,powdery+vanilla,22600,200,34,실용 범위,예
+SQ0002,시원하고 깔끔한 향 (+direct),v2 원본,citrus+fresh,18826,200,25,실용 범위,예
+SQ0002,시원하고 깔끔한 향 (+direct),번역 실패 가정,citrus,59969,100,17736,순위 임의성 큼,예

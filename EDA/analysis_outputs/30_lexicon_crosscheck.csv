@@ -1,0 +1,29 @@
+﻿entry_id,표현,accord,required,등급,해당군 향수,배수,배수 순위,판정
+kr.drift.musk,머스크,musky,core,VERIFIED,653,2.191723287267871,1.0,순환 — 신호로 읽지 않음
+kr.drift.musk,머스크,soapy,core,TEAM,653,,,반증 — 해당군에 지지도 없음
+kr.drift.musk,머스크,fresh,optional,LLM,653,1.2683497616633956,8.0,약함
+kr.ctx.clean,깨끗한,soapy,core,TEAM,4044,2.17799368239686,1.0,지지
+kr.ctx.clean,깨끗한,fresh,core,LLM,4044,1.6106542817737284,5.0,지지
+kr.ctx.clean,깨끗한,aquatic,core,TEAM,4044,1.7652467593315635,2.0,지지
+kr.ctx.clean,깨끗한,fresh,core,TEAM,4044,1.6106542817737284,5.0,지지
+kr.scene.laundry,빨래,soapy,core,TEAM,957,4.497193851754475,1.0,지지
+kr.scene.laundry,빨래,fresh,core,TEAM,957,1.7656850192061462,5.0,순환 — 신호로 읽지 않음
+kr.sens.cozy,포근한,powdery,core,TEAM,2756,1.345754145980885,14.0,약함
+kr.sens.cozy,포근한,musky,core,TEAM,2756,1.122691500149972,21.0,약함
+kr.sens.cozy,포근한,vanilla,optional,TEAM,2756,1.5621056062862368,10.0,지지
+kr.scene.bedding,이불,powdery,core,TEAM,112,1.5676859799713876,2.0,지지
+kr.scene.bedding,이불,soapy,core,TEAM,112,,,반증 — 해당군에 지지도 없음
+kr.scene.bedding,이불,musky,optional,LLM,112,1.454012112036336,3.0,약함
+kr.scene.rainy_forest,비 오는 숲,mossy,core,TEAM,241,3.6280338771102145,1.0,지지
+kr.scene.rainy_forest,비 오는 숲,earthy,core,TEAM,241,3.0363633721141476,3.0,지지
+kr.scene.rainy_forest,비 오는 숲,green,optional,LLM,241,1.9999194295612939,5.0,지지
+kr.sens.cold,차가운,ozonic,core,TEAM,4010,0.8268264357157648,41.0,반증 — 전체보다 드물다
+kr.sens.cold,차가운,fresh,core,TEAM,4010,0.9060851392645148,33.0,반증 — 전체보다 드물다
+kr.sens.dewy,촉촉한,aquatic,core,TEAM,368,3.2964816933638446,1.0,지지
+kr.sens.dewy,촉촉한,green,core,TEAM,368,2.1157174400103904,4.0,지지
+kr.scene.resort,휴양지,tropical,core,TEAM,1211,5.7354298138622255,2.0,순환 — 신호로 읽지 않음
+kr.scene.resort,휴양지,coconut,core,LLM,1211,5.757615119828538,1.0,지지
+kr.scene.hotel,호텔,soapy,core,TEAM,1163,,,반증 — 해당군에 지지도 없음
+kr.scene.hotel,호텔,white floral,core,LLM,1163,1.099134375771628,14.0,약함
+kr.dial.sweet,달달,sweet,core,VERIFIED,6169,1.2558717340367527,16.0,순환 — 신호로 읽지 않음
+kr.dial.sweet,달달,caramel,core,LLM,6169,1.6142649279811154,1.0,지지
