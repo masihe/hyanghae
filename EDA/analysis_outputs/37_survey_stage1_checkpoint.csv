@@ -1,0 +1,2615 @@
+﻿query_id,query_text,source,split_status,raw_response,parsed,status,error,attempts,prompt_tokens,completion_tokens,latency_seconds,model_name,prompt_sha256,run_timestamp
+SQ0001,내가 원하는 무드는 차분하고 댄디한 느낌을 원함. 이런 내 스타일에 맞춰서 향수를 추천해줘. 향이 오래갔으면 좋겠음,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""mood: 차분하고 댄디한 느낌"",
+    ""향이 오래가길 원함""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""mood: 차분하고 댄디한 느낌"", ""향이 오래가길 원함""]}",ok,,1,640,96,1.707,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:33.927255+00:00
+SQ0002,시트러스 향처럼 시원하고 깔끔한 향,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""시트러스 향처럼 시원하고 깔끔한 향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""시트러스 향처럼 시원하고 깔끔한 향""]}",ok,,1,613,85,1.258,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:35.185591+00:00
+SQ0003,향이 별로 안강했으면 좋겠어. 향에 민감해서 다른 향수 냄새를 맡으면 두통이 와. 그리고 자연스러운 향이 났으면 좋겠어. 너무 꾸민 티가 안나게. 그리고 가격대도 취준생 입장에서 부담스럽지 않아야해.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향이 별로 안 강했으면 좋겠음"",
+    ""향에 민감해서 다른 향수 냄새를 맡으면 두통이 옴"",
+    ""자연스러운 향이었으면 좋겠음"",
+    ""너무 꾸민 티가 안 나게"",
+    ""취준생 입장에서 부담스럽지 않은 가격대""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""향이 별로 안 강했으면 좋겠음"", ""향에 민감해서 다른 향수 냄새를 맡으면 두통이 옴"", ""자연스러운 향이었으면 좋겠음"", ""너무 꾸민 티가 안 나게"", ""취준생 입장에서 부담스럽지 않은 가격대""]}",ok,,1,669,145,1.925,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:37.110274+00:00
+SQ0004,나에게 어울리는 향수를 추천해줘 나는 자연 스럽고 산뜻한 느낌을 원해,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""자연스럽고"", ""산뜻한 느낌""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""자연스럽고"", ""산뜻한 느낌""]}",ok,,1,622,78,1.565,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:38.675701+00:00
+SQ0005,운동하고 뿌리면 좋은 비싸지 않은 남자 향수 추천해줘.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""운동하고 뿌리기 좋음"", ""비싸지 않은"", ""남자 향수""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""운동하고 뿌리기 좋음"", ""비싸지 않은"", ""남자 향수""]}",ok,,1,621,92,1.968,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:40.643775+00:00
+SQ0006,남성이 쓸만한 여름에 어울리면서도 시트러스 향이 강한 향수를 추천해주세요. 은은한 향이면서도 지속력이 6시간 이상이었으면 좋겠어요.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": ""MEDIUM""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""시트러스 향이 강한 향수"",
+    ""지속력이 6시간 이상""
+  ]
+}","{""scent_preference"": [""citrus""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": ""LOW"", ""longevity"": ""MEDIUM""}, ""avoid"": [], ""additional_requirements"": [""시트러스 향이 강한 향수"", ""지속력이 6시간 이상""]}",ok,,1,646,116,1.573,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:42.217656+00:00
+SQ0007,"계절별로 향수를 추천해주세요. 여름에는 시트러스 계열의 향수 제품을 추천해주고, 봄, 가을에는 화이트 머스크 계열의 향수 제품, 겨울에는 우디 계열의 향수 제품을 추천해주세요.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [""spring"", ""summer"", ""autumn"", ""winter""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""summer: citrus"", ""spring: white musk"", ""autumn: white musk"", ""winter: woody""]
+}","{""scent_preference"": [], ""context"": {""season"": [""spring"", ""summer"", ""autumn"", ""winter""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""summer: citrus"", ""spring: white musk"", ""autumn: white musk"", ""winter: woody""]}",ok,,1,659,101,1.473,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:43.690865+00:00
+SQ0008,여름에 사용할건데 시트러스 계열인데 지속성이 발향력이 좋은 녀석을 찾고있어. 내 성별은 남성이고 남성 스킨향이 조금 덜 났으면 좋겠어. 그리고 가격대는 30만원 이하로 추천해줘.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""지속성이 발향력이 좋았으면 함"",
+    ""남성 스킨향이 조금 덜한 느낌을 선호"",
+    ""30만원 이하 가격대""
+  ]
+}","{""scent_preference"": [""citrus""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""지속성이 발향력이 좋았으면 함"", ""남성 스킨향이 조금 덜한 느낌을 선호"", ""30만원 이하 가격대""]}",ok,,1,663,129,1.416,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:45.106937+00:00
+SQ0009,진한 꽃 냄새가 아닌 달달하고 은은한 향 / 편안하고 생기 넘치는 향,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""진한 꽃 냄새""
+  ],
+  ""additional_requirements"": [
+    ""달달하고 은은한 향"",
+    ""편안하고 생기 넘치는 향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""진한 꽃 냄새""], ""additional_requirements"": [""달달하고 은은한 향"", ""편안하고 생기 넘치는 향""]}",ok,,1,624,101,1.392,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:46.498916+00:00
+SQ0010,바디워시느낌이 나는 향수를 추천해주세요,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""바디워시 느낌의 향""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""바디워시 느낌의 향""]}",ok,,1,612,75,1.279,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:47.778061+00:00
+SQ0011,너무 비싸지 않지만 남들이 쓰는 흔한 향수 말고 힙하면서 노트는 단순하거나 리니어하지 않고 복잡하면서도 탑에서 오는 존재감이 뚜렷하고 베이스는 바닐라나 럼 같은 쪽 말고 우드나 그나마 앰버 정도로 가되 너무 싼티나는 인공적인 향은 아니었으면 좋겠네,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""Vanilla"", ""Amber"", ""Woody""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [""too cheap and artificial-smelling scent""],
+  ""additional_requirements"": [""not too expensive"", ""not a common scent that many people use"", ""hip/vibe"", ""top notes presence is clear"", ""notes are not simple or linear"", ""complex without being overly artificial"", ""base should not be vanilla or rum; prefer wood or amber instead""]
+}","{""scent_preference"": [""Vanilla"", ""Amber"", ""Woody""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""too cheap and artificial-smelling scent""], ""additional_requirements"": [""not too expensive"", ""not a common scent that many people use"", ""hip/vibe"", ""top notes presence is clear"", ""notes are not simple or linear"", ""complex without being overly artificial"", ""base should not be vanilla or rum; prefer wood or amber instead""]}",ok,,1,692,131,1.398,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:49.176062+00:00
+SQ0012,샤워하고 나온듯한 따뜻하고 포근한 느낌의 향기를 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""샤워하고 나온듯한 느낌"",
+    ""따뜻하고 포근한 느낌""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""샤워하고 나온듯한 느낌"", ""따뜻하고 포근한 느낌""]}",ok,,1,620,90,1.824,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:51.000396+00:00
+SQ0013,"음,, 클린웜코튼과 같은 샤워하고 나온 향기로운 냄새를 좋아하기도 하고, 포맨트 블랙처럼 무난한 향을 좋아하기도 해.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Clean"",
+    ""Cotton""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""샤워하고 나온 향기로운 냄새 같은 느낌을 선호"",
+    ""무난한 향을 선호""
+  ]
+}","{""scent_preference"": [""Clean"", ""Cotton""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""샤워하고 나온 향기로운 냄새 같은 느낌을 선호"", ""무난한 향을 선호""]}",ok,,1,643,109,1.438,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:52.438549+00:00
+SQ0014,꽃냄새와 우드의 중간 계열이고 가볍지 않은 조금 무거운 향이 났으면 해. 무거운 향이지만 달달한 냄새로,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""Rose"", ""woody""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""꽃냄새와 우드의 중간 계열"", ""가볍지 않은 조금 무거운 향"", ""무거운 향이지만 달달한 냄새""]
+}","{""scent_preference"": [""Rose"", ""woody""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""꽃냄새와 우드의 중간 계열"", ""가볍지 않은 조금 무거운 향"", ""무거운 향이지만 달달한 냄새""]}",ok,,1,642,112,1.407,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:53.845950+00:00
+SQ0015,여름 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""여름 향수 추천""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""여름 향수 추천""]}",ok,,1,607,83,1.245,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:55.091234+00:00
+SQ0016,"달달한 플로럴한 계열이 좋은데 남자가 사용할 거라 너무 여성스러운 느낌이 안 났으면 좋겠고, 또 너무 과한 시트러스 때문에 세제 냄새는 안 났으면 좋겠어.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Vanilla"",
+    ""Rose"",
+    ""Floral""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""citrus""
+  ],
+  ""additional_requirements"": [
+    ""달달한 플로럴한 계열 선호"",
+    ""너무 여성스러운 느낌은 피하고 싶음"",
+    ""너무 과한 시트러스 때문에 세제 냄새 같은 느낌은 피하고 싶음""
+  ]
+}","{""scent_preference"": [""Vanilla"", ""Rose"", ""Floral""], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""citrus""], ""additional_requirements"": [""달달한 플로럴한 계열 선호"", ""너무 여성스러운 느낌은 피하고 싶음"", ""너무 과한 시트러스 때문에 세제 냄새 같은 느낌은 피하고 싶음""]}",ok,,1,653,150,1.995,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:57.086469+00:00
+SQ0017,싸가지 없어 보이지만 능력이 좋아서 재수없는 와중에 내사람이 되면 따뜻하고 유머있게 변하는 사람이 쓸만한 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""싸가지 없어 보이지만 능력이 좋아서 재수없는 와중에 내사람이 되면 따뜻하고 유머있게 변하는 사람"",
+    ""따뜻하고 유머있는 분위기""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""싸가지 없어 보이지만 능력이 좋아서 재수없는 와중에 내사람이 되면 따뜻하고 유머있게 변하는 사람"", ""따뜻하고 유머있는 분위기""]}",ok,,1,641,115,1.456,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:58.541975+00:00
+SQ0018,"중성적인 향, 너무 강하지 않게, 산뜻하고 가벼운 느낌의 향수를 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""neuter""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""산뜻하고 가벼운 느낌""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""neuter""]}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""산뜻하고 가벼운 느낌""]}",ok,,1,626,89,1.344,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T12:59:59.885617+00:00
+SQ0019,"상큼한 향 그리고, 맡으면 시원해지는 향수 추천해줘",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""상큼한 향"",
+    ""맡으면 시원해지는 향""
+  ]
+}","{""scent_preference"": [""citrus""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""상큼한 향"", ""맡으면 시원해지는 향""]}",ok,,1,617,95,1.322,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:01.207219+00:00
+SQ0020,아로마티카 같이 허브 향이 나는 향수를 추천해줘.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""herbal"",
+    ""herbs""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""아로마티카 같이 허브 향이 나는 향수""
+  ]
+}","{""scent_preference"": [""herbal"", ""herbs""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""아로마티카 같이 허브 향이 나는 향수""]}",ok,,1,617,97,1.254,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:02.461499+00:00
+SQ0021,꽃향기가 나면서도 시원한 느낌을 원해. 여자에게 이 남자 조금 신경 쓰는 남자라는 인상을 주고 싶어!,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Rose""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""꽃향기이면서 시원한 느낌"",
+    ""여자에게 이 남자가 조금 신경 쓰는 남자라는 인상을 주고 싶음""
+  ]
+}","{""scent_preference"": [""Rose""], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""꽃향기이면서 시원한 느낌"", ""여자에게 이 남자가 조금 신경 쓰는 남자라는 인상을 주고 싶음""]}",ok,,1,634,116,1.676,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:04.137253+00:00
+SQ0022,"나 향수를 잘 모르는데, 깔끔한 스타일의 향을 필요로 해. 최대 15만원 안팎",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""깔끔한 스타일"", ""가격 15만원 안팎""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""깔끔한 스타일"", ""가격 15만원 안팎""]}",ok,,1,626,81,1.431,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:05.567976+00:00
+SQ0023,"나 비누향 엄청 좋아하는데 은은하면서 포근한, 부담스럽지 않은 향수를 추천해줘. 나는 20대 후반의 남자이고, 과한 향은 어지러워 하는 편이야. 특히 목욕탕 스킨 냄새는 진짜 싫어해.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""soap""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [""bathhouse skin scent""],
+  ""additional_requirements"": [""은은하면서 포근한 느낌"", ""부담스럽지 않은 향"", ""과한 향은 어지러울 수 있음"", ""목욕탕 스킨 냄새는 싫음""],
+  ""additional_requirements"": [""은은하면서 포근한 느낌"", ""부담스럽지 않은 향"", ""과한 향은 어지러울 수 있음"", ""목욕탕 스킨 냄새는 싫음""]
+}","{""scent_preference"": [""soap""], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [""bathhouse skin scent""], ""additional_requirements"": [""은은하면서 포근한 느낌"", ""부담스럽지 않은 향"", ""과한 향은 어지러울 수 있음"", ""목욕탕 스킨 냄새는 싫음""]}",ok,,1,667,169,1.985,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:07.553018+00:00
+SQ0024,이 편지는 영국에서 최초로 시작되어 일년에 한바퀴를 돌면서 받는 사람에게 행운을 주었고 지금은 당신에게로 옮겨진 이 편지는 4일 안에 당신 곁을 떠나야 합니다. 이 편지를 포함해서 7통을 행운이 필요한 사람에게 보내 주셔야 합니다. 복사를 해도 좋습니다. 혹 미신이라 하실지 모르지만 사실입니다. 영국에서 HGXWCH이라는 사람은 1930년에 이 편지를 받았습니다. 그는 비서에게 복사해서 보내라고 했습니다. 며칠 뒤에 복권이 당첨되어 20억을 받았습니다. 어떤 이는 이 편지를 받았으나 96시간 이내 자신의 손에서 떠나야 한다는 사실을 잊었습니다. 그는 곧 사직되었습니다. 나중에야 이 사실을 알고 7통의 편지를 보냈는데 다시 좋은 직장을 얻었습니다. 미국의 케네디 대통령은 이 편지를 받았지만 그냥 버렸습니다. 결국 9일 후 그는 암살당했습니다. 기억해 주세요. 이 편지를 보내면 7년의 행운이 있을 것이고 그렇지 않으면 3년의 불행이 있을 것입니다. 그리고 이 편지를 버리거나 낙서를 해서는 절대로 안됩니다. 7통입니다. 이 편지를 받은 사람은 행운이 깃들 것입니다. 힘들겠지만 좋은 게 좋다고 생각하세요. 7년의 행운을 빌면서... 가 연상되는 향수가 뭐가 있을까?,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""‘행운을 주는 편지’, ‘7년의 행운/3년의 불행’, ‘7통을 보내기’, ‘4일 내로 떠나야 함’ 같은 미신적 분위기 연상"",
+    ""힘들겠지만 좋은 게 좋다고 생각하는 정서 연상""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""‘행운을 주는 편지’, ‘7년의 행운/3년의 불행’, ‘7통을 보내기’, ‘4일 내로 떠나야 함’ 같은 미신적 분위기 연상"", ""힘들겠지만 좋은 게 좋다고 생각하는 정서 연상""]}",ok,,1,936,136,1.793,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:09.346163+00:00
+SQ0025,내가 쓰는 향수랑 비슷한 향이 나는 다른 향수가 궁금하다,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""현재 사용 중인 향수와 비슷한 향의 다른 향수""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""현재 사용 중인 향수와 비슷한 향의 다른 향수""]}",ok,,1,619,87,1.694,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:11.039856+00:00
+SQ0026,플로럴? 꽃 냄새는 별로고 좀 포근하고 딱 맡았을 때 와 진짜 어른 여자<< 같은 느낌이 되고싶은데 어떤 향수가 좋을까요?,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""floral"",
+    ""꽃 냄새""
+  ],
+  ""additional_requirements"": [
+    ""포근한 느낌"",
+    ""딱 맡았을 때 '와 진짜 어른 여자' 같은 느낌""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""floral"", ""꽃 냄새""], ""additional_requirements"": [""포근한 느낌"", ""딱 맡았을 때 '와 진짜 어른 여자' 같은 느낌""]}",ok,,1,643,109,1.72,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:12.760067+00:00
+SQ0027,직장에서 매일 쓸거고 신중하게 결정한 다음에 변경하지 않을것임. 남자 향수 추천 해봐라. 취향은 딱히 없고 무난하면 됨.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [""day""],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""직장에서 매일 사용"", ""신중하게 결정해서 변경하지 않음"", ""취향은 딱히 없고 무난하면 됨""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [""day""], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""직장에서 매일 사용"", ""신중하게 결정해서 변경하지 않음"", ""취향은 딱히 없고 무난하면 됨""]}",ok,,1,644,103,1.449,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:14.209460+00:00
+SQ0028,난 평소 클로에 EDP를 좋아하는데 비슷한 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""클로에 EDP와 비슷한 향을 원함""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""클로에 EDP와 비슷한 향을 원함""]}",ok,,1,620,81,1.244,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:15.453634+00:00
+SQ0029,꽃향은 좋은데 로즈는 싫어,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""Rose""
+  ],
+  ""additional_requirements"": [
+    ""꽃향은 선호""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""Rose""], ""additional_requirements"": [""꽃향은 선호""]}",ok,,1,611,83,1.354,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:16.807741+00:00
+SQ0030,"나는 가벼우면서도 중성적인 향을 원해. 너무 달달하지 않고, 시원하면서도 너무 남성적이지 않은 향이 좋다. 참고로 기존에 사용하는 향수로는 조르지오 아르마니의 프리베 테 울롱 , 조말론 와일드 블루벨을 사용한다. 가격은 신경쓰지 말고 다양한 가격대 별로 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""neuter""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""가벼운 향"",
+    ""중성적인 향"",
+    ""너무 달달하지 않은 향"",
+    ""시원한 느낌"",
+    ""너무 남성적이지 않은 향"",
+    ""기존에 사용: 조르지오 아르마니 프리베 테 울롱, 조말론 와일드 블루벨"",
+    ""가격은 상관없음(다양한 가격대)""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""neuter""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""가벼운 향"", ""중성적인 향"", ""너무 달달하지 않은 향"", ""시원한 느낌"", ""너무 남성적이지 않은 향"", ""기존에 사용: 조르지오 아르마니 프리베 테 울롱, 조말론 와일드 블루벨"", ""가격은 상관없음(다양한 가격대)""]}",ok,,1,692,167,1.944,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:18.751870+00:00
+SQ0031,나는 쎈 향은 안 좋아하는데 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,615,69,1.397,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:20.150167+00:00
+SQ0032,여름에 어울리는 숲 속에 온 듯한 향을 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [""summer""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""여름에 어울리는, 숲 속에 온 듯한 향""]
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""여름에 어울리는, 숲 속에 온 듯한 향""]}",ok,,1,618,85,1.161,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:21.311214+00:00
+SQ0033,라이트한 시트러스향이 있으면 좋겠고 너무 달달한 향이 안나면 좋겠어. 잔향은 조오금 오래가는 편이 좋을거같아,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""MEDIUM""
+  },
+  ""avoid"": [
+    ""too sweet""
+  ],
+  ""additional_requirements"": [
+    ""light citrus scent"",
+    ""not too sweet""
+  ]
+}","{""scent_preference"": [""citrus""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""MEDIUM""}, ""avoid"": [""too sweet""], ""additional_requirements"": [""light citrus scent"", ""not too sweet""]}",ok,,1,642,99,1.316,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:22.626835+00:00
+SQ0034,우디향이나 코튼 향 좋아합니다,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""woody"", ""cotton""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [""woody"", ""cotton""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,609,74,1.384,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:24.010929+00:00
+SQ0035,전체적으로는 달달한 향이면 좋겠고 캐주얼룩에도 어울리면 좋겠어. 여름에 쓸 거니까 너무 과하게 달지 않은 향으로 추천해줘. 여름을 중심으로 4계절 내내 쓸 수 있으면 좋겠어. 우디향과 레이어드 할 거니까 조합까지 생각해서.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Vanilla""
+  ],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""전체적으로 달달한 향"",
+    ""너무 과하게 달지 않은 향"",
+    ""캐주얼룩에 어울림"",
+    ""우디향과 레이어드 할 것"",
+    ""여름 중심으로 4계절 내내 사용 가능하면 좋겠음"",
+    ""조합까지 생각해서""
+  ]
+}","{""scent_preference"": [""Vanilla""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""전체적으로 달달한 향"", ""너무 과하게 달지 않은 향"", ""캐주얼룩에 어울림"", ""우디향과 레이어드 할 것"", ""여름 중심으로 4계절 내내 사용 가능하면 좋겠음"", ""조합까지 생각해서""]}",ok,,1,680,153,1.544,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:25.555214+00:00
+SQ0036,넵!,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,603,67,1.126,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:26.681022+00:00
+SQ0037,여름이니까 가벼운 향을 추천받고 싶어. 약간 비누향도 좋고. 여성스러운 느낌이면좋겠어. 가격은 5만원 아래로. 향이 오래 가면 좋겠다.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""female""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""light scent"",
+    ""slightly soap-like scent"",
+    ""feminine feel"",
+    ""price under 50000 won""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": [""female""]}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""light scent"", ""slightly soap-like scent"", ""feminine feel"", ""price under 50000 won""]}",ok,,1,650,112,1.774,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:28.454650+00:00
+SQ0038,"자연계열 향수 좋아하고 특히 우디계열 좋아해. 바닐라처럼 달거나 파우더리한 향은 선호하지 않아. 좋아하는 향은 톰포드 오우드, 조말론 씨 솔트 앤 베르가못 좋아하는데, 이런 느낌으로 봄/여름에 뿌리기 좋은 향수 추천해줘",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""woody"", ""Oud"", ""Bergamot"", ""salt""],
+  ""context"": {
+    ""season"": [""spring"", ""summer""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""Vanilla"", ""powdery""],
+  ""additional_requirements"": [""Tom Ford Oud, Jo Malone Sea Salt & Bergamot 같은 느낌"", ""봄/여름에 뿌리기 좋은 향수""]
+}","{""scent_preference"": [""woody"", ""Oud"", ""Bergamot"", ""salt""], ""context"": {""season"": [""spring"", ""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""Vanilla"", ""powdery""], ""additional_requirements"": [""Tom Ford Oud, Jo Malone Sea Salt & Bergamot 같은 느낌"", ""봄/여름에 뿌리기 좋은 향수""]}",ok,,1,683,125,1.576,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:30.030165+00:00
+SQ0039,우디향 나는 20대 남자 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""우디향"", ""20대 남자"", ""향수 추천""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""우디향"", ""20대 남자"", ""향수 추천""]}",ok,,1,614,84,1.186,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:31.216345+00:00
+SQ0040,너는 향수 전문가야. 나에게 향수를 추천해줘. 내가 원하는 향수의 향은 다음과 같아. [향수 정보] - 너무 진하지 않은 향 - 적당히 달콤하고 적당히 시원한 향 - [봄/여름/가을/겨울]에 어울리는 향 검색된 향수의 리뷰도 같이 검색해서 테이블 형태로 보여줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""너무 진하지 않은 향"",
+    ""적당히 달콤한 향"",
+    ""적당히 시원한 향"",
+    ""봄/여름/가을/겨울에 어울리는 향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""너무 진하지 않은 향"", ""적당히 달콤한 향"", ""적당히 시원한 향"", ""봄/여름/가을/겨울에 어울리는 향""]}",ok,,1,688,118,1.497,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:32.713166+00:00
+SQ0041,산뜻하면서 바람이 불고 푸른색의 느낌이 나며 자유로운 향을 찾고있어 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""산뜻한 느낌"",
+    ""바람이 부는 듯한 느낌"",
+    ""푸른색의 느낌"",
+    ""자유로운 향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""산뜻한 느낌"", ""바람이 부는 듯한 느낌"", ""푸른색의 느낌"", ""자유로운 향""]}",ok,,1,628,102,1.466,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:34.179618+00:00
+SQ0042,"머스크향이 베이스에 깔렸으면 좋겠고, 플로럴 향도 조금 섞였으면 좋겠어. 너무 스파이시한거는 불호이고 잔향이 은은했으면 좋겠어. 너무 빨리 발향 되는건 싫으니 지속력이 좋은거로 브랜드랑 향 추천 종류별로 부탁해.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Musk"",
+    ""floral""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [
+    ""too spicy""
+  ],
+  ""additional_requirements"": [
+    ""머스크향이 베이스에 깔렸으면 좋겠음"",
+    ""플로럴 향도 조금 섞였으면 좋겠음"",
+    ""잔향이 은은했으면 좋겠음"",
+    ""너무 빨리 발향되는 건 싫음"",
+    ""지속력이 좋은 브랜드로 추천"",
+    ""향 추천 종류별로 요청""
+  ]
+}","{""scent_preference"": [""Musk"", ""floral""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [""too spicy""], ""additional_requirements"": [""머스크향이 베이스에 깔렸으면 좋겠음"", ""플로럴 향도 조금 섞였으면 좋겠음"", ""잔향이 은은했으면 좋겠음"", ""너무 빨리 발향되는 건 싫음"", ""지속력이 좋은 브랜드로 추천"", ""향 추천 종류별로 요청""]}",ok,,1,678,169,2.2,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:36.379474+00:00
+SQ0043,"데일리로 가볍게 쓸 수 있는 향수를 찾고 싶어. 나는 학생이라 가격대가 그렇게 높은 것은 부담스럽고, 10만원대 안팎으로 추천해줘. 향수를 많이 써본 적이 없어서 향에 대해서 설명하는 메세지를 잘 몰라. 실제 향이랑 향에 대한 설명이 매치되지 않아. 일단 좋아하는 냄새는 비누향, 코튼향인것 같고 특히 싫어했던 냄새는 장미향인 것 같아. 향수를 뿌렸을 때, 깨끗하고 여성스러운 이미지로 보였으면 좋겠어. 그리고 밀폐된 강의실에서도 사용해도 주변 사람에게 부담스럽지 않을 정도면 좋겠어. 여름이랑 겨울에 각각 사용할만한 향수를 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Clean"",
+    ""Cotton"",
+    ""Soap""
+  ],
+  ""context"": {
+    ""season"": [
+      ""summer"",
+      ""winter""
+    ],
+    ""daypart"": [
+      ""day""
+    ],
+    ""gender"": [
+      ""female""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""Rose""
+  ],
+  ""additional_requirements"": [
+    ""daily로 가볍게 사용"",
+    ""학생이라 가격대가 부담스럽지 않아 10만원대 안팎 선호"",
+    ""향 설명이 실제 향과 매치되었으면 좋겠음"",
+    ""밀폐된 강의실에서도 주변 사람에게 부담스럽지 않을 정도""
+  ]
+}","{""scent_preference"": [""Clean"", ""Cotton"", ""Soap""], ""context"": {""season"": [""summer"", ""winter""], ""daypart"": [""day""], ""gender"": [""female""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""Rose""], ""additional_requirements"": [""daily로 가볍게 사용"", ""학생이라 가격대가 부담스럽지 않아 10만원대 안팎 선호"", ""향 설명이 실제 향과 매치되었으면 좋겠음"", ""밀폐된 강의실에서도 주변 사람에게 부담스럽지 않을 정도""]}",ok,,1,782,178,1.791,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:38.170914+00:00
+SQ0044,너무 달지 않고 피코디아말피는 여름 느낌인데 겨울 느낌 나는 향 추천해줘.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""너무 달지 않게""
+  ],
+  ""additional_requirements"": [
+    ""피코디아말피는 여름 느낌인데 겨울 느낌 나는 향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""너무 달지 않게""], ""additional_requirements"": [""피코디아말피는 여름 느낌인데 겨울 느낌 나는 향""]}",ok,,1,625,99,1.456,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:39.627018+00:00
+SQ0045,"나 바카라루쥬, 어벤투스, 포비앤바알리 좋아하는데 내가 좋아하는 향이 무엇인지 정리해주고 내가 좋아할만한 향 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""좋아하는 향수: 바카라루쥬"",
+    ""좋아하는 향수: 어벤투스"",
+    ""좋아하는 향수: 포비앤바알리"",
+    ""좋아하는 향이 무엇인지 정리 및 추천 요청""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""좋아하는 향수: 바카라루쥬"", ""좋아하는 향수: 어벤투스"", ""좋아하는 향수: 포비앤바알리"", ""좋아하는 향이 무엇인지 정리 및 추천 요청""]}",ok,,1,643,126,1.646,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:41.272789+00:00
+SQ0046,"꽃 향기가 나면 좋겠는데, 달달한 정도를 1~5점으로 표현했을 때, 3정도였으면 좋겠고 알싸한 정도는 거의 없으면 좋겠어. 장미향 같은 향도 좋고 대부분의 꽃향기면 다 좋아. 이와 유사한 향을 가진 향수의 종류가 무엇이 있을까?",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Rose"",
+    ""floral""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""almost no 알싸한""
+  ],
+  ""additional_requirements"": [
+    ""달달한 정도 1~5 중 3정도"",
+    ""대부분의 꽃향기면 다 선호""
+  ]
+}","{""scent_preference"": [""Rose"", ""floral""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""almost no 알싸한""], ""additional_requirements"": [""달달한 정도 1~5 중 3정도"", ""대부분의 꽃향기면 다 선호""]}",ok,,1,681,119,1.612,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:42.884628+00:00
+SQ0047,"여름에 쓰기 좋은 가벼우면서 시원한 느낌의 비누향, 머스크향, 약간의 우드향이 들어간 향수를 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""Clean soap"", ""Musk"", ""Woody""],
+  ""context"": {
+    ""season"": [""summer""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""가볍고 시원한 느낌""]
+}","{""scent_preference"": [""Clean soap"", ""Musk"", ""Woody""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""가볍고 시원한 느낌""]}",ok,,1,639,89,1.516,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:44.400527+00:00
+SQ0048,여름에 레이어링할 가볍고 상쾌한 향의 향수를 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [""summer""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""layering"", ""light"", ""fresh""]
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""layering"", ""light"", ""fresh""]}",ok,,1,623,78,1.326,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:45.726752+00:00
+SQ0049,랄프로렌 스타일과 어울리는 향수는?,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""랄프로렌 스타일과 어울리는 향수""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""랄프로렌 스타일과 어울리는 향수""]}",ok,,1,613,83,1.076,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:46.803617+00:00
+SQ0050,"상큼하고 밝은 향을 원해, 무게감이 가벼운 향을 선호하고 이끼, 물비린내는 안좋아해 가장 선호하는 향 종류는 시트러스, 우디, 레몬 계열이고 달달한 느낌은 선호하지 않아",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""citrus"", ""woody"", ""lemon""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [""moss"", ""fishy/marine odor"", ""sweet/dulcet""],
+  ""additional_requirements"": [""fresh and bright scent"", ""lightweight feeling"", ""not sweet""]
+}","{""scent_preference"": [""citrus"", ""woody"", ""lemon""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""moss"", ""fishy/marine odor"", ""sweet/dulcet""], ""additional_requirements"": [""fresh and bright scent"", ""lightweight feeling"", ""not sweet""]}",ok,,1,663,99,1.87,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:48.674036+00:00
+SQ0051,"너는 최고급 니치 향수 전문 컨설턴트야. 내가 좋아하는 향을 설명해 줄테니까, 이 향의 핵심 포인트를 정확히 이해하고 나와 어울리는 향수를 추천해줘. [내가 좋아하는 향수 포인트] - 톡 쏘는 듯한 청량함과 방금 막 세탁된 코튼 향처럼 깨끗한 공기향 - 과하지 않은 은은한 복숭아 향 - 단순한 비누향이 아닌, 니치 향수 특유의 깊고 크리미한 잔향 위의 포인트와 결이 비슷한 향수 3가지를 추천해 줘. 각 향수마다 왜 이 향수를 골랐는지, 그리고 어떤 매력이 있는지 자세히 설명해 줬으면 좋겠어.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""citrus"",
+    ""clean cotton"",
+    ""peach"",
+    ""creamy""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""톡 쏘는 듯한 청량함"",
+    ""방금 막 세탁된 코튼 향처럼 깨끗한 공기 향"",
+    ""과하지 않은 은은한 복숭아 향"",
+    ""단순 비누향이 아닌 니치 향수 특유의 깊고 크리미한 잔향"",
+    ""크리미한 잔향 위에 포인트와 결이 비슷한 향수""
+  ]
+}","{""scent_preference"": [""citrus"", ""clean cotton"", ""peach"", ""creamy""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""톡 쏘는 듯한 청량함"", ""방금 막 세탁된 코튼 향처럼 깨끗한 공기 향"", ""과하지 않은 은은한 복숭아 향"", ""단순 비누향이 아닌 니치 향수 특유의 깊고 크리미한 잔향"", ""크리미한 잔향 위에 포인트와 결이 비슷한 향수""]}",ok,,1,779,187,1.854,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:50.529452+00:00
+SQ0052,"나는 우디향을 좋아하는데, 남성적인 향은 싫어. 중성적인 향도 별로야. 너무 향이 빨리 날아가지 않았으면 좋겠는데 잔향도 좋았으면 좋겠어. 그렇다고 너무 흔한 향수는 싫고, 너무 비싼 향수는 내가 아직 부담스러워. 어떤 향수가 나에게 좋을까? 우디, 머스크 이런 쪽을 좋아하는 것 같아. 딥티크의 도손 써본적있어",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""woody"", ""musk""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [""masculine scent"", ""neutral scent"", ""too common perfume"", ""too expensive perfume""],
+  ""additional_requirements"": [""우디/머스크 계열 선호"", ""남성적인 향은 싫음"", ""중성적인 향도 별로"", ""향이 너무 빨리 날아가지 않았으면 좋겠음"", ""잔향도 좋았으면 좋겠음"", ""너무 흔한 향수는 싫음"", ""너무 비싼 향수는 부담"", ""딥티크 도손을 써본 적 있음""]
+}","{""scent_preference"": [""woody"", ""musk""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""masculine scent"", ""neutral scent"", ""too common perfume"", ""too expensive perfume""], ""additional_requirements"": [""우디/머스크 계열 선호"", ""남성적인 향은 싫음"", ""중성적인 향도 별로"", ""향이 너무 빨리 날아가지 않았으면 좋겠음"", ""잔향도 좋았으면 좋겠음"", ""너무 흔한 향수는 싫음"", ""너무 비싼 향수는 부담"", ""딥티크 도손을 써본 적 있음""]}",ok,,1,714,175,2.001,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:52.530040+00:00
+SQ0053,"자연의 향을 좋아해. 우디, 시트러스, 베르가못 계열같은 향들. 달콤한 냄새는 별로 좋아하지 않고 우디, 시트러스 향이 나면서 자연스러운 향이 좋아. 그리고 머스크향 같은 것도 좋아해. 너무 향이 쎄지 않았으면 좋겠어.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""woody"",
+    ""citrus"",
+    ""bergamot"",
+    ""musk""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""sweet""
+  ],
+  ""additional_requirements"": [
+    ""자연스러운 향을 선호""
+  ]
+}","{""scent_preference"": [""woody"", ""citrus"", ""bergamot"", ""musk""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [""sweet""], ""additional_requirements"": [""자연스러운 향을 선호""]}",ok,,1,678,111,1.454,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:53.983877+00:00
+SQ0054,네,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,601,67,1.152,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:55.136140+00:00
+SQ0055,여름에 쓰려고 하는데 시트러스하지만 머스크한 느낌을 품고 있으면서 그렇다고 너무 무겁지 않은 향을 추천받고싶어 그리고 달달한 느낌보다는 화이트플로럴계열이 더 나은것같아,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""citrus"",
+    ""musk"",
+    ""white floral""
+  ],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""too heavy""
+  ],
+  ""additional_requirements"": [
+    ""sweet 느낌보다는 white floral 계열 선호""
+  ]
+}","{""scent_preference"": [""citrus"", ""musk"", ""white floral""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""too heavy""], ""additional_requirements"": [""sweet 느낌보다는 white floral 계열 선호""]}",ok,,1,655,113,1.575,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:56.710963+00:00
+SQ0056,데일리로 쓰고 싶고 너무 남자 향수 같은 느낌이 들지 않았으면 좋겠어요. 그리고 플로럴 계열이나 프룻티한 느낌이 좋아요. 그런데 시트러스한 느낌은 좀 적었으면 좋겠어요,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""floral"",
+    ""fruity""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [
+      ""day""
+    ],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""too masculine""
+  ],
+  ""additional_requirements"": [
+    ""citrus should be low""
+  ]
+}","{""scent_preference"": [""floral"", ""fruity""], ""context"": {""season"": [], ""daypart"": [""day""], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""too masculine""], ""additional_requirements"": [""citrus should be low""]}",ok,,1,655,103,1.623,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:58.333957+00:00
+SQ0057,나는 묵직한 우드향을 좋아하고 향수 용량이 큰 걸 찾고 있어. 전체적으로 디자인이 깔끔하고 퓨어한 이미지면 좋을 것 같아. 가격대는 10만원대로 찾고 있고 하루동안 향이 나왔으면 좋겠어.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""woody""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""묵직한 우드향"",
+    ""향수 용량이 큰 것"",
+    ""디자인이 깔끔하고 퓨어한 이미지"",
+    ""가격대 10만원대"",
+    ""하루동안 향이 나왔으면 함""
+  ]
+}","{""scent_preference"": [""woody""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""묵직한 우드향"", ""향수 용량이 큰 것"", ""디자인이 깔끔하고 퓨어한 이미지"", ""가격대 10만원대"", ""하루동안 향이 나왔으면 함""]}",ok,,1,663,134,1.445,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:00:59.779245+00:00
+SQ0058,"여름 바다가 생각나는 시원한 향으로 향수 추천해줘. 가격이 10만원 미만이고 지속력이 은은하게 긴 향수면 좋겠어. 여자고 너무 진한향이나 우드, 머스크는 좋아하지않으니까 제외하고 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""female""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""MEDIUM""
+  },
+  ""avoid"": [
+    ""우드"",
+    ""머스크"",
+    ""너무 진한향""
+  ],
+  ""additional_requirements"": [
+    ""여름 바다가 생각나는 시원한 향"",
+    ""가격 10만원 미만"",
+    ""지속력이 은은하게 길었으면 좋겠어""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": [""female""]}, ""performance"": {""intensity"": """", ""longevity"": ""MEDIUM""}, ""avoid"": [""우드"", ""머스크"", ""너무 진한향""], ""additional_requirements"": [""여름 바다가 생각나는 시원한 향"", ""가격 10만원 미만"", ""지속력이 은은하게 길었으면 좋겠어""]}",ok,,1,662,141,1.543,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:01.322512+00:00
+SQ0059,은은하면서 달달하고 그렇게 역하지 않은 향수 추천 부탁해,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""은은하면서 달달함"",
+    ""역하지 않게""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""은은하면서 달달함"", ""역하지 않게""]}",ok,,1,615,85,1.022,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:02.344279+00:00
+SQ0060,여름에 뿌릴만한 남성용 향수 추천해줘 예산은 20만원 이하로 부탁해,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""budget 20만원 이하"",
+    ""여름에 뿌릴만한""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""budget 20만원 이하"", ""여름에 뿌릴만한""]}",ok,,1,627,101,1.652,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:03.996644+00:00
+SQ0061,비 온 뒤의 숲의 냄새,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""비 온 뒤의 숲의 냄새""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""비 온 뒤의 숲의 냄새""]}",ok,,1,610,82,1.119,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:05.116500+00:00
+SQ0062,"내가 주로 사용했던 향수는 베르사체 딜런퍼플, 아쿠아 디파르마, 르라보 모하비고스트, 티파니앤코 러브포힘,딥디크 플레르드뽀 인데 비슷한 향을 가진 향수 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""주로 사용했던 향수: 베르사체 딜런퍼플"",
+    ""주로 사용했던 향수: 아쿠아 디 파르마"",
+    ""주로 사용했던 향수: 르라보 모하비 고스트"",
+    ""주로 사용했던 향수: 티파니 앤 코 러브 포 힘"",
+    ""주로 사용했던 향수: 딥디크 플레르드뽀"",
+    ""위 향수들과 비슷한 향의 향수 추천 요청""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""주로 사용했던 향수: 베르사체 딜런퍼플"", ""주로 사용했던 향수: 아쿠아 디 파르마"", ""주로 사용했던 향수: 르라보 모하비 고스트"", ""주로 사용했던 향수: 티파니 앤 코 러브 포 힘"", ""주로 사용했던 향수: 딥디크 플레르드뽀"", ""위 향수들과 비슷한 향의 향수 추천 요청""]}",ok,,1,672,181,1.967,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:07.083013+00:00
+SQ0063,넵,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,602,67,1.274,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:08.358160+00:00
+SQ0064,로즈마리 녹차 레몬 사과같은 가볍고 청량한 향에 살짝 우디한 향이 가미되서 무게감이 있으면 좋겠고 파우더리한 향이나 머스크향은 없으면 좋겠어,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""Rosemary"", ""Green Tea"", ""Lemon"", ""Apple""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""Powdery"", ""Musk""],
+  ""additional_requirements"": [""가볍고 청량한 향"", ""살짝 우디한 향이 가미되어 무게감이 있음""]
+}","{""scent_preference"": [""Rosemary"", ""Green Tea"", ""Lemon"", ""Apple""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""Powdery"", ""Musk""], ""additional_requirements"": [""가볍고 청량한 향"", ""살짝 우디한 향이 가미되어 무게감이 있음""]}",ok,,1,658,115,1.407,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:09.765251+00:00
+SQ0065,내 최애캐를 이미지화한 향수를 만들어줘.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""최애캐를 이미지화한 향수""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""최애캐를 이미지화한 향수""]}",ok,,1,613,81,1.309,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:11.073851+00:00
+SQ0066,"너는 향수 매장에서 향수를 판매하고 있는 셀러야. 모든 종류의 향수를 판매하고있어서 어울리는 향수를 찾아서 추천할 수 있어. 나는 향수를 뿌려본 적 없어서 관련 지식이 없는 사람이야. 그런 사람이 이해할 수 있게 설명을 곁들여서 향수를 세가지 추천해줘 다양한 향과 가격대로 추천할 것 나는 20대 중반 남성이고, 교육을 수강하러 다녀. 향수를 뿌림으로써 다음 효과를 기대해 주변 동료들이 느끼기에 깔끔한 이미지 얻음 너무 강하지 않아 은은한 향으로 상대방에게 불쾌감을 주지 않음",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [""day""],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""20대 중반 남성"", ""교육 수강하러 다니는 상황"", ""동료들이 느끼기에 깔끔한 이미지"", ""너무 강하지 않고 은은한 향"", ""상대방에게 불쾌감을 주지 않기"", ""다양한 향과 가격대로 3가지 추천"", ""향수를 뿌려본 경험 없음(이해하기 쉽게 설명 필요)""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [""day""], ""gender"": [""male""]}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""20대 중반 남성"", ""교육 수강하러 다니는 상황"", ""동료들이 느끼기에 깔끔한 이미지"", ""너무 강하지 않고 은은한 향"", ""상대방에게 불쾌감을 주지 않기"", ""다양한 향과 가격대로 3가지 추천"", ""향수를 뿌려본 경험 없음(이해하기 쉽게 설명 필요)""]}",ok,,1,751,162,1.83,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:12.903753+00:00
+SQ0067,데이트갈때 우드향나고 은은하게 났으면 좋겠어.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""woody""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""데이트할 때"", ""은은하게 나는 우드향""]
+}","{""scent_preference"": [""woody""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""데이트할 때"", ""은은하게 나는 우드향""]}",ok,,1,618,85,1.677,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:14.580917+00:00
+SQ0068,"아래 조건에 부합하는 향수 3가지 추천해. 향수의 향과 가격 등 상세 정보와 추천하는 이유 작성해서 제출하도록. 좋아하는 향: 달다구리, 시트러스 계열도 괜찮음 싫어하는 향: 담배냄새 지속력: 한 번 뿌렸을 때 잔향이 좀 오래 갔으면 함 가격: 20만원 이내",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Vanilla"",
+    ""Citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [
+    ""tobacco smell""
+  ],
+  ""additional_requirements"": [
+    ""3가지 향수 추천"",
+    ""가격 20만원 이내"",
+    ""한 번 뿌렸을 때 잔향이 좀 오래 갔으면 함"",
+    ""싫어하는 향: 담배냄새""
+  ]
+}","{""scent_preference"": [""Vanilla"", ""Citrus""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [""tobacco smell""], ""additional_requirements"": [""3가지 향수 추천"", ""가격 20만원 이내"", ""한 번 뿌렸을 때 잔향이 좀 오래 갔으면 함"", ""싫어하는 향: 담배냄새""]}",ok,,1,691,145,1.581,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:16.161804+00:00
+SQ0069,"향수1, 향수2, 향수3 쓰고 있는데 비슷한 느낌의 향수 추천해줘 계절감 고려해서 알려줘",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향수1, 향수2, 향수3과 비슷한 느낌의 향수 추천 요청"",
+    ""계절감 고려""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""향수1, 향수2, 향수3과 비슷한 느낌의 향수 추천 요청"", ""계절감 고려""]}",ok,,1,631,100,1.348,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:17.509545+00:00
+SQ0070,"나는 향에 예민해서 계속 맡아도 머리 아프지 않은 자연스러운 향수가 필요해. 우디나 금속, 가죽 느낌은 싫고 너무 화장품 느낌도 싫어. 자연에서 유래된 향이었으면 좋겠어. 너무 달콤한 것도 별로야. 우디가 섞이더라도 메인 노트가 아니면 괜찮아. 그리고 너무 흔해서 남들이 엄청 많이 쓰는 향은 아니었으면 좋겠어. 워터 베이스면 더 좋아.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""woody"",
+    ""metallic"",
+    ""leather"",
+    ""cosmetic-like"",
+    ""too sweet""
+  ],
+  ""additional_requirements"": [
+    ""headache-free even when smelling continuously"",
+    ""natural-origin scent"",
+    ""woody is okay if not the main note"",
+    ""not a very common scent that many people use a lot"",
+    ""water-based""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""woody"", ""metallic"", ""leather"", ""cosmetic-like"", ""too sweet""], ""additional_requirements"": [""headache-free even when smelling continuously"", ""natural-origin scent"", ""woody is okay if not the main note"", ""not a very common scent that many people use a lot"", ""water-based""]}",ok,,1,718,144,1.752,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:19.261273+00:00
+SQ0071,겨울 아침에 딱~ 일어나서 창문을 열었는데 느껴지는 차갑고 상쾌한 향(탑노트). 점심에 느껴지는 밸런스가 느껴지는 머스크 계열의 향(미들노트) .저녁에 느껴지는 해가지는 느낌의 우디한 무거운 향(베이스노트),survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [""winter""],
+    ""daypart"": [""day""],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""차갑고 상쾌한 향(탑노트)"", ""머스크 계열의 밸런스(미들노트)"", ""해지는 느낌의 우디한 무거운 향(베이스노트)"", ""겨울 아침~점심~저녁까지 시간대별로 느껴지는 이미지/무드""]
+}","{""scent_preference"": [], ""context"": {""season"": [""winter""], ""daypart"": [""day""], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""차갑고 상쾌한 향(탑노트)"", ""머스크 계열의 밸런스(미들노트)"", ""해지는 느낌의 우디한 무거운 향(베이스노트)"", ""겨울 아침~점심~저녁까지 시간대별로 느껴지는 이미지/무드""]}",ok,,1,686,144,1.787,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:21.048985+00:00
+SQ0072,"내가 원하는 향수는 데일리로 가볍게 사용할 수 있는 향수야. 탑노트는 조금 가벼운 느낌이었으면 좋겠고, 미들노트는 머스크 향이 가볍지만 깔끔하게 깔렸으면 좋겠어.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [
+      ""day""
+    ],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""daily로 가볍게 사용"",
+    ""top note는 조금 가벼운 느낌"",
+    ""middle note는 머스크 향이 가볍지만 깔끔하게""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [""day""], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""daily로 가볍게 사용"", ""top note는 조금 가벼운 느낌"", ""middle note는 머스크 향이 가볍지만 깔끔하게""]}",ok,,1,664,115,1.55,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:22.598884+00:00
+SQ0073,"나는 깨끗하고 시원한 향을 좋아하고, 편백나무, 산내음처럼 자연스러운 향을 좋아해. 그래서 주로 우디나 플로럴한 계열을 좋아하는데, 대신 스파이시한 계열은 좋아하지 않아. 이런 나한테 향수를 추천해줄래?",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""woody"",
+    ""floral"",
+    ""cedar"",
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""spicy""
+  ],
+  ""additional_requirements"": [
+    ""clean and cool feeling"",
+    ""liked natural scents like 편백나무 and 산내음""
+  ]
+}","{""scent_preference"": [""woody"", ""floral"", ""cedar"", ""citrus""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""spicy""], ""additional_requirements"": [""clean and cool feeling"", ""liked natural scents like 편백나무 and 산내음""]}",ok,,1,671,121,1.797,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:24.396232+00:00
+SQ0074,"진한 향수는 싫어, 가벼운 향수를 원하고 너무 우디하지 않은 풀냄새 계열의 향수를 추천해줘. 근데 또 너무 진한건 싫어. 플로럴 향은 제외해줘. 다시 한번 말하는데 향이 진하면 안돼. 여름 제외하고 사용할 거야. 가격대별로 한국에서 구매할 수 있는 향수 리스트를 알려줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""우디한 향"",
+    ""풀냄새 계열(너무 우디하지 않은 범위 제외 요청이므로, 사용자는 ‘너무 우디하지 않은 풀냄새 계열’ 선호/제외가 섞여 있음)"",
+    ""플로럴 향"",
+    ""진한 향수"",
+    ""여름""
+  ],
+  ""additional_requirements"": [
+    ""가벼운 향수 원함"",
+    ""풀냄새 계열을 원하되 너무 우디하지 않게"",
+    ""플로럴 향은 제외"",
+    ""향이 진하면 안 됨"",
+    ""여름 제외하고 사용"",
+    ""가격대별로 한국에서 구매할 수 있는 향수 리스트를 요청""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [""우디한 향"", ""풀냄새 계열(너무 우디하지 않은 범위 제외 요청이므로, 사용자는 ‘너무 우디하지 않은 풀냄새 계열’ 선호/제외가 섞여 있음)"", ""플로럴 향"", ""진한 향수"", ""여름""], ""additional_requirements"": [""가벼운 향수 원함"", ""풀냄새 계열을 원하되 너무 우디하지 않게"", ""플로럴 향은 제외"", ""향이 진하면 안 됨"", ""여름 제외하고 사용"", ""가격대별로 한국에서 구매할 수 있는 향수 리스트를 요청""]}",ok,,1,692,223,2.191,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:26.587315+00:00
+SQ0075,넵 알겠습니다.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,605,67,1.009,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:27.596081+00:00
+SQ0076,"행복하게 해주는 허브 향 (로즈마리가 메인이면서, 조화롭게 어우러지는 다른 허브 들)",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""Rosemary"", ""herbal""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": [""행복하게 해주는 허브 향"", ""로즈마리가 메인"", ""로즈마리와 조화롭게 어우러지는 다른 허브들""]
+}","{""scent_preference"": [""Rosemary"", ""herbal""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""행복하게 해주는 허브 향"", ""로즈마리가 메인"", ""로즈마리와 조화롭게 어우러지는 다른 허브들""]}",ok,,1,629,99,1.6,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:29.195643+00:00
+SQ0077,"이번에 데이트를 하게 됬는데 지금은 여름이고 난 겨울용 향수밖에 없어. 현재 메인으로 쓰고있는 향수는 러쉬의 트와일라잇 향수고, 최애향수야. 은은한 머스크향도 좋아하고 플로럴향도 포함되어있는 여름용 향수 몇개 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""musk"",
+    ""floral""
+  ],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""데이트용"",
+    ""러쉬의 트와일라잇 향수는 메인으로 사용 중"",
+    ""여름용 향수 추천 필요(겨울용밖에 없음)""
+  ]
+}","{""scent_preference"": [""musk"", ""floral""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""데이트용"", ""러쉬의 트와일라잇 향수는 메인으로 사용 중"", ""여름용 향수 추천 필요(겨울용밖에 없음)""]}",ok,,1,682,129,1.835,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:31.030851+00:00
+SQ0078,"친구한테 향수를 선물해주고싶어, 탑, 미들 노트는 각각 프룻, 헤비 플로럴이고 잔향은 은은한 바닐라였으면 좋겠어. 가을이 다와가지만 여름에 대한 미련이 살짝 남은듯한 그런 느낌인 향수 추천해줘",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""fruits"", ""heavy floral"", ""vanilla""],
+  ""context"": {""season"": [""autumn"", ""summer""], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": [""tangibility: top, middle notes are fruits and heavy floral respectively"", ""dry-down/after scent: softly lingering vanilla"", ""overall mood: feeling like autumn is approaching but still a slight longing for summer"", ""gift for a friend""]
+}","{""scent_preference"": [""fruits"", ""heavy floral"", ""vanilla""], ""context"": {""season"": [""autumn"", ""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""tangibility: top, middle notes are fruits and heavy floral respectively"", ""dry-down/after scent: softly lingering vanilla"", ""overall mood: feeling like autumn is approaching but still a slight longing for summer"", ""gift for a friend""]}",ok,,1,678,123,1.521,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:32.551918+00:00
+SQ0079,"약간 달달하지만, 인공적인 향이 나지 않고, 또 너무 강하진 않은 타인이 맡았을 때 부담스럽지 않은 향이 났으면 좋겠어요 또 지속력은 오래가면 좋을 것 같아 아 그리고 러쉬에서 맡은 20만원 정도 하는 향수 되게 향 좋았는데 이름이 기억 안 나 그거도 되게 달달했던거 같은데 좋은 향이었어",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Vanilla"",
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [
+    ""artificial""
+  ],
+  ""additional_requirements"": [
+    ""약간 달달함"",
+    ""인공적인 향이 나지 않음"",
+    ""너무 강하지 않아서 타인이 맡았을 때 부담스럽지 않음"",
+    ""지속력은 오래가면 좋음"",
+    ""러쉬에서 약 20만원대 향수를 맡았는데 이름은 기억 안 남"",
+    ""그 향은 되게 달달했던 것 같음""
+  ]
+}","{""scent_preference"": [""Vanilla"", ""citrus""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": ""HIGH""}, ""avoid"": [""artificial""], ""additional_requirements"": [""약간 달달함"", ""인공적인 향이 나지 않음"", ""너무 강하지 않아서 타인이 맡았을 때 부담스럽지 않음"", ""지속력은 오래가면 좋음"", ""러쉬에서 약 20만원대 향수를 맡았는데 이름은 기억 안 남"", ""그 향은 되게 달달했던 것 같음""]}",ok,,1,692,180,2.384,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:34.936279+00:00
+SQ0080,예,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""예""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""예""]}",ok,,1,601,69,1.125,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:36.061462+00:00
+SQ0081,"향은 달달하고 프루티한데 은은하게 오래가는 향수 추천해줘,",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""fruity"", ""sweet""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": ""MEDIUM""},
+  ""avoid"": [],
+  ""additional_requirements"": [""은은하게"", ""오래가는""]
+}","{""scent_preference"": [""fruity"", ""sweet""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""MEDIUM""}, ""avoid"": [], ""additional_requirements"": [""은은하게"", ""오래가는""]}",ok,,1,621,75,1.61,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:37.671670+00:00
+SQ0082,여름에 잘 어울리는 상쾌하고 리프레싱한 향수 추천해줘. 과일향이 나면 좋을 것 같아. 가격대는 30만원대까지 괜찮아.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""fruity""
+  ],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""fresh"",
+    ""refreshing"",
+    ""price up to 300,000 KRW""
+  ]
+}","{""scent_preference"": [""fruity""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""fresh"", ""refreshing"", ""price up to 300,000 KRW""]}",ok,,1,648,103,1.806,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:39.477534+00:00
+SQ0083,다른사람이 향을 맡았을 때 거슬리지 않고 푸근하고 상큼한 향의 향수,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""거슬리지 않는 향"",
+    ""푸근한 향"",
+    ""상큼한 향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""거슬리지 않는 향"", ""푸근한 향"", ""상큼한 향""]}",ok,,1,626,91,1.386,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:40.863387+00:00
+SQ0084,"너는 조향사야. 나는 평소에 머스크, 시트러스를 선호하는 편인데, 여름에 사용할 무겁지 않은 향수 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""musk"", ""citrus""],
+  ""context"": {
+    ""season"": [""summer""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""heavy""],
+  ""additional_requirements"": [""무겁지 않은 향수"", ""여름에 사용할 것""]
+}","{""scent_preference"": [""musk"", ""citrus""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""heavy""], ""additional_requirements"": [""무겁지 않은 향수"", ""여름에 사용할 것""]}",ok,,1,638,93,1.542,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:42.404925+00:00
+SQ0085,"바닐라, 코코넛 향이 나는 향수를 추천해 줘. 백화점에서 직접 살 수 있는 브랜드 향수면 좋겠어. 향수 노트와 연상되는 이미지, 브랜드, 가격을 정리해서 최대한 많이 나열해 줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Vanilla"",
+    ""Coconut""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""백화점에서 직접 구매 가능한 브랜드 향수"",
+    ""노트와 연상되는 이미지, 브랜드, 가격을 최대한 많이 정리해 달라는 요청""
+  ]
+}","{""scent_preference"": [""Vanilla"", ""Coconut""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""백화점에서 직접 구매 가능한 브랜드 향수"", ""노트와 연상되는 이미지, 브랜드, 가격을 최대한 많이 정리해 달라는 요청""]}",ok,,1,661,118,1.235,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:43.640237+00:00
+SQ0086,"남성용 향수 추천해줘 나는 20살 남성이고 땀이 많은 편이야 땀나는데 향수냄새까지 하면 더 불쾌한 냄새가 난다고 해서 잘 알아보고 사려고해 가능한 모든 웹페이지를 찾아보고 후기, 특성 을 잘 알아보고 추천해줘",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""20살 남성"",
+    ""땀이 많은 편"",
+    ""땀이 나고 향수 냄새까지 나면 불쾌한 냄새가 날 수 있어서 잘 알아보고 사려함"",
+    ""가능한 모든 웹페이지를 찾아보고 후기, 특성을 잘 알아보기""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""20살 남성"", ""땀이 많은 편"", ""땀이 나고 향수 냄새까지 나면 불쾌한 냄새가 날 수 있어서 잘 알아보고 사려함"", ""가능한 모든 웹페이지를 찾아보고 후기, 특성을 잘 알아보기""]}",ok,,1,671,138,1.821,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:45.461402+00:00
+SQ0087,"3만원에서 10만원 사이 가격대의 향수를 추천해줘. 데이트할 때 상대방에게 나의 향을 각인시키기 위해 일상적으로 뿌려도 거부감 없고, 부담스럽지 않은 향이었으면 좋겠어. 또한 서점과 어울리는 차분하면서 안정되는 향이 좋아. 그리고 너무 여성스러운 이미지의 향보다는 중성적이거나 남성적인 향에 가까운 것이 좋아",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""neuter"", ""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""3만원에서 10만원 사이 가격대"", ""데이트할 때 상대방에게 거부감 없고 부담스럽지 않게 일상적으로 뿌릴 수 있는 향"", ""서점과 어울리는 차분하면서 안정되는 향"", ""너무 여성스러운 이미지보다는 중성적이거나 남성적인 쪽에 가까운 향""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""neuter"", ""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""3만원에서 10만원 사이 가격대"", ""데이트할 때 상대방에게 거부감 없고 부담스럽지 않게 일상적으로 뿌릴 수 있는 향"", ""서점과 어울리는 차분하면서 안정되는 향"", ""너무 여성스러운 이미지보다는 중성적이거나 남성적인 쪽에 가까운 향""]}",ok,,1,698,149,1.97,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:47.432806+00:00
+SQ0088,너무 인위적이지않은 코튼향 추천좀여,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""너무 인위적이지 않은 코튼향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""너무 인위적이지 않은 코튼향""]}",ok,,1,614,82,1.623,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:49.055476+00:00
+SQ0089,여름에 쓸 시원한 향이나 시트러스 계열의 향수를 찾고 있어. 10만원 이하의 인터넷 구매 가능한 시원한 향이나 시트러스 계열의 향수를 추천해줄래?,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""cool/시원한 향"",
+    ""under 100,000 won"",
+    ""internet purchase 가능""
+  ]
+}","{""scent_preference"": [""citrus""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""cool/시원한 향"", ""under 100,000 won"", ""internet purchase 가능""]}",ok,,1,648,107,1.878,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:50.933002+00:00
+SQ0090,"내가 자주 사용하는 모스키노 토이2 EDP 향수가 있는데, 조금 더 저렴한 브랜드 중 이 향이랑 가장 비슷한 향 추천해줘",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""Moschino Toy 2 EDP와 가장 비슷한 향"",
+    ""더 저렴한 브랜드""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""Moschino Toy 2 EDP와 가장 비슷한 향"", ""더 저렴한 브랜드""]}",ok,,1,637,94,2.092,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:53.024767+00:00
+SQ0091,플로럴과 시트러스 향을 위주로 여름에 잘 쓸 수 있는 향수를 추천해줘. 차분하고 성숙한 분위기가 나면 좋겠어. 근데 향이 너무 세서 머리가 아프지 않아야 해. 지속력은 길고 가격은 15만원 안으로 추천해줘.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Floral"",
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""차분하고 성숙한 분위기"",
+    ""머리가 아프지 않게(향이 너무 세지 않게)"",
+    ""15만원 안 가격""
+  ]
+}","{""scent_preference"": [""Floral"", ""citrus""], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""차분하고 성숙한 분위기"", ""머리가 아프지 않게(향이 너무 세지 않게)"", ""15만원 안 가격""]}",ok,,1,672,128,1.328,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:54.354029+00:00
+SQ0092,"여름 장마가 올 때, 상쾌한 향기가 나는 향수를 찾고 싶어",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""여름 장마철"",
+    ""상쾌한 향기""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""여름 장마철"", ""상쾌한 향기""]}",ok,,1,622,93,1.83,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:56.184074+00:00
+SQ0093,시트러스 계열의 약간 워터리한 노트를 가진 향수 추천해줄래?,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""citrus"",
+    ""watery""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [""citrus"", ""watery""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,622,80,1.648,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:57.832528+00:00
+SQ0094,난 꽃향이랑 약간 상큼한거 좋아해 가격 상관없이 대중적으로 인기 있는 향수 5개 추천해줘 깨끗하고 부드러운 이미지로 찾아도 돼,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""Rose"",
+    ""citrus""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""꽃향"",
+    ""약간 상큼한 느낌"",
+    ""깨끗하고 부드러운 이미지"",
+    ""가격 상관없이"",
+    ""대중적으로 인기 있는 제품"",
+    ""5개 추천""
+  ]
+}","{""scent_preference"": [""Rose"", ""citrus""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""꽃향"", ""약간 상큼한 느낌"", ""깨끗하고 부드러운 이미지"", ""가격 상관없이"", ""대중적으로 인기 있는 제품"", ""5개 추천""]}",ok,,1,643,128,1.427,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:01:59.259245+00:00
+SQ0095,달콤한데 너무 어리거나 무겁지 않고 상큼한 과일느낌나는 향수 추천해줘. 약간 플로럴한 느낌도 있었으면 좋겠어,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""sweet"", ""fruity"", ""floral""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": [""not too young"", ""not too heavy"", ""fresh fruit feel""]
+}","{""scent_preference"": [""sweet"", ""fruity"", ""floral""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""not too young"", ""not too heavy"", ""fresh fruit feel""]}",ok,,1,640,81,1.069,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:00.328094+00:00
+SQ0096,가을에 맞는 코튼향인데 남자가 사용해도 괜찮을법한 코튼 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""cotton""],
+  ""context"": {
+    ""season"": [""autumn""],
+    ""daypart"": [],
+    ""gender"": [""male""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""가을에 맞는 코튼 향"", ""남성이 사용해도 괜찮을 것 같은 코튼 향수""]
+}","{""scent_preference"": [""cotton""], ""context"": {""season"": [""autumn""], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""가을에 맞는 코튼 향"", ""남성이 사용해도 괜찮을 것 같은 코튼 향수""]}",ok,,1,627,101,2.154,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:02.482505+00:00
+SQ0097,지속력이 좋지만 향이 너무 진하지 않고 플로럴 계열이면서 인공적이지 않고 산뜻한 느낌을 주는 향수를 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""GOOD""
+  },
+  ""avoid"": [
+    ""인공적""
+  ],
+  ""additional_requirements"": [
+    ""지속력이 좋지만 향이 너무 진하지 않음"",
+    ""플로럴 계열"",
+    ""산뜻한 느낌""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""GOOD""}, ""avoid"": [""인공적""], ""additional_requirements"": [""지속력이 좋지만 향이 너무 진하지 않음"", ""플로럴 계열"", ""산뜻한 느낌""]}",ok,,1,635,109,1.415,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:03.897345+00:00
+SQ0098,"프롬프트 : 27세 한국인 남성이 사용할 예정이고, 이 사람은 키가 크고 체격이 큰 편이라서 부드러운 인상은 아니야. 또한 여름에 주로 사용할 예정이여서 시원한 분위기가 좋을 것 같아. 리뷰들을 고려해서 적합하고 대중적인 향수 3가지를 추천해.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""27세"",
+    ""한국인 남성"",
+    ""키가 크고 체격이 큰 편이라 부드러운 인상이 아님"",
+    ""여름에 주로 사용"",
+    ""시원한 분위기가 좋음"",
+    ""리뷰들을 고려"",
+    ""대중적인 향수 3가지 추천""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""27세"", ""한국인 남성"", ""키가 크고 체격이 큰 편이라 부드러운 인상이 아님"", ""여름에 주로 사용"", ""시원한 분위기가 좋음"", ""리뷰들을 고려"", ""대중적인 향수 3가지 추천""]}",ok,,1,680,151,2.123,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:06.020549+00:00
+SQ0099,우디향이나 머스크향 같은 묵직한 향을 좋아해. 가격대는 10만원 대의 냄새 지속시간이 긴 향수들 5가지 추천해줘.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""woody"",
+    ""musk""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""10만원대"",
+    ""지속시간이 긴 향수"",
+    ""5가지 추천""
+  ]
+}","{""scent_preference"": [""woody"", ""musk""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""10만원대"", ""지속시간이 긴 향수"", ""5가지 추천""]}",ok,,1,642,105,1.406,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:07.426876+00:00
+SQ0100,"은은하고 깨끗한 냄새. 독하지 않아야 함. 자연물 냄새(풀, 꽃, 과즙)가 좋아용",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""은은하고 깨끗한 냄새"",
+    ""독하지 않아야 함"",
+    ""자연물 냄새(풀, 꽃, 과즙) 좋아함""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""은은하고 깨끗한 냄새"", ""독하지 않아야 함"", ""자연물 냄새(풀, 꽃, 과즙) 좋아함""]}",ok,,1,633,112,1.356,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:08.783268+00:00
+SQ0101,네,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,601,67,1.387,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:10.171592+00:00
+SQ0102,데일리하게 뿌릴 수 있는 향수 근데 아침에 뿌리고 나가도 하루종일 유지되는거 계속 뿌리기 귀찮음,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [""day""],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""데일리로 사용하기 좋음"", ""아침에 뿌리고 하루종일 유지되면 좋겠음"", ""계속 덧뿌리는 게 귀찮음""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [""day""], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""데일리로 사용하기 좋음"", ""아침에 뿌리고 하루종일 유지되면 좋겠음"", ""계속 덧뿌리는 게 귀찮음""]}",ok,,1,639,110,1.7,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:11.871234+00:00
+SQ0103,음 나는 머스크는 싫어 그리고 장미향도 싫어 그리구 나는 데일리로 사계절 내내 쓰고 싶어 무난하게 호불호 없는 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [""spring"", ""summer"", ""autumn"", ""winter""],
+    ""daypart"": [""day""],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""musk"", ""rose""],
+  ""additional_requirements"": [""호불호 없는 데일리용"", ""사계절 내내 사용""]
+}","{""scent_preference"": [], ""context"": {""season"": [""spring"", ""summer"", ""autumn"", ""winter""], ""daypart"": [""day""], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""musk"", ""rose""], ""additional_requirements"": [""호불호 없는 데일리용"", ""사계절 내내 사용""]}",ok,,1,645,104,1.515,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:13.386298+00:00
+SQ0104,"코코넛 향 나는거 추천해줘. 막 달달한 느낌도 아니고 무거운 느낌도 아닌거 같은데, 한번 뿌리면 8시간 이상은 유지되었으면 좋겠어. 바닐라나 막 패션 후르츠같은 완전 단 느낌도 아니야. 그냥 샴푸나 바디워시에서 코코넛 향 되어있는 그런 느낌의 향수를 원해.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""Coconut""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": ""HIGH""},
+  ""avoid"": [""Vanilla"", ""fruity""],
+  ""additional_requirements"": [""샴푸나 바디워시에서 나는 코코넛 향 같은 느낌"", ""막 달달한 느낌도 아니고 무거운 느낌도 아니라고 함"", ""한번 뿌리면 8시간 이상 유지 희망""]
+}","{""scent_preference"": [""Coconut""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [""Vanilla"", ""fruity""], ""additional_requirements"": [""샴푸나 바디워시에서 나는 코코넛 향 같은 느낌"", ""막 달달한 느낌도 아니고 무거운 느낌도 아니라고 함"", ""한번 뿌리면 8시간 이상 유지 희망""]}",ok,,1,694,121,1.555,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:14.941772+00:00
+SQ0105,주말 오후에 따뜻한 햇살을 받으며 침대 위에 누워있는 듯한 느낌의 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""주말 오후"",
+    ""따뜻한 햇살"",
+    ""침대 위에 누워있는 듯한 느낌""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""주말 오후"", ""따뜻한 햇살"", ""침대 위에 누워있는 듯한 느낌""]}",ok,,1,629,97,1.211,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:16.152700+00:00
+SQ0106,우디 머스크향인데 플로럴 살짝 들어가서 중성적이면서도 여성적인 향수 근데 또 다른 사람들이 흔하게 쓰는 향수가 아니어야 함 잔향도 길게 나야하고 향수 지속성이 길어야함,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""woody"", ""musk"", ""floral""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": [""neuter"", ""female""]},
+  ""performance"": {""intensity"": """", ""longevity"": ""HIGH""},
+  ""avoid"": [],
+  ""additional_requirements"": [""흔하게 쓰는 향수가 아니었으면 함"", ""잔향이 길게 남았으면 함""]
+}","{""scent_preference"": [""woody"", ""musk"", ""floral""], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""neuter"", ""female""]}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""흔하게 쓰는 향수가 아니었으면 함"", ""잔향이 길게 남았으면 함""]}",ok,,1,656,99,1.4,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:17.552213+00:00
+SQ0107,"마냥 나이들어보이지 않지만 너무 대학생같지 않았으면 좋겠는데, 강한 플로럴 계열은 싫고, 차분한데 숲같은 느낌이 좋아. 근데 담백한 과일계열도 좀 들어갔으면 좋겠어. 중성적인 느낌이 좋아.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""floral"", ""woody"", ""fruity""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": [""neuter""]},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [""strong floral""],
+  ""additional_requirements"": [""마냥 나이들어보이지 않되 너무 대학생같지 않았으면 좋겠음"", ""차분한데 숲같은 느낌 선호"", ""담백한 과일계열도 일부 포함되었으면 좋겠음"", ""중성적인 느낌 선호""]
+}","{""scent_preference"": [""floral"", ""woody"", ""fruity""], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""neuter""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""strong floral""], ""additional_requirements"": [""마냥 나이들어보이지 않되 너무 대학생같지 않았으면 좋겠음"", ""차분한데 숲같은 느낌 선호"", ""담백한 과일계열도 일부 포함되었으면 좋겠음"", ""중성적인 느낌 선호""]}",ok,,1,671,134,2.362,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:19.914010+00:00
+SQ0108,내 이미지와 내가 좋아하는 향이 매치가 안 될 때는 어떻게 원만하게 합의볼 수 있을까?,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""내 이미지와 내가 좋아하는 향이 매치가 안 될 때 원만하게 합의 보는 방법""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""내 이미지와 내가 좋아하는 향이 매치가 안 될 때 원만하게 합의 보는 방법""]}",ok,,1,626,93,1.411,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:21.324744+00:00
+SQ0109,내 스타일과 어울리는 향수를 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""내 스타일과 어울리는 향수 추천 요청""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""내 스타일과 어울리는 향수 추천 요청""]}",ok,,1,611,78,1.146,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:22.470820+00:00
+SQ0110,향수에 대해 아무것도 모르는 향수 초보자가 사용할만한 향수 뭐가 있을까? 추천해줘. 참고로 난 너무 쌘 향은 싫어해,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""향수 초보자가 사용할 만한"", ""너무 쎈 향은 싫어함""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""향수 초보자가 사용할 만한"", ""너무 쎈 향은 싫어함""]}",ok,,1,641,91,1.472,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:23.942991+00:00
+SQ0111,섬유유연제 같은 인공적인 향이안나면서 뿌렸을때 어느정도 향이 느껴지는 허브계열 향이 나는 향수를 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""herbal""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""artificial fragrance""
+  ],
+  ""additional_requirements"": [
+    ""섬유유연제 같은 인공적인 향이 나지 않음"",
+    ""뿌렸을 때 어느 정도 향이 느껴짐""
+  ]
+}","{""scent_preference"": [""herbal""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""artificial fragrance""], ""additional_requirements"": [""섬유유연제 같은 인공적인 향이 나지 않음"", ""뿌렸을 때 어느 정도 향이 느껴짐""]}",ok,,1,641,119,1.65,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:25.593123+00:00
+SQ0112,가을에 어울리는 우디 계열 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""woody""
+  ],
+  ""context"": {
+    ""season"": [
+      ""autumn""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [""woody""], ""context"": {""season"": [""autumn""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,615,81,1.322,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:26.915316+00:00
+SQ0113,"시트러스, 우디, 프레시, 머스크",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""citrus"", ""woody"", ""fresh"", ""musk""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [""citrus"", ""woody"", ""fresh"", ""musk""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,613,72,1.374,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:28.289248+00:00
+SQ0114,나한테 어울리는 향수 찾아줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,610,67,1.423,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:29.712521+00:00
+SQ0115,"향수를 하나 사고 싶은데 추천해줘. 평소에 사용할 수 있는 데일리 향수를 원하기 때문에 향은 많이 강하지 않은, 일상에서 사용할 수 있는 코튼향 또는 플로럴 향이었으면 좋겠어. 그렇지만 지속력은 최소 1시간은 되었으면 좋겠고, 가격도 10만원은 넘기지 않았으면 하고, 작은 용량 패키지가 있는 상품을 원해.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""cotton"",
+    ""floral""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [
+      ""day""
+    ],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""지속력 최소 1시간"",
+    ""가격 10만원 이하"",
+    ""작은 용량 패키지(미니 용량) 상품""
+  ]
+}","{""scent_preference"": [""cotton"", ""floral""], ""context"": {""season"": [], ""daypart"": [""day""], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""지속력 최소 1시간"", ""가격 10만원 이하"", ""작은 용량 패키지(미니 용량) 상품""]}",ok,,1,693,124,1.344,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:31.056864+00:00
+SQ0116,여름에 잘 어울리는 향수는?,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [
+      ""summer""
+    ],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,611,73,1.368,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:32.425306+00:00
+SQ0117,"최근에 공연장에서 나랑 비슷한 어떤 또래 사람이 지나갔는데, 향수 향이 무척 좋았어. 그래서 물어봤더니 크리드 - 어벤투스 향수를 사용한다고 했는데, 가격이 좀 많이 비싸. 혹시 이와 비슷한 계열의 향을 가지면서 동시에 가격이 상대적으로 저렴한 향수가 있는지 궁금해.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""Creed Aventus와 '비슷한 계열'의 향"",
+    ""가격이 상대적으로 저렴한 향수""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""Creed Aventus와 '비슷한 계열'의 향"", ""가격이 상대적으로 저렴한 향수""]}",ok,,1,686,98,1.347,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:33.772400+00:00
+SQ0118,"너무 진하지 않으면서, 흔하지 않으면서, 유니크한 향수.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""너무 진하지 않으면서"", ""흔하지 않으면서"", ""유니크한 향수""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""너무 진하지 않으면서"", ""흔하지 않으면서"", ""유니크한 향수""]}",ok,,1,621,93,1.526,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:35.298330+00:00
+SQ0119,네,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,601,67,1.165,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:36.463120+00:00
+SQ0120,"20~30대 남성이 일상용으로 사용하기 좋은 향수를 찾고 있어. 화이트머스크 및 비누 향이 나는 향수를 찾고 있는데, 향이 너무 강하거나 자극적이지 않았으면 좋겠어.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""White Musk"",
+    ""Soap""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [
+      ""day""
+    ],
+    ""gender"": [
+      ""male""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""일상용"",
+    ""너무 강하거나 자극적이지 않게""
+  ]
+}","{""scent_preference"": [""White Musk"", ""Soap""], ""context"": {""season"": [], ""daypart"": [""day""], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""일상용"", ""너무 강하거나 자극적이지 않게""]}",ok,,1,650,111,1.693,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:38.155749+00:00
+SQ0121,"플로럴 계열의 향을 좋아하고, 향이 너무 강하거나 무겁지 않았으면 좋겠어요. 은은하게 퍼지면서도 잔향이 오래 남아 금방 사라지지 않는 향을 원해요. 너무 흔하거나 뻔한 향보다는 은근히 분위기 있고 호감 가는 느낌이면 좋겠고, 무엇보다 지속력이 좋은 향수를 추천받고 싶어요.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""floral""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""은은하게 퍼지면서 잔향이 오래 남아 금방 사라지지 않는 향"", ""너무 강하거나 무겁지 않은 향"", ""너무 흔하거나 뻔한 향보다는 은근히 분위기 있고 호감 가는 느낌"", ""지속력이 좋은 향수""]
+}","{""scent_preference"": [""floral""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""은은하게 퍼지면서 잔향이 오래 남아 금방 사라지지 않는 향"", ""너무 강하거나 무겁지 않은 향"", ""너무 흔하거나 뻔한 향보다는 은근히 분위기 있고 호감 가는 느낌"", ""지속력이 좋은 향수""]}",ok,,1,691,139,2.275,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:40.432184+00:00
+SQ0122,향수 살건데 여름에 어울리는 시원한 느낌이지만 너무 가볍지는 않았으면 좋겠고 꽃향이나 코를 찌르는 향 대신 부드럽고 잔향 좋은 향수 3개 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [""summer""],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""꽃향"", ""코를 찌르는 향""],
+  ""additional_requirements"": [""시원한 느낌"", ""너무 가볍지는 않은 느낌"", ""부드럽고 잔향이 좋은 향"", ""여름에 어울리는 향수"", ""추천 3개""]
+}","{""scent_preference"": [], ""context"": {""season"": [""summer""], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""꽃향"", ""코를 찌르는 향""], ""additional_requirements"": [""시원한 느낌"", ""너무 가볍지는 않은 느낌"", ""부드럽고 잔향이 좋은 향"", ""여름에 어울리는 향수"", ""추천 3개""]}",ok,,1,653,123,1.531,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:41.962965+00:00
+SQ0123,나랑 가장 잘 어울리는 향수가 궁금해,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""나랑 가장 잘 어울리는 향수 추천 요청""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""나랑 가장 잘 어울리는 향수 추천 요청""]}",ok,,1,612,83,1.456,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:43.419364+00:00
+SQ0124,"내가 향수는 좋아하지만 코가 예민해서 인공적인 향이나 과한 향수 냄새를 싫어해. 그래서 지속력은 좋으면서 잔잔하고 청량하면서 달달한 향이 나는 향수를 추천해줘 꽃향도 좋아. 단, 우드,장미,머스크,복숭아 향은 싫어",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""flower"",
+    ""sweet"",
+    ""fresh""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [
+    ""woody"",
+    ""rose"",
+    ""musk"",
+    ""peach"",
+    ""artificial"",
+    ""too strong perfume smell""
+  ],
+  ""additional_requirements"": [
+    ""코가 예민해서 인공적인 향이나 과한 향수 냄새를 싫어함"",
+    ""잔잔하고 청량하면서 달달한 향을 원함"",
+    ""꽃향도 좋아함"",
+    ""지속력은 좋았으면 함""
+  ]
+}","{""scent_preference"": [""flower"", ""sweet"", ""fresh""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [""woody"", ""rose"", ""musk"", ""peach"", ""artificial"", ""too strong perfume smell""], ""additional_requirements"": [""코가 예민해서 인공적인 향이나 과한 향수 냄새를 싫어함"", ""잔잔하고 청량하면서 달달한 향을 원함"", ""꽃향도 좋아함"", ""지속력은 좋았으면 함""]}",ok,,1,680,178,1.61,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:45.028873+00:00
+SQ0125,네,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,601,67,1.429,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:46.457656+00:00
+SQ0126,약간 나의 분위기랑 맞은 향은 뭘까,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""약간 나의 분위기와 맞는 향을 찾고 싶음""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""약간 나의 분위기와 맞는 향을 찾고 싶음""]}",ok,,1,615,87,1.212,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:47.671251+00:00
+SQ0127,흔하지 않으면서도 여성스러운 향. 달달한 느낌보다는 우디한 계열. 성숙하면서도 20대 중반의 밝은 느낌을 담았으면 좋겠음. 지속력이 강하기를 바람.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""woody""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": [""female""]},
+  ""performance"": {""intensity"": """", ""longevity"": ""HIGH""},
+  ""avoid"": [],
+  ""additional_requirements"": [""흔하지 않은 향"", ""여성스러운 느낌"", ""달달한 느낌보다는 우디한 계열"", ""성숙하면서도 20대 중반의 밝은 느낌"", ""지속력이 강하기를 바람""]
+}","{""scent_preference"": [""woody""], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""female""]}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""흔하지 않은 향"", ""여성스러운 느낌"", ""달달한 느낌보다는 우디한 계열"", ""성숙하면서도 20대 중반의 밝은 느낌"", ""지속력이 강하기를 바람""]}",ok,,1,653,115,1.961,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:49.632305+00:00
+SQ0128,묵직한데 아저씨같지는 않은 향수,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""아저씨같은 향""
+  ],
+  ""additional_requirements"": [
+    ""묵직한 느낌의 향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""아저씨같은 향""], ""additional_requirements"": [""묵직한 느낌의 향""]}",ok,,1,613,90,1.38,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:51.012535+00:00
+SQ0129,"시원한 향, 남성용, 땀 흘려도 괜찮은 향수가 필요합니다. 어떤 종류가 있나요?",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""fresh""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": [""male""]},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": [""시원한 향"", ""땀 흘려도 괜찮은 향수"", ""남성용"", ""어떤 종류가 있나요?""]
+}","{""scent_preference"": [""fresh""], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""male""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""시원한 향"", ""땀 흘려도 괜찮은 향수"", ""남성용"", ""어떤 종류가 있나요?""]}",ok,,1,631,95,1.674,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:52.686456+00:00
+SQ0130,산뜻하고 숲속에 온 거 같은 피톤치드 가득한 느낌이 나는 향을 원해. 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""산뜻한 느낌"",
+    ""숲속에 온 것 같은 느낌"",
+    ""피톤치드 가득한 느낌""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""산뜻한 느낌"", ""숲속에 온 것 같은 느낌"", ""피톤치드 가득한 느낌""]}",ok,,1,630,98,1.34,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:54.026478+00:00
+SQ0131,"첫 향은 달콤한데, 성숙하면서 좀 묵직한 꽃향의 향수",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""sweet"",
+    ""floral""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""성숙한 느낌"",
+    ""묵직한 꽃향""
+  ]
+}","{""scent_preference"": [""sweet"", ""floral""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""성숙한 느낌"", ""묵직한 꽃향""]}",ok,,1,622,96,1.564,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:55.590159+00:00
+SQ0132,나는 머스크 계열 향을 좋아하고 무겁지 않고 가벼운데 잔향은 오래 남는 포근한 느낌이 좋아. 상큼한 향도 괜찮아. 내 취향에 맞춰서 향수 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""머스크 계열 향 선호"",
+    ""무겁지 않고 가벼운 느낌"",
+    ""잔향이 오래 남는 포근한 느낌 선호"",
+    ""상큼한 향도 괜찮음""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""머스크 계열 향 선호"", ""무겁지 않고 가벼운 느낌"", ""잔향이 오래 남는 포근한 느낌 선호"", ""상큼한 향도 괜찮음""]}",ok,,1,653,120,1.539,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:57.129306+00:00
+SQ0133,가볍고 향 맡으면 머리 안아픈 향을 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""가볍게 느껴지는 향"", ""향 맡으면 머리가 안 아픈 것(두통이 없기를 바람)""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""가볍게 느껴지는 향"", ""향 맡으면 머리가 안 아픈 것(두통이 없기를 바람)""]}",ok,,1,617,96,1.177,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:58.306303+00:00
+SQ0134,냄새 좋은거,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,605,67,1.189,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:02:59.494926+00:00
+SQ0135,네.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,602,67,1.373,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:00.868067+00:00
+SQ0136,내가 원하는 향수는 향이 너무 강하지 않았으면 좋겠어. 향이 강해서 머리가 아픈적이 있었거든. 그리고 빨래향 같이 자연스러운 향이 좋아서 그런 계열의 향이었으면 좋겠어.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""빨래향 같이 자연스러운 향 계열 선호"",
+    ""향이 강해서 머리가 아픈 적이 있었음""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""빨래향 같이 자연스러운 향 계열 선호"", ""향이 강해서 머리가 아픈 적이 있었음""]}",ok,,1,655,102,1.249,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:02.117257+00:00
+SQ0137,은은하게 나는 향수. 깔끔하고 정갈한 냄새가 났으면 좋겠음. 레몬향이나 과일향에 가까운 향.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""citrus"", ""fruity""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""은은하게 나는 향"", ""깔끔하고 정갈한 냄새""]
+}","{""scent_preference"": [""citrus"", ""fruity""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""은은하게 나는 향"", ""깔끔하고 정갈한 냄새""]}",ok,,1,637,94,1.456,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:03.573452+00:00
+SQ0138,예,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,601,67,1.18,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:04.753658+00:00
+SQ0139,"나는 딥티크 롬브르단로와 비슷하게 장미 향수가 좋은데, 롬브르단로의 물향과 흙 냄새가 나는게 좋아. 근데 이렇게 플로럴 + 물 의 향조를 가진 향수들은 너무 여리거나 플로럴에 치중되어 있어서 마음에 들지 않아. 내가 좋아할만한 향수가 있을까? 파우더리하거나 머스크 향은 좋아하지 않아. 또 마음에 들었던 비슷한 향조의 향수로는 아쿠아디파르마 매그놀리아와 로에베 수틸레사가 있어.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""Rose"", ""Aquatic""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [""Powdery"", ""Musk"", ""Floral-heavy""],
+  ""additional_requirements"": [""Rose 향수 선호"", ""딥티크 롬브르단로와 유사한 계열 선호"", ""Rombrondanro의 물향과 흙 냄새 같은 뉘앙스 선호"", ""플로럴에 치중되거나 너무 여리한 느낌은 불호"", ""좋았던 유사 향조: Acqua di Parma Magnolia, Loewe Sutileza""]
+}","{""scent_preference"": [""Rose"", ""Aquatic""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""Powdery"", ""Musk"", ""Floral-heavy""], ""additional_requirements"": [""Rose 향수 선호"", ""딥티크 롬브르단로와 유사한 계열 선호"", ""Rombrondanro의 물향과 흙 냄새 같은 뉘앙스 선호"", ""플로럴에 치중되거나 너무 여리한 느낌은 불호"", ""좋았던 유사 향조: Acqua di Parma Magnolia, Loewe Sutileza""]}",ok,,1,736,165,1.776,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:06.529974+00:00
+SQ0140,머스크를 베이스로 하는 대중적인 향수 3개 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""Musk""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": []},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": [""머스크를 베이스로"", ""대중적인 향수 3개 추천""]
+}","{""scent_preference"": [""Musk""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""머스크를 베이스로"", ""대중적인 향수 3개 추천""]}",ok,,1,618,78,1.603,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:08.132816+00:00
+SQ0141,중성적인 향수면서 가볍지 않은 향수 추천해줘.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""neuter""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""light""],
+  ""additional_requirements"": [""neutral (중성적인)"",""not light (가볍지 않은)"",""recommend perfume""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""neuter""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""light""], ""additional_requirements"": [""neutral (중성적인)"", ""not light (가볍지 않은)"", ""recommend perfume""]}",ok,,1,617,92,1.638,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:09.770790+00:00
+SQ0142,무화과 향이 나는 여성스러운향 추천해줘,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""Fig""],
+  ""context"": {""season"": [], ""daypart"": [], ""gender"": [""female""]},
+  ""performance"": {""intensity"": """", ""longevity"": """"},
+  ""avoid"": [],
+  ""additional_requirements"": [""여성스러운 향""]
+}","{""scent_preference"": [""Fig""], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""female""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""여성스러운 향""]}",ok,,1,613,67,1.099,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:10.869418+00:00
+SQ0143,"중성적인 향을 좋아하는데, 너무 플로럴한 향이 아닌 시원한 향. 조말론 씨솔트 향도 좋은데 조금 다른 향이면 좋겠어 아쿠아 디파르마 미르토도 있어",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [
+      ""neuter""
+    ]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [
+    ""floral""
+  ],
+  ""additional_requirements"": [
+    ""fresh/cool scent"",
+    ""prefer sea-salt style (likes Jo Malone Sea Salt), but wants something slightly different"",
+    ""also has Aqua di Parma Mirto""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""neuter""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""floral""], ""additional_requirements"": [""fresh/cool scent"", ""prefer sea-salt style (likes Jo Malone Sea Salt), but wants something slightly different"", ""also has Aqua di Parma Mirto""]}",ok,,1,651,120,1.67,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:12.539439+00:00
+SQ0144,숲향 나는 향수 추천좀,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""숲향 나는 향수 추천""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""숲향 나는 향수 추천""]}",ok,,1,608,75,1.456,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:13.995287+00:00
+SQ0145,향이 강하지 않으면서 고급스럽고 오래 지속되는 향,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": ""HIGH""
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""고급스럽게"",
+    ""오래 지속되는 향"",
+    ""향이 강하지 않음""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": ""HIGH""}, ""avoid"": [], ""additional_requirements"": [""고급스럽게"", ""오래 지속되는 향"", ""향이 강하지 않음""]}",ok,,1,615,97,1.404,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:15.398837+00:00
+SQ0146,"최근 내가 어른스러워보이고싶어서, 커리어우먼에게 날 것 같은 멋진 느낌으로 너무 달달하지 않은 향수 추천해줘. 근데 남자 전용으로 for men이라고 나온 향수는 제외해줘. 만약 확인 가능하다면 잔향이오래 남을 수 있는 바텀 노트로 구성된 제품은 별도로 체크해줘",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [""for men(남자 전용 표기)""],
+  ""additional_requirements"": [""어른스러워 보이는 느낌"", ""커리어우먼에게 어울리는 느낌"", ""너무 달달하지 않은 향"", ""남자 전용으로 'for men'이라고 나온 향수 제외"", ""잔향이 오래 남을 수 있는 바텀 노트 구성 제품은 별도로 체크(가능하면 확인)""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [""for men(남자 전용 표기)""], ""additional_requirements"": [""어른스러워 보이는 느낌"", ""커리어우먼에게 어울리는 느낌"", ""너무 달달하지 않은 향"", ""남자 전용으로 'for men'이라고 나온 향수 제외"", ""잔향이 오래 남을 수 있는 바텀 노트 구성 제품은 별도로 체크(가능하면 확인)""]}",ok,,1,686,150,1.819,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:17.218285+00:00
+SQ0147,넴,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""넴""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""넴""]}",ok,,1,602,70,1.176,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:18.394043+00:00
+SQ0148,은은하게 시원한 자연의 향이 느껴지면 좋겠어,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""은은하게 시원한 자연의 향""]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""은은하게 시원한 자연의 향""]}",ok,,1,617,77,1.401,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:19.795181+00:00
+SQ0149,여자가 되는 향수를 추천해줘.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": [""female""]
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": [""female""]}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,609,69,1.082,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:20.876701+00:00
+SQ0150,"무화과처럼 달달한 향이 나지만, 너무 달달하기만 하진 않고 인위적이지 않은 은은한 향이 나는 향수 추천해줘.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""무화과처럼 달달한 향"",
+    ""너무 달달하기만 하진 않은 향"",
+    ""인위적이지 않은 은은한 향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""무화과처럼 달달한 향"", ""너무 달달하기만 하진 않은 향"", ""인위적이지 않은 은은한 향""]}",ok,,1,637,105,1.315,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:22.191514+00:00
+SQ0151,"인위적이지 않고, 자연 베이스 향이었으면 좋겠음 .플로헐 계열을 좋아하고 너무 풀 냄새가 강하지 않았으면 함. 호불호가 크게 없되 흔하지는 않은 향.",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [
+    ""floral"",
+    ""woody"",
+    ""natural""
+  ],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""인위적이지 않은 자연 베이스 향"",
+    ""플로럴 계열 선호"",
+    ""너무 풀 냄새가 강하지 않게"",
+    ""호불호가 크게 없되 흔하지는 않은 향""
+  ]
+}","{""scent_preference"": [""floral"", ""woody"", ""natural""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""인위적이지 않은 자연 베이스 향"", ""플로럴 계열 선호"", ""너무 풀 냄새가 강하지 않게"", ""호불호가 크게 없되 흔하지는 않은 향""]}",ok,,1,651,136,2.022,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:24.214451+00:00
+SQ0152,넵,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": []
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": []}",ok,,1,602,67,1.444,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:25.658552+00:00
+SQ0153,향긋하고 약간 달콤 그리고 시원한느낌 은은한 향,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [
+    ""향긋한"",
+    ""약간 달콤한"",
+    ""시원한 느낌"",
+    ""은은한 향""
+  ]
+}","{""scent_preference"": [], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""향긋한"", ""약간 달콤한"", ""시원한 느낌"", ""은은한 향""]}",ok,,1,619,99,1.332,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:26.990260+00:00
+SQ0154,"가벼운 우디향과 머스크 향을 좋아해. 너무 무겁지 않고 산뜻한 느낌이면 좋을 것 같아. 가벼운 풀냄새도 괜찮고, 달달한 쪽은 바닐라 쪽도 좋아해",survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""woody"", ""musk"", ""mint"", ""vanilla""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": """",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""가볍고 너무 무겁지 않게"", ""산뜻한 느낌"", ""가벼운 풀냄새도 괜찮음"", ""달달한 쪽은 바닐라 쪽도 선호""]
+}","{""scent_preference"": [""woody"", ""musk"", ""mint"", ""vanilla""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": """", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""가볍고 너무 무겁지 않게"", ""산뜻한 느낌"", ""가벼운 풀냄새도 괜찮음"", ""달달한 쪽은 바닐라 쪽도 선호""]}",ok,,1,660,130,1.77,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:28.759904+00:00
+SQ0155,평소에 은은하게 좋은향을 좋아해. 꽃 냄새인데 은은하게 좋은 냄새를 원해.,survey_2026_08,UNASSIGNED,"{
+  ""scent_preference"": [""flower""],
+  ""context"": {
+    ""season"": [],
+    ""daypart"": [],
+    ""gender"": []
+  },
+  ""performance"": {
+    ""intensity"": ""LOW"",
+    ""longevity"": """"
+  },
+  ""avoid"": [],
+  ""additional_requirements"": [""은은하게 좋은 향"", ""꽃 냄새""]
+}","{""scent_preference"": [""flower""], ""context"": {""season"": [], ""daypart"": [], ""gender"": []}, ""performance"": {""intensity"": ""LOW"", ""longevity"": """"}, ""avoid"": [], ""additional_requirements"": [""은은하게 좋은 향"", ""꽃 냄새""]}",ok,,1,628,83,1.431,gpt-5.4-nano,4f0a368d98b413384935d4bb54d36d19b60895904d16733d526a1a82737cc493,2026-09-12T13:03:30.190452+00:00
