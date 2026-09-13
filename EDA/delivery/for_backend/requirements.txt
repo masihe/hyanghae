@@ -1,0 +1,17 @@
+# 자연어 향수 추천 — 의존성
+#
+# nlr_reference.py 만 쓰신다면 앞의 두 개면 됩니다.
+# app_example.py(FastAPI 예시)까지 쓰신다면 네 개 전부 필요합니다.
+
+# nlr_reference.py — 검색 로직
+pandas>=2.0
+numpy>=1.24
+
+# app_example.py — FastAPI 예시. 직접 구현하신다면 필요 없습니다
+fastapi>=0.110
+uvicorn[standard]>=0.27
+
+# 만든 환경 (참고용 — 이 버전을 맞추실 필요는 없습니다)
+#   Python 3.11.9 / pandas 3.0.5 / numpy 2.4.6
+#   FastAPI 와 uvicorn 은 이 환경에 설치하지 않아 실행 검증을 하지 못했습니다.
+#   README.md 의 "확인한 것과 못 한 것" 을 보십시오.
