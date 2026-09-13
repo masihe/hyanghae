@@ -1,0 +1,169 @@
+{
+  "seed": 42,
+  "n_per_arm": 15,
+  "criteria": {
+    "어색한가_YN": "한국어가 어색하거나 사람이 쓸 법하지 않은 문장이면 Y",
+    "규칙위반_YN": "영어 향 용어(soapy·woody 등)나 향수 이름·브랜드·조향사·연도가 들어 있으면 Y",
+    "설명이안됨_YN": "'생성에 쓴 자료'를 보고, 그 향수를 찾는 사람이 쓸 문장으로 안 읽히면 Y"
+  },
+  "input_sha256": {
+    "generated_a": "1ac78a370fa27581a5dbb1fa1a9a1ab7b194eab44d863fda64126b573dad4a7c",
+    "generated_b": "7c3c869594c43a2fc538b73bec3f73c44d137071cf1e9038ded1a798647344f9",
+    "input_a": "d2d14e131f35457b88f5ca996a0d001e1450334dfca946fc92c4174fc614b0e5",
+    "input_b": "50850ece36b7cddf9eb5cebd4d187b0963434691050deb73648747f35e8cc332",
+    "answer_key": "d81e0f4fb2f1e1cd0bf602ee01beb5ddda1711a67b66c14849367270bd95707d",
+    "perfumes_csv": "cec1ea0b498853032bcf44d33ad52ac83e2ed2896b67d5a2765d90a0345cc055"
+  },
+  "sampled": [
+    {
+      "arm": "A",
+      "perfume_id": 54381,
+      "sentence_no": 3
+    },
+    {
+      "arm": "A",
+      "perfume_id": 80042,
+      "sentence_no": 3
+    },
+    {
+      "arm": "A",
+      "perfume_id": 30991,
+      "sentence_no": 3
+    },
+    {
+      "arm": "A",
+      "perfume_id": 57,
+      "sentence_no": 1
+    },
+    {
+      "arm": "A",
+      "perfume_id": 64372,
+      "sentence_no": 3
+    },
+    {
+      "arm": "A",
+      "perfume_id": 61811,
+      "sentence_no": 2
+    },
+    {
+      "arm": "A",
+      "perfume_id": 51499,
+      "sentence_no": 2
+    },
+    {
+      "arm": "A",
+      "perfume_id": 14694,
+      "sentence_no": 2
+    },
+    {
+      "arm": "A",
+      "perfume_id": 19,
+      "sentence_no": 3
+    },
+    {
+      "arm": "A",
+      "perfume_id": 41188,
+      "sentence_no": 2
+    },
+    {
+      "arm": "A",
+      "perfume_id": 64679,
+      "sentence_no": 1
+    },
+    {
+      "arm": "A",
+      "perfume_id": 3166,
+      "sentence_no": 1
+    },
+    {
+      "arm": "A",
+      "perfume_id": 56993,
+      "sentence_no": 3
+    },
+    {
+      "arm": "A",
+      "perfume_id": 1953,
+      "sentence_no": 1
+    },
+    {
+      "arm": "A",
+      "perfume_id": 44281,
+      "sentence_no": 3
+    },
+    {
+      "arm": "B",
+      "perfume_id": 54381,
+      "sentence_no": 3
+    },
+    {
+      "arm": "B",
+      "perfume_id": 80042,
+      "sentence_no": 3
+    },
+    {
+      "arm": "B",
+      "perfume_id": 30991,
+      "sentence_no": 3
+    },
+    {
+      "arm": "B",
+      "perfume_id": 57,
+      "sentence_no": 1
+    },
+    {
+      "arm": "B",
+      "perfume_id": 64372,
+      "sentence_no": 3
+    },
+    {
+      "arm": "B",
+      "perfume_id": 61811,
+      "sentence_no": 2
+    },
+    {
+      "arm": "B",
+      "perfume_id": 51499,
+      "sentence_no": 2
+    },
+    {
+      "arm": "B",
+      "perfume_id": 14694,
+      "sentence_no": 2
+    },
+    {
+      "arm": "B",
+      "perfume_id": 19,
+      "sentence_no": 3
+    },
+    {
+      "arm": "B",
+      "perfume_id": 41188,
+      "sentence_no": 2
+    },
+    {
+      "arm": "B",
+      "perfume_id": 64679,
+      "sentence_no": 1
+    },
+    {
+      "arm": "B",
+      "perfume_id": 3166,
+      "sentence_no": 1
+    },
+    {
+      "arm": "B",
+      "perfume_id": 56993,
+      "sentence_no": 3
+    },
+    {
+      "arm": "B",
+      "perfume_id": 1953,
+      "sentence_no": 1
+    },
+    {
+      "arm": "B",
+      "perfume_id": 44281,
+      "sentence_no": 3
+    }
+  ]
+}
