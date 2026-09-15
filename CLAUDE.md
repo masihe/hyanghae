@@ -142,6 +142,8 @@ AI 또는 추천 관련 변경은 "결과가 그럴듯하다"는 이유만으로
 
 기존 convention이 repository에 존재한다면 새로운 convention을 만들기보다 기존 convention을 따른다.
 
+팀의 Git·Jira 컨벤션은 `TEAM_CONVENTIONS.md`에 있다. 브랜치를 만들거나 커밋·MR을 작성하기 전에 읽는다. 원본은 Notion이고 이 파일은 사본이므로, 어긋나면 원본을 확인한다.
+
 ## Documentation and Decisions
 
 코드만 보고 명확히 알 수 있는 내용을 불필요하게 별도 문서로 반복 생성하지 않는다.
