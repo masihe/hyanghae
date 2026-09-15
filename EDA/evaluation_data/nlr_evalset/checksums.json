@@ -1,0 +1,15 @@
+{
+  "raw": {
+    "perfume_evalset_batch1_A.csv": "bea0fced5b608ba488cb17343d2c87a94756a8633b15fa7f0cdd87222d9a6b74",
+    "perfume_evalset_batch2_A.csv": "e57085c924a0f2609f7187e115355a2785a19b4a78afa3bb037e488adea6a849",
+    "perfume_evalset_batch3_A.csv": "c9217cdf128ddc34894cc9c1f08c7db89c94d274c74d720188141143c1464e5b",
+    "perfume_evalset_batch4_A.csv": "4dc7e570be03a64bd9ba96dc653469a1f178d05f9e54977203940832cc7ad799",
+    "32_evalset_batch1_generated_B.csv": "ad75503c897876dac3476ed5013a97617734eb0641c7570012a50b1007354bb7",
+    "32_evalset_batch2_generated_B.csv": "9f43b53d70f6fa7f87b300bfd92dc97b66c2163b138bc68a7fce9aa0055b8cb7",
+    "32_evalset_batch3_generated_B.csv": "c58d716fcf8292edc791817f19b4b7769d1668cfb7c1565d7cd0c76eebaaf169",
+    "32_evalset_batch4_generated_B.csv": "5c42f7d5483dc7d39f193a824372c0cb7cacf753ae9599d91942875839396e0d"
+  },
+  "answer_key": "d81e0f4fb2f1e1cd0bf602ee01beb5ddda1711a67b66c14849367270bd95707d",
+  "manifest": "c65a2719f19fbe0042a80df50397fa994cd2eee16759f78cadc3b007099a7ce2",
+  "note": "raw/ 는 사람이 GPT 로 만든 원본이다. 이후 바뀌면 이 해시로 감지한다. 사전 등록 §10 — 생성 결과는 받은 파일을 그대로 고정한다."
+}

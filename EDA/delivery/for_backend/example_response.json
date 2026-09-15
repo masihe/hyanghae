@@ -1,0 +1,657 @@
+{
+  "generated_from": "nlr_reference.py",
+  "lexicon": "domain_lexicon_v1_2.csv",
+  "note": "LLM 구조화 없이 사전 문자열 매칭만 쓴 결과다.",
+  "examples": [
+    {
+      "status": "OK",
+      "query": "휴양지에서 쓸 향수 추천해줘",
+      "conditions": {
+        "core": [
+          "coconut",
+          "tropical"
+        ],
+        "avoid": [],
+        "matched_expressions": [
+          "휴양지"
+        ],
+        "source": "lexicon_only"
+      },
+      "results": [
+        {
+          "perfume_id": 5825,
+          "name": "Very Sexy Now The Beauty of Brazil",
+          "brand": "Victoria's Secret",
+          "people": 112,
+          "rating": 4.3,
+          "matched": [
+            {
+              "accord": "coconut",
+              "strength": 100,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "선탠오일과 코코넛의 휴양지 연상을 담은 보조 후보다. 출처 없이 고른 것이므로 사람 검토가 필요하다. [30] ai_summary 배수 5.76x·1위로 지지됨. [39] 배수 5.76 · 1위로 문턱 1.4 통과 [39] N4 배수 5.76 · 1위로 지지. 사람 검토로 TEAM 승격 (판정 기준 2번-1)"
+            },
+            {
+              "accord": "tropical",
+              "strength": 100,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '휴양지의 저녁' 이 있다. 열대 과일과 꽃의 인상이 트로피컬이다. [30] ai_summary 배수 5.74x·2위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            }
+          ],
+          "score": 200,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 90466,
+          "name": "Ribbon Ballet",
+          "brand": "Flower Knows",
+          "people": 63,
+          "rating": 3.73,
+          "matched": [
+            {
+              "accord": "coconut",
+              "strength": 100,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "선탠오일과 코코넛의 휴양지 연상을 담은 보조 후보다. 출처 없이 고른 것이므로 사람 검토가 필요하다. [30] ai_summary 배수 5.76x·1위로 지지됨. [39] 배수 5.76 · 1위로 문턱 1.4 통과 [39] N4 배수 5.76 · 1위로 지지. 사람 검토로 TEAM 승격 (판정 기준 2번-1)"
+            },
+            {
+              "accord": "tropical",
+              "strength": 100,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '휴양지의 저녁' 이 있다. 열대 과일과 꽃의 인상이 트로피컬이다. [30] ai_summary 배수 5.74x·2위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            }
+          ],
+          "score": 200,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 82593,
+          "name": "Bikini Season",
+          "brand": "Sol de Janeiro",
+          "people": 234,
+          "rating": 4.01,
+          "matched": [
+            {
+              "accord": "tropical",
+              "strength": 100,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '휴양지의 저녁' 이 있다. 열대 과일과 꽃의 인상이 트로피컬이다. [30] ai_summary 배수 5.74x·2위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            },
+            {
+              "accord": "coconut",
+              "strength": 98,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "선탠오일과 코코넛의 휴양지 연상을 담은 보조 후보다. 출처 없이 고른 것이므로 사람 검토가 필요하다. [30] ai_summary 배수 5.76x·1위로 지지됨. [39] 배수 5.76 · 1위로 문턱 1.4 통과 [39] N4 배수 5.76 · 1위로 지지. 사람 검토로 TEAM 승격 (판정 기준 2번-1)"
+            }
+          ],
+          "score": 198,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 66625,
+          "name": "OP Summer Breeze",
+          "brand": "Ocean Pacific",
+          "people": 83,
+          "rating": 4.17,
+          "matched": [
+            {
+              "accord": "tropical",
+              "strength": 100,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '휴양지의 저녁' 이 있다. 열대 과일과 꽃의 인상이 트로피컬이다. [30] ai_summary 배수 5.74x·2위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            },
+            {
+              "accord": "coconut",
+              "strength": 98,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "선탠오일과 코코넛의 휴양지 연상을 담은 보조 후보다. 출처 없이 고른 것이므로 사람 검토가 필요하다. [30] ai_summary 배수 5.76x·1위로 지지됨. [39] 배수 5.76 · 1위로 문턱 1.4 통과 [39] N4 배수 5.76 · 1위로 지지. 사람 검토로 TEAM 승격 (판정 기준 2번-1)"
+            }
+          ],
+          "score": 198,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 35715,
+          "name": "Frangipane e Cocco",
+          "brand": "I Profumi di Firenze",
+          "people": 49,
+          "rating": 4.0,
+          "matched": [
+            {
+              "accord": "tropical",
+              "strength": 100,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '휴양지의 저녁' 이 있다. 열대 과일과 꽃의 인상이 트로피컬이다. [30] ai_summary 배수 5.74x·2위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            },
+            {
+              "accord": "coconut",
+              "strength": 94,
+              "from": "휴양지",
+              "tier": "TEAM",
+              "rationale": "선탠오일과 코코넛의 휴양지 연상을 담은 보조 후보다. 출처 없이 고른 것이므로 사람 검토가 필요하다. [30] ai_summary 배수 5.76x·1위로 지지됨. [39] 배수 5.76 · 1위로 문턱 1.4 통과 [39] N4 배수 5.76 · 1위로 지지. 사람 검토로 TEAM 승격 (판정 기준 2번-1)"
+            }
+          ],
+          "score": 194,
+          "avoid_confirmed": []
+        }
+      ],
+      "diagnostics": {
+        "stage": "AND",
+        "candidate_count": 784,
+        "tie_at_last": 1,
+        "relaxed": [],
+        "unmatched_hint": null
+      }
+    },
+    {
+      "status": "OK",
+      "query": "빨래 냄새 나는 향수 찾고 있어",
+      "conditions": {
+        "core": [
+          "fresh",
+          "soapy"
+        ],
+        "avoid": [],
+        "matched_expressions": [
+          "빨래"
+        ],
+        "source": "lexicon_only"
+      },
+      "results": [
+        {
+          "perfume_id": 73368,
+          "name": "Laundry",
+          "brand": "Ostrikov Beauty Publishing",
+          "people": 29,
+          "rating": 4.17,
+          "matched": [
+            {
+              "accord": "soapy",
+              "strength": 100,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '햇빛에 바싹 말린 빨래' 가 있고 청결감 축에 '세탁한 듯한' 이 있다. 비누 계열이 이 인상의 중심이다. [30] ai_summary 배수 4.50x·1위로 지지됨. [39] 배수 4.50 · 1위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "fresh",
+              "strength": 93,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "같은 축이 '뽀송한' 을 함께 두고 있다. 마른 빨래의 가볍고 개운한 쪽이다. [30] ai_summary 배수 1.77x·5위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            }
+          ],
+          "score": 193,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 62701,
+          "name": "Exit The King",
+          "brand": "Etat Libre d'Orange",
+          "people": 2358,
+          "rating": 3.75,
+          "matched": [
+            {
+              "accord": "soapy",
+              "strength": 100,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '햇빛에 바싹 말린 빨래' 가 있고 청결감 축에 '세탁한 듯한' 이 있다. 비누 계열이 이 인상의 중심이다. [30] ai_summary 배수 4.50x·1위로 지지됨. [39] 배수 4.50 · 1위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "fresh",
+              "strength": 57,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "같은 축이 '뽀송한' 을 함께 두고 있다. 마른 빨래의 가볍고 개운한 쪽이다. [30] ai_summary 배수 1.77x·5위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            }
+          ],
+          "score": 157,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 64431,
+          "name": "Lazy Sunday Morning Lunar New Year Edition",
+          "brand": "Maison Martin Margiela",
+          "people": 60,
+          "rating": 4.1,
+          "matched": [
+            {
+              "accord": "fresh",
+              "strength": 100,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "같은 축이 '뽀송한' 을 함께 두고 있다. 마른 빨래의 가볍고 개운한 쪽이다. [30] ai_summary 배수 1.77x·5위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            },
+            {
+              "accord": "soapy",
+              "strength": 50,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '햇빛에 바싹 말린 빨래' 가 있고 청결감 축에 '세탁한 듯한' 이 있다. 비누 계열이 이 인상의 중심이다. [30] ai_summary 배수 4.50x·1위로 지지됨. [39] 배수 4.50 · 1위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 150,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 73631,
+          "name": "Dove",
+          "brand": "Asia Perfumes",
+          "people": 10,
+          "rating": 3.1,
+          "matched": [
+            {
+              "accord": "soapy",
+              "strength": 83,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '햇빛에 바싹 말린 빨래' 가 있고 청결감 축에 '세탁한 듯한' 이 있다. 비누 계열이 이 인상의 중심이다. [30] ai_summary 배수 4.50x·1위로 지지됨. [39] 배수 4.50 · 1위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "fresh",
+              "strength": 67,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "같은 축이 '뽀송한' 을 함께 두고 있다. 마른 빨래의 가볍고 개운한 쪽이다. [30] ai_summary 배수 1.77x·5위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            }
+          ],
+          "score": 150,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 89807,
+          "name": "Clean Vibes",
+          "brand": "ESSNCE",
+          "people": 25,
+          "rating": 3.16,
+          "matched": [
+            {
+              "accord": "soapy",
+              "strength": 100,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '햇빛에 바싹 말린 빨래' 가 있고 청결감 축에 '세탁한 듯한' 이 있다. 비누 계열이 이 인상의 중심이다. [30] ai_summary 배수 4.50x·1위로 지지됨. [39] 배수 4.50 · 1위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "fresh",
+              "strength": 49,
+              "from": "빨래",
+              "tier": "TEAM",
+              "rationale": "같은 축이 '뽀송한' 을 함께 두고 있다. 마른 빨래의 가볍고 개운한 쪽이다. [30] ai_summary 배수 1.77x·5위(순환)로 지지됨. [39] 검색어가 accord 이름과 같아 신호로 읽지 않음"
+            }
+          ],
+          "score": 149,
+          "avoid_confirmed": []
+        }
+      ],
+      "diagnostics": {
+        "stage": "AND",
+        "candidate_count": 518,
+        "tie_at_last": 1,
+        "relaxed": [],
+        "unmatched_hint": null
+      }
+    },
+    {
+      "status": "OK",
+      "query": "비 오는 숲 같은 향이면 좋겠어",
+      "conditions": {
+        "core": [
+          "earthy",
+          "mossy"
+        ],
+        "avoid": [],
+        "matched_expressions": [
+          "비 오는 숲"
+        ],
+        "source": "lexicon_only"
+      },
+      "results": [
+        {
+          "perfume_id": 33618,
+          "name": "Jasmine White Moss",
+          "brand": "Estée Lauder",
+          "people": 36,
+          "rating": 4.25,
+          "matched": [
+            {
+              "accord": "earthy",
+              "strength": 100,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "같은 계열의 습도 표현이 젖은 흙 쪽을 함께 둔다. 비 온 뒤의 땅 냄새다. [30] ai_summary 배수 3.04x·3위로 지지됨. [39] 배수 3.04 · 3위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "mossy",
+              "strength": 100,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 Mossy Woods 계열에 '숲 이미지 표현' 절이 있고 생활 비유에 '비 온 뒤 숲' 이 있다. 이끼가 젖은 숲 인상의 중심이다. [30] ai_summary 배수 3.63x·1위로 지지됨. [39] 배수 3.63 · 1위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 200,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 72317,
+          "name": "Madras Pour Homme",
+          "brand": "Myrurgia",
+          "people": 20,
+          "rating": 4.5,
+          "matched": [
+            {
+              "accord": "earthy",
+              "strength": 100,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "같은 계열의 습도 표현이 젖은 흙 쪽을 함께 둔다. 비 온 뒤의 땅 냄새다. [30] ai_summary 배수 3.04x·3위로 지지됨. [39] 배수 3.04 · 3위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "mossy",
+              "strength": 100,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 Mossy Woods 계열에 '숲 이미지 표현' 절이 있고 생활 비유에 '비 온 뒤 숲' 이 있다. 이끼가 젖은 숲 인상의 중심이다. [30] ai_summary 배수 3.63x·1위로 지지됨. [39] 배수 3.63 · 1위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 200,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 207,
+          "name": "Mitsouko Eau de Toilette",
+          "brand": "Guerlain",
+          "people": 5249,
+          "rating": 4.03,
+          "matched": [
+            {
+              "accord": "earthy",
+              "strength": 100,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "같은 계열의 습도 표현이 젖은 흙 쪽을 함께 둔다. 비 온 뒤의 땅 냄새다. [30] ai_summary 배수 3.04x·3위로 지지됨. [39] 배수 3.04 · 3위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "mossy",
+              "strength": 99,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 Mossy Woods 계열에 '숲 이미지 표현' 절이 있고 생활 비유에 '비 온 뒤 숲' 이 있다. 이끼가 젖은 숲 인상의 중심이다. [30] ai_summary 배수 3.63x·1위로 지지됨. [39] 배수 3.63 · 1위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 199,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 16047,
+          "name": "Byc Moze...Tokyo",
+          "brand": "Miraculum",
+          "people": 269,
+          "rating": 3.75,
+          "matched": [
+            {
+              "accord": "earthy",
+              "strength": 100,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "같은 계열의 습도 표현이 젖은 흙 쪽을 함께 둔다. 비 온 뒤의 땅 냄새다. [30] ai_summary 배수 3.04x·3위로 지지됨. [39] 배수 3.04 · 3위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "mossy",
+              "strength": 99,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 Mossy Woods 계열에 '숲 이미지 표현' 절이 있고 생활 비유에 '비 온 뒤 숲' 이 있다. 이끼가 젖은 숲 인상의 중심이다. [30] ai_summary 배수 3.63x·1위로 지지됨. [39] 배수 3.63 · 1위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 199,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 46535,
+          "name": "Weekend a Fontainebleau",
+          "brand": "IDEO Parfumeurs",
+          "people": 88,
+          "rating": 4.48,
+          "matched": [
+            {
+              "accord": "mossy",
+              "strength": 100,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 Mossy Woods 계열에 '숲 이미지 표현' 절이 있고 생활 비유에 '비 온 뒤 숲' 이 있다. 이끼가 젖은 숲 인상의 중심이다. [30] ai_summary 배수 3.63x·1위로 지지됨. [39] 배수 3.63 · 1위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "earthy",
+              "strength": 99,
+              "from": "비 오는 숲",
+              "tier": "TEAM",
+              "rationale": "같은 계열의 습도 표현이 젖은 흙 쪽을 함께 둔다. 비 온 뒤의 땅 냄새다. [30] ai_summary 배수 3.04x·3위로 지지됨. [39] 배수 3.04 · 3위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 199,
+          "avoid_confirmed": []
+        }
+      ],
+      "diagnostics": {
+        "stage": "AND",
+        "candidate_count": 2591,
+        "tie_at_last": 3,
+        "relaxed": [],
+        "unmatched_hint": null
+      }
+    },
+    {
+      "status": "OK",
+      "query": "이불 같은 포근한 향 추천해줘",
+      "conditions": {
+        "core": [
+          "powdery",
+          "soapy"
+        ],
+        "avoid": [],
+        "matched_expressions": [
+          "이불"
+        ],
+        "source": "lexicon_only"
+      },
+      "results": [
+        {
+          "perfume_id": 95065,
+          "name": "Hair Salon Grooming",
+          "brand": "ASMR Fragrances",
+          "people": 40,
+          "rating": 3.48,
+          "matched": [
+            {
+              "accord": "powdery",
+              "strength": 100,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '코튼 이불' 과 '깨끗한 침구' 가 있다. 보드라운 천의 인상이 파우더리한 질감으로 나타난다. [30] ai_summary 배수 1.57x·2위. [39] 배수 1.57 · 2위로 문턱 1.4 통과"
+            },
+            {
+              "accord": "soapy",
+              "strength": 87,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "'깨끗한 침구' 는 세탁된 상태를 말하므로 청결감 축의 비누 계열이 함께 걸린다. [30] ai_summary 배수 해당군 112개 중 2개. 2개로 계산한 배수는 의미가 없다. 지지도 반증도 아니다 → 판정하지 않는다. [39] 재계산(측정기록11) — 표본 부족 — 해당군 112개 중 보유 2개. 배수가 의미 없다. 측정 불가는 반증이 아니므로 강등하지 않는다"
+            }
+          ],
+          "score": 187,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 102596,
+          "name": "Enigma Blend",
+          "brand": "In The Box",
+          "people": 80,
+          "rating": 4.21,
+          "matched": [
+            {
+              "accord": "soapy",
+              "strength": 84,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "'깨끗한 침구' 는 세탁된 상태를 말하므로 청결감 축의 비누 계열이 함께 걸린다. [30] ai_summary 배수 해당군 112개 중 2개. 2개로 계산한 배수는 의미가 없다. 지지도 반증도 아니다 → 판정하지 않는다. [39] 재계산(측정기록11) — 표본 부족 — 해당군 112개 중 보유 2개. 배수가 의미 없다. 측정 불가는 반증이 아니므로 강등하지 않는다"
+            },
+            {
+              "accord": "powdery",
+              "strength": 79,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '코튼 이불' 과 '깨끗한 침구' 가 있다. 보드라운 천의 인상이 파우더리한 질감으로 나타난다. [30] ai_summary 배수 1.57x·2위. [39] 배수 1.57 · 2위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 163,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 89807,
+          "name": "Clean Vibes",
+          "brand": "ESSNCE",
+          "people": 25,
+          "rating": 3.16,
+          "matched": [
+            {
+              "accord": "soapy",
+              "strength": 100,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "'깨끗한 침구' 는 세탁된 상태를 말하므로 청결감 축의 비누 계열이 함께 걸린다. [30] ai_summary 배수 해당군 112개 중 2개. 2개로 계산한 배수는 의미가 없다. 지지도 반증도 아니다 → 판정하지 않는다. [39] 재계산(측정기록11) — 표본 부족 — 해당군 112개 중 보유 2개. 배수가 의미 없다. 측정 불가는 반증이 아니므로 강등하지 않는다"
+            },
+            {
+              "accord": "powdery",
+              "strength": 63,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '코튼 이불' 과 '깨끗한 침구' 가 있다. 보드라운 천의 인상이 파우더리한 질감으로 나타난다. [30] ai_summary 배수 1.57x·2위. [39] 배수 1.57 · 2위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 163,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 90433,
+          "name": "Invictus Parfum",
+          "brand": "Rabanne",
+          "people": 3141,
+          "rating": 4.3,
+          "matched": [
+            {
+              "accord": "soapy",
+              "strength": 83,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "'깨끗한 침구' 는 세탁된 상태를 말하므로 청결감 축의 비누 계열이 함께 걸린다. [30] ai_summary 배수 해당군 112개 중 2개. 2개로 계산한 배수는 의미가 없다. 지지도 반증도 아니다 → 판정하지 않는다. [39] 재계산(측정기록11) — 표본 부족 — 해당군 112개 중 보유 2개. 배수가 의미 없다. 측정 불가는 반증이 아니므로 강등하지 않는다"
+            },
+            {
+              "accord": "powdery",
+              "strength": 75,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '코튼 이불' 과 '깨끗한 침구' 가 있다. 보드라운 천의 인상이 파우더리한 질감으로 나타난다. [30] ai_summary 배수 1.57x·2위. [39] 배수 1.57 · 2위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 158,
+          "avoid_confirmed": []
+        },
+        {
+          "perfume_id": 77358,
+          "name": "Samia Intense",
+          "brand": "Thera Cosméticos",
+          "people": 26,
+          "rating": 4.04,
+          "matched": [
+            {
+              "accord": "soapy",
+              "strength": 86,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "'깨끗한 침구' 는 세탁된 상태를 말하므로 청결감 축의 비누 계열이 함께 걸린다. [30] ai_summary 배수 해당군 112개 중 2개. 2개로 계산한 배수는 의미가 없다. 지지도 반증도 아니다 → 판정하지 않는다. [39] 재계산(측정기록11) — 표본 부족 — 해당군 112개 중 보유 2개. 배수가 의미 없다. 측정 불가는 반증이 아니므로 강등하지 않는다"
+            },
+            {
+              "accord": "powdery",
+              "strength": 71,
+              "from": "이불",
+              "tier": "TEAM",
+              "rationale": "팀 문서의 생활 비유에 '코튼 이불' 과 '깨끗한 침구' 가 있다. 보드라운 천의 인상이 파우더리한 질감으로 나타난다. [30] ai_summary 배수 1.57x·2위. [39] 배수 1.57 · 2위로 문턱 1.4 통과"
+            }
+          ],
+          "score": 157,
+          "avoid_confirmed": []
+        }
+      ],
+      "diagnostics": {
+        "stage": "AND",
+        "candidate_count": 265,
+        "tie_at_last": 1,
+        "relaxed": [],
+        "unmatched_hint": null
+      }
+    },
+    {
+      "status": "NO_CONDITION",
+      "query": "데이트할 때 쓸 향수 추천해줘",
+      "conditions": {
+        "core": [],
+        "avoid": [],
+        "matched_expressions": [],
+        "source": "lexicon_only"
+      },
+      "results": [],
+      "diagnostics": {
+        "stage": "NO_CONDITION",
+        "candidate_count": 0,
+        "tie_at_last": 0,
+        "relaxed": [],
+        "unmatched_hint": "문장에서 향 조건을 하나도 찾지 못했다. 사전에 없는 표현이거나 향과 무관한 입력이다. 미매칭 로그에 기록하고 사용자에게 다시 입력을 요청한다."
+      }
+    },
+    {
+      "status": "NO_CONDITION",
+      "query": "밤에 쓰기 좋은 섹시한 향 추천해줘",
+      "conditions": {
+        "core": [],
+        "avoid": [],
+        "matched_expressions": [],
+        "source": "lexicon_only"
+      },
+      "results": [],
+      "diagnostics": {
+        "stage": "NO_CONDITION",
+        "candidate_count": 0,
+        "tie_at_last": 0,
+        "relaxed": [],
+        "unmatched_hint": "문장에서 향 조건을 하나도 찾지 못했다. 사전에 없는 표현이거나 향과 무관한 입력이다. 미매칭 로그에 기록하고 사용자에게 다시 입력을 요청한다."
+      }
+    },
+    {
+      "status": "NO_CONDITION",
+      "query": "호텔 라운지 같은 고급스러운 향 찾아줘",
+      "conditions": {
+        "core": [],
+        "avoid": [],
+        "matched_expressions": [],
+        "source": "lexicon_only"
+      },
+      "results": [],
+      "diagnostics": {
+        "stage": "NO_CONDITION",
+        "candidate_count": 0,
+        "tie_at_last": 0,
+        "relaxed": [],
+        "unmatched_hint": "문장에서 향 조건을 하나도 찾지 못했다. 사전에 없는 표현이거나 향과 무관한 입력이다. 미매칭 로그에 기록하고 사용자에게 다시 입력을 요청한다."
+      }
+    }
+  ]
+}
