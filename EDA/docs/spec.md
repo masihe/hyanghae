@@ -1134,8 +1134,8 @@ v1 을 덮어쓰지 않았다. §3 예제는 이 블록의 `이전` 칸이 원�
 
 ## 관련 문서
 
-- `docs/DECISIONS.md` — 자연어 추천 의사결정 기록 (N1 방언·은어 후순위, N2 accord 조합 매핑, N3 방법론 위치, N4 `ai_summary` 1차 근거, N5 v1.1 반영, N6 v1.2 §8 6번·2번 종결, **N7 A축 우선순위 전환, N8 합성 평가셋 구축, N9 정렬 규칙**)
-- `docs/nlr_engineering_notes.md` — 측정 기록 11건
+- `docs/DECISIONS.md` — 자연어 추천 의사결정 기록 (N1 방언·은어 후순위, N2 accord 조합 매핑, N3 방법론 위치, N4 `ai_summary` 1차 근거, N5 v1.1 반영, N6 v1.2 §8 6번·2번 종결, N7 A축 우선순위 전환, N8 합성 평가셋 구축, N9 정렬 규칙, **N10 직역의 단독 매핑 허용, N11 가중 조합 기각, N12 회피의 사전 경유, N13 분석기·임베딩 미도입**)
+- `docs/nlr_engineering_notes.md` — 측정 기록 18건
 - `docs/WORKING_NOTES.md` — **실행 환경과 함정.** 노트북을 돌리기 전에 읽는다
 - `analysis_outputs/16_golden_set_errata_report.md` — Golden Set 라벨 문제와 가이드 개정안
 - `25_stage1_rescoring_rule_v2.ipynb` — 채점 규칙 재정의

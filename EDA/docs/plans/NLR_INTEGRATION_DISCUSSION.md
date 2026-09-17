@@ -238,8 +238,8 @@ B·C 는 **막힌 사용자를 다른 기능으로 보내는 효과**가 있다.
 | 문서 | 내용 |
 |---|---|
 | `docs/spec.md` | 설계 전체. §2 구조 · §3 처리 흐름 · §4.3 사전 |
-| `docs/DECISIONS.md` | N1~N8. 특히 N2(accord 조합 매핑) · N7(우선순위) |
-| `docs/nlr_engineering_notes.md` | 측정 기록 11건 |
+| `docs/DECISIONS.md` | N1~N13. 특히 N2(accord 조합 매핑) · N7(우선순위) · N10(직역의 단독 매핑 허용) |
+| `docs/nlr_engineering_notes.md` | 측정 기록 18건 |
 | `delivery/verification.json` | 전달 묶음을 만들 때 실제로 잰 값 |
 | 팀 저장소 `ai/docs/search_rules.md` | 검색 규칙 명세. [측정]/[제안] 구분 |
 | 팀 저장소 `ai/README.md` | 실행 방법과 현재 성능·한계 |

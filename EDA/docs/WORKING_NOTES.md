@@ -173,3 +173,131 @@ print(d[['accord','perfume_count']].head(20).to_string(index=False))"
 # 보호 대상이 안 바뀌었는지
 cd .. && git status --short -- EDA/evaluation_data EDA/analysis_outputs/1[0-9]_* EDA/1[0-9]_*.ipynb
 ```
+
+---
+
+## 6. 팀 DB 를 로컬에서 보는 법
+
+**AI 서버는 DB 를 쓰지 않는다.** `ai/` 에 `psycopg` 도 `DATABASE_URL` 도 없고
+`nlr_engine.py` 가 `data/perfumes_nlr.csv.gz` 를 직접 읽는다. 이 절은 **팀 DB 에 무엇이
+들어 있는지 확인할 때만** 쓴다.
+
+### 띄우기 — 팀 저장소 루트에서
+
+```bash
+cd C:/Users/SSAFY/Desktop/S15P21E203
+docker compose -f compose.manual-test.yaml up -d --wait
+docker compose -f compose.manual-test.yaml ps
+```
+
+`postgres:17` 이 `0.0.0.0:5432->5432` 로 뜬다. Docker Desktop 을 먼저 켠다.
+
+### 붙기 — `psql` 을 PC 에 설치하지 않는다
+
+컨테이너 안의 `psql` 을 쓴다.
+
+```bash
+cd C:/Users/SSAFY/Desktop/S15P21E203
+docker compose -f compose.manual-test.yaml exec -T postgres \
+  psql -U hyanghae -d hyanghae_test -c "SELECT count(*) FROM perfumes;"
+```
+
+`-T` 를 붙인다. 없으면 TTY 를 요구해 비대화형 실행에서 막힌다.
+
+### VS Code · DataGrip 으로 볼 때
+
+| 항목 | 값 |
+|---|---|
+| Host | `localhost` |
+| Port | `5432` |
+| Database | `hyanghae_test` |
+| Username | `hyanghae` |
+| Password | **`compose.manual-test.yaml` 의 `POSTGRES_PASSWORD` 기본값** |
+
+**비밀번호를 이 문서에 적지 않는다.** `grep -n POSTGRES_PASSWORD compose.manual-test.yaml`
+로 확인한다. `${MANUAL_TEST_POSTGRES_PASSWORD:-기본값}` 형태라 환경변수를 안 정했으면
+`:-` 뒤가 실제 값이다.
+
+5432 가 이미 쓰이면(PC 에 PostgreSQL 이 깔려 있으면) `MANUAL_TEST_POSTGRES_PORT` 로 바꿔
+띄운다. 팀 문서 예시는 `55432` 다. 접속 정보의 원본은 팀 저장소 `backend/README.md` 8장,
+실행 방법은 `docs/local-development-guide.md` 다.
+
+VS Code 는 **SQLTools(`mtxr.sqltools`) + PostgreSQL 드라이버(`mtxr.sqltools-driver-pg`)
+둘 다** 깔아야 한다. 드라이버를 안 깔면 연결 종류 목록에 PostgreSQL 이 안 뜬다.
+
+### 무엇이 들어 있나 [측정 2026-09-17 · 운영 DB 를 로컬로 복원한 상태]
+
+```
+perfume_accords   1,000,570행 · 175MB      향수 × accord 강도
+perfumes            129,161행 ·  35MB
+brands                7,793행
+accords                  92종
+perfume_map_points      200행              향 지도용 대표 향수
+notes                   246행              **perfume_notes 는 0행 — 연결이 없다**
+users                    55행 · posts 90 · comments 255 · perfume_reviews 558
+전체 DB 크기        229MB
+```
+
+**개인정보가 있다.** `users` · `posts` · `comments` · `memos` 는 실제 사용자 데이터다.
+값을 옮겨 적거나 화면에 남기지 않는다. 건수만 센다.
+
+### AI CSV 와 DB 의 대응 — 대조해서 확인했다
+
+`perfumes_nlr.csv.gz` 와 DB 가 **같은 데이터**다. 샘플 3건을 한 글자씩 맞춰 봤다.
+
+| AI CSV | DB | 확인 |
+|---|---|---|
+| `id` | `perfumes.fragrantica_id` | 129,161건 전부 있음 |
+| `people` | `perfumes.fragrantica_rating_count` | id 1·3·4 에서 95 · 9,072 · 11,565 일치 |
+| `accords` 의 `name:strength` | `accords.name` + `perfume_accords.weight × 100` | 문자열까지 동일 |
+| `rating_avg` | **없다** | 아래 참고 |
+
+`perfume_accords.weight` 는 0.01~1.00 이다. 적재에서 `strength / 100` 으로 넣고
+`CHECK (weight > 0 AND weight <= 1)` 가 그 나눗셈을 빠뜨린 적재를 막는다
+(마이그레이션 `V6`).
+
+```sql
+-- 향수 하나의 accord 를 강도 순으로
+SELECT a.name, pa.rank, pa.weight
+FROM   perfume_accords pa
+JOIN   accords a ON a.accord_id = pa.accord_id
+WHERE  pa.perfume_id = (SELECT perfume_id FROM perfumes WHERE fragrantica_id = 1)
+ORDER  BY pa.weight DESC;
+```
+
+### 없는 것
+
+```
+rating_avg              평점 평균이 DB 에 없다. 엔진은 표시용으로만 쓰고
+                        정렬에는 안 쓴다(N9 가 평점을 정렬에서 뺐다) — 지금은 문제없다
+sillage_avg             확산력·지속력. **PREDEPLOY 안건 ① 이 "넣기로" 결정했으나 미구현.**
+longevity_avg           마이그레이션 19개에 한 건도 없다
+perfume_notes           0행. notes 246행은 있는데 향수와의 연결이 없다
+perfumes.description    129,161건 전부 NULL
+```
+
+### ⚠ `spec.md` §8 19번이 낡았다
+
+§8 19번이 *"팀 DB 의 `perfumes` 에는 향 지도용 **200개**, `accords` **60종**뿐이고
+`people` 컬럼이 없다"* 고 적고 있다. **셋 다 사실과 다르다** [측정 2026-09-17].
+
+```
+perfumes   200개  ->  **129,161개**
+accords     60종  ->  **92종**
+people 없음        ->  **fragrantica_rating_count 가 그 값이다**
+```
+
+200 은 `perfume_map_points`(향 지도 대표 향수), 60 은 `backend/db/seed/accords.csv`
+(seed 파일)의 수다. **seed 파일을 DB 현황으로 읽으면 틀린다.**
+
+이 때문에 *"AI 가 CSV 5MB 를 따로 들고 있는 이유"* 도 다시 봐야 한다. 적어도
+향수·accord·평가자 수는 DB 에 다 있다. `PREDEPLOY` 안건 ④(`perfumes_nlr.csv.gz` 를
+계속 쓸 것인가)를 이 사실 위에서 다시 판단한다.
+
+### 이 절의 한계
+
+- **로컬 복원본을 본 것이다.** 운영 서버 DB 에 직접 붙은 것이 아니다. 복원 시점 이후의
+  운영 데이터는 반영되지 않는다
+- **적재 절차를 읽지 않았다.** `backend/db/seed/load_perfume_catalog.sql` 등이 어떻게
+  넣는지 확인하지 않았다
+- **AI CSV 와의 대조는 3건 표본이다.** 129,161건 전수 대조는 하지 않았다
