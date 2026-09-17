@@ -1,0 +1,2926 @@
+note,accord,p,lift
+Absinthe,aromatic,0.911,2.201
+Absinthe,woody,0.6949,1.1258
+Acai Berry,fruity,0.9107,2.7798
+Acai Berry,sweet,0.6071,1.3212
+Acácia,floral,0.8556,2.4229
+Acácia,powdery,0.5556,1.1655
+Acácia,woody,0.5278,0.8551
+Acácia,sweet,0.5167,1.1244
+African Geranium,fresh spicy,0.9091,2.5372
+African Geranium,aromatic,0.8485,2.05
+African Geranium,woody,0.7576,1.2274
+African Geranium,warm spicy,0.5152,1.4997
+African Orange Flower,white floral,0.8584,2.8674
+African Orange Flower,citrus,0.7361,1.6195
+African Orange Flower,sweet,0.6444,1.4023
+African Orange Flower,woody,0.5968,0.9669
+Agarwood,oud,0.6821,10.8454
+Agarwood,woody,0.6773,1.0974
+Agarwood,warm spicy,0.6093,1.7737
+Agarwood,amber,0.5797,1.6816
+Agarwood (Oud),oud,0.7424,11.8031
+Agarwood (Oud),woody,0.6826,1.1059
+Agarwood (Oud),warm spicy,0.5913,1.7215
+Agarwood (Oud),amber,0.537,1.5577
+Agarwood (Oud),fresh spicy,0.5152,1.438
+Agave,woody,0.6923,1.1216
+Agave,green,0.6795,3.0128
+Agave,sweet,0.5385,1.1718
+Agave,citrus,0.5128,1.1282
+Airy Note,woody,0.5974,0.9679
+Akigalawood,woody,0.9007,1.4592
+Akigalawood,warm spicy,0.6727,1.9583
+Akigalawood,oud,0.6027,9.5825
+Aldehydes,woody,0.6605,1.0701
+Aldehydes,aldehydic,0.6267,23.2509
+Aldehydes,fresh,0.6062,2.3888
+Aldehydes,powdery,0.5296,1.1112
+Algae,marine,0.7593,23.1551
+Algae,aromatic,0.7315,1.7673
+Algae,woody,0.7222,1.1701
+Algae,aquatic,0.6019,8.9498
+Allspice,fresh spicy,0.8402,2.345
+Allspice,woody,0.7278,1.1791
+Allspice,aromatic,0.6213,1.5011
+Allspice,warm spicy,0.5917,1.7226
+Almond,sweet,0.833,1.8128
+Almond,almond,0.6882,26.4078
+Almond,vanilla,0.5754,2.1963
+Almond,fruity,0.537,1.6393
+Almond,powdery,0.5068,1.0633
+Almond Blossom,floral,0.9164,2.5951
+Almond Blossom,sweet,0.9018,1.9625
+Almond Blossom,powdery,0.6145,1.2893
+Almond Blossom,vanilla,0.5418,2.0682
+Almond Milk,sweet,0.8528,1.8558
+Almond Milk,almond,0.797,30.5824
+Almond Milk,fruity,0.5736,1.7509
+Almond Milk,nutty,0.5584,20.3555
+Almond Milk,vanilla,0.5228,1.9958
+Aloe Vera,green,0.8354,3.7043
+Aloe Vera,woody,0.7215,1.169
+Aloe Vera,aquatic,0.5633,8.3764
+Aloe Vera,sweet,0.5063,1.1019
+Amalfi Lemon,citrus,0.88,1.936
+Amalfi Lemon,aromatic,0.7185,1.7359
+Amalfi Lemon,woody,0.6951,1.1261
+Amaretto,fruity,0.9322,2.8454
+Amaretto,almond,0.8983,34.4716
+Amaretto,sweet,0.7542,1.6413
+Amaretto,vanilla,0.5339,2.038
+Amaryllis,floral,0.8378,2.3727
+Amaryllis,fresh,0.5676,2.2367
+Amber,amber,0.6659,1.9317
+Amber,woody,0.6628,1.0738
+Amber,powdery,0.563,1.1812
+Amber Xtreme,woody,0.9358,1.5161
+Amber Xtreme,amber,0.8532,2.4751
+Amber Xtreme,balsamic,0.5138,3.732
+Ambergris,amber,0.7246,2.102
+Ambergris,woody,0.6914,1.1202
+Amberwood,woody,0.8634,1.3988
+Amberwood,amber,0.7553,2.191
+Amberwood,warm spicy,0.5629,1.6387
+Ambrarome,woody,0.8772,1.4212
+Ambrarome,amber,0.8596,2.4938
+Ambrarome,balsamic,0.7544,5.4799
+Ambrarome,warm spicy,0.7544,2.1961
+Ambrette,musky,0.7514,2.4089
+Ambrette,floral,0.694,1.9653
+Ambrette,woody,0.5612,0.9092
+Ambrette,aromatic,0.5348,1.2922
+Ambrette,powdery,0.5141,1.0786
+Ambrette (Musk Mallow),floral,0.7475,2.1168
+Ambrette (Musk Mallow),musky,0.693,2.2214
+Ambrette (Musk Mallow),woody,0.6342,1.0275
+Ambrette (Musk Mallow),aromatic,0.5218,1.2607
+Ambrettolide,amber,0.7328,2.1259
+Ambrettolide,musky,0.7176,2.3003
+Ambrettolide,woody,0.6718,1.0883
+Ambrocenide,woody,0.908,1.4711
+Ambrocenide,amber,0.8621,2.5008
+Ambrocenide,aromatic,0.5287,1.2774
+Ambrocenide,fresh spicy,0.5057,1.4115
+Ambrofix™,woody,0.7122,1.1539
+Ambrofix™,citrus,0.6403,1.4086
+Ambrofix™,sweet,0.5899,1.2838
+Ambrofix™,fresh spicy,0.5612,1.5661
+Ambrox Super,woody,0.6667,1.0801
+Ambrox Super,musky,0.5152,1.6515
+Ambroxan,amber,0.7817,2.2677
+Ambroxan,musky,0.6847,2.195
+Ambroxan,woody,0.6686,1.0833
+Ambroxan,citrus,0.5313,1.1688
+Amyl Salicylate,sweet,0.68,1.4798
+Amyl Salicylate,fruity,0.64,1.9535
+Amyl Salicylate,floral,0.54,1.5293
+Amyl Salicylate,woody,0.52,0.8425
+Amyris,woody,0.9172,1.486
+Amyris,aromatic,0.749,1.8095
+Amyris,warm spicy,0.5007,1.4576
+Angelica,musky,0.7622,2.4434
+Angelica,amber,0.7305,2.1191
+Angelica,powdery,0.701,1.4707
+Angelica,woody,0.6908,1.1192
+Angelica,aromatic,0.5742,1.3872
+Angelica Root,aromatic,0.697,1.6839
+Angelica Root,woody,0.6212,1.0064
+Angelica Root,fresh spicy,0.5303,1.48
+Angelica Root,powdery,0.5152,1.0808
+Animal notes,animalic,0.8295,5.9988
+Animal notes,woody,0.6744,1.0926
+Animal notes,musky,0.6434,2.0626
+Anise,woody,0.6227,1.0088
+Anise,sweet,0.5831,1.269
+Anise,aromatic,0.5086,1.2287
+Apple,fruity,0.7627,2.3281
+Apple,woody,0.6517,1.0558
+Apple,citrus,0.5375,1.1824
+Apple,fresh,0.5315,2.0946
+Apple Blossom,floral,0.8964,2.5386
+Apple Blossom,fruity,0.7484,2.2844
+Apple Blossom,fresh,0.5877,2.3162
+Apple Blossom,powdery,0.5624,1.1798
+Apple Blossom,sweet,0.556,1.21
+Apple Tree,woody,0.9074,1.4701
+Apple Tree,floral,0.7037,1.9929
+Apple Tree,citrus,0.7037,1.5481
+Apple Tree,sweet,0.6852,1.4911
+Apple Tree,fruity,0.6111,1.8653
+Apple Tree,fresh,0.5741,2.2623
+Apple Tree,green,0.5,2.2169
+Apricot,fruity,0.8384,2.5591
+Apricot,powdery,0.7543,1.5825
+Apricot,sweet,0.7097,1.5445
+Apricot,floral,0.5304,1.5021
+Apricot,woody,0.5167,0.8371
+Apricot Blossom,floral,0.9259,2.6222
+Apricot Blossom,fruity,0.8519,2.6002
+Apricot Blossom,sweet,0.7778,1.6926
+Apricot Blossom,powdery,0.6543,1.3727
+Apricot Blossom,woody,0.5432,0.8801
+Aquatic notes,aromatic,0.8388,2.0265
+Aquatic notes,marine,0.7735,23.5885
+Aquatic notes,woody,0.5633,0.9126
+Aquatic notes,citrus,0.549,1.2077
+Aromatic Notes,woody,0.7043,1.1411
+Aromatic Spices,warm spicy,0.8333,2.426
+Aromatic Spices,woody,0.7843,1.2707
+Aromatic Spices,amber,0.5392,1.5642
+Aromatic Spices,powdery,0.5294,1.1107
+Artemisia,aromatic,0.8482,2.0493
+Artemisia,woody,0.7817,1.2664
+Artemisia,fresh spicy,0.7123,1.9881
+Artemisia,herbal,0.593,9.0889
+Ash,smoky,0.8889,15.8325
+Ash,woody,0.8889,1.4401
+Ash,amber,0.5051,1.4651
+Assam Oud,oud,0.7963,12.6603
+Assam Oud,fresh spicy,0.5185,1.4471
+Assam Oud,woody,0.5185,0.8401
+Atlas Cedar,woody,0.9138,1.4804
+Atlas Cedar,aromatic,0.6888,1.664
+Atlas Cedar,fresh spicy,0.555,1.549
+Atlas Cedar,amber,0.5038,1.4614
+Australian Sandalwood,woody,0.8902,1.4422
+Australian Sandalwood,powdery,0.6686,1.4027
+Australian Sandalwood,warm spicy,0.5588,1.6266
+Australian Sandalwood,aromatic,0.5202,1.2569
+Baie Rose,woody,0.6818,1.1046
+Baie Rose,citrus,0.5303,1.1667
+Baie Rose,sweet,0.5,1.0881
+Balsam Fir,woody,0.9477,1.5354
+Balsam Fir,aromatic,0.8583,2.0737
+Balsam Fir,fresh spicy,0.8226,2.2957
+Balsamic Notes,woody,0.7229,1.1712
+Balsamic Notes,amber,0.5301,1.5379
+Bamboo,woody,0.9385,1.5205
+Bamboo,citrus,0.5777,1.2709
+Bamboo Leaf,woody,0.9559,1.5486
+Bamboo Leaf,citrus,0.5882,1.2941
+Bamboo Leaf,aromatic,0.5147,1.2435
+Banana,sweet,0.9511,2.0697
+Banana,fruity,0.9021,2.7537
+Banana,tropical,0.6514,13.1966
+Banana Leaf,green,0.9474,4.2005
+Banana Leaf,fresh,0.6667,2.6272
+Banana Leaf,sweet,0.6316,1.3744
+Banana Leaf,woody,0.5088,0.8243
+Bark,woody,0.9254,1.4992
+Bark,warm spicy,0.597,1.738
+Bark,amber,0.5075,1.4721
+Barley,woody,0.6515,1.0555
+Barley,warm spicy,0.5455,1.5879
+Barley,sweet,0.5455,1.187
+Barley,aromatic,0.5152,1.2446
+Basil,aromatic,0.9181,2.2182
+Basil,fresh spicy,0.8974,2.5047
+Basil,woody,0.7497,1.2147
+Basil,green,0.6279,2.7842
+Basil,citrus,0.6209,1.366
+Bay Leaf,fresh spicy,0.854,2.3834
+Bay Leaf,aromatic,0.8392,2.0276
+Bay Leaf,woody,0.8038,1.3023
+Bay Leaf,citrus,0.5354,1.1779
+Beeswax,woody,0.6063,0.9823
+Beeswax,beeswax,0.5264,198.9894
+Beeswax,sweet,0.5173,1.1258
+Bellflower,floral,0.8362,2.3681
+Bellflower,woody,0.6638,1.0754
+Bellflower,citrus,0.6379,1.4034
+Bellflower,fresh,0.6207,2.446
+Bellflower,fresh spicy,0.5517,1.5398
+Bellflower,white floral,0.5431,1.8141
+Benzoin,amber,0.8115,2.354
+Benzoin,warm spicy,0.6777,1.9728
+Benzoin,woody,0.6535,1.0587
+Bergamot,citrus,0.7439,1.6366
+Bergamot,woody,0.72,1.1666
+Bergamot,aromatic,0.573,1.3843
+Bergamot,fresh spicy,0.5318,1.4842
+Bergamot,powdery,0.5123,1.0747
+Berries,sweet,0.8065,1.755
+Berries,fruity,0.7742,2.3631
+Berries,woody,0.5242,0.8493
+Big Strawberry,fruity,0.9435,2.8799
+Big Strawberry,sweet,0.9379,2.0409
+Big Strawberry,powdery,0.565,1.1853
+Bigarade,citrus,0.697,1.5333
+Bigarade,woody,0.6667,1.0801
+Bigarade,fresh spicy,0.6364,1.776
+Bigarade,aromatic,0.6061,1.4643
+Birch,woody,0.8772,1.4212
+Birch,leather,0.6949,8.4811
+Birch,smoky,0.5346,9.5213
+Birch Leaf,woody,0.8655,1.4023
+Birch Leaf,aromatic,0.7143,1.7257
+Birch Leaf,leather,0.6891,8.4106
+Birch Leaf,citrus,0.5378,1.1832
+Birch Leaf,smoky,0.5294,9.4296
+Birch Leaf,fresh spicy,0.521,1.4541
+Birch Tar,leather,0.8061,9.8384
+Birch Tar,woody,0.7606,1.2323
+Birch Tar,smoky,0.5485,9.7694
+Birch Tar,amber,0.5394,1.5648
+Biscuit,sweet,0.9603,2.0897
+Biscuit,vanilla,0.6755,2.5785
+Biscuit,powdery,0.5364,1.1254
+Bitter Almond,sweet,0.7476,1.6269
+Bitter Almond,almond,0.6709,25.7462
+Bitter Almond,woody,0.5879,0.9524
+Bitter Almond,vanilla,0.5511,2.1037
+Bitter Almond,fruity,0.508,1.5506
+Bitter Orange,citrus,0.8872,1.9519
+Bitter Orange,woody,0.707,1.1455
+Bitter Orange,aromatic,0.5473,1.3222
+Bitter Orange,fresh spicy,0.5246,1.4641
+Black Amber,amber,0.7589,2.2016
+Black Amber,woody,0.683,1.1066
+Black Cardamom,warm spicy,0.9245,2.6914
+Black Cardamom,aromatic,0.8113,1.9602
+Black Cardamom,amber,0.717,2.0799
+Black Cardamom,woody,0.717,1.1616
+Black Cherry,cherry,0.8577,62.7618
+Black Cherry,sweet,0.6951,1.5127
+Black Cherry,woody,0.5854,0.9484
+Black Cherry,vanilla,0.5203,1.9862
+Black Currant,fruity,0.8541,2.6072
+Black Currant,woody,0.7489,1.2133
+Black Currant,floral,0.523,1.4812
+Black Currant,sweet,0.5117,1.1135
+Black Currant,citrus,0.5094,1.1206
+Black Currant Blossom,floral,0.7639,2.1633
+Black Currant Blossom,fruity,0.6806,2.0773
+Black Currant Blossom,woody,0.625,1.0126
+Black Currant Blossom,aromatic,0.5,1.208
+Black Elder,sweet,0.8036,1.7487
+Black Elder,floral,0.7768,2.1998
+Black Elder,woody,0.6518,1.056
+Black Leather,woody,0.7397,1.1984
+Black Leather,warm spicy,0.589,1.7148
+Black Leather,amber,0.589,1.7088
+Black Leather,aromatic,0.5342,1.2908
+Black Musk,musky,0.7186,2.3036
+Black Musk,woody,0.6633,1.0747
+Black Musk,powdery,0.598,1.2546
+Black Musk,warm spicy,0.5276,1.536
+Black Orchid,sweet,0.8511,1.8521
+Black Orchid,woody,0.7589,1.2295
+Black Orchid,floral,0.7305,2.0687
+Black Orchid,powdery,0.7021,1.473
+Black Orchid,fruity,0.5248,1.602
+Black Pepper,fresh spicy,0.8482,2.3672
+Black Pepper,woody,0.7856,1.2728
+Black Pepper,warm spicy,0.7174,2.0885
+Black Pepper,aromatic,0.6546,1.5816
+Black Rose,rose,0.6839,3.522
+Black Rose,woody,0.6839,1.108
+Black Spruce,woody,0.9524,1.543
+Black Spruce,aromatic,0.9365,2.2626
+Black Spruce,fresh spicy,0.6667,1.8606
+Black Spruce,balsamic,0.619,4.4968
+Black Spruce,amber,0.5079,1.4735
+Black Tea,green,0.6926,3.0707
+Black Tea,woody,0.6624,1.0731
+Black Tea,aromatic,0.5275,1.2745
+Black Tea,fresh spicy,0.507,1.415
+Black Vanilla Husk,vanilla,0.8643,3.2991
+Black Vanilla Husk,sweet,0.6786,1.4767
+Black Vanilla Husk,powdery,0.5857,1.2288
+Black Vanilla Husk,woody,0.55,0.8911
+Black Violet,powdery,0.8,1.6784
+Black Violet,woody,0.8,1.2961
+Black Violet,violet,0.6778,11.7441
+Black Violet,fruity,0.6222,1.8993
+Black Violet,sweet,0.5444,1.1848
+Black Violet,floral,0.5,1.416
+Black and Pink Pepper,fresh spicy,0.9038,2.5226
+Black and Pink Pepper,woody,0.6538,1.0593
+Black and Pink Pepper,warm spicy,0.6154,1.7915
+Black and Pink Pepper,aromatic,0.5577,1.3474
+Black and Pink Pepper,amber,0.5192,1.5063
+Black currant leaf,green,0.7582,3.362
+Black currant leaf,fruity,0.7033,2.1467
+Black currant leaf,woody,0.5934,0.9614
+Black currant leaf,aromatic,0.5879,1.4204
+Black currant leaf,fresh spicy,0.5385,1.5028
+Black locust,sweet,0.8171,1.7781
+Black locust,white floral,0.7805,2.607
+Black locust,woody,0.5854,0.9484
+Black locust,floral,0.5488,1.5541
+Blackberry,fruity,0.9396,2.8681
+Blackberry,sweet,0.8525,1.8551
+Blackberry,powdery,0.5633,1.1819
+Blackberry,woody,0.5499,0.8909
+Blackcurrant,fruity,0.8355,2.5502
+Blackcurrant,woody,0.6937,1.1239
+Blackcurrant Syrup,fruity,0.8594,2.6231
+Blackcurrant Syrup,woody,0.7188,1.1645
+Blackcurrant Syrup,floral,0.6719,1.9027
+Blackwood,woody,0.96,1.5553
+Blonde Woods,sweet,0.5596,1.2179
+Blood,mineral,0.75,128.5032
+Blood,metallic,0.7105,41.9417
+Blood,woody,0.5526,0.8953
+Blood Grapefruit,citrus,0.8387,1.8451
+Blood Grapefruit,sweet,0.5645,1.2285
+Blood Grapefruit,woody,0.5645,0.9146
+Blood Grapefruit,fruity,0.5323,1.6247
+Blood Grapefruit,fresh spicy,0.5,1.3955
+Blood Mandarin,citrus,0.805,1.771
+Blood Mandarin,woody,0.6792,1.1005
+Blood Mandarin,aromatic,0.5094,1.2308
+Blood Mandarin,amber,0.5031,1.4596
+Blood Orange,citrus,0.8743,1.9235
+Blood Orange,woody,0.6168,0.9992
+Blood Orange,sweet,0.5547,1.2071
+Blood Orange,fresh spicy,0.5151,1.4377
+Blue Lotus,floral,0.8634,2.4451
+Blue Lotus,woody,0.6066,0.9827
+Blueberry,fruity,0.9222,2.815
+Blueberry,sweet,0.8354,1.8181
+Blueberry,woody,0.5208,0.8438
+Boronia,floral,0.8113,2.2976
+Boronia,woody,0.6887,1.1157
+Bourbon Geranium,aromatic,0.8834,2.1344
+Bourbon Geranium,fresh spicy,0.8773,2.4485
+Bourbon Geranium,woody,0.7914,1.2822
+Bourbon Geranium,warm spicy,0.5583,1.6252
+Bourbon Geranium,citrus,0.5215,1.1472
+Bourbon Vanilla,vanilla,0.7509,2.8664
+Bourbon Vanilla,sweet,0.6975,1.5178
+Bourbon Vanilla,powdery,0.6005,1.2599
+Bourbon Vanilla,woody,0.5743,0.9304
+Bourbon Vetiver,woody,0.92,1.4905
+Bourbon Vetiver,aromatic,0.776,1.8748
+Bourbon Whiskey,warm spicy,0.9595,2.7931
+Bourbon Whiskey,woody,0.9189,1.4888
+Bourbon Whiskey,sweet,0.6486,1.4116
+Bran,aromatic,0.6667,1.6107
+Bran,sweet,0.619,1.3471
+Bran,woody,0.6032,0.9772
+Brandy,woody,0.925,1.4986
+Brandy,warm spicy,0.8438,2.4563
+Brandy,sweet,0.75,1.6321
+Brazilian Orange,citrus,0.869,1.9119
+Brazilian Orange,woody,0.6667,1.0801
+Brazilian Orange,sweet,0.6429,1.399
+Brazilian Orange,fresh spicy,0.5655,1.5782
+Brazilian Orange,aromatic,0.5298,1.2799
+Brazilian Rosewood,woody,0.8857,1.4349
+Brazilian Rosewood,aromatic,0.5834,1.4096
+Brazilian Rosewood,sweet,0.5296,1.1524
+Bread,sweet,0.663,1.4429
+Bread,savory,0.5543,111.8274
+Broom,sweet,0.77,1.6755
+Broom,yellow floral,0.6056,11.4373
+Broom,woody,0.5634,0.9127
+Brown sugar,sweet,0.9777,2.1276
+Brown sugar,vanilla,0.5609,2.141
+Brown sugar,powdery,0.506,1.0616
+Bubble Gum,sweet,0.8655,1.8836
+Bubble Gum,fruity,0.8571,2.6163
+Bubble Gum,tropical,0.5462,11.0661
+Buchu or Agathosma,aromatic,0.8365,2.0211
+Buchu or Agathosma,woody,0.6538,1.0593
+Buchu or Agathosma,fresh spicy,0.5385,1.5028
+Buchu or Agathosma,citrus,0.5,1.1
+Bulgarian Rose,rose,0.6786,3.4949
+Bulgarian Rose,woody,0.6409,1.0383
+Bulgarian Rose,floral,0.5236,1.4827
+Bulgarian Rose,powdery,0.5038,1.0569
+Burnt Sugar,sweet,0.7887,1.7164
+Burnt Sugar,vanilla,0.5775,2.2043
+Burnt Sugar,powdery,0.5493,1.1524
+Burnt Sugar,woody,0.507,0.8215
+Butter,sweet,0.8191,1.7825
+Butter,lactonic,0.6118,11.5058
+Butter,vanilla,0.5793,2.2112
+Butter,powdery,0.5407,1.1343
+CO2 Extracts,woody,0.614,0.9948
+CO2 Extracts,warm spicy,0.5439,1.5833
+Cabreuva,woody,0.8701,1.4097
+Cabreuva,aromatic,0.5974,1.4433
+Cabreuva,sweet,0.5714,1.2435
+Cabreuva,citrus,0.5325,1.1714
+Cacao,warm spicy,0.8506,2.4761
+Cacao,sweet,0.7617,1.6576
+Cacao,cacao,0.7295,47.2939
+Cacao,woody,0.5762,0.9336
+Cacao,vanilla,0.5088,1.9422
+Cacao Pod,warm spicy,0.8731,2.5417
+Cacao Pod,sweet,0.7614,1.657
+Cacao Pod,cacao,0.736,47.7179
+Cacao Pod,woody,0.5431,0.88
+Cactus,green,0.8229,3.6487
+Cactus,woody,0.5833,0.9451
+Cactus,citrus,0.5521,1.2146
+Cactus,aromatic,0.5208,1.2584
+Cactus Flower,green,0.8684,3.8505
+Cactus Flower,floral,0.5526,1.565
+Cactus Flower,woody,0.5526,0.8953
+Cactus Flower,powdery,0.5395,1.1318
+Cactus Flower,citrus,0.5132,1.1289
+Cade oil,woody,0.9367,1.5175
+Cade oil,aromatic,0.8235,1.9897
+Cade oil,fresh spicy,0.7059,1.9701
+Cade oil,amber,0.5656,1.6408
+Cade oil,warm spicy,0.5204,1.5148
+Cake,sweet,0.8592,1.8697
+Cake,vanilla,0.5845,2.2312
+Calabrian bergamot,citrus,0.8111,1.7844
+Calabrian bergamot,woody,0.7108,1.1516
+Calabrian bergamot,fresh spicy,0.6329,1.7664
+Calabrian bergamot,aromatic,0.5852,1.4139
+Calamus,woody,0.8992,1.4569
+Calamus,warm spicy,0.6202,1.8054
+Calamus,aromatic,0.5891,1.4234
+Calamus,amber,0.5504,1.5967
+Calone,fresh,0.8817,3.4747
+Calone,citrus,0.6487,1.4272
+Calone,woody,0.6344,1.0278
+Calone,aromatic,0.5878,1.4202
+Cambodian Oud,woody,0.9269,1.5018
+Cambodian Oud,warm spicy,0.7877,2.293
+Cambodian Oud,animalic,0.7831,5.6636
+Camelia,floral,0.9634,2.7284
+Camelia,powdery,0.9268,1.9444
+Camelia,citrus,0.5366,1.1805
+Camellia,floral,0.9244,2.6178
+Camellia,powdery,0.8571,1.7982
+Camellia,citrus,0.5042,1.1092
+Camphor,woody,0.7527,1.2195
+Camphor,camphor,0.6758,112.4357
+Camphor,aromatic,0.6758,1.6328
+Camphor,fresh spicy,0.5549,1.5488
+Candied Almond,sweet,0.8548,1.8603
+Candied Almond,vanilla,0.629,2.4011
+Candied Almond,warm spicy,0.5645,1.6434
+Candied Almond,almond,0.5,19.187
+Candied Almond,woody,0.5,0.8101
+Candied Fruits,sweet,0.9394,2.0443
+Candied Fruits,fruity,0.7475,2.2816
+Candied Fruits,vanilla,0.5051,1.9279
+Candy apple,sweet,0.9815,2.1359
+Candy apple,fruity,0.8981,2.7415
+Candy apple,gourmand,0.8611,752.3602
+Candy apple,powdery,0.537,1.1267
+Cappuccino,sweet,0.7253,1.5783
+Cappuccino,coffee,0.6923,50.3229
+Cappuccino,woody,0.6813,1.1038
+Carambola (Star Fruit),fruity,0.9532,2.9096
+Carambola (Star Fruit),tropical,0.7778,15.7574
+Carambola (Star Fruit),sweet,0.6316,1.3744
+Carambola (Star Fruit),fresh,0.614,2.4198
+Carambola (Star Fruit),citrus,0.5906,1.2994
+Caramel,sweet,0.8809,1.9169
+Caramel,caramel,0.736,24.2251
+Caramel,vanilla,0.5841,2.2295
+Caramel,powdery,0.5228,1.0968
+Caraway,fresh spicy,0.8212,2.292
+Caraway,woody,0.8091,1.3109
+Caraway,aromatic,0.7903,1.9094
+Caraway,warm spicy,0.5511,1.6043
+Cardamom,warm spicy,0.8546,2.4878
+Cardamom,aromatic,0.8047,1.9441
+Cardamom,woody,0.7674,1.2432
+Cardamom,fresh spicy,0.5506,1.5366
+Cardamon,warm spicy,0.8312,2.4196
+Cardamon,aromatic,0.8052,1.9454
+Cardamon,woody,0.7597,1.2309
+Cardamon,fresh spicy,0.6299,1.7579
+Cardamon,citrus,0.5779,1.2714
+Carnation,floral,0.7562,2.1415
+Carnation,woody,0.7079,1.1469
+Carnation,warm spicy,0.6913,2.0124
+Carnation,aromatic,0.619,1.4956
+Carrot,powdery,0.8258,1.7325
+Carrot,woody,0.6387,1.0348
+Carrot Seeds,powdery,0.8373,1.7565
+Carrot Seeds,woody,0.7358,1.1922
+Carrot Seeds,musky,0.5637,1.807
+Carrot Seeds,aromatic,0.559,1.3505
+Casablanca Lily,white floral,0.8431,2.8163
+Casablanca Lily,woody,0.6275,1.0165
+Casablanca Lily,sweet,0.5882,1.2801
+Casablanca Lily,powdery,0.5294,1.1107
+Cashmeran,woody,0.8701,1.4096
+Cashmeran,powdery,0.7439,1.5607
+Cashmeran,musky,0.6329,2.0288
+Cashmeran,amber,0.5557,1.6122
+Cashmere Musk,musky,0.6939,2.2244
+Cashmere Musk,powdery,0.6857,1.4386
+Cashmere Musk,woody,0.6449,1.0448
+Cashmere Musk,sweet,0.5306,1.1547
+Cashmere Wood,woody,0.872,1.4128
+Cashmere Wood,musky,0.5722,1.8343
+Cashmere Wood,amber,0.5688,1.6501
+Cashmirwood,woody,0.8714,1.4118
+Cashmirwood,amber,0.6,1.7406
+Cashmirwood,musky,0.5857,1.8777
+Cassia,woody,0.742,1.2022
+Cassia,aromatic,0.658,1.5897
+Cassia,fruity,0.6087,1.858
+Cassis,woody,0.6861,1.1115
+Cassis,fruity,0.6817,2.0807
+Cassis,aromatic,0.6773,1.6363
+Cassis,green,0.5232,2.3199
+Castoreum,woody,0.8671,1.4048
+Castoreum,leather,0.6403,7.8156
+Castoreum,amber,0.6208,1.801
+Castoreum,musky,0.527,1.6893
+Cedar,woody,0.8814,1.428
+Cedar,aromatic,0.5797,1.4007
+Cedar,citrus,0.5471,1.2036
+Cedar,powdery,0.5393,1.1313
+Cedar Leaves,woody,0.8689,1.4076
+Cedar Leaves,aromatic,0.7049,1.7031
+Cedar Leaves,amber,0.5738,1.6645
+Cedar Leaves,citrus,0.5738,1.2623
+Cedar Leaves,fresh spicy,0.541,1.5098
+Cedar Needles,woody,0.9685,1.5691
+Cedar Needles,aromatic,0.8346,2.0165
+Cedar Needles,fresh spicy,0.6693,1.8679
+Cedar Needles,citrus,0.6063,1.3338
+Cedarwood,woody,0.8745,1.4168
+Cedarwood,aromatic,0.5401,1.3048
+Cedarwood,powdery,0.5212,1.0934
+Cedarwood,citrus,0.518,1.1397
+Celery,aromatic,0.87,2.102
+Celery,woody,0.7,1.1341
+Celery,green,0.62,2.749
+Celery,fresh spicy,0.59,1.6466
+Celery Seeds,aromatic,0.8594,2.0763
+Celery Seeds,woody,0.7812,1.2657
+Celery Seeds,fresh spicy,0.6719,1.8752
+Celery Seeds,green,0.5938,2.6326
+Celery Seeds,citrus,0.5156,1.1344
+Cetalox,woody,0.8904,1.4426
+Cetalox,amber,0.8082,2.3446
+Cetalox,musky,0.7397,2.3714
+Ceylon Cinnamon,warm spicy,0.8134,2.3679
+Ceylon Cinnamon,woody,0.7895,1.279
+Ceylon Cinnamon,amber,0.5598,1.624
+Ceylon Cinnamon,citrus,0.512,1.1263
+Ceylon Cinnamon,fresh spicy,0.5072,1.4155
+Chamomile,aromatic,0.7021,1.6962
+Chamomile,herbal,0.6726,10.3092
+Chamomile,floral,0.5988,1.6958
+Chamomile,woody,0.5969,0.967
+Chamomile,fresh spicy,0.5703,1.5917
+Champaca,floral,0.8569,2.4266
+Champaca,sweet,0.7156,1.5573
+Champaca,woody,0.646,1.0465
+Champagne,Champagne,0.7585,321.7805
+Champagne,sweet,0.6585,1.4331
+Champagne,fruity,0.6488,1.9803
+Champagne,citrus,0.5951,1.3093
+Champagne,aldehydic,0.5244,19.4552
+Cherry,sweet,0.9143,1.9897
+Cherry,cherry,0.8018,58.6661
+Cherry,fruity,0.6366,1.9433
+Cherry Blossom,floral,0.9563,2.7082
+Cherry Blossom,fruity,0.7966,2.4316
+Cherry Blossom,fresh,0.7882,3.1063
+Cherry Blossom,sweet,0.5429,1.1813
+Cherry Blossom,powdery,0.516,1.0825
+Cherry Liqueur,sweet,0.8902,1.9373
+Cherry Liqueur,vanilla,0.7073,2.7
+Cherry Liqueur,woody,0.6951,1.1262
+Cherry Liqueur,fruity,0.6585,2.0101
+Cherry Liqueur,cherry,0.5976,43.725
+Cherry Liqueur,almond,0.5122,19.655
+Chestnut,warm spicy,0.6906,2.0103
+Chestnut,woody,0.6743,1.0924
+Chestnut,balsamic,0.5635,4.0934
+Chestnut,sweet,0.544,1.1838
+Chestnut,amber,0.5342,1.5497
+Chili Pepper,warm spicy,0.949,2.7628
+Chili Pepper,woody,0.6943,1.1248
+Chili Pepper,fresh spicy,0.5032,1.4044
+Chili Pepper,aromatic,0.5032,1.2157
+Chinese Osmanthus,floral,0.75,2.124
+Chinese Osmanthus,fruity,0.6875,2.0985
+Chinese Osmanthus,woody,0.6607,1.0704
+Chocolate,sweet,0.8835,1.9227
+Chocolate,warm spicy,0.8371,2.437
+Chocolate,chocolate,0.6733,57.1645
+Chocolate,vanilla,0.5278,2.0145
+Choya Loban,amber,0.8824,2.5597
+Choya Loban,woody,0.7451,1.2072
+Choya Loban,balsamic,0.6078,4.4154
+Choya Loban,warm spicy,0.5294,1.5412
+Choya Loban,aromatic,0.5294,1.2791
+Chrysanthemum,herbal,0.7609,11.6628
+Chrysanthemum,fresh spicy,0.663,1.8505
+Chrysanthemum,floral,0.6087,1.7238
+Chrysanthemum,aromatic,0.6087,1.4706
+Chrysanthemum,woody,0.5,0.8101
+Cinammon,warm spicy,0.8113,2.3619
+Cinammon,woody,0.6226,1.0088
+Cinammon,cinnamon,0.5849,18.1185
+Cinammon,sweet,0.5472,1.1907
+Cinnamon,warm spicy,0.8543,2.4871
+Cinnamon,woody,0.693,1.1227
+Cinnamon,cinnamon,0.5038,15.6059
+Cinnamon,amber,0.5013,1.4543
+Cinnamon Leaf,warm spicy,0.902,2.6257
+Cinnamon Leaf,woody,0.7843,1.2707
+Cinnamon Leaf,aromatic,0.6373,1.5396
+Cinnamon Leaf,fresh spicy,0.549,1.5323
+Cinnamon Leaf,amber,0.5294,1.5358
+Cistus Incanus,woody,0.7536,1.221
+Cistus Incanus,amber,0.6159,1.7868
+Cistus Incanus,warm spicy,0.5797,1.6876
+Cistus Incanus,aromatic,0.5507,1.3306
+Cistus Incanus,fresh spicy,0.5,1.3955
+Citron,citrus,0.8973,1.9741
+Citron,woody,0.6782,1.0988
+Citron,aromatic,0.6275,1.5159
+Citron,fresh spicy,0.5594,1.5612
+Citrus,citrus,0.8054,1.7719
+Citrus,fresh,0.6005,2.3664
+Citrus,woody,0.5734,0.9289
+Citrus and Floral Notes,citrus,0.8431,1.8549
+Citrus and Floral Notes,fresh,0.7843,3.0908
+Citrus and Floral Notes,woody,0.5882,0.953
+Citrus and Floral Notes,fresh spicy,0.5686,1.587
+Citrus and Floral Notes,aromatic,0.5098,1.2317
+Citruses,citrus,0.836,1.8392
+Citruses,fresh,0.656,2.585
+Citruses,woody,0.6236,1.0104
+Citruses,fresh spicy,0.5143,1.4352
+Civet,woody,0.6955,1.1268
+Civet,musky,0.6774,2.1717
+Civet,powdery,0.6511,1.366
+Civet,animalic,0.6398,4.6275
+Civet,amber,0.5526,1.6032
+Civetta,musky,0.8163,2.6169
+Civetta,powdery,0.7551,1.5842
+Civetta,woody,0.7551,1.2234
+Civetta,animalic,0.5306,3.8375
+Civetta,amber,0.5102,1.4801
+Clary Sage,aromatic,0.9366,2.263
+Clary Sage,woody,0.7851,1.272
+Clary Sage,fresh spicy,0.6155,1.7178
+Clary Sage,citrus,0.549,1.2078
+Clay,clay,0.7679,2355.8929
+Clay,earthy,0.7679,5.318
+Clay,woody,0.6429,1.0415
+Clearwood,woody,0.9279,1.5034
+Clearwood,aromatic,0.5586,1.3495
+Clearwood,citrus,0.5405,1.1892
+Clementine,citrus,0.8833,1.9432
+Clementine,sweet,0.781,1.6995
+Clementine,floral,0.6266,1.7744
+Clementine,fruity,0.5889,1.7975
+Clementine,woody,0.5063,0.8202
+Clove,warm spicy,0.8537,2.4852
+Clove,woody,0.7331,1.1877
+Clove,aromatic,0.5048,1.2195
+Clove Leaf,woody,0.918,1.4873
+Clove Leaf,warm spicy,0.9016,2.6248
+Clove Leaf,aromatic,0.5738,1.3862
+Clover,floral,0.8598,2.435
+Clover,green,0.7944,3.5222
+Clover,sweet,0.7804,1.6982
+Clover,woody,0.5421,0.8782
+Cloves,warm spicy,0.8727,2.5407
+Cloves,woody,0.7547,1.2227
+Cloves,aromatic,0.5279,1.2755
+Coca-Cola,coca-cola,0.9091,1332.6263
+Coca-Cola,warm spicy,0.8687,2.5289
+Coca-Cola,citrus,0.6566,1.4444
+Coca-Cola,sweet,0.5657,1.231
+Cocoa,warm spicy,0.8628,2.5119
+Cocoa,sweet,0.7587,1.651
+Cocoa,cacao,0.7188,46.5969
+Cocoa,vanilla,0.5608,2.1405
+Cocoa,woody,0.5399,0.8748
+Coconut,sweet,0.8955,1.9488
+Coconut,coconut,0.7017,28.3212
+Coconut,vanilla,0.6289,2.4007
+Coconut,powdery,0.5224,1.0959
+Coconut Milk,sweet,0.9086,1.9772
+Coconut Milk,coconut,0.819,33.0543
+Coconut Milk,vanilla,0.6325,2.4142
+Coconut Nectar,coconut,0.8529,34.4229
+Coconut Nectar,sweet,0.8431,1.8348
+Coconut Nectar,vanilla,0.6667,2.5448
+Coconut Water,sweet,0.7184,1.5633
+Coconut Water,woody,0.5347,0.8663
+Coconut Water,fruity,0.5143,1.5698
+Coffee,warm spicy,0.8688,2.5291
+Coffee,coffee,0.6703,48.7241
+Coffee,sweet,0.627,1.3644
+Coffee,woody,0.6071,0.9836
+Coffee blossom,sweet,0.7581,1.6497
+Coffee blossom,floral,0.7419,2.1011
+Coffee blossom,woody,0.5484,0.8885
+Coffee blossom,vanilla,0.5161,1.9702
+Coffee blossom,warm spicy,0.5161,1.5025
+Cognac,woody,0.9397,1.5224
+Cognac,warm spicy,0.8106,2.3598
+Cognac,sweet,0.7563,1.6459
+Cognac,amber,0.5862,1.7007
+Concrete,mineral,0.6833,117.0807
+Concrete,woody,0.5667,0.9181
+Condensed Milk,sweet,0.9868,2.1475
+Condensed Milk,lactonic,0.8289,15.5899
+Condensed Milk,vanilla,0.6842,2.6118
+Condensed Milk,powdery,0.5526,1.1594
+Cookie,sweet,0.9811,2.1351
+Cookie,vanilla,0.717,2.7369
+Copahu Balm,amber,0.9038,2.622
+Copahu Balm,woody,0.7115,1.1528
+Copahu Balm,balsamic,0.6538,4.7496
+Copahu Balm,aromatic,0.5096,1.2312
+Copaiba balm,woody,0.8966,1.4525
+Copaiba balm,balsamic,0.6828,4.9596
+Copaiba balm,warm spicy,0.6207,1.8069
+Copaiba balm,aromatic,0.5517,1.333
+Copal,amber,0.8783,2.5478
+Copal,warm spicy,0.6957,2.0251
+Copal,woody,0.687,1.113
+Copal,balsamic,0.5391,3.9163
+Copal,aromatic,0.5391,1.3026
+Coriander,aromatic,0.8627,2.0843
+Coriander,woody,0.7607,1.2324
+Coriander,fresh spicy,0.5828,1.6266
+Coriander,citrus,0.5152,1.1335
+Costus,woody,0.661,1.0709
+Costus,fresh spicy,0.5819,1.6241
+Costus,aromatic,0.5367,1.2967
+Cotton Candy,sweet,0.9567,2.082
+Cotton Candy,powdery,0.7776,1.6314
+Cotton Candy,caramel,0.6194,20.3887
+Cotton Candy,fruity,0.5821,1.7768
+Cotton Candy,vanilla,0.5328,2.0339
+Cotton Flower,powdery,0.9511,1.9953
+Cotton Flower,floral,0.8226,2.3297
+Cotton Flower,fresh,0.5138,2.0246
+Coumarin,woody,0.7777,1.2599
+Coumarin,aromatic,0.7151,1.7277
+Coumarin,sweet,0.6402,1.3932
+Coumarin,vanilla,0.5542,2.1155
+Cranberry,fruity,0.9186,2.8039
+Cranberry,sweet,0.6134,1.3348
+Cranberry,woody,0.5552,0.8995
+Cranberry,fresh spicy,0.532,1.4847
+Cream,sweet,0.9653,2.1007
+Cream,vanilla,0.8613,3.2876
+Cream,lactonic,0.6647,12.5017
+Cream,powdery,0.6358,1.334
+Creamy notes,sweet,0.98,2.1326
+Creamy notes,vanilla,0.62,2.3667
+Creamy notes,lactonic,0.56,10.5318
+Creamy notes,fruity,0.54,1.6483
+Creme Brulee,sweet,1.0,2.1762
+Creme Brulee,vanilla,0.6506,2.4835
+Creme Brulee,lactonic,0.5422,10.1965
+Creme Brulee,powdery,0.5301,1.1122
+Creme Brulee,woody,0.5301,0.8589
+Crystal Amber,woody,0.7176,1.1625
+Crystal Amber,amber,0.5344,1.5501
+Crystal Amber,citrus,0.5267,1.1588
+Cucumber,ozonic,0.8115,18.533
+Cucumber,aquatic,0.7916,11.771
+Cucumber,green,0.765,3.3918
+Cucumber,citrus,0.5277,1.161
+Cucumber,aromatic,0.5122,1.2375
+Cumin,fresh spicy,0.7893,2.2029
+Cumin,woody,0.7877,1.2761
+Cumin,warm spicy,0.6305,1.8354
+Cumin,aromatic,0.5502,1.3294
+Cupcake,sweet,0.9808,2.1343
+Cupcake,fruity,0.6026,1.8393
+Cupcake,powdery,0.5577,1.17
+Cupcake,vanilla,0.5128,1.9575
+Currant buds,woody,0.7909,1.2814
+Currant buds,aromatic,0.7818,1.8889
+Currant buds,fruity,0.6455,1.9702
+Currant buds,green,0.6273,2.7812
+Custard,sweet,0.9701,2.1111
+Custard,lactonic,0.765,14.3864
+Custard,vanilla,0.6624,2.5285
+Custard,powdery,0.5427,1.1386
+Cyclamen,floral,0.8042,2.2775
+Cyclamen,woody,0.6452,1.0453
+Cyclamen,fresh,0.6127,2.4143
+Cyclamen,powdery,0.5813,1.2196
+Cypress,woody,0.9342,1.5136
+Cypress,aromatic,0.8856,2.1395
+Cypress,fresh spicy,0.754,2.1043
+Cypress,citrus,0.5004,1.1008
+Cypriol,woody,0.9221,1.4938
+Cypriol,warm spicy,0.6103,1.7766
+Cypriol,amber,0.5904,1.7127
+Cypriol,earthy,0.5539,3.8362
+Cypriol Oil or Nagarmotha,woody,0.9507,1.5403
+Cypriol Oil or Nagarmotha,warm spicy,0.6366,1.8532
+Cypriol Oil or Nagarmotha,earthy,0.6124,4.2411
+Cypriol Oil or Nagarmotha,amber,0.5681,1.648
+Cypriol Oil or Nagarmotha,aromatic,0.5088,1.2292
+Dahlia,floral,0.7612,2.1557
+Dahlia,sweet,0.6866,1.4941
+Dahlia,fruity,0.597,1.8223
+Dahlia,fresh spicy,0.5373,1.4996
+Dahlia,powdery,0.5075,1.0646
+Daisy,floral,0.8761,2.4811
+Daisy,sweet,0.7965,1.7332
+Damask Rose,rose,0.7232,3.7247
+Damask Rose,woody,0.6417,1.0397
+Damask Rose,floral,0.5675,1.6072
+Dark Chocolate,sweet,0.8876,1.9317
+Dark Chocolate,warm spicy,0.8539,2.4859
+Dark Chocolate,chocolate,0.7037,59.7379
+Dark Chocolate,woody,0.5506,0.892
+Dates,sweet,0.955,2.0782
+Dates,fruity,0.68,2.0756
+Dates,warm spicy,0.655,1.9068
+Dates,woody,0.58,0.9397
+Dates,amber,0.5675,1.6463
+Datura,white floral,0.8898,2.972
+Datura,sweet,0.7165,1.5593
+Datura,fruity,0.622,1.8987
+Datura,woody,0.5827,0.944
+Datura,floral,0.5276,1.494
+Davana,woody,0.6989,1.1323
+Davana,aromatic,0.6242,1.508
+Davana,sweet,0.6044,1.3153
+Davana,warm spicy,0.5297,1.5419
+Davana,amber,0.5242,1.5206
+Dew Drop,aquatic,0.7574,11.2632
+Dew Drop,floral,0.6238,1.7665
+Dried Fallen Leaves,woody,0.9615,1.5578
+Dried Fallen Leaves,aromatic,0.8462,2.0443
+Dried Fallen Leaves,earthy,0.6731,4.6616
+Dried Fruits,sweet,0.8304,1.8071
+Dried Fruits,woody,0.7774,1.2595
+Dried Fruits,fruity,0.758,2.3136
+Dried Fruits,warm spicy,0.6095,1.7745
+Dried Plum,sweet,0.8416,1.8314
+Dried Plum,fruity,0.8218,2.5084
+Dried Plum,woody,0.6931,1.1229
+Dried Plum,amber,0.5347,1.551
+Dried Plum,warm spicy,0.505,1.47
+Driftwood,woody,0.8582,1.3903
+Driftwood,marine,0.5332,16.2614
+Driftwood,citrus,0.5278,1.1612
+Driftwood,aromatic,0.5224,1.2622
+Dry Wood,woody,0.9012,1.4601
+Dry Wood,citrus,0.5133,1.1291
+Earl Grey Tea,citrus,0.6543,1.4395
+Earl Grey Tea,green,0.6296,2.7917
+Earl Grey Tea,aromatic,0.6296,1.5212
+Earl Grey Tea,fresh spicy,0.5432,1.5161
+Earthy Notes,earthy,0.8809,6.1006
+Earthy Notes,woody,0.6979,1.1306
+Ebony,woody,0.9465,1.5335
+Ebony,warm spicy,0.6417,1.8681
+Ebony Wood,woody,0.9573,1.5509
+Ebony Wood,warm spicy,0.7009,2.0403
+Egyptian Jasmine,white floral,0.7134,2.3831
+Egyptian Jasmine,woody,0.6411,1.0386
+Egyptian Musk,musky,0.8545,2.7395
+Egyptian Musk,powdery,0.7455,1.5639
+Egyptian Musk,woody,0.5455,0.8837
+Egyptian Musk,sweet,0.5091,1.1079
+Elemi resin,aromatic,0.896,2.1647
+Elemi resin,woody,0.773,1.2524
+Elemi resin,fresh spicy,0.6738,1.8804
+Elemi resin,balsamic,0.5319,3.8639
+Elemi resin,citrus,0.5154,1.1338
+Espresso,sweet,0.8364,1.8201
+Espresso,warm spicy,0.7091,2.0643
+Espresso,vanilla,0.6545,2.4985
+Espresso,woody,0.5091,0.8248
+Eucalyptus,woody,0.9328,1.5113
+Eucalyptus,aromatic,0.857,2.0705
+Eucalyptus,fresh spicy,0.5634,1.5724
+Eucalyptus,citrus,0.5439,1.1965
+Evernyl,amber,0.6207,1.8006
+Evernyl,citrus,0.6034,1.3276
+Evernyl,woody,0.5517,0.8939
+Exotic Fruits,fruity,0.9227,2.8164
+Exotic Fruits,sweet,0.9034,1.9659
+Exotic Woods,woody,0.8645,1.4006
+Exotic floral notes,floral,0.9079,2.5711
+Exotic floral notes,sweet,0.5263,1.1453
+Fennel,aromatic,0.6971,1.6841
+Fennel,soft spicy,0.6088,5.8797
+Fennel,woody,0.6059,0.9816
+Fennel,fresh spicy,0.5794,1.6171
+Fennel,fresh,0.5059,1.9936
+Fenugreek,fresh spicy,0.7812,2.1804
+Fenugreek,woody,0.6979,1.1307
+Fenugreek,warm spicy,0.5729,1.6678
+Fenugreek,amber,0.5417,1.5714
+Fenugreek,aromatic,0.5312,1.2835
+Fern,aromatic,0.9342,2.2571
+Fern,fresh spicy,0.8224,2.2952
+Fern,woody,0.7796,1.2631
+Fern,earthy,0.5789,4.0097
+Fig,woody,0.8481,1.374
+Fig,sweet,0.816,1.7758
+Fig,fruity,0.795,2.4267
+Fig Leaf,green,0.9131,4.0486
+Fig Leaf,woody,0.8524,1.381
+Fig Leaf,fresh,0.7476,2.9461
+Fig Leaf,sweet,0.5614,1.2217
+Fig Leaf,aromatic,0.5131,1.2397
+Fig Nectar,woody,0.8642,1.4001
+Fig Nectar,sweet,0.7901,1.7194
+Fig Nectar,fruity,0.7778,2.3741
+Fig Tree,woody,0.9542,1.546
+Fig Tree,green,0.6601,2.9269
+Fig Tree,sweet,0.5882,1.2801
+Fig Tree,fruity,0.5621,1.7157
+Fir,woody,0.9406,1.524
+Fir,aromatic,0.8824,2.132
+Fir,fresh spicy,0.7991,2.2302
+Fir Resin,woody,0.9764,1.5819
+Fir Resin,aromatic,0.7453,1.8006
+Fir Resin,fresh spicy,0.7123,1.9879
+Fir Resin,amber,0.7028,2.0389
+Fir Resin,warm spicy,0.6321,1.8401
+Fire,warm spicy,0.7013,2.0416
+Fire,woody,0.6753,1.0941
+Fire,smoky,0.6104,10.872
+Fire,sweet,0.5195,1.1305
+Floral Fruity Notes,sweet,0.9259,2.015
+Floral Fruity Notes,fruity,0.9136,2.7886
+Floral Notes,floral,0.8864,2.5102
+Floral Notes,woody,0.5261,0.8524
+Floral bouquet,floral,0.8387,2.3752
+Floral bouquet,sweet,0.5161,1.1232
+Floral bouquet,powdery,0.5,1.049
+Flower Petals,floral,0.8846,2.5052
+Flower Petals,powdery,0.6154,1.2911
+Flowers,floral,0.8486,2.4033
+Forest Fruits,fruity,0.9677,2.9539
+Forest Fruits,woody,0.9677,1.5679
+Forest Fruits,sweet,0.6935,1.5093
+Forest Fruits,powdery,0.629,1.3197
+Frangipani,floral,0.8971,2.5404
+Frangipani,tropical,0.6238,12.6387
+Frangipani,sweet,0.582,1.2666
+Frangipani,citrus,0.5766,1.2686
+Frankincense,amber,0.8312,2.4112
+Frankincense,woody,0.7717,1.2502
+Frankincense,fresh spicy,0.6585,1.8378
+Frankincense,warm spicy,0.6455,1.8792
+Frankincense,aromatic,0.5821,1.4065
+Freesia,floral,0.8886,2.5165
+Freesia,powdery,0.5932,1.2445
+Freesia,woody,0.581,0.9413
+Freesia,fruity,0.549,1.6758
+Freesia,citrus,0.546,1.2012
+French Rose,rose,0.8475,4.3645
+French Rose,floral,0.6441,1.824
+French Rose,woody,0.5932,0.9611
+French Rose,powdery,0.5593,1.1734
+French Rose,citrus,0.5424,1.1932
+French labdanum,woody,0.8735,1.4151
+French labdanum,amber,0.8054,2.3363
+French labdanum,aromatic,0.6156,1.4872
+French labdanum,warm spicy,0.5742,1.6716
+French orange flower,white floral,0.7879,2.6317
+French orange flower,citrus,0.7576,1.6666
+French orange flower,sweet,0.5758,1.2529
+French orange flower,woody,0.5606,0.9083
+French orange flower,aromatic,0.5303,1.2812
+Fresh note,fresh,0.8725,3.4385
+Fresh note,woody,0.5294,0.8577
+Fruits,fruity,0.857,2.6158
+Fruits,sweet,0.8153,1.7741
+Fruity Notes,fruity,0.8263,2.5223
+Fruity Notes,sweet,0.8053,1.7525
+Fruity Notes,woody,0.5565,0.9017
+Gaiac Wood,woody,0.9068,1.4692
+Gaiac Wood,aromatic,0.528,1.2755
+Gaiac Wood,amber,0.5155,1.4955
+Gaiac Wood,warm spicy,0.5031,1.4646
+Galbanum,aromatic,0.8153,1.9698
+Galbanum,green,0.8057,3.5723
+Galbanum,woody,0.7625,1.2353
+Galbanum,citrus,0.5042,1.1093
+Gardenia,white floral,0.8684,2.9006
+Gardenia,woody,0.5614,0.9096
+Gardenia,sweet,0.535,1.1642
+Gardenia,powdery,0.515,1.0804
+Gasoline,woody,0.717,1.1616
+Gasoline,leather,0.5094,6.2179
+Gentiana,aromatic,0.7451,1.8002
+Gentiana,floral,0.6667,1.888
+Gentiana,fresh spicy,0.6471,1.8059
+Gentiana,woody,0.6471,1.0483
+Gentiana,sweet,0.6078,1.3228
+Georgywood,woody,0.7101,1.1505
+Georgywood,sweet,0.6377,1.3877
+Georgywood,fruity,0.5072,1.5483
+Geranium,aromatic,0.8546,2.0647
+Geranium,fresh spicy,0.8336,2.3264
+Geranium,woody,0.7583,1.2285
+Geranium,citrus,0.5435,1.1957
+Geranium,warm spicy,0.5207,1.5159
+Gin,woody,0.9431,1.528
+Gin,aromatic,0.9194,2.2214
+Gin,citrus,0.6209,1.3659
+Gin,fresh spicy,0.5687,1.5873
+Ginger,fresh spicy,0.8285,2.3124
+Ginger,woody,0.6867,1.1126
+Ginger,citrus,0.6644,1.4616
+Ginger,aromatic,0.5857,1.415
+Ginger flower,fresh spicy,0.7925,2.2117
+Ginger flower,citrus,0.761,1.6742
+Ginger flower,woody,0.5912,0.9578
+Ginger flower,fresh,0.5472,2.1563
+Gingerbread,sweet,0.8966,1.951
+Gingerbread,warm spicy,0.7931,2.3088
+Gingerbread,cinnamon,0.7241,22.4314
+Gingerbread,vanilla,0.5747,2.1938
+Ginseng,green,0.82,3.6358
+Ginseng,woody,0.64,1.0369
+Ginseng,herbal,0.56,8.5838
+Ginseng,aromatic,0.56,1.353
+Gooseberry,sweet,0.8451,1.839
+Gooseberry,fruity,0.8169,2.4935
+Gourmand Accord,sweet,0.9372,2.0395
+Gourmand Accord,powdery,0.6054,1.2701
+Gourmand Accord,woody,0.5874,0.9517
+Gourmand Accord,vanilla,0.5426,2.0712
+Gourmand Accord,fruity,0.5202,1.5878
+Granny Smith apple,fruity,0.8375,2.5565
+Granny Smith apple,fresh,0.6715,2.6462
+Granny Smith apple,woody,0.6137,0.9943
+Granny Smith apple,citrus,0.5523,1.2151
+Grapefruit,citrus,0.8586,1.8889
+Grapefruit,woody,0.7151,1.1586
+Grapefruit,aromatic,0.6788,1.6399
+Grapefruit,fresh spicy,0.6396,1.7851
+Grapefruit blossom,white floral,0.7791,2.6023
+Grapefruit blossom,citrus,0.7674,1.6883
+Grapefruit blossom,woody,0.6279,1.0173
+Grapes,fruity,0.8722,2.6623
+Grapes,sweet,0.8296,1.8053
+Grapes,woody,0.5448,0.8827
+Grass,green,0.8821,3.911
+Grass,fresh,0.7453,2.937
+Grass,woody,0.5908,0.9572
+Grass,aromatic,0.5259,1.2707
+Grasse Rose,rose,0.7812,4.0235
+Grasse Rose,floral,0.6812,1.9293
+Grasse Rose,powdery,0.575,1.2063
+Grasse Rose,woody,0.5625,0.9113
+Green Accord,green,0.85,3.7688
+Green Accord,woody,0.5706,0.9244
+Green Apple,fruity,0.7811,2.3841
+Green Apple,woody,0.6315,1.0231
+Green Apple,fresh,0.611,2.4077
+Green Apple,citrus,0.5893,1.2964
+Green Bell Pepper,aromatic,0.879,2.1238
+Green Bell Pepper,green,0.8468,3.7545
+Green Bell Pepper,fresh spicy,0.7097,1.9807
+Green Bell Pepper,woody,0.6613,1.0714
+Green Grass,green,0.8498,3.7678
+Green Grass,fresh,0.7418,2.9232
+Green Grass,woody,0.6197,1.004
+Green Grass,aromatic,0.5023,1.2137
+Green Leaves,green,0.8568,3.7988
+Green Leaves,woody,0.6775,1.0976
+Green Mandarin,citrus,0.8288,1.8233
+Green Mandarin,woody,0.6624,1.0732
+Green Mandarin,aromatic,0.5424,1.3105
+Green Notes,green,0.8154,3.6154
+Green Notes,woody,0.6297,1.0202
+Green Tea,green,0.8322,3.6899
+Green Tea,citrus,0.6727,1.4799
+Green Tea,fresh,0.6077,2.3949
+Green Tea,woody,0.6024,0.976
+Green Tea,fresh spicy,0.5556,1.5505
+Guaiac Wood,woody,0.9274,1.5026
+Guaiac Wood,aromatic,0.5837,1.4103
+Guaiac Wood,warm spicy,0.5528,1.6094
+Guaiac Wood,fresh spicy,0.5067,1.414
+Guaiac Wood,amber,0.5054,1.4661
+Guatemalan Cardamom,warm spicy,0.8608,2.506
+Guatemalan Cardamom,aromatic,0.8557,2.0673
+Guatemalan Cardamom,woody,0.8041,1.3028
+Guatemalan Cardamom,fresh spicy,0.5464,1.5249
+Guatemalan Cardamom,citrus,0.5464,1.202
+Guava,fruity,0.8835,2.6967
+Guava,tropical,0.6886,13.9499
+Guava,fresh,0.6695,2.6383
+Guava,sweet,0.661,1.4385
+Gurjan balsam,woody,0.9506,1.5401
+Gurjan balsam,warm spicy,0.6565,1.9111
+Gurjan balsam,amber,0.5859,1.6996
+Gurjan balsam,aromatic,0.5271,1.2734
+Gurjan balsam,fresh spicy,0.5247,1.4644
+Haitian Vetiver,woody,0.883,1.4306
+Haitian Vetiver,aromatic,0.8163,1.9722
+Haitian Vetiver,citrus,0.5437,1.196
+Haitian Vetiver,fresh spicy,0.5354,1.4943
+Hawthorn,floral,0.8846,2.5052
+Hawthorn,sweet,0.6813,1.4827
+Hawthorn,powdery,0.6484,1.3602
+Hawthorn,woody,0.522,0.8457
+Hay,green,0.7915,3.5094
+Hay,fresh spicy,0.668,1.8642
+Hay,woody,0.6371,1.0321
+Hay,aromatic,0.5328,1.2873
+Hazelnut,woody,0.8723,1.4132
+Hazelnut,sweet,0.7767,1.6903
+Hazelnut,nutty,0.7248,26.4231
+Hazelnut,warm spicy,0.5213,1.5175
+Hedione,floral,0.7002,1.9828
+Hedione,woody,0.6842,1.1085
+Hedione,fresh,0.5694,2.2438
+Hedione,citrus,0.5295,1.1649
+Hedione,amber,0.5024,1.4574
+Heliotrope,powdery,0.8935,1.8746
+Heliotrope,vanilla,0.6938,2.6483
+Heliotrope,woody,0.5864,0.95
+Heliotrope,sweet,0.5651,1.2297
+Heliotrope,floral,0.551,1.5603
+Helvetolide,woody,0.7385,1.1964
+Helvetolide,musky,0.6615,2.1207
+Helvetolide,amber,0.5385,1.5621
+Helvetolide,citrus,0.5385,1.1846
+Hemlock,floral,0.8462,2.3963
+Hemlock,aromatic,0.8077,1.9514
+Hemlock,woody,0.7885,1.2774
+Hemlock,fresh spicy,0.6923,1.9322
+Hemlock,sweet,0.5385,1.1718
+Herbal Notes,green,0.8626,3.8246
+Herbal Notes,woody,0.6148,0.9961
+Herbal Notes,aromatic,0.5135,1.2407
+Hiacynth,floral,0.8834,2.5019
+Hiacynth,green,0.7791,3.4546
+Hiacynth,woody,0.7301,1.1828
+Hiacynth,white floral,0.6074,2.0287
+Hiacynth,powdery,0.5276,1.1069
+Hibiscus,floral,0.8733,2.4731
+Hibiscus,sweet,0.5479,1.1924
+Hibiscus,fruity,0.5445,1.6621
+Hibiscus,fresh spicy,0.512,1.4289
+Hibiscus,musky,0.5086,1.6303
+Himalayan Cedar,woody,0.9407,1.524
+Himalayan Cedar,aromatic,0.6271,1.5151
+Himalayan Cedar,amber,0.5,1.4505
+Hinoki,woody,0.9123,1.478
+Hinoki,aromatic,0.8655,2.0911
+Hinoki,fresh spicy,0.7544,2.1054
+Hinoki Wood,woody,0.9561,1.549
+Hinoki Wood,aromatic,0.8634,2.086
+Hinoki Wood,fresh spicy,0.7756,2.1647
+Honey,sweet,0.8415,1.8312
+Honey,honey,0.7006,26.6582
+Honey,woody,0.5257,0.8516
+Honeysuckle,white floral,0.871,2.9093
+Honeysuckle,fruity,0.6865,2.0955
+Honeysuckle,floral,0.5281,1.4955
+Honeysuckle,citrus,0.5274,1.1603
+Hortensia,floral,0.9815,2.7795
+Hortensia,fresh,0.7407,2.9191
+Hortensia,powdery,0.5185,1.0878
+Hyacinth,floral,0.8699,2.4634
+Hyacinth,green,0.7273,3.2249
+Hyacinth,fresh spicy,0.5879,1.6408
+Hyacinth,woody,0.5848,0.9475
+Hyacinth,powdery,0.5275,1.1067
+Hyrax,musky,0.8321,2.6676
+Hyrax,amber,0.8175,2.3716
+Hyrax,woody,0.6861,1.1116
+Hyssop,aromatic,0.8514,2.0569
+Hyssop,woody,0.7027,1.1385
+Hyssop,sweet,0.5811,1.2645
+Hyssop,fresh spicy,0.5676,1.584
+Ice,fresh,0.9244,3.643
+Ice,aquatic,0.6222,9.2527
+Ice,woody,0.5111,0.8281
+Ice cream,sweet,0.9745,2.1206
+Ice cream,vanilla,0.8936,3.4111
+Ice cream,fresh,0.617,2.4316
+Ice cream,powdery,0.5702,1.1963
+Ice cream,fruity,0.5191,1.5846
+Immortelle,sweet,0.7769,1.6907
+Immortelle,warm spicy,0.7343,2.1377
+Immortelle,woody,0.6491,1.0516
+Immortelle,herbal,0.5471,8.3858
+Incense,amber,0.8378,2.4305
+Incense,woody,0.7477,1.2113
+Incense,warm spicy,0.6974,2.0303
+Incense,balsamic,0.5546,4.0287
+Incense,smoky,0.5489,9.7769
+Indian Jasmine,white floral,0.7162,2.3923
+Indian Jasmine,woody,0.627,1.0159
+Indian Jasmine,citrus,0.5838,1.2843
+Indian Jasmine,powdery,0.5,1.049
+Indian Oud,oud,0.8016,12.7451
+Indian Oud,woody,0.7147,1.1579
+Indian Oud,warm spicy,0.6196,1.8036
+Indian Oud,amber,0.5353,1.553
+Indian Patchouli,woody,0.8361,1.3545
+Indian Patchouli,warm spicy,0.6393,1.8612
+Indian Patchouli,amber,0.5492,1.5932
+Indian Sandalwood,woody,0.5714,0.9258
+Indian Sandalwood,amber,0.5065,1.4693
+Indian Tuberose,white floral,0.8798,2.9387
+Indian Tuberose,tuberose,0.7705,25.8588
+Indian Tuberose,woody,0.5574,0.903
+Indonesian Patchouli Leaf,woody,0.8561,1.387
+Indonesian Patchouli Leaf,warm spicy,0.6357,1.8506
+Ink,aromatic,0.932,2.2517
+Ink,woody,0.9252,1.4989
+Iris,powdery,0.8246,1.7299
+Iris,woody,0.7108,1.1516
+Iris,iris,0.5613,9.9389
+Iris Butter,woody,0.7049,1.1421
+Iris Butter,powdery,0.5574,1.1694
+Iris Butter,aromatic,0.5082,1.2278
+Iris Flower,powdery,0.8602,1.8047
+Iris Flower,woody,0.6882,1.1149
+Iris Flower,iris,0.6398,11.3283
+Iso E Super,woody,0.9197,1.4901
+Iso E Super,musky,0.796,2.5517
+Iso E Super,amber,0.7575,2.1976
+Iso E Super,powdery,0.5318,1.1156
+Italian Iris,powdery,0.8909,1.8691
+Italian Iris,woody,0.8545,1.3845
+Italian Iris,iris,0.6909,12.2335
+Italian Lemon,citrus,0.864,1.9008
+Italian Lemon,aromatic,0.6757,1.6326
+Italian Lemon,woody,0.6736,1.0914
+Italian Mandarin,citrus,0.8083,1.7781
+Italian Mandarin,woody,0.6431,1.0419
+Italian Orange,citrus,0.8654,1.9038
+Italian Orange,sweet,0.6346,1.381
+Italian Orange,powdery,0.5577,1.17
+Italian Orange,woody,0.5577,0.9035
+Italian Tangerine,citrus,0.9107,2.0035
+Italian Tangerine,sweet,0.6964,1.5155
+Ivy,green,0.7542,3.3439
+Ivy,woody,0.7208,1.1677
+Ivy,fresh,0.6778,2.6711
+Japanese Cherry Blossom,floral,0.9298,2.6332
+Japanese Cherry Blossom,fruity,0.7719,2.3562
+Japanese Cherry Blossom,fresh,0.7193,2.8346
+Jasmine,white floral,0.6857,2.2904
+Jasmine,woody,0.6422,1.0404
+Jasmine,powdery,0.5402,1.1332
+Jasmine,citrus,0.5284,1.1625
+Jasmine Sambac,white floral,0.7185,2.3998
+Jasmine Sambac,woody,0.632,1.0238
+Jasmine Sambac,sweet,0.5631,1.2254
+Jasmine Tea,floral,0.8548,2.4209
+Jasmine Tea,fresh,0.7661,3.0192
+Jasmine Tea,green,0.6129,2.7175
+Jasmine Tea,woody,0.5645,0.9146
+Jasmine Tea,citrus,0.5484,1.2064
+Java vetiver oil,woody,0.9241,1.4971
+Java vetiver oil,aromatic,0.8671,2.0949
+Java vetiver oil,earthy,0.557,3.8574
+Java vetiver oil,fresh spicy,0.5253,1.4661
+Juniper,aromatic,0.9242,2.233
+Juniper,woody,0.9117,1.4771
+Juniper,fresh spicy,0.8469,2.3637
+Juniper,citrus,0.5219,1.1483
+Juniper Berries,aromatic,0.9476,2.2894
+Juniper Berries,woody,0.9141,1.481
+Juniper Berries,fresh spicy,0.864,2.4113
+Juniper Berries,citrus,0.5433,1.1953
+Kaffir Lime,citrus,0.9545,2.1
+Kaffir Lime,woody,0.6667,1.0801
+Kaffir Lime,aromatic,0.6364,1.5375
+Kaffir Lime,fresh spicy,0.6212,1.7338
+Kaffir Lime,amber,0.5303,1.5384
+Kiwi,fruity,0.9118,2.7831
+Kiwi,sweet,0.7326,1.5943
+Kiwi,fresh,0.6631,2.6131
+Kiwi,woody,0.5374,0.8707
+Kiwi,floral,0.5267,1.4917
+Kiwi,tropical,0.516,10.4548
+Kumquat,citrus,0.8889,1.9555
+Kumquat,aromatic,0.6405,1.5475
+Kumquat,woody,0.6405,1.0377
+Kumquat,fresh,0.5261,2.0734
+Kumquat,sweet,0.5261,1.145
+Labdanum,woody,0.8247,1.3361
+Labdanum,amber,0.8089,2.3465
+Labdanum,warm spicy,0.5786,1.6844
+Labdanum,aromatic,0.5037,1.217
+Lactones,sweet,0.6907,1.5031
+Lactones,vanilla,0.5979,2.2824
+Lactones,powdery,0.5979,1.2544
+Lactones,woody,0.5876,0.952
+Laotian Oud,woody,0.9082,1.4714
+Laotian Oud,oud,0.8502,13.518
+Laotian Oud,warm spicy,0.5604,1.6314
+Laotian Oud,animalic,0.5556,4.0179
+Laotian Oud,amber,0.5507,1.5976
+Laurels,fresh spicy,0.8205,2.29
+Laurels,aromatic,0.8154,1.97
+Laurels,woody,0.7744,1.2546
+Lavender,aromatic,0.859,2.0753
+Lavender,woody,0.7218,1.1693
+Lavender,fresh spicy,0.721,2.0122
+Lavender,lavender,0.6347,10.0444
+Lavender,citrus,0.5709,1.2559
+Lavender Extract,aromatic,0.9178,2.2175
+Lavender Extract,fresh spicy,0.8082,2.2557
+Lavender Extract,lavender,0.726,11.4905
+Lavender Extract,woody,0.6575,1.0653
+Leather,leather,0.7244,8.8423
+Leather,woody,0.7208,1.1678
+Leather,warm spicy,0.5196,1.5126
+Lemon,citrus,0.8376,1.8427
+Lemon,woody,0.6957,1.1272
+Lemon,aromatic,0.6862,1.6579
+Lemon Balm,fresh spicy,0.8696,2.4269
+Lemon Balm,aromatic,0.7681,1.8558
+Lemon Balm,citrus,0.7536,1.6579
+Lemon Balm,sweet,0.5797,1.2615
+Lemon Balm,woody,0.5217,0.8453
+Lemon Blossom,white floral,0.7465,2.4936
+Lemon Blossom,citrus,0.7189,1.5815
+Lemon Blossom,woody,0.5069,0.8213
+Lemon Leaf,citrus,0.7879,1.7333
+Lemon Leaf,aromatic,0.7576,1.8303
+Lemon Leaf,green,0.6515,2.8887
+Lemon Leaf,fresh spicy,0.6515,1.8183
+Lemon Leaf,woody,0.6515,1.0555
+Lemon Peel,citrus,0.9028,1.9861
+Lemon Peel,aromatic,0.6944,1.6778
+Lemon Peel,woody,0.5972,0.9676
+Lemon Tree,citrus,0.7733,1.7013
+Lemon Tree,woody,0.68,1.1017
+Lemon Tree,white floral,0.5067,1.6924
+Lemon Verbena,citrus,0.9277,2.0409
+Lemon Verbena,aromatic,0.8296,2.0044
+Lemon Verbena,fresh spicy,0.6833,1.9071
+Lemon Verbena,woody,0.6179,1.0011
+Lemon Zest,citrus,0.8585,1.8887
+Lemon Zest,woody,0.627,1.0158
+Lemonade,sweet,0.963,2.0956
+Lemonade,citrus,0.9074,1.9963
+Lemonade,fresh,0.8333,3.284
+Lemonade,fruity,0.537,1.6392
+Lemongrass,fresh spicy,0.8753,2.4429
+Lemongrass,citrus,0.8753,1.9257
+Lemongrass,aromatic,0.8005,1.934
+Lemongrass,woody,0.591,0.9575
+Liatris,floral,0.7826,2.2163
+Liatris,sweet,0.6667,1.4508
+Liatris,woody,0.6087,0.9862
+Lichen,earthy,0.7797,5.3998
+Lichen,woody,0.7119,1.1533
+Lichen,mossy,0.6949,14.8518
+Lichen,aromatic,0.678,1.638
+Licorice,sweet,0.7844,1.707
+Licorice,soft spicy,0.7471,7.2147
+Licorice,woody,0.5731,0.9285
+Light Amber,amber,0.7308,2.1199
+Light Amber,woody,0.7308,1.1839
+Light Amber,sweet,0.5769,1.2555
+Lilac,floral,0.9351,2.6481
+Lilac,fresh,0.7198,2.8367
+Lilac,powdery,0.5653,1.1859
+Lilac,green,0.53,2.3499
+Lilac,woody,0.5039,0.8164
+Lily,white floral,0.8371,2.796
+Lily,woody,0.5762,0.9335
+Lily,powdery,0.5371,1.1269
+Lily of the Valley,white floral,0.7726,2.5808
+Lily of the Valley,fresh,0.6242,2.4597
+Lily of the Valley,woody,0.5775,0.9356
+Lily of the Valley,powdery,0.5465,1.1466
+Lily of the Valley,citrus,0.515,1.1329
+Lily-of-the-Valley,white floral,0.7178,2.3977
+Lily-of-the-Valley,woody,0.6076,0.9843
+Lily-of-the-Valley,fresh,0.5704,2.2477
+Lily-of-the-Valley,powdery,0.5597,1.1743
+Lily-of-the-Valley,floral,0.5426,1.5366
+Lime,citrus,0.8739,1.9225
+Lime,woody,0.7092,1.149
+Lime,aromatic,0.648,1.5656
+Lime,fresh spicy,0.6076,1.6958
+Lime (Linden Blossom),sweet,0.7231,1.5735
+Lime (Linden Blossom),floral,0.6923,1.9606
+Lime (Linden Blossom),green,0.5692,2.5239
+Lime (Linden Blossom),citrus,0.5692,1.2523
+Lime (Linden Blossom),yellow floral,0.5538,10.4593
+Lime (Linden) Blossom,sweet,0.8712,1.8958
+Lime (Linden) Blossom,yellow floral,0.7546,14.2506
+Lime (Linden) Blossom,floral,0.681,1.9285
+Lime (Linden) Blossom,green,0.5859,2.5978
+Lime (Linden) Blossom,powdery,0.5429,1.1391
+Linden Blossom,sweet,0.8013,1.7437
+Linden Blossom,powdery,0.6603,1.3852
+Linden Blossom,yellow floral,0.6538,12.3478
+Linden Blossom,floral,0.6346,1.7972
+Linden Blossom,woody,0.5385,0.8724
+Linden Blossom,green,0.5128,2.2738
+Linen,musky,0.7619,2.4425
+Linen,powdery,0.5905,1.2388
+Linen,woody,0.5619,0.9104
+Linen,citrus,0.5048,1.1105
+Lipstick,powdery,0.9608,2.0157
+Lipstick,rose,0.6667,3.4334
+Lipstick,sweet,0.549,1.1948
+Liquor,sweet,0.7888,1.7167
+Liquor,fruity,0.5777,1.7633
+Liquor,woody,0.5657,0.9166
+Liquor,alcohol,0.5458,467.5948
+Liquor,warm spicy,0.51,1.4846
+Litchi,fruity,0.8648,2.6396
+Litchi,fresh,0.6762,2.6649
+Litchi,floral,0.6311,1.7874
+Litchi,woody,0.5111,0.8281
+Litchi,rose,0.5,2.575
+Litsea Cubeba,citrus,0.8917,1.9618
+Litsea Cubeba,fresh spicy,0.7325,2.0443
+Litsea Cubeba,aromatic,0.6815,1.6466
+Litsea Cubeba,woody,0.6561,1.0629
+Litsea Cubeba,green,0.5032,2.2311
+Lotus,floral,0.8809,2.4946
+Lotus,woody,0.585,0.9477
+Lychee,fruity,0.8463,2.5832
+Lychee,fresh,0.6696,2.6388
+Lychee,floral,0.6042,1.7112
+Lychee,rose,0.5477,2.8207
+Macadamia,sweet,0.8246,1.7944
+Macadamia,nutty,0.7895,28.7801
+Macadamia,vanilla,0.5614,2.143
+Macadamia,powdery,0.5439,1.141
+Macarons,sweet,0.9884,2.1509
+Macarons,vanilla,0.7326,2.7963
+Macarons,almond,0.6512,24.9878
+Macarons,fruity,0.6395,1.9521
+Macarons,powdery,0.5349,1.1222
+Mace,woody,0.7875,1.2758
+Mace,fresh spicy,0.775,2.163
+Mace,warm spicy,0.6875,2.0014
+Mace,aromatic,0.65,1.5704
+Mace,amber,0.525,1.523
+Madagascar Cloves,warm spicy,0.9,2.62
+Madagascar Cloves,woody,0.76,1.2313
+Madagascar Cloves,aromatic,0.54,1.3047
+Madagascar Vanilla,vanilla,0.7821,2.9856
+Madagascar Vanilla,sweet,0.6688,1.4555
+Madagascar Vanilla,powdery,0.65,1.3636
+Madagascar Vanilla,woody,0.5483,0.8883
+Madagascar Vetiver,woody,0.902,1.4613
+Madagascar Vetiver,aromatic,0.8235,1.9897
+Madagascar Vetiver,earthy,0.549,3.8024
+Madagascar Ylang-Ylang,woody,0.8172,1.324
+Madagascar Ylang-Ylang,sweet,0.7527,1.638
+Madagascar Ylang-Ylang,yellow floral,0.6129,11.5746
+Madagascar Ylang-Ylang,white floral,0.6129,2.0473
+Madagascar Ylang-Ylang,citrus,0.5484,1.2064
+Magnolia,floral,0.8697,2.463
+Magnolia,citrus,0.7035,1.5477
+Magnolia,woody,0.5813,0.9417
+Magnolia,powdery,0.5213,1.0937
+Magnolia,fruity,0.5008,1.5285
+Mahogany,woody,0.9206,1.4914
+Mahogany,aromatic,0.535,1.2927
+Mahonial,floral,0.6667,1.888
+Mahonial,woody,0.5942,0.9627
+Mahonial,amber,0.5797,1.6817
+Mahonial,sweet,0.5652,1.23
+Mahonial,citrus,0.5217,1.1478
+Mahonial,warm spicy,0.5072,1.4767
+Malaysian Oud,woody,0.7358,1.1922
+Malaysian Oud,fresh spicy,0.5472,1.5271
+Malt,woody,0.7407,1.2001
+Malt,sweet,0.5926,1.2896
+Malt,warm spicy,0.5432,1.5814
+Malt,whiskey,0.5062,82.6478
+Maltol,sweet,0.9462,2.0592
+Maltol,woody,0.6237,1.0104
+Maltol,fruity,0.5484,1.6739
+Maltol,powdery,0.5161,1.0828
+Mandarin,citrus,0.7972,1.7539
+Mandarin,woody,0.6334,1.0262
+Mandarin,sweet,0.5078,1.1051
+Mandarin Blossom,citrus,0.8125,1.7875
+Mandarin Blossom,white floral,0.7679,2.5648
+Mandarin Blossom,floral,0.6607,1.8711
+Mandarin Blossom,sweet,0.5536,1.2047
+Mandarin Leaf,citrus,0.7629,1.6783
+Mandarin Leaf,woody,0.7526,1.2193
+Mandarin Leaf,aromatic,0.7216,1.7435
+Mandarin Orange,citrus,0.8202,1.8044
+Mandarin Orange,woody,0.6654,1.078
+Mandarin Orange,powdery,0.5088,1.0674
+Mango,sweet,0.8955,1.9487
+Mango,fruity,0.8617,2.6302
+Mango,tropical,0.8024,16.2567
+Mango,woody,0.5723,0.9273
+Maple,woody,0.9524,1.543
+Maple,sweet,0.8503,1.8505
+Maple syrup,sweet,0.899,1.9564
+Maple syrup,fruity,0.6263,1.9116
+Maple syrup,woody,0.5556,0.9001
+Maple syrup,warm spicy,0.5253,1.5291
+Maple syrup,amber,0.5253,1.5237
+Marigold,aromatic,0.759,1.8337
+Marigold,sweet,0.6482,1.4106
+Marigold,woody,0.645,1.0449
+Marine notes,aromatic,0.8691,2.0998
+Marine notes,marine,0.796,24.2769
+Marine notes,woody,0.6621,1.0727
+Marine notes,citrus,0.6119,1.3461
+Marjoram,aromatic,0.9155,2.2119
+Marjoram,fresh spicy,0.8732,2.4371
+Marjoram,woody,0.7535,1.2208
+Marjoram,herbal,0.7113,10.9025
+Marjoram,citrus,0.5141,1.131
+Marshamallow,sweet,0.9565,2.0815
+Marshamallow,powdery,0.913,1.9155
+Marshamallow,vanilla,0.6377,2.4342
+Marshmallow,sweet,0.962,2.0934
+Marshmallow,powdery,0.8973,1.8826
+Marshmallow,vanilla,0.6008,2.2932
+Marzipan,sweet,0.967,2.1044
+Marzipan,nutty,0.6374,23.2349
+Marzipan,vanilla,0.6044,2.3071
+Marzipan,almond,0.5165,19.8196
+Mastic or Lentisque,aromatic,0.8844,2.1367
+Mastic or Lentisque,woody,0.8781,1.4227
+Mastic or Lentisque,balsamic,0.6781,4.9259
+Mastic or Lentisque,fresh spicy,0.5625,1.5699
+Matcha Tea,powdery,0.8616,1.8077
+Matcha Tea,green,0.8113,3.5973
+Matcha Tea,woody,0.5849,0.9476
+Matcha Tea,sweet,0.5597,1.2181
+Matcha Tea,citrus,0.5094,1.1207
+Mate,aromatic,0.8594,2.0763
+Mate,woody,0.7131,1.1553
+Mate,fresh spicy,0.706,1.9703
+Mate,citrus,0.5355,1.1781
+May Rose,rose,0.7056,3.6339
+May Rose,floral,0.656,1.8578
+May Rose,woody,0.6496,1.0524
+Melon,fruity,0.6844,2.0889
+Melon,fresh,0.627,2.4707
+Melon,sweet,0.6026,1.3114
+Melon,woody,0.5387,0.8728
+Melon,citrus,0.51,1.122
+Meringue,sweet,0.9619,2.0933
+Meringue,powdery,0.9048,1.8982
+Meringue,vanilla,0.6095,2.3267
+Meringue,fruity,0.5524,1.6861
+Metallic notes,metallic,0.8184,48.3099
+Metallic notes,woody,0.5572,0.9028
+Mexican Vanilla,vanilla,0.7925,3.0249
+Mexican Vanilla,sweet,0.6981,1.5192
+Mexican Vanilla,powdery,0.6415,1.3459
+Mexican chocolate,sweet,0.9231,2.0088
+Mexican chocolate,warm spicy,0.9077,2.6424
+Mexican chocolate,chocolate,0.7538,63.9993
+Mignonette,floral,0.8525,2.4141
+Mignonette,powdery,0.7705,1.6165
+Mignonette,woody,0.6885,1.1155
+Mignonette,citrus,0.5902,1.2983
+Mignonette,sweet,0.5738,1.2486
+Milk,sweet,0.8214,1.7874
+Milk,lactonic,0.8117,15.2657
+Milk,powdery,0.586,1.2294
+Milk,vanilla,0.5775,2.2046
+Milk Chocolate,sweet,0.9773,2.1267
+Milk Chocolate,warm spicy,0.8977,2.6134
+Milk Chocolate,chocolate,0.7727,65.6023
+Milk Chocolate,vanilla,0.625,2.3857
+Milk Cream,sweet,0.8,1.7409
+Milk Cream,vanilla,0.7,2.672
+Milk Cream,powdery,0.56,1.1749
+Milk Cream,fruity,0.52,1.5872
+Milk Mousse,sweet,0.8182,1.7805
+Milk Mousse,lactonic,0.7636,14.3616
+Milk Mousse,vanilla,0.7636,2.915
+Mimosa,powdery,0.8092,1.6978
+Mimosa,floral,0.7201,2.0394
+Mimosa,sweet,0.6204,1.3501
+Mimosa,yellow floral,0.5901,11.1436
+Mimosa,woody,0.5419,0.878
+Mimosa absolute,powdery,0.8462,1.7752
+Mimosa absolute,yellow floral,0.6731,12.711
+Mimosa absolute,floral,0.6731,1.9061
+Mimosa absolute,sweet,0.6154,1.3392
+Mineral notes,mineral,0.7506,128.6022
+Mineral notes,woody,0.6813,1.1038
+Mineral notes,aromatic,0.5635,1.3615
+Mint,aromatic,0.9127,2.2051
+Mint,green,0.8326,3.6915
+Mint,fresh spicy,0.8026,2.24
+Mint,woody,0.6784,1.0991
+Mint,citrus,0.6232,1.3711
+Mirabelle,fruity,0.88,2.6861
+Mirabelle,sweet,0.8267,1.799
+Mirabelle,woody,0.7067,1.1449
+Mirabelle,powdery,0.64,1.3427
+Mirabelle Plum,sweet,0.8846,1.9251
+Mirabelle Plum,fruity,0.8462,2.5828
+Mirabelle Plum,woody,0.6731,1.0905
+Mirabelle Plum,powdery,0.6538,1.3717
+Mock Orange,white floral,0.8462,2.8264
+Mock Orange,green,0.7308,3.2401
+Mock Orange,sweet,0.6731,1.4647
+Mock Orange,woody,0.5962,0.9658
+Mock Orange,powdery,0.5,1.049
+Mojito,citrus,0.9221,2.0285
+Mojito,green,0.7143,3.1671
+Mojito,aromatic,0.7013,1.6944
+Mojito,fresh,0.6623,2.6101
+Mojito,woody,0.5584,0.9047
+Monoi Oil,white floral,0.8989,3.0025
+Monoi Oil,tropical,0.764,15.4792
+Monoi Oil,sweet,0.6854,1.4915
+Monoi Oil,coconut,0.5843,23.5799
+Moroccan Cedar,woody,0.8966,1.4525
+Moroccan Cedar,aromatic,0.7069,1.7079
+Moroccan Cedar,warm spicy,0.569,1.6563
+Moroccan Cedar,fresh spicy,0.5,1.3955
+Moroccan Jasmine,woody,0.8038,1.3023
+Moroccan Jasmine,fruity,0.6835,2.0864
+Moroccan Jasmine,citrus,0.6646,1.462
+Moroccan Jasmine,sweet,0.6203,1.3498
+Moroccan Jasmine,white floral,0.5063,1.6913
+Moroccan Rose,woody,0.6913,1.12
+Moroccan Rose,rose,0.6702,3.4515
+Moroccan Rose,floral,0.5145,1.4571
+Moss,woody,0.7829,1.2684
+Moss,aromatic,0.5451,1.317
+Moss,citrus,0.5151,1.1332
+Mountain Air,fresh,0.9096,3.5847
+Mountain Air,ozonic,0.7108,16.2336
+Mountain Air,aromatic,0.506,1.2226
+Mugwort,woody,0.7612,1.2332
+Mugwort,aromatic,0.6716,1.6227
+Mugwort,fresh spicy,0.5224,1.4579
+Mushroom,earthy,0.8906,6.1683
+Mushroom,woody,0.7656,1.2404
+Mushroom,aromatic,0.5391,1.3024
+Mushroom,mossy,0.5312,11.3539
+Musk,powdery,0.6632,1.3915
+Musk,woody,0.63,1.0206
+Musk,musky,0.6153,1.9726
+Musk,citrus,0.5042,1.1092
+Musk Mallow,floral,0.7759,2.1972
+Musk Mallow,musky,0.6724,2.1556
+Musk Mallow,aromatic,0.5345,1.2913
+Musk Mallow,woody,0.5345,0.8659
+Musk Mallow,powdery,0.5,1.049
+Myrhh,amber,0.8889,2.5786
+Myrhh,warm spicy,0.7673,2.2337
+Myrhh,woody,0.7086,1.148
+Myrhh,aromatic,0.5975,1.4435
+Myrhh,balsamic,0.5535,4.0204
+Myrrh,amber,0.8815,2.5572
+Myrrh,warm spicy,0.7656,2.2288
+Myrrh,woody,0.7124,1.1542
+Myrrh,aromatic,0.5714,1.3806
+Myrrh,balsamic,0.5437,3.9498
+Myrtle,aromatic,0.9004,2.1754
+Myrtle,fresh spicy,0.7829,2.1849
+Myrtle,woody,0.7291,1.1812
+Myrtle,herbal,0.5478,8.3969
+Myrtle,citrus,0.504,1.1087
+Mysore Sandalwood,woody,0.5513,0.8931
+Mysore Sandalwood,amber,0.5321,1.5435
+Nagarmotha,woody,0.9524,1.543
+Nagarmotha,earthy,0.5952,4.1225
+Nagarmotha,amber,0.5714,1.6577
+Nagarmotha,warm spicy,0.5179,1.5076
+Narcissus,green,0.635,2.8154
+Narcissus,woody,0.606,0.9817
+Narcissus,yellow floral,0.5639,10.6485
+Narcissus,floral,0.5566,1.5763
+Narcissus,white floral,0.5102,1.7041
+Nard Himalayan (Jatamansi),fresh spicy,0.7533,2.1025
+Nard Himalayan (Jatamansi),woody,0.7333,1.1881
+Nard Himalayan (Jatamansi),earthy,0.6667,4.6172
+Nard Himalayan (Jatamansi),aromatic,0.6667,1.6107
+Nard Himalayan (Jatamansi),amber,0.5467,1.5859
+Nashi Pear,fruity,0.8333,2.5437
+Nashi Pear,white floral,0.5641,1.8842
+Nashi Pear,floral,0.5641,1.5975
+Nashi Pear,musky,0.5256,1.6851
+Nashi Pear,citrus,0.5,1.1
+Natural Musk,musky,0.7315,2.3452
+Natural Musk,powdery,0.6141,1.2883
+Natural Musk,woody,0.5973,0.9677
+Nectar,sweet,0.7604,1.6548
+Nectar,fruity,0.6042,1.8441
+Nectar,floral,0.5833,1.652
+Nectar,powdery,0.5208,1.0927
+Nectarine,sweet,0.8769,1.9084
+Nectarine,fruity,0.8198,2.5022
+Nectarine,powdery,0.8111,1.7016
+Nectarine,fresh,0.617,2.4314
+Nectarine,floral,0.5598,1.5853
+Neroli,citrus,0.7778,1.7112
+Neroli,woody,0.6313,1.0228
+Neroli,white floral,0.6274,2.0958
+Neroli,aromatic,0.5599,1.3528
+Neroli,fresh spicy,0.5105,1.4247
+Nigerian Ginger,fresh spicy,0.9259,2.5842
+Nigerian Ginger,fresh,0.8333,3.284
+Nigerian Ginger,woody,0.8148,1.3201
+Nigerian Ginger,citrus,0.7963,1.7518
+Nigerian Ginger,amber,0.7407,2.1489
+Nigerian Ginger,green,0.6667,2.9559
+Night Blooming Jasmine,sweet,0.7834,1.7049
+Night Blooming Jasmine,fruity,0.758,2.3136
+Night Blooming Jasmine,white floral,0.7389,2.468
+Night Blooming Jasmine,woody,0.5541,0.8978
+Night blooming Cereus,white floral,0.8095,2.704
+Night blooming Cereus,sweet,0.6984,1.5199
+Night blooming Cereus,woody,0.619,1.0029
+Night blooming Cereus,floral,0.5714,1.6183
+Nutmeg,fresh spicy,0.851,2.3752
+Nutmeg,woody,0.7806,1.2647
+Nutmeg,aromatic,0.6408,1.5481
+Nutmeg,warm spicy,0.5926,1.7253
+Nutmeg,citrus,0.5184,1.1405
+Nutty Notes,sweet,0.7471,1.6259
+Nutty Notes,woody,0.6552,1.0615
+Nutty Notes,nutty,0.6092,22.2081
+Nutty Notes,warm spicy,0.5632,1.6396
+Nutty Notes,vanilla,0.5172,1.9744
+Oak,woody,0.9479,1.5358
+Oak,aromatic,0.6119,1.4783
+Oak,warm spicy,0.5096,1.4835
+Oak,sweet,0.5096,1.1089
+Oakmoss,woody,0.8161,1.3221
+Oakmoss,aromatic,0.5994,1.4482
+Oakmoss,earthy,0.5314,3.6805
+Oakmoss,citrus,0.522,1.1485
+Oily Notes,sweet,0.6958,1.5142
+Oily Notes,oily,0.55,549.7083
+Olibanum,amber,0.8568,2.4856
+Olibanum,woody,0.8129,1.3171
+Olibanum,fresh spicy,0.7071,1.9735
+Olibanum,warm spicy,0.6776,1.9725
+Olibanum,aromatic,0.5864,1.4167
+Olive,aromatic,0.8107,1.9586
+Olive,woody,0.6272,1.0162
+Olive Blossom,floral,0.7667,2.1712
+Olive Blossom,citrus,0.7333,1.6133
+Olive Blossom,woody,0.6833,1.1071
+Olive Blossom,aromatic,0.6333,1.5302
+Olive Tree,woody,0.9118,1.4772
+Olive Tree,aromatic,0.6618,1.5988
+Olive Tree,citrus,0.6103,1.3426
+Oolong tea,aromatic,0.9176,2.2171
+Oolong tea,warm spicy,0.6235,1.8152
+Oolong tea,woody,0.6,0.9721
+Opium,floral,0.8406,2.3805
+Opium,sweet,0.7971,1.7346
+Opium,balsamic,0.6812,4.948
+Opium,amber,0.5652,1.6397
+Opium,powdery,0.5217,1.0946
+Opoponax,amber,0.8485,2.4615
+Opoponax,woody,0.7574,1.2271
+Opoponax,sweet,0.6931,1.5082
+Opoponax,balsamic,0.6317,4.5886
+Opoponax,warm spicy,0.5386,1.568
+Orange,citrus,0.8494,1.8686
+Orange,woody,0.6348,1.0284
+Orange,sweet,0.6244,1.3588
+Orange Blossom,white floral,0.8172,2.7298
+Orange Blossom,citrus,0.7167,1.5767
+Orange Blossom,sweet,0.6681,1.4539
+Orange Blossom,woody,0.5846,0.9472
+Orange Leaf,citrus,0.7727,1.7
+Orange Leaf,aromatic,0.7273,1.7571
+Orange Leaf,woody,0.6515,1.0555
+Orange Leaf,green,0.6061,2.6872
+Orange Leaf,white floral,0.5455,1.822
+Orange Leaf,fresh spicy,0.5455,1.5223
+Orange Oil,citrus,0.8539,1.8786
+Orange Oil,sweet,0.6966,1.516
+Orange Oil,woody,0.618,1.0012
+Orange Oil,fresh spicy,0.5618,1.5679
+Orange Peel,citrus,0.7952,1.7494
+Orange Peel,sweet,0.6807,1.4814
+Orange Peel,woody,0.5482,0.8881
+Orcanox™,woody,0.6981,1.131
+Orchid,floral,0.8195,2.3207
+Orchid,sweet,0.795,1.73
+Orchid,powdery,0.758,1.5902
+Orchid,woody,0.5743,0.9304
+Oregano,fresh spicy,0.8412,2.3477
+Oregano,aromatic,0.824,1.9909
+Oregano,woody,0.7983,1.2933
+Oregano,warm spicy,0.5408,1.5743
+Oriental notes,warm spicy,0.9534,2.7756
+Oriental notes,amber,0.9401,2.7273
+Oriental notes,musky,0.7228,2.3172
+Oriental notes,woody,0.5188,0.8406
+Orris,powdery,0.7866,1.6502
+Orris,woody,0.7395,1.1981
+Orris,iris,0.5084,9.002
+Orris Root,woody,0.7824,1.2676
+Orris Root,powdery,0.7735,1.6228
+Osmanthus,floral,0.8196,2.3212
+Osmanthus,fruity,0.7312,2.232
+Osmanthus,woody,0.5846,0.9471
+Oud,oud,0.6717,10.6793
+Oud,woody,0.6571,1.0647
+Oud,warm spicy,0.5979,1.7405
+Oud,amber,0.5622,1.6308
+Ozonic notes,ozonic,0.7651,17.4734
+Ozonic notes,woody,0.6052,0.9806
+Ozonic notes,aromatic,0.533,1.2877
+Palisander Rosewood,woody,0.9036,1.464
+Palisander Rosewood,amber,0.5647,1.6381
+Palisander Rosewood,sweet,0.5149,1.1204
+Palisander Rosewood,aromatic,0.5133,1.24
+Palm Leaf,green,0.7674,3.4027
+Palm Leaf,fresh,0.5814,2.2912
+Palm Leaf,woody,0.5581,0.9043
+Palm Leaf,sweet,0.5233,1.1387
+Palmarosa,green,0.7692,3.4107
+Palmarosa,aromatic,0.7552,1.8247
+Palmarosa,woody,0.7413,1.2009
+Palmarosa,citrus,0.6014,1.3231
+Palmarosa,fresh spicy,0.5804,1.6199
+Palo Santo,woody,0.9564,1.5495
+Palo Santo,aromatic,0.7523,1.8176
+Palo Santo,citrus,0.6284,1.3825
+Pandanus,sweet,0.6806,1.481
+Pandanus,floral,0.6667,1.888
+Pandanus,woody,0.6667,1.0801
+Pandanus,tropical,0.5556,11.2553
+Papaya,tropical,0.8706,17.6377
+Papaya,sweet,0.8627,1.8775
+Papaya,fruity,0.698,2.1307
+Papaya,fresh,0.5255,2.0709
+Paper,woody,0.6389,1.0351
+Paper,paper,0.537,1221.5741
+Paprika,warm spicy,0.9237,2.6891
+Paprika,woody,0.6356,1.0297
+Paprika,aromatic,0.5339,1.2899
+Paprika,fresh spicy,0.5,1.3955
+Papyrus,woody,0.9621,1.5588
+Papyrus,warm spicy,0.6376,1.8562
+Papyrus,amber,0.529,1.5347
+Parma Violet,powdery,0.8868,1.8605
+Parma Violet,floral,0.7736,2.1908
+Parma Violet,violet,0.7358,12.7503
+Parma Violet,woody,0.5472,0.8865
+Passion Flower,floral,0.917,2.5969
+Passion Flower,sweet,0.883,1.9216
+Passion Flower,fruity,0.8604,2.6262
+Passion Flower,woody,0.5396,0.8743
+Passionfruit,sweet,0.8532,1.8566
+Passionfruit,fruity,0.836,2.5517
+Passionfruit,tropical,0.6276,12.7158
+Passionfruit,fresh,0.6131,2.4161
+Patchouli,woody,0.8183,1.3258
+Patchouli,warm spicy,0.5587,1.6265
+Patchouli Leaf,woody,0.8279,1.3413
+Patchouli Leaf,warm spicy,0.582,1.6942
+Patchouli Leaf,patchouli,0.5328,4.7423
+Peach,fruity,0.7717,2.3557
+Peach,powdery,0.7278,1.5269
+Peach,sweet,0.7158,1.5577
+Peach,woody,0.5738,0.9296
+Peach Blossom,floral,0.9155,2.5928
+Peach Blossom,fruity,0.7313,2.2322
+Peach Blossom,powdery,0.5835,1.2241
+Peach Blossom,fresh,0.5662,2.2314
+Peach Blossom,sweet,0.5451,1.1862
+Pear,fruity,0.826,2.5213
+Pear,sweet,0.8154,1.7745
+Pear,woody,0.5547,0.8987
+Pear,powdery,0.5196,1.0902
+Pear Blossom,floral,0.8944,2.533
+Pear Blossom,fruity,0.6778,2.0688
+Pear Blossom,sweet,0.5611,1.2211
+Pear Blossom,powdery,0.5389,1.1306
+Pear Blossom,fresh,0.5222,2.058
+Pelargonium,aromatic,0.8333,2.0134
+Pelargonium,woody,0.7949,1.2878
+Pelargonium,fresh spicy,0.6667,1.8606
+Pelargonium,citrus,0.6282,1.382
+Pelargonium,warm spicy,0.5769,1.6795
+Peony,floral,0.9148,2.5906
+Peony,fresh,0.8225,3.2415
+Peony,fruity,0.5783,1.7652
+Peony,rose,0.557,2.8688
+Peony,woody,0.5358,0.868
+Pepper,fresh spicy,0.8573,2.3926
+Pepper,woody,0.7757,1.2568
+Pepper,warm spicy,0.6603,1.9223
+Pepper,aromatic,0.6576,1.5887
+Pepper,citrus,0.5313,1.1688
+Peppermint,aromatic,0.9049,2.1862
+Peppermint,green,0.833,3.6935
+Peppermint,fresh spicy,0.7825,2.184
+Peppermint,woody,0.6835,1.1073
+Peppermint,citrus,0.6194,1.3627
+Persimmon,sweet,0.9565,2.0815
+Persimmon,fruity,0.913,2.787
+Persimmon,woody,0.6812,1.1036
+Persimmon,powdery,0.6232,1.3074
+Persimmon,floral,0.5942,1.6828
+Peru Balsam,amber,0.8109,2.3525
+Peru Balsam,woody,0.7881,1.2768
+Peru Balsam,balsamic,0.7682,5.58
+Peru Balsam,warm spicy,0.5502,1.6019
+Peru Balsam,sweet,0.5363,1.1671
+Petalia,floral,0.9018,2.5538
+Petalia,fresh,0.8571,3.3778
+Petalia,rose,0.6696,3.4487
+Petalia,woody,0.6696,1.0849
+Petalia,fruity,0.6518,1.9895
+Petalia,musky,0.5357,1.7174
+Petitgrain,citrus,0.8287,1.8232
+Petitgrain,aromatic,0.8164,1.9724
+Petitgrain,woody,0.7295,1.1818
+Petitgrain,fresh spicy,0.6502,1.8146
+Petitgrain,green,0.5884,2.6087
+Petitgrain Paraguay,citrus,0.8889,1.9555
+Petitgrain Paraguay,aromatic,0.8778,2.1207
+Petitgrain Paraguay,woody,0.7222,1.1701
+Petitgrain Paraguay,green,0.7111,3.153
+Petitgrain Paraguay,fresh spicy,0.6778,1.8916
+Petrichor,woody,0.6988,1.1321
+Petrichor,aromatic,0.6627,1.601
+Pimento,warm spicy,0.8929,2.5995
+Pimento,woody,0.7835,1.2693
+Pimento,aromatic,0.618,1.4931
+Pimento,fresh spicy,0.5961,1.6637
+Pine,woody,0.9592,1.554
+Pine,aromatic,0.9144,2.2093
+Pine,fresh spicy,0.5582,1.5579
+Pine Tree,woody,0.9602,1.5556
+Pine Tree,aromatic,0.9223,2.2283
+Pine Tree,fresh spicy,0.5936,1.6568
+Pine Tree,green,0.5219,2.3141
+Pine Tree Needles,woody,0.9605,1.5562
+Pine Tree Needles,aromatic,0.9211,2.2253
+Pine Tree Needles,fresh spicy,0.7237,2.0198
+Pine Tree Needles,green,0.5921,2.6253
+Pine needles,woody,0.9856,1.5968
+Pine needles,aromatic,0.9568,2.3117
+Pine needles,fresh spicy,0.6043,1.6866
+Pineapple,sweet,0.8579,1.8669
+Pineapple,fruity,0.8197,2.5021
+Pineapple,woody,0.6327,1.0251
+Pineapple,citrus,0.5138,1.1304
+Pineapple Leaf,sweet,0.873,1.8998
+Pineapple Leaf,fruity,0.8413,2.5679
+Pineapple Leaf,fresh,0.5873,2.3144
+Pineapple Leaf,woody,0.5873,0.9515
+Pineapple Leaf,citrus,0.5079,1.1174
+Pink Freesia,floral,0.9531,2.6992
+Pink Freesia,fruity,0.7188,2.1939
+Pink Freesia,sweet,0.7031,1.5301
+Pink Freesia,powdery,0.6094,1.2784
+Pink Grapefruit,citrus,0.8604,1.8929
+Pink Grapefruit,woody,0.6016,0.9747
+Pink Jasmine,white floral,0.8627,2.8818
+Pink Jasmine,fruity,0.7451,2.2743
+Pink Jasmine,sweet,0.7059,1.5361
+Pink Jasmine,floral,0.6667,1.888
+Pink Jasmine,woody,0.5294,0.8577
+Pink Lotus,floral,0.8198,2.3217
+Pink Lotus,woody,0.5676,0.9195
+Pink Peony,floral,0.9554,2.7055
+Pink Peony,fresh,0.8705,3.4306
+Pink Peony,fruity,0.6652,2.0304
+Pink Peony,rose,0.6071,3.1268
+Pink Peony,sweet,0.5357,1.1658
+Pink Pepper,woody,0.7047,1.1417
+Pink Pepper,sweet,0.5076,1.1045
+Pink Rose,rose,0.8384,4.3178
+Pink Rose,floral,0.697,1.9738
+Pink Rose,powdery,0.5859,1.2291
+Pink Rose,fruity,0.5455,1.6649
+Pink Rose,woody,0.5152,0.8346
+Pistachio,woody,0.8496,1.3764
+Pistachio,sweet,0.8103,1.7633
+Pistachio,vanilla,0.5949,2.2707
+Pistachio,nutty,0.5641,20.5643
+Pitahaya,fruity,0.9098,2.7772
+Pitahaya,tropical,0.8115,16.4401
+Pitahaya,floral,0.8115,2.2981
+Pitahaya,fresh,0.6557,2.5841
+Pitahaya,sweet,0.5082,1.1059
+Pitosporum,white floral,0.8667,2.8949
+Pitosporum,citrus,0.6833,1.5033
+Pitosporum,aromatic,0.65,1.5704
+Pitosporum,floral,0.5667,1.6048
+Pitosporum,musky,0.5167,1.6563
+Piña Colada,sweet,0.9455,2.0575
+Piña Colada,fruity,0.9273,2.8304
+Piña Colada,coconut,0.8,32.2863
+Piña Colada,citrus,0.5818,1.28
+Plum,fruity,0.8655,2.6419
+Plum,sweet,0.8217,1.7881
+Plum,woody,0.6362,1.0307
+Plum,powdery,0.5506,1.1552
+Plum Blossom,floral,0.9231,2.6141
+Plum Blossom,fresh,0.7633,3.0081
+Plum Blossom,fruity,0.7337,2.2396
+Plum Blossom,sweet,0.5858,1.2748
+Plumeria,floral,0.8429,2.3869
+Plumeria,sweet,0.5714,1.2435
+Plumeria,woody,0.5571,0.9026
+Plumeria,fruity,0.5286,1.6134
+Plumeria,citrus,0.5,1.1
+Pomegranate,woody,0.9137,1.4804
+Pomegranate,fruity,0.7934,2.4218
+Pomegranate,sweet,0.681,1.4821
+Pomegranate,fresh spicy,0.5414,1.5111
+Pomegranate,floral,0.538,1.5237
+Pomelo,citrus,0.8775,1.9305
+Pomelo,woody,0.6527,1.0574
+Pomelo,aromatic,0.6174,1.4918
+Pomelo,fresh spicy,0.599,1.6717
+Pomelo,sweet,0.5789,1.2597
+Popcorn,sweet,0.8818,1.919
+Popcorn,woody,0.6818,1.1046
+Popcorn,powdery,0.5545,1.1634
+Popcorn,vanilla,0.5182,1.978
+Poppy,floral,0.8205,2.3237
+Poppy,sweet,0.7179,1.5624
+Poppy,fresh spicy,0.641,1.7891
+Poppy,powdery,0.609,1.2776
+Poppy,woody,0.5192,0.8412
+Powdery Notes,powdery,0.9517,1.9965
+Powdery Notes,sweet,0.533,1.1598
+Praline,sweet,0.9469,2.0605
+Praline,woody,0.5943,0.9628
+Praline,vanilla,0.5351,2.0427
+Praline,powdery,0.5152,1.081
+Precious Woods,woody,0.8481,1.374
+Priprioca,aromatic,0.8654,2.0908
+Priprioca,woody,0.6538,1.0593
+Priprioca,earthy,0.5,3.4629
+Priprioca,citrus,0.5,1.1
+Pumpkin,sweet,0.9724,2.1161
+Pumpkin,fruity,0.6552,1.9998
+Pumpkin,warm spicy,0.6207,1.8069
+Pumpkin,vanilla,0.5034,1.9218
+Quince,sweet,0.8657,1.8838
+Quince,fruity,0.8299,2.533
+Quince,floral,0.7403,2.0965
+Quince,woody,0.5881,0.9527
+Quince,powdery,0.5284,1.1085
+Rain Notes,aquatic,0.9057,13.4675
+Rain Notes,ozonic,0.7925,18.0973
+Rain Notes,woody,0.5472,0.8865
+Raisin,sweet,0.8594,1.8701
+Raisin,fruity,0.7188,2.1939
+Raisin,woody,0.6875,1.1138
+Raisin,amber,0.5938,1.7224
+Raisin,warm spicy,0.5469,1.592
+Raspberry,fruity,0.868,2.6496
+Raspberry,sweet,0.8571,1.8652
+Raspberry,woody,0.5505,0.8919
+Raspberry,powdery,0.5271,1.1057
+Raspberry Leaf,sweet,0.8571,1.8653
+Raspberry Leaf,fruity,0.8265,2.5229
+Raspberry Leaf,woody,0.602,0.9754
+Raspberry Leaf,rose,0.5306,2.7327
+Raspberry Leaf,floral,0.5102,1.4449
+Red Apple,fruity,0.8566,2.6147
+Red Apple,sweet,0.7632,1.6609
+Red Apple,woody,0.5745,0.9308
+Red Apple,powdery,0.5396,1.1321
+Red Apple,fresh,0.5236,2.0633
+Red Berries,fruity,0.8631,2.6346
+Red Berries,sweet,0.8245,1.7942
+Red Berries,woody,0.5481,0.888
+Red Berries,fresh,0.5416,2.1343
+Red Cedar,aromatic,0.9189,2.2201
+Red Cedar,woody,0.8829,1.4304
+Red Cedar,fresh spicy,0.8378,2.3383
+Red Cedar,citrus,0.5315,1.1694
+Red Chilli Pepper,warm spicy,0.918,2.6725
+Red Chilli Pepper,woody,0.7869,1.2749
+Red Chilli Pepper,fresh spicy,0.5738,1.6014
+Red Currant,fruity,0.9314,2.843
+Red Currant,sweet,0.7787,1.6946
+Red Currant,fresh,0.7033,2.7714
+Red Currant,floral,0.5729,1.6224
+Red Currant,soft spicy,0.5575,5.3836
+Red Fruits,fruity,0.8235,2.5137
+Red Fruits,sweet,0.7615,1.6571
+Red Fruits,powdery,0.5412,1.1354
+Red Fruits,woody,0.5305,0.8594
+Red Mandarin,woody,0.7534,1.2206
+Red Mandarin,amber,0.5068,1.4704
+Red Mandarin,citrus,0.5068,1.1151
+Red Peony,floral,0.9577,2.7123
+Red Peony,fresh,0.9014,3.5523
+Red Peony,woody,0.6338,1.0268
+Red Peony,fruity,0.5775,1.7626
+Red Peony,rose,0.507,2.6113
+Red Pepper,warm spicy,0.875,2.5472
+Red Pepper,woody,0.6908,1.1192
+Red Pepper,aromatic,0.5724,1.3829
+Red Poppy,floral,0.902,2.5543
+Red Poppy,sweet,0.8235,1.7921
+Red Poppy,powdery,0.6078,1.2752
+Red Poppy,fresh spicy,0.5098,1.4228
+Red Rose,rose,0.7109,3.6614
+Red Rose,floral,0.582,1.6483
+Red Rose,woody,0.5781,0.9366
+Red Rose,sweet,0.543,1.1816
+Red Thyme,aromatic,0.939,2.2687
+Red Thyme,fresh spicy,0.8049,2.2464
+Red Thyme,woody,0.7927,1.2842
+Red Thyme,citrus,0.5732,1.261
+Red Wine,wine,0.7608,425.2978
+Red Wine,woody,0.7176,1.1627
+Red Wine,sweet,0.6549,1.4252
+Red Wine,fruity,0.5373,1.6399
+Resin,amber,0.8459,2.4539
+Resin,woody,0.8021,1.2995
+Resin,balsamic,0.5394,3.9183
+Resins,amber,0.8583,2.4899
+Resins,woody,0.8063,1.3063
+Resins,balsamic,0.5739,4.1689
+Resins,warm spicy,0.5127,1.4927
+Rhododendron,floral,0.8095,2.2925
+Rhododendron,woody,0.6667,1.0801
+Rhododendron,sweet,0.6032,1.3126
+Rhododendron,aromatic,0.5238,1.2655
+Rhubarb,fruity,0.7061,2.1551
+Rhubarb,aromatic,0.7046,1.7024
+Rhubarb,green,0.6628,2.9389
+Rhubarb,woody,0.6124,0.9922
+Rhubarb,sweet,0.5483,1.1931
+Rhuburb,aromatic,0.8041,1.9428
+Rhuburb,green,0.7938,3.5197
+Rhuburb,fruity,0.7835,2.3916
+Rhuburb,woody,0.6598,1.0689
+Rhuburb,sweet,0.5876,1.2788
+Rice,sweet,0.7305,1.5896
+Rice,powdery,0.6146,1.2893
+Rice,savory,0.5256,106.0295
+Roasted Coffee Beans,warm spicy,0.8571,2.4953
+Roasted Coffee Beans,coffee,0.7714,56.0741
+Roasted Coffee Beans,sweet,0.6381,1.3886
+Roasted Coffee Beans,woody,0.5333,0.8641
+Rock rose,woody,0.7097,1.1498
+Rock rose,amber,0.6371,1.8482
+Rock rose,aromatic,0.6048,1.4613
+Rock rose,warm spicy,0.5403,1.573
+Rose,woody,0.6382,1.034
+Rose,rose,0.6233,3.21
+Rose,powdery,0.5302,1.1123
+Rose,floral,0.5099,1.444
+Rose Geranium,aromatic,0.8081,1.9525
+Rose Geranium,fresh spicy,0.7965,2.223
+Rose Geranium,woody,0.6744,1.0926
+Rose Geranium,citrus,0.6047,1.3302
+Rose Geranium,warm spicy,0.5058,1.4725
+Rose Hip,rose,0.7481,3.8527
+Rose Hip,fruity,0.6412,1.9573
+Rose Hip,floral,0.6183,1.7511
+Rose Hip,woody,0.5267,0.8533
+Rose Oil,woody,0.6891,1.1165
+Rose Oil,rose,0.6816,3.5106
+Rose Oil,floral,0.5169,1.4637
+Rose Petals,rose,0.7944,4.0912
+Rose Petals,floral,0.6098,1.727
+Rose Petals,woody,0.5678,0.9198
+Rose Petals,powdery,0.5491,1.1519
+Rose Water,rose,0.7711,3.9712
+Rose Water,floral,0.6667,1.888
+Rose Water,woody,0.5341,0.8654
+Rose Water,sweet,0.5141,1.1187
+Rose de Mai,woody,0.6667,1.0801
+Rose de Mai,rose,0.6188,3.1866
+Rose de Mai,floral,0.5521,1.5635
+Rosemary,aromatic,0.9426,2.2774
+Rosemary,fresh spicy,0.8856,2.4715
+Rosemary,woody,0.8849,1.4337
+Rosemary,citrus,0.6639,1.4605
+Rum,woody,0.8057,1.3053
+Rum,sweet,0.7418,1.6142
+Rum,warm spicy,0.6733,1.96
+Rum,rum,0.5713,64.6393
+Russian Leather,leather,0.7717,9.4195
+Russian Leather,woody,0.7609,1.2327
+Russian Leather,animalic,0.5652,4.0878
+Russian Leather,warm spicy,0.5,1.4556
+Russian Leather,amber,0.5,1.4505
+Saffron,warm spicy,0.8814,2.566
+Saffron,woody,0.7219,1.1696
+Saffron,amber,0.572,1.6594
+Sage,aromatic,0.9218,2.2271
+Sage,woody,0.7722,1.2511
+Sage,fresh spicy,0.6323,1.7647
+Sage,citrus,0.5595,1.2309
+Sage,herbal,0.5354,8.2069
+Salt,salty,0.7188,37.6341
+Salt,woody,0.6092,0.9869
+Salted Caramel,sweet,0.806,1.7539
+Salted Caramel,vanilla,0.7463,2.8487
+Salted Caramel,woody,0.5821,0.9431
+Salted Caramel,powdery,0.5522,1.1586
+Sand,sand,0.7072,433.9803
+Sand,woody,0.5493,0.89
+Sandal,woody,0.8037,1.3021
+Sandal,powdery,0.6582,1.3809
+Sandal,warm spicy,0.5081,1.4791
+Sandalowood,woody,0.8625,1.3974
+Sandalowood,powdery,0.7087,1.4868
+Sandalowood,citrus,0.527,1.1594
+Sandalwood,woody,0.8574,1.389
+Sandalwood,powdery,0.6956,1.4592
+Sea Notes,aromatic,0.9148,2.2102
+Sea Notes,marine,0.8314,25.356
+Sea Notes,woody,0.6257,1.0138
+Sea Notes,citrus,0.6042,1.3293
+Sea Salt,salty,0.7826,40.972
+Sea Salt,aromatic,0.5624,1.3588
+Sea Salt,woody,0.54,0.8748
+Sea Salt,marine,0.533,16.2537
+Sea Salt,citrus,0.5119,1.1262
+Sea water,aromatic,0.9265,2.2385
+Sea water,marine,0.8701,26.5348
+Sea water,woody,0.6076,0.9844
+Sea water,citrus,0.5144,1.1317
+Seaweed,aromatic,0.8385,2.0259
+Seaweed,marine,0.7644,23.3133
+Seaweed,woody,0.643,1.0417
+Seaweed,aquatic,0.6133,9.1205
+Seaweed,citrus,0.5052,1.1114
+Sequoia,woody,0.9577,1.5517
+Sequoia,warm spicy,0.7324,2.1321
+Sequoia,fresh spicy,0.7183,2.0048
+Sequoia,aromatic,0.7183,1.7355
+Sesame,woody,0.6864,1.112
+Sesame,aromatic,0.645,1.5583
+Sesame,sweet,0.6272,1.3649
+Sesame,powdery,0.5148,1.08
+Shiso,aromatic,0.9259,2.2371
+Shiso,green,0.8296,3.6785
+Shiso,fresh spicy,0.8074,2.2534
+Shiso,woody,0.6815,1.1041
+Shiso,citrus,0.5704,1.2548
+Siam,amber,0.7931,2.3008
+Siam,woody,0.6379,1.0335
+Siam,warm spicy,0.6207,1.8069
+Siam Benzoin,amber,0.8076,2.3428
+Siam Benzoin,woody,0.6888,1.116
+Siam Benzoin,warm spicy,0.6627,1.9292
+Siberian Pine,woody,0.9844,1.5948
+Siberian Pine,aromatic,0.9531,2.3028
+Siberian Pine,fresh spicy,0.6875,1.9188
+Siberian Pine,conifer,0.5156,37.2136
+Sichuan Pepper,fresh spicy,0.9097,2.539
+Sichuan Pepper,woody,0.7256,1.1756
+Sichuan Pepper,citrus,0.6949,1.5289
+Sichuan Pepper,aromatic,0.6498,1.57
+Sichuan Pepper,amber,0.5217,1.5133
+Sicilian Bergamot,citrus,0.7646,1.682
+Sicilian Bergamot,woody,0.7621,1.2348
+Sicilian Bergamot,aromatic,0.5971,1.4426
+Sicilian Bergamot,fresh spicy,0.5752,1.6055
+Sicilian Lemon,citrus,0.8843,1.9453
+Sicilian Lemon,aromatic,0.6678,1.6135
+Sicilian Lemon,woody,0.6644,1.0763
+Sicilian Lemon,fresh spicy,0.5255,1.4665
+Sicilian Mandarin,citrus,0.868,1.9096
+Sicilian Mandarin,woody,0.7259,1.176
+Sicilian Orange,citrus,0.894,1.9668
+Sicilian Orange,fresh spicy,0.7097,1.9807
+Sicilian Orange,sweet,0.659,1.4341
+Sicilian Orange,amber,0.5853,1.6978
+Silk,musky,0.6506,2.0857
+Silk,sweet,0.5663,1.2323
+Silk,powdery,0.5542,1.1627
+Silk,woody,0.5542,0.8979
+Singapore Patchouli,woody,0.8519,1.3801
+Singapore Patchouli,citrus,0.5556,1.2222
+Singapore Patchouli,sweet,0.5,1.0881
+Skin,powdery,0.6681,1.4016
+Skin,musky,0.6553,2.1008
+Skin,sweet,0.5149,1.1205
+Smoke,smoky,0.8554,15.2358
+Smoke,woody,0.835,1.3528
+Snow,fresh,0.951,3.7476
+Snow,ozonic,0.5882,13.4336
+Snow,woody,0.549,0.8895
+Snowdrops,floral,0.8814,2.496
+Snowdrops,fresh,0.8136,3.2061
+Snowdrops,green,0.6271,2.7806
+Soap,soapy,0.8256,63.325
+Soap,powdery,0.5116,1.0734
+Soap,musky,0.5,1.6029
+Soil Tincture,earthy,0.9283,6.4292
+Soil Tincture,woody,0.7331,1.1877
+Solar Notes,sweet,0.5579,1.2141
+Sorbet,sweet,0.931,2.0261
+Sorbet,fruity,0.8793,2.684
+Sorbet,citrus,0.569,1.2517
+Sorbet,woody,0.5172,0.838
+Sour Cherry,sweet,0.9522,2.0721
+Sour Cherry,cherry,0.7769,56.8472
+Sour Cherry,fruity,0.7331,2.2376
+Sour Cherry,woody,0.5737,0.9295
+Spanish Labdanum,woody,0.8286,1.3424
+Spanish Labdanum,amber,0.8214,2.3829
+Spanish Labdanum,warm spicy,0.5786,1.6843
+Spanish Labdanum,aromatic,0.5071,1.2253
+Spearmint,green,0.8904,3.948
+Spearmint,fresh spicy,0.7808,2.1792
+Spearmint,aromatic,0.726,1.7541
+Spearmint,woody,0.6575,1.0653
+Spearmint,fresh,0.6096,2.4023
+Spices,warm spicy,0.8471,2.466
+Spices,woody,0.6921,1.1213
+Spicy Notes,warm spicy,0.8482,2.4691
+Spicy Notes,woody,0.6733,1.0908
+Spruce,woody,0.9646,1.5628
+Spruce,aromatic,0.9469,2.2877
+Spruce,green,0.708,3.139
+Spruce,fresh spicy,0.5752,1.6054
+Spun Sugar,sweet,0.9536,2.0753
+Spun Sugar,caramel,0.5828,19.1832
+Spun Sugar,powdery,0.5497,1.1532
+Star Anise,soft spicy,0.6734,6.5038
+Star Anise,anis,0.5982,55.6533
+Star Anise,woody,0.5951,0.9642
+Star Anise,powdery,0.5849,1.2272
+Star Jasmine,white floral,0.7931,2.6492
+Star Jasmine,sweet,0.6466,1.407
+Star Jasmine,floral,0.5776,1.6357
+Star Jasmine,fruity,0.5345,1.6314
+Star Jasmine,powdery,0.5172,1.0851
+Stone,woody,0.7143,1.1572
+Stone,aromatic,0.5844,1.412
+Strawberry,sweet,0.9313,2.0267
+Strawberry,fruity,0.9101,2.778
+Strawberry,powdery,0.5672,1.1899
+Strawberry Leaf,sweet,0.82,1.7845
+Strawberry Leaf,fruity,0.78,2.3809
+Strawberry Leaf,powdery,0.6,1.2588
+Strawberry Leaf,green,0.58,2.5716
+Strawberry Leaf,citrus,0.5,1.1
+Styrax,amber,0.8174,2.3713
+Styrax,woody,0.7979,1.2927
+Styrax,warm spicy,0.5652,1.6453
+Suede,woody,0.6509,1.0545
+Suede,leather,0.6347,7.7473
+Suede,powdery,0.6226,1.3062
+Suede,musky,0.5926,1.8998
+Sugar,sweet,0.958,2.0847
+Sugar,vanilla,0.7732,2.9513
+Sugar,powdery,0.5611,1.1772
+Sugar Cane,sweet,0.959,2.0869
+Sugar Cane,vanilla,0.7129,2.7214
+Sunflower,floral,0.8317,2.3553
+Sunflower,sweet,0.7822,1.7021
+Sunflower,citrus,0.5842,1.2851
+Sunflower,woody,0.5842,0.9464
+Sunflower,powdery,0.5743,1.2048
+Sweet Almond,sweet,0.9,1.9585
+Sweet Almond,almond,0.82,31.4667
+Sweet Almond,fruity,0.73,2.2282
+Sweet Almond,nutty,0.59,21.5083
+Sweet Almond,vanilla,0.55,2.0995
+Sweet Notes,sweet,0.9391,2.0437
+Sweet Notes,fruity,0.5781,1.7647
+Sweet Notes,powdery,0.528,1.1076
+Sweet Orange,citrus,0.8515,1.8733
+Sweet Orange,sweet,0.6621,1.4409
+Sweet Orange,woody,0.6349,1.0286
+Sweet Pea,floral,0.9591,2.7162
+Sweet Pea,sweet,0.8625,1.8768
+Sweet Pea,fruity,0.5502,1.6794
+Sweet Pea,powdery,0.5316,1.1153
+Synthetic Civet,powdery,0.8551,1.7939
+Synthetic Civet,musky,0.7246,2.323
+Synthetic Civet,animalic,0.6377,4.6118
+Synthetic Civet,floral,0.5652,1.6007
+Synthetic Civet,amber,0.5217,1.5135
+Syringa,white floral,0.8627,2.8818
+Syringa,sweet,0.6667,1.4508
+Syringa,woody,0.6373,1.0324
+Syringa,floral,0.549,1.5548
+Syringa,citrus,0.5392,1.1863
+Syrup,sweet,0.9398,2.0453
+Syrup,woody,0.5414,0.8771
+Syrup,vanilla,0.5338,2.0378
+Tahitian Vanilla,vanilla,0.8251,3.1496
+Tahitian Vanilla,sweet,0.7681,1.6714
+Tahitian Vanilla,powdery,0.6882,1.4438
+Tahitian Vanilla,woody,0.5057,0.8193
+Tahitian Vetiver,aromatic,0.9306,2.2483
+Tahitian Vetiver,woody,0.9306,1.5076
+Tahitian Vetiver,citrus,0.6667,1.4666
+Tahitian Vetiver,fresh spicy,0.6389,1.7831
+Taif Rose,rose,0.8594,4.426
+Taif Rose,powdery,0.7166,1.5033
+Taif Rose,woody,0.576,0.9331
+Taif Rose,amber,0.5125,1.4867
+Taif Rose,floral,0.5011,1.4192
+Talc,powdery,0.9375,1.9668
+Talc,sweet,0.5469,1.1901
+Talc,floral,0.5,1.416
+Tamarind,woody,0.6893,1.1168
+Tamarind,warm spicy,0.5631,1.6393
+Tamarind,sweet,0.534,1.162
+Tamarind,powdery,0.5243,1.0999
+Tangerine,citrus,0.8441,1.857
+Tangerine,sweet,0.6503,1.4151
+Tangerine,woody,0.6297,1.0201
+Tangerine,fruity,0.5074,1.5488
+Tarragon,aromatic,0.9127,2.2052
+Tarragon,woody,0.7766,1.2582
+Tarragon,fresh spicy,0.6139,1.7134
+Tarragon,citrus,0.5725,1.2595
+Tea,green,0.7222,3.2019
+Tea,woody,0.6013,0.9741
+Tea,citrus,0.5797,1.2754
+Tea,fresh,0.5095,2.0078
+Tea,aromatic,0.5095,1.231
+Tea,fresh spicy,0.5076,1.4167
+Tea Leaf,green,0.7453,3.3045
+Tea Leaf,woody,0.6698,1.0852
+Tea Leaf,fresh,0.6132,2.4165
+Tea Leaf,citrus,0.5849,1.2868
+Tea Leaf,aromatic,0.5472,1.322
+Tea Leaf,fresh spicy,0.5377,1.5008
+Tea Rose,rose,0.7514,3.8697
+Tea Rose,floral,0.7293,2.0653
+Tea Rose,woody,0.5801,0.9399
+Teak Wood,woody,0.8697,1.4089
+Teak Wood,aromatic,0.5438,1.3138
+Teak Wood,citrus,0.5377,1.1829
+Texas Cedar,woody,0.8915,1.4444
+Texas Cedar,aromatic,0.6226,1.5043
+Texas Cedar,powdery,0.5189,1.0886
+Thailand Oud,animalic,0.8341,6.0327
+Thailand Oud,oud,0.7659,12.1763
+Thailand Oud,woody,0.6634,1.0748
+Thailand Oud,warm spicy,0.5317,1.5479
+Thyme,aromatic,0.9075,2.1925
+Thyme,fresh spicy,0.7826,2.1843
+Thyme,woody,0.7738,1.2536
+Thyme,citrus,0.5,1.1
+Tiare,white floral,0.8411,2.8096
+Tiare,sweet,0.7664,1.6677
+Tiare,powdery,0.5234,1.098
+Tiare,fruity,0.514,1.569
+Tiare,woody,0.5047,0.8176
+Tiare Flower,white floral,0.9082,3.0336
+Tiare Flower,sweet,0.8526,1.8553
+Tiare Flower,fruity,0.6259,1.9104
+Tiare Flower,powdery,0.5007,1.0504
+Timur,fresh spicy,0.8879,2.4782
+Timur,woody,0.8534,1.3827
+Timur,aromatic,0.6897,1.6662
+Timur,citrus,0.6034,1.3276
+Tincture of Rose,rose,0.6468,3.3309
+Tincture of Rose,floral,0.602,1.7048
+Tincture of Rose,woody,0.5871,0.9511
+Tincture of Rose,citrus,0.5672,1.2477
+Tincture of Rose,powdery,0.5124,1.0751
+Tobacco,sweet,0.7271,1.5824
+Tobacco,woody,0.6964,1.1282
+Tobacco,tobacco,0.6956,20.99
+Tobacco,warm spicy,0.5591,1.6278
+Tobacco Blossom,white floral,0.6517,2.1768
+Tobacco Blossom,woody,0.6461,1.0467
+Tobacco Blossom,sweet,0.6124,1.3326
+Tobacco Blossom,warm spicy,0.5787,1.6845
+Tobacco Blossom,vanilla,0.5,1.9086
+Tobacco Leaf,sweet,0.8202,1.785
+Tobacco Leaf,tobacco,0.7955,24.0037
+Tobacco Leaf,woody,0.6901,1.118
+Tobacco Leaf,warm spicy,0.562,1.636
+Toffee,sweet,0.9439,2.054
+Toffee,powdery,0.631,1.3238
+Toffee,vanilla,0.5668,2.1638
+Toffee,woody,0.5134,0.8317
+Tolu Balsam,amber,0.8693,2.5219
+Tolu Balsam,powdery,0.7597,1.5938
+Tolu Balsam,warm spicy,0.7409,2.1568
+Tolu Balsam,sweet,0.66,1.4363
+Tolu Balsam,woody,0.6257,1.0137
+Tomato,green,0.95,4.2122
+Tomato,aromatic,0.9167,2.2147
+Tomato,fresh spicy,0.8333,2.3258
+Tomato Leaf,aromatic,0.9249,2.2346
+Tomato Leaf,green,0.8362,3.7075
+Tomato Leaf,fresh spicy,0.8362,2.3337
+Tomato Leaf,woody,0.6621,1.0727
+Tonka,sweet,0.7087,1.5423
+Tonka,vanilla,0.621,2.3704
+Tonka,woody,0.621,1.0061
+Tonka,amber,0.5949,1.7259
+Tonka,warm spicy,0.5188,1.5104
+Tonka Bean,sweet,0.656,1.4275
+Tonka Bean,woody,0.6536,1.0589
+Tonka Bean,vanilla,0.614,2.3439
+Tonka Bean,amber,0.5565,1.6143
+Tonka Bean,aromatic,0.5443,1.315
+Tropical Fruit,fruity,0.8611,2.6284
+Tropical Fruit,tropical,0.8194,16.6016
+Tropical Fruit,sweet,0.75,1.6321
+Tropical Fruit,powdery,0.5694,1.1947
+Tropical Fruit,fresh,0.5417,2.1346
+Tropical Fruits,fruity,0.8736,2.6666
+Tropical Fruits,tropical,0.8077,16.3635
+Tropical Fruits,sweet,0.7555,1.6441
+Tropical Fruits,fresh,0.6236,2.4576
+Truffle,earthy,0.8343,5.7779
+Truffle,woody,0.7072,1.1457
+Truffle,warm spicy,0.6133,1.7853
+Truffle,sweet,0.5414,1.1783
+Tuberose,white floral,0.8267,2.7613
+Tuberose,tuberose,0.6258,21.0022
+Tuberose,woody,0.5801,0.9398
+Tuberose,sweet,0.5066,1.1025
+Tulip,floral,0.8549,2.4211
+Tulip,green,0.6062,2.6879
+Tulip,woody,0.5181,0.8394
+Tunisian Neroli,citrus,0.8296,1.8251
+Tunisian Neroli,woody,0.7085,1.1479
+Tunisian Neroli,fresh spicy,0.6099,1.7021
+Tunisian Neroli,white floral,0.5426,1.8124
+Tunisian Neroli,aromatic,0.5247,1.2676
+Tunisian Neroli,green,0.5112,2.2666
+Tunisian Orange Blossom,white floral,0.8784,2.934
+Tunisian Orange Blossom,citrus,0.8716,1.9175
+Tunisian Orange Blossom,sweet,0.6824,1.4851
+Tunisian Orange Blossom,woody,0.6014,0.9743
+Turkish Rose,rose,0.6819,3.5121
+Turkish Rose,woody,0.6637,1.0753
+Turkish Rose Oil,rose,0.629,3.2396
+Turkish Rose Oil,woody,0.6129,0.993
+Turkish Rose Oil,floral,0.5968,1.69
+Turkish Rose Oil,powdery,0.5,1.049
+Turmeric,warm spicy,0.9036,2.6304
+Turmeric,woody,0.7411,1.2007
+Turmeric,fresh spicy,0.5888,1.6434
+Turmeric,aromatic,0.5076,1.2264
+Tuscan Iris,powdery,0.8639,1.8125
+Tuscan Iris,woody,0.7211,1.1683
+Tuscan Iris,iris,0.6667,11.8042
+Vanila,vanilla,0.7263,2.7725
+Vanila,sweet,0.6763,1.4718
+Vanila,woody,0.6526,1.0573
+Vanila,powdery,0.6316,1.325
+Vanilla,vanilla,0.7098,2.7096
+Vanilla,sweet,0.6487,1.4116
+Vanilla,powdery,0.647,1.3574
+Vanilla,woody,0.5886,0.9536
+Vanilla Absolute,vanilla,0.7806,2.9798
+Vanilla Absolute,sweet,0.7381,1.6062
+Vanilla Absolute,powdery,0.6361,1.3344
+Vanilla Absolute,woody,0.6003,0.9726
+Vanilla Bean,vanilla,0.823,3.1417
+Vanilla Bean,sweet,0.7804,1.6982
+Vanilla Bean,powdery,0.6461,1.3554
+Vanilla Flower,vanilla,0.8,3.0538
+Vanilla Flower,sweet,0.7419,1.6146
+Vanilla Flower,powdery,0.7419,1.5565
+Vanilla Flower,woody,0.5935,0.9616
+Vanilla Orchid,sweet,0.9073,1.9743
+Vanilla Orchid,floral,0.8065,2.2838
+Vanilla Orchid,powdery,0.7238,1.5185
+Vanilla Orchid,woody,0.5161,0.8362
+Vanilla Pod,vanilla,0.8229,3.1412
+Vanilla Pod,sweet,0.75,1.6321
+Vanilla Pod,powdery,0.75,1.5735
+Vanilla Pod,woody,0.5521,0.8944
+Vanilla Sugar,sweet,0.9195,2.0011
+Vanilla Sugar,powdery,0.8506,1.7845
+Vanilla Sugar,vanilla,0.8276,3.1591
+Vanille,vanilla,0.7196,2.747
+Vanille,powdery,0.7019,1.4726
+Vanille,sweet,0.6655,1.4483
+Vanille,woody,0.5839,0.9459
+Vanillin,woody,0.6667,1.0801
+Vanillin,sweet,0.5556,1.209
+Vanillin,amber,0.5238,1.5196
+Velvet,musky,0.8859,2.8399
+Velvet,powdery,0.875,1.8357
+Verbena,citrus,0.9089,1.9995
+Verbena,aromatic,0.877,2.1188
+Verbena,fresh spicy,0.7016,1.9581
+Verbena,woody,0.6424,1.0407
+Vetiver,woody,0.8767,1.4203
+Vetiver,aromatic,0.7963,1.9238
+Vetiver,citrus,0.5488,1.2074
+Vetiver,fresh spicy,0.5201,1.4517
+Vetiver Root,aromatic,0.9057,2.1881
+Vetiver Root,woody,0.8302,1.345
+Vetiver Root,fresh spicy,0.6226,1.7377
+Vetiver Root,green,0.5283,2.3424
+Vetiver Root,citrus,0.5283,1.1622
+Vetyver,woody,0.8729,1.4141
+Vetyver,aromatic,0.7579,1.8312
+Vetyver,citrus,0.5379,1.1834
+Vine,green,0.8868,3.9319
+Vine,aromatic,0.7736,1.869
+Vine,woody,0.6604,1.0699
+Violet,powdery,0.8647,1.8142
+Violet,woody,0.6833,1.107
+Violet,violet,0.5851,10.1386
+Violet,floral,0.5311,1.504
+Violet Leaf,woody,0.6981,1.1311
+Violet Leaf,ozonic,0.5756,13.146
+Violet Leaf,aromatic,0.5132,1.2398
+Violet Leaves,woody,0.6797,1.1011
+Violet Leaves,ozonic,0.5559,12.6959
+Violet Root,powdery,0.7761,1.6283
+Violet Root,woody,0.6119,0.9914
+Violet Root,fruity,0.5821,1.7768
+Violet Root,floral,0.5821,1.6485
+Virginia Cedar,woody,0.895,1.4499
+Virginia Cedar,aromatic,0.5895,1.4242
+Virginia Cedar,citrus,0.5561,1.2233
+Virginia Cedar,powdery,0.5449,1.1432
+Virginian Cedar,woody,0.8991,1.4567
+Virginian Cedar,aromatic,0.5875,1.4195
+Virginian Cedar,powdery,0.5401,1.133
+Vodka,vodka,0.7658,1161.2354
+Vodka,woody,0.5225,0.8466
+Walnut,woody,0.9434,1.5284
+Walnut,nutty,0.7296,26.596
+Walnut,sweet,0.6855,1.4918
+Water,fresh,0.7895,3.1112
+Water,aquatic,0.7719,11.4789
+Water Hyacinth,floral,0.9101,2.5774
+Water Hyacinth,woody,0.5843,0.9466
+Water Hyacinth,aquatic,0.5506,8.1871
+Water Hyacinth,green,0.5506,2.4411
+Water Jasmine,white floral,0.7197,2.4041
+Water Jasmine,woody,0.7006,1.1351
+Water Jasmine,citrus,0.6178,1.3592
+Water Lily,floral,0.8917,2.5253
+Water Lily,fresh,0.7047,2.7772
+Water Lily,aquatic,0.5685,8.4542
+Water Lily,citrus,0.5169,1.1372
+Water Lily,woody,0.5135,0.832
+Water Mint,aromatic,0.9444,2.2818
+Water Mint,fresh spicy,0.9259,2.5842
+Water Mint,green,0.9074,4.0233
+Water Mint,woody,0.6852,1.1101
+Water Mint,citrus,0.537,1.1815
+Water Notes,aquatic,0.8711,12.954
+Water Notes,fresh,0.7682,3.0274
+Water Notes,woody,0.6144,0.9954
+Water Notes,citrus,0.5475,1.2044
+Watermelon,ozonic,0.8066,18.4203
+Watermelon,aquatic,0.8055,11.978
+Watermelon,fruity,0.6747,2.0595
+Watery Notes,aquatic,0.8307,12.3525
+Watery Notes,fresh,0.7739,3.0498
+Watery Notes,woody,0.6165,0.9989
+Watery Notes,citrus,0.5239,1.1526
+Wheat,sweet,0.6828,1.4858
+Whipped Cream,sweet,0.9697,2.1102
+Whipped Cream,vanilla,0.8754,3.3417
+Whipped Cream,lactonic,0.6285,11.8202
+Whipped Cream,powdery,0.5937,1.2456
+Whipped Cream,fruity,0.514,1.569
+Whiskey,woody,0.9299,1.5065
+Whiskey,whiskey,0.8653,141.2882
+Whiskey,warm spicy,0.786,2.2881
+Whiskey,sweet,0.5332,1.1604
+White Amber,amber,0.6605,1.9159
+White Amber,woody,0.5792,0.9384
+White Amber,powdery,0.5739,1.204
+White Amber,citrus,0.5087,1.119
+White Blossom,white floral,0.7234,2.4164
+White Blossom,sweet,0.5851,1.2733
+White Blossom,powdery,0.5851,1.2275
+White Blossom,musky,0.5319,1.7052
+White Blossom,woody,0.5319,0.8618
+White Cedar Extract,woody,0.7827,1.2681
+White Cedar Extract,powdery,0.5445,1.1423
+White Cedar Extract,citrus,0.534,1.1749
+White Chocolate,sweet,0.9614,2.0922
+White Chocolate,powdery,0.5895,1.2368
+White Chocolate,vanilla,0.5234,1.998
+White Chocolate,woody,0.5096,0.8257
+White Flowers,white floral,0.798,2.6656
+White Flowers,powdery,0.5602,1.1753
+White Flowers,woody,0.5568,0.902
+White Flowers,sweet,0.5386,1.1721
+White Ginger Lily,floral,0.8415,2.383
+White Ginger Lily,woody,0.6585,1.0669
+White Grapefruit,citrus,0.8593,1.8903
+White Grapefruit,aromatic,0.6444,1.557
+White Grapefruit,woody,0.6444,1.0441
+White Grapefruit,fresh spicy,0.5778,1.6125
+White Honey,sweet,0.8582,1.8675
+White Honey,honey,0.7745,29.4738
+White Honey,floral,0.6291,1.7816
+White Honey,woody,0.5273,0.8542
+White Iris,powdery,0.9,1.8882
+White Iris,iris,0.7,12.3944
+White Iris,floral,0.5429,1.5374
+White Iris,citrus,0.5,1.1
+White Lily,white floral,0.8643,2.8868
+White Lily,powdery,0.5611,1.1771
+White Lily,floral,0.5339,1.5121
+White Lily,woody,0.5339,0.865
+White Lotus,floral,0.8155,2.3096
+White Lotus,aquatic,0.5243,7.7961
+White Lotus,woody,0.5243,0.8494
+White Lotus,powdery,0.5049,1.0592
+White Musk,powdery,0.6857,1.4386
+White Musk,musky,0.6619,2.1221
+White Musk,woody,0.5589,0.9056
+White Musk,sweet,0.5189,1.1292
+White Musk,citrus,0.5139,1.1305
+White Orchid,sweet,0.8765,1.9075
+White Orchid,floral,0.8148,2.3075
+White Orchid,powdery,0.7284,1.5281
+White Orchid,woody,0.5432,0.8801
+White Oud,oud,0.7213,11.4681
+White Oud,woody,0.6721,1.0889
+White Oud,amber,0.5574,1.6169
+White Peach,fruity,0.8255,2.5198
+White Peach,sweet,0.7562,1.6455
+White Peach,powdery,0.7002,1.469
+White Peach,floral,0.5369,1.5205
+White Peach,woody,0.5324,0.8626
+White Pepper,fresh spicy,0.8472,2.3645
+White Pepper,woody,0.7311,1.1845
+White Pepper,warm spicy,0.5996,1.7456
+White Pepper,aromatic,0.5551,1.3412
+White Rose,rose,0.6801,3.5028
+White Rose,floral,0.6481,1.8355
+White Rose,woody,0.6111,0.9901
+White Rose,powdery,0.5758,1.2079
+White Rose,citrus,0.5539,1.2185
+White Rum,sweet,0.9,1.9585
+White Rum,citrus,0.6,1.32
+White Rum,rum,0.52,58.8367
+White Sandalwood,woody,0.875,1.4176
+White Sandalwood,powdery,0.7262,1.5235
+White Sandalwood,warm spicy,0.506,1.4729
+White Suede,musky,0.8052,2.5813
+White Suede,powdery,0.7532,1.5803
+White Suede,woody,0.6234,1.0099
+White Suede,leather,0.5325,6.4991
+White Suede,sweet,0.5065,1.1022
+White Tea,green,0.7743,3.433
+White Tea,fresh,0.6163,2.4285
+White Tea,powdery,0.5056,1.0608
+White Tea,citrus,0.5034,1.1074
+White Tobacco,white floral,0.7939,2.6518
+White Tobacco,woody,0.6183,1.0018
+White Tobacco,sweet,0.5573,1.2127
+White Wine,sweet,0.6301,1.3713
+White Wine,wine,0.589,329.2889
+White Wine,fruity,0.5205,1.5889
+White Wood,woody,0.7792,1.2624
+White Wood,citrus,0.5714,1.2571
+White Wood,sweet,0.5162,1.1234
+White Woods,woody,0.8211,1.3303
+White Woods,citrus,0.5447,1.1984
+White Woods,sweet,0.5,1.0881
+Wild Berries,woody,0.866,1.403
+Wild Berries,fruity,0.8561,2.6131
+Wild Berries,sweet,0.5906,1.2852
+Wild Lavender,aromatic,0.8551,2.0659
+Wild Lavender,lavender,0.7391,11.6979
+Wild Lavender,fresh spicy,0.7246,2.0224
+Wild Lavender,woody,0.6522,1.0566
+Wild Orchid,floral,0.8364,2.3686
+Wild Orchid,sweet,0.8364,1.8201
+Wild Orchid,powdery,0.6545,1.3732
+Wild Orchid,woody,0.5636,0.9132
+Wild Orchid,fruity,0.5273,1.6094
+Wild Rose,rose,0.726,3.7388
+Wild Rose,floral,0.6971,1.9742
+Wild Rose,woody,0.601,0.9736
+Wild Strawberry,sweet,0.9429,2.0518
+Wild Strawberry,fruity,0.9347,2.853
+Wild Strawberry,woody,0.8367,1.3556
+Wildflowers,floral,0.9323,2.6402
+Wildflowers,fresh,0.8247,3.25
+Wildflowers,herbal,0.6016,9.2214
+Wisteria,floral,0.9582,2.7135
+Wisteria,fresh,0.8061,3.1766
+Wisteria,powdery,0.5247,1.1008
+Wisteria,woody,0.5133,0.8316
+Woodsy Notes,woody,0.8568,1.3881
+Woody Notes,woody,0.881,1.4273
+Wool,woody,0.6557,1.0624
+Wool,musky,0.623,1.997
+Wormwood,aromatic,0.8746,2.113
+Wormwood,woody,0.7423,1.2026
+Wormwood,fresh spicy,0.7371,2.0572
+Yellow Mandarin,citrus,0.8351,1.8372
+Yellow Mandarin,woody,0.6702,1.0858
+Ylang Ylang,woody,0.7425,1.2029
+Ylang Ylang,sweet,0.7171,1.5605
+Ylang Ylang,yellow floral,0.5769,10.8951
+Ylang Ylang,white floral,0.5267,1.7594
+Ylang-Ylang,woody,0.7828,1.2683
+Ylang-Ylang,sweet,0.6703,1.4588
+Ylang-Ylang,yellow floral,0.5502,10.3912
+Ylang-Ylang,powdery,0.5255,1.1026
+Ylang-Ylang,white floral,0.5251,1.754
+Yuzu,citrus,0.8993,1.9785
+Yuzu,woody,0.6678,1.0819
+Yuzu,fresh spicy,0.6653,1.8568
+Yuzu,green,0.5786,2.5653
+Yuzu,sweet,0.5679,1.2359
+black fig,woody,0.9153,1.4828
+black fig,fruity,0.8983,2.742
+black fig,sweet,0.8136,1.7704
+cannabis,aromatic,0.8445,2.0403
+cannabis,cannabis,0.7618,259.0354
+cannabis,woody,0.685,1.1098
+cannabis,green,0.5807,2.5748
+dark woodsy notes,woody,0.9342,1.5135
+ebony tree,woody,0.9474,1.5349
+ebony tree,warm spicy,0.7105,2.0684
+ebony tree,aromatic,0.6316,1.5259
+ebony tree,powdery,0.5132,1.0766
+ebony tree,amber,0.5,1.4505
+elemi,aromatic,0.8758,2.116
+elemi,woody,0.7928,1.2845
+elemi,fresh spicy,0.6247,1.7436
+elemi,warm spicy,0.5471,1.5927
+elemi,amber,0.5418,1.5716
+elemi,balsamic,0.5155,3.7448
+gunpowder,smoky,0.8889,15.8325
+gunpowder,woody,0.7315,1.1851
+gunpowder,aromatic,0.7222,1.7449
+gunpowder,warm spicy,0.5,1.4556
+heather,floral,0.7705,2.182
+heather,woody,0.6721,1.0889
+heather,sweet,0.6557,1.427
+heather,aromatic,0.623,1.5051
+juniper berry,aromatic,0.9253,2.2356
+juniper berry,woody,0.8831,1.4308
+juniper berry,fresh spicy,0.776,2.1657
+juniper berry,citrus,0.5292,1.1643
+juniper berry,amber,0.5032,1.4599
+mulberry,fruity,0.7931,2.4209
+mulberry,woody,0.6552,1.0615
+mulberry,floral,0.5517,1.5625
+mulberry,sweet,0.5345,1.1631
+oak moss,woody,0.8306,1.3456
+oak moss,aromatic,0.5779,1.3961
+oak moss,earthy,0.5749,3.9818
+oak moss,citrus,0.5299,1.1657
+oak moss,mossy,0.5044,10.7802
+plum,fruity,0.9275,2.8312
+plum,sweet,0.8551,1.8608
+plum,woody,0.6377,1.0331
+plum,powdery,0.5362,1.125
