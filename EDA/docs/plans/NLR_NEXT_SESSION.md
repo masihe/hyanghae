@@ -278,7 +278,6 @@ LLM 의 일시적 오류가 파일을 거치면서 **시스템의 지속적 규�
                 여기 재활용할 수 있다
 프롬프트 주입     ①단계 프롬프트에 <USER_DATA> 구분자를 넣는다. 고치는 건 20분인데
                 ①단계 출력 전체가 흔들려 회귀 측정(GMS 600회)이 필요하다
-측정 기록 정리    77~81번을 nlr_engineering_notes.md 에 남긴다
 평가 체계 개편    GPT 조사가 권한 레이어 분리. NDCG 를 맨 뒤로 내리고 OOD 오작동률·
                 오교정률을 앞에 둔다. 측정 기록 17번이 막힌 지점과 맞물린다
 ```
@@ -378,11 +377,15 @@ LLM 의 일시적 오류가 파일을 거치면서 **시스템의 지속적 규�
 
 ## 관련 자료
 
-- `docs/nlr_engineering_notes.md` 14번 — *"오탐이 0인 것은 운이다"* (2장의 예언)
+- `docs/nlr_engineering_notes.md` **25~28번** — 이번 세션의 측정 넷
+  (25 이상 입력 · 26 캐시 오염 · 27 사전 v1.15 · 28 형태소 분석기)
+- `docs/nlr_engineering_notes.md` 14번 — *"오탐이 0인 것은 운이다"* (25번의 예언)
 - `docs/nlr_engineering_notes.md` 17번 — 잡음 바닥. 8장의 근거
 - `docs/nlr_engineering_notes.md` 23번 — 캐시 키의 두 역할. 5장과 방향이 반대다
+- `docs/nlr_engineering_notes.md` 부록 — 미해결 질문. 이번에 7행이 늘었다
 - `analysis_outputs/80_lexicon_v1_15_changelog.md` — v1.15 의 판단 전체
 - `docs/plans/NLR_DB_TABLE_REQUEST.md` — 320 이 구현한 요청서
 - `docs/plans/NLR_PREDEPLOY_DECISIONS.md` — 안건 ①~④. ②는 320 으로 풀렸다
-- `DECISIONS.md` N13(분석기) · N15(⑤단계) — 둘 다 이번에 다시 열렸다
+- `DECISIONS.md` **N16** — 사전 v1.15 (이번에 추가)
+- `DECISIONS.md` N13(분석기 · 범위를 좁혀 적었다) · N15(⑤단계 · 파일 캐시가 뒤집혔다)
 - `TEAM_CONVENTIONS.md` — 브랜치 · 커밋 · MR · Jira
