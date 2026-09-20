@@ -4972,7 +4972,7 @@ A' 를 조각으로 가르다가 `now` 값이 0.466463 으로 나왔는데 앞�
 **`additional_requirements` 표현 안에서 부분 문자열로 찾는 것**에서 나온다.
 그리고 **요청칸 전체를 브리지에 물어보는 조각은 버렸다** — +0.0005 · 1쿼리다.
 
-### 구현 — `ai/nlr_engine.py` 네 곳
+### 구현 — `ai/nlr_engine.py` 네 곳. **병합됨** (develop `598e1eb` · 커밋 `230a6f1`)
 
 ```
 DEFAULT_NOTE_ALIAS_KO      data/note_alias_ko.csv 경로
